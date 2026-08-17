@@ -1,169 +1,95 @@
-<!-- English version -->
-
-English | <a href="#/">中文</a>
+---
+title: Life Level-up Guide
+description: An evidence-aware, practical system for English learning, AI-assisted work, life review, and sustained growth.
+updated: 2026-08-16
+---
 
 # Life Level-up Guide
 
-An open guide for English learning, AI-era skill building, writing, entrepreneurship, recovery after failure, and long-term personal growth.
+[中文](/) | English
 
-The Chinese version is the main edition. This English version keeps the same homepage structure and links to the translated English chapters where they exist; some personal essays and archive pages remain Chinese-first.
+[![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-If you only want to improve your English, start with the English learning path. If you are looking for a broader way to rebuild discipline, learning rhythm, and long-term momentum, read it as a life level-up map.
+This is a long-term growth handbook for ordinary people. It began in 2017 as an English-learning guide and has expanded into AI-assisted learning, work skills, life review, entrepreneurship, and recovery. Its purpose is not to give you more tools to bookmark. It is to help you complete a verifiable loop: **diagnose → choose a task → practise actively → get feedback → save evidence → adjust the next step**.
 
-This guide does not sell anxiety or promise shortcuts. It aims to give you three practical things: an executable English learning system, a practical way to learn and upgrade skills with AI, and a real case study of starting again after difficult years.
+The guide separates three kinds of claims:
 
-## What You Get
+- **Research findings** include sources and limits;
+- **Personal experience** remains personal rather than universal advice;
+- **Hypotheses** become questions for the next experiment.
 
-- **A clear English learning path**: mindset, vocabulary, listening, reading, speaking, writing, and AI-assisted English practice.
-- **A practical AI workflow**: how to use tools such as Gemini, ChatGPT, Claude, NotebookLM, Perplexity, and DeepL Write inside goal-driven learning loops.
-- **A personal recovery case**: learning, entrepreneurship, failure, health collapse, and starting again placed on one honest timeline.
-- **Long-term reference material**: word lists, learning resources, AI resources, archived writing, and personal essays.
+<div class="guide-paths">
+  <a class="guide-path" href="./threads/part-1/0-cefr"><strong>English Learning System</strong>From a CEFR self-check to vocabulary, four skills, and a 12-week plan.</a>
+  <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>AI Learning and Work</strong>Choose tools by task and recover context with a learning-state file.</a>
+  <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Extract judgment from a real story without copying another life.</a>
+  <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>See affiliations, purpose, update dates, and non-sponsorship disclosures.</a>
+</div>
 
-## Who This Is For
+## Start Today
 
-- Learners who want to improve English but keep getting stuck on vocabulary, listening, speaking, or writing.
-- Learners who want to use AI as a real learning partner instead of a one-off translator or writing shortcut.
-- People who want to rebuild their learning rhythm, action system, and long-term growth process.
-- Readers interested in entrepreneurship, writing, failure recovery, and personal reflection.
-- People who are tired of saving resources without turning them into ability, output, or results.
+1. Use the [English diagnostic](templates/english-diagnostic.md) or a real task to establish a baseline.
+2. Record the goal, evidence, and next action in [Learning State](templates/learning-state.md).
+3. Complete one 25–45 minute task that produces inspectable output.
+4. Use the [Weekly Review](templates/weekly-review.md) to adjust difficulty and frequency from evidence.
 
-## Recommended Path
+## English Learning System
 
-You do not need to read everything from top to bottom. Choose the line that matches your current problem:
+Start with [CEFR Goals and Self-check](threads/part-1/0-cefr.md). Judge your level by tasks you can complete, not by a vague vocabulary count or an old test impression.
 
-1. **English learning**: start with [Understanding](threads/part-1/1-understanding.md) and [Vocabulary](threads/part-1/2-vocabulary.md); use [Listening](threads/part-1/3-listening.md) and [Reading](threads/part-1/4-reading.md) for input; use [Speaking](threads/part-1/5-speaking.md) and [Writing](threads/part-1/6-writing.md) when you understand more than you can express.
-2. **AI learning and skill building**: read [Learning Anything with AI](threads/part-3/1-ai-learning.md) if you want to use AI for programming, writing, exams, industry research, or work output; then read [Learning English with AI](threads/part-1/7-ai.md) for the English-specific workflow.
-3. **Personal recovery and entrepreneurship**: read [My Story](threads/part-4/my-story.md), <a href="#/threads/part-2/entrepreneurship">Entrepreneurship</a>, and the <a href="#/threads/archive/README">Old Blog Archive</a> if you want the life background behind the guide.
+| Stage | Chapter | Evidence to keep |
+| --- | --- | --- |
+| Calibrate | [Learning Principles](threads/part-1/1-understanding.md) | A use case, baseline sample, and 12-week target |
+| Vocabulary | [Vocabulary](threads/part-1/2-vocabulary.md) | 20 chunks you can hear, read, and use in context |
+| Listening | [Listening](threads/part-1/3-listening.md) | A transcript, retelling, and error categories |
+| Reading | [Reading](threads/part-1/4-reading.md) | An annotated page, five-sentence summary, and transfer question |
+| Speaking | [Speaking](threads/part-1/5-speaking.md) | A recording, transcript, and improved second take |
+| Writing | [Writing](threads/part-1/6-writing.md) | Draft, feedback checklist, and revision |
+| AI | [Learning English with AI](threads/part-1/7-ai.md) | Reusable prompt, error log, and state update |
 
-If you want the fastest useful start, do three things today: read [Understanding](threads/part-1/1-understanding.md), choose one concrete learning goal, and use [Learning Anything with AI](threads/part-3/1-ai-learning.md) to design a one-week practice plan.
+Word lists are references, not goals. Use the [Common list](threads/word-list/Common.md) and technical lists only when a real task calls for them.
 
-## How to Use This Guide
+## AI Learning and Work
 
-- **First pass**: choose one of the three lines above instead of opening every link.
-- **Goal-based lookup**: treat chapters as a toolbox for vocabulary, listening, AI learning, writing, or recovery after failure.
-- **Weekly execution**: pick one small goal, read one chapter, do one exercise, and leave one visible output.
-- **Review later**: return after a few weeks; the same chapter often answers a different question once your situation changes.
+[Learning Anything with AI](threads/part-3/1-ai-learning.md) uses task-based selection:
 
-## Life Level-up Map
+- use guided dialogue for questions, scaffolding, and knowledge checks;
+- use a project workspace plus a local state file for long-running materials, errors, and artefacts;
+- use research tools that lead back to primary sources when claims need evidence;
+- define acceptance criteria yourself, verify facts, and remain responsible for final work.
 
-The underlying path is simple: open your input, train your output, then test your ability in real life.
+Product features change quickly. Notes about ChatGPT, Gemini, Claude, NotebookLM, Perplexity, and DeepL state their verification date, region or plan limits, and official source. No provider ranking is the centre of the method.
 
-1. **Open input**: use English to reach a wider information world; use reading and listening to expand what you can notice.
-2. **Train output**: use speaking, writing, retelling, projects, and AI feedback to turn “I understand” into “I can explain, build, and communicate.”
-3. **Create artifacts**: turn learning into articles, projects, reports, products, courses, or real conversations instead of leaving it in saved links.
-4. **Review your life**: place failure, relationships, health, work, and choices on one timeline, then extract better judgment for the next stage.
-5. **Serve reality**: use your ability in work, entrepreneurship, family, local communities, industries, and concrete human problems.
+## Life Review, Entrepreneurship, and Recovery
 
-## English Learning Path
+Personal stories remain because growth does not happen only inside a study plan. Read [My Story](threads/part-4/my-story.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md). They are experiences, not medical, legal, investment, or business advice.
 
-### Starting Point: Calibrate the Direction
+The public edition follows data minimisation. It does not display personal QQ numbers, QR codes, or unnecessary third-party identifiers. Photos involving family, children, former partners, or other people should appear only with clear permission. Report privacy concerns privately under the [Security Policy](https://github.com/byoungd/up/blob/master/SECURITY.md).
 
-[![understanding](../assets/understanding-en@2x.svg)](threads/part-1/1-understanding.md)
+## Author Projects and Disclosure
 
-- [Understanding](threads/part-1/1-understanding.md): why you are learning, where you want to use English, and how to avoid replacing progress with anxiety.
+Products, company visits, and real-world projects involving the author live on [Author Projects and Practice](projects.md). That page states the relationship, purpose, last update, and non-sponsorship status. The site includes no ads, analytics, or trackers by default.
 
-[![vocabulary](../assets/vocabulary-en@2x.svg)](threads/part-1/2-vocabulary.md)
+## Measure Progress
 
-- [Vocabulary](threads/part-1/2-vocabulary.md): vocabulary size, memory methods, review rhythm, and pronunciation awareness.
+Do not count study time alone. Review four kinds of evidence each week:
 
-### Input: Make English Part of Daily Life
+- **Completion**: did you finish the real task?
+- **Quality**: did accuracy, clarity, structure, or fluency improve?
+- **Retention**: can you recall and use it several days later?
+- **Transfer**: can you apply it to new material, conversation, or work?
 
-[![listening](../assets/listening-en@2x.svg)](threads/part-1/3-listening.md)
+Increase spacing or difficulty when performance is stable. When the same errors recur, shrink the task, repair prerequisites, and add feedback. The schedule serves performance, not the reverse.
 
-- [Listening](threads/part-1/3-listening.md): intensive listening, extensive listening, suitable materials, and the bridge toward native-speed content.
+## Project Boundaries
 
-[![reading](../assets/reading-en@2x.svg)](threads/part-1/4-reading.md)
+- This is an **open-content project**, not open-source software in the OSI sense. Text and author-created content use **CC BY-NC 4.0**; site configuration, checks, and build code use **MIT**. See [Licensing](https://github.com/byoungd/up/blob/master/LICENSE.md).
+- Sources and licensing status for quotations, images, and third-party material are recorded in [Attributions](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md).
+- Read [Contributing](https://github.com/byoungd/up/blob/master/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/byoungd/up/blob/master/CODE_OF_CONDUCT.md) before contributing.
+- Product information on these pages was checked on **2026-08-16**.
 
-- [Reading](threads/part-1/4-reading.md): original books, English documentation, and English-speaking communities.
+## Read Online
 
-### Output: Turn Understanding Into Expression
+- [GitHub Pages](https://byoungd.github.io/up/en/)
+- [GitHub repository](https://github.com/byoungd/up)
 
-[![speaking](../assets/speaking-en@2x.svg)](threads/part-1/5-speaking.md)
-
-- [Speaking](threads/part-1/5-speaking.md): pronunciation, reading aloud, real conversations, and preparing common answers.
-
-[![writing](../assets/writing-en@2x.svg)](threads/part-1/6-writing.md)
-
-- [Writing](threads/part-1/6-writing.md): reading, practice, discussion, tools, and clearer everyday expression.
-
-### English Scenario: Use AI as a Training Partner
-
-- [Learning English with AI](threads/part-1/7-ai.md): apply the general AI learning loop to English listening, speaking, reading, writing, vocabulary, and exam or workplace scenarios.
-
-## AI Learning and Skill Building
-
-- [Learning Anything with AI](threads/part-3/1-ai-learning.md): use AI as a system for goals, materials, explanation, output, feedback, review, and project delivery across programming, writing, exams, industry research, and work output.
-
-## Extended Content
-
-[![Others](../assets/Others-en@2x.svg)](threads/part-2/x-misc.md)
-
-- <a href="#/threads/word-list/Common">Word Lists</a>: vocabulary lists for general English, programming languages, Prompt, and Vibe Coding.
-- [Misc](threads/part-2/x-misc.md): notes on learning, bootcamps, devices, and personal experience.
-- [Week 1](threads/part-4/week-1.md): English practice content about sleep, lifestyle, and stress.
-
-## AI Practice and Real-World Work
-
-The Chinese edition contains more up-to-date notes about my AI practice in China, including [token.love](https://token.love), [ku0.com](https://ku0.com), and recent work around AI for the real economy.
-
-The important question is not which model is fashionable this week. The important question is how ordinary people can use AI to improve learning speed, output quality, work productivity, and business judgment.
-
-On June 16, 2026, I visited Alibaba Cloud headquarters in Hangzhou as chairman of China Token Cloud Computing Co., Ltd. That visit strengthened one belief: useful AI should not stay inside concepts or demos. It should enter real industries, real communities, and ordinary daily life.
-
-For Chinese updates, you can follow my Douyin account: `词元云韩先凯` (`72581209403`). I share notes on AI for the real economy, English learning, and personal growth there.
-
-![Douyin QR code for 词元云韩先凯](../assets/douyin-qr.png)
-
-## Personal Background
-
-This guide began with one specific question.
-
-In early July 2017, `W.`, who was preparing for TOEFL, asked me:
-
-**How can I learn English efficiently?**
-
-I first wrote down a few practical notes, then gradually expanded them into this guide. English is still the starting point, but the larger question is how a person learns, recovers, and keeps moving after difficult years.
-
-Dedicated to my once-beloved `W.` Some stories belong near the beginning; others are better read when you want the background.
-
-> We each live in our own past. It takes one minute to get to know someone, one hour to like them, one day to fall in love with them, yet it can take a lifetime to forget them.
-
-Related reading:
-
-- [My Story](threads/part-4/my-story.md): entrepreneurship failure, health collapse, returning home, and starting again.
-- <a href="#/threads/part-2/entrepreneurship">Entrepreneurship</a>: Chinese-only essay about ambition, cash flow, responsibility, and mission.
-- <a href="#/threads/archive/README">Old Blog Archive</a>: Chinese-only older writing and recovered archive posts.
-
-## Why Bookmark It
-
-This is not a one-time article. It is a notebook that keeps growing with tools, experience, and time. It will keep updating, and it is worth returning to every so often — the place that blocked you last time may have opened up by the next.
-
-If it helps you, save it, share it, or send one chapter to a friend who is stuck. Good writing should not stay in a browser tab; it should turn into action.
-
-## English Proficiency Levels
-
-![CEFR](../assets/CEFR-en@2x.svg)
-
-> Source: [Global scale - Table 1 (CEFR 3.3): Common Reference levels](https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale)
-
-## Features
-
-![Features](../assets/feature-en.svg)
-
-## Online Reading
-
-- GitHub Pages: https://byoungd.github.io/up/#/
-- Chinese (Zhihu): https://zhuanlan.zhihu.com/p/444211376
-- GitHub repository: https://github.com/byoungd/up
-
-## Reprint
-
-If you repost this guide, please credit the author and include the GitHub link. Thank you.
-
-## License
-
-This work is licensed under CC BY-NC 4.0.
-
-## Note
-
-This guide does not accept donations or sponsorship.
+If you do only one thing today, create a [Learning State](templates/learning-state.md), record current evidence and the next action, then finish the smallest item.

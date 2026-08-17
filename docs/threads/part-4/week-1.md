@@ -1,3 +1,9 @@
+---
+title: Week 1：真实生活英语练习
+description: 围绕睡眠、压力与生活方式的英文练习材料；历史个人表述已按当前证据边界修订。
+updated: 2026-08-16
+---
+
 ## WHY
 
 The reason I wanted to write this article is because I get one question very often from Github. Actually, I get a lot of questions, but there is one that stands out: How can I speak fluently about many different topics?
@@ -40,7 +46,7 @@ In the 1990s, Russell and his research group discovered that there are some cell
 
 And actually, for the last few years, Russell and his research group have been studying what happens when the `circadian rhythm` is disrupted by sleeping at weird times, for example if you have jet lag or if you work night shifts. And they found that these people who have this disruption to their circadian rhythm have an increase in stress hormones, an increase in the risk of heart disease, and they get sick way more often. They are also more `prone to emotional` and `cognitive problems`.
 
-> Reference video: https://www.youtube.com/watch?v=qlf9-573MhI 00:02:28,070 - 00:02:38,210
+> Reference video: <https://www.youtube.com/watch?v=qlf9-573MhI> 00:02:28,070 - 00:02:38,210
 
 It is important to understand that we all have an **internal clock** that ticks inside us. However, our internal clocks are not exactly the same. That’s why you hear people say they are morning people or night owls. This is related to something called your `chronotype`, which is based on your natural tendency to sleep at a certain time. Scientists can categorize us into different chronotypes.
 
@@ -58,20 +64,18 @@ It’s generally good to wake up at the same time each day, but you don’t real
 
 Blue light is light that has a short wavelength and more energy. Scientists have hypothesized that blue light affects the eye in some way and makes it harder to fall asleep.
 
-
 ## UNHEALTHY LIFESTYLE
 
 The second thing is `unhealthy lifestyle`. My short advice is to get more exercise. Be physically active during the day. Exercise can boost your mood, metabolism, and energy levels. Since I know very little about fitness, we will just gloss over it here.
-
 
 ## DEAL WITH STRESS
 
 The most important thing I want to share is `how to deal with stress`.
 
 Manage your stress and learn to relax properly.
->Here is a video that might help you: https://www.youtube.com/watch?v=9QiE-M1LrZk
+>Here is a video that might help you: <https://www.youtube.com/watch?v=9QiE-M1LrZk>
 
-I mentioned in my article on [Zhihu](https://zhuanlan.zhihu.com/p/653380203) that I was addicted to games for a while, but I overcame it by using the `dopamine detox method`.
+I mentioned in an article on [Zhihu](https://zhuanlan.zhihu.com/p/653380203) that I struggled with compulsive gaming for a period. I once described the change as a “dopamine detox”, but that popular label is not a clinical mechanism or established treatment. What helped me was changing cues and routines, reducing access, restoring sleep and daily structure, and seeking support. Persistent loss of control deserves qualified professional help.
 
 Even though you logically know that studying, exercising, building a business or something equally productive, will bring you more benefits in the long run, you still prefer watching TV, playing video games and scrolling through social media.
 

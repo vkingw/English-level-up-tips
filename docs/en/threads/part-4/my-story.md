@@ -1,4 +1,10 @@
-# My Story
+---
+title: "My Story: Failure, Recovery, and Starting Again"
+description: A personal record of a software-company failure, disrupted health and life, recovery at home, and reconnecting with technology.
+updated: 2026-08-16
+---
+
+# My Story: Failure, Recovery, and Starting Again
 
 ## What Does It Feel Like to Spend 20 Million RMB on a Software Company and Watch It Collapse?
 
@@ -22,11 +28,9 @@ That was how the absurd story really began.
 
 To devote myself fully to work, there was one part of life I cannot leave out: love.
 
-![My beloved](../../../assets/my-love.png)
-
 ### Love
 
-I was lucky enough to meet someone I truly loved at the right age. Her name was Ruohan (a pseudonym). In [English-level-up-tips](https://github.com/byoungd/up), I once used Gu Cheng’s words to describe how I felt when I first met her:
+I was lucky enough to meet someone I truly loved at the right age. Her name was Ruohan (a pseudonym). In [this guide, then called *English-level-up-tips*](https://github.com/byoungd/up), I once used Gu Cheng’s words to describe how I felt when I first met her:
 
 > The grass is bearing its seeds.  
 > The wind is shaking its leaves.  
@@ -41,8 +45,6 @@ At one point, while I was talking with great confidence about our bright future,
 That was also the exact moment I realized I truly loved her, and I made up my mind that I had to give her happiness.
 
 Later, we got married and had a lovely son.
-
-![Photo with my son](../../../assets/son.jpeg)
 
 Later, in order to expand my business world, I also tried hot spring resorts and private club projects. I lost heavily there too, but that is another story.
 
@@ -60,7 +62,7 @@ Then I started handling the design, renovation, and branding choices myself, and
 
 To make the products look better on food delivery platforms, I taught myself photography and Photoshop and created a full set of product images by hand.
 
-![Food product photo](../../../assets/nrt.png)
+![Food product photo](../../../assets/nrt.webp)
 
 Those small food businesses were genuinely exhausting, but the cash flow was strong. Although those stores gradually shut down during the pandemic years, they made me a decent amount of money before that. That money later became part of the capital that allowed me to become a partner in the software company. During that period, I also bought my Dream Car.
 
@@ -71,16 +73,6 @@ Once the company’s income and expenses were roughly balanced, we moved into a 
 ![New office](../../../assets/office.jpg)
 
 To create a better working environment, I hired more young staff, improved employee benefits step by step, and organized dinners and hangouts every so often.
-
-![Team dinner 1](../../../assets/event1.jpg)
-
-![Team dinner 2](../../../assets/event2.jpg)
-
-![Team dinner 3](../../../assets/event3.jpg)
-
-![A small night out](../../../assets/pub.jpeg)
-
-![Photo with Nas](../../../assets/event4.jpg)
 
 The photo above is a precious picture of me with our front-end leader, Nas.
 
@@ -116,8 +108,6 @@ I knew the team breaking apart was only a matter of time. I strongly opposed the
 
 > “I put in the most money. I make the decisions.”
 
-![High-pressure group chat](../../../assets/anger.png)
-
 By September, the atmosphere was so bad that nobody wanted to come to work anymore. Then people resigned together, and that was the end of the game.
 
 The company collapsed. Leave aside the money for a moment. I had given five or six years of my life to it. How could I forget all those days and nights spent rushing projects? On top of that, I had dragged my deskmate into this mess. If he had stayed at ByteDance, maybe he would have had a much better future.
@@ -148,10 +138,6 @@ The tests found a few minor problems, but doctors kept telling me with certainty
 
 Years of programming had also damaged my lower back. Please take that seriously. It is not reversible. The despair and pain of that kind of problem are hard to understand unless you have lived through it.
 
-![Hospital scans](../../../assets/sick.jpg)
-
-![Medical records](../../../assets/sick-scan.png)
-
 When people get desperate, they try everything. During that period, I visited famous traditional Chinese doctors, and my family even took me to pray and ask folk spiritual healers for help.
 
 I knew this was not a real solution, but I still could not sleep night after night. I had no energy left at all.
@@ -168,15 +154,11 @@ I even considered selling the car I had bought just over a year earlier, but my 
 
 At the end of March 2023, I transferred away my last small food business. By the end of June, I packed everything up and returned to my hometown.
 
-![Leaving Nanjing with my child](../../../assets/kid.jpg)
-
 Leaving a city I had lived in for more than ten years, with my three-year-old son beside me, was painful in a quiet way.
 
 As my physical discomfort kept getting worse, I became quieter and quieter. First I stopped wanting to go outside. Then I stopped wanting to talk. Eventually I did not even want to eat.
 
 If my mom had not messaged me every day telling me to come eat, I probably would have skipped meals entirely.
-
-![Mom telling me to eat](../../../assets/mom.jpg)
 
 It was ridiculous. I was already nearly thirty, and I was still making my mother worry about whether I was eating.
 
@@ -189,8 +171,6 @@ Doing nothing for a long time is also unbearable. One day I reassembled my deskt
 I became addicted to games. My days and nights flipped upside down. I earned nothing. The contrast with my old modest but decent life was brutal.
 
 Ruohan was never a very materialistic person, but when you are living off money from selling your house, sharing daily life with your parents, and showing no real sign of moving forward, disappointment naturally builds up. She was deeply unhappy with how I was living and asked me how long I was going to continue like this.
-
-![A corner of a drinking table](../../../assets/wine.jpeg)
 
 I shouted back at her, “What do you want me to do?”
 

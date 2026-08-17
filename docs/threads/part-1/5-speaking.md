@@ -1,11 +1,19 @@
-# 口语篇
+---
+title: 口语篇：让意思清楚到达
+description: 按 CEFR 目标训练任务完成、可理解度、流畅、互动与修订，用录音证据建立口语进阶计划。
+updated: 2026-08-16
+---
+
+# 口语篇：让意思清楚到达
 
 ## 音标
 
 练好口语的基础是学好单词发音，掌握单词发音需要学好音标。
 音标的学习没有捷径，由于内容并不多，记下并大声练习即可。
 推荐大家跟着这个Playlist进行学习：[Teach Reading with Phonics - American English Pronunciation!](https://www.youtube.com/playlist?list=PL9BB1D7256440E08B)
+
 ### 元音
+
 - cop [ɑ] 类似于医生让你张大嘴说"啊"
 - the [ə] 类似于汉字"额"
 - cup [ʌ] 用[ə]的嘴型发[ɑ]
@@ -23,6 +31,7 @@
 - go [əʊ] 从[ə]滑动到[ʊ]
 
 ### 辅音
+
 - web [w] 类似于汉字"乌"
 - yes [j] 类似于汉字"衣"
 - father [f] 类似于汉语拼音声母f
@@ -55,7 +64,7 @@
 - go [g] 类似于汉语拼音声母g
 - how [h] 类似于汉语拼音声母h
 
->[EnglishAnyone](https://www.youtube.com/user/EnglishAnyone) 是学习口语非常棒的频道
+>[EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg) 是学习口语非常棒的频道
 
 ## 大声说英语
 
@@ -76,6 +85,7 @@
 
 我想很多人都会被优美的旋律迷倒，何不尝试哼上一曲。
 最近很喜欢戳爷的歌，想练好了唱歌女神听，看看怎么实际操作吧：
+
 - 整理歌词，把歌词里的生词抄下来先学习
 - 跟着播放器开唱，我的确买了一个麦克风！
 
@@ -86,6 +96,7 @@
 ### 为自己准备一些常见的问题
 
 为了培养自己的英语直觉，我推荐大家给自己准备一些常用的问题，反复练习，直到说的比较流利，能自由的改变句子的顺序为止。
+
 - 介绍自己
 - 介绍家乡
 - 最近过得怎么样
@@ -95,11 +106,11 @@
 
 ## 推荐的YouTube频道
 
-- [EnglishAnyone](https://www.youtube.com/user/EnglishAnyone)
+- [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg)
 
-- [Speak English With Vanessa](https://www.youtube.com/user/theteachervanessa) Vanessa的表情真的很到位
+- [Speak English With Vanessa](https://www.youtube.com/channel/UCxJGMJbjokfnr2-s4_RXPxQ) Vanessa的表情真的很到位
 
-- [Doing English with Julian Northbrook](https://www.youtube.com/user/doingenglishDOTcom)
+- [Doing English with Julian Northbrook](https://www.youtube.com/channel/UC1ZSvn6VIWqM68J_2USwH3Q)
 
 - [A.J. Hoge](https://www.youtube.com/c/AJHogeEffortlessEnglish)
 
@@ -110,5 +121,24 @@
 ## 勇敢地与陌生人交流
 
  [我们为何害怕与陌生人交流](https://github.com/byoungd/me/blob/main/blog/3.why-we-are-afraid-to-communicate-with-strangers.md)
+
+## CEFR 任务目标
+
+- **A1–A2**：完成介绍、购物、问路、预约等短互动。
+- **B1**：连贯说明经历、计划与理由，并处理常见追问。
+- **B2**：较自然地参与讨论、解释专业问题并维护立场。
+- **C1–C2**：在复杂或高压力场景中灵活组织表达、协商细微含义。
+
+## 可检查训练与反馈
+
+选一个真实场景，录两分钟无稿第一版；转写并标记影响理解的停顿、词块、语法和发音；只修 1–3 项；间隔后重录。邀请听众只根据录音复述你的主旨，以验证意思是否到达。
+
+按 0–2 评分：任务完成、可理解度、组织、互动、准确与范围。口音不同不等于错误；优先处理会引起误解或持续阻断表达的问题。
+
+## 7 天、30 天、12 周
+
+- **7 天**：围绕一个场景录 4 次 60–120 秒输出，保存首版和重录。
+- **30 天**：每周一次独白、一次角色对话、一次真实或同伴交流；跟踪高频停顿和修复策略。
+- **12 周**：逐步增加陌生问题、时间压力和真实听众；最终完成 5–10 分钟演讲、面试或会议任务。
 
 上一篇：[阅读篇](4-reading.md) ｜ 下一篇：[写作篇](6-writing.md)

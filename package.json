@@ -1,0 +1,33 @@
+{
+  "name": "life-level-up-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "人生进阶指南：英语学习、AI 学习与长期成长的开放内容项目",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check:content": "node scripts/check-content.mjs",
+    "check:navigation": "node scripts/sync-navigation.mjs --check && node scripts/sync-word-lists.mjs --check && node scripts/sync-public-assets.mjs --check",
+    "check:readme": "node scripts/sync-readme.mjs --check",
+    "check:format": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#docs/.vitepress/dist\"",
+    "check": "npm run check:navigation && npm run check:readme && npm run check:content && npm run check:format",
+    "sync": "node scripts/sync-navigation.mjs && node scripts/sync-word-lists.mjs && node scripts/sync-public-assets.mjs && node scripts/sync-readme.mjs",
+    "test:smoke": "playwright test",
+    "assets:sanitize": "node scripts/sanitize-assets.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "markdownlint-cli2": "0.23.2",
+    "sharp": "0.35.3",
+    "vitepress": "1.6.4"
+  },
+  "overrides": {
+    "esbuild": "0.25.12",
+    "vite": "6.4.3"
+  }
+}

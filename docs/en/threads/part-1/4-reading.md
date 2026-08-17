@@ -1,6 +1,12 @@
-# Reading
+---
+title: "Reading: From Word-by-word Translation to Claims and Evidence"
+description: Use CEFR goals to practise gist, argument, inference, and transfer with authentic, inspectable reading tasks.
+updated: 2026-08-16
+---
 
-Source (中文): <a href="#/threads/part-1/4-reading">阅读篇</a>
+# Reading: From Word-by-word Translation to Claims and Evidence
+
+Source (中文): [阅读篇](../../../threads/part-1/4-reading.md)
 
 ---
 
@@ -75,11 +81,7 @@ If you have good recommendations, open an issue and I’ll consider adding them 
 
 ## How to Read English Documentation
 
-When reading docs, you’ll inevitably hit new words. If you’re seeing more than ~5 unknown words in a small section, pause.
-
-- write the words down
-- look them up one by one
-- try to remember them before continuing
+Do not use a mechanical “five unknown words means stop” rule. First decide whether the words block the main idea. Mark them on a fast first pass; on the second, look up recurring, domain-critical, or reasoning-critical items; then close the dictionary and reconstruct the structure. If almost every sentence is blocked, choose easier parallel material or learn the domain chunks first.
 
 For technical terms, be extra careful:
 
@@ -107,6 +109,25 @@ If you use tools to pre-extract unknown words from a document and learn them fir
 [![英语阅读参考手册](https://img3.doubanio.com/lpic/s4241556.jpg)](https://book.douban.com/subject/4720475/)
 
 ---
+
+## CEFR Task Goals
+
+- **A1–A2**: understand short notices, instructions, messages, and direct familiar information.
+- **B1**: identify main point, sequence, and main reasons in familiar articles.
+- **B2**: understand arguments, evidence, and position in complex or specialist material.
+- **C1–C2**: process long, stylistically varied, implicit material and synthesise sources.
+
+## Inspectable Practice and Feedback
+
+Choose a challenging but finishable article. Time the first read and state the gist in one sentence; label each paragraph's function; reconstruct the argument in five sentences; write one supported inference and one counterexample; verify quotations last.
+
+Score 0–2 for gist, structure, evidence, inference boundary, and delayed retelling. Unknown-word count is diagnostic, not a level judgment.
+
+## Seven Days, Thirty Days, Twelve Weeks
+
+- **Seven days**: read four short texts on one topic; keep first summaries and a day-seven retelling.
+- **Thirty days**: one annotated close read and two timed extensive reads weekly; compare speed and summary accuracy.
+- **Twelve weeks**: move from one text to multi-source synthesis; finish with a cited report, technical review, or exam simulation.
 
 Prev: [Listening](3-listening.md)  
 Next: [Speaking](5-speaking.md)

@@ -1,6 +1,12 @@
-# Listening
+---
+title: "Listening: From Sound Recognition to Real Understanding"
+description: Use CEFR can-do goals, gist, detail, segmentation, and retelling to build comparable 7-day, 30-day, and 12-week evidence.
+updated: 2026-08-16
+---
 
-Source (中文): <a href="#/threads/part-1/3-listening">听力篇</a>
+# Listening: From Sound Recognition to Real Understanding
+
+Source (中文): [听力篇](../../../threads/part-1/3-listening.md)
 
 Most of the recommended videos are on YouTube. Many of them have fairly accurate English captions (often auto-generated). Depending on where you live, you may need a VPN to access them.
 
@@ -81,7 +87,7 @@ Many classics and bestsellers have audiobook versions: *Gone with the Wind*, *Th
 
 Audiobooks are often narrated by professional voice actors—great voices, great pacing, and surprisingly enjoyable.
 
-- [audible](http://www.audible.com/) has a lot of resources and a decent app.
+- [audible](https://www.audible.com/) has a lot of resources and a decent app.
 - Some Chinese “FM” apps also have good audiobooks.
 
 #### TV shows
@@ -96,9 +102,7 @@ I also strongly recommend *Modern Family*—it’s one of my favorite sitcoms, w
 
 #### Movies
 
-![The Shawshank Redemption](../../../assets/Shawshank.jpeg)
-
-Great movies are perfect for extensive listening, especially high-rated classics. See the Douban Top 250 list: https://movie.douban.com/top250
+Great movies are perfect for extensive listening, especially high-rated classics. See the Douban Top 250 list: <https://movie.douban.com/top250>
 
 Movies I’ve watched 10+ times (purely personal taste):
 
@@ -115,12 +119,12 @@ Movies I’ve watched 10+ times (purely personal taste):
 
 #### Music
 
-![Top songs 2021](../../../assets/top-songs-2021.jpg)
+When choosing songs, use current charts and check their region and date. The list below preserves only the selection approach.
 
 There are way too many great songs to list, but here are a few directions:
 
 - popular artists: Justin Bieber, Troye Sivan, Katy Perry, Taylor Swift, The Weeknd, Imagine Dragons, Ed Sheeran, Adele, Maroon 5, Billie Eilish, Sam Smith…
-- iTunes charts
+- Apple Music charts
 - Billboard
 - UK charts
 
@@ -174,7 +178,7 @@ If you want a deep dive, I strongly recommend this:
 
 - [LearnCode.academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)  
   Rating: 5/5  
-  If you want to learn React/Redux/MobX/AngularJS/NodeJS/Docker, you can easily spend a lot of time here.
+  If you want to learn React/Redux/MobX/AngularJS/NodeJS/Docker, you can easily spend a lot of time here. (The channel has been inactive for years; older videos still work as listening material, but check current docs for the tech itself.)
 
 - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)  
   Rating: 5/5  
@@ -190,7 +194,7 @@ If you want a deep dive, I strongly recommend this:
 
 - [DevTips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ)  
   Rating: 4/5  
-  Beginner-friendly. Solid fundamentals, especially CSS and jQuery.
+  Beginner-friendly. Solid fundamentals, especially CSS and jQuery. (Inactive for years; treat it as listening material.)
 
 - [egghead.io](https://egghead.io/)  
   Rating: 4/5  
@@ -198,7 +202,7 @@ If you want a deep dive, I strongly recommend this:
 
 ### YouTube channels for English learners
 
-- [EnglishLessons4U - Learn English with Ronnie! [engVid]](https://www.youtube.com/user/EnglishLessons4U)  
+- [EnglishLessons4U - Learn English with Ronnie! [engVid]](https://www.youtube.com/channel/UC4cmBAit8i_NJZE8qK8sfpA)
   Highly recommended. Great for grammar and practical tips. Also: Ronnie is genuinely funny, so learning doesn’t feel like punishment.
 
 - [English with Lucy!](https://www.youtube.com/channel/UCz4tgANd4yy8Oe0iXCdSWfA)  
@@ -227,7 +231,7 @@ If you want a deep dive, I strongly recommend this:
 ### Talk shows
 
 - [Jimmy Kimmel Live](https://www.youtube.com/channel/UCa6vGFO9ty8v5KZJXQxdhaw)
-- [TheEllenShow](https://www.youtube.com/channel/UCp0hYYBW6IMayGgR-WeoCvQ)
+- [TheEllenShow](https://www.youtube.com/channel/UCp0hYYBW6IMayGgR-WeoCvQ) (the show ended in 2022; archived videos remain watchable)
 - [The Late Show with Stephen Colbert](https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig)
 
 ### Music channels
@@ -242,11 +246,11 @@ If you want a deep dive, I strongly recommend this:
 
 ### Others
 
-- [Disney UK](https://www.youtube.com/user/WaltDisneyStudiosUK)  
+- [Disney UK](https://www.youtube.com/channel/UCQphRgAhj5UxktrQNP3WF5g)
   The *Frozen* theme song has 1B+ views.
-- [Vevo](https://www.youtube.com/user/VEVO)  
+- [Vevo](https://www.youtube.com/@Vevo)
   A gold mine of “movie-level” music videos. Many artists have their own official channels too.
-- [OneDirectionVEVO](https://www.youtube.com/user/OneDirectionVEVO)
+- [OneDirectionVEVO](https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg) (the band has been on hiatus since 2016; the channel is inactive)
 - [SiaVEVO](https://www.youtube.com/channel/UCmKdSrwf1e8coqAzUsrVHZw)  
   Great production quality. Often thoughtful.
 - [SSSniperWolf](https://www.youtube.com/channel/UCpB959t8iPrxQWj7G6n0ctQ)
@@ -257,12 +261,43 @@ If you want a deep dive, I strongly recommend this:
 
 ## A Few Specific YouTube Videos
 
-- [Confidence tips - Dr. Ivan Joseph - TEDxRyersonU](https://www.youtube.com/watch?v=w-HYZv6HzAs) | [Youku](http://v.youku.com/v_show/id_XMjgyMDQwMDc4MA==.html)
-- [One small tip to speak English fluently](https://www.youtube.com/watch?v=l96V7dQtq9E) | [Youku](http://v.youku.com/v_show/id_XMjc2MzE0NTQ4NA==.html)
-- [Julian Treasure: How to speak so that people want to listen](https://www.youtube.com/watch?v=eIho2S0ZahI) | [Bilibili](http://www.bilibili.com/video/av2915315/)
-- [Sia - Chandelier (Official Video)](https://www.youtube.com/watch?v=2vjPBrBU-TM) | [Youku](http://v.youku.com/v_show/id_XMjgyMDQxMjMwNA==.html)
+- [Confidence tips - Dr. Ivan Joseph - TEDxRyersonU](https://www.youtube.com/watch?v=w-HYZv6HzAs)
+- [One small tip to speak English fluently](https://www.youtube.com/watch?v=l96V7dQtq9E)
+- [Julian Treasure: How to speak so that people want to listen](https://www.youtube.com/watch?v=eIho2S0ZahI) | [Bilibili](https://www.bilibili.com/video/av2915315/)
+- [Sia - Chandelier (Official Video)](https://www.youtube.com/watch?v=2vjPBrBU-TM)
 
 ---
+
+## CEFR Task Goals
+
+- **A1–A2**: identify people, time, place, and direct needs in slow, familiar speech.
+- **B1**: follow main points and important detail on familiar topics, then retell them.
+- **B2**: follow natural interviews, meetings, or lectures and distinguish position, reason, and attitude.
+- **C1–C2**: process extended, implicit, or accent-diverse material and synthesise sources.
+
+A level selects material; a real goal states conditions, task, and evidence.
+
+## Inspectable Practice
+
+Choose 2–5 minutes with a reliable transcript:
+
+1. Listen once without pausing; write the gist and three details.
+2. Mark uncertain time ranges on a second pass without reading the whole transcript.
+3. Classify errors: unknown language, known-but-not-heard, connected speech, background knowledge, or attention.
+4. Shadow two or three useful segments, close the transcript, and retell.
+5. Use parallel material one week later to test transfer.
+
+Keep the first answer, error timestamps, retelling, and delayed test. Playback time is not evidence.
+
+## Feedback
+
+Score each 0–2: gist, key detail, segmentation, retelling comprehensibility, and delayed transfer. Repair the largest barrier instead of perfecting every sound at once.
+
+## Seven Days, Thirty Days, Twelve Weeks
+
+- **Seven days**: four 2–3 minute sessions; compare parallel material on days 1 and 7.
+- **Thirty days**: one intensive listen, two extensive listens, and one no-caption retelling weekly; count error categories rather than hours alone.
+- **Twelve weeks**: increase speed, accent variety, length, and topic unfamiliarity; finish with a blind-rated meeting, lecture, or exam simulation.
 
 Prev: [Vocabulary](2-vocabulary.md)  
 Next: [Reading](4-reading.md)

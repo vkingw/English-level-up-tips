@@ -1,40 +1,64 @@
-# 内容维护清单
+# 内容与站点维护指南
 
-这份清单用于维护《人生进阶指南》的内容结构和发布质量。
+这份文档说明《人生进阶指南》的日常维护、验证、预览、发布和回滚流程。
 
-## 导航同步
+## 环境与命令
 
-- 根目录 `SUMMARY.md` 用于仓库首页视角，链接应以 `docs/` 开头。
-- `docs/SUMMARY.md` 用于中文 Docsify 站点，链接应相对 `docs/`。
-- `docs/en/SUMMARY.md` 用于英文 Docsify 站点，英文缺失的中文章节可使用 `#/threads/...` 指向中文主站。
-- 新增公开章节时，同步检查首页入口、对应 SUMMARY 和上下篇链接。
+- 使用 Node.js 24，版本约束见 `.nvmrc`、`.node-version` 和 `package.json`。
+- 首次安装运行 `npm ci`。
+- 本地开发运行 `npm run docs:dev`。
+- 完整校验运行 `npm run check`。
+- 生产构建运行 `npm run docs:build`。
+- 本地预览生产产物运行 `npm run docs:preview`。
+- 端到端测试运行 `npm run test:smoke`。
 
-## 链接与路径
+## 导航与生成文件
 
-- 本地 Markdown 链接应优先使用相对路径或 Docsify hash 路径。
-- 项目自身 GitHub 仓库链接使用 `https://github.com/byoungd/up`。
-- GitHub Pages 链接使用 `https://byoungd.github.io/up/#/`。
-- 保留明确指向外部项目或历史资料的链接，例如知乎、GitBook、其他仓库和历史 issue。
-
-## 内容更新
-
-- AI 工具、模型能力、政策、价格、考试规则等易变信息必须标注资料日期。
-- 涉及 AI 产品能力时，优先引用官方帮助页、产品博客或一手资料。
-- 历史叙事和个人复盘不做无必要重写，只修明显错字、断链和结构问题。
-- 章节标题层级保持连续：单个页面以 `#` 开始，主要小节用 `##`。
-
-## 双语同步
-
-- 中文是主线版本，英文保留核心入口和重点章节。
-- 英文页面若不是完整翻译，应在开头标注中文来源或主入口。
-- 更新英语学习、AI 学习、首页路径时，同步检查中英文 README 和 SUMMARY。
-
-## 发布前检查
+`docs/.vitepress/navigation.mjs` 是中英文导航的唯一来源。修改导航后运行：
 
 ```bash
-git status -sb
-git diff --check
-rg -n "2026-03-20|Learning with AI \\(2026 Edition\\)|利用 AI 学习（2026 版）|WIP|2025 Note|byoungd.github.io/English-level-up-tips" README.md SUMMARY.md docs -g '*.md' -g '*.html'
+npm run sync
 ```
 
-如需检查本地 Markdown 链接，可运行一个只读脚本扫描相对链接是否存在；遇到 URL 编码路径时记得先做 `decodeURI`。
+该命令会同步：
+
+- 根目录 `SUMMARY.md`；
+- `docs/SUMMARY.md`；
+- `docs/en/SUMMARY.md`；
+- 根目录 `README.md`；
+- 英文词表镜像；
+- VitePress `public` 分享图。
+
+CI 会再次生成这些文件，并阻止未提交的差异进入主分支。
+
+## 内容规则
+
+- 每个公开中文页面必须有完整英文对应页，反之亦然。
+- 页面必须提供 `title`、`description` 和 `updated` frontmatter。
+- 研究结论、个人经验和推测应明确区分。
+- AI 产品、模型能力、政策、价格和考试规则必须注明资料日期，并优先引用官方来源。
+- 图片必须有有意义的替代文本，不得包含 GPS、EXIF、IPTC 或 XMP 元数据。
+- 站内链接使用 VitePress 干净路径，不新增 `#/` 路由；旧 hash 链接仅由兼容脚本处理。
+- 外部素材必须登记在 `ATTRIBUTIONS.md`，无法确认再分发权限时不进入仓库。
+
+## 发布流程
+
+1. 运行 `npm ci`、`npm run check`、`npm run docs:build` 和 `npm run test:smoke`。
+2. 在拉取请求的 `site-preview` 构建产物中检查待发布站点。
+3. 合并到 `master` 后，由 GitHub Pages Actions 工作流部署。
+4. 部署后检查中文首页、英文首页、代表性章节、搜索、语言切换和旧 hash 跳转。
+
+GitHub Actions 不包含分析脚本、广告或用户追踪器。
+
+## 定期维护
+
+- 每周定时任务检查外链，第三方站点短暂失败不会阻塞普通提交。
+- 每月至少检查一次 AI 章节；超过 120 天未更新会被内容校验阻止。
+- 每季度检查依赖、安全公告、素材授权和无障碍回归。
+- 合并图片前先运行 `npm run assets:sanitize`，再执行完整校验。
+
+## 回滚
+
+迁移前的 Docsify 版本保留在 Git 历史提交 `42e6faa` 中，包括原 `docs/index.html`。若新站点发布后出现路径或索引故障，优先在 GitHub Pages 中重新运行上一次成功部署；需要恢复旧站时，从该提交创建临时回滚分支并部署其 `docs/` 目录，不覆盖当前内容分支。
+
+回滚后应保留故障页面、URL、浏览器和时间信息，再修复 VitePress 构建并通过预览产物验证后重新发布。

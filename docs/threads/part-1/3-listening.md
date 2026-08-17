@@ -1,4 +1,10 @@
-# 听力篇
+---
+title: 听力篇：从声音辨认到真实理解
+description: 按 CEFR can-do 目标训练主旨、细节、语块切分与复述，用可比较样本建立 7 天、30 天和 12 周听力计划。
+updated: 2026-08-16
+---
+
+# 听力篇：从声音辨认到真实理解
 
 > 推荐的视频大多数是 YouTube 上的，通常这些视频都有准确度相当高的英语字幕（绝大多数为自动生成），由于 GFW 的原因，你需要通过**科学**上网来访问。
 
@@ -58,7 +64,7 @@
 很多英文经典名著和畅销书都推出了相应的有声书版本，比如 Gone with the wind, The Kite Runner, Pride and Prejudice,The Great Gatsby 等。
 英文有声书的朗读者大都是专业的播音员或者演员出身，声线优美，朗读时的表现力很强，一定程度上让听有声书成为了一种享受，学习效果自然会好很多。
 
-- [audible](http://www.audible.com/) 网站资源丰富，有对应的移动端 app，挺好用的，推荐。
+- [audible](https://www.audible.com/) 网站资源丰富，有对应的移动端 app，挺好用的，推荐。
 
 - 国内某些 FM 有不错的有声书可以听。
 
@@ -71,8 +77,6 @@
 > 《摩登家庭》第一季拍摄于 2009 年，我周围人的生活到现在也没有**摩登**到 2009 年的《摩登家庭》
 
 #### 电影
-
-![肖申克的救赎 The Shawshank Redemption](../../assets/Shawshank.jpeg)
 
 优秀的电影非常适合泛听，尤其是经典高分电影。可以参考[豆瓣高分电影榜单](https://movie.douban.com/top250)。
 我刷了 10 遍+的影片（影片的选择请根据自己的喜好，我列举的仅代表个人喜好）：
@@ -90,17 +94,19 @@
 
 #### 音乐
 
-![top-songs-2021](../../assets/top-songs-2021.jpg)
+选歌时优先查看当前平台榜单并确认地区与日期，下面只保留选择思路。
 
 欧美金曲值得推荐的实在太多，无法一一列举：
+
 - 受欢迎的歌手：贾斯汀·比伯、戳爷、水果姐、霉霉、盆栽精、打雷、Ed Sheeran, Adele, Maroon 5, Billie Eilish, Sam Smith 等等
-- iTunes 榜
+- Apple Music 榜单
 - BillBoard
 - UK 榜
 
 #### 直播
 
 如果你喜欢看直播，去[Twitch](https://www.twitch.tv/)上找找喜欢的主播吧。
+
 ## 入门听力训练
 
 - [Basic English Grammar](https://www.youtube.com/watch?v=Rp3LqMYBhkQ&list=PL2621D8F6B6B29B7B)
@@ -108,7 +114,6 @@
 
 - [Learn English with Valen - Basic English lessons by ValenESL](https://www.youtube.com/channel/UCgzuT-fpJiyThTUlMiFRCKQ)
   内容大多数为很基础的英语语法、一些词汇的用法等，非常适合初学者。虽然视频内容较旧，作者停止了更新，但是依然是非常棒的初学者教程。
-
 
 ## 高阶 - 如何听懂非慢速英语材料
 
@@ -126,7 +131,6 @@
 
 如果你想深入了解这个话题，我强烈推荐你耐心观看这个视频 [Understand Native English Speakers with this Advanced Listening Lesson](https://www.youtube.com/watch?v=D6_qpaSxAQc)
 
-
 ## 优秀的英语学习材料推荐
 
 ### 编程相关
@@ -141,7 +145,7 @@
 - [LearnCode.academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)
   推荐指数：5
 
-如果你想学习 React/Redux/MobX/AngularJS/NodeJS/Docker 等，这里会是你愿意花很多时间待的地方
+如果你想学习 React/Redux/MobX/AngularJS/NodeJS/Docker 等，这里会是你愿意花很多时间待的地方（频道已多年未更新，存量视频仍可作听力素材，技术内容请以现行文档为准）
 
 - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
   推荐指数：5
@@ -161,7 +165,7 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 - [DevTips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ)
   推荐指数：4
 
-这是一个对刚入门的前端程序员友好的频道，细致的基础内容，CSS、JQuery 相关的内容值得推荐。
+这是一个对刚入门的前端程序员友好的频道，细致的基础内容，CSS、JQuery 相关的内容值得推荐（频道已停更多年，存量内容仍可作听力练习素材）。
 
 - [egghead.io](https://egghead.io/)
   推荐指数：4
@@ -170,7 +174,7 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 
 ### YouTube 频道推荐
 
-- [EnglishLessons4U - Learn English with Ronnie! [engVid]](https://www.youtube.com/user/EnglishLessons4U)
+- [EnglishLessons4U - Learn English with Ronnie! [engVid]](https://www.youtube.com/channel/UC4cmBAit8i_NJZE8qK8sfpA)
 
   **力荐** 学习英语的基础语法，很多小技巧都挺实用。最最重要的是，Ronnie 老师实在是太幽默啦，学习的过程中你会感受到快乐！
 
@@ -208,7 +212,7 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
   鸡毛秀
 
 - [TheEllenShow](https://www.youtube.com/channel/UCp0hYYBW6IMayGgR-WeoCvQ)
-  艾伦秀
+  艾伦秀（节目已于 2022 年完结，频道存量视频仍可观看）
 
 - [The Late Show with Stephen Colbert](https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig)
   Late 秀
@@ -231,12 +235,12 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 
 ### 其他
 
-- [Disney UK](https://www.youtube.com/user/WaltDisneyStudiosUK)
+- [Disney UK](https://www.youtube.com/channel/UCQphRgAhj5UxktrQNP3WF5g)
   冰雪奇缘主题曲 FROZEN 的播放量高达 10 亿+!
-- [Vevo](https://www.youtube.com/user/VEVO)
+- [Vevo](https://www.youtube.com/@Vevo)
   电影级 MV 的集中营呀,VEVO 旗下有很多视频都有单独的频道，请自行查找感兴趣的
-- [OneDirectionVEVO](https://www.youtube.com/user/OneDirectionVEVO)
-  OneDirection 粉应该关注的频道
+- [OneDirectionVEVO](https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg)
+  OneDirection 粉应该关注的频道（乐队自 2016 年起长期休整，频道已停更，适合粉丝回顾）
 - [SiaVEVO](https://www.youtube.com/channel/UCmKdSrwf1e8coqAzUsrVHZw)
   个人非常喜欢，视频质量感人，引人深思
 - [SSSniperWolf](https://www.youtube.com/channel/UCpB959t8iPrxQWj7G6n0ctQ)
@@ -244,14 +248,42 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 - [TED](https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug)
   TED Talks,听听别人的 idea 是一件很有意思的事情，建议从热门的开始看，TED Talks 的热门视频往往都有多国语言字幕。
 
-
-
 ## 单独推荐的 YouTube 视频
 
-- [自信的技巧 - 伊万•约瑟夫博士 - TEDxRyersonU](https://www.youtube.com/watch?v=w-HYZv6HzAs) | [优酷链接](http://v.youku.com/v_show/id_XMjgyMDQwMDc4MA==.html)
-- [说流利英语的一个小技巧](https://www.youtube.com/watch?v=l96V7dQtq9E) | [优酷链接](http://v.youku.com/v_show/id_XMjc2MzE0NTQ4NA==.html)
-- [朱利安·特瑞雪: 怎样说话人们才会听](https://www.youtube.com/watch?v=eIho2S0ZahI) | [B 站链接](http://www.bilibili.com/video/av2915315/)
-- [Sia - Chandelier (Official Video)](https://www.youtube.com/watch?v=2vjPBrBU-TM) | [优酷链接](http://v.youku.com/v_show/id_XMjgyMDQxMjMwNA==.html)
+- [自信的技巧 - 伊万•约瑟夫博士 - TEDxRyersonU](https://www.youtube.com/watch?v=w-HYZv6HzAs)
+- [说流利英语的一个小技巧](https://www.youtube.com/watch?v=l96V7dQtq9E)
+- [朱利安·特瑞雪: 怎样说话人们才会听](https://www.youtube.com/watch?v=eIho2S0ZahI) | [B 站链接](https://www.bilibili.com/video/av2915315/)
+- [Sia - Chandelier (Official Video)](https://www.youtube.com/watch?v=2vjPBrBU-TM)
+
+## CEFR 任务目标
+
+- **A1–A2**：在语速较慢、主题熟悉时听出人物、时间、地点与直接需求。
+- **B1**：听懂熟悉主题的主要意思和关键细节，能用自己的话复述。
+- **B2**：跟上较自然语速的访谈、会议或讲座，区分观点、理由和态度。
+- **C1–C2**：处理篇幅长、结构隐含或口音多样的内容，并综合多个来源。
+
+等级只是选材起点。真正目标应写成“在什么条件下听懂什么，并留下什么证据”。
+
+## 可检查训练
+
+选择 2–5 分钟、带可靠转写的材料：
+
+1. 首听不暂停，写主旨和三个细节。
+2. 第二遍标记不确定时间段，不先看全文。
+3. 对照转写，把错误分成未知语言、已知但没听出、连读/弱读、背景知识、注意力。
+4. 跟读 2–3 个高价值片段，合上转写后复述。
+5. 一周后用同难度平行材料测试迁移。
+
+保存首次答案、错误时间戳、复述录音和延迟测试。播放时长不是学习证据。
+
+## 反馈标准
+
+每项 0–2 分：主旨、关键细节、语块切分、复述可理解度、延迟迁移。优先修复最影响理解的一项，不要同时追求每个音都完美。
+
+## 7 天、30 天、12 周
+
+- **7 天**：完成 4 次 2–3 分钟训练；第 1、7 天用平行材料比较主旨与细节。
+- **30 天**：每周一次精听、两次泛听、一次不看字幕复述；统计错误类别而非只统计时长。
+- **12 周**：逐步增加语速、口音、长度和主题陌生度；第 12 周完成真实会议、讲座或考试模拟并盲评。
 
 上一篇：[单词篇](2-vocabulary.md) ｜ 下一篇：[阅读篇](4-reading.md)
-

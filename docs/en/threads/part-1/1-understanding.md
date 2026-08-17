@@ -1,332 +1,159 @@
-# Understanding
-
-Source (中文): <a href="#/threads/part-1/1-understanding">认知篇</a>
-
-This chapter is about mindset. Before you grind vocabulary and drills, it’s worth getting a few things straight—otherwise you’ll work hard, feel miserable, and still get stuck.
-
+---
+title: "Learning Principles: Turn Effort into Evidence"
+description: Replace the learning pyramid and effort theatre with goals, retrieval, spacing, feedback, and recovery.
+updated: 2026-08-16
 ---
 
-## TL;DR
+# Learning Principles: Turn Effort into Evidence
 
-- Get clear on **why you want English** and what you want it for.
-- **Input alone isn’t enough**. You need output: speaking, writing, using the language.
-- Pick a **realistic pace and real scenarios**—don’t trade sleep for “feeling hardworking”.
-- Learn to **notice your emotions** instead of letting guilt drive everything.
-- Build a **safe, immersive English environment**—make it part of daily life.
+Before choosing an app or textbook, decide why you are learning, what task you need to complete, how you will judge it, and how to train without sacrificing health.
 
-If English makes you feel guilty, anxious, or stuck in procrastination, this chapter is basically about putting those feelings back where they belong.
+## Separate Three Kinds of Claim
 
----
+- **Research evidence** reports effects observed under stated conditions, not a guarantee for every learner.
+- **Personal experience** explains why I made a choice; it is a clue for your experiment, not a universal rule.
+- **Hypothesis** lacks enough evidence and should become a question to test.
 
-## Why We Should Learn English Well
+When advice omits the population, conditions, outcome, and source, treat it as a hypothesis.
 
-Let’s start with a boring-but-true fact: **English is everywhere**. The language distribution of Wikipedia content gives you a pretty good hint:
+## Why Learn English?
 
-![WebsiteContentLanguages](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/WebsiteContentLanguages.svg/2000px-WebsiteContentLanguages.svg.png)
+English connects you to technical documentation, research, courses, cultural work, and international collaboration. That importance is still not an actionable goal. Name the context:
 
-English shows up in almost every corner of life:
+- an exam with a date, target score, and task types;
+- study that requires discussion, academic reading, or writing;
+- work that requires documentation, email, meetings, interviews, or presentations;
+- life that requires travel, reading, or communication with particular people.
 
-- casual chat and day-to-day information
-- books, papers, research, and serious writing
+> My primary context is ______. In 12 weeks I will complete ______ under ______ conditions. The evidence will be ______.
 
-Learning English is like getting a larger internet. You’re no longer limited to what gets translated into Chinese.
+The context determines material and feedback. Do not distribute time evenly in pursuit of a vague wish to “improve English”.
 
-If you work in tech (or anything online), it matters even more:
+## Remove the Learning-pyramid Percentages
 
-- new tools, frameworks, and ideas usually appear **first in English**
-- bad translations can mislead you for years
-- but you also get access to great resources and tools that make learning faster and more fun
+Earlier editions repeated claims such as “people retain 10% of reading and 90% of practice”. Those precise numbers have no reliable research basis and are not what Edgar Dale's Cone of Experience proposed. This edition removes the old diagram and percentages.
 
-So yeah—**it’s not just about exams**. It’s about access.
+Keep a testable principle instead: **repeated exposure can create familiarity, while retrieving, explaining, applying, and receiving feedback reveals whether knowledge is usable.**
 
----
+Two broadly supported strategies are:
 
-## The Learning Pyramid: Why You Need to “Move”
+- **retrieval practice**: close the source, recall, answer, retell, write, or teach;
+- **distributed practice**: return at multiple points instead of cramming once.
 
-In 1969, educator Edgar Dale proposed what people often call *The Cone of Learning*. The numbers are debated, but the message is useful: after two weeks, we tend to retain much more when we actively do something with what we learned.
+Neither offers universal percentages or a universal calendar. Difficulty, prior knowledge, delay, and assessment method all matter.
 
-- reading only: ~10%
-- listening only: ~20%
-- pictures: ~30%
-- video/demonstration: ~50%
-- discussion and speaking: ~70%
-- teaching / presenting / doing: ~90%
+## A Complete Learning Loop
 
-![Cone of Learning](../../../assets/ConeofLearning-old.png)
+Each 25–45 minute session should contain:
 
-The takeaway is simple:
+1. **Task**: “retell a two-minute news clip”, not “practise listening”.
+2. **First attempt**: produce a baseline without excessive lookup.
+3. **Targeted input**: review only the information needed for current errors.
+4. **Active output**: close the material and perform again.
+5. **Feedback and record**: compare versions and update [Learning State](../../templates/learning-state.md).
 
-> Passive input (just watching and listening) is weaker than active participation (speaking, writing, explaining, using).
+Finishing a video or feeling that it made sense is not the endpoint. Performance after the source is closed is stronger evidence.
 
-For languages, this is painfully obvious:
+## Output Is Not Performance Theatre
 
-- input helps you understand
-- output is what makes it stick and makes it usable
+Active output can be small:
 
-That’s why this guide keeps pushing you to **start output early**.
+- write a three-sentence summary from memory;
+- list a main point and three details after listening;
+- explain a concept without notes;
+- use a new chunk in two settings;
+- record sixty seconds, replay it, and mark pauses.
 
----
+Output exposes gaps. Its job is not to prove intelligence.
 
-## A “Try-Hard” Story That Went Wrong
+## Let Performance Set the Interval
 
-Most of us grew up in exam mode: brutal schedules, early mornings, late nights. If your score goes up you feel great; if it drops, you feel guilty and panicked. You start to believe learning is supposed to hurt.
+A schedule such as days 1, 2, 4, 7, and 15 can be a reminder, but it is not Ebbinghaus's universal prescription for you.
 
-In high school I lived in a high-pressure environment:
+- Easy and accurate recall: lengthen the interval or raise difficulty.
+- Effortful success: keep a similar interval.
+- Frequent failure: shorten the interval, reduce material, or repair prerequisites.
+- Recognition without use: add production and varied contexts.
 
-- my roommates were ranked No.1, No.2, and No.8 in the whole county
-- the top two were the “genius type”: tiny glasses, curious face, looking like 5th graders
-- to motivate myself, I asked the teacher to move seats so I could sit next to No.1 (No.2 sat in front of me)
+Record performance and adjust. Missing an imagined “perfect review time” is not a reason to abandon the system.
 
-My routine looked like this:
+## Sleep and Recovery Are Inputs
 
-- wake up at 5:20, go to the track and start memorizing
-- stay in class during lunch break, then nap for a few minutes before class
-- sprint out for dinner and sprint back to grab a seat in the classroom
-- after evening study, rush to wash up, read in bed, and keep reading with a tiny lamp after lights-out
+### Personal experience
 
-I thought I was “saving every minute”. In reality I was losing—over and over. I kept “adjusting my mindset” and pushing harder, but my grades kept dropping. At one point I fell to around rank 500 and felt hopeless.
+At school I once confused visible effort with learning: waking at 5:20, skipping midday rest, and reading after lights-out. Time rose while performance fell. I interpreted this as insufficient effort and pushed harder.
 
-I couldn’t understand it:
+That story does not prove all early rising is ineffective. It shows that **for me, chronic sleep loss, no error diagnosis, and mechanical hours combined badly**.
 
-**I’m working so hard. Why am I getting worse?**
+### Evidence boundary
 
-Meanwhile, my desk mate used his scholarship money to buy a laptop, secretly watched American TV shows in class… and stayed No.1.
+Sleep contributes to memory consolidation, while sustained sleep loss can affect attention and performance. Needs and health conditions differ. This guide gives no medical diagnosis; persistent sleep, mood, or physical problems deserve qualified professional care.
 
-Why?
+Budget sleep, movement, food, and unassigned time. Recovery is a condition for the next session, not a prize after it.
 
-Why?
+## Do Not Match Fixed “Learning Styles”
 
-Why?
+People may prefer pictures, sound, or text, but evidence does not support classifying people as visual or auditory learners and improving outcomes by matching instruction to that label.
 
-![WHY](../../../assets/why.png)
+Choose representation by content and task:
 
-Later I realized: I wasn’t “not trying hard enough”. I was making a bunch of very common mistakes.
+- pronunciation needs sound, articulation, and acoustic feedback;
+- spelling needs visual recognition and production;
+- spatial relationships often benefit from diagrams;
+- communication integrates listening, speaking, reading, and writing.
 
----
+Multiple representations can help. A preference is not a fixed identity or ability ceiling.
 
-## The Real Question: What Are You Learning For?
+## Compare with Your Baseline
 
-Ask yourself:
+A useful goal includes a real context, observable task, quality threshold, deadline, and comparable evidence. Use the [CEFR self-check](0-cefr.md) for four separate baselines. An average label cannot describe B2 reading and A2 speaking.
 
-- Why am I learning?
-- Is it only for scores and rankings?
-- After I get a good ranking, do I actually feel calmer—or more afraid of losing it?
-- In the longer run, what kind of life do I want?
+## Order Feedback by Impact
 
-If the whole point of learning is to make your life better, but the way you learn makes you miserable… something’s off.
+Treat only one to three high-impact problems at a time:
 
-Sometimes all you need is a different pace:
+1. task completion and meaning;
+2. organisation and logic;
+3. recurring vocabulary, grammar, or pronunciation errors;
+4. low-impact details last.
 
-- learn in a lighter way, and your happiness goes up
-- drop the “I must suffer to be worthy” mindset, and you’ll actually last longer
+AI can classify errors and create parallel practice, but it can misjudge facts, pronunciation, and usage. Check important work against dictionaries, corpora, teachers, peers, or real audiences.
 
-You don’t need to become a different person. You need a way of learning that you can live with.
+## Seven Days, Thirty Days, Twelve Weeks
 
-> A friend who called herself “a hopeless student” once told me this. She loved listening to music with headphones and smiling warmly—something schools often forbid. Her words helped me stop forcing myself with adrenaline and guilt, accept being ordinary, and enjoy life again.
+### Seven days: baseline
 
-### Quick exercise: 3 questions for yourself
+- save short samples in all four skills;
+- choose one real context;
+- complete three full learning loops;
+- change only one variable from the evidence on day seven.
 
-1. If I ignore exams and rankings, what do I want English to give me?
-2. In my ideal life 5 years from now, what role does English play?
-3. What kind of learning do I genuinely enjoy?
+### Thirty days: rhythm
 
----
+- keep at least one comparable output each week;
+- classify errors instead of calling everything “careless”;
+- replace exercises gradually with authentic material;
+- repeat the baseline conditions on day thirty.
 
-## Start With the Scenario: Where Will You Use English?
+### Twelve weeks: transfer
 
-Before you dive in, break down your needs. Different scenarios require different priorities.
+- save parallel samples in weeks 1, 4, 8, and 12;
+- add time pressure, unfamiliar topics, or a real audience;
+- complete an exam simulation, meeting, presentation, long reading, or writing deliverable;
+- let the result define the next cycle.
 
-- **Exam-focused**: Gaokao, CET-4/6, postgraduate exams, TEM-8  
-  Focus: question types, scoring strategy, test-taking skills.
-- **Study abroad**: TOEFL/IELTS/GRE + daily communication  
-  Focus: balanced listening/speaking/reading/writing, academic writing, presentations, class participation.
-- **Non-exam**: work, tech, travel, self-improvement  
-  Focus: domain vocabulary, emails/docs, meetings, real expression.
+## Action
 
-Write it down:
+1. Complete the [English Diagnostic](../../templates/english-diagnostic.md).
+2. Create a [Learning State](../../templates/learning-state.md).
+3. Delete one task that produces effort but no evidence.
+4. Schedule the first 25–45 minute learning loop.
 
-> My main scenario is: ________  
-> The most urgent skill for me is: Listening / Speaking / Reading / Writing / Exam (pick 1–2)
+## Sources
 
-Once you have that, choosing materials and planning time becomes much easier.
+- [Dunlosky et al. (2013), Improving Students' Learning With Effective Learning Techniques](https://doi.org/10.1177/1529100612453266)
+- [Roediger & Karpicke (2006), Test-Enhanced Learning](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
+- [Cepeda et al. (2006), Distributed Practice in Verbal Recall Tasks](https://doi.org/10.1037/0033-2909.132.3.354)
+- [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
 
----
-
-## “Waking Up Early” Can Ruin Your Whole Day
-
-To squeeze in 30 minutes of morning memorization, I paid for it like this:
-
-- I was half-asleep in morning classes, so my classroom time got wasted
-- I slept at 12:30–1:00 and woke up after 5:00—my body never recovered
-- I “stole time” from the only place that mattered: actual class time
-
-Result:
-
-- I couldn’t listen properly, and I couldn’t even enjoy a good nap
-- it looked hardcore, but the learning quality dropped hard
-
-> Don’t steal from sleep.  
-> Otherwise you won’t become “a great person”—you’ll just become a wreck.
-
-Back then my desk mate and I had another hobby: reading good essays.
-
-We pooled money and bought an mp3 player that could display `.txt` files. Each night one of us would read an essay aloud, and we’d fall asleep mid-discussion.
-
-That kind of learning was fun, didn’t break our bodies, and honestly worked better.
-
----
-
-## Don’t Compare Yourself to Someone in Another League
-
-Besides habits, there’s a more uncomfortable truth: people differ in baseline, pace, and learning ability.
-
-- if you copy a top student’s schedule, you’ll likely end up exhausted and ashamed every day
-- vague, unrealistic goals don’t motivate—they crush confidence
-
-Don’t push yourself too hard.
-
-> “There are three stages of growth:  
-> 1) realizing you’re not the center of the world,  
-> 2) realizing some things are impossible no matter how hard you try,  
-> 3) accepting your ordinariness—and enjoying it.” — Zhou Guoping
-
-You need goals that fit *you*, not goals that look good on someone else.
-
----
-
-## If You Don’t Enjoy It, You Won’t Last
-
-Back then I wasn’t really learning. I was chasing rankings.
-
-- rank goes up → a short high
-- rank goes down → instant fear, guilt, and anxiety
-
-No joy. No sustainability.
-
-Interestingly, the most effective learning often happens when you’re driven by interest:
-
-- you pick up a good book, get hooked, and finish it without noticing time
-- you see someone play ukulele, start following tutorials, and a few weeks later you can play a few tunes
-
-If you can tie English to things you genuinely like:
-
-- love TV shows → watch once with Chinese subtitles, then rewatch with English subtitles
-- love tech → read docs and issues in English
-- love gossip → browse English forums
-
-…the whole process gets easier.
-
----
-
-## A Plan Matters (and “Balanced Time” Isn’t Always Smart)
-
-Learning takes strategy. “Equal time for everything” is not automatically better.
-
-My problems back then:
-
-- I didn’t analyze my weak spots, so I couldn’t focus
-- when something was hard, I didn’t discuss or ask for help
-- I filled my day with mechanical study time but left no space for review and reflection
-
-A better approach:
-
-- identify your weak links (listening, vocabulary, writing…), and focus on 1–2 first
-- stay **output-driven**: write it, say it, use it—even if it’s simple
-- review regularly: each week, look back and see what you actually kept
-
-> When I changed my method and stopped pressuring myself, my “total study time” seemed to drop—but my *effective* time went up, and my scores improved.
-
----
-
-## Emotions: Who’s Actually Controlling Your “I Don’t Want to Study”?
-
-When you’re learning any skill, you’ve probably felt this:
-
-> Some days you’re unstoppable.  
-> Other days you can’t focus at all and just want to scroll or game.
-
-When you say “I just don’t feel like studying”, what’s driving that?
-
-Often it’s not laziness. It’s emotion.
-
-- one small thing can kill your motivation for the whole day
-- sometimes it’s anxiety, fear, or anger hiding underneath
-
-Neuroscientist Joseph E. LeDoux suggests emotions like anxiety and fear travel through multiple pathways in the brain. You don’t need the science details here—just this:
-
-> “Not wanting to study” is often a signal, not a moral failure.
-
-So instead of fighting yourself, try:
-
-- when you feel resistance, ask: am I tired? is it too hard? is it too boring?
-- switch the format (materials, time slot, task type) instead of forcing it
-- give yourself a little emotional buffer, then come back
-
-Movie recommendation: *Inside Out*. It explains in a simple way that emotions aren’t enemies—they’re messengers.
-
----
-
-## What to Do (and What Not to Do)
-
-This guide does **not** recommend:
-
-- treating yourself like a monk and burning out
-- risky “efficiency hacks” like cramming on buses, listening while biking, or staying up all night
-- proving you’re hardworking by going extreme
-
-The “results” you squeeze out with raw willpower often get paid back later—with double fatigue and health problems.
-
-> People who push too hard don’t run far.
-
-This guide **does** recommend:
-
-- using methods that make sense and spending time in a stable way
-- building habits that give you more results with less effort
-- assuming you already have some English foundation (and you’re not in the “English is useless” camp)
-- staying serious—but accepting this is a long game
-- trusting science, choosing a plan you can sustain, and enjoying the process
-
----
-
-## Build an English-Friendly Environment
-
-If you can, try to live a little more “inside English”:
-
-- consume media in English (e.g., YouTube instead of Bilibili)
-- follow English-speaking creators you actually care about (games, tech, fitness, crafts, movie reviews…)
-- switch your phone/OS language to English (if it won’t mess up your life)
-
-Make English part of your daily background noise. Over time you’ll feel more comfortable with it, and you’ll tolerate mistakes better too.
-
----
-
-## How Babies Learn Language
-
-If you watch babies, their “sentences” often look like this:
-
-- “phone mom open” → Mom, open the phone for me
-- “smells good, veggies, mom” → Mom’s cooking smells great
-- “ball, little brother, run” → My brother’s ball rolled away
-
-We usually understand them—and we don’t laugh. We respond gently. That creates a safe environment.
-
-Same idea for you:
-
-- you speak more when the environment feels safe
-- at the beginning, it’s fine to glue words together—don’t obsess over perfect grammar
-- if you keep going, your brain will gradually organize those “fragments” into natural phrases
-
-So give yourself permission to speak “imperfect English”, like a baby does.
-
-> If you dare to speak, you’ve already won half the battle.
-
-Let’s start with the most basic—and most important—piece: **vocabulary**.
-
-Recommended:
-
-- [How to learn any language in six months | Chris Lonsdale | TEDxLingnanUniversity](https://www.youtube.com/watch?v=d0yGdNEWdn0)
-- [The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU](https://www.youtube.com/watch?v=5MgBikgcWnY)
-
----
-
-Next: [Vocabulary](2-vocabulary.md)
+Previous: [CEFR Goals](0-cefr.md) | Next: [Vocabulary](2-vocabulary.md)

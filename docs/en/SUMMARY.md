@@ -1,43 +1,52 @@
 # Summary
 
-* [Home](README.md)
-* <a href="#/">中文（主入口）</a>
+## Start Here
 
-### Home and Personal Line
+- [Life Level-up Guide](README.md)
+- [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
+- [Learning State](templates/learning-state.md)
+- [Weekly Review](templates/weekly-review.md)
+- [English Diagnostic](templates/english-diagnostic.md)
 
-* [My Story](threads/part-4/my-story.md)
-* <a href="#/threads/part-2/entrepreneurship">Entrepreneurship (Chinese-only)</a>
-* <a href="#/threads/archive/README">Old Blog Archive (Chinese-only)</a>
+## English Learning System
 
-### English Learning Path
+- [1. Learning Principles](threads/part-1/1-understanding.md)
+- [2. Vocabulary](threads/part-1/2-vocabulary.md)
+- [3. Listening](threads/part-1/3-listening.md)
+- [4. Reading](threads/part-1/4-reading.md)
+- [5. Speaking](threads/part-1/5-speaking.md)
+- [6. Writing](threads/part-1/6-writing.md)
+- [7. Learning English with AI](threads/part-1/7-ai.md)
 
-* [Understanding](threads/part-1/1-understanding.md)
-* [Vocabulary](threads/part-1/2-vocabulary.md)
-* [Listening](threads/part-1/3-listening.md)
-* [Reading](threads/part-1/4-reading.md)
-* [Speaking](threads/part-1/5-speaking.md)
-* [Writing](threads/part-1/6-writing.md)
-* [Learning English with AI](threads/part-1/7-ai.md)
+## AI Learning and Work
 
-### AI Learning and Skill Building
+- [Learning Anything with AI](threads/part-3/1-ai-learning.md)
+- [Author Projects and Practice](projects.md)
 
-* [Learning Anything with AI](threads/part-3/1-ai-learning.md)
+## Life Review and Recovery
 
-### Extensions and Practice
+- [My Story](threads/part-4/my-story.md)
+- [Entrepreneurship](threads/part-2/entrepreneurship.md)
+- [Miscellaneous Notes](threads/part-2/x-misc.md)
+- [Week 1](threads/part-4/week-1.md)
 
-* <a href="#/threads/word-list/Common">Word Lists (Chinese)</a>
-* [Misc](threads/part-2/x-misc.md)
-* [Week 1](threads/part-4/week-1.md)
+## Archive
 
-### Word List Details
+- [Archive Notes](threads/archive/README.md)
+- [A Place to Write](threads/archive/a-place-to-write.md)
+- [Last Year and Now](threads/archive/last-year-and-now.md)
+- [Should We Help an Elderly Stranger?](threads/archive/help-the-elderly.md)
+- [Temporary Blog Renaming Notice](threads/archive/blog-renaming-notice.md)
 
-* <a href="#/threads/word-list/Common">Common</a>
-* <a href="#/threads/word-list/Go">Go</a>
-* <a href="#/threads/word-list/Java">Java</a>
-* <a href="#/threads/word-list/JavaScript">JavaScript</a>
-* <a href="#/threads/word-list/PHP">PHP</a>
-* <a href="#/threads/word-list/Prompt">Prompt</a>
-* <a href="#/threads/word-list/Python">Python</a>
-* <a href="#/threads/word-list/Swift">Swift</a>
-* <a href="#/threads/word-list/Rust">Rust</a>
-* <a href="#/threads/word-list/VibeCoding">Vibe Coding (Agent)</a>
+## Word Lists
+
+- [Common](threads/word-list/Common.md)
+- [Go](threads/word-list/Go.md)
+- [Java](threads/word-list/Java.md)
+- [JavaScript](threads/word-list/JavaScript.md)
+- [PHP](threads/word-list/PHP.md)
+- [Prompt](threads/word-list/Prompt.md)
+- [Python](threads/word-list/Python.md)
+- [Swift](threads/word-list/Swift.md)
+- [Rust](threads/word-list/Rust.md)
+- [Vibe Coding](threads/word-list/VibeCoding.md)

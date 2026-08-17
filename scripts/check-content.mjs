@@ -1,65 +1,59 @@
 #!/usr/bin/env node
-// 内容校验脚本（零依赖，仅用 Node 内置模块）。
-// 把 MAINTENANCE.md 里的人工检查清单落地为可自动执行的校验：
-//   1. 所有 Markdown 内的相对链接与图片路径真实存在；
-//   2. Docsify 的 `#/...` hash 路由解析到真实文件；
-//   3. 三个 SUMMARY.md 指向的文件都存在，且中文两份（根 / docs）条目一致；
-//   4. 复刻 MAINTENANCE.md 的陈旧字符串扫描（旧日期 / 旧域名 / WIP 等）。
-// 任意一项失败即以非 0 退出码结束，并打印「文件:行 问题」清单。
-//
-// 用法：node scripts/check-content.mjs
 
-import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
+import {
+  existsSync,
+  readFileSync,
+  readdirSync,
+  statSync,
+} from "node:fs";
+import { dirname, extname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { dirname, resolve, join, relative, extname } from "node:path";
+import sharp from "sharp";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DOCS = join(ROOT, "docs");
-
 const errors = [];
-const addError = (file, line, msg) =>
-  errors.push({ file: relative(ROOT, file), line, msg });
+const IGNORE_DIRS = new Set([".git", "node_modules", "dist", ".cache"]);
+const PUBLIC_IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
 
-const IGNORE_DIRS = new Set([".git", "node_modules", ".github"]);
+function addError(file, line, message) {
+  errors.push({ file: relative(ROOT, file), line, message });
+}
 
-/** 递归收集指定扩展名的文件。 */
-function walk(dir, exts, out = []) {
+function walk(dir, extensions, output = []) {
   for (const name of readdirSync(dir)) {
     if (IGNORE_DIRS.has(name)) continue;
-    const p = join(dir, name);
-    const s = statSync(p);
-    if (s.isDirectory()) walk(p, exts, out);
-    else if (exts.includes(extname(name))) out.push(p);
+    const path = join(dir, name);
+    const stat = statSync(path);
+    if (stat.isDirectory()) walk(path, extensions, output);
+    else if (extensions.has(extname(name).toLowerCase())) output.push(path);
   }
-  return out;
+  return output;
 }
 
-const isExternal = (t) => /^(https?:|mailto:|tel:|data:|\/\/)/i.test(t);
+const isExternal = (target) =>
+  /^(https?:|mailto:|tel:|data:|\/\/)/i.test(target);
 
-/** 把 Docsify 的 `/threads/...` 路由解析为 docs 下的真实文件路径。 */
+function stripOptionalTitle(target) {
+  return target.replace(/\s+["'].*$/, "").trim();
+}
+
 function routeToFile(route) {
-  let r = route.replace(/^\//, "");
-  if (r === "") return join(DOCS, "README.md");
-  const p = join(DOCS, decodeURIComponent(r));
-  if (r.endsWith("/")) return join(p, "README.md");
-  if (!extname(p)) return p + ".md";
-  return p;
+  const clean = route
+    .replace(/^\/+/, "")
+    .replace(/\/$/, "")
+    .replace(/\/index$/, "")
+    .replace(/\/README$/, "");
+  if (!clean) return join(DOCS, "README.md");
+  return join(DOCS, `${clean}.md`);
 }
 
-/**
- * 把一个链接目标解析为应当存在的本地文件；返回 null 表示无需校验
- * （外部链接、页内锚点、空目标）。
- */
 function resolveTarget(file, rawTarget) {
-  let t = rawTarget.trim();
-  if (!t) return null;
-  // 去掉 Markdown 链接里的可选 title： [x](path "title")
-  t = t.replace(/\s+["'].*$/, "").trim();
-  if (!t || isExternal(t)) return null;
-  if (t.startsWith("#/")) return routeToFile(t.slice(1));
-  if (t.startsWith("#")) return null; // 页内锚点，不校验
-  const pathPart = t.split("#")[0].split("?")[0];
+  let target = stripOptionalTitle(rawTarget);
+  if (!target || isExternal(target) || target.startsWith("#")) return null;
+  const pathPart = target.split("#")[0].split("?")[0];
   if (!pathPart) return null;
+  if (pathPart.startsWith("/")) return routeToFile(pathPart);
   try {
     return resolve(dirname(file), decodeURIComponent(pathPart));
   } catch {
@@ -67,112 +61,209 @@ function resolveTarget(file, rawTarget) {
   }
 }
 
-const MD_LINK_RE = /!?\[[^\]]*\]\(([^)]+)\)/g; // [text](t) 与 ![alt](t)
-const HREF_RE = /href\s*=\s*["']([^"']+)["']/gi; // <a href="...">
+function localTargetExists(path) {
+  if (existsSync(path)) return true;
+  if (!extname(path) && existsSync(`${path}.md`)) return true;
+  if (!extname(path) && existsSync(join(path, "README.md"))) return true;
+  return false;
+}
 
-/** 逐文件提取链接，跳过围栏代码块，校验本地目标是否存在。 */
-function checkLinksInFile(file) {
-  const text = readFileSync(file, "utf8");
-  const lines = text.split("\n");
+const MARKDOWN_LINK = /(!?)\[([^\]]*)\]\(([^)]+)\)/g;
+const HTML_HREF = /href\s*=\s*["']([^"']+)["']/gi;
+const HTML_IMAGE = /<img\b([^>]*)>/gi;
+
+function checkLinksAndAlt(file) {
+  const lines = readFileSync(file, "utf8").split("\n");
   let inFence = false;
-  lines.forEach((line, i) => {
-    const fenceMatch = line.match(/^\s*(```|~~~)/);
-    if (fenceMatch) {
+  lines.forEach((line, index) => {
+    if (/^\s*(```|~~~)/.test(line)) {
       inFence = !inFence;
       return;
     }
     if (inFence) return;
 
     const targets = [];
-    let m;
-    MD_LINK_RE.lastIndex = 0;
-    while ((m = MD_LINK_RE.exec(line))) targets.push(m[1]);
-    HREF_RE.lastIndex = 0;
-    while ((m = HREF_RE.exec(line))) targets.push(m[1]);
+    MARKDOWN_LINK.lastIndex = 0;
+    let match;
+    while ((match = MARKDOWN_LINK.exec(line))) {
+      if (match[1] === "!" && !match[2].trim()) {
+        addError(file, index + 1, "图片缺少有意义的 alt 文本");
+      }
+      targets.push(match[3]);
+    }
+    HTML_HREF.lastIndex = 0;
+    while ((match = HTML_HREF.exec(line))) targets.push(match[1]);
+    HTML_IMAGE.lastIndex = 0;
+    while ((match = HTML_IMAGE.exec(line))) {
+      const alt = match[1].match(/\balt\s*=\s*["']([^"']*)["']/i)?.[1];
+      if (!alt?.trim()) addError(file, index + 1, "HTML 图片缺少非空 alt 属性");
+    }
 
-    for (const raw of targets) {
-      const resolved = resolveTarget(file, raw);
-      if (resolved && !existsSync(resolved)) {
-        addError(file, i + 1, `链接目标不存在: ${raw} -> ${relative(ROOT, resolved)}`);
+    for (const target of targets) {
+      const resolved = resolveTarget(file, target);
+      if (resolved && !localTargetExists(resolved)) {
+        addError(
+          file,
+          index + 1,
+          `链接目标不存在: ${target} -> ${relative(ROOT, resolved)}`,
+        );
       }
     }
   });
 }
 
-/** 提取一个 SUMMARY 文件里引用的内容文件（.md），归一化为 repo 根相对路径。 */
-function summaryTargets(file, prefix) {
+function parseFrontmatter(file) {
   const text = readFileSync(file, "utf8");
-  const set = new Set();
-  let m;
-  MD_LINK_RE.lastIndex = 0;
-  while ((m = MD_LINK_RE.exec(text))) {
-    const t = m[1].split("#")[0].split("?")[0].trim();
-    if (!t || isExternal(t) || t.startsWith("#")) continue;
-    if (extname(t) !== ".md") continue;
-    // prefix 用于把 docs/SUMMARY 的相对路径补成 repo 根视角，便于与根 SUMMARY 对比
-    const norm = t.startsWith("docs/") ? t : prefix + t;
-    set.add(norm);
+  const block = text.match(/^---\n([\s\S]*?)\n---\n/);
+  if (!block) return null;
+  const values = {};
+  for (const line of block[1].split("\n")) {
+    const match = line.match(/^([a-zA-Z][\w-]*):\s*(.+)$/);
+    if (match) values[match[1]] = match[2].trim().replace(/^['"]|['"]$/g, "");
   }
-  return set;
+  return values;
 }
 
-/** 校验根 SUMMARY 与 docs/SUMMARY 引用的中文内容文件集合一致。 */
-function checkSummaryConsistency() {
-  const rootSummary = join(ROOT, "SUMMARY.md");
-  const docsSummary = join(DOCS, "SUMMARY.md");
-  if (!existsSync(rootSummary) || !existsSync(docsSummary)) return;
-  const rootSet = summaryTargets(rootSummary, "docs/");
-  const docsSet = summaryTargets(docsSummary, "docs/");
-  for (const t of rootSet)
-    if (!docsSet.has(t))
-      addError(rootSummary, 0, `条目存在于根 SUMMARY 但缺失于 docs/SUMMARY: ${t}`);
-  for (const t of docsSet)
-    if (!rootSet.has(t))
-      addError(docsSummary, 0, `条目存在于 docs/SUMMARY 但缺失于根 SUMMARY: ${t}`);
+function checkFrontmatter(file) {
+  if (file.endsWith("SUMMARY.md")) return;
+  const frontmatter = parseFrontmatter(file);
+  if (!frontmatter) {
+    addError(file, 1, "公开页面缺少 frontmatter");
+    return;
+  }
+  for (const key of ["title", "description", "updated"]) {
+    if (!frontmatter[key]) addError(file, 1, `frontmatter 缺少 ${key}`);
+  }
+  if (frontmatter.updated && !/^\d{4}-\d{2}-\d{2}$/.test(frontmatter.updated)) {
+    addError(file, 1, "updated 必须使用 YYYY-MM-DD");
+  }
+  if (frontmatter.description && frontmatter.description.length < 24) {
+    addError(file, 1, "description 过短，无法区分页面内容");
+  }
+
+  if (/\/(7-ai|1-ai-learning)\.md$/.test(file) && frontmatter.updated) {
+    const age = Date.now() - Date.parse(`${frontmatter.updated}T00:00:00Z`);
+    const maxAge = 120 * 24 * 60 * 60 * 1000;
+    if (age > maxAge) addError(file, 1, "AI 产品资料超过 120 天未核验");
+  }
 }
 
-/** 复刻 MAINTENANCE.md 的陈旧字符串扫描。 */
+function checkBilingualParity(markdownFiles) {
+  const publicFiles = markdownFiles.filter(
+    (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
+  );
+  const chineseFiles = publicFiles.filter(
+    (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
+  );
+  const englishFiles = publicFiles.filter(
+    (file) => file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "en/README.md"),
+  );
+
+  const specialZhToEn = new Map([
+    ["threads/part-2/my-story.md", "threads/part-4/my-story.md"],
+  ]);
+  const specialEnToZh = new Map(
+    [...specialZhToEn].map(([zh, en]) => [en, zh]),
+  );
+
+  for (const file of chineseFiles) {
+    const path = relative(DOCS, file);
+    const expected = join(DOCS, "en", specialZhToEn.get(path) || path);
+    if (!existsSync(expected)) addError(file, 1, `缺少英文对应页: ${relative(ROOT, expected)}`);
+  }
+  for (const file of englishFiles) {
+    const path = relative(join(DOCS, "en"), file);
+    const expected = join(DOCS, specialEnToZh.get(path) || path);
+    if (!existsSync(expected)) addError(file, 1, `缺少中文对应页: ${relative(ROOT, expected)}`);
+  }
+}
+
 const STALE_PATTERNS = [
-  "2026-03-20",
-  "Learning with AI (2026 Edition)",
-  "利用 AI 学习（2026 版）",
-  "WIP",
-  "2025 Note",
-  "byoungd.github.io/English-level-up-tips",
+  ["#/", "残留 Docsify hash 路由"],
+  ["byoungd.github.io/up/#/", "残留旧 hash 站点地址"],
+  ["byoungd.github.io/English-level-up-tips", "残留旧站点域名"],
+  ["397865076", "公开个人 QQ 号码"],
+  ["user.qzone.qq.com", "公开个人空间链接"],
+  ["douyin-qr", "公开二维码资源"],
+  ["2026-06 版", "过期的版本标签"],
+  ["youtube.com/user/", "旧 YouTube 用户路由"],
+  ["pan.baidu.com/s/1i5OLIIT", "失效网盘链接"],
+  ["v.youku.com", "过期优酷链接"],
+  ["dopamine detox method", "把多巴胺排毒写成已验证方法"],
 ];
 
-function checkStaleStrings() {
-  const targets = [
-    join(ROOT, "README.md"),
-    join(ROOT, "SUMMARY.md"),
-    ...walk(DOCS, [".md", ".html"]),
-  ].filter(existsSync);
-  for (const file of targets) {
+function checkStaleStrings(markdownFiles) {
+  for (const file of markdownFiles) {
     const lines = readFileSync(file, "utf8").split("\n");
-    lines.forEach((line, i) => {
-      for (const pat of STALE_PATTERNS) {
-        if (line.includes(pat)) {
-          addError(file, i + 1, `命中陈旧字符串: "${pat}"`);
-        }
+    lines.forEach((line, index) => {
+      for (const [pattern, reason] of STALE_PATTERNS) {
+        if (line.includes(pattern)) addError(file, index + 1, `${reason}: "${pattern}"`);
       }
     });
   }
 }
 
-// ---- 执行 ----
-const mdFiles = walk(ROOT, [".md"]);
-for (const f of mdFiles) checkLinksInFile(f);
-checkSummaryConsistency();
-checkStaleStrings();
+function repositoryReadmeFromDocs(source) {
+  return source
+    .replace("中文 | [English](en/)", "中文 | [English](docs/en/README.md)")
+    .replace(/\]\((assets|threads|templates)\//g, "](docs/$1/")
+    .replace(/\]\(projects\.md\)/g, "](docs/projects.md)")
+    .replace(/href="\.\/(threads\/[^\"]+|projects)"/g, (_match, path) =>
+      `href="./docs/${path}.md"`,
+    );
+}
 
-if (errors.length === 0) {
-  console.log(`✓ 内容校验通过：扫描 ${mdFiles.length} 个 Markdown 文件，未发现问题。`);
+function checkReadmeMirror() {
+  const source = readFileSync(join(DOCS, "README.md"), "utf8");
+  const expected = repositoryReadmeFromDocs(source);
+  const actual = readFileSync(join(ROOT, "README.md"), "utf8");
+  if (expected !== actual) {
+    addError(join(ROOT, "README.md"), 1, "未与 docs/README.md 同步；运行 npm run sync");
+  }
+}
+
+async function checkImageMetadata() {
+  const files = walk(join(DOCS, "assets"), PUBLIC_IMAGE_EXTENSIONS);
+  for (const file of files) {
+    let metadata;
+    try {
+      metadata = await sharp(file).metadata();
+    } catch (error) {
+      addError(file, 1, `无法检查图片元数据: ${error.message}`);
+      continue;
+    }
+    const found = ["exif", "iptc", "xmp"].filter((key) => metadata?.[key] != null);
+    if (found.length) {
+      addError(file, 1, `包含 EXIF/GPS 或描述元数据块: ${found.join(", ")}`);
+    }
+  }
+}
+
+const markdownFiles = walk(ROOT, new Set([".md"]));
+for (const file of markdownFiles) checkLinksAndAlt(file);
+for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
+  checkFrontmatter(file);
+}
+checkBilingualParity(markdownFiles);
+checkStaleStrings(
+  markdownFiles.filter(
+    (file) =>
+      file.startsWith(`${DOCS}/`) ||
+      file === join(ROOT, "README.md") ||
+      file === join(ROOT, "SUMMARY.md"),
+  ),
+);
+checkReadmeMirror();
+await checkImageMetadata();
+
+if (!errors.length) {
+  console.log(`✓ 内容校验通过：${markdownFiles.length} 个 Markdown 文件，双语、链接、元数据与隐私检查正常。`);
   process.exit(0);
 }
 
 console.error(`✗ 发现 ${errors.length} 个问题：\n`);
-for (const e of errors) {
-  const loc = e.line ? `${e.file}:${e.line}` : e.file;
-  console.error(`  ${loc}  ${e.msg}`);
+for (const error of errors) {
+  const location = error.line ? `${error.file}:${error.line}` : error.file;
+  console.error(`  ${location}  ${error.message}`);
 }
 process.exit(1);

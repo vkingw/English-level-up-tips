@@ -1,10 +1,16 @@
-# Writing
+---
+title: "Writing: From Draft to Verifiable Revision"
+description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
+updated: 2026-08-16
+---
 
-Source (中文): <a href="#/threads/part-1/6-writing">写作篇</a>
+# Writing: From Draft to Verifiable Revision
+
+Source (中文): [写作篇](../../../threads/part-1/6-writing.md)
 
 Welcome to the writing chapter of *Life Level-up Guide*.
 
-This project began in 2017 as a way to share how I improved my English. It got more love than I expected (I even became “that markdown engineer with a lot of stars”), but after 2019 I basically stopped updating because I was young, busy with relationships, startups, and other restless experiments.
+This project began in 2017 as a way to share how I improved my English. It got more love than I expected (I even became “that markdown engineer with a lot of stars”), but after 2019 I basically stopped updating for a few years because I was young, busy with relationships, startups, and other restless experiments.
 
 Coming back to this chapter, I understand writing differently now. It is not decoration outside the English-learning path. It is how a person organizes experience, expresses judgment, repairs the self, and connects with opportunity. Language helps you see a wider world; writing helps you keep what you have seen.
 
@@ -14,13 +20,9 @@ Honestly, I once thought I should just drop the writing chapter. I didn’t feel
 
 That changed recently, after I published a piece about a failed startup and got a surprising amount of attention. The replies I received were powerful—supportive, thoughtful, and motivating. So I decided to come back and finish this missing chapter.
 
-![comments](../../../assets/nice-comment.png)
-
 Writing is both a skill and an art. It helps you express thoughts and emotions, share knowledge, and create value. But good writing is not a one-week project.
 
 This chapter isn’t about academic papers. It focuses on everyday writing—articles, posts, and practical communication. Here are a few ingredients that matter.
-
-![writing skills](../../../assets/writing-skills.png)
 
 ---
 
@@ -63,10 +65,7 @@ Using AI to rewrite writing is a new and interesting trend. It shows how capable
 
 Used well, it can help you spot issues. You can ask for suggestions, take what’s useful, and ignore what isn’t.
 
-> For example, this chapter itself was edited with AI suggestions.
-
-![New Bing](../../../assets/chatgpt.png)
-![AIGC](../../../assets/aigc.png)
+> For example, this chapter has used AI suggestions. Product screenshots age quickly and can hide the quality of the unaided draft, so this edition keeps the method and revision record rather than old interface images.
 
 ---
 
@@ -103,6 +102,25 @@ The world is already noisy. If you don’t *have to* add more noise, maybe don�
 > That said… this article is also noise. So yeah, guilty.
 
 ---
+
+## CEFR Task Goals
+
+- **A1–A2**: write short messages, forms, personal descriptions, and simply connected sentences.
+- **B1**: write coherent experiences, email, or familiar-topic texts with basic reasons.
+- **B2**: organise detailed text for an audience, compare positions, and support them with relevant evidence.
+- **C1–C2**: adapt flexibly to complex purposes and registers, synthesise sources, and revise precisely.
+
+## Inspectable Practice and Feedback
+
+State audience, purpose, and criteria; produce a timed draft without AI; review facts and task before structure, paragraphs, sentences, and wording; rewrite it yourself; complete a parallel task one week later.
+
+Score 0–2 for purpose, structure, evidence/detail, accuracy/range, and revision transfer. Keep draft, annotations, and final instead of showing only tool-polished work.
+
+## Seven Days, Thirty Days, Twelve Weeks
+
+- **Seven days**: complete a real email, an explanation, and a 200–300 word text, each with one revision.
+- **Thirty days**: one real deliverable weekly plus a personal recurring-error checklist; repeat the baseline prompt on day 30.
+- **Twelve weeks**: progress to a multi-source article, report, or application; finish with blind reader feedback and fact, citation, and privacy review.
 
 Prev: [Speaking](5-speaking.md)  
 Next: [AI](7-ai.md)

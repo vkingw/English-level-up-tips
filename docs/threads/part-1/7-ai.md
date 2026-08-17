@@ -1,431 +1,159 @@
-# 用 AI 学英语（2026-06 版）
-
-> 本章按 `2026-06-29` 可查官方资料更新。
->
-> 如果你想先了解“如何用 AI 学习编程、写作、考试、行业研究和工作产出”等通用方法，请先读：[使用 AI 学习一切（2026-06 版）](../part-3/1-ai-learning.md)。本章只聚焦英语学习场景。
-
-这两年，AI 学英语已经从「能陪你聊两句」进化到了「能带你按步骤学」。如果你只是把它当词典、翻译器或者作文润色器，那其实只用到了它很小一部分价值。
-
-现在更值得利用的是：它能帮你搭建一个接近真实使用场景的微型语言环境，持续给你出题、纠错、追问、复习，并且根据你的水平动态调整难度。
-
-如果你问我今天最值得优先尝试哪一套，我会更推荐 **Gemini**。
-
-不是因为它在所有维度都绝对最强，而是因为按 Google 官方在 `2025-08-06` 到 `2026-06` 这段时间公开的产品更新来看，Gemini 已经把 **Guided Learning、测验/闪卡/学习指南、Canvas、Gems、Gemini Live** 这些学习功能串成了一条比较完整的链路。对于英语学习者来说，这比单纯「问一个问题，等它回答」更有用。
-
+---
+title: 用 AI 学英语：按任务选择工作流
+description: 不押注单一模型，用引导学习、长期项目、来源材料、输出反馈和本地学习状态训练听说读写。
+updated: 2026-08-16
 ---
 
-## 0. 先说结论：为什么现在优先推荐 Gemini
+# 用 AI 学英语：按任务选择工作流
 
-基于 Google 官方帮助中心和产品博客，我认为 Gemini 现在最适合拿来做英语学习，主要有 5 个原因：
+AI 可以缩短“找材料、生成练习、获得初步反馈”的时间，但不能替你完成记忆、听辨、发音动作、判断和真实沟通。本章不再优先推荐某一个品牌，而是先选择任务，再选择能力。
 
-1. **它开始强调“引导式学习”，而不是直接给答案**
-   - Google 在 `2025-08-06` 发布了 `Guided Learning`，明确强调它会通过提问、分步拆解、图片、视频和互动测验来帮助你理解，而不只是把答案扔给你。
-   - 这对英语学习尤其重要，因为学语言最怕“看懂了答案，但自己不会用”。
+> 核验日期：**2026-08-16**。功能会因地区、年龄、语言、设备、账号和套餐变化；使用前查看相应官方帮助页。
 
-2. **它已经原生支持做测验、闪卡和学习指南**
-   - 你现在可以直接把文章、讲义、YouTube 视频或自己的笔记喂给 Gemini，让它生成 quiz、flashcards 和 study guide。
-   - 这意味着你可以把“阅读一篇文章”“看一个英文视频”直接转成后续复习材料，而不是学完就结束。
+## 两种工作空间不要混淆
 
-3. **Canvas 很适合改作文、重写表达、整理口语素材**
-   - Canvas 现在不只是生成文本，还能把内容继续改写、延长、缩短、调整语气，甚至把材料再转成 quiz 或音频概览。
-   - 对英语学习来说，它特别适合做作文批改、邮件润色、口语提纲整理。
+### 引导学习：用于当下的一次教学
 
-4. **Gemini Live 很适合练口语**
-   - 官方帮助页明确写了，Gemini Live 支持自然来回对话、打断、练习重要场景，还能共享摄像头和屏幕。
-   - 这意味着你可以把它当“随时能陪你开口说”的陪练，而不是只能靠打字练英语。
+适合：分层讲解、追问、提示、开放题、测验和知识检查。
 
-5. **你可以把它做成自己的英语课程，而不只是零散聊天**
-   - Gemini 的 `Gems` 允许你创建一个有固定教学规则的自定义助手。
-   - 但这里有个很关键的限制：Google 官方帮助页明确写着，**预设的 `Learning coach` Gem 目前不支持 language learning**，并且 **Gems 目前也不能直接和 Gemini Live 一起使用**。
-   - 所以我不推荐你迷信官方预设 Gem，而是更推荐你自己做一个 `English Coach Gem`，再把它和 Gemini Live、Canvas 配合起来用。
+以 ChatGPT Study Mode 为例，OpenAI 将其描述为通过逐步指导、交互式提示、支架式回复和知识检查来帮助学习。它可以在对话中开关，也可能出现行为不一致。把它用于“先让我回答，再提示”，不要把每次回答视为权威教材。
 
-一句话总结：
+### Projects：用于长期上下文与作品
 
-> **现在更好的 AI 学英语方式，不是“让 AI 替你学”，而是“把 Gemini 配成一个会带节奏、会出题、会纠错、会追问的英语私教系统”。**
+适合：保存课程材料、目标、历史对话、错题和作品。ChatGPT Projects 的官方帮助页说明它可以集中聊天、文件和项目指令，并具有项目上下文/记忆。**同一官方页面也明确写明 Study Mode 不适用于 Project 对话。** 所以不要假设“把学习模式放进项目”就能同时获得两者。
 
----
+最稳妥的组合是：
 
-## 1. 先搭一个属于你的 Gemini 英语课程
+1. 在本地维护 [学习状态](../../templates/learning-state.md)；
+2. 项目空间保存允许上传的材料与作品；
+3. 需要引导时另开支持学习模式的对话；
+4. 结束后把证据、错误和下一步写回本地状态文件。
 
-如果你只准备做一件事，那就先做这个。
+平台功能、记忆开关或账号都可能变化，本地文件才是可迁移的事实来源。
 
-不要一上来就问：
+## 工具按任务分工
 
-> 请帮我学英语。
+| 任务 | 可选工具能力 | 2026-08-16 边界 |
+| --- | --- | --- |
+| 引导式学习与知识检查 | ChatGPT Study Mode；Gemini 学习辅导、测验/抽认卡 | 需登录；Gemini 部分移动功能逐步推出，OpenStax 资源目前有英语、美国、年龄/账号限制 |
+| 长期材料与上下文 | ChatGPT Projects；Claude Projects | ChatGPT Projects 面向免费和付费账号；Claude Projects 面向所有用户，免费账号最多 5 个项目，增强 RAG 属付费功能 |
+| 基于自有资料学习 | NotebookLM；支持文件的项目空间 | 回答仍需回到原始页码/段落核验；上传前确认版权与隐私 |
+| 带来源的网页研究 | Perplexity 或带搜索与引用的产品 | 引用存在不等于引用支持结论；必须打开原始来源 |
+| 长文解释与反馈 | ChatGPT、Claude、Gemini | 模型可能顺畅地给出错误解释；用评分标准和外部来源复核 |
+| 语言润色 | DeepL Write 或通用模型 | 润色会掩盖你的真实水平；保留初稿并解释每项修改 |
+| 实时口语 | 支持语音对话的产品，如 Gemini Live、ChatGPT Voice | 语音识别和发音评价可能误判；地区、设备和套餐可用性会变化 |
 
-这种问法太空，AI 只会回你一堆正确但没什么执行力的建议。
+这个表不是排名。先看材料敏感度、任务、语言、反馈质量和可导出性，再决定工具。
 
-更好的方式是：先在 Gemini 里创建一个自定义 `Gem`，把它固定成你的英语教练。
+## 建立英语学习项目
 
-你可以直接把下面这段说明作为 `Gem instructions`：
+在任何项目空间中，使用以下结构：
 
-> 你是我的 English Level-Up Coach。  
-> 我是中文母语者，当前英语水平大约在 B1-B2 之间，目标是在 12 周内明显提升听说读写综合能力，并优先提升口语、听力和工作场景表达。  
->  
-> 你的任务不是一次性给我很多建议，而是把英语学习做成一门可持续推进的课程。请遵守以下规则：  
-> 1）默认用英文和我互动，但在解释复杂语法、抽象词义差异或我明确要求时，可以补充简短中文；  
-> 2）每次课程控制在 20-30 分钟；  
-> 3）每次课程必须包含：热身、输入材料、输出任务、纠错反馈、复盘；  
-> 4）你要优先纠正那些高频、可迁移、真实场景里最常用的错误，而不是吹毛求疵；  
-> 5）每次只给我一个清晰的小目标，例如“今天只练如何更自然地表达不同意”；  
-> 6）你要持续记录我的常见错误，按周做复习；  
-> 7）如果我说“开始今天课程”，你就直接带我进入下一节课；  
-> 8）如果我上传文章、简历、邮件、会议纪要或视频字幕，你要把它们改造成英语课程材料；  
-> 9）你每次都要推动我主动输出，不要长篇大论替我完成学习；  
-> 10）每次课程结束后，输出 4 项内容：今天学到的表达、我犯的关键错误、家庭作业、下一次课程重点。
+```text
+00-goal/            真实任务与完成标准
+01-baseline/        未经 AI 修改的听说读写样本
+02-materials/       允许使用的文章、转写与课程材料
+03-output/          录音、初稿与修订稿
+04-errors/          错误分类与最小对比例
+learning-state.md   当前事实与下一步
+```
 
-如果你有明确目标，比如：
+项目指令可以写：
 
-- 想准备雅思口语
-- 想练外企面试
-- 想提高英文邮件
-- 想提升程序员工作场景英语
+```text
+你是英语训练反馈者。先让我完成任务，不要先给完整答案。反馈按：任务完成、可理解度、准确与范围、组织与流畅、修订与迁移。每次只选 1–3 个最影响沟通的问题，引用我的原句，给一个最小对比例和一个平行练习。无法确认的事实或用法请明确说不确定，并建议词典、语料或原始来源。
+```
 
-那就把这些内容也写进 Gem 指令里，或者直接把你的简历、JD、常见会议主题、常读文章上传到 Gem 的 `Knowledge` 里。
+## 词汇
 
-基于 Google 官方当前的产品设计，我认为 **“自定义 English Coach Gem + Gemini Live + Canvas”** 是目前 Gemini 学英语最实用的一套组合。
+把真实材料和目标词块交给 AI，而不是让它随机生成“每天 50 词”。
 
----
+```text
+从这段材料选择 8 个最影响理解或最可能在我的工作中复用的词块。先说明选择理由，再为每个词块给：当前义项、发音提示、常见搭配、来源原句和一个填空。让我答完后才给答案。标出需要用词典或语料核验的内容。
+```
 
-## 2. 口语与发音：优先用 Gemini Live
+完成后用学习者词典核验，再按 [词汇篇](2-vocabulary.md) 做延迟回忆和新语境产出。
 
-口语是最适合用 AI 拉起来的一项，因为它最依赖互动、纠错和高频重复。
+## 听力
 
-如果你有 Gemini Live，建议优先用它练口语，而不是纯打字聊天。原因很简单：你一旦开始张口，暴露出来的问题会立刻多很多，比如：
+1. 首听不看转写，写主旨和细节。
+2. 第二遍标记听不出的时间段。
+3. 让 AI 按“未知词、已知但没听出、连读/弱读、注意力、背景知识”分类。
+4. 跟读困难句，再合上转写复述。
+5. 一周后使用同难度平行材料测试迁移。
 
-- 句子太长，组织不过来
-- 总是卡在某几个常见表达
-- 发音不稳
-- 语气不自然
-- 一被追问就不会继续说
+AI 生成转写可能有误。重要材料要对照官方字幕或人工校对。
 
-你可以直接这样开练：
+## 口语与发音
 
-> Please act as my speaking coach. We will have a natural English conversation for 15 minutes. Keep your turns short. Interrupt me when necessary only if my sentence is hard to understand. After every 3 rounds, give me brief feedback on grammar, word choice, and pronunciation priorities.
+```text
+和我做 6 轮 [场景] 对话。每轮只说 1–2 句并等待我回答。结束后不要笼统鼓励：按任务完成、可理解度、停顿、词块和一个高影响发音点反馈。引用转写证据；如果仅凭语音识别无法判断发音，请明确说明。
+```
 
-如果你想练职场口语：
+保存第一次录音、转写、反馈和第二次重录。语音识别成功不等于发音自然，识别失败也不一定是发音错误。
 
-> Let's simulate a weekly sync meeting in English. You are my teammate. Ask me one question at a time about project progress, blockers, next steps, and risks. After each answer, tell me how to make it sound more natural and concise.
+## 阅读
 
-如果你想练描述能力，可以直接用摄像头或屏幕共享：
+先自己读，再让 AI 做教练：
 
-> I will show you a screen, slide, chart, or object. Ask me to describe what I see in English, then help me improve clarity, vocabulary, and structure.
+```text
+不要先总结。先问我：作者主张、关键证据、隐含假设和一个反例。根据我的回答追问。最后对照原文逐项指出“原文支持、合理推断、原文不支持”，必须引用段落；找不到依据就说找不到。
+```
 
-这类训练的关键不是“聊得开心”，而是：
+研究性阅读应优先上传或链接原始材料，避免让模型凭记忆重构论文。
 
-1. 尽量缩短 AI 输出，逼自己多说。
-2. 每轮只改 1-2 个最关键的问题。
-3. 优先改高频场景表达，不要沉迷罕见词汇。
-4. 把 AI 的反馈整理成你自己的口语错题本。
+## 写作
 
----
+保留三个版本：未经帮助的初稿、带批注的版本、自己重写的终稿。
 
-## 3. 听力：把材料直接变成测验和复习卡片
+```text
+先判断这篇文字是否完成 [受众/目的]。不要整篇代写。按影响排序指出最多 5 个问题，每项引用原句、解释影响、给一个最小修改示例。把“事实问题”“结构问题”“语言问题”分开。最后让我自己重写最弱的一段，再评价第二版。
+```
 
-很多人练听力最大的问题是：听的时候像在学习，听完之后什么都没留下。
+如果你无法解释修改原因，就还没有把修改转化为能力。
 
-Gemini 现在一个非常实用的点，是可以把材料直接变成 quiz、flashcards、study guide。这样你就能把“输入”变成“带反馈的复习”。
+## 反馈不可靠时怎么办
 
-比如你看完一个英文视频、播客 transcript、演讲稿之后，可以直接说：
+- 同一个问题要求模型引用原句或来源，不接受无证据的评分；
+- 用词典、语料、教师或真实受众检查高风险判断；
+- 把“我不确定”设为允许答案；
+- 不让 AI 评价人格、智力或医学状态；
+- 定期做无 AI 样本，避免辅助能力被误当成个人能力。
 
-> Create a quiz about this material. Start with 5 easy comprehension questions, then 5 harder inference questions. After each answer, do not tell me only whether it is right or wrong. Explain why.
+## 隐私与版权
 
-或者：
+不要上传未获授权的课堂资料、公司机密、客户数据、学生信息、儿童资料、私人录音或第三方照片。删除姓名与标识不一定完成匿名化；敏感内容优先离线处理或只提供最小必要片段。项目共享前检查成员、链接权限、文件和历史对话。
 
-> Create flashcards about this material. Focus on high-frequency vocabulary, collocations, and sentence patterns that are useful in real conversations, not just rare difficult words.
+## 7 天、30 天、12 周
 
-如果你想做精听：
+### 7 天：建立闭环
 
-> Turn this transcript into a listening lesson for me. Split it into short chunks. First hide the full text. Let me transcribe one chunk at a time, then compare my answer with the original and explain the key misses.
+- 创建本地学习状态和一个无 AI 基线；
+- 完成词汇、听力、口语、阅读、写作中最重要的三项任务；
+- 每次保留“原始输出 → 反馈 → 第二版”；
+- 第 7 天检查 AI 是否让你更多输出，而不是更多阅读回答。
 
-如果你是中高级学习者，强烈建议你不要只做“听懂大意”。
+### 30 天：建立错误库
 
-更好的办法是让 AI 帮你做三层训练：
+- 按高频错误建立最小对比例与平行练习；
+- 每周至少做一次无 AI 任务；
+- 删除无证据、重复或过度宽泛的反馈；
+- 第 30 天用同条件基线复测。
 
-1. 内容理解：我听懂了什么？
-2. 表达吸收：这里有哪些值得我拿来复用的句型？
-3. 口头复述：我能不能不用看稿把它重新说出来？
+### 12 周：交付真实作品
 
-只要你把这三层跑通，听力就不再只是“输入”，而会自然反哺口语和写作。
+- 用真实会议、演讲、文章、考试或协作作为最终任务；
+- 中期逐步减少提示和改写；
+- 最终作品进行人工事实、来源、隐私与语言审查；
+- 导出状态和作品，确保离开当前产品仍能继续。
 
----
+## 官方来源
 
-## 4. 阅读：让 Gemini 做讲解员和出题人
+- OpenAI：[学习模式简介](https://openai.com/zh-Hans-CN/index/chatgpt-study-mode/)；[Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
+- Google：[在 Gemini 应用中使用学习工具](https://support.google.com/gemini/answer/16448384)；[创建测验、抽认卡等](https://support.google.com/gemini/answer/16275879)；[Gemini Live](https://support.google.com/gemini/answer/15274899)
+- Anthropic：[What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
+- Google：[NotebookLM](https://notebooklm.google/)
+- Perplexity：[Help Center](https://www.perplexity.ai/help-center/)
+- DeepL：[DeepL Write](https://www.deepl.com/write)
 
-阅读时最浪费 AI 的用法，就是让它直接全文翻译。
-
-你真正需要的不是“替你看”，而是“帮你把难点拆开，再逼你自己理解和输出”。
-
-如果你在 Gemini 里用 `Guided Learning`，可以直接这样说：
-
-> Help me study this article with Guided Learning. Do not translate everything directly. First ask me what I think the main idea is. Then guide me paragraph by paragraph, explain key expressions, and quiz me on the logic.
-
-如果文章比较难：
-
-> Rewrite this article into a clearer version for an upper-intermediate English learner. Keep the key vocabulary, but simplify the sentence structure. Then compare the original and simplified versions.
-
-如果你想真正提高阅读能力，而不是只看懂这一篇：
-
-> From this article, extract 10 expressions that are worth actively learning. For each one, explain meaning, register, typical collocations, and give me one fill-in-the-blank exercise.
-
-更进一步，你还可以让它反过来考你：
-
-> I will summarize this article in English. After that, score my summary from 0 to 10 for accuracy, clarity, and vocabulary, and tell me what I missed.
-
-阅读的核心不是知道每个词，而是逐渐培养：
-
-- 快速抓主旨的能力
-- 理解段落推进逻辑的能力
-- 识别高价值表达的能力
-- 用自己的英语复述内容的能力
-
-AI 能把这四步串起来，这才是它比普通词典更有价值的地方。
-
----
-
-## 5. 写作：用 Canvas 改，而不是只让 AI 重写
-
-很多人写作时一遇到困难，就把中文大意扔给 AI，让它直接写一篇英文出来。这样当然方便，但提高很慢。
-
-更有效的方式是：
-
-1. 你先自己写。
-2. 让 AI 标出问题。
-3. 你自己修改。
-4. 最后再看它的升级版。
-
-Canvas 特别适合做这件事，因为它可以持续编辑同一份文档。
-
-你可以这样用：
-
-> Here is my draft. Do not rewrite everything immediately. First identify the most important mistakes and weak sentences. Explain why they are weak. Then ask me to revise them myself. After I revise them, show me a stronger version for comparison.
-
-如果你练的是邮件：
-
-> Improve this email for a professional but natural tone. Give me three versions: polite, concise, and more direct. Then explain when each version is appropriate.
-
-如果你练的是考试作文：
-
-> Grade this essay using the IELTS Writing Task 2 criteria. Give me band estimates for Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy. Then tell me the top 3 changes that would most improve my score.
-
-如果你练的是程序员或职场写作：
-
-> Turn my rough notes into a clear English status update. Keep it concise, natural, and suitable for a Slack update or short team email. Then point out 5 reusable expressions.
-
-记住一点：**AI 最有价值的不是帮你写完，而是帮你看到“自己哪里写得不自然”。**
-
----
-
-## 6. 词汇与语法：做对比、造句、抽查，而不是只查定义
-
-AI 当然可以给你解释单词和语法，但如果你只是问完就走，效果不会太好。
-
-更推荐你这样用：
-
-1. **做近义词对比**
-
-> Explain the difference between effective, efficient, and practical in Chinese and English. Give me common collocations, natural examples, and 5 short exercises.
-
-2. **从错误里反推语法课**
-
-> Based on my recent mistakes, design a 15-minute micro lesson on the grammar points I keep getting wrong. Keep it focused and practical.
-
-3. **让 Gemini 持续抽查**
-
-> Save the vocabulary and expressions I marked as useful today. Three days later, test me on them with mixed formats: translation, fill-in-the-blank, and sentence creation.
-
-4. **优先学“能复用”的表达**
-   - 不要总盯着那些看起来很高级、实际一年也用不上几次的词。
-   - 更值得学的是高频搭配、句型骨架、常见语气和真实口语里的自然说法。
-
-一个很有效的习惯是：每次学习结束，只保留 `5-10` 个你真的准备拿来用的表达，然后让 AI 反复考你、逼你造句。
-
----
-
-## 7. 应试与职场：让 AI 做高仿真模拟
-
-对很多人来说，英语学习并不是抽象的“提升水平”，而是非常具体的：
-
-- 我要准备雅思 / 托福 / 四六级
-- 我要准备英文面试
-- 我要在外企开会
-- 我要写英文邮件、周报、汇报
-
-这些场景都非常适合拿 AI 来做高仿真模拟。
-
-比如雅思口语：
-
-> Act as an IELTS speaking examiner. Ask me one question at a time in Part 1, Part 2, and Part 3 order. After each answer, give me short feedback on fluency, grammar, vocabulary, and how to sound more natural.
-
-比如英文面试：
-
-> Act as an interviewer for an international tech company. Ask me common behavioral and role-specific questions one by one. Challenge vague answers and ask follow-up questions. After each round, tell me how to make my answer clearer and more convincing.
-
-比如会议汇报：
-
-> Help me prepare a 10-minute English project update. First turn my notes into a speaking outline, then ask me likely follow-up questions from my manager or teammates.
-
-这类训练的重点，不在于 AI 给你一份漂亮答案，而在于：
-
-1. 它能不能逼你在压力下组织语言。
-2. 它能不能追问你，让你暴露真实短板。
-3. 它能不能把反馈沉淀成下一轮训练素材。
-
-如果能做到这三点，AI 就已经非常值了。
-
----
-
-## 8. 我最推荐的 Gemini 英语学习工作流
-
-如果你嫌前面太多，直接照这个流程来就行：
-
-1. **用 Gem 设定长期课程**
-   - 固定你的目标、水平、训练规则、反馈格式。
-
-2. **用 Gemini Live 练口语**
-   - 每天 `10-15` 分钟，优先练高频场景。
-
-3. **用 Guided Learning 学阅读或知识型材料**
-   - 不求它直接给答案，重点让它分步带你学。
-
-4. **用 quizzes / flashcards / study guide 做复习**
-   - 把视频、文章、播客、会议材料直接转成复习素材。
-
-5. **用 Canvas 改写作和整理表达**
-   - 尤其适合邮件、作文、汇报稿、英文自我介绍。
-
-这套流程最大的优点是：**输入、输出、纠错、复习能串起来。**
-
-英语真正进步，靠的从来不是某一个神奇工具，而是这四件事能不能长期循环。
-
----
-
-## 9. 其他工具在英语学习里的位置
-
-通用的工具分工已经放到 [使用 AI 学习一切](../part-3/1-ai-learning.md) 里，这里只说英语学习里的实际落点。
-
-1. **ChatGPT**
-   - 适合用 Study Mode 拆语法、精读文章、讲解考试题。
-   - Projects 适合沉淀长期错题、作文样本、面试题库和个人表达库。
-
-2. **Claude**
-   - 适合长文精读、作文反馈、风格训练。
-   - 如果你有大量邮件、简历、行业资料或技术文档，可以用项目知识库保持上下文。
-
-3. **NotebookLM / Perplexity**
-   - NotebookLM 适合基于固定来源学习，比如课程讲义、英文报告、论文和书摘。
-   - Perplexity 适合找最新英文材料、追踪主题、建立阅读清单。
-
-4. **DeepL Write**
-   - 适合作为英文写作最后一轮润色，检查自然度、语气和简洁度。
-   - 不建议一开始就让它替你写完，否则训练效果会变弱。
-
-一句话：**用 Gemini 搭英语训练链路，用 ChatGPT/Claude 拆难点和改输出，用 NotebookLM/Perplexity 找材料和固定来源，用 DeepL Write 做最后打磨。**
-
----
-
-## 10. 更有指导性的用法：别只问答案，要设计训练回路
-
-多数人用 AI 学英语效果一般，不是因为工具不够强，而是因为使用方式太像“临时求助”。
-
-更有效的做法，是给自己设计固定回路。下面这几个回路都很实用。
-
-1. **输入材料四步法**
-   - 第一步：先自己读 / 听，别立刻求翻译。
-   - 第二步：让 AI 帮你拆难点、提问题、抽表达。
-   - 第三步：你用英文复述或回答问题。
-   - 第四步：让 AI 根据你的输出再纠错和追问。
-
-2. **写作三段式**
-   - 先自己写第一版。
-   - 再让 AI 标出最重要的 3-5 个问题。
-   - 最后自己重写，再看 AI 的高阶版本。
-
-3. **口语最小闭环**
-   - 开口说 `2-3` 分钟。
-   - 只改 `1-2` 个关键问题。
-   - 立刻再说一遍修正版。
-   - 比起一次性收到十几条建议，这样更容易真正吸收。
-
-4. **词汇吸收闭环**
-   - 今天学到新表达。
-   - 当天先造句。
-   - `2-3` 天后让 AI 抽查。
-   - 一周后再放进新场景里复用。
-
-5. **材料再利用原则**
-   - 一篇文章不要只读一次。
-   - 一个视频不要只听一次。
-   - 你完全可以把同一份材料连续拿来做：阅读理解、词汇提取、听写训练、口头复述、写作模仿。
-
-真正拉开差距的，往往不是你找了多少资料，而是你有没有把同一份好材料反复榨干。
-
----
-
-## 11. 一周最小执行模板
-
-如果你不知道怎么开始，可以先按这个节奏跑两周：
-
-- 周一：`15` 分钟口语陪练 + `10` 分钟纠错复述；
-- 周二：精读一篇短文，并抽取 `5-10` 个表达；
-- 周三：围绕同主题做一次口语或面试模拟；
-- 周四：把前两天材料做成 quiz / flashcards；
-- 周五：写一小段邮件、总结或作文，再修改两轮；
-- 周末：回顾本周高频错误，做一次集中复盘。
-
-这个模板不花哨，但只要能持续做，进步一般会比“偶尔突击 2 小时”更稳定。
-
----
-
-## 12. 使用 AI 时的几点建议
-
-1. **把它当教练，不要当答案生成器**
-   - 让它多提问、多追问、多纠错，而不是一股脑替你完成。
-
-2. **每次只练一个小目标**
-   - 比如今天只练“如何更自然地表达建议”，效果通常比什么都想练更好。
-
-3. **优先暴露问题，而不是掩盖问题**
-   - 尤其是口语和写作，先自己说、自己写，再让 AI 纠正。
-
-4. **把反馈留痕**
-   - 常见错误、好表达、典型句型，最好沉淀成你自己的复习列表。
-
-5. **对事实、语法争议和固定搭配保持核验意识**
-   - AI 很强，但并不等于永远可靠。遇到关键表达时，可以再用权威词典、语料库或真实例句交叉确认。
-
-6. **注意隐私**
-   - 不要把未脱敏的个人隐私、公司机密、未公开材料直接丢进去。
-
----
-
-## 13. 资料更新依据
-
-本章聚焦英语学习，通用 AI 学习资料和跨工具分工详见：[使用 AI 学习一切](../part-3/1-ai-learning.md)。这里保留与英语训练直接相关的依据：
-
-- Gemini Apps Help：
-  - [Use learning tools in Gemini Apps](https://support.google.com/gemini/answer/16448384)
-  - [Create quizzes, flashcards & more in Gemini Apps](https://support.google.com/gemini/answer/16275879)
-  - [Create docs, apps & more with Canvas](https://support.google.com/gemini/answer/16047321)
-  - [Use Gems in Gemini Apps](https://support.google.com/gemini/answer/15146780)
-  - [Talk naturally with Gemini Live](https://support.google.com/gemini/answer/15274899)
-- Google 官方博客：
-  - [Guided Learning in Gemini: From answers to understanding](https://blog.google/products-and-platforms/products/education/guided-learning/)
-
-也就是说，**“推荐 Gemini 学英语”这件事现在仍然成立，但更准确的推荐方式不是迷信官方预设课程，而是用 Gemini 现有学习功能自己搭一套英语课程系统**。
-
----
-
-总之，AI 不是捷径，但它已经足够成为一个高频、可持续、低摩擦的英语训练伙伴。
-
-而在现在这个时间点，如果你愿意认真配置，我会优先推荐你把 **Gemini** 当成英语学习的主引擎：
-
-- 用 `Gem` 管长期课程
-- 用 `Live` 练口语
-- 用 `Guided Learning` 学材料
-- 用 `Canvas` 改写作
-- 用 `quiz / flashcards / study guide` 做复习
-
-这样用，AI 才不是一个偶尔帮你翻译两句的聊天机器人，而是真正能推动你英语水平持续上升的系统。
-
-上一篇：[写作篇](6-writing.md) ｜ 下一篇：[使用 AI 学习一切（2026-06 版）](../part-3/1-ai-learning.md)
+上一篇：[写作篇](6-writing.md) ｜ 下一篇：[使用 AI 学习一切](../part-3/1-ai-learning.md)

@@ -1,6 +1,12 @@
-# Misc (Random Thoughts)
+---
+title: Miscellaneous Notes
+description: Additional personal notes about learning, training, devices, and past experiences, preserved with their context.
+updated: 2026-08-16
+---
 
-Source (中文): <a href="#/threads/part-2/x-misc">扯淡篇</a>
+# Miscellaneous Notes
+
+Source (中文): [扯淡篇](../../../threads/part-2/x-misc.md)
 
 This chapter is intentionally a bit off-topic: personal opinions, stories, and some “learned the hard way” moments.
 

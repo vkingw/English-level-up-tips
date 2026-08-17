@@ -1,3 +1,9 @@
+---
+title: "Week 1: Real-life English Practice"
+description: English practice about sleep, stress, and lifestyle, with historical personal claims revised to reflect current evidence boundaries.
+updated: 2026-08-16
+---
+
 ## WHY
 
 The reason I wanted to write this article is because I get one question very often from GitHub. Actually, I get a lot of questions, but there is one that stands out:
@@ -59,7 +65,7 @@ Since our internal clocks are sensitive to light, generally:
 
 Russell and his team also studied what happens when the `circadian rhythm` is disrupted by sleeping at odd times (jet lag, night shifts). They found higher stress hormones, higher risk of heart disease, and people getting sick more often. They also became more `prone to emotional` and `cognitive problems`.
 
-> Reference video: https://www.youtube.com/watch?v=qlf9-573MhI 00:02:28,070 - 00:02:38,210
+> Reference video: <https://www.youtube.com/watch?v=qlf9-573MhI> 00:02:28,070 - 00:02:38,210
 
 It’s also worth remembering: our internal clocks aren’t identical. That’s why some people are morning people and some are night owls. It’s related to your `chronotype`.
 
@@ -91,9 +97,9 @@ The most important thing I want to share is `how to deal with stress`.
 
 Manage your stress and learn to relax properly.
 
-> Here is a video that might help you: https://www.youtube.com/watch?v=9QiE-M1LrZk
+> Here is a video that might help you: <https://www.youtube.com/watch?v=9QiE-M1LrZk>
 
-I mentioned in my article on [Zhihu](https://zhuanlan.zhihu.com/p/653380203) that I was addicted to games for a while, but I overcame it by using the `dopamine detox method`.
+I mentioned in an article on [Zhihu](https://zhuanlan.zhihu.com/p/653380203) that I struggled with compulsive gaming for a period. I once described the change as a “dopamine detox”, but that popular label is not a clinical mechanism or established treatment. What helped me was changing cues and routines, reducing access, restoring sleep and daily structure, and seeking support. Persistent loss of control deserves qualified professional help.
 
 Even when you logically know that studying, exercising, building a business, or doing something productive will benefit you in the long run, you still prefer watching TV, playing video games, and scrolling social media.
 
