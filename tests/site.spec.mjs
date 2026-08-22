@@ -67,6 +67,13 @@ test("language navigation and representative image work", async ({ page }) => {
   await expect(englishLearning).toBeVisible();
 });
 
+test("home page shows the latest updates", async ({ page }) => {
+  await page.goto("./");
+  await expect(page.getByRole("heading", { level: 2, name: "最新动态" })).toBeVisible();
+  await expect(page.getByRole("img", { name: "作者与朋友的合影" })).toBeVisible();
+  await expect(page.getByRole("img", { name: "作者与粉丝的合影" })).toBeVisible();
+});
+
 test("keyboard focus reaches navigation", async ({ page }) => {
   await page.goto("./");
   await page.keyboard.press("Tab");

@@ -1,7 +1,7 @@
 ---
 title: 人生进阶指南
 description: 从英语学习到 AI 学习、人生复盘与现实实践，一套重证据、可执行、可持续复盘的人生进阶系统。
-updated: 2026-08-16
+updated: 2026-08-20
 ---
 
 # 人生进阶指南
@@ -23,6 +23,19 @@ updated: 2026-08-16
   <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>AI 学习与工作能力</strong>按任务选择工具，用状态文件延续跨会话学习。</a>
   <a class="guide-path" href="./threads/part-2/my-story"><strong>人生复盘、创业与恢复</strong>从真实经历中提炼判断，不复制他人的人生。</a>
   <a class="guide-path" href="./projects"><strong>作者项目与现实实践</strong>集中说明作者关联、用途、更新日期与非赞助关系。</a>
+</div>
+
+## 最新动态
+
+<div class="latest-updates">
+  <figure class="latest-update">
+    <img src="./assets/latest/single-again.jpg" alt="作者与朋友的合影" />
+    <figcaption><strong>新的开始</strong>离婚后恢复单身，正在寻找新的恋情。</figcaption>
+  </figure>
+  <figure class="latest-update">
+    <img class="latest-update-fan-photo" src="./assets/latest/agentic-db-fans.jpg" alt="作者与粉丝的合影" />
+    <figcaption><strong>Agentic DB 大会</strong>参加阿里巴巴 x NVIDIA Agentic DB 大会，和粉丝会面。</figcaption>
+  </figure>
 </div>
 
 ## 今天就开始

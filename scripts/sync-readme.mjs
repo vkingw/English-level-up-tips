@@ -13,6 +13,7 @@ function toRepositoryReadme(source) {
   return source
     .replace("中文 | [English](en/)", "中文 | [English](docs/en/README.md)")
     .replace(/\]\((assets|threads|templates)\//g, "](docs/$1/")
+    .replace(/src="\.\/assets\//g, 'src="./docs/assets/')
     .replace(/\]\(projects\.md\)/g, "](docs/projects.md)")
     .replace(/href="\.\/(threads\/[^\"]+|projects)"/g, (_match, path) =>
       `href="./docs/${path}.md"`,

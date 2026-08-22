@@ -1,6 +1,6 @@
 # Third-party Material and Citations
 
-Last reviewed: 2026-08-16.
+Last reviewed: 2026-08-20.
 
 This register distinguishes repository-owned material from third-party sources. A link is not a transfer of rights. Contributors must add or update an entry when adding external media, a substantial quotation, a dataset, or a product capability claim.
 
@@ -18,6 +18,7 @@ This register distinguishes repository-owned material from third-party sources. 
 | YouTube and product names/logos | Resource lists | Respective publishers and trademark owners | Links and nominative references only; no endorsement implied | 2026-08-16 |
 | Original guide illustrations | `docs/assets/*@2x.svg`, `feature*.svg`, `speaking-practice.svg`, `vocabulary-cat-concepts.svg` | byoungd / project contributors | Included in the content-license scope | 2026-08-16 |
 | Author project screenshots and visit photos | `docs/projects.md`, `docs/en/projects.md` | Author-provided media | Used for disclosure and personal record; not evidence of third-party endorsement | 2026-08-16 |
+| Latest personal updates | `docs/assets/latest/` and both home pages | Author-provided media | Used with the author's permission for the stated personal updates; EXIF metadata removed before publication | 2026-08-20 |
 
 ## Contribution Requirements
 

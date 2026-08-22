@@ -1,7 +1,7 @@
 ---
 title: Life Level-up Guide
 description: An evidence-aware, practical system for English learning, AI-assisted work, life review, and sustained growth.
-updated: 2026-08-16
+updated: 2026-08-20
 ---
 
 # Life Level-up Guide
@@ -23,6 +23,19 @@ The guide separates three kinds of claims:
   <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>AI Learning and Work</strong>Choose tools by task and recover context with a learning-state file.</a>
   <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Extract judgment from a real story without copying another life.</a>
   <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>See affiliations, purpose, update dates, and non-sponsorship disclosures.</a>
+</div>
+
+## Latest Updates
+
+<div class="latest-updates">
+  <figure class="latest-update">
+    <img src="../assets/latest/single-again.jpg" alt="The author with a friend" />
+    <figcaption><strong>A new chapter</strong>Divorced and single again, I am open to a new relationship.</figcaption>
+  </figure>
+  <figure class="latest-update">
+    <img class="latest-update-fan-photo" src="../assets/latest/agentic-db-fans.jpg" alt="The author with a fan" />
+    <figcaption><strong>Agentic DB Conference</strong>At the Alibaba x NVIDIA Agentic DB conference, meeting a fan.</figcaption>
+  </figure>
 </div>
 
 ## Start Today
