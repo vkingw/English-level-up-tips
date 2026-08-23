@@ -88,6 +88,8 @@ When learning enters a real project, the next step is not merely asking AI to wr
 
 The path has a clear product and service direction, but this project does not present it as a revenue myth. The chapter asks why a customer would pay, how delivery would be accepted, how costs might be covered, and which results still require real projects and long-term evidence.
 
+The chapter also turns two WeChat writing slices into practice: refusing the first likely answer becomes competing hypotheses and minimum experiments; noisy comments become answerable questions with redaction, permission, and human review. They are public narratives, not technical audits or proof of commercial results.
+
 ## Life Review, Entrepreneurship, and Recovery: Find Direction by Looking Back
 
 Personal stories remain because growth does not happen only inside a plan. Read [My Story](threads/part-4/my-story.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md) to see how a life can be reconnected across failure, disrupted health, leaving, and return.

@@ -261,7 +261,42 @@ A resource-layer service must answer where data enters, which suppliers see it, 
 
 When evidence does not support continuing, narrow the problem, change the customer, or stop. When it does, complete security, contracts, permissions, monitoring, and handover before expanding.
 
-## 10. Where the Path Loses Control
+## 10. Two Public-writing Practice Slices: From “Abstract” to “Frame by Frame”
+
+Two WeChat articles about me approach AI from different directions: one is a profile of a thinking style; the other is a narrative about handling a noisy comment stream. They are not technical audits, customer case studies, or proof of income. I use them as public narrative material and translate their useful moves into experiments with explicit limits.
+
+### 10.1 Refuse the first “most likely” answer
+
+On 11 August 2026, TokenMany published [“Han Xiankai: The Most ‘Abstract’ Human in AI”](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=hsfWcee*q*Okq4gsJ5TpMaWV4vZTwLean6SKtOxCC-EyAf9jWD6l1LQYDny29FqXVImHZFNFDPt*EVH*hVMN2pa91kZtuYfzI81wtV7yahnqVBsKS*c7Ls1uf9QqiEIF&new=1). It describes “abstract” as refusing ready-made answers and allowing technology, business, human behaviour, and daily life to illuminate one another. That is a literary observation about a public persona, not an independent measurement of capability.
+
+I turn the transferable part into development habits:
+
+1. write down the default assumption, then add at least one competing explanation;
+2. compress a cross-domain idea into an experiment that can run in one or two hours;
+3. mark which observations are facts and which are analogies, intuitions, or hypotheses;
+4. let the experiment disprove an attractive idea and keep the failed sample in the project record.
+
+This keeps “having a wild idea” from ending as a style of expression. The idea must pass through problem definition, a minimum prototype, tests, and retrospective before it becomes evidence another person can inspect.
+
+### 10.2 Turn noise into a question that can be answered
+
+On 21 August 2026, Wanli Center published [“Han Xiankai and AI: Splitting the Noise into Emotion, Frame by Frame”](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=k7g1j*QF9lLWMGUlkAu65EFOmvokb8FoM51LNr4hgn4Q4Cc7q3t3O8Mkac7YnWTJbIVdvX-PXYdZXVHEohJieTOPR*Q2-TVAHuIg2ljgp2BMn8m7STrvovnpW01j817Y&new=1). In its narrative, comments are classified one by one and annotated with “claim, evidence, emotional intensity, expression, and answerability”; insults are first treated as “emotion samples”. This does not prove that a public-opinion product was delivered or that the analysis improved an outcome. It offers a feedback-processing frame worth testing cautiously.
+
+In a real project I would constrain it to this workflow:
+
+| Step | AI may assist with | A person remains responsible for |
+| --- | --- | --- |
+| Collect | deduplication, clustering, and recurring themes | source, permission, data minimisation, and deletion deadline |
+| Separate | distinguishing claims, guesses, emotion words, and rhetorical tactics | checking evidence and refusing to turn labels into conclusions |
+| Prioritise | ordering by impact, urgency, and answerability | setting priority, risk, and escalation |
+| Respond | drafting several restrained replies aimed at a specific issue | facts, privacy, responsibility, and publication scope |
+| Review | summarising changes, recurring misunderstandings, and open issues | deciding whether to change the product, clarify, pause, or stop |
+
+Comments, tickets, and customer feedback may contain personal data. Without permission, do not send whole conversations, names, contact details, or identifying context to a general model. Even public data should be redacted, access-limited, and assigned a retention period. AI can queue the noise; it cannot decide who is right or carry responsibility for a public response.
+
+The shared lesson from these articles is simple: creativity supplies a different entry point, while evidence decides whether to continue. Emotion deserves to be seen, but it enters a product or enterprise process only after facts, privacy, and responsibility have done their work.
+
+## 11. Where the Path Loses Control
 
 - treating model output as fact and a demonstration as product quality;
 - mistaking one-off project revenue for a sustainable business;
@@ -274,7 +309,7 @@ When evidence does not support continuing, narrow the problem, change the custom
 
 This project will keep a few simple rules: sources remain traceable, interests are disclosed, results can be retested, risks are not romanticised, and unknowns are named as unknowns.
 
-## 11. What I Hope to Leave Behind
+## 12. What I Hope to Leave Behind
 
 Even if this path does not become a large enough business, it should leave three things:
 

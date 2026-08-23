@@ -25,6 +25,15 @@ updated: 2026-08-24
 
 完整的方法、商业逻辑、成本边界和 12 周验证框架见 [AI 学习、项目开发与资源层创业](threads/part-3/2-ai-development-and-resource-layer.md)。该专题讨论可能的收费方式，不披露或暗示未经核验的收入、利润、客户数量与投资回报。
 
+## 微信公众号文章与实践记录
+
+与作者相关的公开文章提供了观察和叙事材料，但不等于独立审计、客户案例或商业结果证明：
+
+- [《韩先凯：AI 圈最“抽象”的人类》](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=hsfWcee*q*Okq4gsJ5TpMaWV4vZTwLean6SKtOxCC-EyAf9jWD6l1LQYDny29FqXVImHZFNFDPt*EVH*hVMN2pa91kZtuYfzI81wtV7yahnqVBsKS*c7Ls1uf9QqiEIF&new=1)（TokenMany，2026-08-11）：从拒绝现成答案、跨领域联想和保持问题意识的角度描写作者。项目将其转译为“提出竞争假设、做最小实验、保存失败证据”的方法，而不是把人物评价当作技术能力结论。
+- [《韩先凯与 AI：把喧嚣拆成一帧一帧的情绪》](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=k7g1j*QF9lLWMGUlkAu65EFOmvokb8FoM51LNr4hgn4Q4Cc7q3t3O8Mkac7YnWTJbIVdvX-PXYdZXVHEohJieTOPR*Q2-TVAHuIg2ljgp2BMn8m7STrvovnpW01j817Y&new=1)（观雪控股 Wanli Center，2026-08-21）：以评论分析的叙事说明如何区分观点、证据、情绪强度、表达方式和可回应程度。项目只借用其问题拆解框架，并补充脱敏、授权、留存和人工复核要求，不将其写成已验证的舆情产品效果。
+
+文章链接来自微信公众平台公开页面，访问时间为 2026-08-24；链接可因平台策略变化而失效。有关方法与边界见 [AI 学习、项目开发与资源层创业](threads/part-3/2-ai-development-and-resource-layer.md)。
+
 ## ku0.com
 
 - **作者关联**：作者参与该项目的运营与介绍。

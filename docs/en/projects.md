@@ -25,6 +25,15 @@ This path has a describable product and service direction. That does not mean pr
 
 See [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md) for the method, business logic, cost boundaries, and twelve-week validation framework. It discusses possible charging models without disclosing or implying unverified revenue, profit, customer counts, or investment returns.
 
+## WeChat Articles and Practice Notes
+
+Public articles about the author provide observation and narrative material. They are not independent audits, customer case studies, or proof of commercial results:
+
+- [“Han Xiankai: The Most ‘Abstract’ Human in AI”](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=hsfWcee*q*Okq4gsJ5TpMaWV4vZTwLean6SKtOxCC-EyAf9jWD6l1LQYDny29FqXVImHZFNFDPt*EVH*hVMN2pa91kZtuYfzI81wtV7yahnqVBsKS*c7Ls1uf9QqiEIF&new=1) (TokenMany, 11 August 2026) describes the author through a refusal of ready-made answers, cross-domain associations, and continued questioning. The project translates that into competing hypotheses, minimum experiments, and preserved failure evidence rather than treating a profile as a capability verdict.
+- [“Han Xiankai and AI: Splitting the Noise into Emotion, Frame by Frame”](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=k7g1j*QF9lLWMGUlkAu65EFOmvokb8FoM51LNr4hgn4Q4Cc7q3t3O8Mkac7YnWTJbIVdvX-PXYdZXVHEohJieTOPR*Q2-TVAHuIg2ljgp2BMn8m7STrvovnpW01j817Y&new=1) (Wanli Center, 21 August 2026) narrates a way to separate claims, evidence, emotional intensity, expression, and answerability in comments. The project borrows only the problem-decomposition frame and adds redaction, permission, retention, and human review; it does not present the story as validated public-opinion product performance.
+
+The links point to public WeChat pages and were checked on 24 August 2026; platform policy may make a signed link expire. The method and boundaries are documented in [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md).
+
 ## ku0.com
 
 - **Relationship**: the author participates in the operation and presentation of the project.
