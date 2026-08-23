@@ -31,6 +31,7 @@ export const zhNavigation = [
     text: "AI 学习与工作",
     items: [
       page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
+      page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
       page("作者项目与现实实践", "/projects"),
     ],
   },
@@ -90,6 +91,10 @@ export const enNavigation = [
     text: "AI Learning and Work",
     items: [
       page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
+      page(
+        "AI Development and Resource-layer Business",
+        "/en/threads/part-3/2-ai-development-and-resource-layer",
+      ),
       page("Author Projects and Practice", "/en/projects"),
     ],
   },

@@ -21,6 +21,7 @@
 ## AI Learning and Work
 
 - [Learning Anything with AI](threads/part-3/1-ai-learning.md)
+- [AI Development and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md)
 - [Author Projects and Practice](projects.md)
 
 ## Life Review and Recovery

@@ -5,6 +5,8 @@ const routes = [
   ["./en/", "Life Level-up Guide"],
   ["./threads/part-1/0-cefr", "CEFR"],
   ["./threads/part-1/7-ai", "用 AI 学英语"],
+  ["./threads/part-3/2-ai-development-and-resource-layer", "AI 学习、项目开发与资源层创业"],
+  ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 
@@ -28,6 +30,31 @@ test("page metadata follows the route", async ({ page }) => {
     "content",
     "https://byoungd.github.io/up/threads/part-1/2-vocabulary/",
   );
+});
+
+test("AI resource-layer chapter has metadata and navigation", async ({ page }) => {
+  await page.goto("./threads/part-3/2-ai-development-and-resource-layer");
+  await expect(page).toHaveTitle(/AI 学习、项目开发与资源层创业/);
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    "content",
+    /韩先凯.*AI 资源层创业/,
+  );
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/threads/part-3/2-ai-development-and-resource-layer/",
+  );
+  await expect(
+    page.getByRole("link", { name: "AI 开发与资源层创业", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./en/threads/part-3/2-ai-development-and-resource-layer");
+  await expect(page).toHaveTitle(/AI Learning, Project Development/);
+  await expect(
+    page.getByRole("link", {
+      name: "AI Development and Resource-layer Business",
+      exact: true,
+    }).first(),
+  ).toBeVisible();
 });
 
 test("legacy Docsify hash route redirects once", async ({ page }) => {

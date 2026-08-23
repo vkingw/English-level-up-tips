@@ -1,7 +1,7 @@
 ---
 title: Life Level-up Guide
 description: An evidence-aware, practical system for English learning, AI-assisted work, life review, and sustained growth.
-updated: 2026-08-23
+updated: 2026-08-24
 ---
 
 # Life Level-up Guide
@@ -14,6 +14,8 @@ Some people turn growth into an ever-expanding list: more words, more courses, m
 
 This guide is a map for that longer journey. It began in 2017 as an English-learning guide and has since grown to include AI-assisted learning, work skills, life review, entrepreneurship, and recovery. It promises no shortcut, and it does not dress one person's path up as universal truth. It asks for something more modest and more demanding: bring your ambitions back to real life, then leave evidence behind.
 
+My name is Han Xiankai, also known online as Li Pu. Alongside this open-content project, I now serve as chairman of China Token Cloud Computing Co., Ltd. and continue to test a longer path: **learn AI → build projects with AI → create AI resource-layer products → validate enterprise services and a business model**. My role and commercial relationships belong in public view; revenue outcomes belong to verifiable evidence.
+
 The work returns to one repeatable loop: **diagnose → choose a task → practise actively → get feedback → save evidence → adjust the next step**. Growth is not a calendar filled to the margins. It is the next action moving closer to the life you actually want to live.
 
 The guide also names the ground beneath each claim:
@@ -24,7 +26,7 @@ The guide also names the ground beneath each claim:
 
 <div class="guide-paths">
   <a class="guide-path" href="./threads/part-1/0-cefr"><strong>English Learning System</strong>Begin with a CEFR self-check, move through vocabulary and the four skills, and arrive at a retestable 12-week plan.</a>
-  <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>AI Learning and Work</strong>Follow the task instead of the tool market, and let a state file preserve context and finished work.</a>
+  <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI Learning, Development, and Resource-layer Business</strong>Move from learning and real projects to verifiable practice in multi-model access, governance, and enterprise services.</a>
   <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Recover judgment from a real story, acknowledge the cost, and keep a road open for beginning again.</a>
   <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Put affiliations, purpose, update dates, and non-sponsorship disclosures where trust can see them.</a>
 </div>
@@ -82,6 +84,10 @@ Word lists are place names on the map, not the journey itself. Use the [Common l
 
 Products change. A good method should be able to travel. Notes about ChatGPT, Gemini, Claude, NotebookLM, Perplexity, and DeepL state their verification date, region or plan limits, and official source. No provider ranking is the centre of this map.
 
+When learning enters a real project, the next step is not merely asking AI to write code. It is building an inspectable delivery chain and deciding how resources, permissions, cost, deployment, and continuing service will work. [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md) records the work I am pursuing as Han Xiankai and chairman of China Token Cloud: moving from AI-assisted development towards multi-model access, routing, metering, governance, and enterprise delivery.
+
+The path has a clear product and service direction, but this project does not present it as a revenue myth. The chapter asks why a customer would pay, how delivery would be accepted, how costs might be covered, and which results still require real projects and long-term evidence.
+
 ## Life Review, Entrepreneurship, and Recovery: Find Direction by Looking Back
 
 Personal stories remain because growth does not happen only inside a plan. Read [My Story](threads/part-4/my-story.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md) to see how a life can be reconnected across failure, disrupted health, leaving, and return.
@@ -101,7 +107,7 @@ Increase spacing or difficulty when performance is stable. When the same error r
 
 ## Author Projects and Disclosure
 
-Products, company visits, and real-world projects involving the author live on [Author Projects and Practice](projects.md). That page states the relationship, purpose, last update, and non-sponsorship status. The site's recommendation standard does not change because of a commercial relationship; by default, there are no ads, analytics, or trackers.
+Products, company visits, and real-world projects involving Han Xiankai live on [Author Projects and Practice](projects.md). That page states the relationship, purpose, last update, and non-sponsorship status. The site's recommendation standard does not change because of a commercial relationship; by default, there are no ads, analytics, or trackers.
 
 ## Project Boundaries
 

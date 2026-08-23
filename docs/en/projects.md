@@ -1,21 +1,29 @@
 ---
 title: Author Projects and Real-world Practice
 description: A central disclosure of products, companies, and field work involving the author, including relationship, purpose, date, and non-sponsorship status.
-updated: 2026-08-16
+updated: 2026-08-24
 ---
 
 # Author Projects and Real-world Practice
 
-This page centralises projects in which the author has a direct role so that commercial relationships do not blend into learning-method recommendations. It is disclosure, not a purchase, investment, or return promise.
+This page centralises projects in which Han Xiankai has a direct role so that commercial relationships do not blend into learning-method recommendations. It is disclosure, not a purchase, investment, or return promise.
 
 ## China Token Cloud and token.love
 
-- **Relationship**: the author states that he is chairman of China Token Cloud Computing Co., Ltd.
+- **Relationship**: Han Xiankai serves as chairman of China Token Cloud Computing Co., Ltd.
 - **Purpose**: `token.love` is described as a multi-model gateway, routing, metering, and deployment service for teams and organisations.
 - **Relationship to this guide**: both are maintained by the same author; this is not third-party sponsorship.
 - **Checked**: 2026-08-16. Capabilities and compliance scope must be verified against the current [token.love](https://token.love/) documentation and contract.
 
 ![Archived token.love product page](../assets/token-love-domain.jpg)
+
+## AI Learning, Project Development, and Resource-layer Entrepreneurship
+
+Han Xiankai is connecting personal AI learning, AI-assisted development, and China Token Cloud's enterprise-service practice into one working path: begin with a real task; use AI for requirements, prototypes, code, tests, documentation, and delivery; then organise multi-model access, routing, metering, permissions, deployment, and continuing operations into a resource-layer service a team can manage.
+
+This path has a describable product and service direction. That does not mean profitability or scale has been publicly demonstrated. Customer retention, repeatable delivery, and whether revenue can cover model, infrastructure, engineering, support, acquisition, compliance, and incident costs still require evidence from real projects over time.
+
+See [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md) for the method, business logic, cost boundaries, and twelve-week validation framework. It discusses possible charging models without disclosing or implying unverified revenue, profit, customer counts, or investment returns.
 
 ## ku0.com
 

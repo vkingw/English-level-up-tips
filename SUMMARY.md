@@ -21,6 +21,7 @@
 ## AI 学习与工作
 
 - [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md)
+- [AI 开发与资源层创业](docs/threads/part-3/2-ai-development-and-resource-layer.md)
 - [作者项目与现实实践](docs/projects.md)
 
 ## 人生复盘与恢复
