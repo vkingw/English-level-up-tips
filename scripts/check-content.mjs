@@ -134,6 +134,13 @@ function checkFrontmatter(file) {
   for (const key of ["title", "description", "updated"]) {
     if (!frontmatter[key]) addError(file, 1, `frontmatter 缺少 ${key}`);
   }
+  if (/\/(7-ai|1-ai-learning|2-ai-development-and-resource-layer)\.md$/.test(file)) {
+    if (!frontmatter.sources_checked) {
+      addError(file, 1, "AI 页面缺少 sources_checked");
+    } else if (!/^\d{4}-\d{2}-\d{2}$/.test(frontmatter.sources_checked)) {
+      addError(file, 1, "sources_checked 必须使用 YYYY-MM-DD");
+    }
+  }
   if (frontmatter.updated && !/^\d{4}-\d{2}-\d{2}$/.test(frontmatter.updated)) {
     addError(file, 1, "updated 必须使用 YYYY-MM-DD");
   }
@@ -141,8 +148,8 @@ function checkFrontmatter(file) {
     addError(file, 1, "description 过短，无法区分页面内容");
   }
 
-  if (/\/(7-ai|1-ai-learning)\.md$/.test(file) && frontmatter.updated) {
-    const age = Date.now() - Date.parse(`${frontmatter.updated}T00:00:00Z`);
+  if (/\/(7-ai|1-ai-learning|2-ai-development-and-resource-layer)\.md$/.test(file) && frontmatter.sources_checked) {
+    const age = Date.now() - Date.parse(`${frontmatter.sources_checked}T00:00:00Z`);
     const maxAge = 120 * 24 * 60 * 60 * 1000;
     if (age > maxAge) addError(file, 1, "AI 产品资料超过 120 天未核验");
   }

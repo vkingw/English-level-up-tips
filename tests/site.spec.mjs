@@ -5,8 +5,18 @@ const routes = [
   ["./en/", "Lifelong Learning Guide for the AI Era"],
   ["./threads/part-1/0-cefr", "CEFR"],
   ["./threads/part-1/7-ai", "用 AI 学英语"],
+  ["./threads/part-3/1-ai-learning", "使用 AI 学习一切"],
   ["./threads/part-3/2-ai-development-and-resource-layer", "AI 学习、项目开发与资源层创业"],
+  ["./templates/ai-task-brief", "AI 任务简报模板"],
+  ["./templates/ai-learning-log", "AI 学习记录模板"],
+  ["./templates/ai-case-review", "AI 经历案例复盘模板"],
+  ["./templates/ai-project-scorecard", "AI 项目评分卡模板"],
   ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
+  ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
+  ["./en/templates/ai-task-brief", "AI Task Brief Template"],
+  ["./en/templates/ai-learning-log", "AI Learning Log Template"],
+  ["./en/templates/ai-case-review", "AI Case Review Template"],
+  ["./en/templates/ai-project-scorecard", "AI Project Scorecard Template"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 

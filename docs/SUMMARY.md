@@ -7,6 +7,10 @@
 - [学习状态模板](templates/learning-state.md)
 - [每周复盘模板](templates/weekly-review.md)
 - [英语诊断模板](templates/english-diagnostic.md)
+- [AI 任务简报](templates/ai-task-brief.md)
+- [AI 学习记录](templates/ai-learning-log.md)
+- [AI 经历案例复盘](templates/ai-case-review.md)
+- [AI 项目评分卡](templates/ai-project-scorecard.md)
 
 ## 终身学习与 AI
 

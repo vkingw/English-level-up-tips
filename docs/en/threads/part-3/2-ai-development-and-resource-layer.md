@@ -2,13 +2,14 @@
 title: AI Learning, Project Development, and Resource-layer Entrepreneurship
 description: Han Xiankai's path from learning with AI to building and operating an AI resource layer, with engineering, delivery, operations, and business results kept distinct.
 updated: 2026-08-24
+sources_checked: 2026-08-24
 ---
 
 # AI Learning, Project Development, and Resource-layer Entrepreneurship
 
 My name is Han Xiankai, also known online as Li Pu. Many readers first found me through this English-learning project and later through my writing about software entrepreneurship, failure, recovery, and beginning again. I now disclose my role as chairman of China Token Cloud Computing Co., Ltd. and place the next stage of my work inside a more concrete question: **as AI becomes a general capability, how can an ordinary person move from learner to builder, then from builder to an entrepreneur in the resource layer?**
 
-This is not a story about getting rich easily with AI, and it contains no return promise. It is a working map under real-world testing: what has happened, what methods may transfer, and what business outcomes must still be answered by real users, real costs, real incidents, and time.
+This is not a story about getting rich easily with AI, and it contains no return promise. It is a working map under real-world testing: what has happened, what methods may transfer, and what business outcomes must still be answered by real users, real costs, real incidents, and time. When the company failed in 2022, I saw how features that looked like AI could hide missing data, weak architecture, and unclear responsibility. Today's gates grew out of that failure.
 
 ## Keep Fact, Practice, and Result Separate
 
@@ -17,6 +18,20 @@ This is not a story about getting rich easily with AI, and it contains no return
 - **Still unverified**: whether customers will keep paying, whether unit economics will hold, whether supplier changes can be managed, and whether revenue can cover the risk.
 
 When fact, judgment, and aspiration are mixed together, an entrepreneurship essay becomes an advertisement. Separating them makes an honest retrospective possible.
+
+## How the 2022 Failure Changed Today's Gates
+
+The problem was not a lack of code. We failed to prove the core capability, dataset, performance, security, and user value first. UI work, multi-platform support, and preset results made the product look complete, but could not answer where data came from, how results were verified, or who owned failure.
+
+Every AI project now starts with five questions:
+
+1. **Is the capability real?** Is it a model, retrieval, a rule, or a human process? Do not replace the explanation with a marketing label.
+2. **May the data be used?** Are source, permission, sensitivity, retention, and deletion clear?
+3. **How is the result accepted?** What are the test samples, edge cases, human review, and real-user standard?
+4. **Can the cost be covered?** Are model, network, engineering, support, rework, compliance, and incident costs in the ledger?
+5. **How do we leave safely?** Who can pause, degrade, switch, notify, roll back, and review?
+
+If these questions have no answer, the next action is not more features. Narrow the problem and run an experiment that could disprove the assumption.
 
 ## 1. From Learner to Builder
 
@@ -318,5 +333,12 @@ Even if this path does not become a large enough business, it should leave three
 3. a commercial record that does not delete failure, so later readers can see which judgments worked and which were only hopes at the time.
 
 I still want to make money because revenue is one form of evidence that a value exchange can continue. It is not the only value, and it is not an ending that can be announced in advance. The more honest objective is to connect AI capability to real people, real organisations, and real responsibility, then see whether the work deserves to continue.
+
+## Sources and Verification
+
+- **Personal experience**: the 2022 failure, 2023 recovery, and 2026 return to AI are documented in [My Story](../part-4/my-story.md) and [Entrepreneurship](../part-2/entrepreneurship.md).
+- **Project affiliations**: China Token Cloud, `token.love`, `ku0.com`, and the WeChat articles are disclosed in [Author Projects and Real-world Practice](../../projects.md); they are not independent reviews.
+- **Commercial claims**: charging models, cost ledgers, and the twelve-week route are methods to test, not proof of revenue, customer count, profit, or investment return.
+- **Checked**: 24 August 2026. Recheck product capability, external articles, service scope, and policy before the next update.
 
 Previous: [Learning Anything with AI](1-ai-learning.md) | Disclosure: [Author Projects and Real-world Practice](../../projects.md)

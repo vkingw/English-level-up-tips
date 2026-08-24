@@ -1,119 +1,126 @@
 ---
-title: "Learning Anything with AI: From Task to Verifiable Delivery"
-description: Use a task brief, sources, guided practice, project state, quality gates, and real feedback to turn AI learning into reproducible work ability.
+title: "Learning Anything with AI: From Real Problems to Verifiable Delivery"
+description: Based on Han Xiankai's product failure, recovery, and return to AI practice, this chapter builds a practical loop of problems, baselines, practice, delivery, verification, and review.
 updated: 2026-08-24
+sources_checked: 2026-08-24
 ---
 
-# Learning Anything with AI: From Task to Verifiable Delivery
+# Learning Anything with AI: From Real Problems to Verifiable Delivery
 
-AI makes it easy to confuse a complete answer with personal learning, runnable code with a finished project, and a polished report with a safe decision. A real result survives after the answer is closed: you can explain, judge, perform, transfer, and leave work another person can inspect.
+My name is Han Xiankai, also known online as Li Pu. Many readers first met me through English learning, then through stories about software, restaurants, a failed company, disrupted health, and a return to technology and AI. I now treat AI as learning infrastructure, not a button that thinks on my behalf.
 
-This chapter treats AI as work infrastructure, not a magic button that thinks on your behalf. Use it for English, programming, research, writing, product, operations, and management, but keep one boundary in every domain: **a person defines the result, AI accelerates the process, and evidence decides whether it passes.**
+The method comes from an uncomfortable fact: an answer can be complete while a product has no users; code can run while its data and security have no foundation; a person can sound clever in a chat and still be unable to perform alone after the chat closes. A real learning result survives without AI: you can explain, judge, perform, transfer, and leave evidence another person can inspect.
 
-## 1. The Seven-step Loop
+## Where the Method Comes From
 
-1. **Define a real outcome**: state the audience, situation, decision, deadline, and acceptance criteria instead of “learn this topic”.
-2. **Save an unaided baseline**: attempt it independently to expose prerequisites, errors, and blind spots.
-3. **Prepare trustworthy sources**: prefer official documentation, textbooks, papers, data, contracts, code, and real cases.
-4. **Design guided practice**: ask for questions, hints, comparisons, and layered explanations without outsourcing critical steps.
+The following are personal records, not research findings or a universal promise. Read each case in four steps: what happened, which judgment failed, what principle followed, and what you can practise today.
+
+### 2015–2016: From a Dead End to Real Users
+
+After setbacks around an internship and graduation, I returned home. In 2016 I started `bt0.com`, a small movie website, and later accepted web-design work. It was not a grand product, but it had real users, feedback, and traces of use.
+
+The easy mistake was to treat “I can build it” as “people need it”. What changed my judgment was not another technology lesson. It was seeing people use, review, and leave because of a detail.
+
+**Principle**: learning starts with a real problem; work exposes gaps better than collected answers.
+
+**Try today**: choose a problem someone near you actually has. Without AI, write one page naming the audience, action, completion standard, and three things you do not know.
+
+### 2017–2022: From Front-end Refactoring to Organisational Constraints
+
+In 2017 I joined a software company serving lawyers and law firms. I moved from front-end developer to team leader, general manager, and partner. The early product came from outsourcing and changing requirements; I later led a Vue rewrite, but the released product went a long time without a sale.
+
+The lesson was that effort, refactoring, and feature count cannot replace problem discovery, user validation, and team coordination. One person learning to code does not mean an organisation has learned to deliver.
+
+**Principle**: write learning as a real task, not “understand a topic”; every step needs an audience and acceptance standard.
+
+**Try today**: replace “learn product management” with “write a one-page brief for a real user in 45 minutes and let that user reject one assumption”.
+
+### 2022: Mistaking Search and Presets for AI
+
+Sales fell sharply in 2022. When my high-school desk mate joined, we discovered an old project structure, performance and security problems, and “big data” and “AI” features without a real dataset or training foundation. Some features were essentially search and preset results.
+
+We had spent too much effort on UI, multi-platform support, and feature accumulation before confirming that the core capability and data existed. The company eventually closed. Better demonstrations could not erase the loss or the responsibility.
+
+**Principle**: a demo is not a capability, a model answer is not a fact, and generation speed is not delivery quality. Important claims must return to sources, tests, users, and an accountable person.
+
+**Try today**: ask AI to explain a familiar topic. Then, without the chat, write its sources, a counterexample, an unknown, and one test that could disprove it. What you cannot write is a learning gap.
+
+### 2023: Recovering the Ability to Act
+
+After the company failed, I closed GitHub, left many groups, played games, and lost the boundaries of daily life. Returning home, the first step was not founding another company. It was eating, sleeping, going outside, facing the past, and reducing tasks to a scale I could complete.
+
+**Principle**: a learning system must include energy, health, and ordinary responsibilities. Consistency beats short bursts, and a difficult season should not be judged by a dramatic reversal.
+
+**Try today**: reserve 5–15 minutes for one saved action: organise a page, run a test, listen to a clip, or write three sentences. Record what happened instead of hiding in a plan.
+
+### 2026: Returning to AI and Physical Industries
+
+In 2026, as chairman of China Token Cloud Computing Co., Ltd., I returned to technology, enterprise services, and physical-industry practice. I am exploring AI for agriculture, forestry, animal husbandry, fisheries, and other real settings, and plan to offer basic training for rural cooperatives. This is a direction and a personal plan, not proof of revenue, customer count, or impact.
+
+**Principle**: AI must eventually enter a real workflow and accept constraints around cost, permissions, privacy, user feedback, failure, and rollback.
+
+**Try today**: for one organisational problem, write where data enters, who can see it, what passes acceptance, how work stops when it fails, and which human responsibility you will own.
+
+## The Seven-step Loop
+
+1. **Define a real outcome**: situation, audience, action, deadline, and acceptance criteria.
+2. **Save an unaided baseline**: attempt the task first and expose gaps and blind spots.
+3. **Prepare trustworthy material**: prefer official documents, books, papers, data, code, and real cases.
+4. **Design guided practice**: ask AI to question, explain, compare, hint, and create parallel tasks without doing the critical step.
 5. **Produce actively**: close the material and explain, code, write, calculate, demonstrate, or decide.
-6. **Use plural feedback**: AI is one vote; tests, primary sources, experts, users, and security review are other votes.
-7. **Update state**: save evidence, errors, decisions, open questions, and the smallest next task.
+6. **Use plural feedback**: sources, tests, experts, users, and security review join AI in judging the result.
+7. **Update state**: save work, errors, cost, open questions, and the smallest next task.
 
-Without step one, AI turns a vague wish into an answer. Without step two, you cannot see whether ability grew. Without steps six and seven, errors recur across sessions.
+Without step one, AI turns a wish into an answer. Without step two, you cannot see growth. Without steps six and seven, errors return in the next conversation.
 
-## 2. Write a Task Brief First
+## One-page Task Brief
 
-Create a one-page `task-brief.md` for every AI project:
+Copy this into a private project directory. Redact sensitive material; never send passwords, identity documents, customer records, or third-party private data to a general model.
 
 ```markdown
-# Task Brief
+# AI Task Brief
 
-## Task
-- Real situation:
-- User/audience:
-- Decision or action to complete:
-- Deadline:
+Real situation:
+User/audience:
+Decision or action to complete:
+Deadline:
 
-## Inputs
-- Known facts and sources:
-- Files allowed:
-- Data sensitivity: public / internal / confidential / restricted
-- Material deliberately withheld:
+Known facts and sources:
+Files allowed:
+Data sensitivity: public / internal / confidential / restricted
+Material deliberately withheld:
 
-## Output
-- Final deliverable:
-- Format and length:
-- Acceptance criteria:
-- Items a person must confirm:
+Final deliverable:
+Format and length:
+Acceptance criteria:
+Items a person must confirm:
 
-## Working rules
-- AI may:
-- AI may not:
-- Required human reviewers:
-- Rollback or stop condition:
+AI may:
+AI may not:
+Human reviewer:
+Rollback or stop condition:
 ```
 
-Write acceptance criteria as observable actions, such as “a user can import a file and see an error report within ten minutes”, not “the experience feels good” or “the architecture is advanced”.
+“Good experience”, “advanced architecture”, and “learn AI” are not acceptance criteria. Use observable actions, such as “a user can import a file in ten minutes and receive an explainable error report”.
 
-## 3. An Evidence Ladder for Different Outputs
+## A Minimal Session Protocol
 
-| Output | Minimum evidence | Stronger evidence |
-| --- | --- | --- |
-| Explanation | Primary source, key terms, and uncertainty | Closed-book restatement, counterexample, and transfer task |
-| Code | Run result and basic tests | Boundary tests, static checks, security review, and real samples |
-| Research | Primary link for every material fact | Cross-source verification, counterexamples, definitions, and dates |
-| Prose | Audience, purpose, facts, and structure review | Real-reader feedback, revision record, and version comparison |
-| Decision | Options, assumptions, cost, and risks | Small experiment, decision log, and after-action review |
-| Teaching | Learning goal and practice result | Independent transfer, delayed retest, and changing error pattern |
-
-Do not replace evidence with a confident model voice. For high-risk content, “not yet confirmed” is better than a fluent guess presented as fact.
-
-## 4. Tool-selection Order
-
-1. Is the data sensitive and is upload permitted?
-2. Does the task need sources, long material, voice, code execution, images, or collaboration?
-3. Can the output be exported, reproduced, tested, and verified independently?
-4. Is it available for the region, language, age, account, and plan?
-5. What is the total cost, including money, waiting, rework, support, and attention?
-
-See [Learning English with AI](../part-1/7-ai.md) for the boundary between guided learning and long-running projects and for dated official product notes. Do not use platform memory, project context, or a “saved” indicator as your only record; portable state belongs in local files.
-
-## 5. A Portable Project Directory
-
-```text
-00-brief/           task brief, audience, acceptance criteria
-01-baseline/        unaided sample, initial tests, current screenshots
-02-sources/         primary documents, data, licences, source index
-03-working/         drafts, experiments, prompts, temporary results
-04-output/          deliverable, demo, recording, or build artefact
-05-feedback/        user feedback, reviews, error categories
-06-decisions/       decision log, change reasons, open questions
-07-operations/      deployment, monitoring, permissions, rollback, incidents
-learning-state.md   current facts, ability, errors, next action
-```
-
-This is not paperwork for its own sake. It lets another person take over, lets you recover after changing models, and lets failure be located in the input, decision, or execution step.
-
-## 6. A Session Protocol
-
-### Before: make AI restate the boundary
+Before starting, ask AI only to restate the boundary:
 
 ```text
 Restate in no more than eight bullets: goal, audience, inputs, acceptance criteria, constraints, unknowns, and what you cannot verify.
 List the sources you intend to use. Mark source-free facts as unverified.
-Do not start the final deliverable. Identify the three risks most likely to cause rework.
+Do not produce the final deliverable. Identify the three risks most likely to cause rework.
 ```
 
-### During: advance one inspectable slice
+During the work, advance one inspectable slice:
 
 ```text
-Break the task into the smallest verifiable slices. Advance one slice at a time and state: input, assumption, change, check, and next step.
-If a prerequisite conflicts, pause and ask instead of silently replacing the requirement.
-Keep failed approaches and their reasons; do not show only the prettiest version.
+Break the task into the smallest verifiable slices. Advance one slice at a time and state input, assumption, change, check, and next step.
+If a prerequisite conflicts, pause and ask. Do not silently replace the requirement. Keep failed approaches and reasons.
 ```
 
-### After: produce a state update, not an essay
+At the end, create a state update instead of a polished essay:
 
 ```text
 Based only on what happened in this session, output:
@@ -124,149 +131,81 @@ Based only on what happened in this session, output:
 Do not claim to remember another session or turn inference into fact.
 ```
 
-## 7. Programming: From Requirement to Reversible Delivery
+## Different Outputs Need Different Evidence
 
-### 7.1 Requirements and design
+| Output | Minimum evidence | Stronger evidence |
+| --- | --- | --- |
+| Explanation | Primary source, key terms, uncertainty | Closed-book restatement, counterexample, transfer task |
+| Code | Run result, basic tests | Boundary tests, static checks, security review, real samples |
+| Research | Primary link for material facts | Cross-source verification, definitions, dates, counterexamples |
+| Prose | Audience, purpose, facts, structure | Real-reader feedback, revision record, version comparison |
+| Decision | Options, assumptions, cost, risks | Small experiment, decision log, after-action review |
+| Teaching | Goal and practice result | Independent transfer, delayed retest, changing errors |
 
-Write user stories, non-goals, inputs and outputs, error states, and acceptance tests before asking for an implementation. Ask for at least two options and compare complexity, dependencies, data risk, maintenance cost, and rollback difficulty.
+For high-risk content, “not yet confirmed” is more professional than a fluent guess.
 
-```text
-Here is the task brief and current code structure. Do not write code yet.
-Propose two minimal implementation options and compare requirement coverage, change scope, dependencies, failure modes, test difficulty, data/permission risk, and migration cost.
-Mark missing information and inference. Recommend only one slice that can be verified in one to two hours.
-```
+## From Learning to Delivery
 
-### 7.2 Implementation and review
+When a task becomes code or a team project, add three gates:
 
-- ask AI to list files, interfaces, and data flows before changing them;
-- make one logical change at a time instead of mixing requirement work, refactoring, and formatting;
-- require assumptions, error handling, permission boundaries, and compatibility notes;
-- let AI generate tests, then check that tests would actually fail for the relevant bug;
-- run tests, static checks, dependency audits, and security scans yourself.
+- **Explainable**: the owner can explain important decisions without the chat;
+- **Testable**: real inputs, edge cases, permissions, and failure paths are checked;
+- **Reversible**: someone knows who pauses, who is notified, and how to recover from risk or outage.
 
-Code-review prompt:
-
-```text
-Review only this change; do not rewrite it. Check by severity for requirement drift, data loss, permission bypass, injection, races, error handling, performance, maintainability, and test gaps.
-For each issue cite the file/line or observable behaviour, trigger, impact, and smallest repair. If there is no evidence, do not call a guess a vulnerability. End with items that still require human verification.
-```
-
-### 7.3 Release and rollback
-
-Before release preserve a version, change summary, migration steps, monitored signals, rollback trigger, owner, and user notice. After release watch real errors rather than only a successful build.
-
-For an incident record discovery time, affected scope, recent changes, mitigation, root-cause hypothesis, repair evidence, and prevention work. AI can structure the incident report; it cannot replace the owner responsible for communication and judgment.
-
-## 8. Writing, Research, and Decisions
-
-### Writing
-
-Keep the draft. Review audience, purpose, facts, structure, and risk first. Require quoted passages rather than wholesale rewriting. The named author remains responsible for position, facts, citations, and authorship.
-
-### Industry research
-
-Separate facts, inference, forecasts, and recommendations. For every material number record publication date, measurement definition, primary link, and possible interests. Actively seek counterexamples, missing data, and material that challenges your view.
+Use a portable directory:
 
 ```text
-Break this research question into fact, definition, comparison, causal, and decision questions.
-For each, list required evidence, possible sources, and a fallback when evidence is insufficient.
-Do not write the conclusion first. Build a table of claim, source, evidence location, counterexample, and confidence.
+00-brief/       task brief and acceptance criteria
+01-baseline/    unaided sample and initial tests
+02-sources/     primary material, licences, source index
+03-working/     drafts, experiments, prompts
+04-output/      deliverable, recording, build artefact
+05-feedback/    user feedback and error categories
+06-decisions/   decision log and open questions
+07-operations/  permissions, monitoring, deployment, rollback
+learning-state.md
 ```
 
-### Decisions
-
-AI can list options and objections, but a person must maintain the decision log: what was known, assumed, selected, rejected, risked, and scheduled for review. A poor result does not prove the original judgment was irrational; distinguish missing information, execution failure, and decision error.
-
-## 9. Feedback, Scoring, and Quality Gates
-
-Feedback protocol:
-
-```text
-Restate the task and acceptance criteria. Let me attempt it first.
-Separate feedback into facts/sources, task completion, structure/reasoning, skill errors, expression detail, and security/privacy.
-Choose only the one to three issues in each category that most affect the result, quoting evidence and marking confidence.
-Give one minimal hint and one parallel task. Do not complete the final deliverable.
-```
-
-Before publishing, check:
-
-- facts return to primary sources;
-- code passes tests, static checks, and security review;
-- prose serves audience, purpose, and action request;
-- data is within the approved boundary and permissions/links are correct;
-- important claims distinguish fact, inference, uncertainty, and interest;
-- the owner can explain critical decisions without the AI chat;
-- failure has a rollback, notice, repair, and retrospective path.
-
-## 10. Data, Privacy, and Copyright Classification
+## Data, Privacy, and Copyright
 
 | Level | Examples | Default handling |
 | --- | --- | --- |
-| Public | Published documents, public code, public data | Usable after checking source and licence |
-| Internal | Unpublished plans, internal process, non-sensitive logs | Approved tools only; limit members and retention |
-| Confidential | Customer records, contracts, commercial strategy, unpublished vulnerabilities | Do not upload without explicit approval; prefer local work or redaction |
-| Restricted | Keys, identity/health data, children's data, third-party private material | Keep out of general models; follow organisational policy and applicable law |
+| Public | Published documents, public code, public data | Check source and licence before use |
+| Internal | Unpublished plans, processes, non-sensitive logs | Approved tools only; limit members and retention |
+| Confidential | Customer records, contracts, commercial strategy, unpublished vulnerabilities | No upload without approval; prefer local work or redaction |
+| Restricted | Keys, identity/health data, children's data, third-party private material | Keep out of general models; follow policy and law |
 
-Deleting a file does not delete every copy. Inspect members, shared links, history, exports, local caches, logs, and backups. Process copyrighted material only within your rights and preserve citation and licence records.
+Deleting a file does not delete history, shared links, exports, caches, or backups. Public articles can contain personal data too; confirm permission, minimum necessary scope, and retention before processing them.
 
-## 11. Team Collaboration: Make AI Work Transferable
-
-Assign a task owner, fact reviewer, technical reviewer, privacy/security reviewer, and release owner. One person may hold several roles in a small project, but the roles must still exist.
-
-Team rules should cover approved tools, forbidden inputs, prompt and output retention, code review, human approval points, supplier outage alternatives, and incident reporting.
-
-The handover package should contain the task brief, source index, current version, test results, known issues, decision log, deployment steps, permission list, rollback method, and next action. Do not hand over only a long prompt that says “ask AI to continue”.
-
-## 12. Cost and Efficiency: Count More Than Saved Minutes
-
-For each task record the model/tool, call count, human time, waiting time, rework, review time, failures, final quality, and unaided performance. A tool that reduces generation time but increases verification, rework, and support may not be more efficient.
-
-Compare four signals each week:
-
-- total delivery time;
-- first-pass acceptance rate;
-- rework and incidents;
-- independent performance when AI is removed.
-
-Enterprise delivery and resource-layer work must also record models, networking, storage, engineering, support, compliance, and incident costs; see [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md).
-
-## 13. Seven Days, Thirty Days, Twelve Weeks
+## Seven Days, Thirty Days, Twelve Weeks
 
 ### Seven days: one reproducible micro-delivery
 
-- write the task brief and acceptance criteria;
+- write the brief and acceptance criteria;
 - save an unaided baseline;
-- complete a one-to-three-hour deliverable with the seven-step loop;
-- save prompts, sources, tests, feedback, final version, and state update;
+- complete a one-to-three-hour deliverable with the loop;
+- save sources, prompts, tests, feedback, and state;
 - record where AI helped, misled, and what remains without it.
 
 ### Thirty days: one repeatable workflow
 
 - complete four loops for a recurring task;
-- build prompt, source, test, feedback, permissions, and state templates;
 - compare time, quality, rework, cost, and independent performance;
-- remove tool steps that do not improve the result;
-- conduct an incident or failure retrospective, not only a success demo.
+- remove steps that do not improve the result;
+- conduct a failure retrospective, not only a success demo.
 
 ### Twelve weeks: delivery to a real user or organisation
 
-- choose a project with value in work, study, or life;
 - obtain real-audience feedback every two to four weeks;
 - complete fact, test, security, privacy, copyright, cost, and handover review;
-- export material and state, then write a one-page retrospective and next-cycle decision;
-- if evidence does not support continuing, narrow the problem, change the audience, or stop instead of hiding the gap under more prompts.
+- export the material and state, then write a retrospective and next-cycle decision;
+- if evidence is weak, narrow the problem, change the audience, or stop instead of adding prompts.
 
-## 14. Acceptance Questions
+## Sources and Verification
 
-1. Can I explain key conclusions and critical decisions without the chat?
-2. Can facts, numbers, and citations return to primary sources?
-3. Has the output passed a real test, review, or audience check?
-4. Which parts are fact, inference, or still uncertain?
-5. Did I expose unnecessary data, permissions, or third-party content?
-6. Can another person reproduce the code, prose, or research result?
-7. Did I record cost, rework, and support rather than generation speed alone?
-8. Who can pause, roll back, notify, and review a failure?
-9. Can I complete the next similar task with less assistance?
-10. What durable asset did this delivery leave for someone else?
+- **Personal experience**: mainly [My Story](../part-4/my-story.md), [Entrepreneurship](../part-2/entrepreneurship.md), and [Author Projects and Practice](../../projects.md). These are personal records, not universal rules.
+- **Product information**: official help pages listed in [Learning English with AI](../part-1/7-ai.md); features, regions, and plans change.
+- **Project status**: China Token Cloud, `token.love`, public articles, and physical-industry plans carry affiliations or unverified scope; none is an independent review or proof of revenue.
+- **Checked**: 24 August 2026. Recheck official product pages, external links, and project status before the next update.
 
-Previous: [Learning English with AI](../part-1/7-ai.md) | Next: [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | Template: [Learning State](../../templates/learning-state.md)
+Previous: [Learning English with AI](../part-1/7-ai.md) | Next: [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | Template: [AI Task Brief](../../templates/ai-task-brief.md)

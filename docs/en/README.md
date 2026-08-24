@@ -57,6 +57,8 @@ When learning enters a project, [AI Learning, Project Development, and Resource-
 
 Through China Token Cloud and `token.love`, this path continues into model access, routing, metering, permissions, deployment, operations, and enterprise support. The project can examine why a customer might pay, how work should be accepted, and whether costs can be covered. It does not turn a direction into a claim of proven profit or promise that everyone can make money with AI.
 
+This method was not designed in a vacuum. The software failure in 2022 showed me that missing datasets, an old architecture, and preset results can hide behind UI and an “AI” story for a while, but cannot survive real users, costs, and incidents. Failure is not decorative background here. It is why the method insists on baselines, evidence, rollback, cost, and responsibility. After returning to AI and physical-industry practice in 2026, I still treat each direction as work under test, not as a result already delivered.
+
 Products change. A sound method should travel. However capable the model becomes, source verification, data safety, acceptance standards, and final responsibility cannot be outsourced.
 
 ## For Those Still Looking for Direction

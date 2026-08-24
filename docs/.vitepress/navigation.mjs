@@ -13,6 +13,10 @@ export const zhNavigation = [
       page("学习状态模板", "/templates/learning-state"),
       page("每周复盘模板", "/templates/weekly-review"),
       page("英语诊断模板", "/templates/english-diagnostic"),
+      page("AI 任务简报", "/templates/ai-task-brief"),
+      page("AI 学习记录", "/templates/ai-learning-log"),
+      page("AI 经历案例复盘", "/templates/ai-case-review"),
+      page("AI 项目评分卡", "/templates/ai-project-scorecard"),
     ],
   },
   {
@@ -73,6 +77,10 @@ export const enNavigation = [
       page("Learning State", "/en/templates/learning-state"),
       page("Weekly Review", "/en/templates/weekly-review"),
       page("English Diagnostic", "/en/templates/english-diagnostic"),
+      page("AI Task Brief", "/en/templates/ai-task-brief"),
+      page("AI Learning Log", "/en/templates/ai-learning-log"),
+      page("AI Case Review", "/en/templates/ai-case-review"),
+      page("AI Project Scorecard", "/en/templates/ai-project-scorecard"),
     ],
   },
   {

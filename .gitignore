@@ -3,6 +3,8 @@ node_modules
 /dist
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+.codex-artifact-work/
+outputs/
 playwright-report/
 test-results/
 

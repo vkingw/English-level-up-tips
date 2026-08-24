@@ -1,4 +1,5 @@
 export default {
+  ignores: [".codex-artifact-work/**", "outputs/**", "docs/.vitepress/dist/**"],
   config: {
     default: true,
     MD013: false,

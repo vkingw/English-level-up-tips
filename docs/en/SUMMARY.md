@@ -7,6 +7,10 @@
 - [Learning State](templates/learning-state.md)
 - [Weekly Review](templates/weekly-review.md)
 - [English Diagnostic](templates/english-diagnostic.md)
+- [AI Task Brief](templates/ai-task-brief.md)
+- [AI Learning Log](templates/ai-learning-log.md)
+- [AI Case Review](templates/ai-case-review.md)
+- [AI Project Scorecard](templates/ai-project-scorecard.md)
 
 ## Lifelong Learning and AI
 
