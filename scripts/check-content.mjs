@@ -209,7 +209,7 @@ function repositoryReadmeFromDocs(source) {
     .replace(/\]\((assets|threads|templates)\//g, "](docs/$1/")
     .replace(/src="\.\/assets\//g, 'src="./docs/assets/')
     .replace(/\]\(projects\.md\)/g, "](docs/projects.md)")
-    .replace(/href="\.\/(threads\/[^\"]+|projects)"/g, (_match, path) =>
+    .replace(/href="\.\/(threads\/[^\"]+|templates\/[^\"]+|projects)"/g, (_match, path) =>
       `href="./docs/${path}.md"`,
     );
 }

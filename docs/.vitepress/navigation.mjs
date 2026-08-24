@@ -8,7 +8,7 @@ export const zhNavigation = [
   {
     text: "开始",
     items: [
-      page("人生进阶总指南", "/", "README.md"),
+      page("AI 时代终身学习指南", "/", "README.md"),
       page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
       page("学习状态模板", "/templates/learning-state"),
       page("每周复盘模板", "/templates/weekly-review"),
@@ -16,7 +16,15 @@ export const zhNavigation = [
     ],
   },
   {
-    text: "英语学习系统",
+    text: "终身学习与 AI",
+    items: [
+      page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
+      page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
+      page("作者项目与现实实践", "/projects"),
+    ],
+  },
+  {
+    text: "基础能力：英语",
     items: [
       page("1. 认知与训练原则", "/threads/part-1/1-understanding"),
       page("2. 词汇系统", "/threads/part-1/2-vocabulary"),
@@ -28,15 +36,7 @@ export const zhNavigation = [
     ],
   },
   {
-    text: "AI 学习与工作",
-    items: [
-      page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
-      page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
-      page("作者项目与现实实践", "/projects"),
-    ],
-  },
-  {
-    text: "人生复盘与恢复",
+    text: "实践、复盘与恢复",
     items: [
       page("我的故事", "/threads/part-2/my-story"),
       page("创业篇", "/threads/part-2/entrepreneurship"),
@@ -68,7 +68,7 @@ export const enNavigation = [
   {
     text: "Start Here",
     items: [
-      page("Life Level-up Guide", "/en/", "en/README.md"),
+      page("Lifelong Learning Guide for the AI Era", "/en/", "en/README.md"),
       page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
       page("Learning State", "/en/templates/learning-state"),
       page("Weekly Review", "/en/templates/weekly-review"),
@@ -76,7 +76,18 @@ export const enNavigation = [
     ],
   },
   {
-    text: "English Learning System",
+    text: "Lifelong Learning and AI",
+    items: [
+      page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
+      page(
+        "AI Development and Resource-layer Business",
+        "/en/threads/part-3/2-ai-development-and-resource-layer",
+      ),
+      page("Author Projects and Practice", "/en/projects"),
+    ],
+  },
+  {
+    text: "Foundation: English",
     items: [
       page("1. Learning Principles", "/en/threads/part-1/1-understanding"),
       page("2. Vocabulary", "/en/threads/part-1/2-vocabulary"),
@@ -88,18 +99,7 @@ export const enNavigation = [
     ],
   },
   {
-    text: "AI Learning and Work",
-    items: [
-      page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
-      page(
-        "AI Development and Resource-layer Business",
-        "/en/threads/part-3/2-ai-development-and-resource-layer",
-      ),
-      page("Author Projects and Practice", "/en/projects"),
-    ],
-  },
-  {
-    text: "Life Review and Recovery",
+    text: "Practice, Review, and Recovery",
     items: [
       page("My Story", "/en/threads/part-4/my-story", "en/threads/part-4/my-story.md"),
       page("Entrepreneurship", "/en/threads/part-2/entrepreneurship"),

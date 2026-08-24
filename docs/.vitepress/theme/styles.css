@@ -100,6 +100,22 @@
 }
 
 @media (max-width: 640px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .VPNavBarTitle {
+    max-width: calc(100vw - 120px);
+  }
+
+  .VPNavBarTitle .title {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .vp-doc .guide-paths {
     grid-template-columns: 1fr;
   }

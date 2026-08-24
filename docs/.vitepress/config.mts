@@ -5,9 +5,9 @@ const origin = "https://byoungd.github.io";
 const base = "/up/";
 const siteUrl = `${origin}${base}`;
 const defaultDescription =
-  "从英语学习到 AI 学习、人生复盘与现实实践：一套重证据、可执行、可持续复盘的人生进阶系统。";
+  "帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据的开放指南。";
 const defaultDescriptionEn =
-  "An evidence-aware, practical system for English learning, AI-assisted work, life review, and sustained growth.";
+  "An open guide to learning continuously, completing real projects, moving through difficult seasons, and preserving evidence of growth in the AI era.";
 
 function routeFromRelativePath(relativePath: string) {
   const clean = relativePath
@@ -29,7 +29,7 @@ const legacyHashRedirect = `
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "人生进阶指南",
+  title: "AI 时代终身学习指南",
   description: defaultDescription,
   base,
   cleanUrls: true,
@@ -52,15 +52,15 @@ export default defineConfig({
     root: {
       label: "简体中文",
       lang: "zh-CN",
-      title: "人生进阶指南",
+      title: "AI 时代终身学习指南",
       description: defaultDescription,
       themeConfig: {
-        siteTitle: "人生进阶指南",
+        siteTitle: "AI 时代终身学习指南",
         nav: [
-          { text: "英语学习", link: "/threads/part-1/0-cefr" },
+          { text: "终身学习", link: "/templates/learning-state" },
           { text: "AI 学习", link: "/threads/part-3/1-ai-learning" },
-          { text: "人生复盘", link: "/threads/part-2/my-story" },
-          { text: "模板", link: "/templates/learning-state" },
+          { text: "项目实践", link: "/threads/part-3/2-ai-development-and-resource-layer" },
+          { text: "英语专题", link: "/threads/part-1/0-cefr" },
         ],
         sidebar: toSidebar(zhNavigation),
         outline: { label: "本页目录", level: [2, 3] },
@@ -76,15 +76,15 @@ export default defineConfig({
       label: "English",
       lang: "en-US",
       link: "/en/",
-      title: "Life Level-up Guide",
+      title: "Lifelong Learning Guide for the AI Era",
       description: defaultDescriptionEn,
       themeConfig: {
-        siteTitle: "Life Level-up Guide",
+        siteTitle: "Lifelong Learning Guide for the AI Era",
         nav: [
-          { text: "English Learning", link: "/en/threads/part-1/0-cefr" },
+          { text: "Lifelong Learning", link: "/en/templates/learning-state" },
           { text: "AI Learning", link: "/en/threads/part-3/1-ai-learning" },
-          { text: "Life Review", link: "/en/threads/part-4/my-story" },
-          { text: "Templates", link: "/en/templates/learning-state" },
+          { text: "Project Practice", link: "/en/threads/part-3/2-ai-development-and-resource-layer" },
+          { text: "English", link: "/en/threads/part-1/0-cefr" },
         ],
         sidebar: toSidebar(enNavigation),
       },
@@ -92,7 +92,7 @@ export default defineConfig({
   },
   themeConfig: {
     logo: "/assets/feature.svg",
-    siteTitle: "人生进阶指南",
+    siteTitle: "AI 时代终身学习指南",
     search: { provider: "local" },
     socialLinks: [{ icon: "github", link: "https://github.com/byoungd/up" }],
     editLink: {
@@ -120,7 +120,8 @@ export default defineConfig({
     const route = routeFromRelativePath(pageData.relativePath);
     const canonical = `${siteUrl}${route}${route ? "/" : ""}`;
     const isEnglish = route === "en" || route.startsWith("en/");
-    const title = pageData.title || (isEnglish ? "Life Level-up Guide" : "人生进阶指南");
+    const title = pageData.title ||
+      (isEnglish ? "Lifelong Learning Guide for the AI Era" : "AI 时代终身学习指南");
     const description =
       pageData.frontmatter.description ||
       `${title}. ${isEnglish ? defaultDescriptionEn : defaultDescription}`;

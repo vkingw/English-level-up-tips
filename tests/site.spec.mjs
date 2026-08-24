@@ -1,8 +1,8 @@
 import { expect, test } from "@playwright/test";
 
 const routes = [
-  ["./", "人生进阶指南"],
-  ["./en/", "Life Level-up Guide"],
+  ["./", "AI 时代终身学习指南"],
+  ["./en/", "Lifelong Learning Guide for the AI Era"],
   ["./threads/part-1/0-cefr", "CEFR"],
   ["./threads/part-1/7-ai", "用 AI 学英语"],
   ["./threads/part-3/2-ai-development-and-resource-layer", "AI 学习、项目开发与资源层创业"],
@@ -29,6 +29,30 @@ test("page metadata follows the route", async ({ page }) => {
   await expect(page.locator('meta[property="og:url"]')).toHaveAttribute(
     "content",
     "https://byoungd.github.io/up/threads/part-1/2-vocabulary/",
+  );
+});
+
+test("home metadata follows the lifelong-learning positioning", async ({ page }) => {
+  await page.goto("./");
+  await expect(page).toHaveTitle(/AI 时代终身学习指南/);
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    "content",
+    /AI 时代.*真实项目.*低谷/,
+  );
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/",
+  );
+  await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
+    "content",
+    "AI 时代终身学习指南",
+  );
+
+  await page.goto("./en/");
+  await expect(page).toHaveTitle(/Lifelong Learning Guide for the AI Era/);
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    "content",
+    /learning continuously.*AI era/i,
   );
 });
 
@@ -68,8 +92,8 @@ test("local search opens and returns a result", async ({ page }) => {
   await page.getByRole("button", { name: "Search", exact: true }).click();
   const input = page.locator(".VPLocalSearchBox input");
   await expect(input).toBeVisible();
-  await input.fill("主动回忆");
-  await expect(page.getByText(/认知篇|词汇篇/).first()).toBeVisible();
+  await input.fill("学习状态");
+  await expect(page.getByText(/学习状态/).first()).toBeVisible();
 });
 
 test("language navigation and representative image work", async ({ page }) => {
@@ -79,26 +103,26 @@ test("language navigation and representative image work", async ({ page }) => {
   await expect(image).toHaveJSProperty("complete", true);
 
   await page.goto("./en/");
-  await expect(page.getByRole("heading", { level: 1, name: "Life Level-up Guide" })).toBeVisible();
-  let englishLearning = page.getByRole("link", {
-    name: "English Learning",
+  await expect(page.getByRole("heading", { level: 1, name: "Lifelong Learning Guide for the AI Era" })).toBeVisible();
+  let lifelongLearning = page.getByRole("link", {
+    name: "Lifelong Learning",
     exact: true,
   });
-  if ((await englishLearning.count()) === 0) {
+  if ((await lifelongLearning.count()) === 0) {
     await page.getByRole("button", { name: "mobile navigation" }).click();
-    englishLearning = page.getByRole("link", {
-      name: "English Learning",
+    lifelongLearning = page.getByRole("link", {
+      name: "Lifelong Learning",
       exact: true,
     });
   }
-  await expect(englishLearning).toBeVisible();
+  await expect(lifelongLearning).toBeVisible();
 });
 
 test("home page shows the latest updates", async ({ page }) => {
   await page.goto("./");
-  await expect(page.getByRole("heading", { level: 2, name: "最新动态" })).toBeVisible();
-  await expect(page.getByRole("img", { name: "作者与朋友的合影" })).toBeVisible();
-  await expect(page.getByRole("img", { name: "作者与粉丝的合影" })).toBeVisible();
+  await expect(page.getByRole("heading", { level: 2, name: "现实仍在继续" })).toBeVisible();
+  await expect(page.getByRole("img", { name: "韩先凯与伴侣的合影" })).toBeVisible();
+  await expect(page.getByRole("img", { name: "韩先凯在 Agentic DB 大会与读者合影" })).toBeVisible();
 });
 
 test("keyboard focus reaches navigation", async ({ page }) => {

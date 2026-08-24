@@ -2,13 +2,19 @@
 
 ## Start Here
 
-- [Life Level-up Guide](README.md)
+- [Lifelong Learning Guide for the AI Era](README.md)
 - [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
 - [Learning State](templates/learning-state.md)
 - [Weekly Review](templates/weekly-review.md)
 - [English Diagnostic](templates/english-diagnostic.md)
 
-## English Learning System
+## Lifelong Learning and AI
+
+- [Learning Anything with AI](threads/part-3/1-ai-learning.md)
+- [AI Development and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md)
+- [Author Projects and Practice](projects.md)
+
+## Foundation: English
 
 - [1. Learning Principles](threads/part-1/1-understanding.md)
 - [2. Vocabulary](threads/part-1/2-vocabulary.md)
@@ -18,13 +24,7 @@
 - [6. Writing](threads/part-1/6-writing.md)
 - [7. Learning English with AI](threads/part-1/7-ai.md)
 
-## AI Learning and Work
-
-- [Learning Anything with AI](threads/part-3/1-ai-learning.md)
-- [AI Development and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md)
-- [Author Projects and Practice](projects.md)
-
-## Life Review and Recovery
+## Practice, Review, and Recovery
 
 - [My Story](threads/part-4/my-story.md)
 - [Entrepreneurship](threads/part-2/entrepreneurship.md)

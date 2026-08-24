@@ -2,7 +2,7 @@
   "name": "life-level-up-guide",
   "version": "1.0.0",
   "private": true,
-  "description": "人生进阶指南：英语学习、AI 学习与长期成长的开放内容项目",
+  "description": "AI 时代终身学习指南：学习、真实项目、低谷复原与成长证据的开放内容项目",
   "type": "module",
   "engines": {
     "node": ">=24 <25"

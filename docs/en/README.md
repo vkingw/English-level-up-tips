@@ -1,119 +1,122 @@
 ---
-title: Life Level-up Guide
-description: An evidence-aware, practical system for English learning, AI-assisted work, life review, and sustained growth.
+title: Lifelong Learning Guide for the AI Era
+description: An open guide to learning continuously, completing real projects, moving through difficult seasons, and preserving evidence of growth in the AI era.
 updated: 2026-08-24
 ---
 
-# Life Level-up Guide
+# Lifelong Learning Guide for the AI Era
 
 [中文](/) | English
 
 [![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-Some people turn growth into an ever-expanding list: more words, more courses, more tools, more answers saved for a future that never arrives. Real change usually appears somewhere quieter. You finally understand a difficult sentence, finish an important email, say what you mean in an unfamiliar conversation, or find your way back to yourself after a season of disorder.
+AI is making answers cheaper than they have ever been. In seconds, we can receive an explanation, a block of code, a plan, even a confident-sounding piece of life advice. What remains scarce is more demanding: **knowing which questions deserve pursuit, deciding which evidence deserves trust, turning suggestions into real work, and taking responsibility for the final judgment.**
 
-This guide is a map for that longer journey. It began in 2017 as an English-learning guide and has since grown to include AI-assisted learning, work skills, life review, entrepreneurship, and recovery. It promises no shortcut, and it does not dress one person's path up as universal truth. It asks for something more modest and more demanding: bring your ambitions back to real life, then leave evidence behind.
+This is a lifelong-learning guide for ordinary people. It does not require you to begin as a genius, an expert, or a person with perfect discipline. It does not promise that a tool will change your fate. It offers a way to keep learning while the world accelerates: meet an unfamiliar problem, work with AI without surrendering judgment, finish something real, and carry the lesson into the next part of life.
 
-My name is Han Xiankai, also known online as Li Pu. Alongside this open-content project, I now serve as chairman of China Token Cloud Computing Co., Ltd. and continue to test a longer path: **learn AI → build projects with AI → create AI resource-layer products → validate enterprise services and a business model**. My role and commercial relationships belong in public view; revenue outcomes belong to verifiable evidence.
+The project began in 2017 as Li Pu's English Learning Guide. English was once the whole map; now it is one foundational road within it. The guide has widened into AI learning, project development, resource-layer entrepreneurship, life review, and recovery. This does not discard the past. It reveals the deeper question behind every kind of training: **when the world keeps changing, can I continue to learn, create, and participate in my own life?**
 
-The work returns to one repeatable loop: **diagnose → choose a task → practise actively → get feedback → save evidence → adjust the next step**. Growth is not a calendar filled to the margins. It is the next action moving closer to the life you actually want to live.
+My name is Han Xiankai, also known online as Li Pu, and I serve as chairman of China Token Cloud Computing Co., Ltd. I test these methods in learning, software development, enterprise services, and ordinary life. My role and commercial relationships belong in public view. Claims about ability, products, and revenue must be earned by work, users, costs, and time.
 
-The guide also names the ground beneath each claim:
+The guide returns to one loop:
 
-- **Research findings** include sources and the limits of the evidence;
+**find a problem → learn actively → work with AI → complete a real task → preserve evidence → review and transfer**
+
+It also keeps three kinds of claim separate:
+
+- **Research findings** include sources and state the reach of the evidence;
 - **Personal experience** keeps its warmth without pretending to be a universal prescription;
-- **Hypotheses** remain open questions for the next experiment.
+- **Hypotheses** may enter the conversation, but the next experiment must test them.
 
 <div class="guide-paths">
-  <a class="guide-path" href="./threads/part-1/0-cefr"><strong>English Learning System</strong>Begin with a CEFR self-check, move through vocabulary and the four skills, and arrive at a retestable 12-week plan.</a>
-  <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI Learning, Development, and Resource-layer Business</strong>Move from learning and real projects to verifiable practice in multi-model access, governance, and enterprise services.</a>
-  <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Recover judgment from a real story, acknowledge the cost, and keep a road open for beginning again.</a>
-  <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Put affiliations, purpose, update dates, and non-sponsorship disclosures where trust can see them.</a>
+  <a class="guide-path" href="./templates/learning-state"><strong>Lifelong Learning System</strong>Begin with a real problem, a current baseline, and a minimum task so each cycle can continue, be retested, and transfer.</a>
+  <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>Learn Anything with AI</strong>Use AI for questions, research, and feedback while keeping fact-checking and final judgment in human hands.</a>
+  <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI Projects and Resource-layer Business</strong>Move from requirements, prototypes, code, and tests to model access, governance, enterprise delivery, and business validation.</a>
+  <a class="guide-path" href="./threads/part-1/0-cefr"><strong>Foundation: English</strong>Use English to reach global knowledge, technical documentation, international AI tools, and cross-cultural work.</a>
+  <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Acknowledge failure and cost, then rebuild judgment, order, and action after disruption.</a>
+  <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Make affiliations, purpose, update dates, and non-sponsorship visible so trust does not depend on guesswork.</a>
 </div>
 
-## Recent Footnotes from Real Life
+## Begin with One Small Act Today
 
-Growth does not always arrive as a milestone. Sometimes life simply turns one page, reminding us that this guide is not a plan written from an ivory tower. It is a working manuscript, still being tested in the world.
+Lifelong learning is not opening ten courses at once. It is completing one act today that leaves a trace:
+
+1. Choose a real problem: a blocked step at work, a concept you need to understand, a person you want to help, or a small project left unfinished.
+2. Record your baseline in [Learning State](templates/learning-state.md): what you know, what you cannot yet do, and what would count as complete.
+3. Ask AI to help shape a 25–45 minute task, then check the sources, make the choices, and finish the output yourself.
+4. Preserve a page of notes, a piece of code, a recording, an email, or feedback rather than saving only the conversation.
+5. A week later, use the [Weekly Review](templates/weekly-review.md) to examine completion, quality, retention, and transfer before choosing the next step.
+
+You do not have to see the entire road. The first piece of evidence you preserve today becomes somewhere the next step can stand.
+
+## AI Learning and Project Practice: From Answers to Delivery
+
+[Learning Anything with AI](threads/part-3/1-ai-learning.md) does not begin with “Which model is best?” It begins with “What problem am I trying to solve?” AI can ask guided questions, explain concepts, compare options, organise material, and generate practice. A person must still set the goal, select trustworthy sources, detect fabrication, and use the knowledge independently after the conversation closes.
+
+When learning enters a project, [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md) extends the collaboration into requirements, prototypes, code, tests, documentation, and delivery. Speed is not the only measure. Every important decision should be explainable, testable, or reversible, and convenience must never erase the boundaries around customer data, company secrets, or third-party privacy.
+
+Through China Token Cloud and `token.love`, this path continues into model access, routing, metering, permissions, deployment, operations, and enterprise support. The project can examine why a customer might pay, how work should be accepted, and whether costs can be covered. It does not turn a direction into a claim of proven profit or promise that everyone can make money with AI.
+
+Products change. A sound method should travel. However capable the model becomes, source verification, data safety, acceptance standards, and final responsibility cannot be outsourced.
+
+## For Those Still Looking for Direction
+
+### For Younger Readers
+
+You do not have to identify one permanently correct direction in your twenties. Many directions do not appear through thought alone. They emerge after you have completed a few small projects, seen several kinds of work, and carried the consequences of a few decisions. The durable advantage is not choosing a perfect track. It is retaining the ability to learn and turn.
+
+If career anxiety keeps you collecting courses, certificates, and stories of success, trade some of that collection for a project you can finish in two weeks. Solve a problem for someone nearby, make a tool that runs, write a sourced article, or improve one part of a real user's process. The project may fail, but it will tell you what you enjoy, what you lack, whether you can deliver, and whether another person finds the result useful.
+
+AI can lower the cost of exploration, learning, and creation. It cannot build your reputation for you. The assets that compound are visible work, code, writing, customer feedback, review notes, and relationships with people who choose to work with you again because you were honest and reliable.
+
+Do not use another person's highlight to put your own beginning on trial. Ask a more useful question: **did I finish one more real thing this week than I did last week?** If the answer is yes, however small the thing was, you are already building your road.
+
+### For Anyone in a Difficult Season
+
+Unemployment, business failure, the end of a relationship, damaged health, and prolonged uncertainty can genuinely reduce a person's capacity to act. A low point is not an examination you must immediately win. You do not have to prove, at your most exhausted, that you can still perform a dramatic reversal.
+
+Reduce life to a scale you can care for. Sleep one reasonably complete night. Eat a meal. Step outside. Answer one important email. Organise one page of notes. Finish one test. Tell a trustworthy person, “I need help right now.” These acts do not look legendary, but they slowly restore your connection with the world.
+
+Pausing is not surrender. Asking for help is not weakness. Recalibration is not regression. Recovery is often slow: first give a day some boundaries, then allow a week to find rhythm, and only then plan farther ahead. If five minutes is what you can do today, preserve five minutes of evidence. Add weight when strength returns.
+
+The personal stories here are not medical care or psychotherapy. If low mood, sleeplessness, hopelessness, or thoughts of harm persist, contact someone you trust and seek appropriately qualified local medical or mental-health support. Safety comes before growth.
+
+## Foundation: English Remains an Important Door
+
+English is no longer the whole guide, but it remains a foundation for lifelong learning. It helps you read global knowledge and technical documentation, follow international courses and research, use a wider range of AI tools, and work across cultures with less mediation.
+
+Use [CEFR Goals and Self-check](threads/part-1/0-cefr.md) to establish a real baseline, then enter [Learning Principles](threads/part-1/1-understanding.md), [Vocabulary](threads/part-1/2-vocabulary.md), [Listening](threads/part-1/3-listening.md), [Reading](threads/part-1/4-reading.md), [Speaking](threads/part-1/5-speaking.md), [Writing](threads/part-1/6-writing.md), or [Learning English with AI](threads/part-1/7-ai.md) as the task requires. You can also begin directly with the [English Diagnostic](templates/english-diagnostic.md).
+
+English ability is not proved by a collection of words. It is proved by what you can understand, express, and complete in a real situation. English is a bridge, not a wall against which to measure your worth.
+
+## Life Review and Recovery: Experience Also Needs Reinterpretation
+
+[My Story](threads/part-4/my-story.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md) preserve failure, disrupted health, changing relationships, departure, and return. Looking back is not an attempt to decorate the past as inspiration. It is a way to ask which decisions worked, which costs must not be hidden, and how to live more honestly next time.
+
+Personal experience is not medical, legal, investment, or business advice. Public content follows data minimisation. It does not expose unnecessary third-party identity, and it retains photographs or stories involving others only with clear permission and respect for privacy.
+
+## Life Is Still Moving
+
+A method reveals its strength only after it enters a life. Relationships end and may begin again. Work changes. Learning acquires new meaning when it returns to real people and real problems.
 
 <div class="latest-updates">
   <figure class="latest-update">
-    <img src="../assets/latest/single-again.jpg" alt="The author with a friend" />
-    <figcaption><strong>Beginning again</strong>Divorced and single again, I am looking for a new relationship and learning to live honestly.</figcaption>
+    <img src="../assets/latest/single-again.jpg" alt="Han Xiankai with his partner" />
+    <figcaption><strong>Trusting encounter again</strong>After the end of a relationship, recovery, and the work of reorganising life, Han Xiankai has begun a new relationship. Beginning again does not erase the past, but it shows that life can keep growing.</figcaption>
   </figure>
   <figure class="latest-update">
-    <img class="latest-update-fan-photo" src="../assets/latest/agentic-db-fans.jpg" alt="The author with a fan" />
-    <figcaption><strong>Meeting in the real world</strong>At the Alibaba x NVIDIA Agentic DB conference, meeting readers and fans face to face.</figcaption>
+    <img class="latest-update-fan-photo" src="../assets/latest/agentic-db-fans.jpg" alt="Han Xiankai with readers at the Agentic DB conference" />
+    <figcaption><strong>Meeting in the real world</strong>At the Alibaba × NVIDIA Agentic DB conference, meeting readers and peers face to face and returning public writing to real people and real questions.</figcaption>
   </figure>
 </div>
 
-## Begin with One Deliberate Act
-
-Do not wait for a perfect system. Give today's life one small action that can leave a mark:
-
-1. Use the [English diagnostic](templates/english-diagnostic.md), or a real work task, to establish today's starting point.
-2. Record the goal, baseline, evidence, and next action in [Learning State](templates/learning-state.md), so your future self does not have to wake inside the fog.
-3. Choose one 25–45 minute task and finish an inspectable output. Let the urge to gather more material wait.
-4. After a week, use the [Weekly Review](templates/weekly-review.md) to decide whether the next step should go deeper, slow down, or change direction.
-
-## English Learning System: Turn “I Want to Know” into “I Can Do”
-
-Start with [CEFR Goals and Self-check](threads/part-1/0-cefr.md). English ability is not just a vague vocabulary count, and it should not be frozen forever by an old test. A better question is: what can I complete in a real situation today?
-
-Follow the path below. Each stop leaves evidence you can revisit, compare, and revise:
-
-| Stage | Chapter | Evidence to keep |
-| --- | --- | --- |
-| Calibrate | [Learning Principles](threads/part-1/1-understanding.md) | A real use case, a baseline sample, and a 12-week target |
-| Vocabulary | [Vocabulary](threads/part-1/2-vocabulary.md) | 20 chunks you can hear, read, and make appear in your own sentences |
-| Listening | [Listening](threads/part-1/3-listening.md) | A transcript, a retelling, and a record of error categories |
-| Reading | [Reading](threads/part-1/4-reading.md) | An annotated page, a five-sentence summary, and a question that carries understanding into life |
-| Speaking | [Speaking](threads/part-1/5-speaking.md) | A recording, a transcript, and a second take shaped by feedback |
-| Writing | [Writing](threads/part-1/6-writing.md) | A draft, a feedback checklist, and a revision where the change is visible |
-| AI | [Learning English with AI](threads/part-1/7-ai.md) | A reusable prompt, an error log, and a learning-state update |
-
-Word lists are place names on the map, not the journey itself. Use the [Common list](threads/word-list/Common.md) and technical lists when a real task calls for them, then return every word to a sentence, a sound, and a purpose.
-
-## AI Learning and Work: Put the Tool Back in Its Place
-
-[Learning Anything with AI](threads/part-3/1-ai-learning.md) does not begin with “Which tool is best?” It begins with “What am I trying to complete?”
-
-- use guided dialogue for questions, scaffolding, and knowledge checks;
-- use a project workspace plus a local state file for long-running materials, artefacts, errors, and context;
-- use research tools that lead back to primary sources when claims need evidence;
-- define acceptance criteria yourself, verify facts, and remain responsible for the final judgment.
-
-Products change. A good method should be able to travel. Notes about ChatGPT, Gemini, Claude, NotebookLM, Perplexity, and DeepL state their verification date, region or plan limits, and official source. No provider ranking is the centre of this map.
-
-When learning enters a real project, the next step is not merely asking AI to write code. It is building an inspectable delivery chain and deciding how resources, permissions, cost, deployment, and continuing service will work. [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md) records the work I am pursuing as Han Xiankai and chairman of China Token Cloud: moving from AI-assisted development towards multi-model access, routing, metering, governance, and enterprise delivery.
-
-The path has a clear product and service direction, but this project does not present it as a revenue myth. The chapter asks why a customer would pay, how delivery would be accepted, how costs might be covered, and which results still require real projects and long-term evidence.
-
-The chapter also turns two WeChat writing slices into practice: refusing the first likely answer becomes competing hypotheses and minimum experiments; noisy comments become answerable questions with redaction, permission, and human review. They are public narratives, not technical audits or proof of commercial results.
-
-## Life Review, Entrepreneurship, and Recovery: Find Direction by Looking Back
-
-Personal stories remain because growth does not happen only inside a plan. Read [My Story](threads/part-4/my-story.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md) to see how a life can be reconnected across failure, disrupted health, leaving, and return.
-
-These are the author's experiences, not medical, legal, investment, or business advice. The public edition follows data minimisation: it does not display personal QQ numbers, QR codes, or unnecessary third-party identifiers. Photos involving family, children, former partners, or other people should appear only with clear permission. Report privacy concerns privately under the [Security Policy](https://github.com/byoungd/up/blob/master/SECURITY.md).
-
-## Progress Is Not Proved by Hours
-
-Study time can tell you how long you sat at the desk. It cannot tell you whether you have become more capable. Review four kinds of evidence each week:
-
-- **Completion**: did you finish the real task?
-- **Quality**: did accuracy, clarity, structure, fluency, or external feedback improve?
-- **Retention**: can you recall and use it several days later?
-- **Transfer**: can you carry it into new material, conversation, or work?
-
-Increase spacing or difficulty when performance is stable. When the same error returns, shrink the task, repair prerequisites, and add feedback. The schedule serves performance, not the reverse.
-
 ## Author Projects and Disclosure
 
-Products, company visits, and real-world projects involving Han Xiankai live on [Author Projects and Practice](projects.md). That page states the relationship, purpose, last update, and non-sponsorship status. The site's recommendation standard does not change because of a commercial relationship; by default, there are no ads, analytics, or trackers.
+Products, company visits, and real-world projects involving Han Xiankai live on [Author Projects and Practice](projects.md). That page states the relationship, purpose, update date, and non-sponsorship status. Commercial relationships do not change the guide's recommendation standard; by default, the site uses no ads, analytics, or trackers.
 
 ## Project Boundaries
 
-- This is an **open-content project**, not open-source software in the OSI sense. Text and author-created content use **CC BY-NC 4.0**; site configuration, checks, and build code use **MIT**. See [Licensing](https://github.com/byoungd/up/blob/master/LICENSE.md).
+- This is an open-content project, not open-source software in the OSI sense. Text and author-created content use **CC BY-NC 4.0**; site configuration, checks, and build code use **MIT**. See [Licensing](https://github.com/byoungd/up/blob/master/LICENSE.md).
 - Sources and licensing status for quotations, images, and third-party material are recorded in [Attributions](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md).
 - Read [Contributing](https://github.com/byoungd/up/blob/master/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/byoungd/up/blob/master/CODE_OF_CONDUCT.md) before contributing.
 - Product information on these pages was checked on **2026-08-16**; outdated notes are welcome as issues.
@@ -123,4 +126,4 @@ Products, company visits, and real-world projects involving Han Xiankai live on 
 - [GitHub Pages](https://byoungd.github.io/up/en/)
 - [GitHub repository](https://github.com/byoungd/up)
 
-If you do only one thing today, create a [Learning State](templates/learning-state.md), record current evidence and the next action, then finish the smallest item. Do not wait for the road to look wide enough. Many roads become visible only after your foot comes down.
+If you do only one thing today, create a [Learning State](templates/learning-state.md), record the real problem in front of you, the evidence you have, and the smallest next task, then finish it. Do not wait for the road to become wide. Many roads appear only after your foot comes down.
