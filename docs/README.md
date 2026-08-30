@@ -1,12 +1,16 @@
 ---
 title: AI 时代终身学习指南
-description: 帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据的开放指南。
-updated: 2026-08-24
+description: 《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。
+updated: 2026-08-30
 ---
 
 # AI 时代终身学习指南
 
 中文 | [English](en/)
+
+**韩先凯 著（笔名：离谱）**
+
+副标题：**《人生进阶指南》**。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。
 
 [![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -36,6 +40,20 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
   <a class="guide-path" href="./threads/part-2/my-story"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
   <a class="guide-path" href="./projects"><strong>作者项目与现实实践</strong>公开关联、用途、更新时间和非赞助关系，让信任不必靠猜。</a>
 </div>
+
+## 书稿主线
+
+如果你愿意完整阅读，请从[序章：先不要急着改变人生](threads/part-0/prologue.md)开始。全书不是一条只向上的直线，而是一圈会反复经过的路径：
+
+| 部分 | 核心问题 | 入口 |
+| --- | --- | --- |
+| 序章 | 我为什么要重新开始？ | [先不要急着改变人生](threads/part-0/prologue.md) |
+| 第一部：打开输入 | 怎样建立英语和世界之间的通道？ | [认知与训练原则](threads/part-1/1-understanding.md) |
+| 第二部：把自己放回生活 | 能力、事业、关系和失败怎样互相影响？ | [我的故事](threads/part-2/my-story.md) |
+| 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力一起外包？ | [使用 AI 学习一切](threads/part-3/1-ai-learning.md) |
+| 第四部：实践与恢复 | 学习如何回到身体、兴趣和日常？ | [Week 1](threads/part-4/week-1.md) |
+| 第五部：行动与长期改变 | 怎样在九十天里做出可验证的改变？ | [九十天行动篇](threads/part-5/90-day-plan.md) |
+| 后记 | 进阶之后，我想成为什么样的人？ | [进阶不是离开原来的自己](threads/part-6/afterword.md) |
 
 ## 从今天的一件小事开始
 

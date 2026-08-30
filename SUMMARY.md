@@ -11,6 +11,9 @@
 - [AI 学习记录](docs/templates/ai-learning-log.md)
 - [AI 经历案例复盘](docs/templates/ai-case-review.md)
 - [AI 项目评分卡](docs/templates/ai-project-scorecard.md)
+- [序章：先不要急着改变人生](docs/threads/part-0/prologue.md)
+- [行动篇：九十天，把生活交还给自己](docs/threads/part-5/90-day-plan.md)
+- [后记：进阶不是离开原来的自己](docs/threads/part-6/afterword.md)
 
 ## 终身学习与 AI
 
@@ -32,7 +35,7 @@
 
 - [我的故事](docs/threads/part-2/my-story.md)
 - [创业篇](docs/threads/part-2/entrepreneurship.md)
-- [杂谈](docs/threads/part-2/x-misc.md)
+- [杂谈与旧日回声](docs/threads/part-2/x-misc.md)
 - [Week 1](docs/threads/part-4/week-1.md)
 
 ## 旧文归档

@@ -1,24 +1,26 @@
 ---
-title: Miscellaneous Notes
-description: Additional personal notes about learning, training, devices, and past experiences, preserved with their context.
-updated: 2026-08-16
+title: Miscellaneous Notes and Old Echoes
+description: Additional notes about learning, training, devices, and past experiences, preserved as historical context rather than universal advice.
+updated: 2026-08-30
 ---
 
-# Miscellaneous Notes
+# Miscellaneous Notes and Old Echoes
 
-Source (中文): [扯淡篇](../../../threads/part-2/x-misc.md)
+Source (中文): [杂谈与旧日回声](../../../threads/part-2/x-misc.md)
 
 This chapter is intentionally a bit off-topic: personal opinions, stories, and some “learned the hard way” moments.
 
+> This is an edited archive of older writing. It includes references to school violence, long-term insomnia, and past suicidal thoughts. Those passages are personal memories, not medical advice. If you are in immediate danger, contact someone you trust and local professional support.
+
 ---
 
-## A Few Words About IT Bootcamps in China
+## Training, Career Choice, and Self-study
 
 In recent years, the internet industry in China grew fast. It became both “the hottest field” and also one of the most misunderstood.
 
 Because the pay can be good, a lot of people from other industries try to jump in.
 
-If the only reason you want in is “the salary is higher than what I have now”, but you don’t like the work at all… then the more urgently you push yourself into the industry, the more painfully you’ll eventually push yourself out.
+If the only reason you want in is “the salary is higher than what I have now”, but you do not enjoy the daily work or understand the practice it requires, the more urgently you push yourself in, the more painfully you may later push yourself out.
 
 Try to optimize for work that you **enjoy and can do well**. I hope you get to live the life you want—not trade life away just to survive.
 
@@ -59,11 +61,11 @@ Anyway, gotta go—new order just came in.
 
 ---
 
-## “5 Minutes a Day to Quit English Forever”
+## “Five Minutes a Day: Can You Really Learn English?”
 
-A lot of training/education businesses sell the idea of “N minutes per day and your English will magically improve”. It’s basically candy: lure you in first, talk later.
+A lot of training businesses sell the idea that “N minutes a day” will transform your English. Five minutes can be useful for a review, a short shadowing exercise, or three sentences of writing—but it is one gear in a system, not a replacement for one.
 
-English is a language. You can’t truly acquire it in a ridiculously short time.
+English is a language. It takes repeated contact, active use, and feedback over time.
 
 “Fragmented learning” often ends in:
 
@@ -72,7 +74,7 @@ English is a language. You can’t truly acquire it in a ridiculously short time
 
 If you’re working full-time, you need a real plan: combine methods and build a system.
 
-So yeah—I don’t recommend paying for that kind of empty promise.
+Before paying for a course, ask whether it provides practice, feedback, and an observable result rather than a beautiful number of minutes.
 
 ---
 
@@ -178,14 +180,14 @@ And then I wrote this as my graduation message:
 
 ## Summary
 
-After all this, my conclusion is: learning English mostly depends on talent.
+After all this, my conclusion is: talent may affect your starting point, but practice, feedback, and interest determine how far you go.
 
-And the best talent is… effort.
+Effort is not magic. It is the most reliable place to start—and it works best when pointed in the right direction.
 
 > About the times I got beaten by teachers: I take responsibility too. I didn’t respect their dignity and acted like a jerk.  
-> This chapter is mostly nonsense—just for a laugh.
+> This chapter contains exaggeration, jokes, and real pain. Read it as an old echo, then leave it in the past.
 
-Next: [My ex-girlfriends](https://github.com/byoungd/how-to-find-love)
+Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)
 
 ---
 

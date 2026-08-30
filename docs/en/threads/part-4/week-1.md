@@ -1,7 +1,7 @@
 ---
 title: "Week 1: Real-life English Practice"
 description: English practice about sleep, stress, and lifestyle, with historical personal claims revised to reflect current evidence boundaries.
-updated: 2026-08-16
+updated: 2026-08-30
 ---
 
 ## WHY

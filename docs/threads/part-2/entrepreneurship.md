@@ -208,3 +208,5 @@ updated: 2026-08-16
 - [作者项目与现实实践](../../projects.md)
 - [GitHub 主页：byoungd / Leap 离谱](https://github.com/byoungd)
 - [China Ciyuan Cloud Computing Limited 公开登记页面](https://www.ltddir.com/companies/china-ciyuan-cloud-computing-limited/)
+
+下一篇：[行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md)

@@ -1,12 +1,16 @@
 ---
 title: Lifelong Learning Guide for the AI Era
-description: An open guide to learning continuously, completing real projects, moving through difficult seasons, and preserving evidence of growth in the AI era.
-updated: 2026-08-24
+description: Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
+updated: 2026-08-30
 ---
 
 # Lifelong Learning Guide for the AI Era
 
 [中文](/) | English
+
+**By Han Xiankai, pen name “Lipi”**
+
+Subtitle: **Life Level-up Guide**. This living manuscript begins with English and continues into AI learning, real projects, entrepreneurship, recovery, and the work of returning your life to yourself one small act at a time.
 
 [![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -36,6 +40,20 @@ It also keeps three kinds of claim separate:
   <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Acknowledge failure and cost, then rebuild judgment, order, and action after disruption.</a>
   <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Make affiliations, purpose, update dates, and non-sponsorship visible so trust does not depend on guesswork.</a>
 </div>
+
+## Book Structure
+
+For a complete read, begin with the [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md). The book is not a straight climb. It is a loop we revisit:
+
+| Part | Core question | Entry point |
+| --- | --- | --- |
+| Prologue | Why begin again? | [Do Not Rush to Change Your Life](threads/part-0/prologue.md) |
+| Part I: Open Input | How do I build a bridge between English and the world? | [Learning Principles](threads/part-1/1-understanding.md) |
+| Part II: Return to Life | How do ability, work, relationships, and failure affect one another? | [My Story](threads/part-4/my-story.md) |
+| Part III: Amplify Ability | How can I use AI without outsourcing judgment? | [Learning Anything with AI](threads/part-3/1-ai-learning.md) |
+| Part IV: Practice and Recovery | How does learning return to the body and daily life? | [Week 1](threads/part-4/week-1.md) |
+| Part V: Long-Term Action | How can I make change verifiable in 90 days? | [90-Day Action Plan](threads/part-5/90-day-plan.md) |
+| Afterword | Who do I want to become after leveling up? | [Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md) |
 
 ## Begin with One Small Act Today
 

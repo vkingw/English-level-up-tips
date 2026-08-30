@@ -136,3 +136,5 @@ This is not the display of youthful success or the accusation of later disappoin
 - [My Story](../part-4/my-story.md)
 - [Author Projects and Real-world Practice](../../projects.md)
 - [GitHub profile](https://github.com/byoungd)
+
+Next: [90-Day Action Plan](../part-5/90-day-plan.md)

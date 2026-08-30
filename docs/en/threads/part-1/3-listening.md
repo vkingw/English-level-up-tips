@@ -1,7 +1,7 @@
 ---
 title: "Listening: From Sound Recognition to Real Understanding"
 description: Use CEFR can-do goals, gist, detail, segmentation, and retelling to build comparable 7-day, 30-day, and 12-week evidence.
-updated: 2026-08-16
+updated: 2026-08-30
 ---
 
 # Listening: From Sound Recognition to Real Understanding
@@ -9,6 +9,15 @@ updated: 2026-08-16
 Source (中文): [听力篇](../../../threads/part-1/3-listening.md)
 
 Most of the recommended videos are on YouTube. Many of them have fairly accurate English captions (often auto-generated). Depending on where you live, you may need a VPN to access them.
+
+Listening does not improve just because your ears are surrounded by English. The useful loop is: miss the meaning, check the transcript, listen again, and retell it in your own words.
+
+## Quick Overview
+
+- Keep one main source long enough to build continuity;
+- use intensive listening for detail and extensive listening for stamina;
+- choose material that is slightly challenging but repeatable;
+- leave visible evidence after each session: a dictation, retelling, or three-point note.
 
 ---
 
@@ -28,7 +37,7 @@ Most of the recommended videos are on YouTube. Many of them have fairly accurate
 
   Some people ask: “If I don’t understand it once, what if I listen 10 times?”
 
-  If you never clear the vocabulary using the transcript, listening 100 times still won’t help much. That goes against what we’re aiming for: high-leverage learning.
+  If you have no idea what the material means, repeating it mechanically usually repeats the confusion. Use the transcript to confirm key words and sentence structure, then return to the audio.
 
   US/UK TV shows are even less beginner-friendly. Choose materials that match your current vocabulary and level, and move up step by step.
 
@@ -38,7 +47,7 @@ Most of the recommended videos are on YouTube. Many of them have fairly accurate
 
   Does “no subtitles” automatically improve listening? Not always—because it can violate the previous rule (material too hard).
 
-  A better approach: when you rewatch a show/movie you love (second/third time), turn subtitles off. Your memory fills the gaps, and you train real listening.
+  A better approach: reduce subtitle support in stages. Understand the story first, remove Chinese subtitles next, then choose a short scene for intensive listening.
 
 - **Using materials you don’t care about**
 
@@ -68,6 +77,8 @@ The goal is: understand the meaning first, then try to hear every word clearly. 
 - repeating out loud (shadowing / speaking practice)
 
 It’s normal if you can’t keep up on the first listen. A few repeats usually make a big difference.
+
+For a 30-second to 3-minute clip, use five steps: listen for gist, mark unclear sounds, check the English transcript, listen again without text, and retell the meaning. Do not demand a perfect first pass; make each pass answer a different question.
 
 Intensive practice also helps you notice pronunciation patterns: linking, reductions, pauses, chunking. Find your weak spots and train them deliberately.
 

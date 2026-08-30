@@ -11,12 +11,18 @@ const routes = [
   ["./templates/ai-learning-log", "AI 学习记录模板"],
   ["./templates/ai-case-review", "AI 经历案例复盘模板"],
   ["./templates/ai-project-scorecard", "AI 项目评分卡模板"],
+  ["./threads/part-0/prologue", "序章：先不要急着改变人生"],
+  ["./threads/part-5/90-day-plan", "行动篇：九十天，把生活交还给自己"],
+  ["./threads/part-6/afterword", "后记：进阶不是离开原来的自己"],
   ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
   ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
   ["./en/templates/ai-task-brief", "AI Task Brief Template"],
   ["./en/templates/ai-learning-log", "AI Learning Log Template"],
   ["./en/templates/ai-case-review", "AI Case Review Template"],
   ["./en/templates/ai-project-scorecard", "AI Project Scorecard Template"],
+  ["./en/threads/part-0/prologue", "Prologue: Do Not Rush to Change Your Life"],
+  ["./en/threads/part-5/90-day-plan", "90-Day Action Plan"],
+  ["./en/threads/part-6/afterword", "Afterword: Progress Is Not Leaving Yourself Behind"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 

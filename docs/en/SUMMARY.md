@@ -11,6 +11,9 @@
 - [AI Learning Log](templates/ai-learning-log.md)
 - [AI Case Review](templates/ai-case-review.md)
 - [AI Project Scorecard](templates/ai-project-scorecard.md)
+- [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md)
+- [90-Day Action Plan](threads/part-5/90-day-plan.md)
+- [Afterword: Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md)
 
 ## Lifelong Learning and AI
 
@@ -32,7 +35,7 @@
 
 - [My Story](threads/part-4/my-story.md)
 - [Entrepreneurship](threads/part-2/entrepreneurship.md)
-- [Miscellaneous Notes](threads/part-2/x-misc.md)
+- [Miscellaneous Notes and Old Echoes](threads/part-2/x-misc.md)
 - [Week 1](threads/part-4/week-1.md)
 
 ## Archive

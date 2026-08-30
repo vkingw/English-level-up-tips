@@ -237,3 +237,5 @@ This visit made one thing even clearer to me: AI should not remain only as a con
 Going forward, I hope to keep exploring practical ways for AI to empower agriculture, forestry, animal husbandry, fisheries, and other parts of the real economy. In particular, I plan to provide free AI training for rural cooperatives, so that more ordinary people can understand AI, use AI, improve production efficiency, and discover new ways to grow their businesses.
 
 Seeking benefits for ordinary people and doing practical work should not be only a slogan. After going through the lowest points of my life, I increasingly believe that turning the ability to stand up again into something useful for others is one of the most grounded reasons to keep moving forward.
+
+Next: [90-Day Action Plan](../part-5/90-day-plan.md)

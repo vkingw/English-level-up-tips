@@ -17,6 +17,9 @@ export const zhNavigation = [
       page("AI 学习记录", "/templates/ai-learning-log"),
       page("AI 经历案例复盘", "/templates/ai-case-review"),
       page("AI 项目评分卡", "/templates/ai-project-scorecard"),
+      page("序章：先不要急着改变人生", "/threads/part-0/prologue"),
+      page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
+      page("后记：进阶不是离开原来的自己", "/threads/part-6/afterword"),
     ],
   },
   {
@@ -44,7 +47,7 @@ export const zhNavigation = [
     items: [
       page("我的故事", "/threads/part-2/my-story"),
       page("创业篇", "/threads/part-2/entrepreneurship"),
-      page("杂谈", "/threads/part-2/x-misc"),
+      page("杂谈与旧日回声", "/threads/part-2/x-misc"),
       page("Week 1", "/threads/part-4/week-1"),
     ],
   },
@@ -81,6 +84,9 @@ export const enNavigation = [
       page("AI Learning Log", "/en/templates/ai-learning-log"),
       page("AI Case Review", "/en/templates/ai-case-review"),
       page("AI Project Scorecard", "/en/templates/ai-project-scorecard"),
+      page("Prologue: Do Not Rush to Change Your Life", "/en/threads/part-0/prologue"),
+      page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
+      page("Afterword: Progress Is Not Leaving Yourself Behind", "/en/threads/part-6/afterword"),
     ],
   },
   {
@@ -111,7 +117,7 @@ export const enNavigation = [
     items: [
       page("My Story", "/en/threads/part-4/my-story", "en/threads/part-4/my-story.md"),
       page("Entrepreneurship", "/en/threads/part-2/entrepreneurship"),
-      page("Miscellaneous Notes", "/en/threads/part-2/x-misc"),
+      page("Miscellaneous Notes and Old Echoes", "/en/threads/part-2/x-misc"),
       page("Week 1", "/en/threads/part-4/week-1"),
     ],
   },

@@ -1,7 +1,7 @@
 ---
 title: "Writing: From Draft to Verifiable Revision"
 description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
-updated: 2026-08-16
+updated: 2026-08-30
 ---
 
 # Writing: From Draft to Verifiable Revision
@@ -13,6 +13,13 @@ Welcome to the writing chapter of *Life Level-up Guide*.
 This project began in 2017 as a way to share how I improved my English. It got more love than I expected (I even became “that markdown engineer with a lot of stars”), but after 2019 I basically stopped updating for a few years because I was young, busy with relationships, startups, and other restless experiments.
 
 Coming back to this chapter, I understand writing differently now. It is not decoration outside the English-learning path. It is how a person organizes experience, expresses judgment, repairs the self, and connects with opportunity. Language helps you see a wider world; writing helps you keep what you have seen.
+
+## Quick Overview
+
+- read different forms to study structure, tone, and editorial choices;
+- finish a rough draft before asking for feedback;
+- use AI for diagnosis and comparison, not as a replacement for judgment;
+- let a title serve the work instead of spending readers’ trust for clicks.
 
 ![hotel](../../../assets/hotel.jpg)
 

@@ -44,7 +44,7 @@ export default defineConfig({
   },
   head: [
     ["meta", { name: "theme-color", content: "#1f6f5c" }],
-    ["meta", { name: "author", content: "byoungd and contributors" }],
+    ["meta", { name: "author", content: "韩先凯（笔名：离谱）与贡献者" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["script", {}, legacyHashRedirect],
   ],
