@@ -135,6 +135,14 @@ test("home page shows the latest updates", async ({ page }) => {
   await expect(page.getByRole("img", { name: "韩先凯在 Agentic DB 大会与读者合影" })).toBeVisible();
 });
 
+test("home pages link to the reader guide", async ({ page }) => {
+  await page.goto("./");
+  await expect(page.getByRole("link", { name: "阅读指南", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/");
+  await expect(page.getByRole("link", { name: "Reader's Guide", exact: true }).first()).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(

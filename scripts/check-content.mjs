@@ -248,10 +248,14 @@ function checkUpdatedParity(markdownFiles) {
     (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
   );
 
+  const pairs = [[join(DOCS, "README.md"), join(DOCS, "en/README.md")]];
   for (const file of chineseFiles) {
     const path = relative(DOCS, file);
-    const expected = join(DOCS, "en", SPECIAL_ZH_TO_EN.get(path) || path);
-    if (!existsSync(expected)) continue;
+    pairs.push([file, join(DOCS, "en", SPECIAL_ZH_TO_EN.get(path) || path)]);
+  }
+
+  for (const [file, expected] of pairs) {
+    if (!existsSync(file) || !existsSync(expected)) continue;
     const chinese = parseFrontmatter(file)?.updated;
     const english = parseFrontmatter(expected)?.updated;
     if (chinese && english && chinese !== english) {
