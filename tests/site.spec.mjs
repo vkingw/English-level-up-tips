@@ -33,6 +33,7 @@ const routes = [
   ["./threads/part-2/relationships", "关系篇：在关系中成为成年人"],
   ["./threads/part-4/week-1", "Week 1"],
   ["./threads/part-2/x-misc", "杂谈与旧日回声"],
+  ["./threads/part-2/my-story", "我的故事：失败、恢复与重新出发"],
   ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
   ["./en/reference/glossary", "Glossary of Terms and Methods"],
   ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
@@ -61,6 +62,7 @@ const routes = [
   ["./en/threads/part-2/relationships", "Relationships: Becoming an Adult in Connection"],
   ["./en/threads/part-4/week-1", "Week 1"],
   ["./en/threads/part-2/x-misc", "Miscellaneous Notes and Old Echoes"],
+  ["./en/threads/part-4/my-story", "My Story: Failure, Recovery, and Starting Again"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 

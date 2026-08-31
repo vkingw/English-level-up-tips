@@ -6,7 +6,11 @@ updated: 2026-08-31
 
 # My Story: Failure, Recovery, and Starting Again
 
-> Content note: this chapter includes business failure, prolonged insomnia, severe stress, and past suicidal thoughts. It is a personal account, not medical, mental-health, legal, or financial advice. If you are in immediate danger, contact someone you trust and qualified local support first.
+> Content note: this chapter includes business failure, prolonged insomnia, severe stress, and past suicidal thoughts. It is a personal account, not medical, mental-health, legal, or financial advice. If you are in immediate danger, contact someone you trust and qualified local support first. If reading becomes distressing, pause and ask someone trustworthy to stay with you.
+
+## Narrative Boundary
+
+This is a memory written from my position, not a shared version from everyone involved. Partners, colleagues, and friends are anonymised or described generally; details about the child and other third parties are kept only when needed to understand the event. Dates, amounts, and physical experiences come from my records and memory and may contain error. Emotional interpretation is not a factual judgment about another person. Photographs and stories involving others remain only with necessary permission and respect for deletion requests.
 
 ## What Failure Cost Me
 
@@ -44,7 +48,7 @@ That night was beautiful, but the air was heavy with pressure. Looking at the ro
 
 At one point, while I was talking with great confidence about our bright future, she suddenly cried. Not loudly. Silently. I only realized it after she had been crying for a while. She seemed to understand that the future I was describing might not really have a place for her. She turned away from me, and in that moment I saw her vulnerability.
 
-That was also the exact moment I realized I truly loved her, and I made up my mind that I had to give her happiness.
+That was also the moment I realised I truly loved her, and began to understand that love is not designing happiness for another person. It is choosing to face uncertainty together.
 
 Later, we got married and had a lovely son.
 
@@ -172,7 +176,7 @@ Doing nothing for a long time is also unbearable. One day I reassembled my deskt
 
 I lost control of my gaming. My days and nights flipped upside down, and I earned nothing. The contrast with my old modest but decent life was brutal.
 
-Ruohan was never a very materialistic person, but when you are living off money from selling your house, sharing daily life with your parents, and showing no real sign of moving forward, disappointment naturally builds up. She was deeply unhappy with how I was living and asked me how long I was going to continue like this.
+When you are living off money from selling a house, sharing daily life with parents, and showing no sign of moving forward, disappointment naturally builds. She also carried great pressure and asked how long this life would continue.
 
 I shouted back at her, “What do you want me to do?”
 
@@ -212,19 +216,13 @@ That night we still went to Haidilao, but we barely ordered anything. When the s
 
 If only it were that easy.
 
-Maybe many people are the same. You can endure your own suffering, but the moment your wife or child suffers even a little because of you, your heart turns upside down. A tiny, ordinary moment can shatter all the armor you built for yourself. All the sadness and frustration rushes back at once.
+When family members carry pain because of your decisions, your own suffering does not cancel the guilt. A tiny, ordinary moment can shatter the armour you built for yourself, and sadness and frustration rush back at once.
 
 ## 2026-04-22 Update
 
 A lot of people have asked how I am doing now. I’m still here, and I’m doing well.
 
-One more thing: this article contains a lot of criticism toward my partner Mr. Gong. In reality, he is a very capable and impressive person. At the critical stage when the company was fighting for survival, our principles and management philosophies clashed sharply. And because this article is written entirely from my personal point of view, it naturally makes him look like my opposite.
-
-That is not the full truth. He has many admirable qualities.
-
-Even after failure, the important thing is to keep learning, keep improving, and keep yourself in a state where you are always ready to start again.
-
-May we both keep going.
+One more thing: this article mainly records my conflict with my partner Mr. Gong (a pseudonym) during the company’s final period, so it can make him look like a single opposing figure. That is my perspective, not a complete judgment of him; he has many admirable qualities. Public writing should leave other people room not to be defined entirely by my version.
 
 ## 2026-06-16 Update
 
@@ -232,7 +230,7 @@ On June 16, 2026, as Chairman of China Ciyuan Cloud Computing Co., Ltd., I was i
 
 ![Visiting Alibaba Cloud Hangzhou headquarters](../../../assets/aliyun-hangzhou-2026-06-16-1.jpg)
 
-This visit made one thing even clearer to me: AI should not remain only as a concept, and it should not be a tool held only by a small group of people. Truly valuable AI must enter real industries, real land, and the everyday lives of ordinary families.
+This visit made me more willing to believe that AI should not remain only as a concept or a tool held by a small group. I hope it can enter real industries, land, and ordinary lives only after permission, responsibility, and real-world verification are in place.
 
 ![Learning about the Qwen large language model](../../../assets/aliyun-hangzhou-2026-06-16-2.jpg)
 
