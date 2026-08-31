@@ -19,6 +19,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added a private-session asset guard across `.gitignore`, VitePress, maintenance guidance, and Playwright so local credentials cannot be published accidentally.
 - Replaced a generic English image alt with a contextual description and taught content checks to reject common placeholder alt text.
 - Corrected the CEFR attribution entry and added a check that explicit local paths in `ATTRIBUTIONS.md` still exist.
+- Removed 21 unreferenced legacy illustrations and screenshots, refreshed the current asset register, and added orphan-asset detection to content checks.
 
 ### 2026-08-31 manuscript pass
 

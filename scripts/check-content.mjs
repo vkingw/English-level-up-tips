@@ -6,7 +6,7 @@ import {
   readdirSync,
   statSync,
 } from "node:fs";
-import { dirname, extname, join, relative, resolve, sep } from "node:path";
+import { basename, dirname, extname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
@@ -15,6 +15,8 @@ const DOCS = join(ROOT, "docs");
 const errors = [];
 const IGNORE_DIRS = new Set([".git", "node_modules", "dist", ".cache"]);
 const PUBLIC_IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
+const PUBLIC_ASSET_EXTENSIONS = new Set([...PUBLIC_IMAGE_EXTENSIONS, ".svg"]);
+const TEXT_SOURCE_EXTENSIONS = new Set([".md", ".mjs", ".mts", ".ts", ".css"]);
 
 function addError(file, line, message) {
   errors.push({ file: relative(ROOT, file), line, message });
@@ -274,6 +276,23 @@ function checkAttributionPaths() {
   });
 }
 
+function checkOrphanAssets() {
+  const assets = walk(join(DOCS, "assets"), PUBLIC_ASSET_EXTENSIONS);
+  const sourceFiles = walk(ROOT, TEXT_SOURCE_EXTENSIONS).filter((file) => {
+    if (file.startsWith(`${join(DOCS, "assets")}${sep}`)) return false;
+    const name = basename(file);
+    return name !== "ATTRIBUTIONS.md" && name !== "CHANGELOG.md";
+  });
+  const sourceText = sourceFiles.map((file) => readFileSync(file, "utf8"));
+
+  for (const asset of assets) {
+    const name = basename(asset);
+    if (!sourceText.some((text) => text.includes(name))) {
+      addError(asset, 1, `公共资产未在正文、配置或构建脚本中引用: ${name}`);
+    }
+  }
+}
+
 const markdownFiles = walk(ROOT, new Set([".md"]));
 for (const file of markdownFiles) checkLinksAndAlt(file);
 for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
@@ -290,6 +309,7 @@ checkStaleStrings(
 );
 checkReadmeMirror();
 checkAttributionPaths();
+checkOrphanAssets();
 await checkImageMetadata();
 
 if (!errors.length) {
