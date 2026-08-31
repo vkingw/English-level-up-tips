@@ -1,8 +1,8 @@
 import { expect, test } from "@playwright/test";
 
 const routes = [
-  ["./", "AI 时代终身学习指南"],
-  ["./en/", "Lifelong Learning Guide for the AI Era"],
+  ["./", "人生进阶指南"],
+  ["./en/", "Life Level-up Guide"],
   ["./threads/part-1/0-cefr", "CEFR"],
   ["./threads/part-1/7-ai", "用 AI 学英语"],
   ["./threads/part-3/1-ai-learning", "使用 AI 学习一切"],
@@ -50,7 +50,7 @@ test("page metadata follows the route", async ({ page }) => {
 
 test("home metadata follows the lifelong-learning positioning", async ({ page }) => {
   await page.goto("./");
-  await expect(page).toHaveTitle(/AI 时代终身学习指南/);
+  await expect(page).toHaveTitle(/人生进阶指南/);
   await expect(page.locator('meta[name="description"]')).toHaveAttribute(
     "content",
     /AI 时代.*真实项目.*低谷/,
@@ -61,11 +61,11 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
   );
   await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
     "content",
-    "AI 时代终身学习指南",
+    "人生进阶指南｜AI 时代终身学习",
   );
 
   await page.goto("./en/");
-  await expect(page).toHaveTitle(/Lifelong Learning Guide for the AI Era/);
+  await expect(page).toHaveTitle(/Life Level-up Guide/);
   await expect(page.locator('meta[name="description"]')).toHaveAttribute(
     "content",
     /learning continuously.*AI era/i,
@@ -119,7 +119,7 @@ test("language navigation and representative image work", async ({ page }) => {
   await expect(image).toHaveJSProperty("complete", true);
 
   await page.goto("./en/");
-  await expect(page.getByRole("heading", { level: 1, name: "Lifelong Learning Guide for the AI Era" })).toBeVisible();
+  await expect(page.getByRole("heading", { level: 1, name: "Life Level-up Guide" })).toBeVisible();
   let lifelongLearning = page.getByRole("link", {
     name: "Lifelong Learning",
     exact: true,

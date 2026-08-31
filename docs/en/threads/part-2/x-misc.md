@@ -1,7 +1,7 @@
 ---
 title: Miscellaneous Notes and Old Echoes
 description: Additional notes about learning, training, devices, and past experiences, preserved as historical context rather than universal advice.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Miscellaneous Notes and Old Echoes

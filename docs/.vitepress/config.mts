@@ -5,9 +5,9 @@ const origin = "https://byoungd.github.io";
 const base = "/up/";
 const siteUrl = `${origin}${base}`;
 const defaultDescription =
-  "帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据的开放指南。";
+  "《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。";
 const defaultDescriptionEn =
-  "An open guide to learning continuously, completing real projects, moving through difficult seasons, and preserving evidence of growth in the AI era.";
+  "Life Level-up Guide helps ordinary people learn continuously, complete real projects, move through difficult seasons, and preserve evidence of growth in the AI era.";
 
 function routeFromRelativePath(relativePath: string) {
   const clean = relativePath
@@ -29,7 +29,7 @@ const legacyHashRedirect = `
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "AI 时代终身学习指南",
+  title: "人生进阶指南｜AI 时代终身学习",
   description: defaultDescription,
   base,
   cleanUrls: true,
@@ -52,10 +52,10 @@ export default defineConfig({
     root: {
       label: "简体中文",
       lang: "zh-CN",
-      title: "AI 时代终身学习指南",
+      title: "人生进阶指南｜AI 时代终身学习",
       description: defaultDescription,
       themeConfig: {
-        siteTitle: "AI 时代终身学习指南",
+        siteTitle: "人生进阶指南｜AI 时代终身学习",
         nav: [
           { text: "终身学习", link: "/templates/learning-state" },
           { text: "AI 学习", link: "/threads/part-3/1-ai-learning" },
@@ -76,10 +76,10 @@ export default defineConfig({
       label: "English",
       lang: "en-US",
       link: "/en/",
-      title: "Lifelong Learning Guide for the AI Era",
+      title: "Life Level-up Guide | Lifelong Learning in the AI Era",
       description: defaultDescriptionEn,
       themeConfig: {
-        siteTitle: "Lifelong Learning Guide for the AI Era",
+        siteTitle: "Life Level-up Guide | Lifelong Learning in the AI Era",
         nav: [
           { text: "Lifelong Learning", link: "/en/templates/learning-state" },
           { text: "AI Learning", link: "/en/threads/part-3/1-ai-learning" },
@@ -92,7 +92,7 @@ export default defineConfig({
   },
   themeConfig: {
     logo: "/assets/feature.svg",
-    siteTitle: "AI 时代终身学习指南",
+    siteTitle: "人生进阶指南｜AI 时代终身学习",
     search: { provider: "local" },
     socialLinks: [{ icon: "github", link: "https://github.com/byoungd/up" }],
     editLink: {
@@ -121,7 +121,7 @@ export default defineConfig({
     const canonical = `${siteUrl}${route}${route ? "/" : ""}`;
     const isEnglish = route === "en" || route.startsWith("en/");
     const title = pageData.title ||
-      (isEnglish ? "Lifelong Learning Guide for the AI Era" : "AI 时代终身学习指南");
+      (isEnglish ? "Life Level-up Guide | Lifelong Learning in the AI Era" : "人生进阶指南｜AI 时代终身学习");
     const description =
       pageData.frontmatter.description ||
       `${title}. ${isEnglish ? defaultDescriptionEn : defaultDescription}`;

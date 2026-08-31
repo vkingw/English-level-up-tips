@@ -2,7 +2,7 @@
 
 ## 开始
 
-- [AI 时代终身学习指南](README.md)
+- [人生进阶指南](README.md)
 - [CEFR 目标与自测](threads/part-1/0-cefr.md)
 - [学习状态模板](templates/learning-state.md)
 - [每周复盘模板](templates/weekly-review.md)
@@ -11,6 +11,9 @@
 - [AI 学习记录](templates/ai-learning-log.md)
 - [AI 经历案例复盘](templates/ai-case-review.md)
 - [AI 项目评分卡](templates/ai-project-scorecard.md)
+
+## 书稿结构
+
 - [序章：先不要急着改变人生](threads/part-0/prologue.md)
 - [行动篇：九十天，把生活交还给自己](threads/part-5/90-day-plan.md)
 - [后记：进阶不是离开原来的自己](threads/part-6/afterword.md)

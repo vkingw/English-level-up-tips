@@ -1,16 +1,16 @@
 ---
-title: AI 时代终身学习指南
+title: 人生进阶指南｜AI 时代终身学习
 description: 《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
-# AI 时代终身学习指南
+# 人生进阶指南
 
 中文 | [English](en/)
 
 **韩先凯 著（笔名：离谱）**
 
-副标题：**《人生进阶指南》**。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。
+副标题：**AI 时代终身学习指南**。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。
 
 [![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 

@@ -1,16 +1,16 @@
 ---
-title: Lifelong Learning Guide for the AI Era
+title: "Life Level-up Guide | Lifelong Learning in the AI Era"
 description: Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
-# Lifelong Learning Guide for the AI Era
+# Life Level-up Guide
 
 [中文](/) | English
 
 **By Han Xiankai, pen name “Lipi”**
 
-Subtitle: **Life Level-up Guide**. This living manuscript begins with English and continues into AI learning, real projects, entrepreneurship, recovery, and the work of returning your life to yourself one small act at a time.
+Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript begins with English and continues into AI learning, real projects, entrepreneurship, recovery, and the work of returning your life to yourself one small act at a time.
 
 [![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 

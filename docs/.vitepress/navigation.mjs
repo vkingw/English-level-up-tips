@@ -8,7 +8,7 @@ export const zhNavigation = [
   {
     text: "开始",
     items: [
-      page("AI 时代终身学习指南", "/", "README.md"),
+      page("人生进阶指南", "/", "README.md"),
       page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
       page("学习状态模板", "/templates/learning-state"),
       page("每周复盘模板", "/templates/weekly-review"),
@@ -17,6 +17,11 @@ export const zhNavigation = [
       page("AI 学习记录", "/templates/ai-learning-log"),
       page("AI 经历案例复盘", "/templates/ai-case-review"),
       page("AI 项目评分卡", "/templates/ai-project-scorecard"),
+    ],
+  },
+  {
+    text: "书稿结构",
+    items: [
       page("序章：先不要急着改变人生", "/threads/part-0/prologue"),
       page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
       page("后记：进阶不是离开原来的自己", "/threads/part-6/afterword"),
@@ -75,7 +80,7 @@ export const enNavigation = [
   {
     text: "Start Here",
     items: [
-      page("Lifelong Learning Guide for the AI Era", "/en/", "en/README.md"),
+      page("Life Level-up Guide", "/en/", "en/README.md"),
       page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
       page("Learning State", "/en/templates/learning-state"),
       page("Weekly Review", "/en/templates/weekly-review"),
@@ -84,6 +89,11 @@ export const enNavigation = [
       page("AI Learning Log", "/en/templates/ai-learning-log"),
       page("AI Case Review", "/en/templates/ai-case-review"),
       page("AI Project Scorecard", "/en/templates/ai-project-scorecard"),
+    ],
+  },
+  {
+    text: "Book Structure",
+    items: [
       page("Prologue: Do Not Rush to Change Your Life", "/en/threads/part-0/prologue"),
       page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
       page("Afterword: Progress Is Not Leaving Yourself Behind", "/en/threads/part-6/afterword"),

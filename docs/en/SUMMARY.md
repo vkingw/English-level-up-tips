@@ -2,7 +2,7 @@
 
 ## Start Here
 
-- [Lifelong Learning Guide for the AI Era](README.md)
+- [Life Level-up Guide](README.md)
 - [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
 - [Learning State](templates/learning-state.md)
 - [Weekly Review](templates/weekly-review.md)
@@ -11,6 +11,9 @@
 - [AI Learning Log](templates/ai-learning-log.md)
 - [AI Case Review](templates/ai-case-review.md)
 - [AI Project Scorecard](templates/ai-project-scorecard.md)
+
+## Book Structure
+
 - [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md)
 - [90-Day Action Plan](threads/part-5/90-day-plan.md)
 - [Afterword: Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md)

@@ -1,8 +1,19 @@
 ---
 title: "Week 1: Real-life English Practice"
 description: English practice about sleep, stress, and lifestyle, with historical personal claims revised to reflect current evidence boundaries.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
+
+# Week 1: Sleep, Stress, and Everyday English
+
+> This is an English reading and speaking exercise, not medical advice. If sleep problems keep affecting your life, consult a qualified healthcare professional.
+
+## How to Use This Lesson
+
+1. Read or listen to a short section without looking up every word, then write the main idea.
+2. Mark five reusable expressions and check their tone and collocations.
+3. Retell the section in English for 60–90 seconds; do not translate sentence by sentence.
+4. Save the recording or paragraph, then repeat a parallel task one week later.
 
 ## WHY
 
