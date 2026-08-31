@@ -26,6 +26,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Connected attention, recovery, and relationship chapters directly to their corresponding Life Practice Toolkit sheets and the 90-Day Cycle Map.
 - Added the bilingual Artifact Brief and Delivery Card so learning outputs can be scoped, reviewed, handed over, and rolled back.
 - Upgraded the bilingual English Diagnostic Template with condition tracking, raw/delayed samples, evidence-card links, and a 90-day next-variable handoff.
+- Upgraded the bilingual Weekly Review Template into a weekly evidence dashboard with constraints, error causes, recovery, and state handoff.
 
 #### Changed
 
