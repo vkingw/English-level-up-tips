@@ -27,6 +27,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual Artifact Brief and Delivery Card so learning outputs can be scoped, reviewed, handed over, and rolled back.
 - Upgraded the bilingual English Diagnostic Template with condition tracking, raw/delayed samples, evidence-card links, and a 90-day next-variable handoff.
 - Upgraded the bilingual Weekly Review Template into a weekly evidence dashboard with constraints, error causes, recovery, and state handoff.
+- Upgraded the bilingual Learning State Template into a versioned cross-session source of truth with evidence inventory, boundaries, handover, and review dates.
 
 #### Changed
 
