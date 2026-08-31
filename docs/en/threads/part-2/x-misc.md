@@ -8,7 +8,7 @@ updated: 2026-08-31
 
 Source (中文): [杂谈与旧日回声](../../../threads/part-2/x-misc.md)
 
-This chapter is intentionally a bit off-topic: personal opinions, stories, and some “learned the hard way” moments.
+This chapter is intentionally a bit off-topic: personal opinions, stories, and some “learned the hard way” moments. It is a historical record, not current guidance.
 
 > This is an edited archive of older writing. It includes references to school violence, long-term insomnia, and past suicidal thoughts. Those passages are personal memories, not medical advice. If you are in immediate danger, contact someone you trust and local professional support.
 
@@ -24,26 +24,15 @@ If the only reason you want in is “the salary is higher than what I have now�
 
 Try to optimize for work that you **enjoy and can do well**. I hope you get to live the life you want—not trade life away just to survive.
 
-I’ll quote a passage from *Front-end Developer Handbook 2017* (with the named institutions removed):
+The central reminder in *Front-end Developer Handbook 2017* was simple: public learning material is abundant; a paid course mainly buys structure, feedback, and accountability, not secret knowledge. The source belongs to an earlier period, so this page keeps the idea without reproducing a long quotation.
 
-> Lately a lot of non-accredited, expensive, front-end code schools/bootcamps have emerged.  
-> These avenues of becoming a front-end developer are typically teacher directed courses…  
-> Keep in mind… this is the web! Everything you need to learn is on the web for the taking…  
-> However, if you need someone to tell you how to take and learn what is actually free, and hold you accountable… you might consider an organized course.  
-> Otherwise… I am not aware of any other profession that is practically free for the taking with an internet connection… and a burning desire for knowledge.  
-> — *Front-end Developer Handbook 2017*
-
-So if you want to enter the industry through training, my advice is:
-
-You’re trying to join the internet industry. You should have “use the internet” as your first instinct. Spend that expensive tuition on something fun for yourself.
-
-> If you’re still a student and a bootcamp tries to push you into “student loans / installment plans”, be extra careful. Some of them are genuinely shady.
+If you consider paid training, check whether it provides real practice, observable outcomes, instructor feedback, cancellation terms, and post-course support. If an organisation pushes a loan or instalment plan, write down interest, default terms, and employment promises, then give yourself time to decide.
 
 ---
 
 ## Are Bootcamps Worth It?
 
-I trained for 4 months and spent 20,000 RMB on web front-end development.
+The following is a personal experience, not a general link between tuition and employment: I trained for four months and spent 20,000 RMB on web front-end development.
 
 Two weeks after finishing, I got an offer from Meituan.
 
@@ -51,11 +40,11 @@ I admit I wasn’t the best student in class.
 
 But I was the first one to find a job.
 
-And it was a big company.
+And it was a large company.
 
-I’ve always believed hard work can make up for talent. If you’re determined, a lot is possible.
+At the time I believed hard work could make up for talent, and that determination could take a person far. That was a personal belief, not an employment guarantee.
 
-It’s been one week since I joined. Everyone is nice. They even gave me an electric scooter, a helmet, and a coat.
+That was simply the result in my case. It is not evidence of a course’s quality or a typical hiring probability.
 
 Anyway, gotta go—new order just came in.
 
@@ -80,33 +69,17 @@ Before paying for a course, ask whether it provides practice, feedback, and an o
 
 ## Kindle and iPad
 
-I know a lot of people’s Kindle and iPad are collecting dust… or being used as instant noodle lids.
-
-That might be funny, but is that really why we bought them?
-
-![confused](../../../assets/黑人问号.jpg)
+Many people’s Kindle and iPad are still collecting dust. A device earns its place not through its brand, but by reducing reading friction: comfortable text, search and annotation, and a design that makes you willing to return a week later. If it does not serve the task, you do not have to keep it.
 
 ---
 
 ## A Pretty Painful Learning Story (Personal)
 
-In middle school, I ranked No.1 in my grade. I got arrogant.
+In middle school, I ranked near the top and gradually became arrogant. I was subjected to violence at school after mocking teachers and dismissing their mistakes; the school later dealt with one teacher. Another teacher lost control after I provoked him and apologised later. I used his family difficulties as a reason to keep skipping class.
 
-In 8th grade, a new math teacher arrived. I couldn’t stand that he sometimes explained easy problems incorrectly. I looked down on him, ignored homework, and basically did my own thing in class.
+Violence is never an educational method, and I should not have humiliated someone because I thought a method was not “optimal”. The memory leaves two responsibilities: being hurt was not my fault, while my arrogance and avoidance were mine to examine.
 
-One day he messed up another problem. I laughed and shook my head. He must have been holding it in for a while—he snapped and beat me. Later the principal found out and fired him.
-
-In 9th grade, I repeated the same mistake with another math teacher. This time it wasn’t because he was wrong, but because his method wasn’t “optimal”. I got beaten again. My deskmate even cried. I somehow didn’t feel much pain.
-
-Later that teacher apologized. He slapped himself, grabbed my hand, and tried to make me hit him. I said, “The last teacher who hit me got fired.”
-
-He told me his father was seriously ill, his brother was unemployed, and he needed this job. We made a deal: I didn’t have to attend his math class; I could go play.
-
-And I really didn’t attend his math class after that.
-
-Afterwards, I completely lost interest in math. I even ripped up my certificates from math competitions.
-
-Youth. Ego. Sigh.
+I eventually lost interest in mathematics and tore up competition certificates. Youthful ego left more than a joke; it left consequences that required repair.
 
 In high school, pressure got intense—not only from school, but from my own unrealistic expectations.
 
@@ -138,9 +111,9 @@ Then something shifted. At night I started feeling sleepy again. I could sleep.
 
 My grades improved a bit too. I still did poorly on the college entrance exam overall, but my high scores in Chinese and English helped me get into a decent university (by then I basically never touched math again).
 
-So when you’re at a low point in life, try learning something new. You might find unexpected joy in it.
+When you are at a low point, try something small that can leave a result. It may not solve the problem, but it can give a day one point you can hold.
 
-Learn to let go, accept yourself, and find what you truly like. If something is necessary for your work and life, try to learn to like it.
+Learn to let go, accept yourself, and find what you are willing to approach for a long time. If something supports your work and life, try to understand and practise it instead of spending all your energy on dislike.
 
 That’s part of why I’m sharing these experiences—to help people waste less time and take fewer detours.
 
@@ -148,33 +121,31 @@ That’s part of why I’m sharing these experiences—to help people waste less
 
 During college, my English teacher had it out for me. It started because I forgot my textbook in one class. She asked me to spell words… and I got all of them right.
 
-She praised me in English. I showed off a bit and had a fairly fluent conversation with her.
+She praised me in English. I showed off a little and had a conversation with her.
 
 The whole class looked at me with envy (or contempt—hard to tell). I still feel a little proud when I remember it.
 
-After that, she kept targeting me. I never escaped roll call again.
+After that, she began watching my attendance, and I rarely escaped roll call again.
 
-I hated her.
+I treated the attention as persecution and used skipping class as a form of resistance.
 
-Then, thanks to her “efforts”, basically the whole department started watching me. Every attendance check began with: “Is the guy from Class 2 here?” If I was there, they didn’t bother calling names anymore.
+Later, the English teacher helped the department take my attendance seriously. Each check began by confirming whether I was present.
 
 By the second semester of junior year, I failed 19 courses.
 
 At the start of senior year, the university wanted to demote me back a year. Graduation seemed impossible.
 
-Then the English teacher helped me talk to the homeroom teacher, the department head, the academic office… and insisted I stay in my year. The deal was simple: retake 19 courses; if I failed, I’d drop out.
+Then the English teacher helped me speak with the homeroom teacher, department head, and academic office, and insisted that I stay in my year. The condition was clear: retake 19 courses or leave. She accepted a risk and returned the choice and consequence to me.
 
 Senior year, I carried a heavy backpack and studied every day in classrooms and the library. Every evening on the way back to the dorm, I would “hate my English teacher again”.
 
-How can someone be that intense?
+I thought she was too strict. Later I learned that strictness and malice are not the same thing.
 
 Final exams: 26 courses. I was exhausted.
 
-When I found out I passed all 19 retakes, I almost cried. I finally got to slap that “you won’t graduate” story back in the face.
+When I found out I had passed all 19 retakes, I almost cried. I no longer needed avoidance to prove that I was right.
 
-And then I wrote this as my graduation message:
-
-“In college, never fall in love with your teacher.”
+My graduation message became: “In college, never turn avoidance into a romance.”
 
 ---
 
@@ -182,10 +153,9 @@ And then I wrote this as my graduation message:
 
 After all this, my conclusion is: talent may affect your starting point, but practice, feedback, and interest determine how far you go.
 
-Effort is not magic. It is the most reliable place to start—and it works best when pointed in the right direction.
+Effort is not magic or the only place to start. It works best when directed toward a goal that can receive feedback, carry consequences, and become more real over time.
 
-> About the times I got beaten by teachers: I take responsibility too. I didn’t respect their dignity and acted like a jerk.  
-> This chapter contains exaggeration, jokes, and real pain. Read it as an old echo, then leave it in the past.
+> About the violence: I take responsibility for my arrogance and disrespect, but none of that justifies being hurt. This chapter contains exaggeration, jokes, and real pain. Read it as a historical record, keeping what helps today’s judgment and leaving the rest in the past.
 
 Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)
 

@@ -28,6 +28,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Reworked the Week 1 sleep-and-stress lesson as an evidence-bounded language exercise, removing unsupported medical claims and adding safer source boundaries.
 - Refined the entrepreneurship chapter with explicit evidence levels, personal-estimate disclosure, five reality gates, and links to the decision and project scorecards.
 - Clarified the book's reading arc in the prologue, homepage map, and afterword so readers can move from a real problem to evidence cards, a 90-day cycle, and recovery when plans break.
+- Reworked the historical miscellaneous notes to shorten an external quotation, remove a stereotyped image, reduce graphic school-violence detail, and label training and personal outcomes as non-general evidence.
 - Added book-structure navigation and browser smoke coverage for the new pages.
 
 ### Added

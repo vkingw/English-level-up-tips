@@ -27,6 +27,7 @@ const routes = [
   ["./threads/part-2/decision", "选择篇：在不确定中做决定"],
   ["./threads/part-2/relationships", "关系篇：在关系中成为成年人"],
   ["./threads/part-4/week-1", "Week 1"],
+  ["./threads/part-2/x-misc", "杂谈与旧日回声"],
   ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
   ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
   ["./en/templates/ai-task-brief", "AI Task Brief Template"],
@@ -49,6 +50,7 @@ const routes = [
   ["./en/threads/part-2/decision", "Decision-Making: Choosing Under Uncertainty"],
   ["./en/threads/part-2/relationships", "Relationships: Becoming an Adult in Connection"],
   ["./en/threads/part-4/week-1", "Week 1"],
+  ["./en/threads/part-2/x-misc", "Miscellaneous Notes and Old Echoes"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 
