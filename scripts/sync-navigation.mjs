@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { enNavigation, zhNavigation } from "../docs/.vitepress/navigation.mjs";
@@ -8,6 +8,21 @@ import { enNavigation, zhNavigation } from "../docs/.vitepress/navigation.mjs";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DOCS = join(ROOT, "docs");
 const checkOnly = process.argv.includes("--check");
+
+function markdownSources(dir, prefix = "", output = []) {
+  for (const name of readdirSync(dir)) {
+    if ([".vitepress", "public", "assets"].includes(name)) continue;
+    const path = join(dir, name);
+    const stat = statSync(path);
+    if (stat.isDirectory()) {
+      markdownSources(path, join(prefix, name), output);
+      continue;
+    }
+    if (!name.endsWith(".md") || name === "SUMMARY.md") continue;
+    output.push(join(prefix, name));
+  }
+  return output;
+}
 
 function validateNavigation(groups, locale) {
   const seenLinks = new Set();
@@ -34,6 +49,26 @@ function validateNavigation(groups, locale) {
 
 validateNavigation(zhNavigation, "中文");
 validateNavigation(enNavigation, "英文");
+
+function validateNavigationCoverage() {
+  const publicSources = new Set(markdownSources(DOCS));
+  const navigationSources = new Set(
+    [...zhNavigation, ...enNavigation].flatMap((group) => group.items.map((item) => item.source)),
+  );
+
+  for (const source of publicSources) {
+    if (!navigationSources.has(source)) {
+      throw new Error(`公开 Markdown 未被导航收录: ${source}`);
+    }
+  }
+  for (const source of navigationSources) {
+    if (!publicSources.has(source)) {
+      throw new Error(`导航 source 不属于公开 Markdown: ${source}`);
+    }
+  }
+}
+
+validateNavigationCoverage();
 
 function summary(groups, prefix = "") {
   const lines = ["# Summary", ""];
