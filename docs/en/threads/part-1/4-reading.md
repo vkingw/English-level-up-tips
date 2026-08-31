@@ -1,12 +1,21 @@
 ---
 title: "Reading: From Word-by-word Translation to Claims and Evidence"
 description: Use CEFR goals to practise gist, argument, inference, and transfer with authentic, inspectable reading tasks.
-updated: 2026-08-16
+updated: 2026-08-31
 ---
 
 # Reading: From Word-by-word Translation to Claims and Evidence
 
 Source (中文): [阅读篇](../../../threads/part-1/4-reading.md)
+
+Reading is not moving every word into another language. It is building meaning, structure, and judgment while some uncertainty remains. You need to know when to continue, when to verify, and when to separate the author’s claim from your own opinion.
+
+## Quick Overview
+
+- use intensive reading for structure, evidence, and tone, and extensive reading for speed, stamina, and interest;
+- choose material that is slightly challenging but finishable;
+- recommend books by reading task, not by sales or ranking claims;
+- leave a gist, structure, supported inference, and retelling after each session.
 
 ---
 
@@ -34,37 +43,47 @@ Don’t turn it into homework:
 
 Also: start with something manageable. Jumping straight into *A Song of Ice and Fire* is a fast way to get crushed by unknown words and quit.
 
+## A Complete Reading Pass
+
+1. **First pass**: finish a short section on a timer without looking up every word; write one-sentence gist.
+2. **Mark**: label each paragraph’s function and the words or sentences that truly block meaning.
+3. **Verify**: check recurring, domain-critical, or reasoning-critical items and record the source.
+4. **Reconstruct**: close the dictionary, rebuild the structure in five sentences, and write one supported inference.
+5. **Transfer**: read a parallel text one week later and compare speed, gist, and evidence tracking.
+
+If almost every sentence is blocked, choose easier parallel material first. Lowering the entry point does not lower the destination.
+
 ---
 
 ## Recommended English Books
 
-To help you get started, here are a few books across different difficulty levels (inspired by various English-learning YouTube channels):
+Here are a few books across relative difficulty levels. The descriptions focus on reading practice rather than rankings, sales, or universal difficulty claims:
 
 - [Animal Farm (动物庄园) — George Orwell](https://book.douban.com/subject/10956502/)
 
-  A famous political allegory and dystopian fable. Widely translated and adapted, and often recognized as one of the great political satires of the 20th century.
+  A compact allegorical story that works well for practising repeated vocabulary, narrative movement, and the relationship between claims and symbols.
 
 - [The Curious Incident of the Dog in the Night-time — Mark Haddon](https://book.douban.com/subject/23546652/)
 
-  One of its best parts is the narrative voice. The protagonist’s logic is consistently mathematical, and that reasoning style drives the story forward.
+  The distinctive first-person voice makes it useful for studying logical connectors, perspective, and how a narrator shapes evidence.
 
 - [The Diary of a Young Girl — Anne Frank](https://book.douban.com/subject/1341074/)
 
-  There are many WWII stories, but Anne Frank’s diary remains one of the most moving. Her writing ability is genuinely impressive and makes this a great step-up read.
+  The diary form offers practice in concrete detail, daily observation, and expressing changing emotion without a formal essay structure.
 
 - [Harry Potter series (哈利波特系列) — J. K. Rowling](https://book.douban.com/subject/1340758/)
 
-  Needs no introduction. Don’t be allergic to popular fiction—this series has helped a lot of learners build reading stamina.
+  Popular fiction can be a practical bridge to long-form reading: dialogue, action, recurring vocabulary, and sustained plot all build stamina.
 
 - [The Kite Runner (追风筝的人) — Khaled Hosseini](https://book.douban.com/subject/1772158/)
 
-  Emotionally powerful and hard to forget. It’s the kind of novel that can make everything else you read afterward feel a bit pale for a while.
+  A longer, emotionally demanding narrative for practising pacing, relationships, and the way a story carries guilt, loyalty, and repair.
 
 - [On Writing Well — William Zinsser](https://book.douban.com/subject/4740002/)
 
-  It’s a book about writing, but also an excellent reading resource. The author teaches writing like a craft—clear, honest, and structured. This one is worth intensive reading, so it’s listed last.
+  A clear nonfiction text for intensive reading: follow its structure, notice how sentences are shortened, and imitate one paragraph in your own words.
 
-> If you’ve already read the Chinese translation of a book, it often helps a lot before you read the original English version.
+> A Chinese translation can provide a background map, but do not compare sentence by sentence. Let the English text speak first, then compare changes in tone and emphasis.
 
 ---
 
