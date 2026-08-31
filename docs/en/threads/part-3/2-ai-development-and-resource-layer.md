@@ -106,6 +106,8 @@ Mark missing information and inference. Recommend only one slice that can be ver
 
 Before release preserve a version, change summary, migration steps, monitored signals, rollback trigger, owner, and user notice. Review by severity for requirement drift, data loss, permission bypass, injection, races, error handling, performance, maintainability, and test gaps.
 
+Complete the [AI Project Scorecard](../../templates/ai-project-scorecard.md) after each pilot or release and keep an unaided baseline, assisted version, and delayed independent retest. Without all three, you cannot tell whether the tool created ability, outsourcing, or rework.
+
 ## 3. What Is the AI Resource Layer?
 
 Models provide capabilities and applications provide the results users see. Between them lies infrastructure that makes capabilities accessible, controllable, measurable, and sustainable. I call this the **AI resource layer**.
@@ -176,6 +178,8 @@ Produce a one-page problem brief, not a one-page AI value statement.
 A credible pilot has scope, sample, non-goals, data boundary, owners, dates, acceptance criteria, failure exit, and a cost ceiling. Preserve the old-process baseline: human time, error rate, waiting time, rework, current cost, and user satisfaction.
 
 During the pilot record model calls, routing, latency, failures, human takeovers, support hours, data exceptions, rework, and user feedback. Recording generated content alone cannot prove business improvement.
+
+Use the [AI Project Scorecard](../../templates/ai-project-scorecard.md) to log test conditions, cost, independent performance, and release gates by version, so the pilot does not end as a single demo.
 
 ### 5.3 Acceptance and handover
 

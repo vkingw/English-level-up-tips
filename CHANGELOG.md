@@ -19,6 +19,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Extended the README mirror rule to include the new `reference/` section in repository links.
 - Strengthened the AI learning chapter with unaided/assisted/delayed comparisons, failure handover checks, and an explicit “speed debt” warning.
 - Clarified the project-disclosure page with status labels, item-level dates, and a reader verification order.
+- Expanded the AI Project Scorecard and resource-layer chapter with independent-performance evidence, test conditions, ownership, and release gates.
 
 #### Changed
 
