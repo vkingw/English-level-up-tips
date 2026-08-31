@@ -46,7 +46,7 @@ jobs:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
-          for path in / /en/ /threads/part-3/5-evidence-and-transfer/ /en/threads/part-3/5-evidence-and-transfer/; do
+          for path in / /en/ /threads/part-3/5-evidence-and-transfer /en/threads/part-3/5-evidence-and-transfer; do
             url="${PAGE_URL%/}${path}"
             body="$(curl --fail --location --retry 8 --retry-delay 5 --connect-timeout 15 --max-time 45 "$url")"
             grep -Eq '<title>[^<]+' <<< "$body"

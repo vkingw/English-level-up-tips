@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Aligned the Pages health-check article URLs with VitePress clean URLs after the first online probe correctly exposed a trailing-slash 404.
 - Fixed the Pages health check's `pipefail` false negative by using a here-string for title validation after successful HTTP responses.
 - Added post-deployment HTTP checks for the bilingual home pages and Evidence chapter, and documented the required GitHub Actions Pages source so a successful build cannot silently publish a 404 site.
 - Completed the Part III chapter-end handoff by connecting the resource-layer business chapter from Evidence to Author Projects and Practice, so the methods-to-reality path no longer stops at the final technical chapter.
