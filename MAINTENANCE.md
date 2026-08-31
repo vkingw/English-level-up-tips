@@ -44,6 +44,8 @@ npm run sync
 
 CI 会再次生成这些文件，并阻止未提交的差异进入主分支。
 
+Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与 HTML 报告，属于生成文件，不是书稿内容；它们已被 Git 和 Markdown lint 忽略。测试失败后可以安全清理，再重新运行 `npm run check`。
+
 ## 内容规则
 
 - 每个公开中文页面必须有完整英文对应页，反之亦然。

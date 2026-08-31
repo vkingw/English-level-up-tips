@@ -1,12 +1,14 @@
 ---
 title: At Last, a Place to Write
 description: A complete English translation of a 2016 archived post about writing, school pressure, insomnia, and finding a voice.
-updated: 2026-08-16
+updated: 2026-08-31
 ---
 
 # At Last, a Place to Write
 
 > Original date: 2016-04-23, based on the recoverable [Wayback Machine snapshot](https://web.archive.org/web/20160423145153/http://zb.gs/%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%86%E4%B8%80%E4%B8%AA%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9)
+
+**Editor's note (2026-08-31):** The text below is a 2016 personal record, not current guidance on mental health, medication, or sleep. Do not imitate the secret medication, concealed symptoms, or judgments about teachers and other people; seek trusted and professional support if similar experiences are happening now.
 
 **Content note:** this historical post mentions severe insomnia and suicidal thoughts. It is a personal record, not health advice. Anyone in immediate danger should contact local emergency services or a qualified crisis service.
 

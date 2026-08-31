@@ -1,5 +1,11 @@
 export default {
-  ignores: [".codex-artifact-work/**", "outputs/**", "docs/.vitepress/dist/**"],
+  ignores: [
+    ".codex-artifact-work/**",
+    "outputs/**",
+    "docs/.vitepress/dist/**",
+    "playwright-report/**",
+    "test-results/**",
+  ],
   config: {
     default: true,
     MD013: false,

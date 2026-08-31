@@ -64,6 +64,15 @@ const routes = [
   ["./en/threads/part-2/x-misc", "Miscellaneous Notes and Old Echoes"],
   ["./en/threads/part-4/my-story", "My Story: Failure, Recovery, and Starting Again"],
   ["./threads/archive/", "十年前的博客归档"],
+  ["./threads/archive/a-place-to-write", "终于有了一个写字的地方"],
+  ["./threads/archive/last-year-and-now", "简单介绍下去年和现在的我"],
+  ["./threads/archive/help-the-elderly", "到底该不该扶老人"],
+  ["./threads/archive/blog-renaming-notice", "博客临时更名公告"],
+  ["./en/threads/archive/", "Blog Archive from a Decade Ago"],
+  ["./en/threads/archive/a-place-to-write", "At Last, a Place to Write"],
+  ["./en/threads/archive/last-year-and-now", "Last Year and Now"],
+  ["./en/threads/archive/help-the-elderly", "Should We Help an Elderly Stranger"],
+  ["./en/threads/archive/blog-renaming-notice", "Temporary Blog Renaming Notice"],
 ];
 
 for (const [route, heading] of routes) {

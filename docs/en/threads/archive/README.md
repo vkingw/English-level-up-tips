@@ -1,7 +1,7 @@
 ---
 title: Blog Archive from a Decade Ago
 description: Four restored posts from the author's 2016 blog, preserved as dated personal records rather than current guidance.
-updated: 2026-08-16
+updated: 2026-08-31
 ---
 
 # Blog Archive from a Decade Ago
