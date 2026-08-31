@@ -6,7 +6,7 @@ updated: 2026-09-01
 
 # Life Level-up Guide
 
-[中文](/) | English
+[中文](https://byoungd.github.io/up/) | English
 
 **By Han Xiankai, pen name “Li Pu”**
 

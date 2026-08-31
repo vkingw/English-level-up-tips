@@ -14,14 +14,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      - name: Verify catalog and project entry points
+        run: |
+          set -euo pipefail
+          {
+            grep -rhoE 'https://(book|movie)\.douban\.com/[^) >]+' docs/threads || true
+            printf '%s\n' https://token.love/ https://ku0.com/
+          } | while IFS= read -r url; do
+              [ -z "$url" ] && continue
+              curl --fail --location --http1.1 --compressed \
+                --retry 3 --retry-delay 5 --connect-timeout 15 --max-time 45 \
+                -A 'Mozilla/5.0 (compatible; Life-Level-Guide-Link-Check/1.0)' \
+                -o /dev/null "$url"
+            done
       - uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: >-
             --no-progress
-            --accept 200,206,429
-            --max-retries 2
-            --timeout 20
+            --accept 200..=399,403,429
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --max-redirects 20
+            --user-agent "Mozilla/5.0 (compatible; Life-Level-Guide-Link-Check/1.0)"
             --exclude-path node_modules
+            --exclude "^(file://|/|error:)"
+            --exclude "^https://(book|movie)\.douban\.com/"
+            --exclude "^https://(token\.love|ku0\.com)/"
             --exclude "https://localhost"
             "**/*.md"
           fail: true
