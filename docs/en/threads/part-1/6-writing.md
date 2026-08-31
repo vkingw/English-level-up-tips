@@ -49,7 +49,7 @@ Before drafting, answer four questions:
 
 If none of these is clear, write an outline first. Clear constraints help you remove attractive but irrelevant sentences.
 
-![hotel](../../../assets/hotel.jpg)
+![A resort hotel project used as an example in the author's writing journey](../../../assets/hotel.jpg)
 
 Honestly, I once thought I should just drop the writing chapter. I didn’t feel qualified to talk about writing.
 

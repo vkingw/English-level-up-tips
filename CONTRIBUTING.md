@@ -18,7 +18,7 @@ Thank you for improving this open-content project. Contributions should make a c
 - Do not present medical, legal, financial, mental-health, or safety content as professional advice.
 - Every public Chinese page needs a complete English counterpart, and vice versa. Preserve meaning rather than translating word for word.
 - Add `title`, `description`, and `updated: YYYY-MM-DD` frontmatter to new narrative pages.
-- Write useful image alt text. Decorative images should normally be omitted rather than given meaningless alt text.
+- Write descriptive image alt text that conveys the scene or purpose; generic placeholders such as `image`, `photo`, or `hotel` are rejected. Decorative images should normally be omitted rather than given meaningless alt text.
 
 ## Navigation and Generated Files
 

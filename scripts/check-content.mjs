@@ -71,6 +71,17 @@ function localTargetExists(path) {
 const MARKDOWN_LINK = /(!?)\[([^\]]*)\]\(([^)]+)\)/g;
 const HTML_HREF = /href\s*=\s*["']([^"']+)["']/gi;
 const HTML_IMAGE = /<img\b([^>]*)>/gi;
+const GENERIC_ALT = new Set(["image", "img", "photo", "picture", "hotel", "图片", "照片", "图"]);
+
+function checkAltText(file, line, alt) {
+  if (!alt?.trim()) {
+    addError(file, line, "图片缺少有意义的 alt 文本");
+    return;
+  }
+  if (GENERIC_ALT.has(alt.trim().toLowerCase())) {
+    addError(file, line, `图片 alt 过于泛化: "${alt.trim()}"`);
+  }
+}
 
 function checkLinksAndAlt(file) {
   const lines = readFileSync(file, "utf8").split("\n");
@@ -86,9 +97,7 @@ function checkLinksAndAlt(file) {
     MARKDOWN_LINK.lastIndex = 0;
     let match;
     while ((match = MARKDOWN_LINK.exec(line))) {
-      if (match[1] === "!" && !match[2].trim()) {
-        addError(file, index + 1, "图片缺少有意义的 alt 文本");
-      }
+      if (match[1] === "!") checkAltText(file, index + 1, match[2]);
       targets.push(match[3]);
     }
     HTML_HREF.lastIndex = 0;
@@ -96,7 +105,7 @@ function checkLinksAndAlt(file) {
     HTML_IMAGE.lastIndex = 0;
     while ((match = HTML_IMAGE.exec(line))) {
       const alt = match[1].match(/\balt\s*=\s*["']([^"']*)["']/i)?.[1];
-      if (!alt?.trim()) addError(file, index + 1, "HTML 图片缺少非空 alt 属性");
+      checkAltText(file, index + 1, alt);
     }
 
     for (const target of targets) {
