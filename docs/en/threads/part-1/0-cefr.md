@@ -82,4 +82,15 @@ Score each `0=not completed`, `1=partly`, or `2=consistently`:
 
 Use totals only for your own longitudinal comparison, never as a label for another person.
 
+## Carry the Self-check into the Next Cycle
+
+This rubric describes performance in one task; it does not announce that you have “reached a level”. After the self-check, carry the result into [Evidence: How Change Becomes Visible](../part-3/5-evidence-and-transfer.md):
+
+1. Save today's baseline instead of replacing it with the revised version;
+2. record immediate performance after practice and what help you received;
+3. remove the recent prompts and retest delayed retention after seven days;
+4. change the topic, audience, or task after thirty or ninety days to check transfer.
+
+When the four skills differ, track separate evidence chains. The value of a self-check is not a flattering label. It gives the next practice a point that can be compared.
+
 Previous: [Home](../../README.md) | Next: [Learning Principles](1-understanding.md)

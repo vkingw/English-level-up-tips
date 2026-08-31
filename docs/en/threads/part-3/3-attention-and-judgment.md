@@ -1,7 +1,7 @@
 ---
 title: "Attention: Return Your Attention to Yourself"
 description: In a world where AI makes answers cheap, manage input, focus, information boundaries, and independent judgment as skills you can protect and review.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Attention: Return Your Attention to Yourself
@@ -145,4 +145,4 @@ AI can speed up many steps. It cannot decide what deserves to be seen, heard, do
 
 Choose first, then focus. Be present first, then move.
 
-Next: [Learning Anything with AI: From Real Problems to Verifiable Delivery](1-ai-learning.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Artifacts: Turn Learning into Something Made](4-artifacts-and-delivery.md) | [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

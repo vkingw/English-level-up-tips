@@ -1,7 +1,7 @@
 ---
 title: "Learning Anything with AI: From Real Problems to Verifiable Delivery"
 description: Based on Han Xiankai's product failure, recovery, and return to AI practice, this chapter builds a practical loop of problems, baselines, practice, delivery, verification, and review.
-updated: 2026-08-31
+updated: 2026-09-01
 sources_checked: 2026-08-24
 ---
 
@@ -248,4 +248,4 @@ Put the three comparisons and cycle result into the [90-Day Cycle Map](../../tem
 - **Project status**: China Token Cloud, `token.love`, public articles, and physical-industry plans carry affiliations or unverified scope; none is an independent review or proof of revenue.
 - **Last checked**: 24 August 2026. Recheck official product pages, external links, and project status before updating or using this guidance.
 
-Previous: [Learning English with AI](../part-1/7-ai.md) | Next: [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | Continue: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | Template: [AI Task Brief](../../templates/ai-task-brief.md)
+Previous: [Learning English with AI](../part-1/7-ai.md) | Next: [Attention: Return Your Attention to Yourself](3-attention-and-judgment.md) | Continue: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | Template: [AI Task Brief](../../templates/ai-task-brief.md)

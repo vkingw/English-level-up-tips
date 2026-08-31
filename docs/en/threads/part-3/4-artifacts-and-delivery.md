@@ -1,7 +1,7 @@
 ---
 title: "Artifacts: Turn Learning into Something Made"
 description: Organise input, practice, feedback, and delivery into a path of artifacts so English, AI, and career learning leave visible evidence.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Artifacts: Turn Learning into Something Made
@@ -174,10 +174,14 @@ You do not need to wait for perfection. A useful stage result usually has:
 
 When another person can see, use, and question the work, learning has left the mind and entered the world.
 
+## Ask Again After Delivery
+
+Delivery proves immediate performance under one set of conditions. It does not prove retention or transfer. After finishing an artifact, open [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) and schedule one retest with recent prompts removed plus one transfer task with a new topic, audience, or constraint. Keep the original, delivered, and retested versions so you can see the work leave a demo and enter real use.
+
 ## Closing: Let the Artifact Remember
 
 Knowledge fades, emotions change, and chats disappear. An artifact is another kind of memory. It reminds you which problem you faced, what you chose, where you failed, and how you turned the failure into a next step.
 
 I no longer see finishing an artifact as proving that I am impressive. It is more like leaving a light for my future self. When I doubt whether I can begin again, something real can answer: I have done this once.
 
-Next: [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
