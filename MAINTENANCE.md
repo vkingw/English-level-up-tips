@@ -91,7 +91,7 @@ Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与
 3. 合并到 `master` 后，由 GitHub Pages Actions 工作流部署。
 4. 部署后检查中文首页、英文首页、代表性章节、搜索、语言切换和旧 hash 跳转。
 
-仓库的 Pages 发布源必须保持为 **GitHub Actions**，不要切回 `master:/docs` 的 Legacy 模式；`deploy.yml` 会在发布后请求中文首页、英文首页和代表性章节。正文使用 VitePress clean URLs，文章入口按无尾斜杠路径检查；任何公开入口返回非成功状态都会使部署失败。
+仓库的 Pages 发布源必须保持为 **GitHub Actions**，不要切回 `master:/docs` 的 Legacy 模式；`deploy.yml` 会在发布后请求中文首页、英文首页和代表性章节，并校验每个入口的期望标题。正文使用 VitePress clean URLs，文章入口按无尾斜杠路径检查；任何公开入口返回非成功状态或错误页面都会使部署失败。
 
 GitHub Actions 不包含分析脚本、广告或用户追踪器。
 

@@ -46,8 +46,18 @@ jobs:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
-          for path in / /en/ /threads/part-3/5-evidence-and-transfer /en/threads/part-3/5-evidence-and-transfer; do
+          entries=(
+            $'/|人生进阶指南'
+            $'/en/|Life Level-up Guide'
+            $'/threads/part-3/5-evidence-and-transfer|证据篇：变化要如何被看见'
+            $'/en/threads/part-3/5-evidence-and-transfer|Evidence: How Change Becomes Visible'
+          )
+          for entry in "${entries[@]}"; do
+            IFS='|' read -r path expected_title <<< "$entry"
             url="${PAGE_URL%/}${path}"
             body="$(curl --fail --location --retry 8 --retry-delay 5 --connect-timeout 15 --max-time 45 "$url")"
-            grep -Eq '<title>[^<]+' <<< "$body"
+            if ! grep -Fq "$expected_title" <<< "$body"; then
+              printf 'Unexpected title for %s; expected %s\n' "$url" "$expected_title" >&2
+              exit 1
+            fi
           done
