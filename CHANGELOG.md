@@ -14,6 +14,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Connected all ten technical word lists to the bilingual Vocabulary chapter and home reading path with task-fit, version, source, and delayed-transfer boundaries.
 - Localised the English VitePress reading chrome, footer, update labels, and author metadata, with desktop/mobile regression coverage.
 - Hardened navigation checks to validate bilingual entry fields, duplicate links, and source-file existence before generating summaries.
+- Rechecked the resource-layer chapter's official and external links on 2026-09-01, refreshed its product-positioning language, and separated homepage facts from contract and acceptance claims.
 
 ### 2026-08-31 manuscript pass
 

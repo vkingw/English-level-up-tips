@@ -1,8 +1,8 @@
 ---
 title: AI Learning, Project Development, and Resource-layer Entrepreneurship
 description: Han Xiankai's path from learning with AI to building and operating an AI resource layer, with engineering, delivery, operations, and business results kept distinct.
-updated: 2026-08-31
-sources_checked: 2026-08-24
+updated: 2026-09-01
+sources_checked: 2026-09-01
 ---
 
 # AI Learning, Project Development, and Resource-layer Entrepreneurship
@@ -13,7 +13,7 @@ This is not a story about getting rich easily with AI, and it contains no return
 
 ## Keep Fact, Practice, and Result Separate
 
-- **Already true**: I serve as chairman of China Token Cloud Computing Co., Ltd. The public description of `token.love` focuses on unified multi-model access, routing, metering, and deployment.
+- **Already true**: I serve as chairman of China Token Cloud Computing Co., Ltd. The current homepage describes `token.love` as a unified AI gateway for enterprise and government-related scenarios, listing model access, routing and failover, usage metering, audit trails, and private/offline deployment.
 - **In practice**: I use AI to learn, decompose requirements, develop projects, write tests, organise documentation, and deliver work while testing those methods in team and enterprise settings.
 - **Still unverified**: whether customers will keep paying, whether unit economics will hold, whether supplier changes can be managed, and whether revenue can cover the risk.
 
@@ -150,7 +150,7 @@ The strongest model is not always the right model if it is unstable, unauditable
 
 ## 4. China Token Cloud and token.love: A Business Path in Practice
 
-China Token Cloud Computing Co., Ltd. is the company in which I currently serve as chairman. Public material describes `token.love` as a unified multi-model access, routing, metering, and deployment service for teams and organisations. This is a public product description, not an endorsement from any third party, and it does not replace formal documentation, contracts, or a customer's own security review.
+China Token Cloud Computing Co., Ltd. is the company in which I currently serve as chairman. The current homepage describes `token.love` as a unified AI gateway for enterprise and government-related scenarios, listing model access, routing and failover, usage metering, audit trails, and private/offline deployment. This is a homepage product-positioning statement, not an endorsement from any third party, and it does not replace formal documentation, compliance approval, contracts, or a customer's own security review.
 
 From a resource-layer perspective, the path can be expressed as:
 
@@ -343,6 +343,6 @@ I still want to make money because revenue is one form of evidence that a value 
 - **Personal experience**: the 2022 failure, 2023 recovery, and 2026 return to AI are documented in [My Story](../part-4/my-story.md) and [Entrepreneurship](../part-2/entrepreneurship.md).
 - **Project affiliations**: China Token Cloud, `token.love`, `ku0.com`, and the WeChat articles are disclosed in [Author Projects and Real-world Practice](../../projects.md); they are not independent reviews.
 - **Commercial claims**: charging models, cost ledgers, and the twelve-week route are methods to test, not proof of revenue, customer count, profit, or investment return.
-- **Checked**: 24 August 2026. Recheck product capability, external articles, service scope, and policy before the next update.
+- **Official pages checked**: 1 September 2026. The homepage positioning for `token.love` and `ku0.com`, as well as the external article links in this chapter, were reachable; verify exact capability, service scope, region, policy, and contract commitments again in the real project.
 
 Previous: [Learning Anything with AI](1-ai-learning.md) | Disclosure: [Author Projects and Real-world Practice](../../projects.md)
