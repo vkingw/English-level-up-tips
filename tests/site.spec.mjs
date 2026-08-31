@@ -208,6 +208,11 @@ test("English chrome uses English labels and author metadata", async ({ page }, 
   }
 });
 
+test("private session asset is never publicly served", async ({ request }) => {
+  const response = await request.get("assets/session.json");
+  expect(response.status()).toBe(404);
+});
+
 test("keyboard focus reaches navigation", async ({ page }) => {
   await page.goto("./");
   await page.keyboard.press("Tab");

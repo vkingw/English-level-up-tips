@@ -16,6 +16,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Hardened navigation checks to validate bilingual entry fields, duplicate links, and source-file existence before generating summaries.
 - Rechecked the resource-layer chapter's official and external links on 2026-09-01, refreshed its product-positioning language, and separated homepage facts from contract and acceptance claims.
 - Removed the unused `黑人问号.jpg` asset after removing its legacy reference, so the public asset directory no longer carries that outdated stereotype.
+- Added a private-session asset guard across `.gitignore`, VitePress, maintenance guidance, and Playwright so local credentials cannot be published accidentally.
 
 ### 2026-08-31 manuscript pass
 

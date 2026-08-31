@@ -12,6 +12,9 @@ test-results/
 .env.local
 .env.*.local
 
+# Local session credentials must never enter the repository or site output.
+docs/assets/session.json
+
 # Log files
 npm-debug.log*
 yarn-debug.log*

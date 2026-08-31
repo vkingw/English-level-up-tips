@@ -1,3 +1,5 @@
+import { existsSync, rmSync } from "node:fs";
+import { resolve } from "node:path";
 import { defineConfig } from "vitepress";
 import { enNavigation, toSidebar, zhNavigation } from "./navigation.mjs";
 
@@ -15,6 +17,37 @@ function routeFromRelativePath(relativePath: string) {
     .replace(/\.md$/, "")
     .replace(/^index$/, "");
   return clean ? `${clean.replace(/^\//, "")}` : "";
+}
+
+function privateAssetGuard() {
+  let outDir = "";
+  const isPrivateSession = (url = "") => {
+    const pathname = decodeURIComponent(url.split("?")[0]);
+    return pathname === "/assets/session.json" || pathname.endsWith("/assets/session.json");
+  };
+
+  return {
+    name: "private-asset-guard",
+    enforce: "post" as const,
+    configResolved(config: { build: { outDir: string } }) {
+      outDir = config.build.outDir;
+    },
+    configureServer(server: { middlewares: { use: (handler: (req: { url?: string }, res: { statusCode: number; end: (body: string) => void }, next: () => void) => void) => void } }) {
+      server.middlewares.use((req, res, next) => {
+        if (!isPrivateSession(req.url)) {
+          next();
+          return;
+        }
+        res.statusCode = 404;
+        res.end("Not found");
+      });
+    },
+    closeBundle() {
+      if (!outDir) return;
+      const generatedPath = resolve(outDir, "assets/session.json");
+      if (existsSync(generatedPath)) rmSync(generatedPath);
+    },
+  };
 }
 
 const legacyHashRedirect = `
@@ -36,6 +69,7 @@ export default defineConfig({
   lastUpdated: true,
   srcExclude: ["SUMMARY.md", "en/SUMMARY.md"],
   sitemap: { hostname: siteUrl },
+  vite: { plugins: [privateAssetGuard()] },
   rewrites: {
     "README.md": "index.md",
     "en/README.md": "en/index.md",
