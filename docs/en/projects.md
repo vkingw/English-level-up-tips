@@ -22,9 +22,9 @@ Project status can change. Each item keeps its own checked date; a page update m
 ## China Token Cloud and token.love
 
 - **Relationship**: Han Xiankai serves as chairman of China Token Cloud Computing Co., Ltd.
-- **Purpose**: `token.love` is described as a multi-model gateway, routing, metering, and deployment service for teams and organisations.
+- **Purpose**: The current homepage describes `token.love` as a unified AI gateway for enterprise and government-related scenarios, listing model access, routing and failover, usage metering, audit trails, and private/offline deployment.
 - **Relationship to this guide**: both are maintained by the same author; this is not third-party sponsorship.
-- **Checked**: 2026-08-16. Capabilities and compliance scope must be verified against the current [token.love](https://token.love/) documentation and contract.
+- **Checked**: 2026-08-31. The capability list reflects the homepage checked that day; exact service and compliance scope must still be verified in the formal [token.love](https://token.love/) documentation, approvals, and contract.
 
 ![Archived token.love product page](../assets/token-love-domain.jpg)
 
@@ -48,9 +48,9 @@ The links point to public WeChat pages and were checked on 24 August 2026; platf
 ## ku0.com
 
 - **Relationship**: the author participates in the operation and presentation of the project.
-- **Purpose**: information about AI-related resources and enterprise services.
+- **Purpose**: The current homepage describes it as an AI resource directory for mainland China businesses and developers, covering relay services, account recharge, asset transactions, model tools, and official references.
 - **Relationship to this guide**: this is neither an independent review nor a recommendation without a material relationship.
-- **Checked**: 2026-08-16. Availability, region, plan, and compliance statements must be verified on [ku0.com](https://ku0.com/) and in written terms.
+- **Checked**: 2026-08-31. Categories and scope were checked against the homepage that day; availability, region, plans, transactions, and compliance statements must still be verified on [ku0.com](https://ku0.com/) and in written terms.
 
 ## AI and Physical-industry Practice
 

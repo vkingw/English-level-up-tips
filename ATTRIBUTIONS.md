@@ -1,6 +1,6 @@
 # Third-party Material and Citations
 
-Last reviewed: 2026-08-20.
+Last reviewed: 2026-08-31.
 
 This register distinguishes repository-owned material from third-party sources. A link is not a transfer of rights. Contributors must add or update an entry when adding external media, a substantial quotation, a dataset, or a product capability claim.
 
@@ -16,6 +16,8 @@ This register distinguishes repository-owned material from third-party sources. 
 | Remote Wikimedia images | Legacy chapter links | Wikimedia Commons item linked by each image URL | Hotlinked for context; not bundled or relicensed | 2026-08-16 |
 | Book-cover image | Reading chapters | Douban-linked publisher cover | Hotlinked for identification; not bundled or relicensed | 2026-08-16 |
 | YouTube and product names/logos | Resource lists | Respective publishers and trademark owners | Links and nominative references only; no endorsement implied | 2026-08-16 |
+| `token.love` official homepage | `docs/projects.md`, `docs/en/projects.md` | China Token Cloud / site operator | Homepage capability description paraphrased with date and contract boundary; not an independent audit | 2026-08-31 |
+| `ku0.com` official homepage | `docs/projects.md`, `docs/en/projects.md` | ku0.com operator | Directory positioning paraphrased with date; availability, transactions, and compliance remain subject to current terms | 2026-08-31 |
 | Original guide illustrations | `docs/assets/*@2x.svg`, `feature*.svg`, `speaking-practice.svg`, `vocabulary-cat-concepts.svg` | byoungd / project contributors | Included in the content-license scope | 2026-08-16 |
 | Author project screenshots and visit photos | `docs/projects.md`, `docs/en/projects.md` | Author-provided media | Used for disclosure and personal record; not evidence of third-party endorsement | 2026-08-16 |
 | WeChat profile and practice articles | `docs/projects.md`, `docs/threads/part-3/2-ai-development-and-resource-layer.md` and English counterparts | [TokenMany](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=hsfWcee*q*Okq4gsJ5TpMaWV4vZTwLean6SKtOxCC-EyAf9jWD6l1LQYDny29FqXVImHZFNFDPt*EVH*hVMN2pa91kZtuYfzI81wtV7yahnqVBsKS*c7Ls1uf9QqiEIF&new=1), [Wanli Center](https://mp.weixin.qq.com/s?src=11&timestamp=1787503349&ver=6922&signature=k7g1j*QF9lLWMGUlkAu65EFOmvokb8FoM51LNr4hgn4Q4Cc7q3t3O8Mkac7YnWTJbIVdvX-PXYdZXVHEohJieTOPR*Q2-TVAHuIg2ljgp2BMn8m7STrvovnpW01j817Y&new=1) | Paraphrased with source and limitation; narrative material only, no capability, customer, or revenue claim inferred | 2026-08-24 |
