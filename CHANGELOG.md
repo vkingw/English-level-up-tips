@@ -12,6 +12,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual Life Practice Toolkit with reusable worksheets for decisions, attention, relationships, and recovery.
 - Added the bilingual Listening Resource Audit card for choosing, testing, and retiring volatile listening materials.
 - Added the bilingual Reading Evidence Card for source checks, claim maps, inference boundaries, and delayed transfer.
+- Added the bilingual Speaking Evidence Card for recordings, listener feedback, interaction repair, and safe transfer.
 
 #### Changed
 
@@ -19,6 +20,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Refined the personal story in both languages for accuracy, privacy, health boundaries, and a calmer literary voice.
 - Reframed the listening resource catalogue around task fit, evidence, access, copyright, and a seven-day review cycle.
 - Reframed reading resources around task fit, source versions, evidence boundaries, and parallel-text transfer.
+- Reframed speaking practice around intelligibility, repair strategies, listener evidence, and safer real-world interaction.
 - Added book-structure navigation and browser smoke coverage for the new pages.
 
 ### Added

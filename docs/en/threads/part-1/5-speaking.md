@@ -17,6 +17,19 @@ Speaking is not about performing one “correct” accent. It is about making me
 - record an unaided first take and repair only the one to three issues that most affect understanding;
 - judge progress by whether a listener can restate your point, not by accent conformity.
 
+## Define the Speaking Task First
+
+Speaking practice is not only a monologue. Decide whether you need to explain, interact, repair a misunderstanding, or transfer a skill to a new situation, then choose the exercise.
+
+| Task | Conditions | Evidence of completion |
+| --- | --- | --- |
+| Explain | 60–120 seconds, unscripted, describing an experience, view, or process | A listener can write your gist and two key details |
+| Interact | At least five turns with questions and follow-ups | Keep the conversation notes and mark one question you used to move it forward |
+| Repair | Start from one real uncertain point and practise clarifying, restating, and confirming | Record how the misunderstanding was found, repaired, and confirmed |
+| Transfer | Repeat with a new person, topic, time limit, or audience | Compare task completion, not accent similarity |
+
+Copy the [Speaking Evidence Card](../../templates/speaking-evidence.md) to keep the recording, transcript, listener feedback, and next variable together.
+
 ---
 
 ## IPA / Phonics
@@ -100,23 +113,9 @@ Using *New Concept English* Book 3/4 as an example:
 
 ---
 
-## Real Conversations: The “Yeah… yeah… yeah” Phase
+## Real Conversations: When Words Arrive Slowly
 
-When you first try to communicate in pure English, it’s common to feel this awkward gap:
-
-In your head you want to say:
-
-“I can’t believe we think the same way.”
-
-But what comes out is just:
-
-“Yeah.”
-
-And then:
-
-“Yeah… yeah… yeah…”
-
-This is normal.
+When you first speak English with another person, the idea in your head may be richer than the sentence you can produce. That is a common phase. Allow simple sentences, then practise moving the interaction forward instead of treating one pause as a verdict on your ability.
 
 Many people speak like this at first:
 
@@ -128,6 +127,15 @@ Many people speak like this at first:
 After enough listening and speaking practice, your brain starts building “reflex phrases”. In certain situations you’ll respond instantly without translating.
 
 That automaticity comes from repeated listening and use of high-frequency phrases, not from memorising isolated expressions.
+
+A minimum interaction turn can be:
+
+1. **Confirm**: restate the key words you heard.
+2. **Respond**: give the core meaning you can express now.
+3. **Repair**: ask for repetition or try another wording when needed.
+4. **Advance**: ask one question so the conversation keeps moving.
+
+Useful repair lines include `Could you say that again?`, `Do you mean ...?`, `Let me put it another way.`, and `I need a second to think.` They are tools for continuing an interaction, not empty filler.
 
 ---
 
@@ -160,7 +168,9 @@ To build “English intuition”, prepare a set of common topics and practice th
 
 ---
 
-## Recommended YouTube Channels
+## Use YouTube Channels by Task
+
+The channels below are entry points for pronunciation and expression practice, not a subscription list. Channels can rename, stop updating, or change captions; check title, captions, access date, and task before starting. Replace or unsubscribe when a source produces no output for two weeks.
 
 - [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg)
 - [Speak English With Vanessa](https://www.youtube.com/channel/UCxJGMJbjokfnr2-s4_RXPxQ)
@@ -168,13 +178,17 @@ To build “English intuition”, prepare a set of common topics and practice th
 - [A.J. Hoge](https://www.youtube.com/c/AJHogeEffortlessEnglish)
 - [AccurateEnglish](https://www.youtube.com/channel/UCMTcsanYhBtOb096XegDZQA)
 
-Less is more. Pick a few and practice a lot. If you have great channels to recommend, open an issue.
+Less is more. Pick a few and practise a lot. When suggesting a channel, include its task, last-checked date, and public link.
 
 ---
 
-## Be Brave: Talk to Strangers
+## Add Real Interaction Safely
 
-- [Why we’re afraid to talk to strangers](https://github.com/byoungd/me/blob/main/blog/3.why-we-are-afraid-to-communicate-with-strangers.md)
+Real interaction does not have to begin with a complete stranger. Start with a classmate, colleague, teacher, or moderated platform partner; voice messages and role-play can add uncertainty gradually.
+
+Do not share identity documents, address, financial, medical, or client information. If someone pressures you, crosses a boundary, or makes you unsafe, end the interaction and use the platform’s block/report tools.
+
+Further reading: [Why we’re afraid to talk to strangers](https://github.com/byoungd/me/blob/main/blog/3.why-we-are-afraid-to-communicate-with-strangers.md)
 
 ---
 
