@@ -1,7 +1,7 @@
 ---
 title: "Learning English with AI: From Practice to Real Delivery"
 description: Use English baselines, authentic material, guided practice, four-skill feedback, and delayed retesting instead of outsourcing English ability to one AI product.
-updated: 2026-08-31
+updated: 2026-09-01
 sources_checked: 2026-08-24
 ---
 
@@ -18,7 +18,7 @@ The site-wide loop of problem, baseline, practice, delivery, verification, and r
 - use AI for questions, hints, and parallel exercises without outsourcing retrieval or expression;
 - write the result into the [AI Learning Log](../../templates/ai-learning-log.md) and [90-Day Cycle Map](../../templates/90-day-cycle.md).
 
-> Product features were checked on **24 August 2026**. Study, project, voice, and writing features vary by region, language, device, account, and plan; check the official page before use.
+> Product features were last checked on **24 August 2026**. Study, project, voice, and writing features vary by region, language, device, account, and plan; reopen the official pages and verify before use.
 
 ## Define “Can Use English”
 
@@ -181,6 +181,6 @@ Do not upload customer, colleague, student, child, medical, identity, or unpubli
 - Perplexity: [Help Center](https://www.perplexity.ai/help-center/)
 - DeepL: [DeepL Write](https://www.deepl.com/write)
 
-These pages document product functions, not rankings or outcome guarantees. Next verification date: 24 August 2026.
+These pages document product functions, not rankings or outcome guarantees. Last checked: 24 August 2026; verify features, regions, and plans again before use.
 
 Previous: [6. Writing](6-writing.md) | Next: [Learning Anything with AI](../part-3/1-ai-learning.md) | Template: [AI Learning Log](../../templates/ai-learning-log.md)

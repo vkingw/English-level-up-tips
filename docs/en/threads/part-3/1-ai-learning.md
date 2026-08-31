@@ -246,6 +246,6 @@ Put the three comparisons and cycle result into the [90-Day Cycle Map](../../tem
 - **Personal experience**: mainly [My Story](../part-4/my-story.md), [Entrepreneurship](../part-2/entrepreneurship.md), and [Author Projects and Practice](../../projects.md). These are personal records, not universal rules.
 - **Product information**: official help pages listed in [Learning English with AI](../part-1/7-ai.md); features, regions, and plans change.
 - **Project status**: China Token Cloud, `token.love`, public articles, and physical-industry plans carry affiliations or unverified scope; none is an independent review or proof of revenue.
-- **Checked**: 24 August 2026. Recheck official product pages, external links, and project status before the next update.
+- **Last checked**: 24 August 2026. Recheck official product pages, external links, and project status before updating or using this guidance.
 
 Previous: [Learning English with AI](../part-1/7-ai.md) | Next: [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | Template: [AI Task Brief](../../templates/ai-task-brief.md)

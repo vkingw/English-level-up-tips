@@ -25,6 +25,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual Narrative and Evidence chapter to connect personal stories, hindsight, responsibility, and transferable principles to the existing case-review and writing tools.
 - Made route smoke coverage derive directly from navigation sources and real H1 headings, removing duplicated manual route lists and reducing future coverage drift.
 - Aligned the remaining bilingual subsection structures and enabled heading-shape parity checks that ignore fenced examples.
+- Clarified stale AI source-date wording as “last checked” and “verify before use” without claiming a new external verification.
 
 ### 2026-08-31 manuscript pass
 
