@@ -33,6 +33,7 @@
 - [Learning Anything with AI](threads/part-3/1-ai-learning.md)
 - [Attention: Return Your Attention to Yourself](threads/part-3/3-attention-and-judgment.md)
 - [Artifacts: Turn Learning into Something Made](threads/part-3/4-artifacts-and-delivery.md)
+- [Evidence: How Change Becomes Visible](threads/part-3/5-evidence-and-transfer.md)
 - [AI Development and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md)
 - [Author Projects and Practice](projects.md)
 

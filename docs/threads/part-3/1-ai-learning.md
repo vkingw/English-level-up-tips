@@ -248,4 +248,4 @@ learning-state.md
 - **项目现状**：中国词元云、`token.love`、公开文章和实体产业计划均有利益关系或待验证范围，不能当作独立测评或收入证明。
 - **上次核验日期**：2026-08-24。更新前和实际使用前，重新检查官方产品页面、外部链接和项目现状。
 
-上一篇：[用 AI 学英语](../part-1/7-ai.md) ｜ 下一篇：[AI 学习、项目开发与资源层创业](2-ai-development-and-resource-layer.md) ｜ 模板：[AI 任务简报](../../templates/ai-task-brief.md)
+上一篇：[用 AI 学英语](../part-1/7-ai.md) ｜ 下一篇：[AI 学习、项目开发与资源层创业](2-ai-development-and-resource-layer.md) ｜ 继续：[证据篇：变化要如何被看见](5-evidence-and-transfer.md) ｜ 模板：[AI 任务简报](../../templates/ai-task-brief.md)

@@ -43,6 +43,7 @@ export const zhNavigation = [
       page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
       page("注意力篇：把注意力还给自己", "/threads/part-3/3-attention-and-judgment"),
       page("作品篇：把学会变成做出", "/threads/part-3/4-artifacts-and-delivery"),
+      page("证据篇：变化要如何被看见", "/threads/part-3/5-evidence-and-transfer"),
       page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
       page("作者项目与现实实践", "/projects"),
     ],
@@ -132,6 +133,7 @@ export const enNavigation = [
       page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
       page("Attention: Return Your Attention to Yourself", "/en/threads/part-3/3-attention-and-judgment"),
       page("Artifacts: Turn Learning into Something Made", "/en/threads/part-3/4-artifacts-and-delivery"),
+      page("Evidence: How Change Becomes Visible", "/en/threads/part-3/5-evidence-and-transfer"),
       page(
         "AI Development and Resource-layer Business",
         "/en/threads/part-3/2-ai-development-and-resource-layer",

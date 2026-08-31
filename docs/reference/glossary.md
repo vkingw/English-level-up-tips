@@ -43,6 +43,8 @@ updated: 2026-09-01
 | **精听/精读** | 用短材料核对细节、结构、证据和语言形式 | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) |
 | **平行材料** | 难度和任务相近、但内容不同的材料，用来测试迁移 | [阅读证据卡](../templates/reading-evidence.md) |
 | **迁移** | 换主题、听众、时间或任务后仍能完成相近动作 | [九十日行动总表](../templates/90-day-cycle.md) |
+| **延迟保持** | 经过一段时间、撤掉最近提示后仍能完成相近任务 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
+| **证据链** | 把基线、即时表现、延迟保持、迁移和下一步放在同一页的记录 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
 
 ## 工具与交付
 

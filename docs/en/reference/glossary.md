@@ -43,6 +43,8 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Intensive listening/reading** | Use short material to check detail, structure, evidence, and language form | [Listening](../threads/part-1/3-listening.md) · [Reading](../threads/part-1/4-reading.md) |
 | **Parallel material** | A different source with similar difficulty and task for testing transfer | [Reading Evidence Card](../templates/reading-evidence.md) |
 | **Transfer** | Complete a related action after changing topic, listener, time, or task | [90-Day Cycle Map](../templates/90-day-cycle.md) |
+| **Delayed retention** | Complete a similar task after time has passed and recent prompts are removed | [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
+| **Evidence chain** | One page connecting baseline, immediate performance, delayed retention, transfer, and next step | [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
 
 ## Tools and Delivery
 
