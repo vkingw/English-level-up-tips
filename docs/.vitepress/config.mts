@@ -6,6 +6,7 @@ import { enNavigation, toSidebar, zhNavigation } from "./navigation.mjs";
 const origin = "https://byoungd.github.io";
 const base = "/up/";
 const siteUrl = `${origin}${base}`;
+const buildRevision = process.env.GITHUB_SHA || process.env.BUILD_REVISION || "local";
 const defaultDescription =
   "《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。";
 const defaultDescriptionEn =
@@ -79,6 +80,7 @@ export default defineConfig({
   head: [
     ["meta", { name: "theme-color", content: "#1f6f5c" }],
     ["meta", { name: "author", content: "Han Xiankai / 韩先凯 (Li Pu / 离谱) and contributors" }],
+    ["meta", { name: "build-revision", content: buildRevision }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["script", {}, legacyHashRedirect],
   ],

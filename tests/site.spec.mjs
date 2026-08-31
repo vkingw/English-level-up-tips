@@ -17,6 +17,7 @@ const routesFromNavigation = (groups) =>
   );
 
 const routes = [...routesFromNavigation(zhNavigation), ...routesFromNavigation(enNavigation)];
+const expectedBuildRevision = process.env.GITHUB_SHA || process.env.BUILD_REVISION || "local";
 
 test("book structure leads with the reader guide", () => {
   const zhBook = zhNavigation.find(({ text }) => text === "书稿结构");
@@ -69,6 +70,10 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
   await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
     "content",
     "人生进阶指南｜AI 时代终身学习",
+  );
+  await expect(page.locator('meta[name="build-revision"]')).toHaveAttribute(
+    "content",
+    expectedBuildRevision,
   );
 
   await page.goto("./en/");

@@ -44,6 +44,7 @@ jobs:
       - name: Verify published entry points
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
           entries=(
@@ -58,6 +59,10 @@ jobs:
             body="$(curl --fail --location --retry 8 --retry-delay 5 --connect-timeout 15 --max-time 45 "$url")"
             if ! grep -Fq "$expected_title" <<< "$body"; then
               printf 'Unexpected title for %s; expected %s\n' "$url" "$expected_title" >&2
+              exit 1
+            fi
+            if ! grep -Fq "name=\"build-revision\" content=\"$EXPECTED_SHA\"" <<< "$body"; then
+              printf 'Unexpected build revision for %s; expected %s\n' "$url" "$EXPECTED_SHA" >&2
               exit 1
             fi
           done
