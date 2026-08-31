@@ -20,6 +20,19 @@ A choice is not a one-time proof of who you are. It is closer to a temporary con
 - put money, health, relationships, and responsibility on the same cost sheet;
 - leave a decision record so your future self can review it instead of judging the past only by its result.
 
+### Let Confidence Set the Action Size
+
+Do not treat “I feel confident” as one number. Separate at least three things: how reliable the facts are, whether the key assumption has been tested, and how easy the choice is to reverse. Different combinations deserve different action sizes.
+
+| Fact confidence | Assumption confidence | Reversibility | More suitable next step |
+| --- | --- | --- | --- |
+| High | Low | High | Run a small experiment and buy information quickly |
+| High | Low | Low | Add cooling-off time, seek relevant professional advice, and avoid expanding the commitment |
+| Low | High | High | Add sources or samples instead of treating intuition as fact |
+| Low | Low | Low | Pause high-risk action and protect safety, cash, and relationship boundaries |
+
+This is not a calculator or a decision score. It is a reminder: the more expensive and irreversible the unknown, the smaller the action should be and the thicker the evidence.
+
 ## 1. Write Facts Before the Story
 
 Under pressure, we blend fact and interpretation:
@@ -89,6 +102,8 @@ Current decision:
 Review date:
 Evidence to preserve:
 ```
+
+You can also copy the Decision Brief in the [Life Practice Toolkit](../../templates/life-practice-toolkit.md) and keep facts, costs, stop conditions, and review date in a private record.
 
 “Do nothing for now” must be a real option. It is not avoidance. It acknowledges that some information is not yet worth its price.
 
