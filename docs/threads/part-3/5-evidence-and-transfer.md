@@ -1,7 +1,7 @@
 ---
 title: 证据篇：变化要如何被看见
 description: 建立从基线、即时表现、延迟保持到真实迁移的证据链，判断学习、AI 协作和人生行动是否真的改变。
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # 证据篇：变化要如何被看见
@@ -167,4 +167,4 @@ AI 会改变速度，也会改变任务的性质。使用工具时，不要只�
 
 变化不是因为被记录才发生。记录只是让我们在变化发生之后，有机会认出它，并把它带到下一段生活里。
 
-上一篇：[作品篇：把学会变成做出](4-artifacts-and-delivery.md) ｜ 下一篇：[行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md) ｜ [术语与方法索引](../../reference/glossary.md)
+上一篇：[作品篇：把学会变成做出](4-artifacts-and-delivery.md) ｜ 下一篇：[AI 开发与资源层创业](2-ai-development-and-resource-layer.md) ｜ 然后：[行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md) ｜ [术语与方法索引](../../reference/glossary.md)

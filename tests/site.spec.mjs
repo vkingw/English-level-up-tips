@@ -156,6 +156,26 @@ test("home pages link to the reader guide", async ({ page }) => {
   await expect(page.getByRole("link", { name: "Reader's Guide", exact: true }).first()).toBeVisible();
 });
 
+test("evidence chapter hands off to practice and action", async ({ page }) => {
+  await page.goto("./threads/part-3/5-evidence-and-transfer");
+  const zhMain = page.locator("main");
+  await expect(
+    zhMain.getByRole("link", { name: "AI 开发与资源层创业", exact: true }),
+  ).toBeVisible();
+  await expect(
+    zhMain.getByRole("link", { name: "行动篇：九十天，把生活交还给自己", exact: true }),
+  ).toBeVisible();
+
+  await page.goto("./en/threads/part-3/5-evidence-and-transfer");
+  const enMain = page.locator("main");
+  await expect(
+    enMain.getByRole("link", { name: "AI Development and Resource-layer Business", exact: true }),
+  ).toBeVisible();
+  await expect(
+    enMain.getByRole("link", { name: "90-Day Action Plan", exact: true }),
+  ).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(

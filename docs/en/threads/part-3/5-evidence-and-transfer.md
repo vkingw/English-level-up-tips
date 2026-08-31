@@ -1,7 +1,7 @@
 ---
 title: "Evidence: How Change Becomes Visible"
 description: "Build an evidence chain from baseline, immediate performance, delayed retention, and real-world transfer to judge whether learning, AI collaboration, and life action have changed."
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Evidence: How Change Becomes Visible
@@ -167,4 +167,4 @@ I hope evidence finally gives us not surveillance, but gentle credibility. I kno
 
 Change does not happen because it is recorded. Recording gives us a chance to recognise it after it happens and carry it into the next part of life.
 
-Previous: [Artifacts: Turn Learning into Something Made](4-artifacts-and-delivery.md) | Next: [90-Day Action Plan](../part-5/90-day-plan.md) | [Glossary of Terms and Methods](../../reference/glossary.md)
+Previous: [Artifacts: Turn Learning into Something Made](4-artifacts-and-delivery.md) | Next: [AI Development and Resource-layer Business](2-ai-development-and-resource-layer.md) | Then: [90-Day Action Plan](../part-5/90-day-plan.md) | [Glossary of Terms and Methods](../../reference/glossary.md)
