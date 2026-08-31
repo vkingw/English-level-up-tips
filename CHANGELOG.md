@@ -50,6 +50,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual Daily System chapter to bridge the book's methods and templates with minimum viable days, capacity budgets, boundaries, interruption recovery, and a seven-day practice.
 - Rechecked the official `token.love` and `ku0.com` homepages, clarified current capability wording and contract boundaries, and aligned project-page attribution dates.
 - Connected the AI Case Review Template to the AI chapters, project disclosure pages, and bilingual glossary so public narratives have a visible evidence path.
+- Repaired the main reading arc so Miscellaneous Notes lead to Week 1, Daily System, and the 90-Day Plan, while the Afterword returns readers to the beginning.
 
 ### Added
 

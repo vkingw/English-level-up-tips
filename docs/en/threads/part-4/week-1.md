@@ -112,4 +112,4 @@ This lesson separates personal experience, everyday vocabulary, and health topic
 
 ---
 
-Prev: [Misc](../part-2/x-misc.md)
+Prev: [Miscellaneous Notes and Old Echoes](../part-2/x-misc.md) | Next: [Daily System: Put Change into the Day](daily-system.md)

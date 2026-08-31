@@ -157,9 +157,4 @@ Effort is not magic or the only place to start. It works best when directed towa
 
 > About the violence: I take responsibility for my arrogance and disrespect, but none of that justifies being hurt. This chapter contains exaggeration, jokes, and real pain. Read it as a historical record, keeping what helps today’s judgment and leaving the rest in the past.
 
-Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)
-
----
-
-Prev: [Learning English with AI](../part-1/7-ai.md)<br>
-Next: [Week 1](../part-4/week-1.md)
+Next: [Week 1](../part-4/week-1.md) | [Daily System](../part-4/daily-system.md)

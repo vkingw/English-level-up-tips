@@ -105,3 +105,5 @@ Thank you for reading. Remember: this is a language exercise, not a diagnosis or
 ## 证据与安全说明
 
 本课把个人经历、日常词汇和健康话题分开。持续的失眠、低落、失控或身体不适，应记录事实并向当地合格的医疗或心理专业人士求助；不要用文章、短视频或 AI 回答替代诊断。
+
+上一篇：[杂谈与旧日回声](../part-2/x-misc.md) ｜ 下一篇：[生活系统篇：把改变安放在日子里](daily-system.md)
