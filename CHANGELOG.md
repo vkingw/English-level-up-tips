@@ -26,6 +26,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Made route smoke coverage derive directly from navigation sources and real H1 headings, removing duplicated manual route lists and reducing future coverage drift.
 - Aligned the remaining bilingual subsection structures and enabled heading-shape parity checks that ignore fenced examples.
 - Clarified stale AI source-date wording as “last checked” and “verify before use” without claiming a new external verification.
+- Aligned the three AI product attribution dates with the existing 2026-08-24 chapter source records.
 
 ### 2026-08-31 manuscript pass
 
