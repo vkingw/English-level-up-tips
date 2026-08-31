@@ -11,6 +11,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added Daily System terms to the bilingual glossary and aligned a listening resource introduction with the guide's task-first recommendation policy.
 - Reworked legacy listening recommendations so resource fit, personal preference, and learning effect are stated as separate, testable claims.
 - Added matching bilingual overviews to the CEFR and Vocabulary foundation pages so readers can see the baseline-to-retest path before entering the detail.
+- Connected all ten technical word lists to the bilingual Vocabulary chapter and home reading path with task-fit, version, source, and delayed-transfer boundaries.
 
 ### 2026-08-31 manuscript pass
 

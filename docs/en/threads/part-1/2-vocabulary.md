@@ -74,6 +74,25 @@ Prioritise items that:
 
 Temporarily skip one-off low-frequency detail that does not block meaning.
 
+## Technical Word Lists: Start from the Task
+
+The word lists in this repository are lookup indexes, not daily quotas. Open a real task, choose 5–8 chunks from the closest list below, then return to current documentation, code, or meeting material to verify meaning and register:
+
+| List | Useful task entry |
+| --- | --- |
+| [Common](../word-list/Common.md) | Everyday communication, general work, and cross-topic language |
+| [Prompt](../word-list/Prompt.md) | AI task instructions, constraints, and acceptance language |
+| [Vibe Coding](../word-list/VibeCoding.md) | AI-assisted development, agent collaboration, and code review |
+| [JavaScript](../word-list/JavaScript.md) | Front-end scripts, browser APIs, and asynchronous flows |
+| [Python](../word-list/Python.md) | Data work, automation, and scripting |
+| [Go](../word-list/Go.md) | Server-side, concurrency, and deployment contexts |
+| [Java](../word-list/Java.md) | JVM projects, types, and enterprise systems |
+| [PHP](../word-list/PHP.md) | Web back ends, templates, and legacy maintenance |
+| [Rust](../word-list/Rust.md) | Ownership, performance, and systems programming |
+| [Swift](../word-list/Swift.md) | Apple platforms, interfaces, and app development |
+
+Run every list through the same small loop: select terms from the current task, check sound, collocation, version, and source; speak or write a new sentence without the list; retest in a parallel task a week later. Terms change with language versions, frameworks, and products. Return important decisions to official documentation instead of treating a list as a technical standard.
+
 ## A High-quality Card
 
 The front should demand retrieval, not recognition.
