@@ -38,6 +38,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Reframed speaking practice around intelligibility, repair strategies, listener evidence, and safer real-world interaction.
 - Reframed writing practice around task fit, four revision passes, source checks, and auditable delivery.
 - Connected the 90-day action chapter to one cross-skill evidence chain and explicit phase gates.
+- Added chapter-release gates and external-link/date guidance to the maintenance guide and pull-request template.
 - Reworked the Week 1 sleep-and-stress lesson as an evidence-bounded language exercise, removing unsupported medical claims and adding safer source boundaries.
 - Refined the entrepreneurship chapter with explicit evidence levels, personal-estimate disclosure, five reality gates, and links to the decision and project scorecards.
 - Clarified the book's reading arc in the prologue, homepage map, and afterword so readers can move from a real problem to evidence cards, a 90-day cycle, and recovery when plans break.
