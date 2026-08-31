@@ -213,6 +213,36 @@ test("private session asset is never publicly served", async ({ request }) => {
   expect(response.status()).toBe(404);
 });
 
+test("representative pages load every local image with descriptive alt text", async ({ page }) => {
+  const routes = [
+    "./",
+    "./en/",
+    "./projects",
+    "./en/projects",
+    "./threads/part-1/5-speaking",
+    "./en/threads/part-1/5-speaking",
+    "./threads/part-1/6-writing",
+    "./en/threads/part-1/6-writing",
+    "./threads/part-2/entrepreneurship",
+    "./en/threads/part-2/entrepreneurship",
+    "./threads/part-2/my-story",
+    "./en/threads/part-4/my-story",
+  ];
+
+  for (const route of routes) {
+    await page.goto(route);
+    const images = page.locator("main img");
+    const count = await images.count();
+    expect(count, `${route} should contain at least one image`).toBeGreaterThan(0);
+    for (let index = 0; index < count; index += 1) {
+      const image = images.nth(index);
+      await expect(image).toHaveJSProperty("complete", true);
+      await expect(image).toHaveAttribute("alt", /\S+/);
+      await expect.poll(() => image.evaluate((element) => element.naturalWidth)).toBeGreaterThan(0);
+    }
+  }
+});
+
 test("keyboard focus reaches navigation", async ({ page }) => {
   await page.goto("./");
   await page.keyboard.press("Tab");

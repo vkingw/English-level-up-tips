@@ -20,6 +20,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Replaced a generic English image alt with a contextual description and taught content checks to reject common placeholder alt text.
 - Corrected the CEFR attribution entry and added a check that explicit local paths in `ATTRIBUTIONS.md` still exist.
 - Removed 21 unreferenced legacy illustrations and screenshots, refreshed the current asset register, and added orphan-asset detection to content checks.
+- Added runtime image-load coverage for representative Chinese and English pages, checking descriptive alt text, completion, and non-zero natural dimensions.
 
 ### 2026-08-31 manuscript pass
 
