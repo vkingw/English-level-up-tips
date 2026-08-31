@@ -1,12 +1,23 @@
 ---
 title: Author Projects and Real-world Practice
 description: A central disclosure of products, companies, and field work involving the author, including relationship, purpose, date, and non-sponsorship status.
-updated: 2026-08-24
+updated: 2026-08-31
 ---
 
 # Author Projects and Real-world Practice
 
 This page centralises projects in which Han Xiankai has a direct role so that commercial relationships do not blend into learning-method recommendations. It is disclosure, not a purchase, investment, or return promise.
+
+## Status and Evidence Boundaries
+
+| Status | Meaning | How a reader should use it |
+| --- | --- | --- |
+| **Author affiliation** | The author has a stated role or material relationship with a company, product, or article | Treat it as self-disclosure, not an independent review |
+| **In practice** | Work has begun, but impact, scale, or sustainability is still being tested | Look for samples, costs, user feedback, and failure records |
+| **Historical material** | An older article, product page, or personal memory | Use it for context, not as current guidance |
+| **Unverified** | A plan, goal, or judgment without enough public evidence | Wait for formal documents, agreements, users, and time |
+
+Project status can change. Each item keeps its own checked date; a page update means the disclosure text was reorganised, not that a product result changed.
 
 ## China Token Cloud and token.love
 
@@ -50,3 +61,10 @@ On 16 June 2026, the author visited Alibaba Cloud's Hangzhou headquarters as a c
 ## Recommendation Policy
 
 Core chapters assess tools by task, evidence, privacy, and transfer. An affiliated product receives no higher evidence status and never replaces official documentation, independent comparison, or the reader's security review. Hidden sponsorship is not accepted. Any future paid relationship must identify the party, date, and affected scope next to the claim.
+
+## Verification Order
+
+1. Start with current formal documentation, contracts, licences, and applicable policy.
+2. Ask how the result will be accepted, how cost is calculated, and how work stops on failure.
+3. Treat personal narrative and public profiles as leads, not customer cases or proof of return.
+4. For customer, identity, health, or commercial data, confirm permission, minimum necessary scope, and deletion method first.

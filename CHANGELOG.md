@@ -18,6 +18,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual Glossary of Terms and Methods to make the book's evidence vocabulary and chapter paths easier to navigate.
 - Extended the README mirror rule to include the new `reference/` section in repository links.
 - Strengthened the AI learning chapter with unaided/assisted/delayed comparisons, failure handover checks, and an explicit “speed debt” warning.
+- Clarified the project-disclosure page with status labels, item-level dates, and a reader verification order.
 
 #### Changed
 
