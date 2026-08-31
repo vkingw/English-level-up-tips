@@ -53,6 +53,7 @@ export const zhNavigation = [
     items: [
       page("我的故事", "/threads/part-2/my-story"),
       page("恢复篇：先把自己接住", "/threads/part-2/recovery"),
+      page("选择篇：在不确定中做决定", "/threads/part-2/decision"),
       page("创业篇", "/threads/part-2/entrepreneurship"),
       page("杂谈与旧日回声", "/threads/part-2/x-misc"),
       page("Week 1", "/threads/part-4/week-1"),
@@ -130,6 +131,7 @@ export const enNavigation = [
     items: [
       page("My Story", "/en/threads/part-4/my-story", "en/threads/part-4/my-story.md"),
       page("Recovery: Catch Yourself Before You Push Forward", "/en/threads/part-2/recovery"),
+      page("Decision-Making: Choosing Under Uncertainty", "/en/threads/part-2/decision"),
       page("Entrepreneurship", "/en/threads/part-2/entrepreneurship"),
       page("Miscellaneous Notes and Old Echoes", "/en/threads/part-2/x-misc"),
       page("Week 1", "/en/threads/part-4/week-1"),
