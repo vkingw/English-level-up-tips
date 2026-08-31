@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Enabled cancellation of superseded Pages deployments so a rapid sequence of commits cannot let an older build publish after a newer one.
 - Added a `build-revision` meta marker to every VitePress page and made Pages health checks verify that public content belongs to the current commit, with local and CI regression coverage.
 - Restored the bilingual reading handoff from Evidence to AI Development and Resource-layer Business before the 90-Day Action Plan, with browser coverage for both links.
 - Replaced mixed-language `Source (中文)` labels across the English reading, listening, speaking, writing, and archive pages, synchronized their edition dates, and added a stale-text guard.
