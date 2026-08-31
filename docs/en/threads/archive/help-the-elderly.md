@@ -1,7 +1,7 @@
 ---
 title: Should We Help an Elderly Stranger?
 description: A complete English translation of a 2016 personal essay about two encounters and the judgment to help within one's capacity.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Should We Help an Elderly Stranger?

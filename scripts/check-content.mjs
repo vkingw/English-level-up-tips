@@ -169,6 +169,13 @@ function checkFrontmatter(file) {
   }
 }
 
+const SPECIAL_ZH_TO_EN = new Map([
+  ["threads/part-2/my-story.md", "threads/part-4/my-story.md"],
+]);
+const SPECIAL_EN_TO_ZH = new Map(
+  [...SPECIAL_ZH_TO_EN].map(([zh, en]) => [en, zh]),
+);
+
 function checkBilingualParity(markdownFiles) {
   const publicFiles = markdownFiles.filter(
     (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
@@ -180,22 +187,54 @@ function checkBilingualParity(markdownFiles) {
     (file) => file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "en/README.md"),
   );
 
-  const specialZhToEn = new Map([
-    ["threads/part-2/my-story.md", "threads/part-4/my-story.md"],
-  ]);
-  const specialEnToZh = new Map(
-    [...specialZhToEn].map(([zh, en]) => [en, zh]),
-  );
-
   for (const file of chineseFiles) {
     const path = relative(DOCS, file);
-    const expected = join(DOCS, "en", specialZhToEn.get(path) || path);
+    const expected = join(DOCS, "en", SPECIAL_ZH_TO_EN.get(path) || path);
     if (!existsSync(expected)) addError(file, 1, `缺少英文对应页: ${relative(ROOT, expected)}`);
   }
   for (const file of englishFiles) {
     const path = relative(join(DOCS, "en"), file);
-    const expected = join(DOCS, specialEnToZh.get(path) || path);
+    const expected = join(DOCS, SPECIAL_EN_TO_ZH.get(path) || path);
     if (!existsSync(expected)) addError(file, 1, `缺少中文对应页: ${relative(ROOT, expected)}`);
+  }
+}
+
+function headingShape(file) {
+  const shape = [];
+  let inFence = false;
+  for (const line of readFileSync(file, "utf8").split("\n")) {
+    if (/^\s*(```|~~~)/.test(line)) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    const match = line.match(/^(#{1,6})\s+/);
+    if (match) shape.push(match[1].length);
+  }
+  return shape;
+}
+
+function checkHeadingParity(markdownFiles) {
+  const publicFiles = markdownFiles.filter(
+    (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
+  );
+  const chineseFiles = publicFiles.filter(
+    (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
+  );
+
+  for (const file of chineseFiles) {
+    const path = relative(DOCS, file);
+    const expected = join(DOCS, "en", SPECIAL_ZH_TO_EN.get(path) || path);
+    if (!existsSync(expected)) continue;
+    const chineseShape = headingShape(file);
+    const englishShape = headingShape(expected);
+    if (chineseShape.join(",") !== englishShape.join(",")) {
+      addError(
+        file,
+        1,
+        `中英文标题层级不一致: ${chineseShape.join(",")} vs ${englishShape.join(",")}`,
+      );
+    }
   }
 }
 
@@ -302,6 +341,7 @@ for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) 
   checkFrontmatter(file);
 }
 checkBilingualParity(markdownFiles);
+checkHeadingParity(markdownFiles);
 checkStaleStrings(
   markdownFiles.filter(
     (file) =>

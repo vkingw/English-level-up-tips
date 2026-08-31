@@ -1,7 +1,7 @@
 ---
 title: "Entrepreneurship: From Ambition to Purpose"
 description: A personal review of products, cash flow, technical debt, failure, recovery, and starting again; not success doctrine or investment advice.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Entrepreneurship: From Ambition to Purpose

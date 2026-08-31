@@ -1,7 +1,7 @@
 ---
 title: "My Story: Failure, Recovery, and Starting Again"
 description: A personal record of a software-company failure, disrupted health and life, recovery at home, and reconnecting with technology.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # My Story: Failure, Recovery, and Starting Again
@@ -49,6 +49,8 @@ That night was beautiful, but the air was heavy with pressure. Looking at the ro
 At one point, while I was talking with great confidence about our bright future, she suddenly cried. Not loudly. Silently. I only realized it after she had been crying for a while. She seemed to understand that the future I was describing might not really have a place for her. She turned away from me, and in that moment I saw her vulnerability.
 
 That was also the moment I realised I truly loved her, and began to understand that love is not designing happiness for another person. It is choosing to face uncertainty together.
+
+#### If Love Has an Echo
 
 Later, we got married and had a lovely son.
 
