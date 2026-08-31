@@ -53,6 +53,7 @@ Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与
 
 - 每个公开中文页面必须有完整英文对应页，反之亦然。
 - 中英文对应页的一级至六级标题顺序必须一致；翻译可以不同，但章节结构不能漂移。
+- 中英文对应页的 `updated` 日期必须一致；它表示稿件版本同步，不代替 `sources_checked` 的外部资料核验日期。
 - 页面必须提供 `title`、`description` 和 `updated` frontmatter。
 - 研究结论、个人经验和推测应明确区分。
 - AI 产品、模型能力、政策、价格和考试规则必须注明资料日期，并优先引用官方来源。

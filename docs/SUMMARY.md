@@ -3,6 +3,7 @@
 ## 开始
 
 - [人生进阶指南](README.md)
+- [阅读指南：把书放回生活](threads/part-0/reader-guide.md)
 - [CEFR 目标与自测](threads/part-1/0-cefr.md)
 - [术语与方法索引](reference/glossary.md)
 - [学习状态模板](templates/learning-state.md)

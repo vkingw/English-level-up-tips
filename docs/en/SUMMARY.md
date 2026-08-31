@@ -3,6 +3,7 @@
 ## Start Here
 
 - [Life Level-up Guide](README.md)
+- [Reader's Guide: Put the Book Back into Life](threads/part-0/reader-guide.md)
 - [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
 - [Glossary of Terms and Methods](reference/glossary.md)
 - [Learning State](templates/learning-state.md)

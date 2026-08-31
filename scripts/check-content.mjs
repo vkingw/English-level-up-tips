@@ -240,6 +240,30 @@ function checkHeadingParity(markdownFiles) {
   }
 }
 
+function checkUpdatedParity(markdownFiles) {
+  const publicFiles = markdownFiles.filter(
+    (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
+  );
+  const chineseFiles = publicFiles.filter(
+    (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
+  );
+
+  for (const file of chineseFiles) {
+    const path = relative(DOCS, file);
+    const expected = join(DOCS, "en", SPECIAL_ZH_TO_EN.get(path) || path);
+    if (!existsSync(expected)) continue;
+    const chinese = parseFrontmatter(file)?.updated;
+    const english = parseFrontmatter(expected)?.updated;
+    if (chinese && english && chinese !== english) {
+      addError(
+        file,
+        1,
+        `中英文稿件 updated 日期不一致: ${chinese} vs ${english}`,
+      );
+    }
+  }
+}
+
 const STALE_PATTERNS = [
   ["#/", "残留 Docsify hash 路由"],
   ["byoungd.github.io/up/#/", "残留旧 hash 站点地址"],
@@ -359,6 +383,7 @@ for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) 
 }
 checkBilingualParity(markdownFiles);
 checkHeadingParity(markdownFiles);
+checkUpdatedParity(markdownFiles);
 checkStaleStrings(
   markdownFiles.filter(
     (file) =>

@@ -9,6 +9,7 @@ export const zhNavigation = [
     text: "开始",
     items: [
       page("人生进阶指南", "/", "README.md"),
+      page("阅读指南：把书放回生活", "/threads/part-0/reader-guide"),
       page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
       page("术语与方法索引", "/reference/glossary"),
       page("学习状态模板", "/templates/learning-state"),
@@ -97,6 +98,7 @@ export const enNavigation = [
     text: "Start Here",
     items: [
       page("Life Level-up Guide", "/en/", "en/README.md"),
+      page("Reader's Guide: Put the Book Back into Life", "/en/threads/part-0/reader-guide"),
       page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
       page("Glossary of Terms and Methods", "/en/reference/glossary"),
       page("Learning State", "/en/templates/learning-state"),

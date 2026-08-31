@@ -43,13 +43,13 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 
 ## 书稿主线
 
-如果你愿意完整阅读，请从[序章：先不要急着改变人生](threads/part-0/prologue.md)开始。全书不是一条只向上的直线，而是一圈会反复经过的路径：
+如果你愿意完整阅读，请先看[阅读指南：把书放回生活](threads/part-0/reader-guide.md)，再从[序章：先不要急着改变人生](threads/part-0/prologue.md)开始。前者负责告诉你如何选择入口、留下证据和在中断后回来，后者负责把这些方法放回一个人的生命故事。全书不是一条只向上的直线，而是一圈会反复经过的路径：
 
 遇到术语不清或不知道下一页该去哪时，可以打开[术语与方法索引](reference/glossary.md)，按“定义 → 证据 → 下一步”返回主线。
 
 | 部分 | 核心问题 | 入口 |
 | --- | --- | --- |
-| 序章 | 我为什么要重新开始？ | [先不要急着改变人生](threads/part-0/prologue.md) |
+| 阅读指南与序章 | 我从哪里进入，又为什么要重新开始？ | [阅读指南](threads/part-0/reader-guide.md) · [先不要急着改变人生](threads/part-0/prologue.md) |
 | 第一部：打开输入 | 怎样建立英语和世界之间的通道？ | [CEFR 自测](threads/part-1/0-cefr.md) · [认知与训练原则](threads/part-1/1-understanding.md) · [词汇、听力、阅读、口语、写作](threads/part-1/2-vocabulary.md) |
 | 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [我的故事](threads/part-2/my-story.md) · [叙事与证据篇](threads/part-2/narrative-and-evidence.md) · [选择篇](threads/part-2/decision.md) · [关系篇](threads/part-2/relationships.md) · [恢复篇](threads/part-2/recovery.md) · [创业篇](threads/part-2/entrepreneurship.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [使用 AI 学习一切](threads/part-3/1-ai-learning.md) · [AI 项目与资源层创业](threads/part-3/2-ai-development-and-resource-layer.md) · [注意力篇](threads/part-3/3-attention-and-judgment.md) · [作品篇](threads/part-3/4-artifacts-and-delivery.md) |

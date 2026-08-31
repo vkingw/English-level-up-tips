@@ -43,13 +43,13 @@ It also keeps three kinds of claim separate:
 
 ## Book Structure
 
-For a complete read, begin with the [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md). The book is not a straight climb. It is a loop we revisit:
+For a complete read, begin with the [Reader's Guide: Put the Book Back into Life](threads/part-0/reader-guide.md), then continue to the [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md). The first explains how to choose an entry point, preserve evidence, and return after interruption; the second places those methods inside one person's life story. The book is not a straight climb. It is a loop we revisit:
 
 When a term is unclear or you do not know which page to open next, use the [Glossary of Terms and Methods](reference/glossary.md) and follow “definition → evidence → next step” back to the main path.
 
 | Part | Core question | Entry point |
 | --- | --- | --- |
-| Prologue | Why begin again? | [Do Not Rush to Change Your Life](threads/part-0/prologue.md) |
+| Reader's Guide and Prologue | Where do I enter, and why begin again? | [Reader's Guide](threads/part-0/reader-guide.md) · [Do Not Rush to Change Your Life](threads/part-0/prologue.md) |
 | Part I: Open Input | How do I build a bridge between English and the world? | [CEFR Self-check](threads/part-1/0-cefr.md) · [Learning Principles](threads/part-1/1-understanding.md) · [Vocabulary, Listening, Reading, Speaking, Writing](threads/part-1/2-vocabulary.md) |
 | Part II: Return to Life | How do ability, work, relationships, failure, choices, and recovery affect one another? | [My Story](threads/part-4/my-story.md) · [Narrative and Evidence](threads/part-2/narrative-and-evidence.md) · [Decision-Making](threads/part-2/decision.md) · [Relationships](threads/part-2/relationships.md) · [Recovery](threads/part-2/recovery.md) · [Entrepreneurship](threads/part-2/entrepreneurship.md) |
 | Part III: Amplify Ability | How can I use AI without outsourcing judgment or attention? | [Learning Anything with AI](threads/part-3/1-ai-learning.md) · [AI Projects and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md) · [Attention](threads/part-3/3-attention-and-judgment.md) · [Artifacts](threads/part-3/4-artifacts-and-delivery.md) |

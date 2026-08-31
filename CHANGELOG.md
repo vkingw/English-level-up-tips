@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added the bilingual Reader's Guide as an operational preface, separating the prologue's literary contract from practical entry routes, evidence traces, and interruption recovery.
+- Added reverse navigation coverage for the Reader's Guide and a content gate requiring matching `updated` dates across Chinese and English counterparts.
 - Added Daily System terms to the bilingual glossary and aligned a listening resource introduction with the guide's task-first recommendation policy.
 - Reworked legacy listening recommendations so resource fit, personal preference, and learning effect are stated as separate, testable claims.
 - Added matching bilingual overviews to the CEFR and Vocabulary foundation pages so readers can see the baseline-to-retest path before entering the detail.
