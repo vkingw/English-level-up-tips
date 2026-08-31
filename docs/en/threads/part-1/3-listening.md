@@ -197,72 +197,65 @@ If you want a deep dive, I strongly recommend this:
 
 The links below are interest-based entry points, not a completion list. Filter them using the criteria above before subscribing; if a resource produces no output for two weeks, unsubscribe or replace it.
 
-### Programming-related
+### Programming Context: Technical Listening
 
 - [laracasts](https://laracasts.com/)  
-  Rating: 5/5  
-  Great front-end + Laravel video tutorials. Detailed, frequently updated, and beginner-friendly. Covers JavaScript/Vue/React/Laravel/PHP/editor tips, etc.  
-  Iconic line: *Does it make sense to you?*
+  Useful for tutorial tone, step-by-step explanations, and technical chunks. Course content, pricing, and update status change; verify technical claims against current documentation.
 
 - [LearnCode.academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)  
-  Rating: 5/5  
-  If you want to learn React/Redux/MobX/AngularJS/NodeJS/Docker, you can easily spend a lot of time here. (The channel has been inactive for years; older videos still work as listening material, but check current docs for the tech itself.)
+  The channel has been inactive for years. Older videos can practise the language of software, while frameworks, dependencies, and APIs must be checked in current documentation.
 
 - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)  
-  Rating: 5/5  
-  A front-end channel with wide coverage. Use it as technical-context listening; verify technical conclusions against current documentation and reassess difficulty for each video.
+  Broad front-end coverage for technical-context listening. Reassess difficulty for each video and verify conclusions against current documentation.
 
 - [Derek Banas](https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw)  
-  Rating: 4/5  
-  His “learn a language in one video” series helps you quickly see the basics of popular programming languages. High information density and faster speed.
+  His “learn a language in one video” series has high information density and faster delivery; use it after building some foundations and check syntax in official material.
 
 - [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)  
-  Rating: 4/5  
-  Great channel for front-end learning. Old intro audio was a bit scary; newer videos have a friendlier intro. CSS/Sass content is worth checking out.
+  Start with a short CSS/Sass segment to practise steps, examples, and terminology; recheck version information in older videos.
 
 - [DevTips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ)  
-  Rating: 4/5  
-  Beginner-friendly. Solid fundamentals, especially CSS and jQuery. (Inactive for years; treat it as listening material.)
+  Inactive for years. Use its CSS/jQuery material as archived listening practice, not as current technical guidance.
 
 - [egghead.io](https://egghead.io/)  
-  Rating: 4/5  
-  Many front-end courses. Some are free.
+  Front-end courses and short videos. Recheck availability, content, and technical versions before starting.
 
-### YouTube channels for English learners
+### English-teaching channels: pronunciation and expression
 
 - [EnglishLessons4U - Learn English with Ronnie! [engVid]](https://www.youtube.com/channel/UC4cmBAit8i_NJZE8qK8sfpA)
-  Highly recommended. Great for grammar and practical tips. Also: Ronnie is genuinely funny, so learning doesn’t feel like punishment.
+  Choose a grammar or dialogue clip, observe explanations, examples, and tone, then retell it in your own words.
 
 - [English with Lucy!](https://www.youtube.com/channel/UCz4tgANd4yy8Oe0iXCdSWfA)  
   Teaching videos that make pronunciation, vocabulary, and tone easy to observe. Start with a short clip that has English captions.
 
 - [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg)  
-  Helps you speak more fluently. Clear pronunciation, practical daily-life content.
+  Choose daily-life topics for gist and retelling. “Standard” is not the goal; understanding and expression are.
 
 - [Speak English With Vanessa](https://www.youtube.com/channel/UCxJGMJbjokfnr2-s4_RXPxQ)  
-  Energetic, optimistic style. Good pronunciation and expressive delivery.
+  Scenario-based conversations for practising stress, tone, and repair; filter each clip by task.
 
 - [mmmEnglish](https://www.youtube.com/channel/UCrRiVfHqBIIvSgKmgnSY66g/)  
-  Gentle, clear pronunciation.
+  Short clips for observing pronunciation and chunks; do not treat one speaker’s style as the only target.
 
 - [English Fluency Journey](https://www.youtube.com/channel/UC9eIq7PwD0WA-2B_Sp7xGdw)  
   Dialog-focused lessons. Very helpful.
 
-### For superhero movie fans
+### Film clips: extensive listening only
 
 - [TopMovieClip](https://www.youtube.com/channel/UClVbhSLxwws-KSsPKz135bw)  
-  Great Marvel highlights.
+  Fan-oriented extensive listening; clips may lack context or reliable captions, so they are not the first intensive-listening choice.
 
 - [BestClips](https://www.youtube.com/channel/UC8BQGqcCSFq6RC9feEGUGFA)  
   More superhero movie clips.
 
-### Talk shows
+### Interviews and shows: natural speed
 
 - [Jimmy Kimmel Live](https://www.youtube.com/channel/UCa6vGFO9ty8v5KZJXQxdhaw)
-- [TheEllenShow](https://www.youtube.com/channel/UCp0hYYBW6IMayGgR-WeoCvQ) (the show ended in 2022; archived videos remain watchable)
+  Try short captioned clips to observe improvised questions, humour, and changing speed.
+- [TheEllenShow](https://www.youtube.com/channel/UCp0hYYBW6IMayGgR-WeoCvQ) (the show ended in 2022; archived clips can practise interview language; platform status and captions change)
 - [The Late Show with Stephen Colbert](https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig)
 
-### Music channels
+### Music: lyrics and chunks
 
 - [Valerie Pola](https://www.youtube.com/watch?v=mwfg8YmZM3E)
 - [Luciana Zogbi](https://www.youtube.com/watch?v=39_OmBO9jVg)
@@ -277,14 +270,15 @@ The links below are interest-based entry points, not a completion list. Filter t
 - [Disney UK](https://www.youtube.com/channel/UCQphRgAhj5UxktrQNP3WF5g)
   Start with a familiar animated song or dialogue: understand the lyrics first, then isolate a short clip for intensive listening. View counts change and are not evidence of learning quality.
 - [Vevo](https://www.youtube.com/@Vevo)
-  A gold mine of “movie-level” music videos. Many artists have their own official channels too.
-- [OneDirectionVEVO](https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg) (the band has been on hiatus since 2016; the channel is inactive)
+  Find official music videos by interest. Confirm lyric source and captions, then isolate a short clip.
+- [OneDirectionVEVO](https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg)
+  Fan-oriented listening or lyric retelling with familiar songs; verify channel status and copyright boundaries.
 - [SiaVEVO](https://www.youtube.com/channel/UCmKdSrwf1e8coqAzUsrVHZw)  
-  Great production quality. Often thoughtful.
+  Choose official or authorised material by interest and check lyric, caption, and usage boundaries.
 - [SSSniperWolf](https://www.youtube.com/channel/UCpB959t8iPrxQWj7G6n0ctQ)
   For lifestyle videos, confirm that the topic, captions, and language difficulty fit your current task.
 - [TED](https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug)  
-  TED Talks are great for ideas. Start with popular videos—many have multilingual subtitles.
+  Choose a clearly scoped talk to practise gist, evidence, and attitude. Popularity does not guarantee task fit, and captions change.
 
 ---
 
