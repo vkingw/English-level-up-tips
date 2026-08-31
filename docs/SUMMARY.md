@@ -11,6 +11,7 @@
 - [AI 学习记录](templates/ai-learning-log.md)
 - [AI 经历案例复盘](templates/ai-case-review.md)
 - [AI 项目评分卡](templates/ai-project-scorecard.md)
+- [生活进阶工作表](templates/life-practice-toolkit.md)
 
 ## 书稿结构
 

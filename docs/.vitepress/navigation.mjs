@@ -17,6 +17,7 @@ export const zhNavigation = [
       page("AI 学习记录", "/templates/ai-learning-log"),
       page("AI 经历案例复盘", "/templates/ai-case-review"),
       page("AI 项目评分卡", "/templates/ai-project-scorecard"),
+      page("生活进阶工作表", "/templates/life-practice-toolkit"),
     ],
   },
   {
@@ -93,6 +94,7 @@ export const enNavigation = [
       page("AI Learning Log", "/en/templates/ai-learning-log"),
       page("AI Case Review", "/en/templates/ai-case-review"),
       page("AI Project Scorecard", "/en/templates/ai-project-scorecard"),
+      page("Life Practice Toolkit", "/en/templates/life-practice-toolkit"),
     ],
   },
   {

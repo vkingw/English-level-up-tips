@@ -11,6 +11,7 @@
 - [AI Learning Log](templates/ai-learning-log.md)
 - [AI Case Review](templates/ai-case-review.md)
 - [AI Project Scorecard](templates/ai-project-scorecard.md)
+- [Life Practice Toolkit](templates/life-practice-toolkit.md)
 
 ## Book Structure
 
