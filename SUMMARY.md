@@ -3,7 +3,6 @@
 ## 开始
 
 - [人生进阶指南](docs/README.md)
-- [阅读指南：把书放回生活](docs/threads/part-0/reader-guide.md)
 - [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)
 - [术语与方法索引](docs/reference/glossary.md)
 - [学习状态模板](docs/templates/learning-state.md)
@@ -24,6 +23,7 @@
 
 ## 书稿结构
 
+- [阅读指南：把书放回生活](docs/threads/part-0/reader-guide.md)
 - [序章：先不要急着改变人生](docs/threads/part-0/prologue.md)
 - [行动篇：九十天，把生活交还给自己](docs/threads/part-5/90-day-plan.md)
 - [后记：进阶不是离开原来的自己](docs/threads/part-6/afterword.md)

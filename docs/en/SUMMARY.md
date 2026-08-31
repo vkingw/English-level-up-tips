@@ -3,7 +3,6 @@
 ## Start Here
 
 - [Life Level-up Guide](README.md)
-- [Reader's Guide: Put the Book Back into Life](threads/part-0/reader-guide.md)
 - [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
 - [Glossary of Terms and Methods](reference/glossary.md)
 - [Learning State](templates/learning-state.md)
@@ -24,6 +23,7 @@
 
 ## Book Structure
 
+- [Reader's Guide: Put the Book Back into Life](threads/part-0/reader-guide.md)
 - [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md)
 - [90-Day Action Plan](threads/part-5/90-day-plan.md)
 - [Afterword: Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md)

@@ -18,6 +18,19 @@ const routesFromNavigation = (groups) =>
 
 const routes = [...routesFromNavigation(zhNavigation), ...routesFromNavigation(enNavigation)];
 
+test("book structure leads with the reader guide", () => {
+  const zhBook = zhNavigation.find(({ text }) => text === "书稿结构");
+  const enBook = enNavigation.find(({ text }) => text === "Book Structure");
+  expect(zhBook?.items.slice(0, 2).map(({ source }) => source)).toEqual([
+    "threads/part-0/reader-guide.md",
+    "threads/part-0/prologue.md",
+  ]);
+  expect(enBook?.items.slice(0, 2).map(({ source }) => source)).toEqual([
+    "en/threads/part-0/reader-guide.md",
+    "en/threads/part-0/prologue.md",
+  ]);
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
