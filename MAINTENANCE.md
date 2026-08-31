@@ -60,6 +60,7 @@ Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与
 - 外部素材必须登记在 `ATTRIBUTIONS.md`，无法确认再分发权限时不进入仓库。
 - `check-content.mjs` 会验证归属表中明确写出的本地路径；删除或移动素材时必须同步更新登记，合法 glob 路径除外。
 - `check-content.mjs` 还会检查 `docs/assets/` 中的图片和 SVG 是否被正文、配置或构建脚本引用；归属表和变更记录不会把文件伪装成正在使用的资产。
+- `check-content.mjs` 会检查 Git 跟踪清单，拒绝 `.DS_Store`、`Thumbs.db` 和 `desktop.ini` 等系统元数据；本地忽略文件不会被删除。
 
 ## 章节发布门禁
 

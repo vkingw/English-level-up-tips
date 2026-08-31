@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import { execFileSync } from "node:child_process";
 import {
   existsSync,
   readFileSync,
@@ -17,6 +18,7 @@ const IGNORE_DIRS = new Set([".git", "node_modules", "dist", ".cache"]);
 const PUBLIC_IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
 const PUBLIC_ASSET_EXTENSIONS = new Set([...PUBLIC_IMAGE_EXTENSIONS, ".svg"]);
 const TEXT_SOURCE_EXTENSIONS = new Set([".md", ".mjs", ".mts", ".ts", ".css"]);
+const FORBIDDEN_TRACKED_NAMES = new Set([".DS_Store", "Thumbs.db", "desktop.ini"]);
 
 function addError(file, line, message) {
   errors.push({ file: relative(ROOT, file), line, message });
@@ -335,6 +337,20 @@ function checkOrphanAssets() {
   }
 }
 
+function checkTrackedSystemFiles() {
+  let tracked;
+  try {
+    tracked = execFileSync("git", ["ls-files", "-z"], { cwd: ROOT });
+  } catch (error) {
+    addError(join(ROOT, ".gitignore"), 1, `无法读取 Git 跟踪清单: ${error.message}`);
+    return;
+  }
+  for (const file of tracked.toString("utf8").split("\0")) {
+    if (!file || !FORBIDDEN_TRACKED_NAMES.has(basename(file))) continue;
+    addError(join(ROOT, file), 1, `系统元数据文件不应被 Git 跟踪: ${file}`);
+  }
+}
+
 const markdownFiles = walk(ROOT, new Set([".md"]));
 for (const file of markdownFiles) checkLinksAndAlt(file);
 for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
@@ -353,6 +369,7 @@ checkStaleStrings(
 checkReadmeMirror();
 checkAttributionPaths();
 checkOrphanAssets();
+checkTrackedSystemFiles();
 await checkImageMetadata();
 
 if (!errors.length) {
