@@ -20,6 +20,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Strengthened the AI learning chapter with unaided/assisted/delayed comparisons, failure handover checks, and an explicit “speed debt” warning.
 - Clarified the project-disclosure page with status labels, item-level dates, and a reader verification order.
 - Expanded the AI Project Scorecard and resource-layer chapter with independent-performance evidence, test conditions, ownership, and release gates.
+- Connected the English-with-AI entry page to all four skill evidence cards, delayed retesting, and the 90-day cycle.
 
 #### Changed
 

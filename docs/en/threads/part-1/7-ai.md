@@ -1,7 +1,7 @@
 ---
 title: "Learning English with AI: From Practice to Real Delivery"
 description: Use English baselines, authentic material, guided practice, four-skill feedback, and delayed retesting instead of outsourcing English ability to one AI product.
-updated: 2026-08-24
+updated: 2026-08-31
 sources_checked: 2026-08-24
 ---
 
@@ -10,6 +10,13 @@ sources_checked: 2026-08-24
 AI can shorten the time needed to find material, create exercises, and receive first-pass feedback. It cannot perform your retrieval, listening discrimination, articulatory movement, judgment, or real communication. This chapter asks one question: **how can AI enter English practice without becoming a substitute for English ability?**
 
 The site-wide loop of problem, baseline, practice, delivery, verification, and review is in [Learning Anything with AI](../part-3/1-ai-learning.md). This page keeps only the English-specific work.
+
+## Quick Overview
+
+- state the real situation and acceptance criteria before deciding where AI enters;
+- keep an unaided baseline, feedback, and delayed retest for each skill;
+- use AI for questions, hints, and parallel exercises without outsourcing retrieval or expression;
+- write the result into the [AI Learning Log](../../templates/ai-learning-log.md) and [90-Day Cycle Map](../../templates/90-day-cycle.md).
 
 > Product features were checked on **24 August 2026**. Study, project, voice, and writing features vary by region, language, device, account, and plan; check the official page before use.
 
@@ -37,6 +44,17 @@ Do not ask AI to translate, edit, or hint on the first attempt. Complete four 10
 4. **Writing**: write a 120–180-word work email without a dictionary or AI rewrite.
 
 Score task completion, comprehensibility, accuracy and range, organisation and fluency, and revision and transfer from 0 to 2. Store samples, reasons, and error evidence in the [English Diagnostic](../../templates/english-diagnostic.md). Without a baseline, you cannot tell whether AI improved ability or merely polished a product.
+
+## Four Skills and Their Evidence Cards
+
+| Skill | AI may assist with | Evidence kept after closing AI |
+| --- | --- | --- |
+| Listening | Give one clue, mark timestamps, or create a parallel clip | First pass, error categories, and delayed transfer in the [Listening Resource Audit](../../templates/listening-audit.md) |
+| Reading | Compare paragraph marks and ask for source locations | Gist, claim map, and inference boundary in the [Reading Evidence Card](../../templates/reading-evidence.md) |
+| Speaking | Mark unclear segments and simulate follow-up questions | Raw recording, listener retelling, and repair in the [Speaking Evidence Card](../../templates/speaking-evidence.md) |
+| Writing | Flag layered issues in facts, structure, language, and tone | Draft, four revision passes, and reader feedback in the [Writing Evidence Card](../../templates/writing-evidence.md) |
+
+Cards are not extra homework. They turn one session into a sample you can revisit. If only AI comments remain, without your first take and transfer task, you cannot tell whether ability changed.
 
 ## 2. Use One Task Card Every Time
 
@@ -126,6 +144,8 @@ Give one minimal hint and one parallel task. Do not complete the final answer.
 ```
 
 On day 30 and week 12, retest with the same topic, similar time, and the same restrictions. Compare raw samples, not only AI-edited products. Progress means less prompting, fewer repeated errors, faster real-task completion, and transfer to a new setting.
+
+After each retest, write at least one result and the next variable into the [90-Day Cycle Map](../../templates/90-day-cycle.md) instead of leaving practice inside the chat window.
 
 ## 10. Seven Days, Thirty Days, Twelve Weeks
 
