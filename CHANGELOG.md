@@ -13,6 +13,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added matching bilingual overviews to the CEFR and Vocabulary foundation pages so readers can see the baseline-to-retest path before entering the detail.
 - Connected all ten technical word lists to the bilingual Vocabulary chapter and home reading path with task-fit, version, source, and delayed-transfer boundaries.
 - Localised the English VitePress reading chrome, footer, update labels, and author metadata, with desktop/mobile regression coverage.
+- Hardened navigation checks to validate bilingual entry fields, duplicate links, and source-file existence before generating summaries.
 
 ### 2026-08-31 manuscript pass
 
