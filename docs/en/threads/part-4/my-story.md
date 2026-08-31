@@ -1,12 +1,14 @@
 ---
 title: "My Story: Failure, Recovery, and Starting Again"
 description: A personal record of a software-company failure, disrupted health and life, recovery at home, and reconnecting with technology.
-updated: 2026-08-16
+updated: 2026-08-31
 ---
 
 # My Story: Failure, Recovery, and Starting Again
 
-## What Does It Feel Like to Spend 20 Million RMB on a Software Company and Watch It Collapse?
+> Content note: this chapter includes business failure, prolonged insomnia, severe stress, and past suicidal thoughts. It is a personal account, not medical, mental-health, legal, or financial advice. If you are in immediate danger, contact someone you trust and qualified local support first.
+
+## What Failure Cost Me
 
 Hi, I’m Lipu. This is the story of one particularly absurd chapter of my life in the internet industry.
 
@@ -40,7 +42,7 @@ On August 19, 2017, I went with her to Shanghai for something deeply significant
 
 That night was beautiful, but the air was heavy with pressure. Looking at the rows of bank buildings on the Bund and enjoying the night breeze, we both tried hard not to let the other person feel our emotions sinking, because we both knew that something was happening and there was nothing we could do about it.
 
-At one point, while I was talking with great confidence about our bright future, she suddenly cried. Not loudly. Silently. I only realized it after she had been crying for a while. Tears and snot were running down her face, as if all the good things I was describing would never belong to her. She turned away from me, and in that moment I realized how fragile and thin she looked.
+At one point, while I was talking with great confidence about our bright future, she suddenly cried. Not loudly. Silently. I only realized it after she had been crying for a while. She seemed to understand that the future I was describing might not really have a place for her. She turned away from me, and in that moment I saw her vulnerability.
 
 That was also the exact moment I realized I truly loved her, and I made up my mind that I had to give her happiness.
 
@@ -96,7 +98,7 @@ When I realized how serious that was, I felt a chill down my back.
 
 At that stage, we were trapped. Continuing to iterate on the old foundation meant staying in a total garbage pile of code that was almost impossible to move. Rebuilding it would require far more money than the company still had.
 
-One night I stayed late in the office discussing this with the other two partners. Mr. Gong, our largest shareholder, asked me, “Just tell me whether this thing can still be done. If you tell me it can’t, I’ll jump downstairs right now.”
+One night I stayed late in the office discussing this with the other two partners. Mr. Gong, our largest shareholder, was close to breaking and kept asking whether the project could still be done.
 
 I understood his emotions. He had already put more than ten million RMB into the company, all of it his own money. Not a single cent came from outside investors. I had also put in several million myself. It is hard to describe how everyone felt at that point.
 
@@ -136,7 +138,7 @@ In the following months, I went from one hospital in Nanjing to another. Waiting
 
 The tests found a few minor problems, but doctors kept telling me with certainty that I was basically fine. I could not believe them. I was convinced that something serious had not been found yet. So every day became the same cycle: register, wait, get checked, wait for results, ask another doctor, rule out one disease, then look for the next one. I kept searching websites for symptoms like mine, telling myself I was okay and then doubting myself again.
 
-Years of programming had also damaged my lower back. Please take that seriously. It is not reversible. The despair and pain of that kind of problem are hard to understand unless you have lived through it.
+Years of programming had also left me with persistent lower-back problems. That experience reminded me that the body is not an unlimited asset. Recurring symptoms deserve professional assessment and earlier care in daily work.
 
 When people get desperate, they try everything. During that period, I visited famous traditional Chinese doctors, and my family even took me to pray and ask folk spiritual healers for help.
 
@@ -144,7 +146,7 @@ I knew this was not a real solution, but I still could not sleep night after nig
 
 The losses from our group alone were more than 20 million RMB. Once the resort and club projects were included, the pressure was enormous. At the hardest point, I even considered selling Ruohan’s family home. I never borrowed a single cent from relatives. I simply could not bring myself to ask.
 
-I know that once certain words are spoken, relationships can change forever. If you borrow money, you should only ask when you are fully certain the other person will lend it. Otherwise, do not ask at all.
+I know that once certain words are spoken, relationships can change. Before borrowing money, be honest about repayment ability, relationship cost, and an exit plan; do not transfer an impossible burden to someone else.
 
 I even considered selling the car I had bought just over a year earlier, but my family stopped me. The house was already gone. If I sold the car too, it would directly affect daily life, especially with a child going to school, and it would not even recover that much money anyway.
 
@@ -160,7 +162,7 @@ As my physical discomfort kept getting worse, I became quieter and quieter. Firs
 
 If my mom had not messaged me every day telling me to come eat, I probably would have skipped meals entirely.
 
-It was ridiculous. I was already nearly thirty, and I was still making my mother worry about whether I was eating.
+I was nearly thirty, yet I still needed my mother to remind me to eat. It embarrassed me, but it also forced me to admit that I needed help.
 
 I hated that version of myself too. But I felt powerless, like I was trapped in the center of a whirlpool. No matter how hard I struggled, I could not climb out.
 
@@ -168,7 +170,7 @@ Doing nothing for a long time is also unbearable. One day I reassembled my deskt
 
 ### A Life That Felt Hopeless
 
-I became addicted to games. My days and nights flipped upside down. I earned nothing. The contrast with my old modest but decent life was brutal.
+I lost control of my gaming. My days and nights flipped upside down, and I earned nothing. The contrast with my old modest but decent life was brutal.
 
 Ruohan was never a very materialistic person, but when you are living off money from selling your house, sharing daily life with your parents, and showing no real sign of moving forward, disappointment naturally builds up. She was deeply unhappy with how I was living and asked me how long I was going to continue like this.
 
@@ -182,7 +184,7 @@ During the startup years, I even fell out with my best friend, Lele, over money.
 
 More than once, I asked myself:
 
-> Why the hell did I fight so hard to keep this going?
+> Why did I fight so hard to keep this going?
 
 Would things have ended differently if I had made other choices? If I had worked even harder at certain turning points, would it have helped? If I had started earlier or later, would it have gone differently? If only I had...
 
@@ -198,11 +200,11 @@ If you ask me what it feels like to watch a company fail after building it with 
 
 Falling hard while you are still young is not necessarily the worst thing. It may be only one episode in life.
 
-That is the tough version of the answer, anyway. The honest version is that it hurt like hell.
+That is the tough version of the answer. The honest version is simpler: it hurt deeply.
 
 I still clearly remember my son’s birthday. Early that morning, Ruohan said, “Let’s have hotpot tonight.” I hesitated for a long time and finally said, “There’s no need. Let’s just buy a small cake and celebrate at home.”
 
-That answer was obviously not what she expected. She suddenly went quiet, washed up, and tried hard to hide her disappointment. At some point, even going out for a “real meal” had become something I saw as a luxury. And this was not just any day. It was supposed to be a day worth celebrating.
+That answer was obviously not what she expected. She went quiet and tried hard to hide her disappointment. At some point, even going out for a real meal had become something I treated as a luxury. And this was not just any day. It was supposed to be worth celebrating. I had never imagined I would reach that point.
 
 I had never imagined I would end up in such a state. That kind of sadness is probably understood only by people who have truly fallen low.
 
@@ -238,4 +240,4 @@ Going forward, I hope to keep exploring practical ways for AI to empower agricul
 
 Seeking benefits for ordinary people and doing practical work should not be only a slogan. After going through the lowest points of my life, I increasingly believe that turning the ability to stand up again into something useful for others is one of the most grounded reasons to keep moving forward.
 
-Next: [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Relationships: Becoming an Adult in Connection](../part-2/relationships.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
