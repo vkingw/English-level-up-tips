@@ -1,12 +1,19 @@
 ---
 title: "Vocabulary: From Recognition to Contextual Use"
 description: Build transferable vocabulary through word families, receptive and productive knowledge, coverage, retrieval, and performance-adjusted spacing.
-updated: 2026-08-16
+updated: 2026-09-01
 ---
 
 # Vocabulary: From Recognition to Contextual Use
 
 Vocabulary is not a set of `English = translation` pairs. Knowing a word or chunk involves recognising its sound and form, understanding common senses, knowing collocation and register, and producing it in an appropriate setting.
+
+## Quick Overview
+
+- separate receptive vocabulary in listening/reading from productive vocabulary in speaking/writing;
+- select valuable chunks from a real task instead of using a total count as proof of progress;
+- turn familiarity into use through retrieval, collocation, real contexts, and performance-adjusted spacing;
+- use the Vocabulary Audit and delayed transfer to check whether understanding and production remain a week later.
 
 ## Remove Two Misleading Equations
 

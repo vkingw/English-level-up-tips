@@ -1,12 +1,19 @@
 ---
 title: CEFR Goals and English Self-check
 description: Use A1-C2 can-do descriptors to establish a four-skill baseline and turn it into verifiable 7-day, 30-day, and 12-week work.
-updated: 2026-08-16
+updated: 2026-09-01
 ---
 
 # CEFR Goals and English Self-check
 
 The CEFR describes **what a person can do with language in context**. It is not an app score or a fixed vocabulary count. This page simplifies the Council of Europe global scale to help you choose a starting point; it does not replace a formal assessment.
+
+## Quick Overview
+
+- save an unpolished baseline for listening, speaking, reading, and writing separately;
+- translate an A1–C2 direction into a context, task, quality threshold, and deadline;
+- use seven-day, thirty-day, and twelve-week rhythms instead of chasing one average level;
+- retest under comparable conditions with a parallel task and outside feedback before choosing the next variable.
 
 ## A1-C2: What Can I Do?
 
