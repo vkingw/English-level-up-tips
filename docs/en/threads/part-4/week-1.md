@@ -15,23 +15,29 @@ updated: 2026-08-31
 3. Retell the section in English for 60–90 seconds; do not translate sentence by sentence.
 4. Save the recording or paragraph, then repeat a parallel task one week later.
 
-## WHY
+## Language Focus
 
-The reason I wanted to write this article is because I get one question very often from GitHub. Actually, I get a lot of questions, but there is one that stands out:
+| Expression | Use | My version |
+| --- | --- | --- |
+| `I get asked ...` | introduce a recurring question | |
+| `You are not alone.` | acknowledge a shared experience | |
+| `Apart from ...` | limit the scope of a claim | |
+| `What kept me moving was ...` | describe an action that supported you | |
+| `It is not a diagnosis.` | state an evidence boundary | |
 
-How can I speak fluently about many different topics?
+## WHY I WROTE THIS LESSON
 
-LOL~
+I often receive questions from GitHub. One question keeps returning: **How can I speak clearly about more than one topic?**
 
-To be honest, I couldn’t speak English fluently even though I had been learning it for many years.
+That question matters to me because I used to confuse fluency with sounding like a native speaker.
 
-I know you want to speak like a native English speaker. You want to sound natural. You really want to speak fluently.
+To be honest, I could not speak comfortably even after studying English for years.
 
-Well, in order to do that, you must use the words and expressions that we actually use in real life. And that’s why I created this series for you: Real life English.
+Fluency in this lesson does not mean copying one accent. It means finding words that fit a real situation, getting the main idea across, and repairing the conversation when a sentence does not arrive clearly.
 
-Now I’m going to teach you words and expressions we really use. Are you ready?
+That is why I am using an ordinary topic and a few expressions that people use in everyday conversations.
 
-Well then, let’s jump right in.
+Let’s begin.
 
 ## FIRST TOPIC
 
@@ -45,97 +51,64 @@ I experienced the biggest failure in my life in the past year. The startup compa
 
 So, our first topic will be: `why are you always tired?`
 
-Whether you are experiencing unemployment, or just broke up, or are confused about the future, let’s calm down and **talk like old friends**.
+Whether you are experiencing unemployment, a breakup, or uncertainty about the future, we can slow down and **talk like old friends**.
 
-Before I created this course, I searched online for many articles on this topic. Some YouTube videos and even some ChatGPT answers inspired me a lot. I summarized the ideas of several popular videos and shared them with you here.
+This lesson combines a personal story with language practice. Tiredness can have many causes, and this page cannot identify yours. We will use three everyday buckets as prompts for speaking, not as a medical checklist.
 
-Apart from medical health issues, I’d put most reasons into three buckets, and we’ll talk about them one by one:
+The three prompts are:
 
 - sleep anxiety
-- unhealthy lifestyle
+- routine and movement
 - stress
 
 ### Sleep Anxiety
 
-The first one is `Sleep Anxiety`.
+`Sleep anxiety` is a phrase for worrying about sleep; it is not a diagnosis. For some people, worrying about whether they will sleep can make rest feel harder, creating a **vicious cycle**.
 
-Sleep anxiety is the feeling of being scared, worried, or concerned about sleep, which paradoxically makes it harder to fall asleep. That creates a **vicious cycle**.
+I have read about sleep for years, but the subject is easy to oversimplify. Advice that sounds certain online may not fit a particular person. This lesson therefore keeps the language general and leaves personal health decisions to qualified professionals.
 
-I’ve been reading about the science of sleep for a while, but even with a medical background, it can get confusing. And when you listen to different people, it’s hard to tell what advice is good and what’s just noise.
+You may hear the terms `internal clock`, `circadian rhythm`, and `chronotype`. They are useful vocabulary for discussing sleep timing, not a shortcut to diagnosing yourself.
 
-For sleep anxiety, here are a few myths to watch out for:
+People also say that everyone needs exactly eight hours, that everyone must wake at the same time, or that every screen is equally harmful. These slogans leave out individual schedules, responsibilities, and symptoms. Use them as claims to question, not rules to follow blindly.
 
-### Myth one: `It doesn’t matter when you sleep as long as you sleep enough`
+If sleep or daytime functioning remains difficult, write down the pattern and seek local professional advice. Do not use a language lesson to diagnose a health condition.
 
-In the 1990s, Russell and his research group discovered that there are some cells in our eyes that detect light rather than helping us see images. This light-detection mechanism tells our brain what time it is and helps regulate our internal clock.
+## ROUTINE, MOVEMENT, AND CAPACITY
 
-Since our internal clocks are sensitive to light, generally:
+The second prompt is `routine and movement`. I am not prescribing a workout or claiming that one habit fixes fatigue. Notice which routines make a task easier to start, which ones drain you, and what your body is asking you to check with a professional.
 
-- we want to be awake when it’s bright outside
-- we want to be asleep when it’s dark outside
+## DEALING WITH STRESS
 
-Russell and his team also studied what happens when the `circadian rhythm` is disrupted by sleeping at odd times (jet lag, night shifts). They found higher stress hormones, higher risk of heart disease, and people getting sick more often. They also became more `prone to emotional` and `cognitive problems`.
+The third prompt is `how to deal with stress`. Stress is not a character flaw, and “relax properly” is not a complete plan.
 
-> Reference video: <https://www.youtube.com/watch?v=qlf9-573MhI> 00:02:28,070 - 00:02:38,210
-
-It’s also worth remembering: our internal clocks aren’t identical. That’s why some people are morning people and some are night owls. It’s related to your `chronotype`.
-
-If you’re a morning person, it often makes sense to do high-focus work earlier. If you’re a night owl, that can work too—if you can control your schedule.
-
-### Myth two: Everyone needs eight hours of sleep
-
-The truth is that sleep needs vary a lot. Instead of panicking over “only seven hours”, focus on habits that improve sleep quality.
-
-### Myth three: We should wake up at the same time every day
-
-It’s generally good to wake up around the same time, but you don’t need to be insanely strict. Also, chronotypes change across life stages (teenagers often skew later).
-
-### Myth four: You should avoid blue light before sleep
-
-Blue light has a short wavelength and higher energy. Some researchers believe it affects the eye/brain in ways that make sleep harder.
-
-## UNHEALTHY LIFESTYLE
-
-The second bucket is `unhealthy lifestyle`.
-
-My short advice: move more. Be physically active during the day. Exercise can boost mood, metabolism, and energy.
-
-I’m not a fitness expert, so I’ll keep this part simple.
-
-## DEAL WITH STRESS
-
-The most important thing I want to share is `how to deal with stress`.
-
-Manage your stress and learn to relax properly.
-
-> Here is a video that might help you: <https://www.youtube.com/watch?v=9QiE-M1LrZk>
+Start with one observable change: reduce a distracting cue, put a task within reach, write down the next action, or ask someone for support.
 
 I mentioned in an article on [Zhihu](https://zhuanlan.zhihu.com/p/653380203) that I struggled with compulsive gaming for a period. I once described the change as a “dopamine detox”, but that popular label is not a clinical mechanism or established treatment. What helped me was changing cues and routines, reducing access, restoring sleep and daily structure, and seeking support. Persistent loss of control deserves qualified professional help.
 
-Even when you logically know that studying, exercising, building a business, or doing something productive will benefit you in the long run, you still prefer watching TV, playing video games, and scrolling social media.
+When energy is low, low-friction activities often win over tasks that require planning. That observation is a starting point, not a moral judgment.
 
-One might argue it’s obvious: one activity is easy and effortless, while the other is difficult and demands focus.
+Instead of asking why you are not more disciplined, ask which cue, task size, or environment could change the next ten minutes.
 
-But some people seem to have no problem studying, exercising, or working on their `side projects` regularly.
+At the low point of my life, `programming` gave me one small place to act.
 
-At the low point of my life, one thing kept me moving forward: `programming`.
+I needed a high-performance rich-text editor for a previous company’s product. I could not find an open-source project that met our needs, so I built one and released it on GitHub. When I felt distracted, I worked on one small part. The challenges included:
 
-I needed a high-performance rich text editor for my previous company’s product. I couldn’t find an open-source project that met our needs, so I built one and open sourced it on GitHub.
-
-Whenever I felt depressed or distracted, I quietly worked on it. Challenges I faced and overcame:
-
-- designing and coding the editor
-- developing the core and plugin system
-- designing a data structure for complex tables and submitting a PR to slate.js
-- refactoring the rendering engine to move away from React
+- designing and coding the editor;
+- developing the core and plugin system;
+- designing a data structure for complex tables and submitting a PR to Slate.js;
+- refactoring the rendering engine to move away from React.
 
 If you are interested in this project, [you can join and contribute](https://github.com/editablejs/editable).
 
-I was very happy that I could finish it after more than a year of continuous development instead of giving up halfway.
+I was relieved to finish it after more than a year of steady work. The project did not solve every problem in my life, but it gave the next hour a shape.
 
-Today’s lesson was very long, but fortunately it is `OVER` now.
+Today’s lesson is long because real life rarely fits one explanation. Use one expression in your own sentence, then close the page and explain what you actually need.
 
-Thank you for your attention, and I hope you learned something useful.
+Thank you for reading. Remember: this is a language exercise, not a diagnosis or a treatment plan.
+
+## Evidence and Safety Note
+
+This lesson separates personal experience, everyday vocabulary, and health topics. Persistent insomnia, low mood, loss of control, or physical symptoms deserve local qualified medical or mental-health support; do not replace diagnosis with an article, short video, or AI answer.
 
 ---
 

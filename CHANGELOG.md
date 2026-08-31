@@ -25,6 +25,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Reframed speaking practice around intelligibility, repair strategies, listener evidence, and safer real-world interaction.
 - Reframed writing practice around task fit, four revision passes, source checks, and auditable delivery.
 - Connected the 90-day action chapter to one cross-skill evidence chain and explicit phase gates.
+- Reworked the Week 1 sleep-and-stress lesson as an evidence-bounded language exercise, removing unsupported medical claims and adding safer source boundaries.
 - Added book-structure navigation and browser smoke coverage for the new pages.
 
 ### Added
