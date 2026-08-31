@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added post-deployment HTTP checks for the bilingual home pages and Evidence chapter, and documented the required GitHub Actions Pages source so a successful build cannot silently publish a 404 site.
 - Completed the Part III chapter-end handoff by connecting the resource-layer business chapter from Evidence to Author Projects and Practice, so the methods-to-reality path no longer stops at the final technical chapter.
 - Closed the evidence handoff across CEFR self-checks, narrative review, AI learning, attention, and artifact delivery; chapter-end links now follow the reading path from assisted practice to delayed retest and transfer.
 - Corrected two vocabulary-research DOI citations after Crossref verification, updated the attribution register, and added stale guards for the superseded identifiers.
