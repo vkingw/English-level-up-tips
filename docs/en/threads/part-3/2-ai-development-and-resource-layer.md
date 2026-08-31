@@ -1,7 +1,7 @@
 ---
 title: AI Learning, Project Development, and Resource-layer Entrepreneurship
 description: Han Xiankai's path from learning with AI to building and operating an AI resource layer, with engineering, delivery, operations, and business results kept distinct.
-updated: 2026-08-24
+updated: 2026-08-31
 sources_checked: 2026-08-24
 ---
 
@@ -17,7 +17,7 @@ This is not a story about getting rich easily with AI, and it contains no return
 - **In practice**: I use AI to learn, decompose requirements, develop projects, write tests, organise documentation, and deliver work while testing those methods in team and enterprise settings.
 - **Still unverified**: whether customers will keep paying, whether unit economics will hold, whether supplier changes can be managed, and whether revenue can cover the risk.
 
-When fact, judgment, and aspiration are mixed together, an entrepreneurship essay becomes an advertisement. Separating them makes an honest retrospective possible.
+When fact, judgment, and aspiration are mixed together, an entrepreneurship essay becomes an advertisement. Separating them makes an honest retrospective possible. When you analyse a public experience, use the [AI Case Review Template](../../templates/ai-case-review.md) to record the source and facts before writing judgment or transfer.
 
 ## How the 2022 Failure Changed Today's Gates
 

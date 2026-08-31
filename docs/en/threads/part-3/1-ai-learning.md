@@ -22,6 +22,8 @@ The method comes from an uncomfortable fact: an answer can be complete while a p
 
 The following are personal records, not research findings or a universal promise. Read each case in four steps: what happened, which judgment failed, what principle followed, and what you can practise today.
 
+If you are analysing a public profile, an AI project experience, or your own failure record, copy the [AI Case Review Template](../../templates/ai-case-review.md) first. Separate source, facts, judgment, outcome, and transferable principle. The template cannot prove an outcome for you, but it can stop a narrative from quietly becoming a conclusion.
+
 ### 2015–2016: From a Dead End to Real Users
 
 After setbacks around an internship and graduation, I returned home. In 2016 I started `bt0.com`, a small movie website, and later accepted web-design work. It was not a grand product, but it had real users, feedback, and traces of use.

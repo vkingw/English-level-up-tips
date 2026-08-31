@@ -49,6 +49,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added page-level historical, privacy, health, and safety notes to all four archived posts and their English translations, with browser coverage for each route.
 - Added the bilingual Daily System chapter to bridge the book's methods and templates with minimum viable days, capacity budgets, boundaries, interruption recovery, and a seven-day practice.
 - Rechecked the official `token.love` and `ku0.com` homepages, clarified current capability wording and contract boundaries, and aligned project-page attribution dates.
+- Connected the AI Case Review Template to the AI chapters, project disclosure pages, and bilingual glossary so public narratives have a visible evidence path.
 
 ### Added
 

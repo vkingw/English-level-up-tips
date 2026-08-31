@@ -47,6 +47,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | Term | Meaning in this guide | Related chapter |
 | --- | --- | --- |
 | **Task brief** | A one-page record of context, input, action, boundaries, acceptance, and ownership | [AI Task Brief](../templates/ai-task-brief.md) |
+| **Case review** | A record that separates a public experience into source, facts, judgment, outcome, and transferable principle | [AI Case Review](../templates/ai-case-review.md) |
 | **Evidence card** | A template for preserving a first take, feedback, and retest for one language skill | [Four-skill path](../threads/part-0/prologue.md) |
 | **Artifact** | An output others can read, use, question, or improve; not necessarily a product | [Artifacts](../threads/part-3/4-artifacts-and-delivery.md) |
 | **Delivery** | Completing work under a real audience, user, or constraint and accepting the result | [90-Day Action Plan](../threads/part-5/90-day-plan.md) |
