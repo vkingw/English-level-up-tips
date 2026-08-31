@@ -8,7 +8,7 @@ updated: 2026-08-31
 
 [中文](/) | English
 
-**By Han Xiankai, pen name “Lipi”**
+**By Han Xiankai, pen name “Li Pu”**
 
 Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript begins with English and continues into AI learning, real projects, entrepreneurship, recovery, and the work of returning your life to yourself one small act at a time.
 

@@ -6,7 +6,7 @@ updated: 2026-08-31
 
 # Prologue: Do Not Rush to Change Your Life
 
-By Han Xiankai, pen name “Lipi”.
+By Han Xiankai, pen name “Li Pu”.
 
 In July 2017, a friend named `W.` was preparing for the TOEFL. She asked me: “How can I learn English efficiently?”
 
