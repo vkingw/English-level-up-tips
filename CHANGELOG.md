@@ -17,6 +17,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual 90-Day Cycle Map to connect skill evidence, weekly questions, phase gates, recovery, and final delivery.
 - Added the bilingual Glossary of Terms and Methods to make the book's evidence vocabulary and chapter paths easier to navigate.
 - Extended the README mirror rule to include the new `reference/` section in repository links.
+- Strengthened the AI learning chapter with unaided/assisted/delayed comparisons, failure handover checks, and an explicit “speed debt” warning.
 
 #### Changed
 
