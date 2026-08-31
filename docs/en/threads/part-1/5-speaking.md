@@ -1,22 +1,29 @@
 ---
 title: "Speaking: Make Meaning Arrive"
 description: Use CEFR goals and recording evidence to train task completion, comprehensibility, fluency, interaction, and revision.
-updated: 2026-08-16
+updated: 2026-08-31
 ---
 
 # Speaking: Make Meaning Arrive
 
 Source (中文): [口语篇](../../../threads/part-1/5-speaking.md)
 
-Speaking is where everything comes together. And yes—pronunciation matters, but you don’t need to obsess. You just need a solid base and a lot of reps.
+Speaking is not about performing one “correct” accent. It is about making meaning arrive clearly and naturally within a real interaction. Pronunciation, vocabulary, and grammar matter, but they serve comprehension, interaction, and task completion.
+
+## Quick Overview
+
+- build intelligible pronunciation with reliable audio and physical practice, not Chinese approximations;
+- move familiar expressions into your mouth through reading aloud, retelling, role-play, and real conversations;
+- record an unaided first take and repair only the one to three issues that most affect understanding;
+- judge progress by whether a listener can restate your point, not by accent conformity.
 
 ---
 
 ## IPA / Phonics
 
-If you want to speak better, start with pronunciation. And to learn pronunciation, you’ll eventually meet IPA (phonetic symbols) or phonics.
+If you want to speak better, start with pronunciation. IPA is a map, not the destination. Any Chinese approximation is only a cue for mouth shape or airflow; it cannot replace dictionary audio, feedback, or comparing your own recording.
 
-There’s no shortcut here. The good news is: the content is limited. Learn the sounds, practice out loud, and come back to them repeatedly.
+There is no shortcut, but the sound inventory is limited. Hear a sound, inspect the symbol, practise it, and return to it inside real words and sentences.
 
 Recommended playlist:
 
@@ -120,7 +127,7 @@ Many people speak like this at first:
 
 After enough listening and speaking practice, your brain starts building “reflex phrases”. In certain situations you’ll respond instantly without translating.
 
-(The simplest proof is that people can blurt out things like “f**k” and “sh*t” without any effort.)
+That automaticity comes from repeated listening and use of high-frequency phrases, not from memorising isolated expressions.
 
 ---
 
@@ -128,7 +135,7 @@ After enough listening and speaking practice, your brain starts building “refl
 
 If you’re already in love with melodies, why not sing?
 
-Lately I’ve been into Troye Sivan. Here’s a simple way to practice:
+Lately I’ve been into Troye Sivan. Singing can also be a low-pressure pronunciation exercise:
 
 - organize the lyrics
 - write down unknown words and learn them first
@@ -136,7 +143,7 @@ Lately I’ve been into Troye Sivan. Here’s a simple way to practice:
 
 ![speaking practice setup](../../../assets/speaking-practice.svg)
 
-Clear motivation + strong goal + real interest = surprisingly good results.
+Keep the interest and make the goal concrete. Singing is not an exam: enjoy the sound first, then notice whether sentences become easier to hear and say.
 
 ---
 
