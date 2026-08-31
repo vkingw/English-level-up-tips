@@ -14,6 +14,7 @@ const routes = [
   ["./threads/part-0/prologue", "序章：先不要急着改变人生"],
   ["./threads/part-5/90-day-plan", "行动篇：九十天，把生活交还给自己"],
   ["./threads/part-6/afterword", "后记：进阶不是离开原来的自己"],
+  ["./threads/part-2/recovery", "恢复篇：先把自己接住"],
   ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
   ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
   ["./en/templates/ai-task-brief", "AI Task Brief Template"],
@@ -23,6 +24,7 @@ const routes = [
   ["./en/threads/part-0/prologue", "Prologue: Do Not Rush to Change Your Life"],
   ["./en/threads/part-5/90-day-plan", "90-Day Action Plan"],
   ["./en/threads/part-6/afterword", "Afterword: Progress Is Not Leaving Yourself Behind"],
+  ["./en/threads/part-2/recovery", "Recovery: Catch Yourself Before You Push Forward"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 

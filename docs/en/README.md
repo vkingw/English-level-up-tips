@@ -49,7 +49,7 @@ For a complete read, begin with the [Prologue: Do Not Rush to Change Your Life](
 | --- | --- | --- |
 | Prologue | Why begin again? | [Do Not Rush to Change Your Life](threads/part-0/prologue.md) |
 | Part I: Open Input | How do I build a bridge between English and the world? | [Learning Principles](threads/part-1/1-understanding.md) |
-| Part II: Return to Life | How do ability, work, relationships, and failure affect one another? | [My Story](threads/part-4/my-story.md) |
+| Part II: Return to Life | How do ability, work, relationships, failure, and recovery affect one another? | [My Story](threads/part-4/my-story.md) · [Recovery](threads/part-2/recovery.md) |
 | Part III: Amplify Ability | How can I use AI without outsourcing judgment? | [Learning Anything with AI](threads/part-3/1-ai-learning.md) |
 | Part IV: Practice and Recovery | How does learning return to the body and daily life? | [Week 1](threads/part-4/week-1.md) |
 | Part V: Long-Term Action | How can I make change verifiable in 90 days? | [90-Day Action Plan](threads/part-5/90-day-plan.md) |
@@ -111,7 +111,7 @@ English ability is not proved by a collection of words. It is proved by what you
 
 ## Life Review and Recovery: Experience Also Needs Reinterpretation
 
-[My Story](threads/part-4/my-story.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md) preserve failure, disrupted health, changing relationships, departure, and return. Looking back is not an attempt to decorate the past as inspiration. It is a way to ask which decisions worked, which costs must not be hidden, and how to live more honestly next time.
+[My Story](threads/part-4/my-story.md), [Recovery](threads/part-2/recovery.md), [Entrepreneurship](threads/part-2/entrepreneurship.md), and the [Archive](threads/archive/README.md) preserve failure, disrupted health, changing relationships, departure, and return. Looking back is not an attempt to decorate the past as inspiration. It is a way to ask which decisions worked, which costs must not be hidden, and how to live more honestly next time.
 
 Personal experience is not medical, legal, investment, or business advice. Public content follows data minimisation. It does not expose unnecessary third-party identity, and it retains photographs or stories involving others only with clear permission and respect for privacy.
 
