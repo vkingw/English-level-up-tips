@@ -1,7 +1,7 @@
 ---
 title: "Afterword: Progress Is Not Leaving Yourself Behind"
 description: A closing reflection on language, AI, entrepreneurship, failure, health, relationships, and the meaning of continuing to grow.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Afterword: Progress Is Not Leaving Yourself Behind
@@ -30,6 +30,17 @@ If you remember one sentence, let it be this: **Do not hand your life to the lou
 Start small today: listen to a piece of English, write three lines, thank someone, turn off the screen and sleep, or name and save a file you have delayed. Small is not inferior. Small can be repeated, and repeated things have a chance to grow in time.
 
 I am still on this road. An author is not someone standing at the finish line with directions. I am closer to someone a few steps ahead, turning back to leave a mark. The mark may become outdated, contain mistakes, or fit only one season of life. Keep what helps and return the rest.
+
+## From the Afterword to Tomorrow
+
+If you want to carry this book into life, you do not need to read it again first. Open the [90-Day Cycle Map](../../templates/90-day-cycle.md), write one real situation and one deliverable, then choose one of four evidence cards:
+
+- [Listening Resource Audit](../../templates/listening-audit.md)
+- [Reading Evidence Card](../../templates/reading-evidence.md)
+- [Speaking Evidence Card](../../templates/speaking-evidence.md)
+- [Writing Evidence Card](../../templates/writing-evidence.md)
+
+Ask one question in week one and repair one barrier in week two. Three months later, compare the first sample, revision record, and real feedback. You will not need to prove that you have “changed”; the evidence will show what is different and what still deserves patience.
 
 May we all retain the ability to revise ourselves.
 

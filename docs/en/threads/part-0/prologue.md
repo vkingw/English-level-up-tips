@@ -1,7 +1,7 @@
 ---
 title: "Prologue: Do Not Rush to Change Your Life"
 description: An author’s contract with the reader, connecting English, AI, failure, and small daily actions into one path of growth.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Prologue: Do Not Rush to Change Your Life
@@ -40,6 +40,18 @@ You do not have to read every page in order. Find the obstacle that is real toda
 - If you are in a low season, read [My Story](../part-4/my-story.md), then sleep, eat, and decide what comes next.
 
 Treat each chapter as a workbench, not an exam. Take one thing from it: a sentence, an exercise, a habit to stop, or a thought worth returning to. Knowledge that leaves no mark on life is still only a signpost.
+
+## A Reading Path You Can Revisit
+
+Read through “problem → skill → tool → delivery → recovery”, or enter at the part that is most urgent today:
+
+1. **Problem**: use [Learning State](../../templates/learning-state.md) to name the real context, baseline, and completion standard;
+2. **Skill**: choose one of listening, reading, speaking, or writing and keep its evidence card;
+3. **Tool**: if you use AI, read [Learning Anything with AI](../part-3/1-ai-learning.md) and record sources, privacy, and human judgment in the task;
+4. **Delivery**: give the draft, recording, code, or report to a real person, then schedule a retest in the [90-Day Cycle Map](../../templates/90-day-cycle.md);
+5. **Recovery**: when the plan breaks, return to [Recovery](../part-2/recovery.md), restore safety and minimum order before adding pressure.
+
+This is not a required table of contents. It is a reminder that learning should return to life, and action should remain allowed to return to learning.
 
 ## To the Person Opening This Page
 
