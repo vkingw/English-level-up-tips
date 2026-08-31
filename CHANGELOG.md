@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Upgraded the official GitHub Actions used by CI, Pages, artifact upload, issue reporting, and scheduled link checks to their current Node.js 24-compatible major releases.
 - Synchronized the Prologue edition dates after the English copy-edit pass so both language editions report the same manuscript version.
 - Localised residual Chinese prose in the English Prologue and Reading chapter while retaining original WeChat account names as explicitly marked proper names.
 - Strengthened the Pages health check from “any title” to path-specific expected titles for both locales and the Evidence chapter.

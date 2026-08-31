@@ -18,6 +18,7 @@
 ## 环境与命令
 
 - 使用 Node.js 24，版本约束见 `.nvmrc`、`.node-version` 和 `package.json`。
+- GitHub Actions 使用 Node.js 24 兼容的官方 major 版本；升级 action 前先查对应仓库的 release，升级后运行 CI、Pages 部署和外链检查。
 - 首次安装运行 `npm ci`。
 - 本地开发运行 `npm run docs:dev`。
 - 完整校验运行 `npm run check`。
