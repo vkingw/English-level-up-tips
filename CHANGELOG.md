@@ -28,6 +28,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Clarified stale AI source-date wording as “last checked” and “verify before use” without claiming a new external verification.
 - Aligned the three AI product attribution dates with the existing 2026-08-24 chapter source records.
 - Added a tracked-system-file guard that rejects `.DS_Store`, `Thumbs.db`, and `desktop.ini` without touching local ignored files.
+- Replaced the unstable Douban cover hotlink with a text-only reference-book link and updated the attribution register.
 - Standardised the remaining English personal-story pen-name variant as “Li Pu” and added a stale-string guard.
 - Added reverse navigation coverage checks so every public Markdown page must be discoverable from the bilingual navigation source.
 - Linked the Narrative and Evidence chapter back from My Story and Decision-Making so reflection can return to a concrete choice.

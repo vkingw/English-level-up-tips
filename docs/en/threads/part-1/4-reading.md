@@ -138,7 +138,7 @@ Choose a device for sustainable reading: if a technical PDF is too small or cann
 
 ## Reference Book
 
-[![English reading reference book cover](https://img3.doubanio.com/lpic/s4241556.jpg)](https://book.douban.com/subject/4720475/)
+[Reading reference: On Writing Well](https://book.douban.com/subject/4720475/)
 
 ---
 

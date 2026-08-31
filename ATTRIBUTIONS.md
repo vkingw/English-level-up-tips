@@ -13,7 +13,7 @@ This register distinguishes repository-owned material from third-party sources. 
 | Gemini learning features | AI chapters | [Google Gemini Help](https://support.google.com/gemini/answer/16448384) | Product facts paraphrased with region/account limits | 2026-08-24 |
 | Claude Projects | AI chapters | [Anthropic Help](https://support.claude.com/en/articles/9517075-what-are-projects) | Product facts paraphrased with plan limits | 2026-08-24 |
 | Wayback blog snapshots | `docs/threads/archive/` and English translations | Internet Archive snapshots linked on each page; original text copyright belongs to the author | Restored author text; snapshots remain linked, not bundled | 2026-08-16 |
-| Book-cover image | Reading chapters | Douban-linked publisher cover | Hotlinked for identification; not bundled or relicensed | 2026-08-16 |
+| Reference book listing | Reading chapters | Douban book page and publisher | Text link for identification only; no third-party cover image is hotlinked or redistributed | 2026-09-01 |
 | YouTube and product names/logos | Resource lists | Respective publishers and trademark owners | Links and nominative references only; no endorsement implied | 2026-08-16 |
 | `token.love` official homepage | `docs/projects.md`, `docs/en/projects.md` | China Token Cloud / site operator | Homepage capability description paraphrased with date and contract boundary; not an independent audit | 2026-08-31 |
 | `ku0.com` official homepage | `docs/projects.md`, `docs/en/projects.md` | ku0.com operator | Directory positioning paraphrased with date; availability, transactions, and compliance remain subject to current terms | 2026-08-31 |
