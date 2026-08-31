@@ -53,7 +53,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | 第一部：打开输入 | 怎样建立英语和世界之间的通道？ | [CEFR 自测](docs/threads/part-1/0-cefr.md) · [认知与训练原则](docs/threads/part-1/1-understanding.md) · [词汇、听力、阅读、口语、写作](docs/threads/part-1/2-vocabulary.md) |
 | 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [我的故事](docs/threads/part-2/my-story.md) · [选择篇](docs/threads/part-2/decision.md) · [关系篇](docs/threads/part-2/relationships.md) · [恢复篇](docs/threads/part-2/recovery.md) · [创业篇](docs/threads/part-2/entrepreneurship.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md) · [AI 项目与资源层创业](docs/threads/part-3/2-ai-development-and-resource-layer.md) · [注意力篇](docs/threads/part-3/3-attention-and-judgment.md) · [作品篇](docs/threads/part-3/4-artifacts-and-delivery.md) |
-| 第四部：实践与恢复 | 学习如何回到身体、兴趣和日常？ | [Week 1](docs/threads/part-4/week-1.md) |
+| 第四部：实践与恢复 | 学习如何回到身体、兴趣和日常？ | [Week 1](docs/threads/part-4/week-1.md) · [生活系统篇](docs/threads/part-4/daily-system.md) |
 | 第五部：行动与长期改变 | 怎样在九十天里做出可验证的改变？ | [九十天行动篇](docs/threads/part-5/90-day-plan.md) |
 | 后记 | 进阶之后，我想成为什么样的人？ | [进阶不是离开原来的自己](docs/threads/part-6/afterword.md) |
 

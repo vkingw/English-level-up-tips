@@ -53,7 +53,7 @@ When a term is unclear or you do not know which page to open next, use the [Glos
 | Part I: Open Input | How do I build a bridge between English and the world? | [CEFR Self-check](threads/part-1/0-cefr.md) · [Learning Principles](threads/part-1/1-understanding.md) · [Vocabulary, Listening, Reading, Speaking, Writing](threads/part-1/2-vocabulary.md) |
 | Part II: Return to Life | How do ability, work, relationships, failure, choices, and recovery affect one another? | [My Story](threads/part-4/my-story.md) · [Decision-Making](threads/part-2/decision.md) · [Relationships](threads/part-2/relationships.md) · [Recovery](threads/part-2/recovery.md) · [Entrepreneurship](threads/part-2/entrepreneurship.md) |
 | Part III: Amplify Ability | How can I use AI without outsourcing judgment or attention? | [Learning Anything with AI](threads/part-3/1-ai-learning.md) · [AI Projects and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md) · [Attention](threads/part-3/3-attention-and-judgment.md) · [Artifacts](threads/part-3/4-artifacts-and-delivery.md) |
-| Part IV: Practice and Recovery | How does learning return to the body and daily life? | [Week 1](threads/part-4/week-1.md) |
+| Part IV: Practice and Recovery | How does learning return to the body and daily life? | [Week 1](threads/part-4/week-1.md) · [Daily System](threads/part-4/daily-system.md) |
 | Part V: Long-Term Action | How can I make change verifiable in 90 days? | [90-Day Action Plan](threads/part-5/90-day-plan.md) |
 | Afterword | Who do I want to become after leveling up? | [Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md) |
 

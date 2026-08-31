@@ -54,6 +54,7 @@
 - [Entrepreneurship](threads/part-2/entrepreneurship.md)
 - [Miscellaneous Notes and Old Echoes](threads/part-2/x-misc.md)
 - [Week 1](threads/part-4/week-1.md)
+- [Daily System: Put Change into the Day](threads/part-4/daily-system.md)
 
 ## Archive
 

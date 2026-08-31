@@ -68,6 +68,7 @@ export const zhNavigation = [
       page("创业篇", "/threads/part-2/entrepreneurship"),
       page("杂谈与旧日回声", "/threads/part-2/x-misc"),
       page("Week 1", "/threads/part-4/week-1"),
+      page("生活系统篇：把改变安放在日子里", "/threads/part-4/daily-system"),
     ],
   },
   {
@@ -157,6 +158,7 @@ export const enNavigation = [
       page("Entrepreneurship", "/en/threads/part-2/entrepreneurship"),
       page("Miscellaneous Notes and Old Echoes", "/en/threads/part-2/x-misc"),
       page("Week 1", "/en/threads/part-4/week-1"),
+      page("Daily System: Put Change into the Day", "/en/threads/part-4/daily-system"),
     ],
   },
   {

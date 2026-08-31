@@ -54,6 +54,7 @@
 - [创业篇](docs/threads/part-2/entrepreneurship.md)
 - [杂谈与旧日回声](docs/threads/part-2/x-misc.md)
 - [Week 1](docs/threads/part-4/week-1.md)
+- [生活系统篇：把改变安放在日子里](docs/threads/part-4/daily-system.md)
 
 ## 旧文归档
 
