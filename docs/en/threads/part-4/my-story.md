@@ -16,7 +16,7 @@ If you want to treat this memory as learning material, read [Narrative and Evide
 
 ## What Failure Cost Me
 
-Hi, I’m Lipu. This is the story of one particularly absurd chapter of my life in the internet industry.
+Hi, I’m Li Pu. This is the story of one particularly absurd chapter of my life in the internet industry.
 
 On April 1, 2017, I joined a tech company in Nanjing as a regular front-end developer. We were building software for lawyers and law firms. The first version had been outsourced. The code had no comments, no project management, and no real structure. To make things worse, there was no product manager. Most product ideas came directly from the boss’s intuition.
 
