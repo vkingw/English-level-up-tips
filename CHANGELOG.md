@@ -26,6 +26,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Reframed writing practice around task fit, four revision passes, source checks, and auditable delivery.
 - Connected the 90-day action chapter to one cross-skill evidence chain and explicit phase gates.
 - Reworked the Week 1 sleep-and-stress lesson as an evidence-bounded language exercise, removing unsupported medical claims and adding safer source boundaries.
+- Refined the entrepreneurship chapter with explicit evidence levels, personal-estimate disclosure, five reality gates, and links to the decision and project scorecards.
 - Added book-structure navigation and browser smoke coverage for the new pages.
 
 ### Added

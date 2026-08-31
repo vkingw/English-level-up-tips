@@ -1,18 +1,31 @@
 ---
 title: "Entrepreneurship: From Ambition to Purpose"
 description: A personal review of products, cash flow, technical debt, failure, recovery, and starting again; not success doctrine or investment advice.
-updated: 2026-08-16
+updated: 2026-08-31
 ---
 
 # Entrepreneurship: From Ambition to Purpose
 
-> First written in June 2026 and revised on 2026-08-16 for privacy and affiliation disclosure. This is not a success formula, investment advice, or a route others can copy. It is a personal review.
+> First written in June 2026 and revised on 2026-08-31 for evidence levels, privacy, and affiliation disclosure. This is not a success formula, investment advice, or a route others can copy. It is a personal review.
 
 When I was younger, entrepreneurship meant opportunity, ambition, and a chance to take my life off its old track. Today it feels more like a delayed mirror. It reflects courage and ability, but also greed, immaturity, and everything a founder would rather not see.
 
 People first found me through this English-learning repository. Others later read about the software company that failed, the health problems that followed, my return home, and the effort to begin again. Connected together, those events ask one question:
 
 > How many times must a person break before understanding where their abilities should be used?
+
+## Separate Memory, Review, and Plans
+
+This chapter contains personal memory, explanations made in hindsight, and plans for the future. They have different evidence standards:
+
+| Level | How it is written | How a reader should use it |
+| --- | --- | --- |
+| What happened | Dates, roles, products, accounts, or public records | Treat it as my record and return to primary evidence when needed |
+| Hindsight explanation | Why I think a decision worked or failed | Treat it as a hypothesis, not proof of causation |
+| Reusable gate | What I will ask, test, or stop next time | Use it to design your own checks, not to copy my route |
+| Unverified plan | An industry, service, or public-interest direction I want to explore | Keep it labelled as a direction until users, costs, and time answer |
+
+Loss figures are estimates from personal records, not an audit. For current affiliations and commercial relationships, use the latest [Author Projects and Real-world Practice](../../projects.md) disclosure.
 
 ![Cover: a workspace between city and countryside at dawn](../../../assets/entrepreneurship/cover.webp)
 
@@ -50,7 +63,7 @@ The software company taught me that dreams are expensive. Restaurants taught me 
 
 The shops helped fund my later software investment, but eventually closed during the pandemic period. The lesson was not that physical business is good and the internet bad. Every business returns to real exchange: will people pay, can the cost structure survive, and can the organisation remain alive when conditions change?
 
-## 2022: A Problem That Cost More Than Twenty Million Yuan
+## 2022: Seeing the Foundation of Product and Responsibility
 
 ![2022: an empty meeting room after failure](../../../assets/entrepreneurship/2022-collapse.webp)
 
@@ -64,7 +77,7 @@ One evening, the partners talked late into the night. A major shareholder who ha
 
 The company struggled to pay salaries and borrowed money. Management became more controlling: attendance enforcement, reduced benefits, meaningless overtime, constant reports, and monitoring. By September the team no longer wanted to come to work, and the company ended.
 
-Combined losses exceeded twenty million yuan, before including other ventures. Harder than the number was guilt towards colleagues, family, and people who had trusted my judgment. Failure does not only damage a balance sheet. It can reveal that something once held with certainty was wrong at the foundation.
+According to the records I had at the time, our combined losses exceeded twenty million yuan before other ventures. This is an estimate in a personal review, not a financial audit. Harder than the number was guilt towards colleagues, family, and people who had trusted my judgment. Failure does not only damage a balance sheet. It can reveal that something once held with certainty was wrong at the foundation.
 
 ## 2023: Survive Before Restarting
 
@@ -89,6 +102,18 @@ By June 2026, I had returned to technology, products, and industry as a company 
 An industry visit reinforced a direction: useful AI should not remain an abstract idea or a toy for a small group. It must enter real processes, including agriculture and other physical industries, and become usable by ordinary people.
 
 That statement is still a direction, not evidence of impact. After the software failure, I ask harder questions: who needs this, can it enter a real workflow, can people keep using it, and can delivery, compliance, cost, and service close the loop? Without answers, a beautiful technology story can become another unstable building.
+
+## Five Reality Gates for the Next Venture
+
+Each gate should leave evidence that another person can inspect, not only the founder’s confidence:
+
+1. **Problem gate**: who meets the problem, in which repeated situation, and what interviews, orders, or usage records exist?
+2. **Value gate**: what time, risk, or cost changes, and how will the user accept the result?
+3. **Delivery gate**: who implements, supports, trains, and handles incidents, and can someone else take over?
+4. **Survival gate**: are revenue, fixed cost, variable cost, worst case, and stop/exit conditions in the ledger?
+5. **Relationship gate**: what cost do team, family, customers, and third parties bear, and are permission, privacy, and promises clear?
+
+Use the [Life Practice Toolkit](../../templates/life-practice-toolkit.md) for choices and boundaries, and the [AI Project Scorecard](../../templates/ai-project-scorecard.md) for pilot quality. Tools can expose questions; they cannot carry entrepreneurial responsibility.
 
 ## What I Learned
 
@@ -135,6 +160,8 @@ This is not the display of youthful success or the accusation of later disappoin
 - [Last Year and Now](../archive/last-year-and-now.md)
 - [My Story](../part-4/my-story.md)
 - [Author Projects and Real-world Practice](../../projects.md)
+- [Life Practice Toolkit](../../templates/life-practice-toolkit.md)
+- [AI Project Scorecard](../../templates/ai-project-scorecard.md)
 - [GitHub profile](https://github.com/byoungd)
 
 Next: [90-Day Action Plan](../part-5/90-day-plan.md)
