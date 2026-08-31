@@ -23,6 +23,19 @@ Coming back to this chapter, I understand writing differently now. It is not dec
 - use AI for diagnosis and comparison, not as a replacement for judgment;
 - let a title serve the work instead of spending readers’ trust for clicks.
 
+## Define the Writing Task First
+
+“Write an article” can mean explaining something to a colleague, helping someone choose, telling an experience, or making sense of a difficult season. Each task needs a different shape. State the task, audience, and acceptance condition before drafting.
+
+| Task | Conditions | Evidence of completion |
+| --- | --- | --- |
+| Explain | The audience lacks context; write 300–600 words on a timer | A reader can restate the point and next step |
+| Decide | At least two options and a clear deadline | The reader can see reasons, costs, limits, and a recommended action |
+| Narrate | Choose one concrete event without inventing another person’s mind | Timeline is clear; facts, feelings, and speculation are separated |
+| Reflect | Revisit an experience and label past information versus present interpretation | The piece proposes one testable next step instead of only a conclusion |
+
+Copy the [Writing Evidence Card](../../templates/writing-evidence.md) to keep task, draft, feedback, revisions, and delivery in one record.
+
 ## Write for Someone Specific
 
 Before drafting, answer four questions:
@@ -76,6 +89,17 @@ A useful 25-minute loop is:
 4. 3 minutes: record one problem to repair next time.
 
 Keep the rough draft. It is the comparison point that lets you see whether you actually improved.
+
+## Four Revision Passes
+
+Do not fix every problem at once. Pass through the piece in this order:
+
+1. **Purpose and facts**: does it answer the task? Can numbers, dates, quotations, and sources be checked?
+2. **Structure and evidence**: does each paragraph have a job? Do claims, examples, and limitations match?
+3. **Sentences and voice**: remove repetition and filler; tune transitions, tone, and rhythm while keeping your judgment.
+4. **Delivery and boundaries**: check title, links, citations, privacy, copyright, format, and the reader’s next step.
+
+Record the one change that most affects the task in each pass. If you cannot explain why a change helps, keep the previous version and return to the feedback question.
 
 ---
 

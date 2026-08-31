@@ -11,6 +11,7 @@
 - [听力资源审计卡](docs/templates/listening-audit.md)
 - [阅读证据卡](docs/templates/reading-evidence.md)
 - [口语证据卡](docs/templates/speaking-evidence.md)
+- [写作证据卡](docs/templates/writing-evidence.md)
 - [AI 任务简报](docs/templates/ai-task-brief.md)
 - [AI 学习记录](docs/templates/ai-learning-log.md)
 - [AI 经历案例复盘](docs/templates/ai-case-review.md)

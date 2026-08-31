@@ -11,6 +11,7 @@
 - [Listening Resource Audit](templates/listening-audit.md)
 - [Reading Evidence Card](templates/reading-evidence.md)
 - [Speaking Evidence Card](templates/speaking-evidence.md)
+- [Writing Evidence Card](templates/writing-evidence.md)
 - [AI Task Brief](templates/ai-task-brief.md)
 - [AI Learning Log](templates/ai-learning-log.md)
 - [AI Case Review](templates/ai-case-review.md)
