@@ -1,7 +1,7 @@
 ---
 title: 听力篇：从声音辨认到真实理解
 description: 按 CEFR can-do 目标训练主旨、细节、语块切分与复述，用可比较样本建立 7 天、30 天和 12 周听力计划。
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # 听力篇：从声音辨认到真实理解
@@ -160,7 +160,7 @@ updated: 2026-08-31
 
 如果你是逐字翻译，你的理解很可能会出错。所以，你应该**听整个句子**，这样你才能更好地理解英语。
 
-如果你想深入了解这个话题，我强烈推荐你耐心观看这个视频 [Understand Native English Speakers with this Advanced Listening Lesson](https://www.youtube.com/watch?v=D6_qpaSxAQc)
+如果你想深入了解这个话题，可以把这个视频作为一次精听入口：[Understand Native English Speakers with this Advanced Listening Lesson](https://www.youtube.com/watch?v=D6_qpaSxAQc)。开始前仍请确认字幕、难度和今天的练习目标。
 
 ## 按任务选择英语学习材料
 

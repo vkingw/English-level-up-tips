@@ -4,6 +4,12 @@ All notable project-level changes are documented here. Content pages retain thei
 
 ## Unreleased
 
+### 2026-09-01 editorial pass
+
+#### Changed
+
+- Added Daily System terms to the bilingual glossary and aligned a listening resource introduction with the guide's task-first recommendation policy.
+
 ### 2026-08-31 manuscript pass
 
 #### Added

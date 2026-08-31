@@ -1,7 +1,7 @@
 ---
 title: Glossary of Terms and Methods
 description: Define the guide's core vocabulary, evidence standards, tool entry points, and reading paths so ideas can transfer between chapters.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Glossary of Terms and Methods
@@ -61,6 +61,9 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Boundary** | What I will do to protect myself and state a consequence when something happens | [Relationships](../threads/part-2/relationships.md) |
 | **Recovery** | Restore safety, body, relationships, and agency before efficiency and growth | [Recovery](../threads/part-2/recovery.md) |
 | **Minimum order** | A safe action and visible result that remain repeatable during disorder | [Life Practice Toolkit](../templates/life-practice-toolkit.md) |
+| **Minimum viable day** | A version of the day that preserves safety, one minimum output, and a cue for the next step at the capacity available | [Daily System](../threads/part-4/daily-system.md) |
+| **Capacity budget** | A rough estimate that includes time, attention, body, and responsibility rather than time alone | [Daily System](../threads/part-4/daily-system.md) |
+| **Return action** | The smallest output that can be completed within 24 hours and bring the system back after interruption | [Daily System](../threads/part-4/daily-system.md) |
 | **Cost** | Time, money, health, relationships, privacy, and responsibility that must be named | [Decision-Making](../threads/part-2/decision.md) |
 | **Reversibility** | Whether a choice can be paused, undone, or changed back at manageable cost | [Decision-Making](../threads/part-2/decision.md) |
 

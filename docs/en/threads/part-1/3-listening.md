@@ -1,7 +1,7 @@
 ---
 title: "Listening: From Sound Recognition to Real Understanding"
 description: Use CEFR can-do goals, gist, detail, segmentation, and retelling to build comparable 7-day, 30-day, and 12-week evidence.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Listening: From Sound Recognition to Real Understanding
@@ -187,7 +187,7 @@ But:
 
 If you translate word by word, you will misunderstand. Try to listen for **chunks and meaning**.
 
-If you want a deep dive, I strongly recommend this:
+If you want a deep dive, this is one possible intensive-listening entry. Check its captions, difficulty, and today's task before starting:
 
 - [Understand Native English Speakers with this Advanced Listening Lesson](https://www.youtube.com/watch?v=D6_qpaSxAQc)
 
