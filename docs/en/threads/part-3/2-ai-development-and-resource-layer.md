@@ -345,4 +345,4 @@ I still want to make money because revenue is one form of evidence that a value 
 - **Commercial claims**: charging models, cost ledgers, and the twelve-week route are methods to test, not proof of revenue, customer count, profit, or investment return.
 - **Official pages checked**: 1 September 2026. The homepage positioning for `token.love` and `ku0.com`, as well as the external article links in this chapter, were reachable; verify exact capability, service scope, region, policy, and contract commitments again in the real project.
 
-Previous: [Learning Anything with AI](1-ai-learning.md) | Disclosure: [Author Projects and Real-world Practice](../../projects.md)
+Previous: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | Next: [Author Projects and Real-world Practice](../../projects.md)
