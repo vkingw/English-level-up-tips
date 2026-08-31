@@ -69,7 +69,7 @@ Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与
 3. **核对动态信息**：产品、模型、价格、政策、考试规则和外部链接保留核验日期；没有重新检查时，不要把日期伪装成最新状态。
 4. **完成隐私审查**：确认第三方授权、最少必要细节、删除请求和公开范围；健康、法律、财务与安全内容必须写清专业支持边界。
 5. **同步双语语义**：英文页不逐字翻译，但必须保留任务、限制、证据等级和风险提示；新增页面必须加入 `navigation.mjs` 和烟测路由。
-6. **运行发布命令**：按顺序执行 `npm run sync`、`npm run check`、`npm run docs:build` 和 `npm run test:smoke`，检查生成文件差异后再提交。
+6. **运行发布命令**：按顺序执行 `npm run sync`、`npm run check`、`npm run docs:build` 和 `npm run test:smoke`，检查生成文件差异后再提交。烟测会从导航 source 自动生成中英文页面覆盖。
 
 ## 外链与日期策略
 

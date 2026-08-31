@@ -23,6 +23,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added runtime image-load coverage for representative Chinese and English pages, checking descriptive alt text, completion, and non-zero natural dimensions.
 - Translated the remaining English-page image alt text and added a check for Chinese characters in English image descriptions.
 - Added the bilingual Narrative and Evidence chapter to connect personal stories, hindsight, responsibility, and transferable principles to the existing case-review and writing tools.
+- Made route smoke coverage derive directly from navigation sources and real H1 headings, removing duplicated manual route lists and reducing future coverage drift.
 
 ### 2026-08-31 manuscript pass
 

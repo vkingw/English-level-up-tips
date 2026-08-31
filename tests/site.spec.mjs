@@ -1,88 +1,29 @@
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { expect, test } from "@playwright/test";
+import { enNavigation, zhNavigation } from "../docs/.vitepress/navigation.mjs";
 
-const routes = [
-  ["./", "人生进阶指南"],
-  ["./en/", "Life Level-up Guide"],
-  ["./threads/part-1/0-cefr", "CEFR"],
-  ["./reference/glossary", "术语与方法索引"],
-  ["./threads/part-1/7-ai", "用 AI 学英语"],
-  ["./threads/part-3/1-ai-learning", "使用 AI 学习一切"],
-  ["./threads/part-3/2-ai-development-and-resource-layer", "AI 学习、项目开发与资源层创业"],
-  ["./templates/ai-task-brief", "AI 任务简报模板"],
-  ["./templates/weekly-review", "每周复盘模板"],
-  ["./templates/english-diagnostic", "英语能力诊断模板"],
-  ["./templates/learning-state", "学习状态模板"],
-  ["./templates/vocabulary-audit", "词汇审计模板"],
-  ["./templates/listening-audit", "听力资源审计卡"],
-  ["./templates/reading-evidence", "阅读证据卡"],
-  ["./templates/speaking-evidence", "口语证据卡"],
-  ["./templates/writing-evidence", "写作证据卡"],
-  ["./templates/90-day-cycle", "九十日行动总表"],
-  ["./templates/artifact-brief", "作品简报与交付卡"],
-  ["./templates/ai-learning-log", "AI 学习记录模板"],
-  ["./templates/ai-case-review", "AI 经历案例复盘模板"],
-  ["./templates/ai-project-scorecard", "AI 项目评分卡模板"],
-  ["./templates/life-practice-toolkit", "生活进阶工作表"],
-  ["./threads/part-0/prologue", "序章：先不要急着改变人生"],
-  ["./threads/part-5/90-day-plan", "行动篇：九十天，把生活交还给自己"],
-  ["./threads/part-6/afterword", "后记：进阶不是离开原来的自己"],
-  ["./threads/part-2/recovery", "恢复篇：先把自己接住"],
-  ["./threads/part-3/3-attention-and-judgment", "注意力篇：把注意力还给自己"],
-  ["./threads/part-3/4-artifacts-and-delivery", "作品篇：把学会变成做出"],
-  ["./threads/part-2/decision", "选择篇：在不确定中做决定"],
-  ["./threads/part-2/relationships", "关系篇：在关系中成为成年人"],
-  ["./threads/part-4/week-1", "Week 1"],
-  ["./threads/part-4/daily-system", "生活系统篇：把改变安放在日子里"],
-  ["./threads/part-2/x-misc", "杂谈与旧日回声"],
-  ["./threads/part-2/my-story", "我的故事：失败、恢复与重新出发"],
-  ["./threads/part-2/narrative-and-evidence", "叙事与证据篇：不把经历写成命运"],
-  ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
-  ["./en/reference/glossary", "Glossary of Terms and Methods"],
-  ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
-  ["./en/templates/ai-task-brief", "AI Task Brief Template"],
-  ["./en/templates/weekly-review", "Weekly Review Template"],
-  ["./en/templates/english-diagnostic", "English Diagnostic Template"],
-  ["./en/templates/learning-state", "Learning State Template"],
-  ["./en/templates/vocabulary-audit", "Vocabulary Audit Template"],
-  ["./en/templates/listening-audit", "Listening Resource Audit"],
-  ["./en/templates/reading-evidence", "Reading Evidence Card"],
-  ["./en/templates/speaking-evidence", "Speaking Evidence Card"],
-  ["./en/templates/writing-evidence", "Writing Evidence Card"],
-  ["./en/templates/90-day-cycle", "90-Day Cycle Map"],
-  ["./en/templates/artifact-brief", "Artifact Brief and Delivery Card"],
-  ["./en/templates/ai-learning-log", "AI Learning Log Template"],
-  ["./en/templates/ai-case-review", "AI Case Review Template"],
-  ["./en/templates/ai-project-scorecard", "AI Project Scorecard Template"],
-  ["./en/templates/life-practice-toolkit", "Life Practice Toolkit"],
-  ["./en/threads/part-0/prologue", "Prologue: Do Not Rush to Change Your Life"],
-  ["./en/threads/part-5/90-day-plan", "90-Day Action Plan"],
-  ["./en/threads/part-6/afterword", "Afterword: Progress Is Not Leaving Yourself Behind"],
-  ["./en/threads/part-2/recovery", "Recovery: Catch Yourself Before You Push Forward"],
-  ["./en/threads/part-3/3-attention-and-judgment", "Attention: Return Your Attention to Yourself"],
-  ["./en/threads/part-3/4-artifacts-and-delivery", "Artifacts: Turn Learning into Something Made"],
-  ["./en/threads/part-2/decision", "Decision-Making: Choosing Under Uncertainty"],
-  ["./en/threads/part-2/relationships", "Relationships: Becoming an Adult in Connection"],
-  ["./en/threads/part-4/week-1", "Week 1"],
-  ["./en/threads/part-4/daily-system", "Daily System: Put Change into the Day"],
-  ["./en/threads/part-2/x-misc", "Miscellaneous Notes and Old Echoes"],
-  ["./en/threads/part-4/my-story", "My Story: Failure, Recovery, and Starting Again"],
-  ["./en/threads/part-2/narrative-and-evidence", "Narrative and Evidence: Do Not Turn Experience into Fate"],
-  ["./threads/archive/", "十年前的博客归档"],
-  ["./threads/archive/a-place-to-write", "终于有了一个写字的地方"],
-  ["./threads/archive/last-year-and-now", "简单介绍下去年和现在的我"],
-  ["./threads/archive/help-the-elderly", "到底该不该扶老人"],
-  ["./threads/archive/blog-renaming-notice", "博客临时更名公告"],
-  ["./en/threads/archive/", "Blog Archive from a Decade Ago"],
-  ["./en/threads/archive/a-place-to-write", "At Last, a Place to Write"],
-  ["./en/threads/archive/last-year-and-now", "Last Year and Now"],
-  ["./en/threads/archive/help-the-elderly", "Should We Help an Elderly Stranger"],
-  ["./en/threads/archive/blog-renaming-notice", "Temporary Blog Renaming Notice"],
-];
+const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const headingFromSource = (source) => {
+  const file = resolve(process.cwd(), "docs", source);
+  const heading = readFileSync(file, "utf8").match(/^# (.+)$/m)?.[1];
+  if (!heading) throw new Error(`导航 source 缺少一级标题: ${source}`);
+  return heading;
+};
+
+const routesFromNavigation = (groups) =>
+  groups.flatMap(({ items }) =>
+    items.map(({ link, source }) => [link === "/" ? "./" : `.${link}`, headingFromSource(source)]),
+  );
+
+const routes = [...routesFromNavigation(zhNavigation), ...routesFromNavigation(enNavigation)];
 
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
-    await expect(page.getByRole("heading", { level: 1, name: new RegExp(heading) })).toBeVisible();
+    await expect(
+      page.getByRole("heading", { level: 1, name: new RegExp(escapeRegExp(heading)) }),
+    ).toBeVisible();
     await expect(page.locator("main")).toBeVisible();
   });
 }
