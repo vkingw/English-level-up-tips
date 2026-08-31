@@ -40,6 +40,7 @@
 - [My Story](threads/part-4/my-story.md)
 - [Recovery: Catch Yourself Before You Push Forward](threads/part-2/recovery.md)
 - [Decision-Making: Choosing Under Uncertainty](threads/part-2/decision.md)
+- [Relationships: Becoming an Adult in Connection](threads/part-2/relationships.md)
 - [Entrepreneurship](threads/part-2/entrepreneurship.md)
 - [Miscellaneous Notes and Old Echoes](threads/part-2/x-misc.md)
 - [Week 1](threads/part-4/week-1.md)

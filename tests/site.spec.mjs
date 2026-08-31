@@ -17,6 +17,7 @@ const routes = [
   ["./threads/part-2/recovery", "恢复篇：先把自己接住"],
   ["./threads/part-3/3-attention-and-judgment", "注意力篇：把注意力还给自己"],
   ["./threads/part-2/decision", "选择篇：在不确定中做决定"],
+  ["./threads/part-2/relationships", "关系篇：在关系中成为成年人"],
   ["./en/threads/part-3/2-ai-development-and-resource-layer", "AI Learning, Project Development"],
   ["./en/threads/part-3/1-ai-learning", "Learning Anything with AI"],
   ["./en/templates/ai-task-brief", "AI Task Brief Template"],
@@ -29,6 +30,7 @@ const routes = [
   ["./en/threads/part-2/recovery", "Recovery: Catch Yourself Before You Push Forward"],
   ["./en/threads/part-3/3-attention-and-judgment", "Attention: Return Your Attention to Yourself"],
   ["./en/threads/part-2/decision", "Decision-Making: Choosing Under Uncertainty"],
+  ["./en/threads/part-2/relationships", "Relationships: Becoming an Adult in Connection"],
   ["./threads/archive/", "十年前的博客归档"],
 ];
 

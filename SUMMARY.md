@@ -40,6 +40,7 @@
 - [我的故事](docs/threads/part-2/my-story.md)
 - [恢复篇：先把自己接住](docs/threads/part-2/recovery.md)
 - [选择篇：在不确定中做决定](docs/threads/part-2/decision.md)
+- [关系篇：在关系中成为成年人](docs/threads/part-2/relationships.md)
 - [创业篇](docs/threads/part-2/entrepreneurship.md)
 - [杂谈与旧日回声](docs/threads/part-2/x-misc.md)
 - [Week 1](docs/threads/part-4/week-1.md)

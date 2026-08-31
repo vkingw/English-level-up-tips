@@ -49,7 +49,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | --- | --- | --- |
 | 序章 | 我为什么要重新开始？ | [先不要急着改变人生](threads/part-0/prologue.md) |
 | 第一部：打开输入 | 怎样建立英语和世界之间的通道？ | [认知与训练原则](threads/part-1/1-understanding.md) |
-| 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [我的故事](threads/part-2/my-story.md) · [选择篇](threads/part-2/decision.md) · [恢复篇](threads/part-2/recovery.md) |
+| 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [我的故事](threads/part-2/my-story.md) · [选择篇](threads/part-2/decision.md) · [关系篇](threads/part-2/relationships.md) · [恢复篇](threads/part-2/recovery.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [使用 AI 学习一切](threads/part-3/1-ai-learning.md) · [注意力篇](threads/part-3/3-attention-and-judgment.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、兴趣和日常？ | [Week 1](threads/part-4/week-1.md) |
 | 第五部：行动与长期改变 | 怎样在九十天里做出可验证的改变？ | [九十天行动篇](threads/part-5/90-day-plan.md) |
@@ -111,7 +111,7 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 ## 人生复盘与恢复：经验也需要重新解释
 
-[我的故事](threads/part-2/my-story.md)、[选择篇](threads/part-2/decision.md)、[恢复篇](threads/part-2/recovery.md)、[创业篇](threads/part-2/entrepreneurship.md)和[旧文归档](threads/archive/README.md)保留了失败、身体失序、关系变化、离开与重返。回望不是为了把过去装饰成励志故事，而是为了辨认：哪些决定有效，哪些代价不能忽略，下一次怎样活得更诚实。
+[我的故事](threads/part-2/my-story.md)、[选择篇](threads/part-2/decision.md)、[关系篇](threads/part-2/relationships.md)、[恢复篇](threads/part-2/recovery.md)、[创业篇](threads/part-2/entrepreneurship.md)和[旧文归档](threads/archive/README.md)保留了失败、身体失序、关系变化、离开与重返。回望不是为了把过去装饰成励志故事，而是为了辨认：哪些决定有效，哪些代价不能忽略，下一次怎样活得更诚实。
 
 个人经历不是医疗、法律、投资或创业建议。公开内容遵循最少必要原则，不展示不必要的第三方身份信息；涉及他人的照片与故事，只在获得明确授权和尊重隐私的前提下保留。
 
