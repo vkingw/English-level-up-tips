@@ -45,6 +45,8 @@ It also keeps three kinds of claim separate:
 
 For a complete read, begin with the [Prologue: Do Not Rush to Change Your Life](threads/part-0/prologue.md). The book is not a straight climb. It is a loop we revisit:
 
+When a term is unclear or you do not know which page to open next, use the [Glossary of Terms and Methods](reference/glossary.md) and follow “definition → evidence → next step” back to the main path.
+
 | Part | Core question | Entry point |
 | --- | --- | --- |
 | Prologue | Why begin again? | [Do Not Rush to Change Your Life](threads/part-0/prologue.md) |

@@ -10,6 +10,7 @@ export const zhNavigation = [
     items: [
       page("人生进阶指南", "/", "README.md"),
       page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
+      page("术语与方法索引", "/reference/glossary"),
       page("学习状态模板", "/templates/learning-state"),
       page("每周复盘模板", "/templates/weekly-review"),
       page("英语诊断模板", "/templates/english-diagnostic"),
@@ -94,6 +95,7 @@ export const enNavigation = [
     items: [
       page("Life Level-up Guide", "/en/", "en/README.md"),
       page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
+      page("Glossary of Terms and Methods", "/en/reference/glossary"),
       page("Learning State", "/en/templates/learning-state"),
       page("Weekly Review", "/en/templates/weekly-review"),
       page("English Diagnostic", "/en/templates/english-diagnostic"),

@@ -15,6 +15,8 @@ All notable project-level changes are documented here. Content pages retain thei
 - Added the bilingual Speaking Evidence Card for recordings, listener feedback, interaction repair, and safe transfer.
 - Added the bilingual Writing Evidence Card for drafts, layered revision, AI disclosure, reader feedback, and delivery.
 - Added the bilingual 90-Day Cycle Map to connect skill evidence, weekly questions, phase gates, recovery, and final delivery.
+- Added the bilingual Glossary of Terms and Methods to make the book's evidence vocabulary and chapter paths easier to navigate.
+- Extended the README mirror rule to include the new `reference/` section in repository links.
 
 #### Changed
 
