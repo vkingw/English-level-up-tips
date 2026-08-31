@@ -9,6 +9,7 @@
 - [English Diagnostic](templates/english-diagnostic.md)
 - [Vocabulary Audit](templates/vocabulary-audit.md)
 - [Listening Resource Audit](templates/listening-audit.md)
+- [Reading Evidence Card](templates/reading-evidence.md)
 - [AI Task Brief](templates/ai-task-brief.md)
 - [AI Learning Log](templates/ai-learning-log.md)
 - [AI Case Review](templates/ai-case-review.md)

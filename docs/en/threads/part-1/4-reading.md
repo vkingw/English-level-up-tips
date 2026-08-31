@@ -17,6 +17,19 @@ Reading is not moving every word into another language. It is building meaning, 
 - recommend books by reading task, not by sales or ranking claims;
 - leave a gist, structure, supported inference, and retelling after each session.
 
+## Choose Material by Task
+
+Reading material is not more valuable simply because it is harder. Name the task first, then choose a main source you can finish in the available time and a parallel source on a related topic. The main source trains the method; the parallel source checks transfer.
+
+| Task | Material condition | Evidence of completion |
+| --- | --- | --- |
+| Locate information | A notice, instruction, short report, or document with a clear question | Mark the answer in the source and state the supporting line |
+| Follow an argument | A structured comment, report, or technical explanation | Map claim, reasons, evidence, and limitations |
+| Build stamina | A novel, biography, or long nonfiction text you will read for seven days | Keep reading time, chapter gist, and one delayed retelling |
+| Synthesise sources | 2–3 texts on one topic with different authors or positions | Write a one-page comparison separating fact, inference, and judgment |
+
+Keep the chosen source for at least seven days before replacing it. Record author, title, edition or publication date, access date, length, and usage boundary; web pages can change, become paid, or disappear. These links are entry points, not rankings, sponsorships, or promises of permanent availability. Copy the [Reading Evidence Card](../../templates/reading-evidence.md) to preserve evidence from each session.
+
 ---
 
 ## Intensive vs. Extensive Reading
@@ -57,7 +70,7 @@ If almost every sentence is blocked, choose easier parallel material first. Lowe
 
 ## Recommended English Books
 
-Here are a few books across relative difficulty levels. The descriptions focus on reading practice rather than rankings, sales, or universal difficulty claims:
+Here are a few books across relative difficulty levels. The descriptions focus on reading practice rather than rankings, sales, or universal difficulty claims. Recheck the specific edition and availability before starting:
 
 - [Animal Farm (动物庄园) — George Orwell](https://book.douban.com/subject/10956502/)
 
@@ -89,12 +102,12 @@ Here are a few books across relative difficulty levels. The descriptions focus o
 
 ## WeChat Official Accounts
 
-I rarely use WeChat, so I’ll only recommend two that I’ve actually read:
+I rarely use WeChat, so the list below is a personal record of accounts I once read. It does not mean they are still active or suitable for every reader:
 
 - 英文悦读
 - 独霸上海的妖怪
 
-If you have good recommendations, open an issue and I’ll consider adding them after reading.
+If you suggest an account, include its reading task, last-checked date, and a public access path in the issue.
 
 ---
 
@@ -109,17 +122,17 @@ For technical terms, be extra careful:
 
 If you use tools to pre-extract unknown words from a document and learn them first, reading becomes much smoother.
 
-> Kindle isn’t great for technical PDFs: fonts are often too small and it’s tiring for your eyes. An iPad usually works better.
+Choose a device for sustainable reading: if a technical PDF is too small or cannot be searched, switch readers, enlarge the page, or find an HTML version. No single device is a universal answer.
 
 ---
 
-## Medium, Quora, Reddit, Hacker News, Stack Overflow
+## Communities and Technical Articles
 
-- [Medium](https://www.medium.com): great articles on tech, design, and life. Good for broadening your mind and improving execution.
-- [Quora](https://www.quora.com): global Q&A. Top stories often have surprisingly moving answers.
-- [Reddit](https://www.reddit.com): the “front page of the internet”. News and gossip included.
-- [Hacker News](https://news.ycombinator.com/): a must for people in tech.
-- [Stack Overflow](https://www.stackoverflow.com/): the place to solve technical problems.
+- [Medium](https://www.medium.com): find technology, design, or life writing by topic; check author, date, and citations first.
+- [Quora](https://www.quora.com): use answers to practise separating personal experience, fact, and speculation; upvotes are not evidence.
+- [Reddit](https://www.reddit.com): observe informal language and community context; for health, legal, or financial claims, return to primary sources.
+- [Hacker News](https://news.ycombinator.com/): practise reading technical headlines, comments, and linked sources; verify important claims in the original article.
+- [Stack Overflow](https://www.stackoverflow.com/): study the question, constraints, attempts, and accepted answer; test code against current documentation.
 
 ---
 
