@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Corrected two vocabulary-research DOI citations after Crossref verification, updated the attribution register, and added stale guards for the superseded identifiers.
 - Added stale-string guards for the removed Zhihu URLs and documented the rule that access-restricted or one-time-signed pages cannot serve as primary evidence.
 - Removed three unstable Zhihu direct links returning access-restricted responses; retained the relevant personal context in the manuscript and routed readers to stable local chapters instead.
 - Added the bilingual Evidence chapter as the methodological bridge from AI-assisted learning and artifacts to delayed retention, transfer, human gates, and honest life evidence.

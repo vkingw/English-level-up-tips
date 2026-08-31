@@ -184,9 +184,9 @@ For each target chunk, ask whether you can:
 
 ## Sources
 
-- [Hu & Nation (2000), Unknown Vocabulary Density and Reading Comprehension](https://doi.org/10.1076/edre.7.1.403.3989)
+- [Hu & Nation (2000), Unknown Vocabulary Density and Reading Comprehension](https://doi.org/10.64152/10125/66973)
 - [Nation (2006), How Large a Vocabulary Is Needed for Reading and Listening?](https://doi.org/10.3138/cmlr.63.1.59)
-- [Schmitt, Jiang & Grabe (2011), The Percentage of Words Known in a Text and Reading Comprehension](https://doi.org/10.1111/j.1467-9922.2011.00676.x)
+- [Schmitt, Jiang & Grabe (2011), The Percentage of Words Known in a Text and Reading Comprehension](https://doi.org/10.1111/j.1540-4781.2011.01146.x)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
 
 Previous: [Learning Principles](1-understanding.md) | Next: [Listening](3-listening.md)
