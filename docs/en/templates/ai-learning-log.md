@@ -1,7 +1,7 @@
 ---
 title: AI Learning Log Template
 description: Preserve the unaided baseline, guided practice, errors, evidence, independent performance, and transfer so learning can continue and be retested.
-updated: 2026-08-24
+updated: 2026-08-31
 ---
 
 # AI Learning Log Template
@@ -31,6 +31,13 @@ Record one inspectable learning slice at a time. An AI-generated summary is not 
 - Independent time:
 - Tests, feedback, or score:
 
+## Three comparisons
+| Sample | Conditions | Task/quality | Time/rework | Confidence | Evidence location |
+| --- | --- | --- | --- | --- | --- |
+| Unaided baseline | | | | | |
+| Assisted version | | | | | |
+| Delayed independent (after 3–7 days) | | | | | |
+
 ## Errors and transfer
 | Error/gap | Evidence | Possible cause | Parallel-task result |
 | --- | --- | --- | --- |
@@ -41,4 +48,6 @@ Record one inspectable learning slice at a time. An AI-generated summary is not 
 - Acceptance criteria:
 - Required material:
 - Evidence to preserve:
+- Handover owner/date:
+- Stop or rollback condition:
 ```

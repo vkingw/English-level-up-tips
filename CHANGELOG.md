@@ -22,6 +22,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Expanded the AI Project Scorecard and resource-layer chapter with independent-performance evidence, test conditions, ownership, and release gates.
 - Connected the English-with-AI entry page to all four skill evidence cards, delayed retesting, and the 90-day cycle.
 - Added a confidence-and-reversibility check to the decision chapter so uncertainty changes action size rather than producing false precision.
+- Updated the AI Learning Log Template to capture three comparison conditions, confidence, rework, and handover ownership.
 
 #### Changed
 
