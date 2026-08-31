@@ -1,12 +1,12 @@
 ---
 title: "Reading: From Word-by-word Translation to Claims and Evidence"
 description: Use CEFR goals to practise gist, argument, inference, and transfer with authentic, inspectable reading tasks.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Reading: From Word-by-word Translation to Claims and Evidence
 
-Source (中文): [阅读篇](../../../threads/part-1/4-reading.md)
+Source (Chinese edition): [Reading](../../../threads/part-1/4-reading.md)
 
 Reading is not moving every word into another language. It is building meaning, structure, and judgment while some uncertainty remains. You need to know when to continue, when to verify, and when to separate the author’s claim from your own opinion.
 

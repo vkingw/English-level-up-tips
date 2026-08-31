@@ -1,12 +1,12 @@
 ---
 title: "Writing: From Draft to Verifiable Revision"
 description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
-updated: 2026-08-31
+updated: 2026-09-02
 ---
 
 # Writing: From Draft to Verifiable Revision
 
-Source (中文): [写作篇](../../../threads/part-1/6-writing.md)
+Source (Chinese edition): [Writing](../../../threads/part-1/6-writing.md)
 
 Welcome to the writing chapter of *Life Level-up Guide*.
 

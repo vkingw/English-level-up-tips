@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Replaced mixed-language `Source (中文)` labels across the English reading, listening, speaking, writing, and archive pages, synchronized their edition dates, and added a stale-text guard.
 - Upgraded the official GitHub Actions used by CI, Pages, artifact upload, issue reporting, and scheduled link checks to their current Node.js 24-compatible major releases.
 - Synchronized the Prologue edition dates after the English copy-edit pass so both language editions report the same manuscript version.
 - Localised residual Chinese prose in the English Prologue and Reading chapter while retaining original WeChat account names as explicitly marked proper names.

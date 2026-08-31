@@ -1,12 +1,12 @@
 ---
 title: "Listening: From Sound Recognition to Real Understanding"
 description: Use CEFR can-do goals, gist, detail, segmentation, and retelling to build comparable 7-day, 30-day, and 12-week evidence.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Listening: From Sound Recognition to Real Understanding
 
-Source (中文): [听力篇](../../../threads/part-1/3-listening.md)
+Source (Chinese edition): [Listening](../../../threads/part-1/3-listening.md)
 
 Many of the example videos are hosted on YouTube. Captions, availability, and local access rules can change; follow the laws and platform rules that apply where you live, and use an accessible equivalent when necessary.
 

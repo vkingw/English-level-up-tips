@@ -1,12 +1,12 @@
 ---
 title: "Speaking: Make Meaning Arrive"
 description: Use CEFR goals and recording evidence to train task completion, comprehensibility, fluency, interaction, and revision.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Speaking: Make Meaning Arrive
 
-Source (中文): [口语篇](../../../threads/part-1/5-speaking.md)
+Source (Chinese edition): [Speaking](../../../threads/part-1/5-speaking.md)
 
 Speaking is not about performing one “correct” accent. It is about making meaning arrive clearly and naturally within a real interaction. Pronunciation, vocabulary, and grammar matter, but they serve comprehension, interaction, and task completion.
 

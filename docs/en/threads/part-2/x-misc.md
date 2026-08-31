@@ -1,12 +1,12 @@
 ---
 title: Miscellaneous Notes and Old Echoes
 description: Additional notes about learning, training, devices, and past experiences, preserved as historical context rather than universal advice.
-updated: 2026-08-31
+updated: 2026-09-02
 ---
 
 # Miscellaneous Notes and Old Echoes
 
-Source (中文): [杂谈与旧日回声](../../../threads/part-2/x-misc.md)
+Source (Chinese edition): [Miscellaneous Notes and Old Echoes](../../../threads/part-2/x-misc.md)
 
 This chapter is intentionally a bit off-topic: personal opinions, stories, and some “learned the hard way” moments. It is a historical record, not current guidance.
 
