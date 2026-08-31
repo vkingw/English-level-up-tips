@@ -1,12 +1,12 @@
 # Third-party Material and Citations
 
-Last reviewed: 2026-08-31.
+Last reviewed: 2026-09-01.
 
 This register distinguishes repository-owned material from third-party sources. A link is not a transfer of rights. Contributors must add or update an entry when adding external media, a substantial quotation, a dataset, or a product capability claim.
 
 | Material or claim | Location | Source / rights holder | Status and use | Accessed |
 | --- | --- | --- | --- | --- |
-| CEFR global scale | CEFR chapters and `docs/assets/CEFR@2x.png` | [Council of Europe](https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale) | Paraphrased with attribution; stored legacy chart should be replaced if redistribution terms cannot be confirmed | 2026-08-16 |
+| CEFR global scale | CEFR chapters; no local chart bundled | [Council of Europe](https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale) | Official descriptors paraphrased with attribution; the repository links the source but does not redistribute a chart | 2026-08-16 |
 | Learning styles evidence review | Learning-principles and vocabulary chapters | [Pashler et al.](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf) | Linked research; short paraphrase, no paper stored | 2026-08-16 |
 | Vocabulary coverage research | Vocabulary chapters | [Nation (2006)](https://doi.org/10.3138/cmlr.63.1.59) and linked papers | Linked research; paraphrased with limitations | 2026-08-16 |
 | ChatGPT Study Mode and Projects | AI chapters | [OpenAI Study Mode](https://openai.com/index/chatgpt-study-mode/) and [Projects Help](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) | Product facts paraphrased and dated; availability may change | 2026-08-16 |

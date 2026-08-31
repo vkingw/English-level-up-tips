@@ -57,6 +57,7 @@ Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与
 - 图片必须有描述场景或用途的替代文本；`image`、`photo`、`hotel` 等占位词会被内容校验拒绝。图片不得包含 GPS、EXIF、IPTC 或 XMP 元数据。
 - 站内链接使用 VitePress 干净路径，不新增 `#/` 路由；旧 hash 链接仅由兼容脚本处理。
 - 外部素材必须登记在 `ATTRIBUTIONS.md`，无法确认再分发权限时不进入仓库。
+- `check-content.mjs` 会验证归属表中明确写出的本地路径；删除或移动素材时必须同步更新登记，合法 glob 路径除外。
 
 ## 章节发布门禁
 

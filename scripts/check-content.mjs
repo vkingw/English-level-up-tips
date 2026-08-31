@@ -6,7 +6,7 @@ import {
   readdirSync,
   statSync,
 } from "node:fs";
-import { dirname, extname, join, relative, resolve } from "node:path";
+import { dirname, extname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
@@ -256,6 +256,24 @@ async function checkImageMetadata() {
   }
 }
 
+function checkAttributionPaths() {
+  const file = join(ROOT, "ATTRIBUTIONS.md");
+  const lines = readFileSync(file, "utf8").split("\n");
+  const codeSpan = /`([^`]+)`/g;
+  lines.forEach((line, index) => {
+    codeSpan.lastIndex = 0;
+    let match;
+    while ((match = codeSpan.exec(line))) {
+      const candidate = match[1].trim();
+      if (!candidate.startsWith("docs/") || candidate.includes("*")) continue;
+      const path = resolve(ROOT, candidate.replace(/\/$/, ""));
+      if (!path.startsWith(`${ROOT}${sep}`) || !existsSync(path)) {
+        addError(file, index + 1, `归属表本地路径不存在: ${candidate}`);
+      }
+    }
+  });
+}
+
 const markdownFiles = walk(ROOT, new Set([".md"]));
 for (const file of markdownFiles) checkLinksAndAlt(file);
 for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
@@ -271,6 +289,7 @@ checkStaleStrings(
   ),
 );
 checkReadmeMirror();
+checkAttributionPaths();
 await checkImageMetadata();
 
 if (!errors.length) {
