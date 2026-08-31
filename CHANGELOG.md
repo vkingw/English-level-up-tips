@@ -9,6 +9,7 @@ All notable project-level changes are documented here. Content pages retain thei
 #### Changed
 
 - Added Daily System terms to the bilingual glossary and aligned a listening resource introduction with the guide's task-first recommendation policy.
+- Reworked legacy listening recommendations so resource fit, personal preference, and learning effect are stated as separate, testable claims.
 
 ### 2026-08-31 manuscript pass
 

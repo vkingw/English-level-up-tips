@@ -48,7 +48,7 @@ Copy the [Listening Resource Audit](../../templates/listening-audit.md) to turn 
 
 - **Starting with materials that are too hard**
 
-  A lot of people start with VOA. I don’t recommend it. Even “VOA slow” can have enough unknown words to make you stuck and lose interest.
+  Some learners start with VOA, but fit depends on your vocabulary, background knowledge, and task. Even “VOA slow” may contain enough unknown words to make you stuck and lose interest.
 
   Some people ask: “If I don’t understand it once, what if I listen 10 times?”
 
@@ -111,24 +111,20 @@ It helps with vocabulary and speaking too. Great sources include audiobooks, mov
 
 Many classics and bestsellers have audiobook versions: *Gone with the Wind*, *The Kite Runner*, *Pride and Prejudice*, *The Great Gatsby*, etc.
 
-Audiobooks are often narrated by professional voice actors—great voices, great pacing, and surprisingly enjoyable.
+Many audiobooks are narrated by professional actors or broadcasters. Their voice and pacing may help you keep listening; whether they serve your current task still needs a gist, detail, and delayed-transfer check.
 
-- [audible](https://www.audible.com/) has a lot of resources and a decent app.
+- [audible](https://www.audible.com/) can be a catalogue entry point; price, region, rights, and app features change, so check them against your task and budget.
 - Some Chinese “FM” apps also have good audiobooks.
 
 #### TV shows
 
-*Friends* is a classic for a reason.
-
-I also strongly recommend *Modern Family*—it’s one of my favorite sitcoms, won a bunch of Emmy awards, and the writing is excellent.
-
-*Better Call Saul* is also amazing, but the language level is noticeably harder than *Friends* and *Modern Family*.
+*Friends* can be an entry point for familiar everyday dialogue. *Modern Family* is a sitcom I personally enjoy, and its family settings can support short-scene practice. *Better Call Saul* is usually harder in speed, register, and context. Start with one short scene from any of them and retest against your baseline and task.
 
 > Season 1 of *Modern Family* was filmed in 2009. In real life, many people’s “modern family life” still hasn’t caught up to that 2009 version.
 
 #### Movies
 
-Great movies are perfect for extensive listening, especially high-rated classics. See the Douban Top 250 list: <https://movie.douban.com/top250>
+Movies can be an extensive-listening entry when you are willing to revisit them and can follow most of the gist. A ranking is only a selection lead, not a difficulty judgment; see the Douban Top 250 list: <https://movie.douban.com/top250>
 
 Movies I’ve watched 10+ times (purely personal taste):
 
@@ -140,8 +136,8 @@ Movies I’ve watched 10+ times (purely personal taste):
 - *Interstellar*
 - *Life Is Beautiful*
 
-> Learning English through movies and TV takes a decent foundation. The “learning effect” often comes as a bonus while you enjoy the film.  
-> Podcasts (or audio with lyrics) have fewer distractions than full video, so the learning signal can be clearer.
+> Learning English through movies and TV takes a decent foundation. Any benefit should be checked through understanding, retelling, and transfer rather than assumed from exposure.
+> Podcasts or audio with lyrics may reduce visual distraction, but compare samples before deciding that they fit your task better.
 
 #### Music
 
