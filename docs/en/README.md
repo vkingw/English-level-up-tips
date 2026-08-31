@@ -50,7 +50,7 @@ For a complete read, begin with the [Prologue: Do Not Rush to Change Your Life](
 | Prologue | Why begin again? | [Do Not Rush to Change Your Life](threads/part-0/prologue.md) |
 | Part I: Open Input | How do I build a bridge between English and the world? | [Learning Principles](threads/part-1/1-understanding.md) |
 | Part II: Return to Life | How do ability, work, relationships, failure, and recovery affect one another? | [My Story](threads/part-4/my-story.md) · [Recovery](threads/part-2/recovery.md) |
-| Part III: Amplify Ability | How can I use AI without outsourcing judgment? | [Learning Anything with AI](threads/part-3/1-ai-learning.md) |
+| Part III: Amplify Ability | How can I use AI without outsourcing judgment or attention? | [Learning Anything with AI](threads/part-3/1-ai-learning.md) · [Attention](threads/part-3/3-attention-and-judgment.md) |
 | Part IV: Practice and Recovery | How does learning return to the body and daily life? | [Week 1](threads/part-4/week-1.md) |
 | Part V: Long-Term Action | How can I make change verifiable in 90 days? | [90-Day Action Plan](threads/part-5/90-day-plan.md) |
 | Afterword | Who do I want to become after leveling up? | [Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md) |
@@ -69,7 +69,7 @@ You do not have to see the entire road. The first piece of evidence you preserve
 
 ## AI Learning and Project Practice: From Answers to Delivery
 
-[Learning Anything with AI](threads/part-3/1-ai-learning.md) does not begin with “Which model is best?” It begins with “What problem am I trying to solve?” AI can ask guided questions, explain concepts, compare options, organise material, and generate practice. A person must still set the goal, select trustworthy sources, detect fabrication, and use the knowledge independently after the conversation closes.
+[Learning Anything with AI](threads/part-3/1-ai-learning.md) does not begin with “Which model is best?” It begins with “What problem am I trying to solve?” [Attention](threads/part-3/3-attention-and-judgment.md) adds the missing question of input boundaries, focus, and independent judgment. AI can ask guided questions, explain concepts, compare options, organise material, and generate practice. A person must still set the goal, select trustworthy sources, detect fabrication, and use the knowledge independently after the conversation closes.
 
 When learning enters a project, [AI Learning, Project Development, and Resource-layer Entrepreneurship](threads/part-3/2-ai-development-and-resource-layer.md) extends the collaboration into requirements, prototypes, code, tests, documentation, and delivery. Speed is not the only measure. Every important decision should be explainable, testable, or reversible, and convenience must never erase the boundaries around customer data, company secrets, or third-party privacy.
 

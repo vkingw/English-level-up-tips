@@ -21,6 +21,7 @@
 ## 终身学习与 AI
 
 - [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md)
+- [注意力篇：把注意力还给自己](docs/threads/part-3/3-attention-and-judgment.md)
 - [AI 开发与资源层创业](docs/threads/part-3/2-ai-development-and-resource-layer.md)
 - [作者项目与现实实践](docs/projects.md)
 

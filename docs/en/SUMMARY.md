@@ -21,6 +21,7 @@
 ## Lifelong Learning and AI
 
 - [Learning Anything with AI](threads/part-3/1-ai-learning.md)
+- [Attention: Return Your Attention to Yourself](threads/part-3/3-attention-and-judgment.md)
 - [AI Development and Resource-layer Business](threads/part-3/2-ai-development-and-resource-layer.md)
 - [Author Projects and Practice](projects.md)
 

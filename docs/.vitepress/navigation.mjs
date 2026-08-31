@@ -31,6 +31,7 @@ export const zhNavigation = [
     text: "终身学习与 AI",
     items: [
       page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
+      page("注意力篇：把注意力还给自己", "/threads/part-3/3-attention-and-judgment"),
       page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
       page("作者项目与现实实践", "/projects"),
     ],
@@ -104,6 +105,7 @@ export const enNavigation = [
     text: "Lifelong Learning and AI",
     items: [
       page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
+      page("Attention: Return Your Attention to Yourself", "/en/threads/part-3/3-attention-and-judgment"),
       page(
         "AI Development and Resource-layer Business",
         "/en/threads/part-3/2-ai-development-and-resource-layer",
