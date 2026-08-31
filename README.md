@@ -105,7 +105,7 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 英语不再是这份指南的全部，却仍然是终身学习的重要基础。它帮助你阅读全球知识与技术文档，理解国际课程和研究，使用更多 AI 工具，也让跨文化合作少一层转述。
 
-从 [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)建立真实基线，再按需要进入 [认知](docs/threads/part-1/1-understanding.md)、[词汇](docs/threads/part-1/2-vocabulary.md)、[听力](docs/threads/part-1/3-listening.md)、[阅读](docs/threads/part-1/4-reading.md)、[口语](docs/threads/part-1/5-speaking.md)、[写作](docs/threads/part-1/6-writing.md)和[用 AI 学英语](docs/threads/part-1/7-ai.md)。也可以直接使用 [英语能力诊断](docs/templates/english-diagnostic.md)，为下一轮学习找到起点。
+从 [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)建立真实基线，再按需要进入 [认知](docs/threads/part-1/1-understanding.md)、[词汇](docs/threads/part-1/2-vocabulary.md)、[听力](docs/threads/part-1/3-listening.md)、[阅读](docs/threads/part-1/4-reading.md)、[口语](docs/threads/part-1/5-speaking.md)、[写作](docs/threads/part-1/6-writing.md)和[用 AI 学英语](docs/threads/part-1/7-ai.md)。也可以直接使用 [英语能力诊断](docs/templates/english-diagnostic.md)或[词汇审计](docs/templates/vocabulary-audit.md)，为下一轮学习找到起点。
 
 英语水平不由收藏的单词量证明，而由你能否在真实场景中理解、表达和完成任务证明。它是一座桥，不是一堵用来评价自己的墙。
 

@@ -121,6 +121,8 @@ Prefer learner dictionaries for pronunciation, collocation, and examples. AI can
 
 Daily new-word count is not the outcome. Understanding and using items in a new task a week later is.
 
+If you are unsure where the bottleneck is, use the [Vocabulary Audit Template](../../templates/vocabulary-audit.md) to record listening, reading, speaking, writing, and delayed transfer separately.
+
 ## Seven Days, Thirty Days, Twelve Weeks
 
 ### Seven days
