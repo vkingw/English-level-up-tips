@@ -1,7 +1,7 @@
 ---
 title: "Writing: From Draft to Verifiable Revision"
 description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Writing: From Draft to Verifiable Revision
@@ -9,6 +9,8 @@ updated: 2026-08-30
 Source (中文): [写作篇](../../../threads/part-1/6-writing.md)
 
 Welcome to the writing chapter of *Life Level-up Guide*.
+
+Writing is not decoration applied to thoughts. It is turning something you want another person to understand into a form they can read, answer, and use.
 
 This project began in 2017 as a way to share how I improved my English. It got more love than I expected (I even became “that markdown engineer with a lot of stars”), but after 2019 I basically stopped updating for a few years because I was young, busy with relationships, startups, and other restless experiments.
 
@@ -20,6 +22,19 @@ Coming back to this chapter, I understand writing differently now. It is not dec
 - finish a rough draft before asking for feedback;
 - use AI for diagnosis and comparison, not as a replacement for judgment;
 - let a title serve the work instead of spending readers’ trust for clicks.
+
+## Write for Someone Specific
+
+Before drafting, answer four questions:
+
+| Element | Question |
+| --- | --- |
+| Audience | Who needs this, and what do they already know? |
+| Purpose | What should they understand, decide, or do afterward? |
+| Evidence | Which facts, examples, and sources support the judgment? |
+| Constraints | What are the limits of time, length, tone, privacy, and copyright? |
+
+If none of these is clear, write an outline first. Clear constraints help you remove attractive but irrelevant sentences.
 
 ![hotel](../../../assets/hotel.jpg)
 
@@ -53,6 +68,15 @@ Practice with variety and purpose:
 - choose topics that match your level and needs
 - review your own writing and keep polishing it
 
+A useful 25-minute loop is:
+
+1. 5 minutes: state the point, audience, and acceptance criteria;
+2. 12 minutes: write a rough draft without AI writing it for you;
+3. 5 minutes: remove repetition and add one fact or example;
+4. 3 minutes: record one problem to repair next time.
+
+Keep the rough draft. It is the comparison point that lets you see whether you actually improved.
+
 ---
 
 ## Discuss
@@ -64,13 +88,17 @@ Do it proactively and sincerely:
 - show your work
 - respect other people’s work
 
+Ask readers to do a specific job rather than “tell me if it is good”:
+
+> After reading, tell me the main point you heard, where you paused, which fact needs checking, and which sentence you would delete.
+
+A reader’s retelling is stronger evidence than a vague like.
+
 ---
 
 ## Tools
 
-Using AI to rewrite writing is a new and interesting trend. It shows how capable AI has become in language—and it also forces us to rethink what “writing” really is.
-
-Used well, it can help you spot issues. You can ask for suggestions, take what’s useful, and ignore what isn’t.
+AI can diagnose structure, simulate a reader, check omissions, and generate parallel exercises. Do not begin by asking it to rewrite the whole piece. Give it your version, ask for the three problems that most affect the purpose, revise yourself, and only then compare alternatives.
 
 > For example, this chapter has used AI suggestions. Product screenshots age quickly and can hide the quality of the unaided draft, so this edition keeps the method and revision record rather than old interface images.
 
@@ -78,35 +106,23 @@ Used well, it can help you spot issues. You can ask for suggestions, take what�
 
 ## Innovation
 
-Innovation is the soul of writing. It makes your work memorable.
+Innovation is not making language strange on purpose. After the purpose is clear, find your own angle, examples, and rhythm. Help the reader understand first, then give them something to remember.
 
-But innovation should be positive—not clickbait.
+### Honest Titles
 
-### About clickbait titles
+Titles can have tension, but they should not promise what the text cannot deliver.
 
-Clickbait does have advantages:
+A reliable title matches the subject, scope, and conclusion. Attention purchased at the cost of trust is still a loss in the long run.
 
-- more clicks and traffic (more money, more influence)
-- curiosity and emotional hooks (higher engagement)
-- clearer positioning and differentiation
-
-But the downsides can be much worse:
-
-- it damages credibility and disappoints readers
-- it distorts people’s understanding and judgement
-- it pollutes the information environment and harms trust
-
-Clickbait is a double-edged sword. It can bring short-term gains, but also long-term risk.
-
-Personally, I’d rather stay honest. I don’t want to trick readers just for clicks. If I ever become that person—please call me out.
+I want to remain an honest writer: the work may be imperfect, but it should not deliberately mislead.
 
 ---
 
 ## Closing
 
-The world is already noisy. If you don’t *have to* add more noise, maybe don’t.
+The world is already noisy. Writing does not need to add more noise. It can preserve a quiet place in life that you can return to.
 
-> That said… this article is also noise. So yeah, guilty.
+If you do not know where to start, write a real email, a three-minute explanation, or a 200-word note. Give it to one real person and ask what they understood.
 
 ---
 
@@ -128,6 +144,8 @@ Score 0–2 for purpose, structure, evidence/detail, accuracy/range, and revisio
 - **Seven days**: complete a real email, an explanation, and a 200–300 word text, each with one revision.
 - **Thirty days**: one real deliverable weekly plus a personal recurring-error checklist; repeat the baseline prompt on day 30.
 - **Twelve weeks**: progress to a multi-source article, report, or application; finish with blind reader feedback and fact, citation, and privacy review.
+
+Pair this chapter with [Artifacts: Turn Learning into Something Made](../part-3/4-artifacts-and-delivery.md) to keep draft, feedback, and final delivery in one evidence chain.
 
 Prev: [Speaking](5-speaking.md)  
 Next: [AI](7-ai.md)
