@@ -62,6 +62,7 @@ export const zhNavigation = [
     text: "实践、复盘与恢复",
     items: [
       page("我的故事", "/threads/part-2/my-story"),
+      page("叙事与证据篇：不把经历写成命运", "/threads/part-2/narrative-and-evidence"),
       page("恢复篇：先把自己接住", "/threads/part-2/recovery"),
       page("选择篇：在不确定中做决定", "/threads/part-2/decision"),
       page("关系篇：在关系中成为成年人", "/threads/part-2/relationships"),
@@ -152,6 +153,7 @@ export const enNavigation = [
     text: "Practice, Review, and Recovery",
     items: [
       page("My Story", "/en/threads/part-4/my-story", "en/threads/part-4/my-story.md"),
+      page("Narrative and Evidence: Do Not Turn Experience into Fate", "/en/threads/part-2/narrative-and-evidence"),
       page("Recovery: Catch Yourself Before You Push Forward", "/en/threads/part-2/recovery"),
       page("Decision-Making: Choosing Under Uncertainty", "/en/threads/part-2/decision"),
       page("Relationships: Becoming an Adult in Connection", "/en/threads/part-2/relationships"),

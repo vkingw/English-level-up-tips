@@ -48,6 +48,7 @@
 ## Practice, Review, and Recovery
 
 - [My Story](threads/part-4/my-story.md)
+- [Narrative and Evidence: Do Not Turn Experience into Fate](threads/part-2/narrative-and-evidence.md)
 - [Recovery: Catch Yourself Before You Push Forward](threads/part-2/recovery.md)
 - [Decision-Making: Choosing Under Uncertainty](threads/part-2/decision.md)
 - [Relationships: Becoming an Adult in Connection](threads/part-2/relationships.md)

@@ -31,6 +31,8 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Interpretation** | A reading of the facts that may still need revision | Stopping verification because it sounds plausible |
 | **Hypothesis** | A judgment waiting for the next action to test it | Writing a wish or model answer as a conclusion |
 | **Inference boundary** | Separating what a source says, what evidence supports, and what you add | Treating a headline, emotion, or one anecdote as the whole picture |
+| **Narrative compression** | Turning a complex experience into a shareable sentence or causal chain | Mistaking a shortened story for the whole event after removing chance, others' work, and unknowns |
+| **Hindsight bias** | Explaining a past choice with outcomes that were known only later | Sending later information backwards into the past |
 
 ## Learning Actions
 
