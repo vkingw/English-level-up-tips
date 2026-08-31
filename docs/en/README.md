@@ -60,7 +60,7 @@ For a complete read, begin with the [Prologue: Do Not Rush to Change Your Life](
 Lifelong learning is not opening ten courses at once. It is completing one act today that leaves a trace:
 
 1. Choose a real problem: a blocked step at work, a concept you need to understand, a person you want to help, or a small project left unfinished.
-2. Record your baseline in [Learning State](templates/learning-state.md): what you know, what you cannot yet do, and what would count as complete. For decisions, attention, relationships, or recovery, use the [Life Practice Toolkit](templates/life-practice-toolkit.md).
+2. Record your baseline in [Learning State](templates/learning-state.md): what you know, what you cannot yet do, and what would count as complete. For decisions, attention, relationships, or recovery, use the [Life Practice Toolkit](templates/life-practice-toolkit.md); for a full cycle, copy the [90-Day Cycle Map](templates/90-day-cycle.md).
 3. Ask AI to help shape a 25–45 minute task, then check the sources, make the choices, and finish the output yourself.
 4. Preserve a page of notes, a piece of code, a recording, an email, or feedback rather than saving only the conversation.
 5. A week later, use the [Weekly Review](templates/weekly-review.md) to examine completion, quality, retention, and transfer before choosing the next step.

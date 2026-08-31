@@ -12,6 +12,7 @@
 - [阅读证据卡](templates/reading-evidence.md)
 - [口语证据卡](templates/speaking-evidence.md)
 - [写作证据卡](templates/writing-evidence.md)
+- [九十日行动总表](templates/90-day-cycle.md)
 - [AI 任务简报](templates/ai-task-brief.md)
 - [AI 学习记录](templates/ai-learning-log.md)
 - [AI 经历案例复盘](templates/ai-case-review.md)

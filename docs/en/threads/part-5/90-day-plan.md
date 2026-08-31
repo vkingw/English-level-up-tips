@@ -1,7 +1,7 @@
 ---
 title: "90-Day Action Plan: Return Your Life to Yourself"
 description: A repeatable 90-day system for turning goals, baselines, output, feedback, artifacts, and health boundaries into visible change.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # 90-Day Action Plan: Return Your Life to Yourself
@@ -26,6 +26,8 @@ Examples:
 
 The closer the goal is to real life, the harder it is to hide behind “I am not ready yet”.
 
+Copy the [90-Day Cycle Map](../../templates/90-day-cycle.md) first, then fill it with the phases and weekly questions below. It is not another check-in system; it puts the evidence you already collect on one timeline.
+
 ## 1. Take a One-Page Baseline
 
 On day one, spend 30 minutes writing four columns:
@@ -38,6 +40,19 @@ On day one, spend 30 minutes writing four columns:
 | Cost | What must I do less of to make room for this goal? |
 
 The last column matters most. A plan with no cost is only a wish list. Choosing one main line does not betray every other possibility; it gives one possibility enough light for a while.
+
+## How Four Skills Join the Same Cycle
+
+You do not need equal listening, reading, speaking, and writing every week. Choose the skill closest to the real outcome, then use another skill for input or feedback:
+
+| Part of the cycle | Role | Evidence to keep |
+| --- | --- | --- |
+| Listening/reading | Gather material, understand the problem, and locate evidence | Listening Audit or Reading Evidence Card |
+| Speaking/writing | Turn understanding into an explanation, decision, or artifact | Speaking Evidence or Writing Evidence Card |
+| Feedback/review | Find the largest barrier and choose the next variable | Weekly Review and Learning State |
+| Delivery/transfer | Test the result with a new listener, topic, or real situation | Artifact link, user feedback, or parallel task |
+
+If the four activities do not serve one outcome, they become unrelated check-ins again. Keep at least one input, one output, and one transfer test each week; let the rest support the main line.
 
 ## 2. Three Phases
 
