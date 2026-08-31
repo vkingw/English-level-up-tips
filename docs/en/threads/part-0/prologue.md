@@ -1,7 +1,7 @@
 ---
 title: "Prologue: Do Not Rush to Change Your Life"
 description: An author’s contract with the reader, connecting English, AI, failure, and small daily actions into one path of growth.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Prologue: Do Not Rush to Change Your Life
@@ -55,7 +55,7 @@ This is not a required table of contents. It is a reminder that learning should 
 
 ## To the Person Opening This Page
 
-You may be on a train with a phone full of saved links. You may have just lost a relationship and wonder whether you are stuck here forever. You may be pressed against a wall by work, debt, an exam, or illness, and even the word “努力” may sound exhausting.
+You may be on a train with a phone full of saved links. You may have just lost a relationship and wonder whether you are stuck here forever. You may be pressed against a wall by work, debt, an exam, or illness, and even the word “effort” may sound exhausting.
 
 I cannot promise that tomorrow will be better. I can say this: people are rarely rescued by one spectacular victory. We are more often held up by small, repeated actions that nobody applauds.
 

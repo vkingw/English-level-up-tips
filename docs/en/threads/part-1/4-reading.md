@@ -72,7 +72,7 @@ If almost every sentence is blocked, choose easier parallel material first. Lowe
 
 Here are a few books across relative difficulty levels. The descriptions focus on reading practice rather than rankings, sales, or universal difficulty claims. Recheck the specific edition and availability before starting:
 
-- [Animal Farm (动物庄园) — George Orwell](https://book.douban.com/subject/10956502/)
+- [Animal Farm — George Orwell](https://book.douban.com/subject/10956502/)
 
   A compact allegorical story that works well for practising repeated vocabulary, narrative movement, and the relationship between claims and symbols.
 
@@ -84,11 +84,11 @@ Here are a few books across relative difficulty levels. The descriptions focus o
 
   The diary form offers practice in concrete detail, daily observation, and expressing changing emotion without a formal essay structure.
 
-- [Harry Potter series (哈利波特系列) — J. K. Rowling](https://book.douban.com/subject/1340758/)
+- [Harry Potter series — J. K. Rowling](https://book.douban.com/subject/1340758/)
 
   Popular fiction can be a practical bridge to long-form reading: dialogue, action, recurring vocabulary, and sustained plot all build stamina.
 
-- [The Kite Runner (追风筝的人) — Khaled Hosseini](https://book.douban.com/subject/1772158/)
+- [The Kite Runner — Khaled Hosseini](https://book.douban.com/subject/1772158/)
 
   A longer, emotionally demanding narrative for practising pacing, relationships, and the way a story carries guilt, loyalty, and repair.
 
@@ -104,8 +104,8 @@ Here are a few books across relative difficulty levels. The descriptions focus o
 
 I rarely use WeChat, so the list below is a personal record of accounts I once read. It does not mean they are still active or suitable for every reader:
 
-- 英文悦读
-- 独霸上海的妖怪
+- *English Reading* (official account name: `英文悦读`)
+- *The Monster That Dominates Shanghai* (official account name: `独霸上海的妖怪`)
 
 If you suggest an account, include its reading task, last-checked date, and a public access path in the issue.
 

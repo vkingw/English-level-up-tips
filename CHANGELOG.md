@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Synchronized the Prologue edition dates after the English copy-edit pass so both language editions report the same manuscript version.
+- Localised residual Chinese prose in the English Prologue and Reading chapter while retaining original WeChat account names as explicitly marked proper names.
 - Strengthened the Pages health check from “any title” to path-specific expected titles for both locales and the Evidence chapter.
 - Aligned the Pages health-check article URLs with VitePress clean URLs after the first online probe correctly exposed a trailing-slash 404.
 - Fixed the Pages health check's `pipefail` false negative by using a here-string for title validation after successful HTTP responses.
