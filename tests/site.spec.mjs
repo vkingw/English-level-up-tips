@@ -192,6 +192,22 @@ test("home page shows the latest updates", async ({ page }) => {
   await expect(page.getByRole("img", { name: "韩先凯在 Agentic DB 大会与读者合影" })).toBeVisible();
 });
 
+test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
+  await page.goto("./en/threads/part-1/0-cefr");
+  await expect(page.locator('meta[name="author"]')).toHaveAttribute(
+    "content",
+    /Han Xiankai.*Li Pu/,
+  );
+  await expect(page.locator("#doc-outline-aria-label")).toHaveText("On this page");
+  await expect(page.locator(".VPLastUpdated")).toContainText("Last updated");
+  if (testInfo.project.name === "mobile-chromium") {
+    await expect(page.getByRole("button", { name: "Menu" })).toBeVisible();
+    await expect(page.getByRole("button", { name: "On this page" })).toBeVisible();
+  } else {
+    await expect(page.getByRole("button", { name: "Change language" })).toBeVisible();
+  }
+});
+
 test("keyboard focus reaches navigation", async ({ page }) => {
   await page.goto("./");
   await page.keyboard.press("Tab");
