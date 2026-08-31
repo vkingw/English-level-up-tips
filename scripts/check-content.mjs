@@ -83,6 +83,9 @@ function checkAltText(file, line, alt) {
   if (GENERIC_ALT.has(alt.trim().toLowerCase())) {
     addError(file, line, `图片 alt 过于泛化: "${alt.trim()}"`);
   }
+  if (file.startsWith(`${join(DOCS, "en")}${sep}`) && /[\u3400-\u9fff]/.test(alt)) {
+    addError(file, line, "英文页面图片 alt 不应包含中文字符");
+  }
 }
 
 function checkLinksAndAlt(file) {
