@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 This is a memory written from my position, not a shared version from everyone involved. Partners, colleagues, and friends are anonymised or described generally; details about the child and other third parties are kept only when needed to understand the event. Dates, amounts, and physical experiences come from my records and memory and may contain error. Emotional interpretation is not a factual judgment about another person. Photographs and stories involving others remain only with necessary permission and respect for deletion requests.
 
+If you want to treat this memory as learning material, read [Narrative and Evidence: Do Not Turn Experience into Fate](../part-2/narrative-and-evidence.md) first, then return to ask which parts are facts, which are my interpretations, and which conclusions must remain open.
+
 ## What Failure Cost Me
 
 Hi, I’m Lipu. This is the story of one particularly absurd chapter of my life in the internet industry.

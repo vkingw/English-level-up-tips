@@ -28,6 +28,7 @@ All notable project-level changes are documented here. Content pages retain thei
 - Clarified stale AI source-date wording as “last checked” and “verify before use” without claiming a new external verification.
 - Aligned the three AI product attribution dates with the existing 2026-08-24 chapter source records.
 - Added a tracked-system-file guard that rejects `.DS_Store`, `Thumbs.db`, and `desktop.ini` without touching local ignored files.
+- Linked the Narrative and Evidence chapter back from My Story and Decision-Making so reflection can return to a concrete choice.
 
 ### 2026-08-31 manuscript pass
 

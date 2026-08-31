@@ -1,7 +1,7 @@
 ---
 title: "Decision-Making: Choosing Under Uncertainty"
 description: Use facts, options, costs, reversibility, and the next test to think through career, money, relationships, health, and AI-era decisions.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Decision-Making: Choosing Under Uncertainty
@@ -11,6 +11,8 @@ Life rarely asks us to decide when the information is complete. More often a bil
 I once mistook the courage to bet everything for bravery, and past investment for a reason to continue. I learned that a mature choice does not remove uncertainty. It names the cost you are willing to carry and leaves room for the next correction.
 
 A choice is not a one-time proof of who you are. It is closer to a temporary contract: make a decision under certain facts and assumptions, then agree on when to return and check it.
+
+When a decision grows out of a complicated experience, use [Narrative and Evidence: Do Not Turn Experience into Fate](narrative-and-evidence.md) to separate timeline, facts, and hindsight before returning here to map options and costs.
 
 ## Quick Overview
 
