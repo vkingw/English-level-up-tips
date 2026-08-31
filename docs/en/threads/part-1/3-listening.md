@@ -1,14 +1,14 @@
 ---
 title: "Listening: From Sound Recognition to Real Understanding"
 description: Use CEFR can-do goals, gist, detail, segmentation, and retelling to build comparable 7-day, 30-day, and 12-week evidence.
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Listening: From Sound Recognition to Real Understanding
 
 Source (中文): [听力篇](../../../threads/part-1/3-listening.md)
 
-Most of the recommended videos are on YouTube. Many of them have fairly accurate English captions (often auto-generated). Depending on where you live, you may need a VPN to access them.
+Many of the example videos are hosted on YouTube. Captions, availability, and local access rules can change; follow the laws and platform rules that apply where you live, and use an accessible equivalent when necessary.
 
 Listening does not improve just because your ears are surrounded by English. The useful loop is: miss the meaning, check the transcript, listen again, and retell it in your own words.
 
@@ -18,6 +18,21 @@ Listening does not improve just because your ears are surrounded by English. The
 - use intensive listening for detail and extensive listening for stamina;
 - choose material that is slightly challenging but repeatable;
 - leave visible evidence after each session: a dictation, retelling, or three-point note.
+
+## Choosing and Maintaining Materials
+
+Treat resources as training equipment, not collectibles. Define the task first, then choose one main source you can stay with and one parallel source for a transfer check. The main source lets you see change; the parallel source tests whether you learned a method rather than memorised a clip.
+
+| Task | Material condition | Evidence of completion |
+| --- | --- | --- |
+| Hear the sounds | 30 seconds–3 minutes with a reliable English transcript | Mark unclear timestamps and classify the barrier: language, connected speech, or attention |
+| Catch the gist | 2–5 minutes on a familiar topic | Write one-sentence gist and three details after the first listen |
+| Adjust to natural speed | An interview, meeting, or lecture segment with varied speech | Retell without captions and keep the recording or transcript |
+| Build stamina | An audiobook, show, stream, or song you will revisit | Note topic, emotion, and key facts without chasing every word |
+
+Keep the chosen material for seven days before replacing it. Record the source, title, length, transcript status, access date, and any copyright or usage boundary. Platforms can retitle, remove, or replace videos and captions; the links on this page are entry points, not rankings, sponsorships, or promises of permanent availability. When a link breaks, replace it with a current page from the same source while preserving the task and difficulty.
+
+Copy the [Listening Resource Audit](../../templates/listening-audit.md) to turn “I like this channel” into a test of whether it supports your current task.
 
 ---
 
@@ -178,7 +193,9 @@ If you want a deep dive, I strongly recommend this:
 
 ---
 
-## Good English Learning Resources
+## English Learning Resources by Task
+
+The links below are interest-based entry points, not a completion list. Filter them using the criteria above before subscribing; if a resource produces no output for two weeks, unsubscribe or replace it.
 
 ### Programming-related
 
@@ -193,7 +210,7 @@ If you want a deep dive, I strongly recommend this:
 
 - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)  
   Rating: 5/5  
-  A great front-end channel with wide coverage and frequent updates. Clear pronunciation and slower pace—friendly for beginners.
+  A front-end channel with wide coverage. Use it as technical-context listening; verify technical conclusions against current documentation and reassess difficulty for each video.
 
 - [Derek Banas](https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw)  
   Rating: 4/5  
@@ -217,7 +234,7 @@ If you want a deep dive, I strongly recommend this:
   Highly recommended. Great for grammar and practical tips. Also: Ronnie is genuinely funny, so learning doesn’t feel like punishment.
 
 - [English with Lucy!](https://www.youtube.com/channel/UCz4tgANd4yy8Oe0iXCdSWfA)  
-  Clear teaching and pleasant to watch.
+  Teaching videos that make pronunciation, vocabulary, and tone easy to observe. Start with a short clip that has English captions.
 
 - [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg)  
   Helps you speak more fluently. Clear pronunciation, practical daily-life content.
@@ -258,13 +275,14 @@ If you want a deep dive, I strongly recommend this:
 ### Others
 
 - [Disney UK](https://www.youtube.com/channel/UCQphRgAhj5UxktrQNP3WF5g)
-  The *Frozen* theme song has 1B+ views.
+  Start with a familiar animated song or dialogue: understand the lyrics first, then isolate a short clip for intensive listening. View counts change and are not evidence of learning quality.
 - [Vevo](https://www.youtube.com/@Vevo)
   A gold mine of “movie-level” music videos. Many artists have their own official channels too.
 - [OneDirectionVEVO](https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg) (the band has been on hiatus since 2016; the channel is inactive)
 - [SiaVEVO](https://www.youtube.com/channel/UCmKdSrwf1e8coqAzUsrVHZw)  
   Great production quality. Often thoughtful.
 - [SSSniperWolf](https://www.youtube.com/channel/UCpB959t8iPrxQWj7G6n0ctQ)
+  For lifestyle videos, confirm that the topic, captions, and language difficulty fit your current task.
 - [TED](https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug)  
   TED Talks are great for ideas. Start with popular videos—many have multilingual subtitles.
 

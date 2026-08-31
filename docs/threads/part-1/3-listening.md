@@ -1,7 +1,7 @@
 ---
 title: 听力篇：从声音辨认到真实理解
 description: 按 CEFR can-do 目标训练主旨、细节、语块切分与复述，用可比较样本建立 7 天、30 天和 12 周听力计划。
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # 听力篇：从声音辨认到真实理解
@@ -16,6 +16,21 @@ updated: 2026-08-30
 - 区分精听与泛听：前者修细节，后者养耐力和语感；
 - 先选“略有挑战但能坚持”的材料，不用一开始就和影视剧硬碰硬；
 - 每次听完留下一个可见输出：逐句听写、口头复述或三条内容笔记。
+
+## 材料选择与维护
+
+把资源当作训练设施，而不是收藏品。先写清楚这一轮要完成的任务，再选择一份可以连续使用的主材料和一份用于迁移测试的平行材料。主材料负责让你看见变化，平行材料负责检验你是否真的学会了方法。
+
+| 任务 | 选材条件 | 完成证据 |
+| --- | --- | --- |
+| 辨认声音 | 30 秒–3 分钟，有可靠英文转写 | 标出听不出的时间段，并说明是词汇、连读还是注意力问题 |
+| 抓住主旨 | 2–5 分钟，主题熟悉但不逐句处理 | 首听后写一句主旨和三个细节 |
+| 适应真实语速 | 访谈、会议或讲座片段，允许多种口音 | 关掉字幕复述，保留录音或文字稿 |
+| 建立耐力 | 你愿意持续听的有声书、节目或音乐 | 记录主题、情绪和关键事实，不追求逐词听清 |
+
+选定材料后，连续使用 7 天再决定是否更换。每次记录来源、标题、时长、是否有转写、访问日期和版权/使用边界。平台会改标题、下架视频、替换字幕或调整地区可见性；本页外链只是入口示例，不构成排名、赞助或长期可用承诺。发现失效链接时，优先用同一来源的新页面替换，并保留原任务与难度。
+
+可以直接复制[听力资源审计卡](../../templates/listening-audit.md)，把“我喜欢这个频道”变成“它是否支持当前任务”的判断。
 
 ## 练习英语听力的几个误区
 
@@ -147,7 +162,9 @@ updated: 2026-08-30
 
 如果你想深入了解这个话题，我强烈推荐你耐心观看这个视频 [Understand Native English Speakers with this Advanced Listening Lesson](https://www.youtube.com/watch?v=D6_qpaSxAQc)
 
-## 优秀的英语学习材料推荐
+## 按任务选择英语学习材料
+
+下面的链接是按兴趣整理的入口，不是必须完成的清单。请先用上一节的条件筛选，再决定是否订阅；如果一个资源连续两周没有产生输出，就取消订阅或更换材料。
 
 ### 编程相关
 
@@ -166,7 +183,7 @@ updated: 2026-08-30
 - [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
   推荐指数：5
 
-也是关于前端的一个很棒的频道，作者是个可爱的大胖子，内容覆盖面广，更新及时。作者发音较为标准，且速度较慢，新手也不会觉得吃力。
+也是关于前端的一个频道，内容覆盖面广。可以把它当作技术语境的听力材料；技术结论请以现行文档为准，难度也要按具体视频重新评估。
 
 - [Derek Banas](https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw)
   推荐指数：4
@@ -196,7 +213,7 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 
 - [English with Lucy!](https://www.youtube.com/channel/UCz4tgANd4yy8Oe0iXCdSWfA)
 
-  妹纸很漂亮，和我当年的大学英语老师有的一拼。
+  适合观察发音、词汇和语气的教学内容；先选带英文字幕、主题明确的短片段。
 
 - [EnglishAnyone](https://www.youtube.com/channel/UCrJHj7MDQhmQ9iFuACdoWCg)
 
@@ -252,7 +269,7 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 ### 其他
 
 - [Disney UK](https://www.youtube.com/channel/UCQphRgAhj5UxktrQNP3WF5g)
-  冰雪奇缘主题曲 FROZEN 的播放量高达 10 亿+!
+  可以从熟悉的动画歌曲或对白入手，先理解歌词/台词，再挑一小段做精听；播放量会变化，不作为学习质量证明。
 - [Vevo](https://www.youtube.com/@Vevo)
   电影级 MV 的集中营呀,VEVO 旗下有很多视频都有单独的频道，请自行查找感兴趣的
 - [OneDirectionVEVO](https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg)
@@ -260,7 +277,7 @@ Derek 制作的 _一个视频学习一门语言_ 的教程系列可以帮助你�
 - [SiaVEVO](https://www.youtube.com/channel/UCmKdSrwf1e8coqAzUsrVHZw)
   个人非常喜欢，视频质量感人，引人深思
 - [SSSniperWolf](https://www.youtube.com/channel/UCpB959t8iPrxQWj7G6n0ctQ)
-  一只可爱的妹子。
+  若选择生活类视频，请先确认主题、字幕和语言难度都适合当前任务。
 - [TED](https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug)
   TED Talks,听听别人的 idea 是一件很有意思的事情，建议从热门的开始看，TED Talks 的热门视频往往都有多国语言字幕。
 

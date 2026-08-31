@@ -8,6 +8,7 @@
 - [每周复盘模板](templates/weekly-review.md)
 - [英语诊断模板](templates/english-diagnostic.md)
 - [词汇审计模板](templates/vocabulary-audit.md)
+- [听力资源审计卡](templates/listening-audit.md)
 - [AI 任务简报](templates/ai-task-brief.md)
 - [AI 学习记录](templates/ai-learning-log.md)
 - [AI 经历案例复盘](templates/ai-case-review.md)

@@ -10,11 +10,13 @@ All notable project-level changes are documented here. Content pages retain thei
 
 - Added the bilingual Recovery, Decision-Making, Relationships, and Attention chapters.
 - Added the bilingual Life Practice Toolkit with reusable worksheets for decisions, attention, relationships, and recovery.
+- Added the bilingual Listening Resource Audit card for choosing, testing, and retiring volatile listening materials.
 
 #### Changed
 
 - Made `人生进阶指南` / `Life Level-up Guide` the primary book identity while retaining the lifelong-learning subtitle.
 - Refined the personal story in both languages for accuracy, privacy, health boundaries, and a calmer literary voice.
+- Reframed the listening resource catalogue around task fit, evidence, access, copyright, and a seven-day review cycle.
 - Added book-structure navigation and browser smoke coverage for the new pages.
 
 ### Added
