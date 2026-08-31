@@ -147,6 +147,6 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 - [GitHub Pages](https://byoungd.github.io/up/)
 - [GitHub 仓库](https://github.com/byoungd/up)
-- [知乎旧版文章](https://zhuanlan.zhihu.com/p/444211376)
+- 历史文章已整理进[创业篇](docs/threads/part-2/entrepreneurship.md)与[我的故事](docs/threads/part-2/my-story.md)，不再保留当前无法稳定访问的外部直链。
 
 如果今天只做一件事：创建一份 [学习状态](docs/templates/learning-state.md)，写下正在面对的真实问题、当前证据和下一项最小任务，然后完成它。不要等道路变得宽阔才出发；很多路，正是在脚落下之后才显现。

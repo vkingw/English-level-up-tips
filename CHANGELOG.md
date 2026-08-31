@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added stale-string guards for the removed Zhihu URLs and documented the rule that access-restricted or one-time-signed pages cannot serve as primary evidence.
+- Removed three unstable Zhihu direct links returning access-restricted responses; retained the relevant personal context in the manuscript and routed readers to stable local chapters instead.
 - Added the bilingual Evidence chapter as the methodological bridge from AI-assisted learning and artifacts to delayed retention, transfer, human gates, and honest life evidence.
 - Reordered the bilingual book navigation so the Reader's Guide and Prologue form the first continuous reading path before templates and topical chapters, with a regression test protecting that editorial order.
 - Synchronized the bilingual home-page edition dates with the 2026-09-01 reader-guide pass, extended `updated` parity checks to both home pages, and added a smoke test for the new reading entry point.

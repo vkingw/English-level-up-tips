@@ -79,7 +79,7 @@ The third prompt is `how to deal with stress`. Stress is not a character flaw, a
 
 Start with one observable change: reduce a distracting cue, put a task within reach, write down the next action, or ask someone for support.
 
-I mentioned in an article on [Zhihu](https://zhuanlan.zhihu.com/p/653380203) that I struggled with compulsive gaming for a period. I once described the change as a “dopamine detox”, but that popular label is not a clinical mechanism or established treatment. What helped me was changing cues and routines, reducing access, restoring sleep and daily structure, and seeking support. Persistent loss of control deserves qualified professional help.
+I mentioned in an older article that I struggled with compulsive gaming for a period. I once described the change as a “dopamine detox”, but that popular label is not a clinical mechanism or established treatment. What helped me was changing cues and routines, reducing access, restoring sleep and daily structure, and seeking support. The article was published on Zhihu, whose current page is access-restricted; the experience is retained here as personal context, not as an independently reviewable source. Persistent loss of control deserves qualified professional help.
 
 When energy is low, low-friction activities often win over tasks that require planning. That observation is a starting point, not a moral judgment.
 

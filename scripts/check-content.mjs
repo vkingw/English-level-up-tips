@@ -279,6 +279,8 @@ const STALE_PATTERNS = [
   ["youtube.com/user/", "旧 YouTube 用户路由"],
   ["pan.baidu.com/s/1i5OLIIT", "失效网盘链接"],
   ["v.youku.com", "过期优酷链接"],
+  ["zhuanlan.zhihu.com/p/444211376", "访问受限的旧知乎链接"],
+  ["zhuanlan.zhihu.com/p/653380203", "访问受限的旧知乎链接"],
   ["dopamine detox method", "把多巴胺排毒写成已验证方法"],
   ["Lipu", "英文笔名拼写不一致"],
 ];
