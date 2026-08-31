@@ -160,6 +160,8 @@ Leaving also needs boundaries: state necessary facts, arrange possessions, finan
 
 Do not turn this into a task that forces someone else to change. You directly control your expression, boundaries, actions, and requests for help.
 
+Copy the notes from days 2–4 into the Relationship Communication Card in the [Life Practice Toolkit](../../templates/life-practice-toolkit.md). If the other person does not participate, you can still record your own boundary, request, and next review date.
+
 ## 10. Signs of a Healthy Relationship
 
 A healthy relationship can contain conflict and still allow people to:

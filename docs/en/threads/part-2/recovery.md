@@ -122,6 +122,8 @@ This is not a challenge or a perfect streak. Do one main thing each day and keep
 
 If a day is impossible, make the task smaller. Do not repay missed work by staying up late. Recovery is about boundaries, not another source of failure.
 
+Copy the Recovery Reset in the [Life Practice Toolkit](../../templates/life-practice-toolkit.md) to keep safety items, people you can contact, and today’s smallest task on one private page. Use the [Weekly Review](../../templates/weekly-review.md) to decide what needs changing.
+
 ## 8. When Willpower Is Not Enough
 
 If insomnia, low mood, panic, pain, appetite changes, inability to work, or thoughts of harm keep returning, seek medical or mental-health assessment early. For debt, contracts, labour disputes, or company responsibility, consult qualified legal, financial, or industry professionals.

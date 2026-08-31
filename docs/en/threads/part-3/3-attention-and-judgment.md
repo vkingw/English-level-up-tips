@@ -108,6 +108,8 @@ Do not end a review with “I was busy”. Write down where time and attention w
 
 An audit is not a score. It shows how the system shapes behaviour. A pattern repeated for three weeks matters more than one emotional day.
 
+Copy this table into the Attention Audit in the [Life Practice Toolkit](../../templates/life-practice-toolkit.md), then put next week’s single experiment into the [90-Day Cycle Map](../../templates/90-day-cycle.md).
+
 ## 7. Seven Days to Reset Attention
 
 If information feels like it is flooding you, run a small seven-day experiment:
