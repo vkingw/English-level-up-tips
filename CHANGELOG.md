@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual private-first Reader Field Note with immediate action, three-to-seven-day retest, one-condition transfer, editorial feedback, evidence boundaries, and an explicit privacy gate before optional public sharing.
+- Added a bilingual synthetic toolkit walkthrough that answers reader feedback about unclear tool use and cross-session AI state, showing a 90-day Python example from versioned Learning State through task briefing, unaided baseline, evidence, delayed retest, weekly handover, interruption recovery, and a new conversation.
+- Routed the homepage, Reader's Guide, Toolkit Overview, glossary, and book case study through the private worksheet before the public GitHub issue form, and indexed the two long new pages by descriptive headings to preserve the search budget.
 - Added a bilingual end-to-end case study that makes the book itself face its methods, covering baseline preservation, editorial architecture, AI responsibility, artifact chains, failed checks, release gates, reader evidence, unknowns, transfer, and project handover.
 - Added a privacy-aware reader field-note issue form and bilingual homepage entry so concrete attempts, delayed results, confusion, and unsuccessful transfer can inform future editions.
 - Removed fixed publication chapter counts from PDF generation and browser regression; EPUB, PDF, and tests now derive manuscript size from the shared navigation publication rules.

@@ -1,7 +1,7 @@
 ---
 title: Glossary of Terms and Methods
 description: Define the guide's core vocabulary, evidence standards, tool entry points, and reading paths so ideas can transfer between chapters.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Glossary of Terms and Methods
@@ -52,8 +52,10 @@ Find the task you are facing, then follow “definition → evidence → next st
 | Term | Meaning in this guide | Related chapter |
 | --- | --- | --- |
 | **Task brief** | A one-page record of context, input, action, boundaries, acceptance, and ownership | [AI Task Brief](../templates/ai-task-brief.md) |
+| **Learning State file** | A versioned source of truth outside any conversation, preserving goal, evidence, errors, boundaries, handover, and next task | [Learning State](../templates/learning-state.md) · [Toolkit Walkthrough](../templates/toolkit-walkthrough.md) |
 | **Case review** | A record that separates a public experience into source, facts, judgment, outcome, and transferable principle | [AI Case Review](../templates/ai-case-review.md) |
 | **Evidence card** | A template for preserving a first take, feedback, and retest for one language skill | [Four-skill path](../threads/part-0/prologue.md) |
+| **Reader Field Note** | A private-first two-pass record of reading entry, real action, immediate result, delayed retest, transfer, and editorial feedback | [Reader Field Note](../templates/reader-field-note.md) |
 | **Artifact** | An output others can read, use, question, or improve; not necessarily a product | [Artifacts](../threads/part-3/4-artifacts-and-delivery.md) |
 | **Delivery** | Completing work under a real audience, user, or constraint and accepting the result | [90-Day Action Plan](../threads/part-5/90-day-plan.md) |
 | **Human gate** | AI may assist, but a person confirms facts, permissions, privacy, cost, and final judgment | [AI Project Development](../threads/part-3/2-ai-development-and-resource-layer.md) |

@@ -1,7 +1,7 @@
 ---
 title: 术语与方法索引
 description: 用一页索引解释《人生进阶指南》的核心词汇、证据标准、工具入口与阅读路径，帮助读者在章节之间迁移。
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # 术语与方法索引
@@ -52,8 +52,10 @@ updated: 2026-09-01
 | 术语 | 在本书中的意思 | 相关章节 |
 | --- | --- | --- |
 | **任务卡** | 写清场景、输入、动作、边界、验收和责任人的一页记录 | [AI 任务简报](../templates/ai-task-brief.md) |
+| **学习状态文件** | 保存在会话之外的版本化事实页，记录目标、证据、错误、边界、交接和下一任务 | [学习状态](../templates/learning-state.md) · [工具箱实战](../templates/toolkit-walkthrough.md) |
 | **案例复盘** | 将公开经历拆成来源、事实、判断、结果和可迁移原则的记录 | [AI 经历案例复盘](../templates/ai-case-review.md) |
 | **证据卡** | 为听、读、说、写某一项能力保存首版、反馈和复测的模板 | [四项能力工具](../threads/part-0/prologue.md) |
+| **读者实践回执** | 私下记录阅读入口、实际行动、即时结果、延迟复测、迁移与编辑反馈的两次记录 | [读者实践回执](../templates/reader-field-note.md) |
 | **作品** | 能被别人阅读、使用、质疑或改进的输出，不限于产品 | [作品篇](../threads/part-3/4-artifacts-and-delivery.md) |
 | **交付** | 在真实受众、用户或约束下完成并接受结果 | [九十日行动篇](../threads/part-5/90-day-plan.md) |
 | **人工门** | AI 可以协助，但事实、权限、隐私、成本和最终判断必须由人确认 | [AI 项目开发](../threads/part-3/2-ai-development-and-resource-layer.md) |

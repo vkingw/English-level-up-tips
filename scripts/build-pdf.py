@@ -265,6 +265,22 @@ def heading_anchor(file: str, value: str) -> str:
     return f"{safe_anchor(Path(file).stem)}-{digest}"
 
 
+def fit_running_header(text: str, font_name: str, font_size: float, max_width: float) -> str:
+    normalized = " ".join(clean_text(text).split())
+    if pdfmetrics.stringWidth(normalized, font_name, font_size) <= max_width:
+        return normalized
+    suffix = "..."
+    if " " in normalized:
+        parts = normalized.split()
+        while parts and pdfmetrics.stringWidth(" ".join(parts) + suffix, font_name, font_size) > max_width:
+            parts.pop()
+        return (" ".join(parts) + suffix) if parts else suffix
+    parts = list(normalized)
+    while parts and pdfmetrics.stringWidth("".join(parts) + suffix, font_name, font_size) > max_width:
+        parts.pop()
+    return ("".join(parts) + suffix) if parts else suffix
+
+
 class InvariantCanvas(canvas.Canvas):
     def __init__(self, *args, metadata: dict[str, str], **kwargs):
         kwargs["invariant"] = 1
@@ -337,9 +353,11 @@ class BookDocTemplate(BaseDocTemplate):
         canv.setLineWidth(0.5)
         canv.line(LEFT_MARGIN, PAGE_HEIGHT - 12 * mm, PAGE_WIDTH - RIGHT_MARGIN, PAGE_HEIGHT - 12 * mm)
         canv.setFillColor(colors.HexColor("#5f6c68"))
-        canv.setFont(self.edition.body_font, 7.5)
+        font_size = 7.5
+        canv.setFont(self.edition.body_font, font_size)
         header = self.current_heading if page_number > 2 else self.edition.title
-        canv.drawString(LEFT_MARGIN, PAGE_HEIGHT - 9.2 * mm, header[:72])
+        header = fit_running_header(header, self.edition.body_font, font_size, CONTENT_WIDTH)
+        canv.drawString(LEFT_MARGIN, PAGE_HEIGHT - 9.2 * mm, header)
         canv.drawCentredString(PAGE_WIDTH / 2, 9 * mm, str(page_number))
         canv.restoreState()
 
@@ -563,14 +581,18 @@ def build_list(element: ET.Element, styles, edition: Edition, current_file: str,
         if not item_flowables:
             item_flowables.append(Paragraph("", styles["body"]))
         items.append(ListItem(item_flowables, leftIndent=12))
+    list_options = {
+        "bulletType": "1" if ordered else "bullet",
+        "leftIndent": 18,
+        "bulletFontName": edition.body_font,
+        "bulletFontSize": 8,
+        "spaceAfter": 6,
+    }
+    if ordered:
+        list_options["start"] = "1"
     return ListFlowable(
         items,
-        bulletType="1" if ordered else "bullet",
-        start="1",
-        leftIndent=18,
-        bulletFontName=edition.body_font,
-        bulletFontSize=8,
-        spaceAfter=6,
+        **list_options,
     )
 
 

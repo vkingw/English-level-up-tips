@@ -81,7 +81,9 @@ export const zhNavigation = [
   {
     text: "工具箱",
     items: [
+      page("工具箱实战：AI 跨会话学习", "/templates/toolkit-walkthrough"),
       page("证据链模板", "/templates/evidence-chain"),
+      page("读者实践回执", "/templates/reader-field-note"),
       page("学习状态模板", "/templates/learning-state"),
       page("节律账本模板", "/templates/rhythm-ledger"),
       page("每周复盘模板", "/templates/weekly-review"),
@@ -200,7 +202,9 @@ export const enNavigation = [
   {
     text: "Toolkit",
     items: [
+      page("Toolkit Walkthrough: AI Learning across Sessions", "/en/templates/toolkit-walkthrough"),
       page("Evidence Chain", "/en/templates/evidence-chain"),
+      page("Reader Field Note", "/en/templates/reader-field-note"),
       page("Learning State", "/en/templates/learning-state"),
       page("Rhythm Ledger", "/en/templates/rhythm-ledger"),
       page("Weekly Review", "/en/templates/weekly-review"),

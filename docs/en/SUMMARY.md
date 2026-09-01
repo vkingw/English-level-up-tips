@@ -61,7 +61,9 @@
 
 ## Toolkit
 
+- [Toolkit Walkthrough: AI Learning across Sessions](templates/toolkit-walkthrough.md)
 - [Evidence Chain](templates/evidence-chain.md)
+- [Reader Field Note](templates/reader-field-note.md)
 - [Learning State](templates/learning-state.md)
 - [Rhythm Ledger](templates/rhythm-ledger.md)
 - [Weekly Review](templates/weekly-review.md)

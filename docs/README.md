@@ -19,7 +19,7 @@ updated: 2026-09-02
   <a href="./downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
   <a href="./downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
   <a href="https://github.com/byoungd/up">源码与勘误</a>
-  <a href="https://github.com/byoungd/up/issues/new?template=reader-field-note.yml">提交读者回执</a>
+  <a href="./templates/reader-field-note">读者实践回执</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">正文 CC BY-NC 4.0</a>
 </div>
 

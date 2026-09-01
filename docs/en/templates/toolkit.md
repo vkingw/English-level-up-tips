@@ -1,7 +1,7 @@
 ---
 title: "Toolkit Overview: Choose the Problem Before the Tool"
 description: "Route every template by starting point, skill practice, AI collaboration, artifact delivery, review, and recovery so a reader can build one complete action loop with minimal record-keeping."
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Toolkit Overview: Choose the Problem Before the Tool
@@ -14,10 +14,12 @@ If you do not know where to begin, choose one sheet. An incomplete sheet used on
 
 | Current block | First tool | Open next | What this tool cannot prove for you |
 | --- | --- | --- | --- |
+| There are too many tools and I do not know how to fill them | [Toolkit Walkthrough](toolkit-walkthrough.md) | [Learning State](learning-state.md) | A synthetic example cannot prove the same plan fits you |
 | No clear goal or baseline | [Learning State](learning-state.md) | [English Diagnostic](english-diagnostic.md) | It cannot choose a permanently correct direction |
 | Starting a 90-day cycle | [90-Day Cycle Map](90-day-cycle.md) | [Rhythm Ledger](rhythm-ledger.md) | It cannot guarantee success or persistence |
 | Weekly rhythm keeps breaking | [Rhythm Ledger](rhythm-ledger.md) | [Weekly Review](weekly-review.md) | It cannot turn fatigue, illness, or responsibility into laziness |
 | I have samples but cannot tell whether anything really changed | [Evidence Chain](evidence-chain.md) | [Evidence](../threads/part-3/5-evidence-and-transfer.md) | It cannot turn one smooth performance into stable ability |
+| Reading moved me, but I do not know what remains seven days later | [Reader Field Note](reader-field-note.md) | [Evidence Chain](evidence-chain.md) | It cannot turn one personal experience into a universal effect |
 | I recognise words but cannot use them | [Vocabulary Audit](vocabulary-audit.md) | [Vocabulary](../threads/part-1/2-vocabulary.md) | It cannot replace contextual performance with card counts |
 | I cannot hear or explain what I read | [Listening Resource Audit](listening-audit.md) or [Reading Evidence Card](reading-evidence.md) | [Listening](../threads/part-1/3-listening.md) · [Reading](../threads/part-1/4-reading.md) | It cannot use minutes played or highlights as proof of understanding |
 | I cannot speak or write with confidence | [Speaking Evidence Card](speaking-evidence.md) or [Writing Evidence Card](writing-evidence.md) | [Speaking](../threads/part-1/5-speaking.md) · [Writing](../threads/part-1/6-writing.md) | It cannot speak for you before a real listener |
@@ -28,14 +30,15 @@ If you do not know where to begin, choose one sheet. An incomplete sheet used on
 
 ## Connect the Tools into One Loop
 
-Do not fill every template at once. Follow this order and keep only the evidence each step needs:
+For a first use, follow the complete [synthetic cross-session AI-learning case](toolkit-walkthrough.md). Do not fill every template at once. Follow this order and keep only the evidence each step needs:
 
 1. **Locate**: use [Learning State](learning-state.md) or [English Diagnostic](english-diagnostic.md) to name the real situation, baseline, and acceptance standard;
 2. **Choose**: use the [90-Day Cycle Map](90-day-cycle.md) for a longer cycle, or the [Rhythm Ledger](rhythm-ledger.md) for one week;
 3. **Practice**: choose a vocabulary, listening, reading, speaking, or writing evidence card and complete your first version yourself;
 4. **Collaborate**: when AI is useful, fill the [AI Task Brief](ai-task-brief.md), then record the collaboration and your closed-AI performance in the [AI Learning Log](ai-learning-log.md);
 5. **Deliver**: for a real audience, use the [Artifact Brief and Delivery Card](artifact-brief.md); after a release or pilot, use the [AI Project Scorecard](ai-project-scorecard.md) to record quality, cost, risk, and rollback;
-6. **Review**: use the [Evidence Chain](evidence-chain.md) to place the first version, immediate performance, delayed retention, and transfer together, then use the [Weekly Review](weekly-review.md) to change one condition.
+6. **Review**: use the [Evidence Chain](evidence-chain.md) to place the first version, immediate performance, delayed retention, and transfer together, then use the [Weekly Review](weekly-review.md) to change one condition;
+7. **Field note**: when the action began from a chapter in this book, use the [Reader Field Note](reader-field-note.md) to record what entered action and what remained unusable.
 
 This is a returnable path. If a step reveals risk, lower capacity, or missing evidence, go back and reduce the task. Going back is not waste; it makes the next action more trustworthy.
 
@@ -66,4 +69,4 @@ Where I will preserve the evidence:
 
 When it is done, choose the tool closest to the task, give it a date, and set the next review time. Do not wait for every field to be complete. Starting is what makes the missing information concrete.
 
-Related entry points: [Reader's Guide: Put the Book Back into Life](../threads/part-0/reader-guide.md) | [Glossary of Terms and Methods](../reference/glossary.md) | [Rhythm: Let Small Things Travel Through Time](../threads/part-4/rhythm-and-compounding.md)
+Related entry points: [Toolkit Walkthrough](toolkit-walkthrough.md) | [Reader's Guide: Put the Book Back into Life](../threads/part-0/reader-guide.md) | [Glossary of Terms and Methods](../reference/glossary.md) | [Rhythm: Let Small Things Travel Through Time](../threads/part-4/rhythm-and-compounding.md)

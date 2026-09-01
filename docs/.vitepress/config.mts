@@ -58,10 +58,12 @@ const searchHeadingContent = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i;
 
 function splitSearchSections(file: string, html: string) {
   const normalizedFile = file.replaceAll("\\", "/");
+  const titleOnly = normalizedFile.endsWith("/templates/reader-field-note.md");
   const headingOnly = [
     "/threads/part-0/reader-guide.md",
     "/threads/part-5/after-90-days.md",
     "/threads/part-5/book-as-proof.md",
+    "/templates/toolkit-walkthrough.md",
   ].some((suffix) => normalizedFile.endsWith(suffix));
   const pageLevelOnly =
     normalizedFile.includes("/templates/") ||
@@ -69,7 +71,7 @@ function splitSearchSections(file: string, html: string) {
     normalizedFile.includes("/threads/archive/") ||
     normalizedFile.includes("/threads/part-1/") ||
     normalizedFile.includes("/threads/word-list/");
-  const levels = pageLevelOnly ? "1" : "12";
+  const levels = titleOnly ? "1" : headingOnly ? "12" : pageLevelOnly ? "1" : "12";
   const headings = [
     ...html.matchAll(new RegExp(`<h([${levels}]).*?>(.*?<a.*? href="#.*?".*?>.*?<\\/a>)<\\/h\\1>`, "gi")),
   ];
@@ -83,7 +85,7 @@ function splitSearchSections(file: string, html: string) {
     const contentEnd = headings[index + 1]?.index ?? html.length;
     // These navigation-heavy or long-form chapters have descriptive headings; indexing those
     // headings keeps every concept discoverable without duplicating each full page in the client bundle.
-    const text = headingOnly
+    const text = titleOnly || headingOnly
       ? title
       : html.slice(contentStart, contentEnd).replace(/<[^>]*>/g, "").trim();
     if (!title || !text) return [];

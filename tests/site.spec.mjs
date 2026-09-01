@@ -98,6 +98,23 @@ test("reference collections follow the book and stay collapsed by default", () =
   expect(toSidebar(enNavigation).slice(7).every(({ collapsed }) => collapsed === true)).toBe(true);
 });
 
+test("the toolkit begins with a worked example and private reader evidence", () => {
+  const zhToolkit = zhNavigation.find(({ text }) => text === "工具箱");
+  const enToolkit = enNavigation.find(({ text }) => text === "Toolkit");
+  expect(zhToolkit?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+    "templates/toolkit-walkthrough.md",
+    "templates/evidence-chain.md",
+    "templates/reader-field-note.md",
+    "templates/learning-state.md",
+  ]);
+  expect(enToolkit?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+    "en/templates/toolkit-walkthrough.md",
+    "en/templates/evidence-chain.md",
+    "en/templates/reader-field-note.md",
+    "en/templates/learning-state.md",
+  ]);
+});
+
 test("life-review chapters move from story through echoes into recovery", () => {
   const zhPractice = zhNavigation.find(({ text }) => text === "第二部：把自己放回生活");
   const enPractice = enNavigation.find(({ text }) => text === "Part II: Return to Life");
@@ -602,7 +619,7 @@ test("page-level search keeps nested chapter text discoverable", async ({ page }
   await expect(enSearchBox.getByRole("link", { name: /Speaking/ }).first()).toBeVisible();
 });
 
-test("heading-only search keeps long-form chapters discoverable without indexing their full prose", async ({ page }) => {
+test("heading-only search keeps long-form chapters and tools discoverable without indexing their full prose", async ({ page }) => {
   await page.goto("./");
   await page.getByRole("button", { name: "搜索", exact: true }).click();
   const zhSearchBox = page.locator(".VPLocalSearchBox");
@@ -610,6 +627,8 @@ test("heading-only search keeps long-form chapters discoverable without indexing
   await expect(zhSearchBox.getByRole("link", { name: /目标必须有到期日与退出门/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("作品也要接受自己的审判");
   await expect(zhSearchBox.getByRole("link", { name: /作品也要接受自己的审判/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("把记忆交给文件，把判断留给自己");
+  await expect(zhSearchBox.getByRole("link", { name: /把记忆交给文件，把判断留给自己/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
@@ -619,6 +638,8 @@ test("heading-only search keeps long-form chapters discoverable without indexing
   await expect(enSearchBox.getByRole("link", { name: /Every Goal Needs an Expiry Date/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Let the Work Face Its Own Judgment");
   await expect(enSearchBox.getByRole("link", { name: /Let the Work Face Its Own Judgment/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Give Memory to the File and Keep Judgment with Yourself");
+  await expect(enSearchBox.getByRole("link", { name: /Give Memory to the File and Keep Judgment with Yourself/ }).first()).toBeVisible();
 });
 
 test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
@@ -704,9 +725,9 @@ test("home pages use book metadata without third-party image requests", async ({
     "href",
     "https://github.com/byoungd/up",
   );
-  await expect(zhMeta.getByRole("link", { name: "提交读者回执" })).toHaveAttribute(
+  await expect(zhMeta.getByRole("link", { name: "读者实践回执" })).toHaveAttribute(
     "href",
-    "https://github.com/byoungd/up/issues/new?template=reader-field-note.yml",
+    "./templates/reader-field-note",
   );
   await expect(zhMeta.getByRole("link", { name: "正文 CC BY-NC 4.0" })).toHaveAttribute(
     "href",
@@ -719,9 +740,9 @@ test("home pages use book metadata without third-party image requests", async ({
   const enMeta = page.locator(".book-meta");
   await expect(enMeta).toContainText("Living manuscript");
   await expect(enMeta.getByRole("link", { name: "Source and corrections" })).toBeVisible();
-  await expect(enMeta.getByRole("link", { name: "Submit a reader field note" })).toHaveAttribute(
+  await expect(enMeta.getByRole("link", { name: "Reader Field Note" })).toHaveAttribute(
     "href",
-    "https://github.com/byoungd/up/issues/new?template=reader-field-note.yml",
+    "../templates/reader-field-note",
   );
   await expect(enMeta.getByRole("link", { name: "Text CC BY-NC 4.0" })).toBeVisible();
   expect(externalImages).toEqual([]);
@@ -840,6 +861,38 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Learning State", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Life Practice Toolkit", exact: true })).toBeVisible();
+});
+
+test("toolkit walkthrough keeps learning state outside the AI conversation", async ({ page }) => {
+  await page.goto("./templates/toolkit-walkthrough");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "第一步：把状态放到会话外" })).toBeVisible();
+  await expect(zhMain).toContainText("AI 没有跨会话跟踪学习；状态文件完成了跟踪");
+  await expect(zhMain.getByRole("link", { name: "学习状态", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "读者实践回执", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/templates/toolkit-walkthrough");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Step One: Put State outside the Conversation" })).toBeVisible();
+  await expect(enMain).toContainText("AI did not track learning across sessions. The state file tracked it");
+  await expect(enMain.getByRole("link", { name: "Learning State", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Reader Field Note", exact: true }).first()).toBeVisible();
+});
+
+test("reader field notes remain private first and retest after delay", async ({ page }) => {
+  const publicForm = "https://github.com/byoungd/up/issues/new?template=reader-field-note.yml";
+
+  await page.goto("./templates/reader-field-note");
+  const zhMain = page.locator("main");
+  await expect(zhMain).toContainText("公开分享始终是可选项");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "第二次填写：三到七天后" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "公开读者回执", exact: true })).toHaveAttribute("href", publicForm);
+
+  await page.goto("./en/templates/reader-field-note");
+  const enMain = page.locator("main");
+  await expect(enMain).toContainText("Public sharing is always optional");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Second Pass: Three to Seven Days Later" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "public Reader Field Note", exact: true })).toHaveAttribute("href", publicForm);
 });
 
 test("evidence chain template preserves comparable stages", async ({ page }) => {

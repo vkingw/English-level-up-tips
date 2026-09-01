@@ -36,7 +36,7 @@ Open the [Evidence Chain Template](../../templates/evidence-chain.md). Put basel
 
 ### I do not know which worksheet to choose
 
-Open the [Toolkit Overview](../../templates/toolkit.md) and choose an entry point by the block in front of you. It names the next worksheet and what that tool cannot prove for you. Once you have chosen, leave the overview and complete one real action.
+For a first use, read the [Toolkit Walkthrough](../../templates/toolkit-walkthrough.md) and follow an explicitly synthetic 90-day Python example through Learning State, one AI task, an unaided baseline, a retest, and handover to a new conversation. Then open the [Toolkit Overview](../../templates/toolkit.md), choose an entry by the block in front of you, leave the overview, and complete one real action.
 
 ### I am in a difficult season and my capacity is small
 

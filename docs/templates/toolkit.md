@@ -1,7 +1,7 @@
 ---
 title: 工具箱总览：先选问题，再选工具
 description: 按起点、能力训练、AI 协作、作品交付、复盘与恢复分流全部模板，帮助读者用最少记录建立一次完整行动闭环。
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # 工具箱总览：先选问题，再选工具
@@ -14,10 +14,12 @@ updated: 2026-09-01
 
 | 当前卡点 | 第一个工具 | 接着打开 | 这张工具不能替你证明什么 |
 | --- | --- | --- | --- |
+| 工具很多，不知道实际怎样填写 | [工具箱实战](toolkit-walkthrough.md) | [学习状态](learning-state.md) | 合成示例不能证明同样的计划适合你 |
 | 不知道目标或基线 | [学习状态](learning-state.md) | [英语能力诊断](english-diagnostic.md) | 不能替你决定一个永远正确的方向 |
 | 想开始一个 90 天周期 | [九十日行动总表](90-day-cycle.md) | [节律账本](rhythm-ledger.md) | 不能保证计划一定成功或持续 |
 | 每周节奏反复中断 | [节律账本](rhythm-ledger.md) | [每周复盘](weekly-review.md) | 不能把疲惫、疾病或责任解释成懒惰 |
 | 有样本却说不清是否真的改变 | [证据链](evidence-chain.md) | [证据篇](../threads/part-3/5-evidence-and-transfer.md) | 不能把一次顺利表现推成稳定能力 |
+| 读完有感触，却不知道七天后是否留下什么 | [读者实践回执](reader-field-note.md) | [证据链](evidence-chain.md) | 不能把一次个人体验推成普遍效果 |
 | 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
 | 听不清或读完说不清 | [听力资源审计卡](listening-audit.md) 或 [阅读证据卡](reading-evidence.md) | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) | 不能把播放时长或划线数量当成理解证据 |
 | 不敢开口或写不出来 | [口语证据卡](speaking-evidence.md) 或 [写作证据卡](writing-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) · [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实听众面前的表达 |
@@ -28,14 +30,15 @@ updated: 2026-09-01
 
 ## 把工具串成一次闭环
 
-不要同时填写全部模板。按下面的顺序，每一步只留下最必要的一份证据：
+第一次使用工具箱时，可以先完整走一遍[跨会话 AI 学习合成案例](toolkit-walkthrough.md)。不要同时填写全部模板。按下面的顺序，每一步只留下最必要的一份证据：
 
 1. **定位**：用[学习状态](learning-state.md)或[英语能力诊断](english-diagnostic.md)写清真实场景、当前基线和完成标准；
 2. **选择**：如果周期较长，用[九十日行动总表](90-day-cycle.md)；如果只安排本周，用[节律账本](rhythm-ledger.md)；
 3. **练习**：按任务选择词汇、听力、阅读、口语或写作证据卡，先完成自己的第一版；
 4. **协作**：需要 AI 时，先填[AI 任务简报](ai-task-brief.md)，再把协作过程和关闭 AI 后的表现写进[AI 学习记录](ai-learning-log.md)；
 5. **交付**：有真实受众时使用[作品简报与交付卡](artifact-brief.md)，发布或试点后用[AI 项目评分卡](ai-project-scorecard.md)记录质量、成本、风险和回滚；
-6. **复查**：用[证据链](evidence-chain.md)把首版、即时表现、延迟保持与迁移放在一起，再用[每周复盘](weekly-review.md)决定只改变哪一个条件。
+6. **复查**：用[证据链](evidence-chain.md)把首版、即时表现、延迟保持与迁移放在一起，再用[每周复盘](weekly-review.md)决定只改变哪一个条件；
+7. **回执**：如果这次行动来自书中一章，用[读者实践回执](reader-field-note.md)记录哪一处真正进入行动、哪一处仍然不会用。
 
 这是一条可往返的路径。任何一步发现风险、容量下降或证据不足，都可以退回上一步缩小任务；退回不是浪费，而是让下一次行动更可信。
 
@@ -66,4 +69,4 @@ updated: 2026-09-01
 
 完成后，选择最贴近任务的一张工具，给它一个日期和下一次复查时间。不要等所有栏目都填满才开始；开始之后，缺口才会变得具体。
 
-相关入口：[阅读指南：把书放回生活](../threads/part-0/reader-guide.md) ｜ [术语与方法索引](../reference/glossary.md) ｜ [节律篇：让小事穿过时间](../threads/part-4/rhythm-and-compounding.md)
+相关入口：[工具箱实战](toolkit-walkthrough.md) ｜ [阅读指南：把书放回生活](../threads/part-0/reader-guide.md) ｜ [术语与方法索引](../reference/glossary.md) ｜ [节律篇：让小事穿过时间](../threads/part-4/rhythm-and-compounding.md)

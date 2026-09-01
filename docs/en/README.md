@@ -19,7 +19,7 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
   <a href="../downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
   <a href="../downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
   <a href="https://github.com/byoungd/up">Source and corrections</a>
-  <a href="https://github.com/byoungd/up/issues/new?template=reader-field-note.yml">Submit a reader field note</a>
+  <a href="../templates/reader-field-note">Reader Field Note</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">Text CC BY-NC 4.0</a>
 </div>
 

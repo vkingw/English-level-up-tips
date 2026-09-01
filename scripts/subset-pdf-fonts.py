@@ -22,7 +22,7 @@ OUTPUTS = {
 }
 EXTRA_TEXT = (
     "人生进阶指南 AI 时代终身学习指南 韩先凯 目录 "
-    "https://byoungd.github.io/up/ CC BY-NC 4.0 2026-09-01"
+    "https://byoungd.github.io/up/ CC BY-NC 4.0 2026-09-01 •"
 )
 IPA_FALLBACK_CHARACTERS = set("ɪʌː")
 REQUIRED_SPACING_CHARACTERS = set(" \u00a0")

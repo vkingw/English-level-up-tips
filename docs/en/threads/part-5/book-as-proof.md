@@ -175,7 +175,7 @@ The next phase therefore needs field notes with more explanatory power than a la
 - Seven days later, what remained and what disappeared?
 - Which boundary, example, or tool should be added, removed, or rewritten?
 
-Readers can submit a privacy-safe [Reader Field Note](https://github.com/byoungd/up/issues/new?template=reader-field-note.yml). It is not a five-star review and does not ask for praise. One precise confusion or unsuccessful attempt often helps the next edition more than “this is excellent”.
+Readers can first copy the [Reader Field Note](../../templates/reader-field-note.md) into a private note and complete it once after reading and again three to seven days later. After the privacy gate, those who choose to share may submit a [public field note](https://github.com/byoungd/up/issues/new?template=reader-field-note.yml). It is not a five-star review and does not ask for praise. One precise confusion or unsuccessful attempt often helps the next edition more than “this is excellent”.
 
 If the book eventually reaches many readers, the most important thing to preserve will not be traffic itself. It will be the reader's ability to say: this was unclear, this did not transfer, and this narrative outran its evidence.
 
