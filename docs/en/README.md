@@ -124,11 +124,11 @@ A method reveals its strength only after it enters a life. Relationships end and
 
 <div class="latest-updates">
   <figure class="latest-update">
-    <img src="../assets/latest/single-again.jpg" alt="Han Xiankai with his partner" />
+    <img src="../assets/latest/single-again.webp" alt="Han Xiankai with his partner" width="1000" height="1402" loading="lazy" decoding="async" fetchpriority="low" />
     <figcaption><strong>Trusting encounter again</strong>After the end of a relationship, recovery, and the work of reorganising life, Han Xiankai has begun a new relationship. Beginning again does not erase the past, but it shows that life can keep growing.</figcaption>
   </figure>
   <figure class="latest-update">
-    <img class="latest-update-fan-photo" src="../assets/latest/agentic-db-fans.jpg" alt="Han Xiankai with readers at the Agentic DB conference" />
+    <img class="latest-update-fan-photo" src="../assets/latest/agentic-db-fans.webp" alt="Han Xiankai with readers at the Agentic DB conference" width="1100" height="1467" loading="lazy" decoding="async" fetchpriority="low" />
     <figcaption><strong>Meeting in the real world</strong>At the Alibaba × NVIDIA Agentic DB conference, meeting readers and peers face to face and returning public writing to real people and real questions.</figcaption>
   </figure>
 </div>

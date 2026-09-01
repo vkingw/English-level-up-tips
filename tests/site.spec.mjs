@@ -401,8 +401,38 @@ test("language navigation and representative image work", async ({ page }) => {
 test("home page shows the latest updates", async ({ page }) => {
   await page.goto("./");
   await expect(page.getByRole("heading", { level: 2, name: "现实仍在继续" })).toBeVisible();
-  await expect(page.getByRole("img", { name: "韩先凯与伴侣的合影" })).toBeVisible();
-  await expect(page.getByRole("img", { name: "韩先凯在 Agentic DB 大会与读者合影" })).toBeVisible();
+  const partnerPhoto = page.getByRole("img", { name: "韩先凯与伴侣的合影" });
+  const readersPhoto = page.getByRole("img", { name: "韩先凯在 Agentic DB 大会与读者合影" });
+  await expect(partnerPhoto).toBeVisible();
+  await expect(readersPhoto).toBeVisible();
+  for (const image of [partnerPhoto, readersPhoto]) {
+    await expect(image).toHaveAttribute("src", /\.webp$/);
+    await expect(image).toHaveAttribute("loading", "lazy");
+    await expect(image).toHaveAttribute("decoding", "async");
+    await expect(image).toHaveAttribute("fetchpriority", "low");
+    await expect(image).toHaveAttribute("width", /^\d+$/);
+    await expect(image).toHaveAttribute("height", /^\d+$/);
+  }
+});
+
+test("latest home photos stay within the deferred media budget", async ({ page, request }) => {
+  await page.goto("./");
+  const images = [
+    page.getByRole("img", { name: "韩先凯与伴侣的合影" }),
+    page.getByRole("img", { name: "韩先凯在 Agentic DB 大会与读者合影" }),
+  ];
+  let total = 0;
+  for (const image of images) {
+    const source = await image.getAttribute("src");
+    expect(source).toMatch(/\.webp$/);
+    const response = await request.get(source);
+    expect(response.status()).toBe(200);
+    expect(response.headers()["content-type"]).toContain("image/webp");
+    const size = (await response.body()).byteLength;
+    expect(size).toBeLessThan(220_000);
+    total += size;
+  }
+  expect(total).toBeLessThan(280_000);
 });
 
 test("home pages link to the reader guide", async ({ page }) => {
@@ -784,6 +814,7 @@ test("representative pages load every local image with descriptive alt text", as
     expect(count, `${route} should contain at least one image`).toBeGreaterThan(0);
     for (let index = 0; index < count; index += 1) {
       const image = images.nth(index);
+      if ((await image.getAttribute("loading")) === "lazy") await image.scrollIntoViewIfNeeded();
       await expect(image).toHaveJSProperty("complete", true);
       await expect(image).toHaveAttribute("alt", /\S+/);
       await expect.poll(() => image.evaluate((element) => element.naturalWidth)).toBeGreaterThan(0);

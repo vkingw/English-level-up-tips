@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Re-encoded and right-sized the two home-page update photos as deferred WebP assets, reducing their combined weight by more than 80% while adding intrinsic dimensions and low-priority asynchronous loading.
 - Reduced the lazy bilingual search indexes by excluding repeated code blocks and merging H3 plus task-specific collections into useful parent results; added raw and gzip build budgets so the oversized-chunk warning cannot silently return.
 - Added reciprocal `zh-CN`, `en-US`, and `x-default` language alternates to all 68 bilingual page pairs, mirrored them in the sitemap, and declared the dedicated navbar mark as the site icon.
 - Replaced the obsolete English-guide sharing artwork with bilingual Life Level-up Guide covers, a dedicated navbar mark, generated 1200×630 PNG social images, and Book/Chapter JSON-LD metadata.
