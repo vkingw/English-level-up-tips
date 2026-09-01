@@ -58,8 +58,13 @@ const searchHeadingContent = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i;
 
 function splitSearchSections(file: string, html: string) {
   const normalizedFile = file.replaceAll("\\", "/");
-  const titleOnly = normalizedFile.endsWith("/templates/reader-field-note.md");
+  const titleOnly = [
+    "/templates/reader-field-note.md",
+    "/threads/part-4/family-learning.md",
+  ].some((suffix) => normalizedFile.endsWith(suffix));
   const headingOnly = [
+    "/docs/README.md",
+    "/docs/en/README.md",
     "/threads/part-0/reader-guide.md",
     "/threads/part-5/after-90-days.md",
     "/threads/part-5/book-as-proof.md",
@@ -83,8 +88,8 @@ function splitSearchSections(file: string, html: string) {
     const anchor = heading?.[2] || "";
     const contentStart = (match.index || 0) + match[0].length;
     const contentEnd = headings[index + 1]?.index ?? html.length;
-    // These navigation-heavy or long-form chapters have descriptive headings; indexing those
-    // headings keeps every concept discoverable without duplicating each full page in the client bundle.
+    // These navigation-heavy home pages and long-form chapters have descriptive headings; indexing
+    // those headings keeps every concept discoverable without duplicating each full page in the client bundle.
     const text = titleOnly || headingOnly
       ? title
       : html.slice(contentStart, contentEnd).replace(/<[^>]*>/g, "").trim();

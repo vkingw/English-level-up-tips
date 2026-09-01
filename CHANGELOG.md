@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual Family Learning chapter for roughly middle-school-age learners, guardians, and teachers, with learner agency, role boundaries, a seven-day artifact path, a synthetic English example, five AI safety gates, capacity modes, feedback boundaries, pause conditions, and a fourteen-day decision.
+- Added a bilingual private Family Learning Agreement that makes learner and guardian write separately, protects school and children's data, limits monitoring and substituted work, and reviews both learner evidence and adult support after fourteen days.
+- Added a home-page and Reader's Guide route for families, integrated the optional branch between First Week Practice and Daily System, and documented UNESCO's human-centred educational AI guidance without substituting it for local school or platform rules.
 - Added a bilingual private-first Reader Field Note with immediate action, three-to-seven-day retest, one-condition transfer, editorial feedback, evidence boundaries, and an explicit privacy gate before optional public sharing.
 - Added a bilingual synthetic toolkit walkthrough that answers reader feedback about unclear tool use and cross-session AI state, showing a 90-day Python example from versioned Learning State through task briefing, unaided baseline, evidence, delayed retest, weekly handover, interruption recovery, and a new conversation.
 - Routed the homepage, Reader's Guide, Toolkit Overview, glossary, and book case study through the private worksheet before the public GitHub issue form, and indexed the two long new pages by descriptive headings to preserve the search budget.

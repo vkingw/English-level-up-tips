@@ -1,7 +1,7 @@
 ---
 title: "Part IV: Practice and Recovery"
 description: Bring learning and change into real schedules, using first-week practice, capacity design, and returnable rhythm so action can survive busyness, interruption, and low seasons.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Part IV: Practice and Recovery
@@ -21,6 +21,7 @@ A reliable system is not one that never breaks. It is one that keeps a way back 
 - How do time, energy, relationships, and the body enter one budget?
 - What genuinely compounds, and which repetitions only accumulate exhaustion?
 - After interruption, how can one small action restore rhythm without compensatory depletion?
+- When the learner is not yet an adult, how do learner, guardian, teacher, and AI divide responsibility without removing agency?
 
 Recovery here does not mean returning to productivity as quickly as possible. Safety, food, sleep, asking for help, and basic care may be the most important work of the day.
 
@@ -29,6 +30,7 @@ Recovery here does not mean returning to productivity as quickly as possible. Sa
 | Path | Chapters | What to leave behind |
 | --- | --- | --- |
 | Finish one week | [Practice: Finish the First Week](week-1.md) | Baseline, seven-day evidence chain, and weekend decision |
+| Learn together as a family (when relevant) | [Family Learning: Return Ownership of Growth to the Learner](family-learning.md) | One learner-defined task, role boundaries, and a fourteen-day shared agreement |
 | Place it inside a day | [Daily System](daily-system.md) | Three capacity modes, an environment entry point, and relationship boundaries |
 | Give it to time | [Rhythm](rhythm-and-compounding.md) | Repeatable action, return protocol, and review date |
 
@@ -38,7 +40,7 @@ Do not rebuild sleep, learning, exercise, work, and every relationship in the sa
 
 At the end of this part, leave:
 
-1. One [Rhythm Ledger](../../templates/rhythm-ledger.md) recording capacity, minimum action, and resistance;
+1. One [Rhythm Ledger](../../templates/rhythm-ledger.md) recording capacity, minimum action, and resistance; when supporting a young learner, also keep a [Family Learning Agreement](../../templates/family-learning-agreement.md);
 2. A record of returning after a real interruption;
 3. One design to continue and one demand explicitly removed;
 4. A protected window, a boundary you can state, and a person you can contact when needed.

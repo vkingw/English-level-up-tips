@@ -147,7 +147,7 @@ The first week often fails because the plan recognises only one ideal condition.
 
 A recovery day does not have to produce an artifact. Placing material where you can find it, writing tomorrow's first step, or telling someone about a delay can all be return actions. If only recovery mode is possible for several days, go first to [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md) and examine health, safety, and support.
 
-The next chapter, [Daily System](daily-system.md), develops capacity budgets, environment design, relationship boundaries, and interruption recovery. The first week needs to prove only one thing: you are willing to change the task according to capacity instead of punishing capacity according to the task.
+When supporting a learner who is not yet an adult, continue first to [Family Learning](family-learning.md) and clarify the roles of learner, guardian, school, and AI. Other readers can continue to [Daily System](daily-system.md) for capacity budgets, environment design, relationship boundaries, and interruption recovery. The first week needs to prove only one thing: you are willing to change the task according to capacity instead of punishing capacity according to the task.
 
 ## 8. At the Weekend, Answer Only Four Questions
 

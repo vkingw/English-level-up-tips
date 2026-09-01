@@ -38,6 +38,10 @@ next:
 
 第一次使用时，先看[工具箱实战](../../templates/toolkit-walkthrough.md)，跟着一个明确标注为合成演示的 90 天 Python 案例走完学习状态、AI 任务、独立基线、复测和新会话交接。之后再打开[工具箱总览](../../templates/toolkit.md)，按眼前的卡点选择一个入口；选定之后就离开总览，完成一次真实动作。
 
+### 我正在帮助一名初中阶段的学习者
+
+先读[家庭学习篇：把成长还给孩子](../part-4/family-learning.md)，不要直接把成人的时间管理、职业项目和 AI 账户前提套给孩子。用[家庭学习共同协议](../../templates/family-learning-agreement.md)分别写下孩子的目标表达、家长的担心、学校要求、数据边界和十四天复查；孩子先说，成人负责安全与环境，不代做也不全天监控。
+
 ### 我正在低谷，今天的容量很小
 
 先读[恢复篇：先把自己接住](../part-2/recovery.md)和[生活系统篇](../part-4/daily-system.md)。把目标缩小到安全、吃饭、睡眠、求助和一个最小输出。若低落、失眠、绝望或危险念头持续存在，优先联系可信的人并寻求当地合格的医疗或心理专业支持；本书不能替代照护。
@@ -53,7 +57,7 @@ next:
 | 看见起点 | [阅读指南](reader-guide.md) · [序章](prologue.md) | 一页读者承诺：真实问题、基线、最小动作和边界 |
 | 打开输入 | [CEFR 自测](../part-1/0-cefr.md)与听、读、说、写章节 | 一份[英语诊断](../../templates/english-diagnostic.md)和一张对应的[证据卡](../../reference/glossary.md#工具与交付) |
 | 回到现实 | [我的故事](../part-2/my-story.md)、[叙事与证据](../part-2/narrative-and-evidence.md)、[回声](../part-2/x-misc.md)、[恢复](../part-2/recovery.md)、[选择](../part-2/decision.md)，以及[AI 学习](../part-3/1-ai-learning.md)、[作品](../part-3/4-artifacts-and-delivery.md)、[证据](../part-3/5-evidence-and-transfer.md) | 一次案例复盘或真实交付，并用[证据链模板](../../templates/evidence-chain.md)记录变化 |
-| 保持与交付 | [实践篇](../part-4/week-1.md)、[生活系统](../part-4/daily-system.md)、[节律](../part-4/rhythm-and-compounding.md)、[九十天行动](../part-5/90-day-plan.md)、[本书案例](../part-5/book-as-proof.md)、[后记](../part-6/afterword.md) | 一份第一周基线与复测、一页[节律账本](../../templates/rhythm-ledger.md)、一份周期计划、一份真实项目交接，以及下一次复查日期 |
+| 保持与交付 | [实践篇](../part-4/week-1.md)、按需使用的[家庭学习](../part-4/family-learning.md)、[生活系统](../part-4/daily-system.md)、[节律](../part-4/rhythm-and-compounding.md)、[九十天行动](../part-5/90-day-plan.md)、[本书案例](../part-5/book-as-proof.md)、[后记](../part-6/afterword.md) | 一份第一周基线与复测、一页[节律账本](../../templates/rhythm-ledger.md)、一份周期计划、一份真实项目交接，以及下一次复查日期 |
 
 ### 像读一本书一样读
 

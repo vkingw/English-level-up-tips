@@ -45,6 +45,7 @@
 
 - [第四部导语：实践与恢复](threads/part-4/practice-and-recovery.md)
 - [实践篇：先把第一周过完](threads/part-4/week-1.md)
+- [家庭学习篇：把成长还给孩子](threads/part-4/family-learning.md)
 - [生活系统篇：把改变安放在日子里](threads/part-4/daily-system.md)
 - [节律篇：让小事穿过时间](threads/part-4/rhythm-and-compounding.md)
 
@@ -64,6 +65,7 @@
 - [工具箱实战：AI 跨会话学习](templates/toolkit-walkthrough.md)
 - [证据链模板](templates/evidence-chain.md)
 - [读者实践回执](templates/reader-field-note.md)
+- [家庭学习共同协议](templates/family-learning-agreement.md)
 - [学习状态模板](templates/learning-state.md)
 - [节律账本模板](templates/rhythm-ledger.md)
 - [每周复盘模板](templates/weekly-review.md)

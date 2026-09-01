@@ -20,6 +20,7 @@ updated: 2026-09-02
 | 每周节奏反复中断 | [节律账本](rhythm-ledger.md) | [每周复盘](weekly-review.md) | 不能把疲惫、疾病或责任解释成懒惰 |
 | 有样本却说不清是否真的改变 | [证据链](evidence-chain.md) | [证据篇](../threads/part-3/5-evidence-and-transfer.md) | 不能把一次顺利表现推成稳定能力 |
 | 读完有感触，却不知道七天后是否留下什么 | [读者实践回执](reader-field-note.md) | [证据链](evidence-chain.md) | 不能把一次个人体验推成普遍效果 |
+| 正在帮助初中阶段的孩子学习 | [家庭学习共同协议](family-learning-agreement.md) | [家庭学习篇](../threads/part-4/family-learning.md) | 不能替孩子选择人生、替代学校或诊断困难 |
 | 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
 | 听不清或读完说不清 | [听力资源审计卡](listening-audit.md) 或 [阅读证据卡](reading-evidence.md) | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) | 不能把播放时长或划线数量当成理解证据 |
 | 不敢开口或写不出来 | [口语证据卡](speaking-evidence.md) 或 [写作证据卡](writing-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) · [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实听众面前的表达 |

@@ -45,6 +45,7 @@
 
 - [Part IV Introduction: Practice and Recovery](threads/part-4/practice-and-recovery.md)
 - [Practice: Finish the First Week](threads/part-4/week-1.md)
+- [Family Learning: Return Ownership to the Learner](threads/part-4/family-learning.md)
 - [Daily System: Put Change into the Day](threads/part-4/daily-system.md)
 - [Rhythm: Let Small Things Travel Through Time](threads/part-4/rhythm-and-compounding.md)
 
@@ -64,6 +65,7 @@
 - [Toolkit Walkthrough: AI Learning across Sessions](templates/toolkit-walkthrough.md)
 - [Evidence Chain](templates/evidence-chain.md)
 - [Reader Field Note](templates/reader-field-note.md)
+- [Family Learning Agreement](templates/family-learning-agreement.md)
 - [Learning State](templates/learning-state.md)
 - [Rhythm Ledger](templates/rhythm-ledger.md)
 - [Weekly Review](templates/weekly-review.md)

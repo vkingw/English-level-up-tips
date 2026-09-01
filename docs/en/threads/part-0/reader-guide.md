@@ -38,6 +38,10 @@ Open the [Evidence Chain Template](../../templates/evidence-chain.md). Put basel
 
 For a first use, read the [Toolkit Walkthrough](../../templates/toolkit-walkthrough.md) and follow an explicitly synthetic 90-day Python example through Learning State, one AI task, an unaided baseline, a retest, and handover to a new conversation. Then open the [Toolkit Overview](../../templates/toolkit.md), choose an entry by the block in front of you, leave the overview, and complete one real action.
 
+### I am supporting a middle-school-age learner
+
+Read [Family Learning: Return Ownership of Growth to the Learner](../part-4/family-learning.md) before applying adult assumptions about time management, career projects, and AI accounts. Use the [Family Learning Agreement](../../templates/family-learning-agreement.md) to record learner voice, adult concern, school requirements, data boundaries, and a fourteen-day review separately. The learner speaks first; adults protect safety and environment without substituted work or all-day surveillance.
+
 ### I am in a difficult season and my capacity is small
 
 Read [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md) and [Daily System](../part-4/daily-system.md). Reduce the target to safety, food, sleep, asking for help, and one minimum output. If low mood, sleeplessness, hopelessness, or thoughts of harm persist, contact someone you trust and seek qualified local medical or mental-health support. This book is not care.
@@ -53,7 +57,7 @@ A complete read is not a race through page numbers. It lets the same question ch
 | See the starting point | [Reader's Guide](reader-guide.md) · [Prologue](prologue.md) | A one-page promise: real problem, baseline, minimum action, and boundary |
 | Open input | [CEFR Self-check](../part-1/0-cefr.md) and the listening, reading, speaking, and writing chapters | An [English Diagnostic](../../templates/english-diagnostic.md) and one relevant [evidence card](../../reference/glossary.md#tools-and-delivery) |
 | Return to reality | [My Story](../part-2/my-story.md), [Narrative and Evidence](../part-2/narrative-and-evidence.md), [Echoes](../part-2/x-misc.md), [Recovery](../part-2/recovery.md), [Decision-Making](../part-2/decision.md), plus [AI Learning](../part-3/1-ai-learning.md), [Artifacts](../part-3/4-artifacts-and-delivery.md), and [Evidence](../part-3/5-evidence-and-transfer.md) | One case review or real delivery, with change recorded in the [Evidence Chain Template](../../templates/evidence-chain.md) |
-| Sustain and ship | [First Week Practice](../part-4/week-1.md), [Daily System](../part-4/daily-system.md), [Rhythm](../part-4/rhythm-and-compounding.md), [90-Day Action Plan](../part-5/90-day-plan.md), [the book case study](../part-5/book-as-proof.md), and the [Afterword](../part-6/afterword.md) | A first-week baseline and retest, one [Rhythm Ledger](../../templates/rhythm-ledger.md), one cycle plan, one real-project handover, and a next review date |
+| Sustain and ship | [First Week Practice](../part-4/week-1.md), [Family Learning](../part-4/family-learning.md) when relevant, [Daily System](../part-4/daily-system.md), [Rhythm](../part-4/rhythm-and-compounding.md), [90-Day Action Plan](../part-5/90-day-plan.md), [the book case study](../part-5/book-as-proof.md), and the [Afterword](../part-6/afterword.md) | A first-week baseline and retest, one [Rhythm Ledger](../../templates/rhythm-ledger.md), one cycle plan, one real-project handover, and a next review date |
 
 ### Read like a book
 

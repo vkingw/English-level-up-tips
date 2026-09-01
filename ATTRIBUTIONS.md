@@ -1,6 +1,6 @@
 # Third-party Material and Citations
 
-Last reviewed: 2026-09-01.
+Last reviewed: 2026-09-02.
 
 This register distinguishes repository-owned material from third-party sources. A link is not a transfer of rights. Contributors must add or update an entry when adding external media, a substantial quotation, a dataset, or a product capability claim.
 
@@ -18,6 +18,7 @@ This register distinguishes repository-owned material from third-party sources. 
 | `token.love` official homepage | `docs/projects.md`, `docs/en/projects.md` | China Token Cloud / site operator | Homepage capability description paraphrased with date and contract boundary; not an independent audit | 2026-08-31 |
 | `ku0.com` official homepage | `docs/projects.md`, `docs/en/projects.md` | ku0.com operator | Directory positioning paraphrased with date; availability, transactions, and compliance remain subject to current terms | 2026-08-31 |
 | `biezou.com` AI gateway homepage | Both home pages | biezou.com / site operator | External service reference; homepage description paraphrased on 2026-09-01; no independent audit or endorsement of availability, pricing, privacy, security, compliance, or returns | 2026-09-01 |
+| Human-centred generative AI in education guidance | Bilingual Family Learning chapters | [UNESCO, Guidance for generative AI in education and research](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research) | Official guidance used only for the human-centred and human-capacity framing; local school policy, platform terms, age/account rules, and professional judgment remain separately required | 2026-09-02 |
 | Current guide illustrations and brand assets | `docs/assets/logo.svg`, `docs/assets/feature.svg`, `docs/assets/feature-en.svg`, generated PNG social covers, and `docs/assets/speaking-practice.svg` | byoungd / project contributors | Used by the VitePress theme, public asset sync, social metadata, or the speaking chapter; included in the content-license scope | 2026-09-01 |
 | Noto Serif SC PDF font subsets | `book-assets/fonts/` | [Google Fonts / Noto Serif SC](https://github.com/google/fonts/tree/2e61f4355afd22b801791b0df176065082423b87/ofl/notoserifsc) | OFL-licensed 400/700 static fonts subset to the characters used by the Chinese PDF; pinned upstream commit and regeneration steps are retained in `book-assets/fonts/README.md`; license text retained as `book-assets/fonts/OFL-NotoSerifSC.txt` | 2026-09-02 |
 | Noto Sans IPA PDF fallback subset | `book-assets/fonts/NotoSans-LifeLevelUp-IPA.ttf` | [Google Fonts / Noto Sans](https://github.com/google/fonts/tree/main/ofl/notosans) | OFL-licensed fallback subset containing the IPA characters absent from Noto Serif SC; license text retained as `book-assets/fonts/OFL-NotoSans.txt` | 2026-09-02 |

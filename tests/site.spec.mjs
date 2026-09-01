@@ -101,16 +101,18 @@ test("reference collections follow the book and stay collapsed by default", () =
 test("the toolkit begins with a worked example and private reader evidence", () => {
   const zhToolkit = zhNavigation.find(({ text }) => text === "工具箱");
   const enToolkit = enNavigation.find(({ text }) => text === "Toolkit");
-  expect(zhToolkit?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+  expect(zhToolkit?.items.slice(0, 5).map(({ source }) => source)).toEqual([
     "templates/toolkit-walkthrough.md",
     "templates/evidence-chain.md",
     "templates/reader-field-note.md",
+    "templates/family-learning-agreement.md",
     "templates/learning-state.md",
   ]);
-  expect(enToolkit?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+  expect(enToolkit?.items.slice(0, 5).map(({ source }) => source)).toEqual([
     "en/templates/toolkit-walkthrough.md",
     "en/templates/evidence-chain.md",
     "en/templates/reader-field-note.md",
+    "en/templates/family-learning-agreement.md",
     "en/templates/learning-state.md",
   ]);
 });
@@ -132,16 +134,18 @@ test("life-review chapters move from story through echoes into recovery", () => 
   ]);
 });
 
-test("practice chapters move from the first week into systems and rhythm", () => {
+test("practice chapters move from the first week through family learning into systems and rhythm", () => {
   const zhPractice = zhNavigation.find(({ text }) => text === "第四部：实践与恢复");
   const enPractice = enNavigation.find(({ text }) => text === "Part IV: Practice and Recovery");
-  expect(zhPractice?.items.slice(-3).map(({ source }) => source)).toEqual([
+  expect(zhPractice?.items.slice(-4).map(({ source }) => source)).toEqual([
     "threads/part-4/week-1.md",
+    "threads/part-4/family-learning.md",
     "threads/part-4/daily-system.md",
     "threads/part-4/rhythm-and-compounding.md",
   ]);
-  expect(enPractice?.items.slice(-3).map(({ source }) => source)).toEqual([
+  expect(enPractice?.items.slice(-4).map(({ source }) => source)).toEqual([
     "en/threads/part-4/week-1.md",
+    "en/threads/part-4/family-learning.md",
     "en/threads/part-4/daily-system.md",
     "en/threads/part-4/rhythm-and-compounding.md",
   ]);
@@ -215,6 +219,8 @@ test("key story, narrative, entrepreneurship, and AI chapters end on their liter
     ["en/threads/part-2/entrepreneurship.md", "Closing: Let Ambition Pass Through Reality"],
     ["threads/part-3/1-ai-learning.md", "结语：把能力留在人身上"],
     ["en/threads/part-3/1-ai-learning.md", "Closing: Keep the Ability with the Person"],
+    ["threads/part-4/family-learning.md", "结语：不要替孩子走完那条路"],
+    ["en/threads/part-4/family-learning.md", "Closing: Do Not Walk the Road in the Learner's Place"],
     ["threads/part-5/book-as-proof.md", "结语：作品也要接受自己的审判"],
     ["en/threads/part-5/book-as-proof.md", "Closing: Let the Work Face Its Own Judgment"],
   ];
@@ -629,6 +635,8 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /作品也要接受自己的审判/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("把记忆交给文件，把判断留给自己");
   await expect(zhSearchBox.getByRole("link", { name: /把记忆交给文件，把判断留给自己/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("家庭学习篇：把成长还给孩子");
+  await expect(zhSearchBox.getByRole("link", { name: /家庭学习篇：把成长还给孩子/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
@@ -640,6 +648,8 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Let the Work Face Its Own Judgment/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Give Memory to the File and Keep Judgment with Yourself");
   await expect(enSearchBox.getByRole("link", { name: /Give Memory to the File and Keep Judgment with Yourself/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Family Learning: Return Ownership of Growth to the Learner");
+  await expect(enSearchBox.getByRole("link", { name: /Family Learning: Return Ownership of Growth to the Learner/ }).first()).toBeVisible();
 });
 
 test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
@@ -784,9 +794,17 @@ test("deferred story media reserves its intrinsic layout space", async ({ page }
 test("home pages link to the reader guide", async ({ page }) => {
   await page.goto("./");
   await expect(page.getByRole("link", { name: "阅读指南", exact: true }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /家庭与中学生学习/ })).toHaveAttribute(
+    "href",
+    "./threads/part-4/family-learning",
+  );
 
   await page.goto("./en/");
   await expect(page.getByRole("link", { name: "Reader's Guide", exact: true }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /Family and Middle-School Learning/ })).toHaveAttribute(
+    "href",
+    "./threads/part-4/family-learning",
+  );
 });
 
 test("home pages expose biezou as a bounded external AI reference", async ({ page }) => {
@@ -854,6 +872,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(zhMain.getByRole("link", { name: "学习状态", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "节律账本", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "生活进阶工作表", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "家庭学习共同协议", exact: true })).toBeVisible();
 
   await page.goto("./en/templates/toolkit");
   const enMain = page.locator("main");
@@ -861,6 +880,47 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Learning State", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Life Practice Toolkit", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Family Learning Agreement", exact: true })).toBeVisible();
+});
+
+test("family learning protects learner agency, school reality, and children's data", async ({ page }) => {
+  const source = "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research";
+
+  await page.goto("./threads/part-4/family-learning");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: /四个角色，不互相代替/ })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: /AI 进入家庭前，先过五道门/ })).toBeVisible();
+  await expect(zhMain).toContainText("孩子拥有参与权，不等于独自承担所有责任");
+  await expect(zhMain).toContainText("默认不上传姓名、学校、班级");
+  await expect(zhMain.getByRole("link", { name: /UNESCO/ }).first()).toHaveAttribute("href", source);
+  await expect(zhMain.getByRole("link", { name: "家庭学习共同协议", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/threads/part-4/family-learning");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: /Four Roles That Do Not Replace One Another/ })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: /Five Gates before AI Enters the Home/ })).toBeVisible();
+  await expect(enMain).toContainText("Participation does not mean the learner carries every responsibility alone");
+  await expect(enMain).toContainText("Do not upload names, school, class");
+  await expect(enMain.getByRole("link", { name: /UNESCO/ }).first()).toHaveAttribute("href", source);
+  await expect(enMain.getByRole("link", { name: "Family Learning Agreement", exact: true }).first()).toBeVisible();
+});
+
+test("family learning agreements make the learner speak first and review adult support", async ({ page }) => {
+  await page.goto("./templates/family-learning-agreement");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "分别写，再一起读" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 3, name: "学习者先写" })).toBeVisible();
+  await expect(zhMain).toContainText("成人明确不做");
+  await expect(zhMain).toContainText("不代写、代答或让 AI 代做");
+  await expect(zhMain.getByRole("heading", { level: 2, name: /两周复盘：学习者先说/ })).toBeVisible();
+
+  await page.goto("./en/templates/family-learning-agreement");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Write Separately, Then Read Together" })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 3, name: "Learner First" })).toBeVisible();
+  await expect(enMain).toContainText("The adult explicitly will not");
+  await expect(enMain).toContainText("Write or answer in the learner's place");
+  await expect(enMain.getByRole("heading", { level: 2, name: /Two-Week Review: Learner Speaks First/ })).toBeVisible();
 });
 
 test("toolkit walkthrough keeps learning state outside the AI conversation", async ({ page }) => {
@@ -917,6 +977,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(zhMain.getByRole("link", { name: "节律账本", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "证据篇", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "节律", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "家庭学习篇：把成长还给孩子", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "家庭学习共同协议", exact: true })).toBeVisible();
 
   await page.goto("./en/threads/part-0/reader-guide");
   const enMain = page.locator("main");
@@ -925,6 +987,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Evidence", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Rhythm", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Family Learning: Return Ownership of Growth to the Learner", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Family Learning Agreement", exact: true })).toBeVisible();
 });
 
 test("echoes chapter separates harm, responsibility, and the next choice", async ({ page }) => {
@@ -964,6 +1028,7 @@ test("first-week practice turns a baseline into a reviewable next step", async (
   ).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "证据链模板", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "每周复盘模板", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "家庭学习篇", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "生活系统篇", exact: true })).toBeVisible();
 
   await page.goto("./en/threads/part-4/week-1");
@@ -979,6 +1044,7 @@ test("first-week practice turns a baseline into a reviewable next step", async (
   ).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Weekly Review Template", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Family Learning", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Daily System", exact: true })).toBeVisible();
 });
 
@@ -1101,6 +1167,24 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
       manual: /^(?:上一篇|下一篇|下一部)[：:]/,
     },
     {
+      route: "./threads/part-4/week-1",
+      previous: "/up/threads/part-4/practice-and-recovery",
+      next: "/up/threads/part-4/family-learning",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
+      route: "./threads/part-4/family-learning",
+      previous: "/up/threads/part-4/week-1",
+      next: "/up/threads/part-4/daily-system",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
+      route: "./threads/part-4/daily-system",
+      previous: "/up/threads/part-4/family-learning",
+      next: "/up/threads/part-4/rhythm-and-compounding",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
       route: "./threads/part-4/rhythm-and-compounding",
       previous: "/up/threads/part-4/daily-system",
       next: "/up/threads/part-5/long-term-action",
@@ -1176,6 +1260,24 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
       route: "./en/projects",
       previous: "/up/en/threads/part-3/2-ai-development-and-resource-layer",
       next: "/up/en/threads/part-4/practice-and-recovery",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-4/week-1",
+      previous: "/up/en/threads/part-4/practice-and-recovery",
+      next: "/up/en/threads/part-4/family-learning",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-4/family-learning",
+      previous: "/up/en/threads/part-4/week-1",
+      next: "/up/en/threads/part-4/daily-system",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-4/daily-system",
+      previous: "/up/en/threads/part-4/family-learning",
+      next: "/up/en/threads/part-4/rhythm-and-compounding",
       manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
     },
     {

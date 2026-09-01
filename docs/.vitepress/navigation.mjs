@@ -59,6 +59,7 @@ export const zhNavigation = [
     items: [
       page("第四部导语：实践与恢复", "/threads/part-4/practice-and-recovery"),
       page("实践篇：先把第一周过完", "/threads/part-4/week-1"),
+      page("家庭学习篇：把成长还给孩子", "/threads/part-4/family-learning"),
       page("生活系统篇：把改变安放在日子里", "/threads/part-4/daily-system"),
       page("节律篇：让小事穿过时间", "/threads/part-4/rhythm-and-compounding"),
     ],
@@ -84,6 +85,7 @@ export const zhNavigation = [
       page("工具箱实战：AI 跨会话学习", "/templates/toolkit-walkthrough"),
       page("证据链模板", "/templates/evidence-chain"),
       page("读者实践回执", "/templates/reader-field-note"),
+      page("家庭学习共同协议", "/templates/family-learning-agreement"),
       page("学习状态模板", "/templates/learning-state"),
       page("节律账本模板", "/templates/rhythm-ledger"),
       page("每周复盘模板", "/templates/weekly-review"),
@@ -180,6 +182,7 @@ export const enNavigation = [
     items: [
       page("Part IV Introduction: Practice and Recovery", "/en/threads/part-4/practice-and-recovery"),
       page("Practice: Finish the First Week", "/en/threads/part-4/week-1"),
+      page("Family Learning: Return Ownership to the Learner", "/en/threads/part-4/family-learning"),
       page("Daily System: Put Change into the Day", "/en/threads/part-4/daily-system"),
       page("Rhythm: Let Small Things Travel Through Time", "/en/threads/part-4/rhythm-and-compounding"),
     ],
@@ -205,6 +208,7 @@ export const enNavigation = [
       page("Toolkit Walkthrough: AI Learning across Sessions", "/en/templates/toolkit-walkthrough"),
       page("Evidence Chain", "/en/templates/evidence-chain"),
       page("Reader Field Note", "/en/templates/reader-field-note"),
+      page("Family Learning Agreement", "/en/templates/family-learning-agreement"),
       page("Learning State", "/en/templates/learning-state"),
       page("Rhythm Ledger", "/en/templates/rhythm-ledger"),
       page("Weekly Review", "/en/templates/weekly-review"),

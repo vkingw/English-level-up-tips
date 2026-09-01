@@ -46,6 +46,7 @@ updated: 2026-09-02
 | **延迟保持** | 经过一段时间、撤掉最近提示后仍能完成相近任务 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
 | **证据链** | 把基线、即时表现、延迟保持、迁移和下一步放在同一页的记录 | [证据链模板](../templates/evidence-chain.md) · [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
 | **变式** | 保留核心动作，同时改变主题、听众、时间或限制，用来检验是否真的学会 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
+| **学习主体权** | 学习者参与定义目标、提交自己的首版、表达容量、质疑反馈，并承担与年龄和情境相称的责任 | [家庭学习篇](../threads/part-4/family-learning.md) |
 
 ## 工具与交付
 
@@ -56,6 +57,7 @@ updated: 2026-09-02
 | **案例复盘** | 将公开经历拆成来源、事实、判断、结果和可迁移原则的记录 | [AI 经历案例复盘](../templates/ai-case-review.md) |
 | **证据卡** | 为听、读、说、写某一项能力保存首版、反馈和复测的模板 | [四项能力工具](../threads/part-0/prologue.md) |
 | **读者实践回执** | 私下记录阅读入口、实际行动、即时结果、延迟复测、迁移与编辑反馈的两次记录 | [读者实践回执](../templates/reader-field-note.md) |
+| **家庭学习共同协议** | 学习者与家长分别记录目标、担心、支持、AI 与数据边界，并用十四天证据共同复查的私密工作表 | [家庭学习共同协议](../templates/family-learning-agreement.md) |
 | **作品** | 能被别人阅读、使用、质疑或改进的输出，不限于产品 | [作品篇](../threads/part-3/4-artifacts-and-delivery.md) |
 | **交付** | 在真实受众、用户或约束下完成并接受结果 | [九十日行动篇](../threads/part-5/90-day-plan.md) |
 | **人工门** | AI 可以协助，但事实、权限、隐私、成本和最终判断必须由人确认 | [AI 项目开发](../threads/part-3/2-ai-development-and-resource-layer.md) |
