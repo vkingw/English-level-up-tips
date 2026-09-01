@@ -43,9 +43,37 @@ for (const name of ["logo.svg", ...coverSpecs.map(({ source }) => source)]) {
   syncBuffer(name, source);
 }
 
+let existingManifest = {};
+try {
+  existingManifest = JSON.parse(readFileSync(join(publicDir, "brand-assets.json"), "utf8"));
+} catch {
+  existingManifest = {};
+}
+
 const outputBuffers = new Map();
 for (const { source, target, width, height } of coverSpecs) {
-  if (!checkOnly) {
+  let existingOutput;
+  let hasExpectedDimensions = false;
+  try {
+    existingOutput = readFileSync(join(publicDir, target));
+    const metadata = await sharp(existingOutput).metadata();
+    hasExpectedDimensions = metadata.format === "png" && metadata.width === width && metadata.height === height;
+  } catch {
+    existingOutput = undefined;
+  }
+
+  const sourceHash = sha256(sourceBuffers.get(source));
+  const manifestEntry = existingManifest.outputs?.[target];
+  const canReuse =
+    existingOutput &&
+    hasExpectedDimensions &&
+    existingManifest.sources?.[source] === sourceHash &&
+    manifestEntry?.source === source &&
+    manifestEntry?.width === width &&
+    manifestEntry?.height === height &&
+    manifestEntry?.sha256 === sha256(existingOutput);
+
+  if (!checkOnly && !canReuse) {
     const rendered = await sharp(join(ROOT, "docs/assets", source))
       .resize(width, height, { fit: "fill" })
       .png({ compressionLevel: 9, adaptiveFiltering: true })
@@ -55,17 +83,13 @@ for (const { source, target, width, height } of coverSpecs) {
     continue;
   }
 
-  let output;
-  try {
-    output = readFileSync(join(publicDir, target));
-  } catch {
+  if (!existingOutput) {
     changed = true;
     console.error(`docs/public/assets/${target}: PNG 不存在`);
     continue;
   }
-  outputBuffers.set(target, output);
-  const metadata = await sharp(output).metadata();
-  if (metadata.format !== "png" || metadata.width !== width || metadata.height !== height) {
+  outputBuffers.set(target, existingOutput);
+  if (!hasExpectedDimensions) {
     changed = true;
     console.error(`docs/public/assets/${target}: 必须是 ${width}×${height} PNG`);
   }
