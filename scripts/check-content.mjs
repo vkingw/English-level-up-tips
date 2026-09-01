@@ -76,6 +76,10 @@ function resolveTarget(file, rawTarget) {
 
 function localTargetExists(path) {
   if (existsSync(path)) return true;
+  if (path.startsWith(`${DOCS}${sep}`)) {
+    const publicPath = join(DOCS, "public", relative(DOCS, path));
+    if (existsSync(publicPath)) return true;
+  }
   if (!extname(path) && existsSync(`${path}.md`)) return true;
   if (!extname(path) && existsSync(join(path, "README.md"))) return true;
   return false;
@@ -382,6 +386,7 @@ function repositoryReadmeFromDocs(source) {
     .replace("中文 | [English](en/)", "中文 | [English](docs/en/README.md)")
     .replace(/\]\((assets|threads|templates|reference)\//g, "](docs/$1/")
     .replace(/src="\.\/assets\//g, 'src="./docs/assets/')
+    .replace(/href="\.\/downloads\//g, 'href="./docs/public/downloads/')
     .replace(/\]\(projects\.md\)/g, "](docs/projects.md)")
     .replace(/href="\.\/(threads\/[^\"]+|templates\/[^\"]+|projects)"/g, (_match, path) =>
       `href="./docs/${path}.md"`,

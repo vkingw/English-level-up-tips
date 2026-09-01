@@ -13,6 +13,8 @@ mkdirSync(publicDir, { recursive: true });
 const coverSpecs = [
   { source: "feature.svg", target: "feature.png", width: 1200, height: 630 },
   { source: "feature-en.svg", target: "feature-en.png", width: 1200, height: 630 },
+  { source: "cover-portrait.svg", target: "cover-portrait.png", width: 1600, height: 2560 },
+  { source: "cover-portrait-en.svg", target: "cover-portrait-en.png", width: 1600, height: 2560 },
 ];
 
 let changed = false;

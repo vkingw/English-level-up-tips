@@ -101,6 +101,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Added
 
+- Added deterministic Chinese and English EPUB 3.3 editions containing the main manuscript, glossary, and complete toolkit, with offline images, internal navigation, 1600×2560 portrait covers, integrity metadata, and homepage download links.
 - Added the bilingual Recovery, Decision-Making, Relationships, and Attention chapters.
 - Added the bilingual Life Practice Toolkit with reusable worksheets for decisions, attention, relationships, and recovery.
 - Added the bilingual Listening Resource Audit card for choosing, testing, and retiring volatile listening materials.

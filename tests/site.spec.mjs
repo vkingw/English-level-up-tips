@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { expect, test } from "@playwright/test";
@@ -26,6 +27,7 @@ const routesFromNavigation = (groups) =>
 
 const routes = [...routesFromNavigation(zhNavigation), ...routesFromNavigation(enNavigation)];
 const expectedBuildRevision = process.env.GITHUB_SHA || process.env.BUILD_REVISION || "local";
+const sha256 = (value) => createHash("sha256").update(value).digest("hex");
 
 test("start here leads from the home page into the reader guide and prologue", () => {
   const zhStart = zhNavigation.find(({ text }) => text === "开始");
@@ -304,10 +306,59 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
   });
 });
 
+test("home pages expose deterministic bilingual EPUB editions", async ({ page, request }) => {
+  const manifestResponse = await request.get("downloads/epub-manifest.json");
+  expect(manifestResponse.status()).toBe(200);
+  expect(manifestResponse.headers()["content-type"]).toContain("application/json");
+  const manifest = await manifestResponse.json();
+  expect(manifest).toMatchObject({ version: 1, standard: "EPUB 3.3" });
+
+  const editions = [
+    { language: "zh-CN", label: "下载中文 EPUB", href: "./downloads/life-level-up-guide-zh.epub" },
+    { language: "en-US", label: "Download English EPUB", href: "./downloads/life-level-up-guide-en.epub" },
+  ];
+
+  await page.goto("./");
+  for (const edition of editions) {
+    const link = page.getByRole("link", { name: edition.label, exact: true });
+    await expect(link).toHaveAttribute("href", edition.href);
+    await expect(link).toHaveAttribute("download", "");
+
+    const output = manifest.outputs[edition.language];
+    expect(output.chapters).toBe(53);
+    expect(output.images).toBeGreaterThan(1);
+    expect(output.bytes).toBeGreaterThan(1_000_000);
+    expect(output.bytes).toBeLessThan(8_000_000);
+    const response = await request.get(`downloads/${output.file}`);
+    expect(response.status()).toBe(200);
+    expect(response.headers()["content-type"]).toContain("application/epub+zip");
+    const body = await response.body();
+    expect(body.subarray(0, 2).toString("ascii")).toBe("PK");
+    expect(body.length).toBe(output.bytes);
+    expect(sha256(body)).toBe(output.sha256);
+  }
+
+  await page.goto("./en/");
+  await expect(page.getByRole("link", { name: "Download English EPUB", exact: true })).toHaveAttribute(
+    "href",
+    "../downloads/life-level-up-guide-en.epub",
+  );
+  await expect(page.getByRole("link", { name: "下载中文 EPUB", exact: true })).toHaveAttribute(
+    "href",
+    "../downloads/life-level-up-guide-zh.epub",
+  );
+});
+
 test("brand and social assets load at their declared dimensions", async ({ page, request }) => {
   await page.goto("./");
   await expect(page.locator('link[rel="icon"]')).toHaveAttribute("href", "/up/assets/logo.svg");
-  for (const path of ["assets/feature.png", "assets/feature-en.png"]) {
+  const rasterAssets = [
+    { path: "assets/feature.png", dimensions: { width: 1200, height: 630 } },
+    { path: "assets/feature-en.png", dimensions: { width: 1200, height: 630 } },
+    { path: "assets/cover-portrait.png", dimensions: { width: 1600, height: 2560 } },
+    { path: "assets/cover-portrait-en.png", dimensions: { width: 1600, height: 2560 } },
+  ];
+  for (const { path, dimensions: expectedDimensions } of rasterAssets) {
     const response = await request.get(path);
     expect(response.status()).toBe(200);
     expect(response.headers()["content-type"]).toContain("image/png");
@@ -321,7 +372,7 @@ test("brand and social assets load at their declared dimensions", async ({ page,
         }),
       `./${path}`,
     );
-    expect(dimensions).toEqual({ width: 1200, height: 630 });
+    expect(dimensions).toEqual(expectedDimensions);
   }
 
   const logo = await page.evaluate(
