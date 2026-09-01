@@ -321,4 +321,3 @@ Put the first answer, immediate retelling, delayed test, and cross-material tran
 - **Twelve weeks**: increase speed, accent variety, length, and topic unfamiliarity; finish with a blind-rated meeting, lecture, or exam simulation.
 
 Prev: [Vocabulary](2-vocabulary.md)  
-Next: [Reading](4-reading.md)

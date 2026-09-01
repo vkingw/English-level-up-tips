@@ -184,5 +184,3 @@ Do not upload customer, colleague, student, child, medical, identity, or unpubli
 - DeepL: [DeepL Write](https://www.deepl.com/write)
 
 These pages document product functions, not rankings or outcome guarantees. Last checked: 24 August 2026; verify features, regions, and plans again before use.
-
-Previous: [6. Writing](6-writing.md) | Next Part: [Return to Life](../part-2/return-to-life.md) | Related: [Learning Anything with AI](../part-3/1-ai-learning.md) | Template: [AI Learning Log](../../templates/ai-learning-log.md)

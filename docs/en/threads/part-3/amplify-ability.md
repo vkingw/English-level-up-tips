@@ -52,5 +52,3 @@ If an important decision can be found only in chat history, the project does not
 Do not begin with “Which model is best?” Close the conversation window and write the problem you actually need to solve today, followed by what would count as complete.
 
 Only then can speed arrive without carrying direction away with it.
-
-Previous: [Entrepreneurship: From Ambition to Purpose](../part-2/entrepreneurship.md) | Next: [Learning Anything with AI: From a Real Problem to Verifiable Delivery](1-ai-learning.md)

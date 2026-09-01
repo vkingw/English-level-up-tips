@@ -176,5 +176,3 @@ A real beginning is not the intensity of the first morning. It is finding the fi
 Finish the first week. Let facts filter direction, let an artifact leave a trace, and let one weekend decision reduce the weight of the next week.
 
 You do not need seven days to prove who you are. You need only leave day eight a road you are willing to enter again.
-
-Previous: [Part IV: Practice and Recovery](practice-and-recovery.md) | Next: [Daily System: Put Change into the Day](daily-system.md) | Related: [Entrepreneurship: From Ambition to Purpose](../part-2/entrepreneurship.md)

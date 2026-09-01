@@ -214,4 +214,3 @@ Put the unscripted first take, revised take, listener retelling, and unfamiliar-
 - **Twelve weeks**: add unfamiliar questions, time pressure, and real audiences; finish with a five-to-ten-minute presentation, interview, or meeting.
 
 Prev: [Reading](4-reading.md)  
-Next: [Writing](6-writing.md)

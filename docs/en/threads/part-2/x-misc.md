@@ -144,5 +144,3 @@ The past does not have to remain at the centre of the courtroom. We can return f
 I do not need to prove that my younger self was always right. Nor do I need lifelong shame to prove that he was once wrong. I need only hear the echo when it returns and make one choice that is not entirely the same.
 
 Perhaps that is the real purpose of looking back: not to rewrite the opening, but to stop an old story from writing the ending for us.
-
-Next: [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [Decision-Making: Choosing Under Uncertainty](decision.md) | [Practice: Finish the First Week](../part-4/week-1.md)

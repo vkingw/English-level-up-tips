@@ -164,4 +164,3 @@ Record the first read, argument reconstruction, delayed retelling, and related-t
 - **Twelve weeks**: move from one text to multi-source synthesis; finish with a cited report, technical review, or exam simulation.
 
 Prev: [Listening](3-listening.md)  
-Next: [Speaking](5-speaking.md)

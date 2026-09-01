@@ -14,7 +14,16 @@ import sharp from "sharp";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DOCS = join(ROOT, "docs");
 const errors = [];
-const IGNORE_DIRS = new Set([".git", "node_modules", "dist", ".cache"]);
+const IGNORE_DIRS = new Set([
+  ".git",
+  "node_modules",
+  "dist",
+  ".cache",
+  ".codex-artifact-work",
+  "outputs",
+  "playwright-report",
+  "test-results",
+]);
 const PUBLIC_IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
 const PUBLIC_ASSET_EXTENSIONS = new Set([...PUBLIC_IMAGE_EXTENSIONS, ".svg"]);
 const TEXT_SOURCE_EXTENSIONS = new Set([".md", ".mjs", ".mts", ".ts", ".css"]);
@@ -183,6 +192,19 @@ function checkFrontmatter(file) {
     const maxAge = 120 * 24 * 60 * 60 * 1000;
     if (age > maxAge) addError(file, 1, "AI 产品资料超过 120 天未核验");
   }
+}
+
+function checkManualBookPager(file) {
+  const source = relative(DOCS, file).split(sep).join("/");
+  const isBookPage = /^(?:en\/)?threads\/part-[0-6]\//.test(source) || /^(?:en\/)?projects\.md$/.test(source);
+  if (!isBookPage) return;
+
+  const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Previous|Next|Next Part|Back to the home page):)/;
+  readFileSync(file, "utf8").split("\n").forEach((line, index) => {
+    if (manualPager.test(line.trim())) {
+      addError(file, index + 1, "主书稿正文不得手写上一篇/下一篇；连续阅读由统一页脚生成");
+    }
+  });
 }
 
 function checkBilingualParity(markdownFiles) {
@@ -398,6 +420,7 @@ const markdownFiles = walk(ROOT, new Set([".md"]));
 for (const file of markdownFiles) checkLinksAndAlt(file);
 for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
   checkFrontmatter(file);
+  checkManualBookPager(file);
 }
 checkBilingualParity(markdownFiles);
 checkHeadingParity(markdownFiles);

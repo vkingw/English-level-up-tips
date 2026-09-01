@@ -142,6 +142,18 @@ test("long-term action moves from a 90-day cycle into handover before the afterw
   ]);
 });
 
+test("main book chapters leave continuous reading to the authoritative pager", () => {
+  const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Previous|Next|Next Part|Back to the home page):)/m;
+  const sources = [...zhNavigation.slice(1, 7), ...enNavigation.slice(1, 7)]
+    .flatMap(({ items }) => items.map(({ source }) => source))
+    .filter((source) => /(?:^|\/)threads\/part-[0-6]\//.test(source) || /^(?:en\/)?projects\.md$/.test(source));
+
+  for (const source of sources) {
+    const text = readFileSync(resolve(process.cwd(), "docs", source), "utf8");
+    expect(text, source).not.toMatch(manualPager);
+  }
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
@@ -756,85 +768,145 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
       route: "./threads/part-0/reader-guide",
       previous: "/up/",
       next: "/up/threads/part-0/prologue",
-      manual: /^(?:上一篇|下一篇)/,
+      manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
       route: "./threads/part-0/prologue",
       previous: "/up/threads/part-0/reader-guide",
       next: "/up/threads/part-1/open-input",
-      manual: /^(?:上一篇|下一篇)/,
+      manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
       route: "./threads/part-1/open-input",
       previous: "/up/threads/part-0/prologue",
       next: "/up/threads/part-1/0-cefr",
-      manual: /^(?:上一篇|下一篇)/,
+      manual: /^(?:上一篇|下一篇)[：:]/,
+    },
+    {
+      route: "./threads/part-1/2-vocabulary",
+      previous: "/up/threads/part-1/1-understanding",
+      next: "/up/threads/part-1/3-listening",
+      manual: /^(?:上一篇|下一篇)[：:]/,
+    },
+    {
+      route: "./threads/part-1/7-ai",
+      previous: "/up/threads/part-1/6-writing",
+      next: "/up/threads/part-2/return-to-life",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
+      route: "./threads/part-2/entrepreneurship",
+      previous: "/up/threads/part-2/relationships",
+      next: "/up/threads/part-3/amplify-ability",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
+      route: "./projects",
+      previous: "/up/threads/part-3/2-ai-development-and-resource-layer",
+      next: "/up/threads/part-4/practice-and-recovery",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
+      route: "./threads/part-4/rhythm-and-compounding",
+      previous: "/up/threads/part-4/daily-system",
+      next: "/up/threads/part-5/long-term-action",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
     },
     {
       route: "./threads/part-5/long-term-action",
       previous: "/up/threads/part-4/rhythm-and-compounding",
       next: "/up/threads/part-5/90-day-plan",
-      manual: /^(?:上一篇|下一篇)/,
+      manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
       route: "./threads/part-5/90-day-plan",
       previous: "/up/threads/part-5/long-term-action",
       next: "/up/threads/part-5/after-90-days",
-      manual: /^(?:上一篇|下一篇)/,
+      manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
       route: "./threads/part-5/after-90-days",
       previous: "/up/threads/part-5/90-day-plan",
       next: "/up/threads/part-6/afterword",
-      manual: /^(?:上一篇|下一篇)/,
+      manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
       route: "./threads/part-6/afterword",
       previous: "/up/threads/part-5/after-90-days",
       next: "/up/",
-      manual: /^(?:上一篇|下一篇|返回首页)/,
+      manual: /^(?:上一篇|下一篇|返回首页)[：:]/,
     },
     {
       route: "./en/threads/part-0/reader-guide",
       previous: "/up/en/",
       next: "/up/en/threads/part-0/prologue",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
     },
     {
       route: "./en/threads/part-0/prologue",
       previous: "/up/en/threads/part-0/reader-guide",
       next: "/up/en/threads/part-1/open-input",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
     },
     {
       route: "./en/threads/part-1/open-input",
       previous: "/up/en/threads/part-0/prologue",
       next: "/up/en/threads/part-1/0-cefr",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-1/2-vocabulary",
+      previous: "/up/en/threads/part-1/1-understanding",
+      next: "/up/en/threads/part-1/3-listening",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-1/7-ai",
+      previous: "/up/en/threads/part-1/6-writing",
+      next: "/up/en/threads/part-2/return-to-life",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-2/entrepreneurship",
+      previous: "/up/en/threads/part-2/relationships",
+      next: "/up/en/threads/part-3/amplify-ability",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/projects",
+      previous: "/up/en/threads/part-3/2-ai-development-and-resource-layer",
+      next: "/up/en/threads/part-4/practice-and-recovery",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-4/rhythm-and-compounding",
+      previous: "/up/en/threads/part-4/daily-system",
+      next: "/up/en/threads/part-5/long-term-action",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
     },
     {
       route: "./en/threads/part-5/long-term-action",
       previous: "/up/en/threads/part-4/rhythm-and-compounding",
       next: "/up/en/threads/part-5/90-day-plan",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
     },
     {
       route: "./en/threads/part-5/90-day-plan",
       previous: "/up/en/threads/part-5/long-term-action",
       next: "/up/en/threads/part-5/after-90-days",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
     },
     {
       route: "./en/threads/part-5/after-90-days",
       previous: "/up/en/threads/part-5/90-day-plan",
       next: "/up/en/threads/part-6/afterword",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
     },
     {
       route: "./en/threads/part-6/afterword",
       previous: "/up/en/threads/part-5/after-90-days",
       next: "/up/en/",
-      manual: /^(?:Previous:|Next:|Back to the home page)/,
+      manual: /^(?:Previous|Next|Back to the home page):/,
     },
   ];
 

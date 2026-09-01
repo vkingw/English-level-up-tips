@@ -245,5 +245,3 @@ updated: 2026-09-01
 - [AI 项目评分卡](../../templates/ai-project-scorecard.md)
 - [GitHub 主页：byoungd / Leap 离谱](https://github.com/byoungd)
 - [China Ciyuan Cloud Computing Limited 公开登记页面](https://www.ltddir.com/companies/china-ciyuan-cloud-computing-limited/)
-
-下一部：[借工具放大能力](../part-3/amplify-ability.md) ｜ 延伸：[实践篇：先把第一周过完](../part-4/week-1.md)

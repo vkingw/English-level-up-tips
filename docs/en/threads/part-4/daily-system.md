@@ -161,5 +161,3 @@ A mature system does not turn a person into someone who is always on time, focus
 Learning needs time, artifacts need delivery, relationships need presence, and the body needs care. These are not competing projects; they are simultaneous facts about one life. Make the goal smaller, reduce the entrances, state the boundary, keep the evidence, and continue tomorrow.
 
 That is what it means to put change into the day: do not wait for an ideal life to appear. Use the weight you can carry today to build one small piece of ground.
-
-Previous: [Practice: Finish the First Week](week-1.md) | Next: [Rhythm: Let Small Things Travel Through Time](rhythm-and-compounding.md) | [90-Day Action Plan](../part-5/90-day-plan.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md)

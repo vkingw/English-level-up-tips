@@ -157,5 +157,3 @@ Place baseline, immediate performance, delayed retention, and transfer in the [E
 - [Roediger & Karpicke (2006), Test-Enhanced Learning](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
 - [Cepeda et al. (2006), Distributed Practice in Verbal Recall Tasks](https://doi.org/10.1037/0033-2909.132.3.354)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
-
-Previous: [CEFR Goals](0-cefr.md) | Next: [Vocabulary](2-vocabulary.md)

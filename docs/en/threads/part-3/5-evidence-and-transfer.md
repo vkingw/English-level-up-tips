@@ -159,6 +159,8 @@ Check one thing per day:
 
 After seven days, you may not feel that you have improved dramatically. You will know more clearly where change occurred and where it did not. That clarity is an ability: it keeps the next step from depending on excitement or shame.
 
+Evidence is not an ending. It is an entrance into the next responsibility. When the method is ready for technical or enterprise delivery, continue to [AI Development and Resource-layer Business](2-ai-development-and-resource-layer.md) and let users, cost, failure, and handover test the result. When an ability is ready for a full cycle, enter the [90-Day Action Plan](../part-5/90-day-plan.md). If a concept remains unclear, return to the [Glossary of Terms and Methods](../../reference/glossary.md) instead of increasing commitment around an uncertain definition.
+
 ## Closing: Let Change Be Seen Honestly
 
 Many important changes in a life receive no applause: a hurtful message you did not send, a timely request for help, an apology finally completed, or a delivery that protected a boundary while you were tired. They may not belong in a chart, but they deserve to be remembered.
@@ -166,5 +168,3 @@ Many important changes in a life receive no applause: a hurtful message you did 
 I hope evidence finally gives us not surveillance, but gentle credibility. I know where I began, what I did today, and which conclusions are not ready to be written. With that credibility, we do not need to inflate an accidental success into talent, or expand one failure into fate.
 
 Change does not happen because it is recorded. Recording gives us a chance to recognise it after it happens and carry it into the next part of life.
-
-Previous: [Artifacts: Turn Learning into Something Made](4-artifacts-and-delivery.md) | Next: [AI Development and Resource-layer Business](2-ai-development-and-resource-layer.md) | Then: [90-Day Action Plan](../part-5/90-day-plan.md) | [Glossary of Terms and Methods](../../reference/glossary.md)

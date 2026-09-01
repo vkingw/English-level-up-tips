@@ -51,5 +51,3 @@ You can keep it in the [Life Practice Toolkit](../../templates/life-practice-too
 We cannot return to the past and choose again for the person we were. We can choose how we understand that person today.
 
 Do not rush to extract a lesson. Let the story land at its original weight and listen for its ambition, silence, pain, and the wish that has not entirely disappeared.
-
-Previous: [Learning English with AI: From Practice to Real Delivery](../part-1/7-ai.md) | Next: [My Story: Failure, Recovery, and Starting Again](my-story.md)

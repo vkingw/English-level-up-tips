@@ -180,5 +180,3 @@ If a relationship keeps you in fear or control, seek help before trying to becom
 I still make mistakes in relationships. I still mistake silence for understanding and persistence for responsibility. Now I try to slow down: hear the facts, state the boundary, own the impact, and then decide whether to keep moving closer.
 
 Love is not designing another person’s life, and it is not sacrificing yourself until you cannot breathe. It is a continuing respect: I will be present, and I accept that you have your own road; I will repair, and I accept that you may choose to leave.
-
-Next: [Entrepreneurship: From Ambition to Purpose](entrepreneurship.md) | [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

@@ -163,5 +163,3 @@ This is not the display of youthful success or the accusation of later disappoin
 - [Life Practice Toolkit](../../templates/life-practice-toolkit.md)
 - [AI Project Scorecard](../../templates/ai-project-scorecard.md)
 - [GitHub profile](https://github.com/byoungd)
-
-Next Part: [Amplify Ability](../part-3/amplify-ability.md) | Related: [Practice: Finish the First Week](../part-4/week-1.md)

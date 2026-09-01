@@ -247,5 +247,3 @@ Put the three comparisons and cycle result into the [90-Day Cycle Map](../../tem
 - **Product information**: official help pages listed in [Learning English with AI](../part-1/7-ai.md); features, regions, and plans change.
 - **Project status**: China Token Cloud, `token.love`, public articles, and physical-industry plans carry affiliations or unverified scope; none is an independent review or proof of revenue.
 - **Last checked**: 24 August 2026. Recheck official product pages, external links, and project status before updating or using this guidance.
-
-Previous: [Part III: Amplify Ability](amplify-ability.md) | Next: [Attention: Return Your Attention to Yourself](3-attention-and-judgment.md) | Related: [Learning English with AI](../part-1/7-ai.md) | Template: [AI Task Brief](../../templates/ai-task-brief.md)

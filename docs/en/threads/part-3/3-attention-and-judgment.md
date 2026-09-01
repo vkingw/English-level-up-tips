@@ -144,5 +144,3 @@ We cannot control every message, change, or expectation. We can slowly reclaim s
 AI can speed up many steps. It cannot decide what deserves to be seen, heard, done, or loved for a long time.
 
 Choose first, then focus. Be present first, then move.
-
-Next: [Artifacts: Turn Learning into Something Made](4-artifacts-and-delivery.md) | [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

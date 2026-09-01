@@ -174,4 +174,3 @@ Use the [Evidence Chain Template](../../templates/evidence-chain.md) to place th
 Pair this chapter with [Artifacts: Turn Learning into Something Made](../part-3/4-artifacts-and-delivery.md) to keep draft, feedback, and final delivery in one evidence chain.
 
 Prev: [Speaking](5-speaking.md)  
-Next: [AI](7-ai.md)

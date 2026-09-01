@@ -183,5 +183,3 @@ Delivery proves immediate performance under one set of conditions. It does not p
 Knowledge fades, emotions change, and chats disappear. An artifact is another kind of memory. It reminds you which problem you faced, what you chose, where you failed, and how you turned the failure into a next step.
 
 I no longer see finishing an artifact as proving that I am impressive. It is more like leaving a light for my future self. When I doubt whether I can begin again, something real can answer: I have done this once.
-
-Next: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | [AI Learning, Project Development, and Resource-layer Entrepreneurship](2-ai-development-and-resource-layer.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

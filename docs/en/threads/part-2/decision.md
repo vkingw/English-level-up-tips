@@ -189,5 +189,3 @@ Maturity in choosing is not always choosing correctly. It is seeing earlier what
 I still make bad decisions and still overestimate my clarity under pressure. Now I am more willing to write the decision down, give it a boundary, an experiment, and a review date.
 
 Life is not an exam that allows one choice only. What matters is retaining the ability to observe, apologise, revise, and return after each choice.
-
-Next: [Relationships: Becoming an Adult in Connection](relationships.md) | [Entrepreneurship: From Ambition to Purpose](entrepreneurship.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

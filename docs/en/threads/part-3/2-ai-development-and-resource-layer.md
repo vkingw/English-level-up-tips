@@ -352,5 +352,3 @@ This chapter should not leave a reader among product names, architecture diagram
 Whether a project continues is still answered by users, teams, agreements, time, and responsibility. Visit [Author Projects and Real-world Practice](../../projects.md) to check relationships, status, and evidence boundaries; or move directly into [Part IV: Practice and Recovery](../part-4/practice-and-recovery.md) and bring the judgment here back to one small task, one week's rhythm, and one action that can be restarted.
 
 Technology can lay a road quickly. That does not mean a person has travelled it. What carries into the next stretch is not one elegant demonstration, but the ability to keep learning, delivering, and revising under real conditions.
-
-Previous: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | Next: [Author Projects and Real-world Practice](../../projects.md) | Next Part: [Part IV: Practice and Recovery](../part-4/practice-and-recovery.md)

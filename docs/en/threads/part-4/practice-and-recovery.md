@@ -50,5 +50,3 @@ Rising numbers are not the only outcome. Noticing exhaustion earlier, repaying f
 Do not design an ideal year yet. Reduce the future to seven days and let one question meet a real schedule, different capacities, and one weekend review.
 
 One week cannot define you. It can still tell you whether the next week should become lighter or clearer.
-
-Previous: [Author Projects and Practice](../../projects.md) | Next: [Practice: Finish the First Week](week-1.md)

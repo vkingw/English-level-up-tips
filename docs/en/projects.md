@@ -70,5 +70,3 @@ Core chapters assess tools by task, evidence, privacy, and transfer. An affiliat
 2. Ask how the result will be accepted, how cost is calculated, and how work stops on failure.
 3. Treat personal narrative and public profiles as leads, not customer cases or proof of return.
 4. For customer, identity, health, or commercial data, confirm permission, minimum necessary scope, and deletion method first.
-
-Next Part: [Part IV: Practice and Recovery](threads/part-4/practice-and-recovery.md)

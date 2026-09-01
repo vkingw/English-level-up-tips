@@ -177,5 +177,3 @@ We often want one large decision to prove that we have become a different person
 Small things are not powerless because they are small. Their strength comes from being repeated, revised, carried into new situations, and sometimes allowed to pause. Time is not only a river that makes us older. When we place choices, work, boundaries, and care into it, time also keeps some of the effort that would otherwise disappear.
 
 The next step does not need to be larger. It needs to be clearer. Return to the [Daily System](daily-system.md) and adjust your three capacity versions, then enter [Part V: Long-Term Action](../part-5/long-term-action.md) and let one rhythm meet a real problem and real time.
-
-Previous: [Daily System: Put Change into the Day](daily-system.md) | Next Part: [Long-Term Action](../part-5/long-term-action.md)

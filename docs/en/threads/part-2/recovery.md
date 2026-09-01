@@ -150,5 +150,3 @@ I no longer see a low season as a page that must be deleted quickly. It records 
 A person begins again not because they become indestructible, but because they learn to acknowledge their weight and let others carry part of it when necessary.
 
 Catch yourself first. Then take the next step.
-
-Next: [Decision-Making: Choosing Under Uncertainty](decision.md) | [Practice: Finish the First Week](../part-4/week-1.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

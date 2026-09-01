@@ -191,5 +191,3 @@ AI 可以生成填空、改错和替换练习，但释义、搭配和例句要�
 - DeepL：[DeepL Write](https://www.deepl.com/write)
 
 这些页面只用于核对产品功能，不构成工具排名或效果保证。上次核验日期：2026-08-24；使用前请重新核验功能、地区和套餐。
-
-上一篇：[6. 写作训练](6-writing.md) ｜ 下一部：[把自己放回生活](../part-2/return-to-life.md) ｜ 延伸：[使用 AI 学习一切](../part-3/1-ai-learning.md) ｜ 模板：[AI 学习记录](../../templates/ai-learning-log.md)
