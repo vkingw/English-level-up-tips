@@ -72,7 +72,7 @@ updated: 2026-09-01
 | **节律** | 在不同容量下仍能辨认和执行的一条行动模式，让重复、反馈与恢复沿时间连接 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
 | **复利** | 今天的选择减少明天的犹豫、返工或恢复成本，使能力、信任、判断和恢复彼此支撑 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
 | **最小合同** | 在坏日子里约定何时降档、保留什么动作，以及何时求助或升级风险的协议 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
-| **节律账本** | 每周一页，记录主问题、保住的动作、有效反馈、反复阻力和下周要改变的条件 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
+| **节律账本** | 每周一页，记录主问题、保住的动作、有效反馈、反复阻力和下周要改变的条件 | [节律账本模板](../templates/rhythm-ledger.md) · [节律篇](../threads/part-4/rhythm-and-compounding.md) |
 | **代价** | 时间、金钱、健康、关系、隐私和责任等需要被明确支付的部分 | [选择篇](../threads/part-2/decision.md) |
 | **可逆性** | 一个选择能否暂停、撤回或用较小成本改回 | [选择篇](../threads/part-2/decision.md) |
 

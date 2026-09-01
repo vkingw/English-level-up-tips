@@ -6,6 +6,7 @@
 - [CEFR 目标与自测](threads/part-1/0-cefr.md)
 - [术语与方法索引](reference/glossary.md)
 - [学习状态模板](templates/learning-state.md)
+- [节律账本模板](templates/rhythm-ledger.md)
 - [每周复盘模板](templates/weekly-review.md)
 - [英语诊断模板](templates/english-diagnostic.md)
 - [词汇审计模板](templates/vocabulary-audit.md)

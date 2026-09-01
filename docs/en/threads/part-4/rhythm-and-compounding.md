@@ -140,7 +140,7 @@ One condition I will change next week:
 One number I will stop tracking:
 ```
 
-The last line matters. Every record costs attention; removing a number that cannot guide a decision is part of rhythm design. If you update a table every day but have no first version, feedback, or retest, shorten the record and return the time to action.
+The last line matters. Every record costs attention; removing a number that cannot guide a decision is part of rhythm design. If you update a table every day but have no first version, feedback, or retest, shorten the record and return the time to action. For a copy-ready version, open the [Rhythm Ledger Template](../../templates/rhythm-ledger.md).
 
 ## 8. A 14-Day Rhythm Experiment
 

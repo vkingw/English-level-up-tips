@@ -72,7 +72,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Rhythm** | One pattern of action that remains recognisable and executable at different capacities, connecting repetition, feedback, and recovery over time | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 | **Compounding** | Today's choice reduces tomorrow's hesitation, rework, or recovery cost, allowing ability, trust, judgment, and recovery to support one another | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 | **Minimum contract** | An agreement for bad days that states when to downgrade, what action to keep, and when to ask for help or escalate risk | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
-| **Rhythm ledger** | One page each week recording the main question, protected action, useful feedback, repeated resistance, and next condition to change | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
+| **Rhythm ledger** | One page each week recording the main question, protected action, useful feedback, repeated resistance, and next condition to change | [Rhythm Ledger Template](../templates/rhythm-ledger.md) · [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 | **Cost** | Time, money, health, relationships, privacy, and responsibility that must be named | [Decision-Making](../threads/part-2/decision.md) |
 | **Reversibility** | Whether a choice can be paused, undone, or changed back at manageable cost | [Decision-Making](../threads/part-2/decision.md) |
 
