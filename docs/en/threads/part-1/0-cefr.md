@@ -95,4 +95,4 @@ When the four skills differ, track separate evidence chains. The value of a self
 
 Use the [Evidence Chain Template](../../templates/evidence-chain.md) to keep the four time points together instead of preserving only a final score.
 
-Previous: [Home](../../README.md) | Next: [Learning Principles](1-understanding.md)
+Previous: [Part I: Open Input](open-input.md) | Next: [Learning Principles](1-understanding.md)

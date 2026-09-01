@@ -51,7 +51,7 @@ updated: 2026-09-01
 
 ### 像读一本书一样读
 
-沿着[序章](prologue.md) → [第一部：打开输入](../part-1/0-cefr.md) → [第二部：把自己放回生活](../part-2/my-story.md) → [第三部：借工具放大能力](../part-3/1-ai-learning.md) → [证据篇](../part-3/5-evidence-and-transfer.md) → [第四部：实践与恢复](../part-4/week-1.md) → [第五部：行动与长期改变](../part-5/90-day-plan.md)阅读。这样读，你会看到同一个问题怎样从语言训练走到工作、关系、身体和责任，再经过验证成为可以持续的节奏。
+沿着[序章](prologue.md) → [第一部：打开输入](../part-1/open-input.md) → [第二部：把自己放回生活](../part-2/return-to-life.md) → [第三部：借工具放大能力](../part-3/amplify-ability.md) → [证据篇](../part-3/5-evidence-and-transfer.md) → [第四部：实践与恢复](../part-4/practice-and-recovery.md) → [第五部：行动与长期改变](../part-5/long-term-action.md)阅读。这样读，你会看到同一个问题怎样从语言训练走到工作、关系、身体和责任，再经过验证成为可以持续的节奏。
 
 ### 像使用一间工作室一样读
 

@@ -161,4 +161,4 @@ I no longer trust the phrase “change your life completely”. It sounds powerf
 
 May the 90 days give you more than a skill. May they return a little texture to your contact with life. May you know where you are going, while accepting that the road may be quiet for a while.
 
-Previous: [Rhythm: Let Small Things Travel Through Time](../part-4/rhythm-and-compounding.md) | Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)
+Previous: [Part V: Long-Term Action](long-term-action.md) | Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)

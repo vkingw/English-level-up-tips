@@ -95,4 +95,4 @@ CEFR（欧洲语言共同参考框架）描述的是**在具体情境中能完�
 
 需要把四个时间点放在同一页时，使用[证据链模板](../../templates/evidence-chain.md)，不要只保留最终分数。
 
-上一篇：[首页](../../README.md) ｜ 下一篇：[认知篇](1-understanding.md)
+上一篇：[第一部：打开输入](open-input.md) ｜ 下一篇：[认知篇](1-understanding.md)

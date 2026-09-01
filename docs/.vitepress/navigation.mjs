@@ -18,6 +18,7 @@ export const zhNavigation = [
   {
     text: "第一部：打开输入",
     items: [
+      page("第一部导语：打开输入", "/threads/part-1/open-input"),
       page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
       page("1. 认知与训练原则", "/threads/part-1/1-understanding"),
       page("2. 词汇系统", "/threads/part-1/2-vocabulary"),
@@ -31,6 +32,7 @@ export const zhNavigation = [
   {
     text: "第二部：把自己放回生活",
     items: [
+      page("第二部导语：把自己放回生活", "/threads/part-2/return-to-life"),
       page("我的故事", "/threads/part-2/my-story"),
       page("叙事与证据篇：不把经历写成命运", "/threads/part-2/narrative-and-evidence"),
       page("回声篇：不要把逃避写成浪漫", "/threads/part-2/x-misc"),
@@ -43,6 +45,7 @@ export const zhNavigation = [
   {
     text: "第三部：借工具放大能力",
     items: [
+      page("第三部导语：借工具放大能力", "/threads/part-3/amplify-ability"),
       page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
       page("注意力篇：把注意力还给自己", "/threads/part-3/3-attention-and-judgment"),
       page("作品篇：把学会变成做出", "/threads/part-3/4-artifacts-and-delivery"),
@@ -54,6 +57,7 @@ export const zhNavigation = [
   {
     text: "第四部：实践与恢复",
     items: [
+      page("第四部导语：实践与恢复", "/threads/part-4/practice-and-recovery"),
       page("实践篇：先把第一周过完", "/threads/part-4/week-1"),
       page("生活系统篇：把改变安放在日子里", "/threads/part-4/daily-system"),
       page("节律篇：让小事穿过时间", "/threads/part-4/rhythm-and-compounding"),
@@ -62,6 +66,7 @@ export const zhNavigation = [
   {
     text: "第五部：行动与长期改变",
     items: [
+      page("第五部导语：行动与长期改变", "/threads/part-5/long-term-action"),
       page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
     ],
   },
@@ -127,6 +132,7 @@ export const enNavigation = [
   {
     text: "Part I: Open Input",
     items: [
+      page("Part I Introduction: Open Input", "/en/threads/part-1/open-input"),
       page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
       page("1. Learning Principles", "/en/threads/part-1/1-understanding"),
       page("2. Vocabulary", "/en/threads/part-1/2-vocabulary"),
@@ -140,6 +146,7 @@ export const enNavigation = [
   {
     text: "Part II: Return to Life",
     items: [
+      page("Part II Introduction: Return to Life", "/en/threads/part-2/return-to-life"),
       page("My Story", "/en/threads/part-2/my-story"),
       page("Narrative and Evidence: Do Not Turn Experience into Fate", "/en/threads/part-2/narrative-and-evidence"),
       page("Echoes: Do Not Romanticise Avoidance", "/en/threads/part-2/x-misc"),
@@ -152,6 +159,7 @@ export const enNavigation = [
   {
     text: "Part III: Amplify Ability",
     items: [
+      page("Part III Introduction: Amplify Ability", "/en/threads/part-3/amplify-ability"),
       page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
       page("Attention: Return Your Attention to Yourself", "/en/threads/part-3/3-attention-and-judgment"),
       page("Artifacts: Turn Learning into Something Made", "/en/threads/part-3/4-artifacts-and-delivery"),
@@ -166,6 +174,7 @@ export const enNavigation = [
   {
     text: "Part IV: Practice and Recovery",
     items: [
+      page("Part IV Introduction: Practice and Recovery", "/en/threads/part-4/practice-and-recovery"),
       page("Practice: Finish the First Week", "/en/threads/part-4/week-1"),
       page("Daily System: Put Change into the Day", "/en/threads/part-4/daily-system"),
       page("Rhythm: Let Small Things Travel Through Time", "/en/threads/part-4/rhythm-and-compounding"),
@@ -174,6 +183,7 @@ export const enNavigation = [
   {
     text: "Part V: Long-Term Action",
     items: [
+      page("Part V Introduction: Long-Term Action", "/en/threads/part-5/long-term-action"),
       page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
     ],
   },

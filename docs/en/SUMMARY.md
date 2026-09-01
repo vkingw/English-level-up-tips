@@ -10,6 +10,7 @@
 
 ## Part I: Open Input
 
+- [Part I Introduction: Open Input](threads/part-1/open-input.md)
 - [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
 - [1. Learning Principles](threads/part-1/1-understanding.md)
 - [2. Vocabulary](threads/part-1/2-vocabulary.md)
@@ -21,6 +22,7 @@
 
 ## Part II: Return to Life
 
+- [Part II Introduction: Return to Life](threads/part-2/return-to-life.md)
 - [My Story](threads/part-2/my-story.md)
 - [Narrative and Evidence: Do Not Turn Experience into Fate](threads/part-2/narrative-and-evidence.md)
 - [Echoes: Do Not Romanticise Avoidance](threads/part-2/x-misc.md)
@@ -31,6 +33,7 @@
 
 ## Part III: Amplify Ability
 
+- [Part III Introduction: Amplify Ability](threads/part-3/amplify-ability.md)
 - [Learning Anything with AI](threads/part-3/1-ai-learning.md)
 - [Attention: Return Your Attention to Yourself](threads/part-3/3-attention-and-judgment.md)
 - [Artifacts: Turn Learning into Something Made](threads/part-3/4-artifacts-and-delivery.md)
@@ -40,12 +43,14 @@
 
 ## Part IV: Practice and Recovery
 
+- [Part IV Introduction: Practice and Recovery](threads/part-4/practice-and-recovery.md)
 - [Practice: Finish the First Week](threads/part-4/week-1.md)
 - [Daily System: Put Change into the Day](threads/part-4/daily-system.md)
 - [Rhythm: Let Small Things Travel Through Time](threads/part-4/rhythm-and-compounding.md)
 
 ## Part V: Long-Term Action
 
+- [Part V Introduction: Long-Term Action](threads/part-5/long-term-action.md)
 - [90-Day Action Plan](threads/part-5/90-day-plan.md)
 
 ## Afterword

@@ -10,6 +10,7 @@
 
 ## 第一部：打开输入
 
+- [第一部导语：打开输入](threads/part-1/open-input.md)
 - [CEFR 目标与自测](threads/part-1/0-cefr.md)
 - [1. 认知与训练原则](threads/part-1/1-understanding.md)
 - [2. 词汇系统](threads/part-1/2-vocabulary.md)
@@ -21,6 +22,7 @@
 
 ## 第二部：把自己放回生活
 
+- [第二部导语：把自己放回生活](threads/part-2/return-to-life.md)
 - [我的故事](threads/part-2/my-story.md)
 - [叙事与证据篇：不把经历写成命运](threads/part-2/narrative-and-evidence.md)
 - [回声篇：不要把逃避写成浪漫](threads/part-2/x-misc.md)
@@ -31,6 +33,7 @@
 
 ## 第三部：借工具放大能力
 
+- [第三部导语：借工具放大能力](threads/part-3/amplify-ability.md)
 - [使用 AI 学习一切](threads/part-3/1-ai-learning.md)
 - [注意力篇：把注意力还给自己](threads/part-3/3-attention-and-judgment.md)
 - [作品篇：把学会变成做出](threads/part-3/4-artifacts-and-delivery.md)
@@ -40,12 +43,14 @@
 
 ## 第四部：实践与恢复
 
+- [第四部导语：实践与恢复](threads/part-4/practice-and-recovery.md)
 - [实践篇：先把第一周过完](threads/part-4/week-1.md)
 - [生活系统篇：把改变安放在日子里](threads/part-4/daily-system.md)
 - [节律篇：让小事穿过时间](threads/part-4/rhythm-and-compounding.md)
 
 ## 第五部：行动与长期改变
 
+- [第五部导语：行动与长期改变](threads/part-5/long-term-action.md)
 - [行动篇：九十天，把生活交还给自己](threads/part-5/90-day-plan.md)
 
 ## 后记

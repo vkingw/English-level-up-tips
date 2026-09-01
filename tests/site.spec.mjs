@@ -53,6 +53,23 @@ test("navigation follows the five-part book arc", () => {
   ]);
 });
 
+test("every part opens with a bilingual introduction", () => {
+  expect(zhNavigation.slice(1, 6).map(({ items }) => items[0].source)).toEqual([
+    "threads/part-1/open-input.md",
+    "threads/part-2/return-to-life.md",
+    "threads/part-3/amplify-ability.md",
+    "threads/part-4/practice-and-recovery.md",
+    "threads/part-5/long-term-action.md",
+  ]);
+  expect(enNavigation.slice(1, 6).map(({ items }) => items[0].source)).toEqual([
+    "en/threads/part-1/open-input.md",
+    "en/threads/part-2/return-to-life.md",
+    "en/threads/part-3/amplify-ability.md",
+    "en/threads/part-4/practice-and-recovery.md",
+    "en/threads/part-5/long-term-action.md",
+  ]);
+});
+
 test("reference collections follow the book and stay collapsed by default", () => {
   expect(zhNavigation.slice(7).map(({ text }) => text)).toEqual(["工具箱", "旧文归档", "词表"]);
   expect(enNavigation.slice(7).map(({ text }) => text)).toEqual(["Toolkit", "Archive", "Word Lists"]);
@@ -65,13 +82,13 @@ test("reference collections follow the book and stay collapsed by default", () =
 test("life-review chapters move from story through echoes into recovery", () => {
   const zhPractice = zhNavigation.find(({ text }) => text === "第二部：把自己放回生活");
   const enPractice = enNavigation.find(({ text }) => text === "Part II: Return to Life");
-  expect(zhPractice?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+  expect(zhPractice?.items.slice(1, 5).map(({ source }) => source)).toEqual([
     "threads/part-2/my-story.md",
     "threads/part-2/narrative-and-evidence.md",
     "threads/part-2/x-misc.md",
     "threads/part-2/recovery.md",
   ]);
-  expect(enPractice?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+  expect(enPractice?.items.slice(1, 5).map(({ source }) => source)).toEqual([
     "en/threads/part-2/my-story.md",
     "en/threads/part-2/narrative-and-evidence.md",
     "en/threads/part-2/x-misc.md",
@@ -397,6 +414,30 @@ test("first-week practice turns a baseline into a reviewable next step", async (
   await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Weekly Review Template", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Daily System", exact: true })).toBeVisible();
+});
+
+test("part introductions state a reading contract and hand off to the first chapter", async ({ page }) => {
+  await page.goto("./threads/part-1/open-input");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 1, name: "第一部：打开输入" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "本部要回答的问题" })).toBeVisible();
+  await expect(
+    zhMain.getByRole("link", { name: "序章：先不要急着改变人生", exact: true }),
+  ).toBeVisible();
+  await expect(
+    zhMain.getByRole("link", { name: "CEFR 目标与英语能力自测", exact: true }).last(),
+  ).toBeVisible();
+
+  await page.goto("./en/threads/part-5/long-term-action");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 1, name: "Part V: Long-Term Action" })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: "Questions for This Part" })).toBeVisible();
+  await expect(
+    enMain.getByRole("link", { name: "Rhythm: Let Small Things Travel Through Time", exact: true }),
+  ).toBeVisible();
+  await expect(
+    enMain.getByRole("link", { name: "90-Day Action Plan: Return Your Life to Yourself", exact: true }),
+  ).toBeVisible();
 });
 
 test("afterword closes the book with a return path", async ({ page }) => {

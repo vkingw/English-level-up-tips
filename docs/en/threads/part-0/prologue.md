@@ -67,4 +67,4 @@ That influence need not be grand. It only needs to be real.
 
 May you begin here not to become someone else, but to become more fully yourself.
 
-Next: [Understanding](../part-1/1-understanding.md)
+Next: [Part I: Open Input](../part-1/open-input.md)

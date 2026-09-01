@@ -177,4 +177,4 @@ updated: 2026-09-01
 
 你不需要在七天里证明自己是谁。你只需要为第八天，留下一条愿意再次走进去的路。
 
-上一篇：[创业篇：从野心到使命](../part-2/entrepreneurship.md) ｜ 下一篇：[生活系统篇：把改变安放在日子里](daily-system.md) ｜ [节律篇：让小事穿过时间](rhythm-and-compounding.md)
+上一篇：[第四部：实践与恢复](practice-and-recovery.md) ｜ 下一篇：[生活系统篇：把改变安放在日子里](daily-system.md) ｜ 延伸：[创业篇：从野心到使命](../part-2/entrepreneurship.md)

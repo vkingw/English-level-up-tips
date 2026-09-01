@@ -177,4 +177,4 @@ Finish the first week. Let facts filter direction, let an artifact leave a trace
 
 You do not need seven days to prove who you are. You need only leave day eight a road you are willing to enter again.
 
-Previous: [Entrepreneurship: From Ambition to Purpose](../part-2/entrepreneurship.md) | Next: [Daily System: Put Change into the Day](daily-system.md) | [Rhythm: Let Small Things Travel Through Time](rhythm-and-compounding.md)
+Previous: [Part IV: Practice and Recovery](practice-and-recovery.md) | Next: [Daily System: Put Change into the Day](daily-system.md) | Related: [Entrepreneurship: From Ambition to Purpose](../part-2/entrepreneurship.md)
