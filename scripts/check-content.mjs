@@ -283,6 +283,8 @@ const STALE_PATTERNS = [
   ["zhuanlan.zhihu.com/p/653380203", "访问受限的旧知乎链接"],
   ["10.1076/edre.7.1.403.3989", "已失效或错误的词汇研究 DOI"],
   ["10.1111/j.1467-9922.2011.00676.x", "指向其他文章的错误词汇研究 DOI"],
+  ["scholarspace.manoa.hawaii.edu/items/dfe724c0-c66f-4afe-9164-d6c6a59585d4", "已替换的 ScholarSpace 词汇研究入口"],
+  ["openaccess.wgtn.ac.nz/articles/journal_contribution/Unknown_vocabulary_density_and_reading_comprehension/12560354", "已替换的 Wellington 词汇研究入口"],
   ["Source (中文)", "英文页面混用中文来源标签"],
   ["dopamine detox method", "把多巴胺排毒写成已验证方法"],
   ["Lipu", "英文笔名拼写不一致"],

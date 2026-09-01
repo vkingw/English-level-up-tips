@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Switched the Hu & Nation citation from the intermittently timing-out Wellington repository page to its verified Crossref metadata record, keeping the source link stable for scheduled audits without implying full-text redistribution.
+- Switched the Hu & Nation citation from the slow ScholarSpace resolver to the verified Wellington Open Access record after the scheduled runner exposed repeated repository timeouts.
 - Marked two dead Wayback snapshots as unavailable and removed their 404 links while preserving the local historical text and attribution boundary.
 - Replaced the slow Hu & Nation DOI resolver with its verified ScholarSpace record so the vocabulary citation remains open and the scheduled link audit avoids a false timeout.
 - Limited the dedicated catalog probes to source Markdown under `docs/threads` so generated VitePress HTML cannot append quotes or tags to URLs and create false 404 reports.

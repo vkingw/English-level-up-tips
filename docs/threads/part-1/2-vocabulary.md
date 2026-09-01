@@ -184,7 +184,7 @@ Nation 等人的研究常用 **95%** 与 **98%** 词汇覆盖率讨论阅读条�
 
 ## 参考资料
 
-- [Hu & Nation (2000), Unknown Vocabulary Density and Reading Comprehension](https://scholarspace.manoa.hawaii.edu/items/dfe724c0-c66f-4afe-9164-d6c6a59585d4)
+- [Hu & Nation (2000), Unknown Vocabulary Density and Reading Comprehension - Crossref record](https://api.crossref.org/works/10.64152%2F10125%2F66973)
 - [Nation (2006), How Large a Vocabulary Is Needed for Reading and Listening?](https://doi.org/10.3138/cmlr.63.1.59)
 - [Schmitt, Jiang & Grabe (2011), The Percentage of Words Known in a Text and Reading Comprehension](https://doi.org/10.1111/j.1540-4781.2011.01146.x)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
