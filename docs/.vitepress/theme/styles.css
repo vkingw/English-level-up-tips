@@ -72,6 +72,37 @@
   margin: 0;
 }
 
+.vp-doc .book-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 0;
+  margin: 20px 0 28px;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+}
+
+.vp-doc .book-meta > * {
+  display: inline-flex;
+  align-items: center;
+}
+
+.vp-doc .book-meta > * + *::before {
+  content: "";
+  width: 1px;
+  height: 1em;
+  margin: 0 12px;
+  background: var(--vp-c-divider);
+}
+
+.vp-doc .book-meta a {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+}
+
+.vp-doc .book-meta a:hover {
+  color: var(--vp-c-brand-1);
+}
+
 .vp-doc img {
   max-height: 720px;
   object-fit: contain;
@@ -175,6 +206,14 @@
 
   .VPNavBarTitle .title {
     max-width: 100%;
+  }
+
+  .vp-doc .book-meta {
+    gap: 6px 16px;
+  }
+
+  .vp-doc .book-meta > * + *::before {
+    display: none;
   }
 
   .vp-doc h1 {

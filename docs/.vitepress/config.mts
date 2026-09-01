@@ -304,7 +304,6 @@ export default defineConfig({
         },
       },
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/byoungd/up" }],
     footer: {
       message: "正文 CC BY-NC 4.0；站点与工具代码 MIT。",
       copyright: "Copyright © 2017-present byoungd and contributors",

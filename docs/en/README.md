@@ -12,7 +12,11 @@ updated: 2026-09-01
 
 Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript begins with English and continues into AI learning, real projects, entrepreneurship, recovery, and the work of returning your life to yourself one small act at a time.
 
-[![GitHub stars](https://img.shields.io/github/stars/byoungd/up?style=flat&logo=github&label=Stars)](https://github.com/byoungd/up) [![Content license](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+<div class="book-meta" aria-label="Book information">
+  <span>Living manuscript</span>
+  <a href="https://github.com/byoungd/up">Source and corrections</a>
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/">Text CC BY-NC 4.0</a>
+</div>
 
 AI is making answers cheaper than they have ever been. In seconds, we can receive an explanation, a block of code, a plan, even a confident-sounding piece of life advice. What remains scarce is more demanding: **knowing which questions deserve pursuit, deciding which evidence deserves trust, turning suggestions into real work, and taking responsibility for the final judgment.**
 

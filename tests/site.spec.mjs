@@ -415,6 +415,35 @@ test("home page shows the latest updates", async ({ page }) => {
   }
 });
 
+test("home pages use book metadata without third-party image requests", async ({ page }) => {
+  const externalImages = [];
+  page.on("request", (request) => {
+    const url = new URL(request.url());
+    if (request.resourceType() === "image" && url.hostname !== "127.0.0.1") externalImages.push(url.href);
+  });
+
+  await page.goto("./");
+  const zhMeta = page.locator(".book-meta");
+  await expect(zhMeta).toContainText("持续更新书稿");
+  await expect(zhMeta.getByRole("link", { name: "源码与勘误" })).toHaveAttribute(
+    "href",
+    "https://github.com/byoungd/up",
+  );
+  await expect(zhMeta.getByRole("link", { name: "正文 CC BY-NC 4.0" })).toHaveAttribute(
+    "href",
+    "https://creativecommons.org/licenses/by-nc/4.0/",
+  );
+  await expect(page.locator(".VPSocialLink")).toHaveCount(0);
+  expect(externalImages).toEqual([]);
+
+  await page.goto("./en/");
+  const enMeta = page.locator(".book-meta");
+  await expect(enMeta).toContainText("Living manuscript");
+  await expect(enMeta.getByRole("link", { name: "Source and corrections" })).toBeVisible();
+  await expect(enMeta.getByRole("link", { name: "Text CC BY-NC 4.0" })).toBeVisible();
+  expect(externalImages).toEqual([]);
+});
+
 test("latest home photos stay within the deferred media budget", async ({ page, request }) => {
   await page.goto("./");
   const images = [
