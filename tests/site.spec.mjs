@@ -170,6 +170,25 @@ test("Part I core chapters end with a bilingual literary closing", () => {
   }
 });
 
+test("key story, narrative, entrepreneurship, and AI chapters end on their literary movement", () => {
+  const cases = [
+    ["threads/part-2/my-story.md", "结语：重来不是凯旋"],
+    ["en/threads/part-2/my-story.md", "Closing: Starting Again Is Not a Triumph"],
+    ["threads/part-2/narrative-and-evidence.md", "结语：让故事回到生活"],
+    ["en/threads/part-2/narrative-and-evidence.md", "Closing: Let the Story Return to Life"],
+    ["threads/part-2/entrepreneurship.md", "结语：让野心经过现实"],
+    ["en/threads/part-2/entrepreneurship.md", "Closing: Let Ambition Pass Through Reality"],
+    ["threads/part-3/1-ai-learning.md", "结语：把能力留在人身上"],
+    ["en/threads/part-3/1-ai-learning.md", "Closing: Keep the Ability with the Person"],
+  ];
+
+  for (const [source, ending] of cases) {
+    const text = readFileSync(resolve(process.cwd(), "docs", source), "utf8");
+    const headings = [...text.matchAll(/^## (.+)$/gm)].map((match) => match[1]);
+    expect(headings.at(-1), source).toBe(ending);
+  }
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
@@ -447,6 +466,21 @@ test("Part I literary closings remain discoverable after bibliography pruning", 
   const enSearchBox = page.locator(".VPLocalSearchBox");
   await enSearchBox.locator("input").fill("Hear the Person Behind the Sound");
   await expect(enSearchBox.getByRole("link", { name: /Listening/ }).first()).toBeVisible();
+});
+
+test("story and AI literary closings remain discoverable", async ({ page }) => {
+  await page.goto("./");
+  await page.getByRole("button", { name: "搜索", exact: true }).click();
+  const zhSearchBox = page.locator(".VPLocalSearchBox");
+  await zhSearchBox.locator("input").fill("重来不是凯旋");
+  await expect(zhSearchBox.getByRole("link", { name: /我的故事/ }).first()).toBeVisible();
+
+  await page.keyboard.press("Escape");
+  await page.goto("./en/");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  const enSearchBox = page.locator(".VPLocalSearchBox");
+  await enSearchBox.locator("input").fill("Keep the Ability with the Person");
+  await expect(enSearchBox.getByRole("link", { name: /Learning Anything with AI/ }).first()).toBeVisible();
 });
 
 test("language navigation and representative image work", async ({ page }) => {

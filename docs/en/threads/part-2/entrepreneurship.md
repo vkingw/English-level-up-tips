@@ -163,3 +163,11 @@ This is not the display of youthful success or the accusation of later disappoin
 - [Life Practice Toolkit](../../templates/life-practice-toolkit.md)
 - [AI Project Scorecard](../../templates/ai-project-scorecard.md)
 - [GitHub profile](https://github.com/byoungd)
+
+## Closing: Let Ambition Pass Through Reality
+
+I do not want to lose ambition. Without it, I would not have entered unfamiliar industries or returned to technology after failure. But ambition left untested can recruit everything nearby: a team's time, a family's sense of safety, a customer's trust, and the rest a body was meant to receive.
+
+If there is another venture, I want it to pass through plain realities: the problem exists, users choose the work, the ledger closes, promises can be delivered, and someone knows how to stop when it fails. It may grow more slowly and remain smaller, but it should leave the people inside it more ordered, not merely make the founder's story more dramatic.
+
+I no longer need a company to prove that I stood up after a low season. Work worth doing should remain useful after I leave the stage. Even if it never becomes a grand enterprise, it should not require the people who love me to keep paying for my certainty.

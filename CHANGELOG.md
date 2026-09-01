@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Gave My Story, Narrative and Evidence, Entrepreneurship, and Learning Anything with AI distinct bilingual final movements, moving update logs, related reading, and source disclosures before the chapter's actual ending.
 - Rewrote the final movement of all eight Part I chapters in both languages so CEFR, learning methods, vocabulary, listening, reading, speaking, writing, and AI now end with a distinct literary closing rather than a rubric, source list, or training schedule.
 - Removed hand-written previous/next paragraphs from 26 bilingual book-page pairs so literary conclusions remain the true ending of each chapter, while one authoritative footer owns continuous reading across every part boundary.
 - Expanded Part V with a full bilingual chapter on closing a 90-day cycle, transferring ability, choosing continuation or closure, protecting life foundations, and planning by seasons; integrated the chapter into the book's navigation and continuous reading arc.

@@ -219,6 +219,27 @@ function checkPartOneClosing(file) {
   }
 }
 
+function checkKeyLiteraryClosing(file) {
+  const source = relative(DOCS, file).split(sep).join("/");
+  const expectedClosings = new Map([
+    ["threads/part-2/my-story.md", /^结语：重来不是凯旋$/],
+    ["en/threads/part-2/my-story.md", /^Closing: Starting Again Is Not a Triumph$/],
+    ["threads/part-2/narrative-and-evidence.md", /^结语：让故事回到生活$/],
+    ["en/threads/part-2/narrative-and-evidence.md", /^Closing: Let the Story Return to Life$/],
+    ["threads/part-2/entrepreneurship.md", /^结语：让野心经过现实$/],
+    ["en/threads/part-2/entrepreneurship.md", /^Closing: Let Ambition Pass Through Reality$/],
+    ["threads/part-3/1-ai-learning.md", /^结语：把能力留在人身上$/],
+    ["en/threads/part-3/1-ai-learning.md", /^Closing: Keep the Ability with the Person$/],
+  ]);
+  const expected = expectedClosings.get(source);
+  if (!expected) return;
+
+  const headings = [...readFileSync(file, "utf8").matchAll(/^## (.+)$/gm)].map((heading) => heading[1]);
+  if (!expected.test(headings.at(-1) || "")) {
+    addError(file, 1, "关键故事与 AI 章节必须以指定文学结语收束，不能停在更新、目录或来源说明");
+  }
+}
+
 function checkBilingualParity(markdownFiles) {
   const publicFiles = markdownFiles.filter(
     (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
@@ -434,6 +455,7 @@ for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) 
   checkFrontmatter(file);
   checkManualBookPager(file);
   checkPartOneClosing(file);
+  checkKeyLiteraryClosing(file);
 }
 checkBilingualParity(markdownFiles);
 checkHeadingParity(markdownFiles);

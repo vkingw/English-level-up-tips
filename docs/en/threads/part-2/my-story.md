@@ -241,3 +241,11 @@ This visit made me more willing to believe that AI should not remain only as a c
 Going forward, I hope to keep exploring practical ways for AI to empower agriculture, forestry, animal husbandry, fisheries, and other parts of the real economy. In particular, I plan to provide free AI training for rural cooperatives, so that more ordinary people can understand AI, use AI, improve production efficiency, and discover new ways to grow their businesses.
 
 Seeking benefits for ordinary people and doing practical work should not be only a slogan. After going through the lowest points of my life, I increasingly believe that turning the ability to stand up again into something useful for others is one of the most grounded reasons to keep moving forward.
+
+## Closing: Starting Again Is Not a Triumph
+
+I do not want to write 2026 as a victory over 2022. A visit, a title, and a direction begun again cannot repay the costs of the past or prove that the future has arrived. They show only that I can sit at the table again, face a problem, and let reality answer it.
+
+Starting again is not becoming the person who believed he could solve everything. It is living with another kind of memory: companies can collapse, the body keeps accounts, choices can injure relationships, and a family's silence is not erased by later success. Knowing this, I still want to work, but no longer want to wager everyone's tomorrow on my own certainty.
+
+There is no triumph or complete reconciliation at the end of this story. I am still learning how to carry responsibility, make repairs, and keep new work from repeating old harm. Perhaps beginning again means only seeing the cost earlier, asking for help sooner, and leaving a way back for myself and others when stopping becomes necessary.

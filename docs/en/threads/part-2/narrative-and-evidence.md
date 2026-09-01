@@ -155,10 +155,10 @@ A reliable narrative review usually lets a reader:
 
 If these conditions are not met, do not rush to publish “my method”. Gather more samples, or label the piece clearly as a personal record.
 
+For practice, treat [My Story: Failure, Recovery, and Starting Again](my-story.md) as a personal sample still open to revision, use [Echoes: Do Not Romanticise Avoidance](x-misc.md) to inspect how an old explanation speaks through the present, then return to [Writing: From Draft to Verifiable Revision](../part-1/6-writing.md) and let a real reader's retelling change the narrative.
+
 ## Closing: Let the Story Return to Life
 
 We need stories to recognise ourselves across long days. But a story should not lock a life inside one conclusion. It may contain a turn without pretending the turn was written into the opening; it may carry responsibility without turning everyone else into a supporting character; it may offer direction while allowing new evidence to revise it.
 
 The best result of looking back is not proving that you were right. It is gaining a gentler, more accurate ability: I know where I came from, and I know which parts still require learning. To turn the next action in a narrative into a comparable sample, continue to [Evidence: How Change Becomes Visible](../part-3/5-evidence-and-transfer.md) and write baseline, delayed retention, and transfer back into life.
-
-Related chapters: [My Story: Failure, Recovery, and Starting Again](my-story.md) | [Echoes: Do Not Romanticise Avoidance](x-misc.md) | [Writing: From Draft to Verifiable Revision](../part-1/6-writing.md)

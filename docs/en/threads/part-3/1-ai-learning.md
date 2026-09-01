@@ -247,3 +247,11 @@ Put the three comparisons and cycle result into the [90-Day Cycle Map](../../tem
 - **Product information**: official help pages listed in [Learning English with AI](../part-1/7-ai.md); features, regions, and plans change.
 - **Project status**: China Token Cloud, `token.love`, public articles, and physical-industry plans carry affiliations or unverified scope; none is an independent review or proof of revenue.
 - **Last checked**: 24 August 2026. Recheck official product pages, external links, and project status before updating or using this guidance.
+
+## Closing: Keep the Ability with the Person
+
+AI readily creates more than wrong answers. It creates a premature sense of completion. The explanation is fluent, the code runs, the plan is arranged, and we begin to believe the problem has been understood. Answers can arrive much faster than judgment forms.
+
+Learning worth continuing should leave something the conversation cannot carry away: a more accurate question, a traceable source, a failed test, a judgment changed by evidence, an artifact another person can use, and a person who still knows what to do after the tool closes.
+
+Learning is not asking AI to arrive on your behalf. It is using the tool to reach what you could not yet see, then checking the ground yourself. Close the window, explain the work to a real person, complete the next step, and carry the result. If the ability follows you out of the conversation, it has begun to remain.
