@@ -235,6 +235,16 @@ export const enNavigation = [
   },
 ];
 
+const normalizeRoute = (link) => link.replace(/^\/+|\/+$/g, "");
+const zhRoutes = zhNavigation.flatMap(({ items }) => items.map(({ link }) => normalizeRoute(link)));
+const enRoutes = new Set(enNavigation.flatMap(({ items }) => items.map(({ link }) => normalizeRoute(link))));
+
+export const bilingualRoutePairs = zhRoutes.map((zh) => {
+  const en = zh ? `en/${zh}` : "en";
+  if (!enRoutes.has(en)) throw new Error(`缺少英文对应路由: /${zh}`);
+  return { zh, en };
+});
+
 const collapsedGroups = new Set(["工具箱", "旧文归档", "词表", "Toolkit", "Archive", "Word Lists"]);
 
 export function toSidebar(groups) {

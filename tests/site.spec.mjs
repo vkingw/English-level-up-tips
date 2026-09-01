@@ -1,7 +1,12 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { expect, test } from "@playwright/test";
-import { enNavigation, toSidebar, zhNavigation } from "../docs/.vitepress/navigation.mjs";
+import {
+  bilingualRoutePairs,
+  enNavigation,
+  toSidebar,
+  zhNavigation,
+} from "../docs/.vitepress/navigation.mjs";
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const headingFromSource = (source) => {
@@ -73,6 +78,14 @@ test("every part opens with a bilingual introduction", () => {
   ]);
 });
 
+test("every public navigation route has one bilingual counterpart", () => {
+  const zhRoutes = zhNavigation.flatMap(({ items }) => items.map(({ link }) => link.replace(/^\/+|\/+$/g, "")));
+  const enRoutes = enNavigation.flatMap(({ items }) => items.map(({ link }) => link.replace(/^\/+|\/+$/g, "")));
+  expect(bilingualRoutePairs).toHaveLength(zhRoutes.length);
+  expect(bilingualRoutePairs.map(({ zh }) => zh)).toEqual(zhRoutes);
+  expect(bilingualRoutePairs.map(({ en }) => en).sort()).toEqual(enRoutes.sort());
+});
+
 test("reference collections follow the book and stay collapsed by default", () => {
   expect(zhNavigation.slice(7).map(({ text }) => text)).toEqual(["工具箱", "旧文归档", "词表"]);
   expect(enNavigation.slice(7).map(({ text }) => text)).toEqual(["Toolkit", "Archive", "Word Lists"]);
@@ -138,6 +151,18 @@ test("page metadata follows the route", async ({ page }) => {
   );
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", /\/assets\/feature\.png$/);
   await expect(page.locator('meta[property="og:image:type"]')).toHaveAttribute("content", "image/png");
+  await expect(page.locator('link[rel="alternate"][hreflang="zh-CN"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/threads/part-1/2-vocabulary/",
+  );
+  await expect(page.locator('link[rel="alternate"][hreflang="en-US"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/en/threads/part-1/2-vocabulary/",
+  );
+  await expect(page.locator('link[rel="alternate"][hreflang="x-default"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/threads/part-1/2-vocabulary/",
+  );
   const chapterData = await structuredDataFromPage(page);
   expect(chapterData).toMatchObject({
     "@context": "https://schema.org",
@@ -207,6 +232,7 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
 
 test("brand and social assets load at their declared dimensions", async ({ page, request }) => {
   await page.goto("./");
+  await expect(page.locator('link[rel="icon"]')).toHaveAttribute("href", "/up/assets/logo.svg");
   for (const path of ["assets/feature.png", "assets/feature-en.png"]) {
     const response = await request.get(path);
     expect(response.status()).toBe(200);
@@ -234,6 +260,13 @@ test("brand and social assets load at their declared dimensions", async ({ page,
       }),
   );
   expect(logo).toEqual({ width: 48, height: 48 });
+
+  const sitemapResponse = await request.get("sitemap.xml");
+  expect(sitemapResponse.status()).toBe(200);
+  const sitemap = await sitemapResponse.text();
+  expect(sitemap).toContain('hreflang="zh-CN" href="https://byoungd.github.io/up/threads/part-1/2-vocabulary"');
+  expect(sitemap).toContain('hreflang="en-US" href="https://byoungd.github.io/up/en/threads/part-1/2-vocabulary"');
+  expect(sitemap).toContain('hreflang="x-default" href="https://byoungd.github.io/up/threads/part-1/2-vocabulary"');
 });
 
 test("AI resource-layer chapter has metadata and navigation", async ({ page }) => {

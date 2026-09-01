@@ -1,7 +1,7 @@
 import { existsSync, rmSync } from "node:fs";
 import { resolve } from "node:path";
 import { defineConfig } from "vitepress";
-import { enNavigation, toSidebar, zhNavigation } from "./navigation.mjs";
+import { bilingualRoutePairs, enNavigation, toSidebar, zhNavigation } from "./navigation.mjs";
 
 const origin = "https://byoungd.github.io";
 const base = "/up/";
@@ -12,6 +12,16 @@ const defaultDescription =
 const defaultDescriptionEn =
   "Life Level-up Guide helps ordinary people learn continuously, complete real projects, move through difficult seasons, and preserve evidence of growth in the AI era.";
 const editLinkPattern = "https://github.com/byoungd/up/edit/master/docs/:path";
+const bilingualRouteMap = new Map(
+  bilingualRoutePairs.flatMap(({ zh, en }) => [
+    [zh, { zh, en }],
+    [en, { zh, en }],
+  ]),
+);
+
+function absoluteRoute(route: string) {
+  return `${siteUrl}${route}${route ? "/" : ""}`;
+}
 
 function routeFromRelativePath(relativePath: string) {
   const clean = relativePath
@@ -70,7 +80,21 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   srcExclude: ["SUMMARY.md", "en/SUMMARY.md"],
-  sitemap: { hostname: siteUrl },
+  sitemap: {
+    hostname: siteUrl,
+    transformItems(items) {
+      return items.map((item) => {
+        const links = item.links || [];
+        const languageOf = ({ lang, hreflang }: { lang: string; hreflang?: string }) => lang || hreflang;
+        const chinese = links.find((link) => languageOf(link) === "zh-CN");
+        if (!chinese || links.some((link) => languageOf(link) === "x-default")) return item;
+        return {
+          ...item,
+          links: [...links, { lang: "x-default", hreflang: "x-default", url: chinese.url }],
+        };
+      });
+    },
+  },
   vite: { plugins: [privateAssetGuard()] },
   rewrites: {
     "README.md": "index.md",
@@ -79,6 +103,7 @@ export default defineConfig({
     "en/threads/archive/README.md": "en/threads/archive/index.md",
   },
   head: [
+    ["link", { rel: "icon", type: "image/svg+xml", href: `${base}assets/logo.svg` }],
     ["meta", { name: "theme-color", content: "#1f6f5c" }],
     ["meta", { name: "author", content: "Han Xiankai / 韩先凯 (Li Pu / 离谱) and contributors" }],
     ["meta", { name: "build-revision", content: buildRevision }],
@@ -209,6 +234,7 @@ export default defineConfig({
   transformHead({ pageData }) {
     const route = routeFromRelativePath(pageData.relativePath);
     const canonical = `${siteUrl}${route}${route ? "/" : ""}`;
+    const languagePair = bilingualRouteMap.get(route);
     const isEnglish = route === "en" || route.startsWith("en/");
     const isBookHome = route === "" || route === "en";
     const isChapter = route.startsWith("threads/") || route.includes("/threads/");
@@ -257,8 +283,16 @@ export default defineConfig({
       ...(dateModified ? { dateModified } : {}),
     };
     const jsonLd = JSON.stringify(structuredData).replaceAll("<", "\\u003c");
+    const alternateLinks = languagePair
+      ? [
+          ["link", { rel: "alternate", hreflang: "zh-CN", href: absoluteRoute(languagePair.zh) }],
+          ["link", { rel: "alternate", hreflang: "en-US", href: absoluteRoute(languagePair.en) }],
+          ["link", { rel: "alternate", hreflang: "x-default", href: absoluteRoute(languagePair.zh) }],
+        ]
+      : [];
     return [
       ["link", { rel: "canonical", href: canonical }],
+      ...alternateLinks,
       ["meta", { property: "og:type", content: isBookHome ? "book" : "article" }],
       ["meta", { property: "og:site_name", content: bookName }],
       ["meta", { property: "og:locale", content: isEnglish ? "en_US" : "zh_CN" }],
