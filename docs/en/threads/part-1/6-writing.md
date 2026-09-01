@@ -163,6 +163,8 @@ State audience, purpose, and criteria; produce a timed draft without AI; review 
 
 Score 0–2 for purpose, structure, evidence/detail, accuracy/range, and revision transfer. Keep draft, annotations, and final instead of showing only tool-polished work.
 
+Use the [Evidence Chain Template](../../templates/evidence-chain.md) to place the draft, immediate revision, delayed writing, and parallel task side by side instead of treating the final as the whole ability.
+
 ## Seven Days, Thirty Days, Twelve Weeks
 
 - **Seven days**: complete a real email, an explanation, and a 200–300 word text, each with one revision.

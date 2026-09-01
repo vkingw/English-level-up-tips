@@ -155,6 +155,8 @@ Choose a challenging but finishable article. Time the first read and state the g
 
 Score 0–2 for gist, structure, evidence, inference boundary, and delayed retelling. Unknown-word count is diagnostic, not a level judgment.
 
+Record the first read, argument reconstruction, delayed retelling, and related-topic transfer in the [Evidence Chain Template](../../templates/evidence-chain.md), not only the summary.
+
 ## Seven Days, Thirty Days, Twelve Weeks
 
 - **Seven days**: read four short texts on one topic; keep first summaries and a day-seven retelling.

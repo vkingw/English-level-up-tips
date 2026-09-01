@@ -37,6 +37,7 @@ It also keeps three kinds of claim separate:
   <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>Learn Anything with AI</strong>Use AI for questions, research, and feedback while keeping fact-checking and final judgment in human hands.</a>
   <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI Projects and Resource-layer Business</strong>Move from requirements, prototypes, code, and tests to model access, governance, enterprise delivery, and business validation.</a>
   <a class="guide-path" href="./threads/part-1/0-cefr"><strong>Foundation: English</strong>Use English to reach global knowledge, technical documentation, international AI tools, and cross-cultural work.</a>
+  <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI Relay Service Reference</strong>biezou.com publicly describes itself as a unified AI API gateway and admin dashboard; verify terms, pricing, privacy, and availability before use.</a>
   <a class="guide-path" href="./threads/part-4/my-story"><strong>Life Review and Recovery</strong>Acknowledge failure and cost, then rebuild judgment, order, and action after disruption.</a>
   <a class="guide-path" href="./projects"><strong>Author Projects and Practice</strong>Make affiliations, purpose, update dates, and non-sponsorship visible so trust does not depend on guesswork.</a>
 </div>

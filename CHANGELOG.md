@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bounded bilingual homepage reference to biezou.com as an external AI relay service, with attribution, terms/privacy caveats, and browser coverage for the outbound link.
+- Connected the shared Evidence Chain template to all eight bilingual foundation and AI-English chapters, so every skill path can continue from practice to delayed retention and transfer.
 - Updated the bilingual Prologue contract to route readers through the current Toolkit Overview, Evidence Chain, and Rhythm Ledger before the 90-day cycle, with browser coverage for the handoffs.
 - Reworked the bilingual Afterword into a fuller literary close that echoes the opening question, names the real weight of failure, and returns readers to evidence, rhythm, and practical next steps.
 - Expanded the bilingual Reader's Guide with a four-stage reading arc and explicit outputs, connecting input, real-life practice, evidence, rhythm, and the 90-day cycle.

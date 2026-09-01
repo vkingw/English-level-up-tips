@@ -205,6 +205,8 @@ Choose a real scenario and record an unscripted two-minute first take. Transcrib
 
 Score 0–2 for task completion, comprehensibility, organisation, interaction, and accuracy/range. A different accent is not an error; prioritise misunderstandings and persistent blocks.
 
+Put the unscripted first take, revised take, listener retelling, and unfamiliar-question transfer in the [Evidence Chain Template](../../templates/evidence-chain.md) to separate smoother speech from stable ability.
+
 ## Seven Days, Thirty Days, Twelve Weeks
 
 - **Seven days**: four 60–120 second outputs in one scenario, each with first and second takes.

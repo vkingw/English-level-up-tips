@@ -37,6 +37,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
   <a class="guide-path" href="./docs/threads/part-3/1-ai-learning.md"><strong>使用 AI 学习一切</strong>让 AI 帮助提问、研究和反馈，同时把事实核验与最终判断留在人手中。</a>
   <a class="guide-path" href="./docs/threads/part-3/2-ai-development-and-resource-layer.md"><strong>AI 项目与资源层创业</strong>从需求、原型、代码和测试走向模型接入、治理、企业交付与商业验证。</a>
   <a class="guide-path" href="./docs/threads/part-1/0-cefr.md"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档、国际 AI 工具与跨文化协作。</a>
+  <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI 中转服务参考</strong>biezou.com 公开首页将自己描述为统一 AI API 网关与管理面板；使用前请自行核对服务条款、价格、隐私与可用性。</a>
   <a class="guide-path" href="./docs/threads/part-2/my-story.md"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
   <a class="guide-path" href="./docs/projects.md"><strong>作者项目与现实实践</strong>公开关联、用途、更新时间和非赞助关系，让信任不必靠猜。</a>
 </div>

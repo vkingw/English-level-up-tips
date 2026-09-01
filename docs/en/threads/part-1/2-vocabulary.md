@@ -182,6 +182,8 @@ For each target chunk, ask whether you can:
 - produce it without a cue;
 - reuse it in a new context one week later.
 
+Put listening, production, delayed retention, and new-context reuse for each chunk into the [Evidence Chain Template](../../templates/evidence-chain.md), not only a card count.
+
 ## Sources
 
 - [Hu & Nation (2000), Unknown Vocabulary Density and Reading Comprehension - Crossref record](https://api.crossref.org/works/10.64152%2F10125%2F66973)

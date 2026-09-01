@@ -93,4 +93,6 @@ This rubric describes performance in one task; it does not announce that you hav
 
 When the four skills differ, track separate evidence chains. The value of a self-check is not a flattering label. It gives the next practice a point that can be compared.
 
+Use the [Evidence Chain Template](../../templates/evidence-chain.md) to keep the four time points together instead of preserving only a final score.
+
 Previous: [Home](../../README.md) | Next: [Learning Principles](1-understanding.md)

@@ -1,7 +1,7 @@
 ---
 title: "Learning Principles: Turn Effort into Evidence"
 description: Replace the learning pyramid and effort theatre with goals, retrieval, spacing, feedback, and recovery.
-updated: 2026-08-16
+updated: 2026-09-01
 ---
 
 # Learning Principles: Turn Effort into Evidence
@@ -134,6 +134,8 @@ AI can classify errors and create parallel practice, but it can misjudge facts, 
 - classify errors instead of calling everything “careless”;
 - replace exercises gradually with authentic material;
 - repeat the baseline conditions on day thirty.
+
+Place baseline, immediate performance, delayed retention, and transfer in the [Evidence Chain Template](../../templates/evidence-chain.md) to see what practice actually left behind.
 
 ### Twelve weeks: transfer
 

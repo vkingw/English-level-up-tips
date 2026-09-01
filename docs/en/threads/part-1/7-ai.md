@@ -147,6 +147,8 @@ On day 30 and week 12, retest with the same topic, similar time, and the same re
 
 After each retest, write at least one result and the next variable into the [90-Day Cycle Map](../../templates/90-day-cycle.md) instead of leaving practice inside the chat window.
 
+For the full change before and after AI and after transfer, use the [Evidence Chain Template](../../templates/evidence-chain.md) to keep the four time points together. The cycle map schedules the work; the evidence chain explains the result.
+
 ## 10. Seven Days, Thirty Days, Twelve Weeks
 
 ### Seven days: one complete loop

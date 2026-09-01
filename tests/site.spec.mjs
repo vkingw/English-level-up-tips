@@ -161,6 +161,20 @@ test("home pages link to the reader guide", async ({ page }) => {
   await expect(page.getByRole("link", { name: "Reader's Guide", exact: true }).first()).toBeVisible();
 });
 
+test("home pages expose biezou as a bounded external AI reference", async ({ page }) => {
+  await page.goto("./");
+  const zhBiezou = page.locator('a[href="https://biezou.com/"]').first();
+  await expect(zhBiezou).toBeVisible();
+  await expect(zhBiezou).toHaveAttribute("target", "_blank");
+  await expect(zhBiezou).toHaveAttribute("rel", /noopener/);
+
+  await page.goto("./en/");
+  const enBiezou = page.locator('a[href="https://biezou.com/"]').first();
+  await expect(enBiezou).toBeVisible();
+  await expect(enBiezou).toHaveAttribute("target", "_blank");
+  await expect(enBiezou).toHaveAttribute("rel", /noopener/);
+});
+
 test("evidence chapter hands off to practice and action", async ({ page }) => {
   await page.goto("./threads/part-3/5-evidence-and-transfer");
   const zhMain = page.locator("main");
@@ -271,6 +285,18 @@ test("prologue contract points to the current toolkit", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Toolkit Overview", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
+});
+
+test("foundation chapters hand off to the shared evidence chain", async ({ page }) => {
+  await page.goto("./threads/part-1/0-cefr");
+  await expect(page.locator("main").getByRole("link", { name: "证据链模板", exact: true }).first()).toBeVisible();
+  await page.goto("./threads/part-1/7-ai");
+  await expect(page.locator("main").getByRole("link", { name: "证据链模板", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/threads/part-1/0-cefr");
+  await expect(page.locator("main").getByRole("link", { name: "Evidence Chain Template", exact: true }).first()).toBeVisible();
+  await page.goto("./en/threads/part-1/7-ai");
+  await expect(page.locator("main").getByRole("link", { name: "Evidence Chain Template", exact: true }).first()).toBeVisible();
 });
 
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {

@@ -182,6 +182,8 @@ Nation 等人的研究常用 **95%** 与 **98%** 词汇覆盖率讨论阅读条�
 - 能否在没有提示的情况下产出；
 - 一周后能否在新语境复用。
 
+将词块的听辨、产出、延迟保持和新语境复用写进[证据链模板](../../templates/evidence-chain.md)，不要只记录卡片数量。
+
 ## 参考资料
 
 - [Hu & Nation (2000), Unknown Vocabulary Density and Reading Comprehension - Crossref record](https://api.crossref.org/works/10.64152%2F10125%2F66973)

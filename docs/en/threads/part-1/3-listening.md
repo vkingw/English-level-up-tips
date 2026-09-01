@@ -312,6 +312,8 @@ Keep the first answer, error timestamps, retelling, and delayed test. Playback t
 
 Score each 0–2: gist, key detail, segmentation, retelling comprehensibility, and delayed transfer. Repair the largest barrier instead of perfecting every sound at once.
 
+Put the first answer, immediate retelling, delayed test, and cross-material transfer in the [Evidence Chain Template](../../templates/evidence-chain.md) so change can be compared beyond playback time.
+
 ## Seven Days, Thirty Days, Twelve Weeks
 
 - **Seven days**: four 2–3 minute sessions; compare parallel material on days 1 and 7.
