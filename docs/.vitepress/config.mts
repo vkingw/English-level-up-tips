@@ -60,7 +60,9 @@ function splitSearchSections(file: string, html: string) {
   const normalizedFile = file.replaceAll("\\", "/");
   const titleOnly = [
     "/templates/reader-field-note.md",
+    "/templates/interview-evidence.md",
     "/threads/part-4/family-learning.md",
+    "/threads/part-1/8-job-search-english.md",
   ].some((suffix) => normalizedFile.endsWith(suffix));
   const headingOnly = [
     "/docs/README.md",

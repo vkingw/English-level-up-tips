@@ -27,6 +27,7 @@ export const zhNavigation = [
       page("5. 口语训练", "/threads/part-1/5-speaking"),
       page("6. 写作训练", "/threads/part-1/6-writing"),
       page("7. 用 AI 学英语", "/threads/part-1/7-ai"),
+      page("8. 求职英语与远程协作", "/threads/part-1/8-job-search-english"),
     ],
   },
   {
@@ -90,6 +91,7 @@ export const zhNavigation = [
       page("节律账本模板", "/templates/rhythm-ledger"),
       page("每周复盘模板", "/templates/weekly-review"),
       page("英语诊断模板", "/templates/english-diagnostic"),
+      page("求职英语证据卡", "/templates/interview-evidence"),
       page("词汇审计模板", "/templates/vocabulary-audit"),
       page("听力资源审计卡", "/templates/listening-audit"),
       page("阅读证据卡", "/templates/reading-evidence"),
@@ -147,6 +149,7 @@ export const enNavigation = [
       page("5. Speaking", "/en/threads/part-1/5-speaking"),
       page("6. Writing", "/en/threads/part-1/6-writing"),
       page("7. Learning English with AI", "/en/threads/part-1/7-ai"),
+      page("8. Job-search English and Remote Work", "/en/threads/part-1/8-job-search-english"),
     ],
   },
   {
@@ -213,6 +216,7 @@ export const enNavigation = [
       page("Rhythm Ledger", "/en/templates/rhythm-ledger"),
       page("Weekly Review", "/en/templates/weekly-review"),
       page("English Diagnostic", "/en/templates/english-diagnostic"),
+      page("Job-search English Evidence Card", "/en/templates/interview-evidence"),
       page("Vocabulary Audit", "/en/templates/vocabulary-audit"),
       page("Listening Resource Audit", "/en/templates/listening-audit"),
       page("Reading Evidence Card", "/en/templates/reading-evidence"),

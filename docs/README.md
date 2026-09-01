@@ -46,6 +46,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
   <a class="guide-path" href="./threads/part-3/1-ai-learning"><strong>使用 AI 学习一切</strong>让 AI 帮助提问、研究和反馈，同时把事实核验与最终判断留在人手中。</a>
   <a class="guide-path" href="./threads/part-3/2-ai-development-and-resource-layer"><strong>AI 项目与资源层创业</strong>从需求、原型、代码和测试走向模型接入、治理、企业交付与商业验证。</a>
   <a class="guide-path" href="./threads/part-1/0-cefr"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档、国际 AI 工具与跨文化协作。</a>
+  <a class="guide-path" href="./threads/part-1/8-job-search-english"><strong>海外求职与远程协作</strong>把岗位描述拆成招聘沟通、项目说明、陌生追问和异步写作，用真实样本判断这一场面试还缺什么。</a>
   <a class="guide-path" href="./threads/part-4/family-learning"><strong>家庭与中学生学习</strong>让孩子参与定义目标，让家长保护环境、隐私与安全，用十四天证据替代监控、代做和焦虑加码。</a>
   <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI 中转服务参考</strong>biezou.com 公开首页将自己描述为统一 AI API 网关与管理面板；使用前请自行核对服务条款、价格、隐私与可用性。</a>
   <a class="guide-path" href="./threads/part-2/my-story"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
@@ -61,7 +62,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | 部分 | 核心问题 | 入口 |
 | --- | --- | --- |
 | 阅读指南与序章 | 我从哪里进入，又为什么要重新开始？ | [阅读指南](threads/part-0/reader-guide.md) · [先不要急着改变人生](threads/part-0/prologue.md) |
-| 第一部：打开输入 | 怎样建立英语和世界之间的通道？ | [本部导语](threads/part-1/open-input.md) · [CEFR 自测](threads/part-1/0-cefr.md) · [词汇、听力、阅读、口语、写作](threads/part-1/2-vocabulary.md) |
+| 第一部：打开输入 | 怎样建立英语和世界之间的通道，并把能力带进面试与远程协作？ | [本部导语](threads/part-1/open-input.md) · [CEFR 自测](threads/part-1/0-cefr.md) · [词汇、听力、阅读、口语、写作](threads/part-1/2-vocabulary.md) · [求职英语](threads/part-1/8-job-search-english.md) |
 | 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [本部导语](threads/part-2/return-to-life.md) · [我的故事](threads/part-2/my-story.md) · [叙事与证据](threads/part-2/narrative-and-evidence.md) · [恢复、选择、关系与创业](threads/part-2/recovery.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [本部导语](threads/part-3/amplify-ability.md) · [AI 学习](threads/part-3/1-ai-learning.md) · [注意力、作品与证据](threads/part-3/3-attention-and-judgment.md) · [项目实践](threads/part-3/2-ai-development-and-resource-layer.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、家庭与日常，并在需要时保护未成年学习者的主体性？ | [本部导语](threads/part-4/practice-and-recovery.md) · [第一周实践](threads/part-4/week-1.md) · [家庭学习](threads/part-4/family-learning.md) · [生活系统](threads/part-4/daily-system.md) · [节律](threads/part-4/rhythm-and-compounding.md) |

@@ -201,7 +201,9 @@ test("Part I core chapters end with a bilingual literary closing", () => {
     ...(enPart?.items.slice(1).map(({ source }) => ({ source, ending: /^Closing(?:[:：]|$)/ })) || []),
   ];
 
-  expect(cases).toHaveLength(16);
+  expect(cases).toHaveLength(
+    (zhPart?.items.slice(1).length || 0) + (enPart?.items.slice(1).length || 0),
+  );
   for (const { source, ending } of cases) {
     const text = readFileSync(resolve(process.cwd(), "docs", source), "utf8");
     const headings = [...text.matchAll(/^## (.+)$/gm)].map((match) => match[1]);
@@ -637,6 +639,8 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /把记忆交给文件，把判断留给自己/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("家庭学习篇：把成长还给孩子");
   await expect(zhSearchBox.getByRole("link", { name: /家庭学习篇：把成长还给孩子/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("求职英语篇：把能力带进面试与远程协作");
+  await expect(zhSearchBox.getByRole("link", { name: /求职英语篇：把能力带进面试与远程协作/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
@@ -650,6 +654,8 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Give Memory to the File and Keep Judgment with Yourself/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Family Learning: Return Ownership of Growth to the Learner");
   await expect(enSearchBox.getByRole("link", { name: /Family Learning: Return Ownership of Growth to the Learner/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Job-search English: Bring Ability into Interviews and Remote Work");
+  await expect(enSearchBox.getByRole("link", { name: /Job-search English: Bring Ability into Interviews and Remote Work/ }).first()).toBeVisible();
 });
 
 test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
@@ -798,12 +804,20 @@ test("home pages link to the reader guide", async ({ page }) => {
     "href",
     "./threads/part-4/family-learning",
   );
+  await expect(page.getByRole("link", { name: /海外求职与远程协作/ })).toHaveAttribute(
+    "href",
+    "./threads/part-1/8-job-search-english",
+  );
 
   await page.goto("./en/");
   await expect(page.getByRole("link", { name: "Reader's Guide", exact: true }).first()).toBeVisible();
   await expect(page.getByRole("link", { name: /Family and Middle-School Learning/ })).toHaveAttribute(
     "href",
     "./threads/part-4/family-learning",
+  );
+  await expect(page.getByRole("link", { name: /Global Job Search and Remote Work/ })).toHaveAttribute(
+    "href",
+    "./threads/part-1/8-job-search-english",
   );
 });
 
@@ -873,6 +887,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(zhMain.getByRole("link", { name: "节律账本", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "生活进阶工作表", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "家庭学习共同协议", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "求职英语证据卡", exact: true }).first()).toBeVisible();
 
   await page.goto("./en/templates/toolkit");
   const enMain = page.locator("main");
@@ -881,6 +896,45 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Life Practice Toolkit", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Family Learning Agreement", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Job-search English Evidence Card", exact: true }).first()).toBeVisible();
+});
+
+test("job-search English maps one real role into interview and remote-work evidence", async ({ page }) => {
+  await page.goto("./threads/part-1/8-job-search-english");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: /CEFR 是坐标，不是录用线/ })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: /从岗位描述提取语言地图/ })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: /互动修复是面试能力/ })).toBeVisible();
+  await expect(zhMain).toContainText("远程岗位还在测试写作");
+  await expect(zhMain).toContainText("虚构项目、职责、数据、客户或结果");
+  await expect(zhMain.getByRole("link", { name: "求职英语证据卡", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/threads/part-1/8-job-search-english");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: /CEFR Is a Coordinate, Not a Hiring Cut-off/ })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: /Extract a Language Map from the Job Description/ })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: /Repair Is Interview Ability/ })).toBeVisible();
+  await expect(enMain).toContainText("Remote Roles Also Test Writing");
+  await expect(enMain).toContainText("Invent projects, responsibilities, data, customers, or results");
+  await expect(enMain.getByRole("link", { name: "Job-search English Evidence Card", exact: true }).first()).toBeVisible();
+});
+
+test("job-search evidence cards preserve unfamiliar follow-ups, async writing, and integrity", async ({ page }) => {
+  await page.goto("./templates/interview-evidence");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "岗位语言地图" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "听力与修复" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "十四天比较" })).toBeVisible();
+  await expect(zhMain).toContainText("未经明确允许，不在真实面试中使用隐蔽实时提示");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "面试后关账" })).toBeVisible();
+
+  await page.goto("./en/templates/interview-evidence");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Role Language Map" })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: "Listening and Repair" })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: "Fourteen-Day Comparison" })).toBeVisible();
+  await expect(enMain).toContainText("Do not use covert real-time prompting in a live interview");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Post-interview Close" })).toBeVisible();
 });
 
 test("family learning protects learner agency, school reality, and children's data", async ({ page }) => {
@@ -1151,6 +1205,12 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
     {
       route: "./threads/part-1/7-ai",
       previous: "/up/threads/part-1/6-writing",
+      next: "/up/threads/part-1/8-job-search-english",
+      manual: /^(?:上一篇|下一篇|下一部)[：:]/,
+    },
+    {
+      route: "./threads/part-1/8-job-search-english",
+      previous: "/up/threads/part-1/7-ai",
       next: "/up/threads/part-2/return-to-life",
       manual: /^(?:上一篇|下一篇|下一部)[：:]/,
     },
@@ -1247,6 +1307,12 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
     {
       route: "./en/threads/part-1/7-ai",
       previous: "/up/en/threads/part-1/6-writing",
+      next: "/up/en/threads/part-1/8-job-search-english",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-1/8-job-search-english",
+      previous: "/up/en/threads/part-1/7-ai",
       next: "/up/en/threads/part-2/return-to-life",
       manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
     },

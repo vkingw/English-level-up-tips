@@ -16,6 +16,7 @@ If you do not know where to begin, choose one sheet. An incomplete sheet used on
 | --- | --- | --- | --- |
 | There are too many tools and I do not know how to fill them | [Toolkit Walkthrough](toolkit-walkthrough.md) | [Learning State](learning-state.md) | A synthetic example cannot prove the same plan fits you |
 | No clear goal or baseline | [Learning State](learning-state.md) | [English Diagnostic](english-diagnostic.md) | It cannot choose a permanently correct direction |
+| Preparing for a global role, English interview, or remote collaboration | [Job-search English Evidence Card](interview-evidence.md) | [Job-search English](../threads/part-1/8-job-search-english.md) | It cannot guarantee an offer or turn one level into a universal hiring line |
 | Starting a 90-day cycle | [90-Day Cycle Map](90-day-cycle.md) | [Rhythm Ledger](rhythm-ledger.md) | It cannot guarantee success or persistence |
 | Weekly rhythm keeps breaking | [Rhythm Ledger](rhythm-ledger.md) | [Weekly Review](weekly-review.md) | It cannot turn fatigue, illness, or responsibility into laziness |
 | I have samples but cannot tell whether anything really changed | [Evidence Chain](evidence-chain.md) | [Evidence](../threads/part-3/5-evidence-and-transfer.md) | It cannot turn one smooth performance into stable ability |
@@ -35,7 +36,7 @@ For a first use, follow the complete [synthetic cross-session AI-learning case](
 
 1. **Locate**: use [Learning State](learning-state.md) or [English Diagnostic](english-diagnostic.md) to name the real situation, baseline, and acceptance standard;
 2. **Choose**: use the [90-Day Cycle Map](90-day-cycle.md) for a longer cycle, or the [Rhythm Ledger](rhythm-ledger.md) for one week;
-3. **Practice**: choose a vocabulary, listening, reading, speaking, or writing evidence card and complete your first version yourself;
+3. **Practice**: choose a vocabulary, listening, reading, speaking, or writing evidence card; when the goal is an interview, use the [Job-search English Evidence Card](interview-evidence.md) to include unfamiliar follow-ups and asynchronous writing, and complete your own first version;
 4. **Collaborate**: when AI is useful, fill the [AI Task Brief](ai-task-brief.md), then record the collaboration and your closed-AI performance in the [AI Learning Log](ai-learning-log.md);
 5. **Deliver**: for a real audience, use the [Artifact Brief and Delivery Card](artifact-brief.md); after a release or pilot, use the [AI Project Scorecard](ai-project-scorecard.md) to record quality, cost, risk, and rollback;
 6. **Review**: use the [Evidence Chain](evidence-chain.md) to place the first version, immediate performance, delayed retention, and transfer together, then use the [Weekly Review](weekly-review.md) to change one condition;

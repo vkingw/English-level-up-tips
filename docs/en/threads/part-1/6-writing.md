@@ -1,7 +1,7 @@
 ---
 title: "Writing: From Draft to Verifiable Revision"
 description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Writing: From Draft to Verifiable Revision
@@ -148,6 +148,8 @@ I want to remain an honest writer: the work may be imperfect, but it should not 
 - **B1**: write coherent experiences, email, or familiar-topic texts with basic reasons.
 - **B2**: organise detailed text for an audience, compare positions, and support them with relevant evidence.
 - **C1–C2**: adapt flexibly to complex purposes and registers, synthesise sources, and revise precisely.
+
+Remote roles test writing as work: recruiter follow-up, take-home explanation, project status, risk, decision, and cross-time-zone handover must remain usable without another meeting. Continue to [Job-search English](8-job-search-english.md) and use the [Job-search English Evidence Card](../../templates/interview-evidence.md) so a real reader can retell what happened, what needs a decision, and who continues when.
 
 ## Inspectable Practice and Feedback
 

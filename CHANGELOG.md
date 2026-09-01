@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual Job-search English chapter that turns one real global or remote role into recruiter, project, technical, behavioural, asynchronous-writing, and interaction-repair tasks, with an unscripted baseline, story bank, AI integrity boundaries, fourteen-day sprint, role gates, and post-interview close.
+- Added a bilingual private Job-search English Evidence Card for role mapping, unfamiliar follow-ups, asynchronous handover, repair, delayed retesting, transfer, confidentiality, recording, and permitted AI use.
+- Connected CEFR, speaking, writing, AI-English, the Reader's Guide, homepage, Toolkit, glossary, and Part I reading arc to role-specific evidence rather than presenting one CEFR level as a universal hiring threshold.
 - Added a bilingual Family Learning chapter for roughly middle-school-age learners, guardians, and teachers, with learner agency, role boundaries, a seven-day artifact path, a synthetic English example, five AI safety gates, capacity modes, feedback boundaries, pause conditions, and a fourteen-day decision.
 - Added a bilingual private Family Learning Agreement that makes learner and guardian write separately, protects school and children's data, limits monitoring and substituted work, and reviews both learner evidence and adult support after fourteen days.
 - Added a home-page and Reader's Guide route for families, integrated the optional branch between First Week Practice and Daily System, and documented UNESCO's human-centred educational AI guidance without substituting it for local school or platform rules.

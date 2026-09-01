@@ -19,6 +19,7 @@
 - [5. 口语训练](threads/part-1/5-speaking.md)
 - [6. 写作训练](threads/part-1/6-writing.md)
 - [7. 用 AI 学英语](threads/part-1/7-ai.md)
+- [8. 求职英语与远程协作](threads/part-1/8-job-search-english.md)
 
 ## 第二部：把自己放回生活
 
@@ -70,6 +71,7 @@
 - [节律账本模板](templates/rhythm-ledger.md)
 - [每周复盘模板](templates/weekly-review.md)
 - [英语诊断模板](templates/english-diagnostic.md)
+- [求职英语证据卡](templates/interview-evidence.md)
 - [词汇审计模板](templates/vocabulary-audit.md)
 - [听力资源审计卡](templates/listening-audit.md)
 - [阅读证据卡](templates/reading-evidence.md)

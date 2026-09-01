@@ -16,6 +16,7 @@ updated: 2026-09-02
 | --- | --- | --- | --- |
 | 工具很多，不知道实际怎样填写 | [工具箱实战](toolkit-walkthrough.md) | [学习状态](learning-state.md) | 合成示例不能证明同样的计划适合你 |
 | 不知道目标或基线 | [学习状态](learning-state.md) | [英语能力诊断](english-diagnostic.md) | 不能替你决定一个永远正确的方向 |
+| 准备海外岗位、英文面试或远程协作 | [求职英语证据卡](interview-evidence.md) | [求职英语篇](../threads/part-1/8-job-search-english.md) | 不能保证 offer，也不能把一个等级变成统一录用线 |
 | 想开始一个 90 天周期 | [九十日行动总表](90-day-cycle.md) | [节律账本](rhythm-ledger.md) | 不能保证计划一定成功或持续 |
 | 每周节奏反复中断 | [节律账本](rhythm-ledger.md) | [每周复盘](weekly-review.md) | 不能把疲惫、疾病或责任解释成懒惰 |
 | 有样本却说不清是否真的改变 | [证据链](evidence-chain.md) | [证据篇](../threads/part-3/5-evidence-and-transfer.md) | 不能把一次顺利表现推成稳定能力 |
@@ -35,7 +36,7 @@ updated: 2026-09-02
 
 1. **定位**：用[学习状态](learning-state.md)或[英语能力诊断](english-diagnostic.md)写清真实场景、当前基线和完成标准；
 2. **选择**：如果周期较长，用[九十日行动总表](90-day-cycle.md)；如果只安排本周，用[节律账本](rhythm-ledger.md)；
-3. **练习**：按任务选择词汇、听力、阅读、口语或写作证据卡，先完成自己的第一版；
+3. **练习**：按任务选择词汇、听力、阅读、口语或写作证据卡；若目标是岗位面试，用[求职英语证据卡](interview-evidence.md)把陌生追问和异步写作一起纳入，先完成自己的第一版；
 4. **协作**：需要 AI 时，先填[AI 任务简报](ai-task-brief.md)，再把协作过程和关闭 AI 后的表现写进[AI 学习记录](ai-learning-log.md)；
 5. **交付**：有真实受众时使用[作品简报与交付卡](artifact-brief.md)，发布或试点后用[AI 项目评分卡](ai-project-scorecard.md)记录质量、成本、风险和回滚；
 6. **复查**：用[证据链](evidence-chain.md)把首版、即时表现、延迟保持与迁移放在一起，再用[每周复盘](weekly-review.md)决定只改变哪一个条件；

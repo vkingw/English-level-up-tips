@@ -47,6 +47,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Evidence chain** | One page connecting baseline, immediate performance, delayed retention, transfer, and next step | [Evidence Chain Template](../templates/evidence-chain.md) · [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
 | **Variation** | Keep the core action while changing the topic, listener, time, or constraint to test whether learning is real | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 | **Learner agency** | The learner participates in defining the goal, submits an own first version, states capacity, questions feedback, and carries responsibility appropriate to age and context | [Family Learning](../threads/part-4/family-learning.md) |
+| **Role language map** | Extract recruiter communication, project explanation, technical follow-up, asynchronous writing, and other language tasks from one real role and connect them to existing evidence | [Job-search English](../threads/part-1/8-job-search-english.md) |
 
 ## Tools and Delivery
 
@@ -58,6 +59,8 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Evidence card** | A template for preserving a first take, feedback, and retest for one language skill | [Four-skill path](../threads/part-0/prologue.md) |
 | **Reader Field Note** | A private-first two-pass record of reading entry, real action, immediate result, delayed retest, transfer, and editorial feedback | [Reader Field Note](../templates/reader-field-note.md) |
 | **Family Learning Agreement** | A private worksheet where learner and guardian record goals, concerns, support, AI and data boundaries separately, then review fourteen days of evidence together | [Family Learning Agreement](../templates/family-learning-agreement.md) |
+| **Job-search English Evidence Card** | One record connecting a real role, unscripted baseline, stories, unfamiliar follow-ups, asynchronous writing, delayed retest, and integrity boundaries | [Job-search English Evidence Card](../templates/interview-evidence.md) |
+| **Interaction repair** | When hearing, scope, or knowledge is incomplete, request repetition, confirm, ask for thinking time, and summarise agreement | [Speaking](../threads/part-1/5-speaking.md) · [Job-search English](../threads/part-1/8-job-search-english.md) |
 | **Artifact** | An output others can read, use, question, or improve; not necessarily a product | [Artifacts](../threads/part-3/4-artifacts-and-delivery.md) |
 | **Delivery** | Completing work under a real audience, user, or constraint and accepting the result | [90-Day Action Plan](../threads/part-5/90-day-plan.md) |
 | **Human gate** | AI may assist, but a person confirms facts, permissions, privacy, cost, and final judgment | [AI Project Development](../threads/part-3/2-ai-development-and-resource-layer.md) |

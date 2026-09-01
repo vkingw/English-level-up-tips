@@ -1,7 +1,7 @@
 ---
 title: "Learning English with AI: From Practice to Real Delivery"
 description: Use English baselines, authentic material, guided practice, four-skill feedback, and delayed retesting instead of outsourcing English ability to one AI product.
-updated: 2026-09-01
+updated: 2026-09-02
 sources_checked: 2026-08-24
 ---
 
@@ -148,6 +148,8 @@ On day 30 and week 12, retest with the same topic, similar time, and the same re
 After each retest, write at least one result and the next variable into the [90-Day Cycle Map](../../templates/90-day-cycle.md) instead of leaving practice inside the chat window.
 
 For the full change before and after AI and after transfer, use the [Evidence Chain Template](../../templates/evidence-chain.md) to keep the four time points together. The cycle map schedules the work; the evidence chain explains the result.
+
+For interview preparation, AI may simulate a recruiter, technical peer, or customer from a public job description, ask unfamiliar follow-ups after your first version, and classify errors. It must not invent experience, write a signed application or take-home explanation for concealed use, or feed covert answers into a real interview without permission. Use [Job-search English](8-job-search-english.md) and the [Job-search English Evidence Card](../../templates/interview-evidence.md) for the complete workflow.
 
 ## 10. Seven Days, Thirty Days, Twelve Weeks
 

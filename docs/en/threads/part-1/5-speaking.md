@@ -1,7 +1,7 @@
 ---
 title: "Speaking: Make Meaning Arrive"
 description: Use CEFR goals and recording evidence to train task completion, comprehensibility, fluency, interaction, and revision.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Speaking: Make Meaning Arrive
@@ -198,6 +198,8 @@ Further reading: [Why we’re afraid to talk to strangers](https://github.com/by
 - **B1**: explain experiences, plans, and reasons coherently and handle common follow-ups.
 - **B2**: participate fairly naturally, explain specialist matters, and maintain a position.
 - **C1–C2**: organise flexibly and negotiate fine meaning in complex or pressured settings.
+
+For job search or remote work, connect speaking practice to [Job-search English](8-job-search-english.md). Project explanation is only the first layer; practise unfamiliar follow-ups, thinking time, scope confirmation, admission of unknowns, and summaries of agreement. Use the [Job-search English Evidence Card](../../templates/interview-evidence.md) to keep interaction and asynchronous writing inside one role-specific record.
 
 ## Inspectable Practice and Feedback
 

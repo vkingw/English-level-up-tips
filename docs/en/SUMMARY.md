@@ -19,6 +19,7 @@
 - [5. Speaking](threads/part-1/5-speaking.md)
 - [6. Writing](threads/part-1/6-writing.md)
 - [7. Learning English with AI](threads/part-1/7-ai.md)
+- [8. Job-search English and Remote Work](threads/part-1/8-job-search-english.md)
 
 ## Part II: Return to Life
 
@@ -70,6 +71,7 @@
 - [Rhythm Ledger](templates/rhythm-ledger.md)
 - [Weekly Review](templates/weekly-review.md)
 - [English Diagnostic](templates/english-diagnostic.md)
+- [Job-search English Evidence Card](templates/interview-evidence.md)
 - [Vocabulary Audit](templates/vocabulary-audit.md)
 - [Listening Resource Audit](templates/listening-audit.md)
 - [Reading Evidence Card](templates/reading-evidence.md)

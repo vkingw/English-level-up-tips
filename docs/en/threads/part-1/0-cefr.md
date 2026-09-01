@@ -1,7 +1,7 @@
 ---
 title: CEFR Goals and English Self-check
 description: Use A1-C2 can-do descriptors to establish a four-skill baseline and turn it into verifiable 7-day, 30-day, and 12-week work.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # CEFR Goals and English Self-check
@@ -48,6 +48,8 @@ A useful goal contains a **context, task, quality threshold, deadline, and evide
 > In 12 weeks, I can deliver a five-minute project update covering context, progress, and risk. Listeners can restate the key points without switching language. I will keep recordings and feedback from weeks 1, 4, 8, and 12.
 
 “Move from B1 to B2” is a direction, not a complete training goal. Progress is rarely linear and cannot be guaranteed by hours alone.
+
+When the real goal is a global role or remote interview, do not turn B1, B2, or C1 into a universal hiring line. Continue to [Job-search English](8-job-search-english.md), test project explanation, unfamiliar follow-up, repair, and asynchronous writing against one real role, then let the component evidence choose the next variable.
 
 ## Seven-day Start
 

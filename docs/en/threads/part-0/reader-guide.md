@@ -26,6 +26,10 @@ Read the [Prologue: Do Not Rush to Change Your Life](prologue.md), then open the
 
 Use [CEFR Goals and Self-check](../part-1/0-cefr.md) to name the context and baseline, then enter the listening, reading, speaking, or writing chapters. Choose one main line at a time and use the relevant [evidence cards](../../reference/glossary.md#tools-and-delivery) to preserve a first sample, feedback, and a retest. More study is not necessarily deeper study; completing the action in a new situation is where ability starts to show.
 
+### I am preparing for a global role or remote interview
+
+Read [Job-search English: Bring Ability into Interviews and Remote Work](../part-1/8-job-search-english.md) before using one CEFR label to decide whether you are “good enough”. Choose one real role and use the [Job-search English Evidence Card](../../templates/interview-evidence.md) for an unscripted project explanation, unfamiliar follow-up, asynchronous update, and repair. After fourteen days, decide whether to apply while practising, repair one high-risk gap, or defer this role.
+
 ### I have many resources but no artifact
 
 Read [Learning Anything with AI](../part-3/1-ai-learning.md), then record the problem, sources, privacy boundary, and human judgment in the [AI Task Brief](../../templates/ai-task-brief.md). Use the [Artifact Brief and Delivery Card](../../templates/artifact-brief.md) to name the audience, completion standard, acceptance owner, and rollback. A chat log can help you begin. It cannot deliver for you.
