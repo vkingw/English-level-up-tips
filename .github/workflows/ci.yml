@@ -32,7 +32,7 @@ jobs:
           retention-days: 14
       - name: Generated files are committed
         run: |
-          npm run sync
+          npm run sync:content
           git diff --exit-code
 
   smoke:

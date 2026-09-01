@@ -53,6 +53,7 @@ DOWNLOADS = ROOT / "docs/public/downloads"
 PUBLIC_OUTPUT = DOWNLOADS
 LOCAL_OUTPUT = ROOT / "output/pdf"
 CHECK_ONLY = "--check" in sys.argv
+CHECK_EXACT = "--check-exact" in sys.argv
 PAGE_SIZE = (6 * inch, 9.6 * inch)
 PAGE_WIDTH, PAGE_HEIGHT = PAGE_SIZE
 LEFT_MARGIN = 17 * mm
@@ -133,6 +134,107 @@ def strip_namespace(tag: str) -> str:
 
 def clean_text(value: str | None) -> str:
     return (value or "").replace("\u200b", "").replace("\ufeff", "")
+
+
+def dereference(value):
+    return value.get_object() if hasattr(value, "get_object") else value
+
+
+def normalized_font_name(value: object) -> str:
+    name = str(value or "").removeprefix("/")
+    return re.sub(r"^[A-Z]{6}\+", "", name)
+
+
+def outline_entries(items, level: int = 0) -> list[dict[str, object]]:
+    entries = []
+    for item in items:
+        if isinstance(item, list):
+            entries.extend(outline_entries(item, level + 1))
+        else:
+            entries.append({"level": level, "title": clean_text(getattr(item, "title", str(item)))})
+    return entries
+
+
+def pdf_semantics(reader: PdfReader) -> dict:
+    pages = []
+    fonts = set()
+    link_count = 0
+    image_count = 0
+
+    for page in reader.pages:
+        resources = dereference(page.get("/Resources", {})) or {}
+        page_fonts = dereference(resources.get("/Font", {})) or {}
+        for font_reference in page_fonts.values():
+            font = dereference(font_reference)
+            descriptor = dereference(font.get("/FontDescriptor")) if font.get("/FontDescriptor") else None
+            if descriptor is None and font.get("/DescendantFonts"):
+                descendants = dereference(font["/DescendantFonts"])
+                if descendants:
+                    descendant = dereference(descendants[0])
+                    descriptor = dereference(descendant.get("/FontDescriptor")) if descendant.get("/FontDescriptor") else None
+            embedded = bool(
+                descriptor
+                and any(key in descriptor for key in ("/FontFile", "/FontFile2", "/FontFile3"))
+            )
+            fonts.add(
+                (
+                    normalized_font_name(font.get("/BaseFont")),
+                    str(font.get("/Subtype", "")).removeprefix("/"),
+                    embedded,
+                )
+            )
+
+        links = []
+        for annotation_reference in page.get("/Annots", []):
+            annotation = dereference(annotation_reference)
+            if str(annotation.get("/Subtype", "")) != "/Link":
+                continue
+            action = dereference(annotation.get("/A")) if annotation.get("/A") else None
+            if action and action.get("/URI"):
+                kind = "uri"
+                target = str(action["/URI"])
+            else:
+                kind = "internal"
+                target = ""
+            rectangle = [round(float(value), 3) for value in annotation.get("/Rect", [])]
+            links.append({"kind": kind, "target": target, "rect": rectangle})
+        links.sort(key=lambda value: json.dumps(value, ensure_ascii=False, sort_keys=True))
+        link_count += len(links)
+
+        images = []
+        for image in page.images:
+            width, height = image.image.size
+            images.append({"width": width, "height": height, "mode": image.image.mode})
+        images.sort(key=lambda value: (value["width"], value["height"], value["mode"]))
+        image_count += len(images)
+
+        pages.append(
+            {
+                "width": round(float(page.mediabox.width), 3),
+                "height": round(float(page.mediabox.height), 3),
+                "textSha256": sha256_bytes(clean_text(page.extract_text()).encode("utf-8")),
+                "links": links,
+                "images": images,
+            }
+        )
+
+    outline = outline_entries(reader.outline)
+    value = {
+        "pages": pages,
+        "outline": outline,
+        "fonts": [
+            {"name": name, "subtype": subtype, "embedded": embedded}
+            for name, subtype, embedded in sorted(fonts)
+        ],
+    }
+    encoded = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return {
+        "semanticSha256": sha256_bytes(encoded),
+        "outlineEntries": len(outline),
+        "linkAnnotations": link_count,
+        "images": image_count,
+        "fonts": value["fonts"],
+    }
 
 
 def formatted_text(value: str | None, edition: Edition) -> str:
@@ -607,6 +709,40 @@ def convert_children(parent: ET.Element, extracted_root: Path, current_file: str
     return flowables
 
 
+def inspect_pdf(edition: Edition, target: Path, source_epub_sha256: str) -> dict:
+    reader = PdfReader(str(target))
+    if reader.is_encrypted:
+        raise ValueError(f"{edition.pdf_file}: PDF must not be encrypted")
+    if len(reader.pages) < 100:
+        raise ValueError(f"{edition.pdf_file}: expected at least 100 pages, found {len(reader.pages)}")
+    metadata_values = reader.metadata or {}
+    if metadata_values.get("/Title") != edition.title or metadata_values.get("/Author") != edition.author:
+        raise ValueError(f"{edition.pdf_file}: metadata mismatch")
+    first_text_page = "".join(page.extract_text() or "" for page in reader.pages[1:6])
+    if edition.title not in first_text_page or edition.contents not in first_text_page:
+        raise ValueError(f"{edition.pdf_file}: title or contents text missing")
+    final_bytes = target.read_bytes()
+    if len(final_bytes) > 8_000_000:
+        raise ValueError(f"{edition.pdf_file}: PDF exceeds 8MB budget")
+    semantics = pdf_semantics(reader)
+    if edition.key == "zh":
+        embedded_fonts = {font["name"] for font in semantics["fonts"] if font["embedded"]}
+        required_fonts = {"NotoSerifSC-Regular", "NotoSerifSC-Bold", "NotoSans-Regular"}
+        missing_fonts = sorted(required_fonts - embedded_fonts)
+        if missing_fonts:
+            raise ValueError(f"{edition.pdf_file}: missing embedded fonts: {', '.join(missing_fonts)}")
+    return {
+        "file": edition.pdf_file,
+        "language": edition.language,
+        "pages": len(reader.pages),
+        "chapters": 53,
+        "bytes": len(final_bytes),
+        "sha256": sha256_bytes(final_bytes),
+        "sourceEpubSha256": source_epub_sha256,
+        **semantics,
+    }
+
+
 def build_pdf(edition: Edition, target: Path, temp_root: Path) -> dict:
     epub_path = DOWNLOADS / edition.epub_file
     extracted_root = temp_root / edition.key
@@ -699,34 +835,21 @@ def build_pdf(edition: Edition, target: Path, temp_root: Path) -> dict:
         story,
         canvasmaker=lambda *args, **kwargs: InvariantCanvas(*args, metadata=metadata, **kwargs),
     )
+    return inspect_pdf(edition, target, sha256_bytes(epub_path.read_bytes()))
 
-    reader = PdfReader(str(target))
-    if reader.is_encrypted:
-        raise ValueError(f"{edition.pdf_file}: PDF must not be encrypted")
-    if len(reader.pages) < 100:
-        raise ValueError(f"{edition.pdf_file}: expected at least 100 pages, found {len(reader.pages)}")
-    metadata_values = reader.metadata or {}
-    if metadata_values.get("/Title") != edition.title or metadata_values.get("/Author") != edition.author:
-        raise ValueError(f"{edition.pdf_file}: metadata mismatch")
-    first_text_page = "".join(page.extract_text() or "" for page in reader.pages[1:6])
-    if edition.title not in first_text_page or edition.contents not in first_text_page:
-        raise ValueError(f"{edition.pdf_file}: title or contents text missing")
-    final_bytes = target.read_bytes()
-    if len(final_bytes) > 8_000_000:
-        raise ValueError(f"{edition.pdf_file}: PDF exceeds 8MB budget")
+
+def manifest_for(outputs: list[dict]) -> dict:
     return {
-        "file": edition.pdf_file,
-        "language": edition.language,
-        "pages": len(reader.pages),
-        "chapters": 53,
-        "bytes": len(final_bytes),
-        "sha256": sha256_bytes(final_bytes),
-        "sourceEpubSha256": sha256_bytes(epub_path.read_bytes()),
+        "version": 2,
+        "format": "PDF 1.7",
+        "pageSize": "6 × 9.6 in",
+        "scope": "Main manuscript, glossary, and toolkit; archive and word lists remain online-only.",
+        "outputs": {metadata["language"]: metadata for metadata in outputs},
     }
 
 
 def main() -> None:
-    if not CHECK_ONLY:
+    if not (CHECK_ONLY or CHECK_EXACT):
         PUBLIC_OUTPUT.mkdir(parents=True, exist_ok=True)
         LOCAL_OUTPUT.mkdir(parents=True, exist_ok=True)
 
@@ -738,25 +861,39 @@ def main() -> None:
             metadata = build_pdf(edition, target, temp_root)
             outputs.append((target, metadata))
 
-        manifest = {
-            "version": 1,
-            "format": "PDF 1.7",
-            "pageSize": "6 × 9.6 in",
-            "scope": "Main manuscript, glossary, and toolkit; archive and word lists remain online-only.",
-            "outputs": {metadata["language"]: metadata for _, metadata in outputs},
-        }
-        manifest_text = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
-
-        if CHECK_ONLY:
+        if CHECK_ONLY or CHECK_EXACT:
+            committed_outputs = []
             for target, metadata in outputs:
                 committed = PUBLIC_OUTPUT / metadata["file"]
-                if not committed.exists() or committed.read_bytes() != target.read_bytes():
-                    raise ValueError(f"{committed.relative_to(ROOT)} 未与书稿同步；运行 npm run book:pdf:build")
+                if not committed.exists():
+                    raise ValueError(f"{committed.relative_to(ROOT)} 不存在；运行 npm run book:pdf:build")
+                edition = next(value for value in EDITIONS if value.language == metadata["language"])
+                committed_metadata = inspect_pdf(edition, committed, metadata["sourceEpubSha256"])
+                committed_outputs.append(committed_metadata)
+                if metadata["semanticSha256"] != committed_metadata["semanticSha256"]:
+                    raise ValueError(
+                        f"{committed.relative_to(ROOT)} 的分页、文本、书签、链接、图片或字体未与书稿同步；"
+                        "运行 npm run book:pdf:build"
+                    )
+                if CHECK_EXACT and committed.read_bytes() != target.read_bytes():
+                    raise ValueError(
+                        f"{committed.relative_to(ROOT)} 在当前平台未逐字节复现；运行 npm run book:pdf:build"
+                    )
             committed_manifest = PUBLIC_OUTPUT / "pdf-manifest.json"
-            if not committed_manifest.exists() or committed_manifest.read_text() != manifest_text:
+            expected_manifest_text = json.dumps(manifest_for(committed_outputs), ensure_ascii=False, indent=2) + "\n"
+            if not committed_manifest.exists() or committed_manifest.read_text() != expected_manifest_text:
                 raise ValueError(f"{committed_manifest.relative_to(ROOT)} 未与 PDF 产物同步；运行 npm run book:pdf:build")
-            print("PDF editions are in sync")
+            if CHECK_EXACT:
+                print("PDF editions are byte-for-byte reproducible on this platform")
+            else:
+                print("PDF editions are semantically in sync; published hashes match the manifest")
             return
+
+        manifest_text = json.dumps(
+            manifest_for([metadata for _, metadata in outputs]),
+            ensure_ascii=False,
+            indent=2,
+        ) + "\n"
 
         for target, metadata in outputs:
             shutil.copyfile(target, PUBLIC_OUTPUT / metadata["file"])
