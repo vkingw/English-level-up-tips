@@ -11,6 +11,7 @@ const defaultDescription =
   "《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。";
 const defaultDescriptionEn =
   "Life Level-up Guide helps ordinary people learn continuously, complete real projects, move through difficult seasons, and preserve evidence of growth in the AI era.";
+const editLinkPattern = "https://github.com/byoungd/up/edit/master/docs/:path";
 
 function routeFromRelativePath(relativePath: string) {
   const clean = relativePath
@@ -91,7 +92,7 @@ export default defineConfig({
       title: "人生进阶指南｜AI 时代终身学习",
       description: defaultDescription,
       themeConfig: {
-        siteTitle: "人生进阶指南｜AI 时代终身学习",
+        siteTitle: "人生进阶指南",
         nav: [
           { text: "终身学习", link: "/templates/learning-state" },
           { text: "AI 学习", link: "/threads/part-3/1-ai-learning" },
@@ -101,11 +102,21 @@ export default defineConfig({
         sidebar: toSidebar(zhNavigation),
         outline: { label: "本页目录", level: [2, 3] },
         docFooter: { prev: "上一篇", next: "下一篇" },
+        editLink: { pattern: editLinkPattern, text: "编辑本页" },
         lastUpdated: { text: "最后更新" },
         returnToTopLabel: "返回顶部",
         sidebarMenuLabel: "目录",
         darkModeSwitchLabel: "外观",
+        lightModeSwitchTitle: "切换到浅色模式",
+        darkModeSwitchTitle: "切换到深色模式",
         langMenuLabel: "切换语言",
+        skipToContentLabel: "跳转到正文",
+        notFound: {
+          title: "页面没有找到",
+          quote: "有时不是路消失了，只是这一页已经搬走。回到主线，继续向前。",
+          linkLabel: "返回《人生进阶指南》首页",
+          linkText: "返回首页",
+        },
       },
     },
     en: {
@@ -115,7 +126,7 @@ export default defineConfig({
       title: "Life Level-up Guide | Lifelong Learning in the AI Era",
       description: defaultDescriptionEn,
       themeConfig: {
-        siteTitle: "Life Level-up Guide | Lifelong Learning in the AI Era",
+        siteTitle: "Life Level-up Guide",
         nav: [
           { text: "Lifelong Learning", link: "/en/templates/learning-state" },
           { text: "AI Learning", link: "/en/threads/part-3/1-ai-learning" },
@@ -125,11 +136,21 @@ export default defineConfig({
         sidebar: toSidebar(enNavigation),
         outline: { label: "On this page", level: [2, 3] },
         docFooter: { prev: "Previous", next: "Next" },
+        editLink: { pattern: editLinkPattern, text: "Edit this page" },
         lastUpdated: { text: "Last updated" },
         returnToTopLabel: "Back to top",
         sidebarMenuLabel: "Menu",
         darkModeSwitchLabel: "Appearance",
+        lightModeSwitchTitle: "Switch to light theme",
+        darkModeSwitchTitle: "Switch to dark theme",
         langMenuLabel: "Change language",
+        skipToContentLabel: "Skip to content",
+        notFound: {
+          title: "PAGE NOT FOUND",
+          quote: "Sometimes the road remains after a page has moved. Return to the guide and continue from there.",
+          linkLabel: "Return to the Life Level-up Guide home page",
+          linkText: "Return home",
+        },
         footer: {
           message: "Content CC BY-NC 4.0; site and tooling code MIT.",
           copyright: "Copyright © 2017-present byoungd and contributors",
@@ -139,13 +160,35 @@ export default defineConfig({
   },
   themeConfig: {
     logo: "/assets/feature.svg",
-    siteTitle: "人生进阶指南｜AI 时代终身学习",
-    search: { provider: "local" },
-    socialLinks: [{ icon: "github", link: "https://github.com/byoungd/up" }],
-    editLink: {
-      pattern: "https://github.com/byoungd/up/edit/master/docs/:path",
-      text: "编辑本页 / Edit this page",
+    siteTitle: "人生进阶指南",
+    search: {
+      provider: "local",
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: { buttonText: "搜索", buttonAriaLabel: "搜索" },
+              modal: {
+                displayDetails: "显示详细结果",
+                resetButtonTitle: "清除搜索",
+                backButtonTitle: "关闭搜索",
+                noResultsText: "没有找到相关内容",
+                footer: {
+                  selectText: "选择",
+                  selectKeyAriaLabel: "按回车键选择",
+                  navigateText: "切换",
+                  navigateUpKeyAriaLabel: "按上箭头选择上一项",
+                  navigateDownKeyAriaLabel: "按下箭头选择下一项",
+                  closeText: "关闭",
+                  closeKeyAriaLabel: "按 Esc 键关闭",
+                },
+              },
+            },
+          },
+        },
+      },
     },
+    socialLinks: [{ icon: "github", link: "https://github.com/byoungd/up" }],
     footer: {
       message: "正文 CC BY-NC 4.0；站点与工具代码 MIT。",
       copyright: "Copyright © 2017-present byoungd and contributors",

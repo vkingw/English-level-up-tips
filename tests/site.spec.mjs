@@ -222,14 +222,37 @@ test("legacy English story route redirects to the aligned Part II path", async (
   );
 });
 
-test("local search opens and returns a result", async ({ page }) => {
+test("local search uses the current language and returns a result", async ({ page }) => {
   await page.goto("./");
-  await page.getByRole("button", { name: "Search", exact: true }).click();
-  const searchBox = page.locator(".VPLocalSearchBox");
-  const input = searchBox.locator("input");
-  await expect(input).toBeVisible();
-  await input.fill("学习状态");
-  await expect(searchBox.getByRole("link", { name: /学习状态/ }).first()).toBeVisible();
+  await page.getByRole("button", { name: "搜索", exact: true }).click();
+  const zhSearchBox = page.locator(".VPLocalSearchBox");
+  const zhInput = zhSearchBox.locator("input");
+  await expect(zhInput).toBeVisible();
+  await expect(zhSearchBox.locator('button[title="关闭搜索"]')).toHaveCount(1);
+  await expect(zhSearchBox.locator('button[title="显示详细结果"]')).toHaveCount(1);
+  await expect(zhSearchBox.locator('button[title="清除搜索"]')).toHaveCount(1);
+  await zhInput.fill("学习状态");
+  await expect(zhSearchBox.getByRole("link", { name: /学习状态/ }).first()).toBeVisible();
+  await expect(zhSearchBox).toContainText("选择");
+  await expect(zhSearchBox).toContainText("切换");
+  await expect(zhSearchBox).toContainText("关闭");
+
+  await page.keyboard.press("Escape");
+  await expect(zhSearchBox).toBeHidden();
+  await page.goto("./en/");
+  const enSearchButton = page.getByRole("button", { name: "Search", exact: true });
+  const [enTitleBox, enSearchButtonBox] = await Promise.all([
+    page.locator(".VPNavBarTitle").boundingBox(),
+    enSearchButton.boundingBox(),
+  ]);
+  expect(enTitleBox?.x + (enTitleBox?.width || 0)).toBeLessThanOrEqual(enSearchButtonBox?.x || 0);
+  await enSearchButton.click();
+  const enSearchBox = page.locator(".VPLocalSearchBox");
+  const enInput = enSearchBox.locator("input");
+  await expect(enInput).toBeVisible();
+  await expect(enSearchBox.locator('button[title="Close search"]')).toHaveCount(1);
+  await enInput.fill("Learning State");
+  await expect(enSearchBox.getByRole("link", { name: /Learning State/ }).first()).toBeVisible();
 });
 
 test("language navigation and representative image work", async ({ page }) => {
@@ -536,6 +559,30 @@ test("English chrome uses English labels and author metadata", async ({ page }, 
   } else {
     await expect(page.getByRole("button", { name: "Change language" })).toBeVisible();
   }
+});
+
+test("site chrome and missing pages follow the current language", async ({ page }) => {
+  await page.goto("./threads/part-1/0-cefr");
+  await expect(page.locator(".VPSkipLink")).toHaveText("跳转到正文");
+  await expect(page.locator(".edit-link-button")).toHaveText("编辑本页");
+  await expect(page.locator(".VPSwitchAppearance").first()).toHaveAttribute("title", /切换到.+模式/);
+
+  await page.goto("./definitely-missing-reader-route");
+  const zhNotFound = page.locator(".NotFound");
+  await expect(zhNotFound.getByRole("heading", { name: "页面没有找到" })).toBeVisible();
+  await expect(zhNotFound).toContainText("有时不是路消失了，只是这一页已经搬走");
+  await expect(zhNotFound.getByRole("link", { name: "返回《人生进阶指南》首页" })).toHaveText("返回首页");
+
+  await page.goto("./en/threads/part-1/0-cefr");
+  await expect(page.locator(".VPSkipLink")).toHaveText("Skip to content");
+  await expect(page.locator(".edit-link-button")).toHaveText("Edit this page");
+  await expect(page.locator(".VPSwitchAppearance").first()).toHaveAttribute("title", /Switch to .+ theme/);
+
+  await page.goto("./en/definitely-missing-reader-route");
+  const enNotFound = page.locator(".NotFound");
+  await expect(enNotFound.getByRole("heading", { name: "PAGE NOT FOUND" })).toBeVisible();
+  await expect(enNotFound).toContainText("Sometimes the road remains after a page has moved");
+  await expect(enNotFound.getByRole("link", { name: "Return to the Life Level-up Guide home page" })).toHaveText("Return home");
 });
 
 test("long-form reading progress and typography remain stable", async ({ page }, testInfo) => {

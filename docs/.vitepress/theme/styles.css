@@ -148,6 +148,21 @@
   color: var(--vp-c-text-1);
 }
 
+.VPNavBarTitle {
+  max-width: 100%;
+}
+
+.VPNavBarTitle .title,
+.VPNavBarTitle .title > span {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.VPNavBarTitle .title > span {
+  text-overflow: ellipsis;
+}
+
 @media (max-width: 640px) {
   html,
   body {
@@ -160,9 +175,6 @@
 
   .VPNavBarTitle .title {
     max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   .vp-doc h1 {
