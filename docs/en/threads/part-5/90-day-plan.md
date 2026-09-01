@@ -1,14 +1,14 @@
 ---
 title: "90-Day Action Plan: Return Your Life to Yourself"
 description: A repeatable 90-day system for turning goals, baselines, output, feedback, artifacts, and health boundaries into visible change.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # 90-Day Action Plan: Return Your Life to Yourself
 
 Many people finish one piece of advice and immediately save another. Saving feels like a beginning, but it often moves the beginning somewhere more comfortable.
 
-Progress depends less on a burst of excitement than on a stretch of time that can be inspected. This 90-day plan does not ask you to become a different person. It asks you to collect evidence that, three months from now, you can understand more, express more, and finish more.
+Progress depends less on a burst of excitement than on a stretch of time that can be inspected. This 90-day plan does not ask you to become a different person. It asks you to collect evidence that, three months from now, you can understand more, express more, and finish more. If you have not yet found a daily rhythm that can survive interruption, read [Rhythm: Let Small Things Travel Through Time](../part-4/rhythm-and-compounding.md) first, then give one returnable action to these 90 days.
 
 ## 0. Define “Better”
 
@@ -161,4 +161,4 @@ I no longer trust the phrase “change your life completely”. It sounds powerf
 
 May the 90 days give you more than a skill. May they return a little texture to your contact with life. May you know where you are going, while accepting that the road may be quiet for a while.
 
-Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)
+Previous: [Rhythm: Let Small Things Travel Through Time](../part-4/rhythm-and-compounding.md) | Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)

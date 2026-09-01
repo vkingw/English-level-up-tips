@@ -1,7 +1,7 @@
 ---
 title: "Daily System: Put Change into the Day"
 description: Use a minimum viable day, capacity budget, environment design, and interruption recovery to make learning sustainable in real life.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Daily System: Put Change into the Day
@@ -162,4 +162,4 @@ Learning needs time, artifacts need delivery, relationships need presence, and t
 
 That is what it means to put change into the day: do not wait for an ideal life to appear. Use the weight you can carry today to build one small piece of ground.
 
-Previous: [Week 1: Real-life English Practice](week-1.md) | Next: [90-Day Action Plan](../part-5/90-day-plan.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md)
+Previous: [Week 1: Real-life English Practice](week-1.md) | Next: [Rhythm: Let Small Things Travel Through Time](rhythm-and-compounding.md) | [90-Day Action Plan](../part-5/90-day-plan.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md)
