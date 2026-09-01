@@ -1,6 +1,7 @@
 import DefaultTheme from "vitepress/theme";
 import type { Theme } from "vitepress";
-import { h } from "vue";
+import { Fragment, h } from "vue";
+import LocalizedA11yLabels from "./LocalizedA11yLabels.vue";
 import ReadingProgress from "./ReadingProgress.vue";
 import "./styles.css";
 
@@ -8,6 +9,6 @@ export default {
   extends: DefaultTheme,
   Layout: () =>
     h(DefaultTheme.Layout, null, {
-      "layout-top": () => h(ReadingProgress),
+      "layout-top": () => h(Fragment, null, [h(ReadingProgress), h(LocalizedA11yLabels)]),
     }),
 } satisfies Theme;

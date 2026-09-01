@@ -566,6 +566,12 @@ test("site chrome and missing pages follow the current language", async ({ page 
   await expect(page.locator(".VPSkipLink")).toHaveText("跳转到正文");
   await expect(page.locator(".edit-link-button")).toHaveText("编辑本页");
   await expect(page.locator(".VPSwitchAppearance").first()).toHaveAttribute("title", /切换到.+模式/);
+  await expect(page.locator("#main-nav-aria-label")).toHaveText("主导航");
+  await expect(page.locator("#sidebar-aria-label")).toHaveText("侧栏导航");
+  await expect(page.locator("#doc-footer-aria-label")).toHaveText("章节导航");
+  await expect(page.locator(".VPNavBarHamburger")).toHaveAttribute("aria-label", "移动端导航");
+  await expect(page.locator(".VPSidebarItem .caret").first()).toHaveAttribute("aria-label", "展开或收起分组");
+  await expect(page.locator(".header-anchor").first()).toHaveAttribute("aria-label", /固定链接$/);
 
   await page.goto("./definitely-missing-reader-route");
   const zhNotFound = page.locator(".NotFound");
@@ -577,6 +583,12 @@ test("site chrome and missing pages follow the current language", async ({ page 
   await expect(page.locator(".VPSkipLink")).toHaveText("Skip to content");
   await expect(page.locator(".edit-link-button")).toHaveText("Edit this page");
   await expect(page.locator(".VPSwitchAppearance").first()).toHaveAttribute("title", /Switch to .+ theme/);
+  await expect(page.locator("#main-nav-aria-label")).toHaveText("Main Navigation");
+  await expect(page.locator("#sidebar-aria-label")).toHaveText("Sidebar Navigation");
+  await expect(page.locator("#doc-footer-aria-label")).toHaveText("Pager");
+  await expect(page.locator(".VPNavBarHamburger")).toHaveAttribute("aria-label", "Mobile navigation");
+  await expect(page.locator(".VPSidebarItem .caret").first()).toHaveAttribute("aria-label", "Toggle section");
+  await expect(page.locator(".header-anchor").first()).toHaveAttribute("aria-label", /^Permalink to/);
 
   await page.goto("./en/definitely-missing-reader-route");
   const enNotFound = page.locator(".NotFound");
