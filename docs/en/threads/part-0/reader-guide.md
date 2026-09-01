@@ -24,6 +24,14 @@ Use [CEFR Goals and Self-check](../part-1/0-cefr.md) to name the context and bas
 
 Read [Learning Anything with AI](../part-3/1-ai-learning.md), then record the problem, sources, privacy boundary, and human judgment in the [AI Task Brief](../../templates/ai-task-brief.md). Use the [Artifact Brief and Delivery Card](../../templates/artifact-brief.md) to name the audience, completion standard, acceptance owner, and rollback. A chat log can help you begin. It cannot deliver for you.
 
+### I have many records but cannot tell whether I really changed
+
+Open the [Evidence Chain Template](../../templates/evidence-chain.md). Put baseline, immediate performance, delayed retention, and transfer on one page, then return to [Evidence: How Change Becomes Visible](../part-3/5-evidence-and-transfer.md) to separate conclusions supported by evidence from interpretations that still need testing. Do not replace one independent retest with a longer table.
+
+### I do not know which worksheet to choose
+
+Open the [Toolkit Overview](../../templates/toolkit.md) and choose an entry point by the block in front of you. It names the next worksheet and what that tool cannot prove for you. Once you have chosen, leave the overview and complete one real action.
+
 ### I am in a difficult season and my capacity is small
 
 Read [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md) and [Daily System](../part-4/daily-system.md). Reduce the target to safety, food, sleep, asking for help, and one minimum output. If low mood, sleeplessness, hopelessness, or thoughts of harm persist, contact someone you trust and seek qualified local medical or mental-health support. This book is not care.
@@ -36,7 +44,7 @@ Follow [the Prologue](prologue.md) → [Foundation: English](../part-1/0-cefr.md
 
 ### Read like a studio
 
-Jump from the table of contents or glossary to the obstacle in front of you. Pause after a section and write one judgment, do one exercise, or preserve a first sample. A week later, use the [Weekly Review](../../templates/weekly-review.md) to check whether it transferred to a new task. You do not need to remember the whole book. You need the next action to become clearer.
+Jump from the [Toolkit Overview](../../templates/toolkit.md), table of contents, or glossary to the obstacle in front of you. Pause after a section and write one judgment, do one exercise, or preserve a first sample. A week later, use the [Evidence Chain Template](../../templates/evidence-chain.md) and [Weekly Review](../../templates/weekly-review.md) to check whether it transferred to a new task. You do not need to remember the whole book. You need the next action to become clearer.
 
 These modes support one another. A complete read explains why the method is arranged this way; an on-demand read lets it do useful work today.
 
@@ -61,7 +69,7 @@ You may challenge any judgment here. First identify whether it is a research fin
 
 ## When the Plan Is Interrupted, Return Here
 
-Interruption is not an exception to this method. It is the reality the method must survive. Open the [Learning State](../../templates/learning-state.md) and mark what is complete, unconfirmed, costly, and next. If capacity has changed, return to [the minimum viable day](../part-4/daily-system.md) instead of adding shame to the plan.
+Interruption is not an exception to this method. It is the reality the method must survive. Open the [Learning State](../../templates/learning-state.md) and mark what is complete, unconfirmed, costly, and next. If capacity has changed, return to [the minimum viable day](../part-4/daily-system.md) or the [Rhythm Ledger](../../templates/rhythm-ledger.md) instead of adding shame to the plan.
 
 Add weight only after a repeatable rhythm returns. A reliable system is not one that never breaks. It is one that still knows how to come home after a break.
 
