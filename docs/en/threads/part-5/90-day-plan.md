@@ -2,6 +2,12 @@
 title: "90-Day Action Plan: Return Your Life to Yourself"
 description: A repeatable 90-day system for turning goals, baselines, output, feedback, artifacts, and health boundaries into visible change.
 updated: 2026-09-01
+prev:
+  text: "Part V: Long-Term Action"
+  link: /en/threads/part-5/long-term-action
+next:
+  text: "After Ninety Days: Let Change Remain in Life"
+  link: /en/threads/part-5/after-90-days
 ---
 
 # 90-Day Action Plan: Return Your Life to Yourself
@@ -160,5 +166,3 @@ If these three things exist, the 90 days were not wasted. You have built somethi
 I no longer trust the phrase “change your life completely”. It sounds powerful, but often leads to a larger disappointment. Real change usually has no soundtrack: someone gets up on time and opens yesterday’s file; says the first prepared sentence in a meeting; edits an article until they are willing to sign it; or, when escape feels urgent, looks at the facts first.
 
 May the 90 days give you more than a skill. May they return a little texture to your contact with life. May you know where you are going, while accepting that the road may be quiet for a while.
-
-Previous: [Part V: Long-Term Action](long-term-action.md) | Next: [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)

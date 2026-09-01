@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Expanded Part V with a full bilingual chapter on closing a 90-day cycle, transferring ability, choosing continuation or closure, protecting life foundations, and planning by seasons; integrated the chapter into the book's navigation and continuous reading arc.
 - Made the Reader's Guide, Prologue, Part I introduction, and Afterword use one authoritative bilingual pager, keeping reference tools out of the continuous book arc and removing conflicting hand-written navigation.
 - Replaced dynamic repository badges and the externally fetched GitHub icon with quiet bilingual book metadata links, removing all third-party image requests from both home pages.
 - Added build-time intrinsic dimensions to local raster Markdown images so deferred media reserves its final aspect ratio before download and avoids layout shifts.

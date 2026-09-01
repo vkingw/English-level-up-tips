@@ -52,6 +52,7 @@
 
 - [Part V Introduction: Long-Term Action](threads/part-5/long-term-action.md)
 - [90-Day Action Plan](threads/part-5/90-day-plan.md)
+- [After Ninety Days: Let Change Remain in Life](threads/part-5/after-90-days.md)
 
 ## Afterword
 

@@ -3,8 +3,8 @@ title: "Afterword: Progress Is Not Leaving Yourself Behind"
 description: "A closing return from the first English question to failure, health, relationships, AI, and ordinary action, gathering the guide's promises of honesty, responsibility, evidence, and beginning again."
 updated: 2026-09-01
 prev:
-  text: "90-Day Action Plan: Return Your Life to Yourself"
-  link: /en/threads/part-5/90-day-plan
+  text: "After Ninety Days: Let Change Remain in Life"
+  link: /en/threads/part-5/after-90-days
 next:
   text: "Return home"
   link: /en/

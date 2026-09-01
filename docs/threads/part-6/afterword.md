@@ -3,8 +3,8 @@ title: 后记：进阶不是离开原来的自己
 description: 从最初的英语问题回到失败、身体、关系、AI 与日常行动，收束《人生进阶指南》关于诚实、责任、证据和重新开始的回答。
 updated: 2026-09-01
 prev:
-  text: "行动篇：九十天，把生活交还给自己"
-  link: /threads/part-5/90-day-plan
+  text: "九十天以后：把改变留在生活里"
+  link: /threads/part-5/after-90-days
 next:
   text: "返回首页"
   link: /

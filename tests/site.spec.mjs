@@ -127,6 +127,21 @@ test("practice chapters move from the first week into systems and rhythm", () =>
   ]);
 });
 
+test("long-term action moves from a 90-day cycle into handover before the afterword", () => {
+  const zhAction = zhNavigation.find(({ text }) => text === "第五部：行动与长期改变");
+  const enAction = enNavigation.find(({ text }) => text === "Part V: Long-Term Action");
+  expect(zhAction?.items.map(({ source }) => source)).toEqual([
+    "threads/part-5/long-term-action.md",
+    "threads/part-5/90-day-plan.md",
+    "threads/part-5/after-90-days.md",
+  ]);
+  expect(enAction?.items.map(({ source }) => source)).toEqual([
+    "en/threads/part-5/long-term-action.md",
+    "en/threads/part-5/90-day-plan.md",
+    "en/threads/part-5/after-90-days.md",
+  ]);
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
@@ -374,6 +389,21 @@ test("page-level search keeps nested chapter text discoverable", async ({ page }
   const enSearchBox = page.locator(".VPLocalSearchBox");
   await enSearchBox.locator("input").fill("Consonants");
   await expect(enSearchBox.getByRole("link", { name: /Speaking/ }).first()).toBeVisible();
+});
+
+test("heading-only search keeps the post-cycle chapter discoverable without indexing its full prose", async ({ page }) => {
+  await page.goto("./");
+  await page.getByRole("button", { name: "搜索", exact: true }).click();
+  const zhSearchBox = page.locator(".VPLocalSearchBox");
+  await zhSearchBox.locator("input").fill("目标必须有到期日与退出门");
+  await expect(zhSearchBox.getByRole("link", { name: /目标必须有到期日与退出门/ }).first()).toBeVisible();
+
+  await page.keyboard.press("Escape");
+  await page.goto("./en/");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  const enSearchBox = page.locator(".VPLocalSearchBox");
+  await enSearchBox.locator("input").fill("Every Goal Needs an Expiry Date");
+  await expect(enSearchBox.getByRole("link", { name: /Every Goal Needs an Expiry Date/ }).first()).toBeVisible();
 });
 
 test("language navigation and representative image work", async ({ page }) => {
@@ -666,11 +696,44 @@ test("part introductions state a reading contract and hand off to the first chap
   await expect(enMain.getByRole("heading", { level: 1, name: "Part V: Long-Term Action" })).toBeVisible();
   await expect(enMain.getByRole("heading", { level: 2, name: "Questions for This Part" })).toBeVisible();
   await expect(
-    enMain.getByRole("link", { name: "Rhythm: Let Small Things Travel Through Time", exact: true }),
-  ).toBeVisible();
-  await expect(
     enMain.getByRole("link", { name: "90-Day Action Plan: Return Your Life to Yourself", exact: true }),
   ).toBeVisible();
+  await expect(
+    enMain.getByRole("link", { name: "After Ninety Days: Let Change Remain in Life", exact: true }),
+  ).toBeVisible();
+  const enFooter = page.locator(".VPDocFooter .prev-next");
+  await expect(enFooter.locator(".pager-link.prev")).toHaveAttribute(
+    "href",
+    "/up/en/threads/part-4/rhythm-and-compounding",
+  );
+  await expect(enFooter.locator(".pager-link.next")).toHaveAttribute(
+    "href",
+    "/up/en/threads/part-5/90-day-plan",
+  );
+});
+
+test("post-cycle chapter turns short-term effort into a long-term handover", async ({ page }) => {
+  await page.goto("./threads/part-5/after-90-days");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 1, name: "九十天以后：把改变留在生活里" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "先关账，再许愿" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "目标必须有到期日与退出门" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "证据链模板", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "每周复盘", exact: true })).toBeVisible();
+
+  await page.goto("./en/threads/part-5/after-90-days");
+  const enMain = page.locator("main");
+  await expect(
+    enMain.getByRole("heading", { level: 1, name: "After Ninety Days: Let Change Remain in Life" }),
+  ).toBeVisible();
+  await expect(
+    enMain.getByRole("heading", { level: 2, name: "Close the Books Before Making Another Wish" }),
+  ).toBeVisible();
+  await expect(
+    enMain.getByRole("heading", { level: 2, name: "Every Goal Needs an Expiry Date and an Exit Gate" }),
+  ).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Weekly Review", exact: true })).toBeVisible();
 });
 
 test("afterword closes the book with a return path", async ({ page }) => {
@@ -693,49 +756,85 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
       route: "./threads/part-0/reader-guide",
       previous: "/up/",
       next: "/up/threads/part-0/prologue",
-      manual: /上一篇|下一篇/,
+      manual: /^(?:上一篇|下一篇)/,
     },
     {
       route: "./threads/part-0/prologue",
       previous: "/up/threads/part-0/reader-guide",
       next: "/up/threads/part-1/open-input",
-      manual: /上一篇|下一篇/,
+      manual: /^(?:上一篇|下一篇)/,
     },
     {
       route: "./threads/part-1/open-input",
       previous: "/up/threads/part-0/prologue",
       next: "/up/threads/part-1/0-cefr",
-      manual: /上一篇|下一篇/,
+      manual: /^(?:上一篇|下一篇)/,
+    },
+    {
+      route: "./threads/part-5/long-term-action",
+      previous: "/up/threads/part-4/rhythm-and-compounding",
+      next: "/up/threads/part-5/90-day-plan",
+      manual: /^(?:上一篇|下一篇)/,
+    },
+    {
+      route: "./threads/part-5/90-day-plan",
+      previous: "/up/threads/part-5/long-term-action",
+      next: "/up/threads/part-5/after-90-days",
+      manual: /^(?:上一篇|下一篇)/,
+    },
+    {
+      route: "./threads/part-5/after-90-days",
+      previous: "/up/threads/part-5/90-day-plan",
+      next: "/up/threads/part-6/afterword",
+      manual: /^(?:上一篇|下一篇)/,
     },
     {
       route: "./threads/part-6/afterword",
-      previous: "/up/threads/part-5/90-day-plan",
+      previous: "/up/threads/part-5/after-90-days",
       next: "/up/",
-      manual: /上一篇|下一篇|返回首页/,
+      manual: /^(?:上一篇|下一篇|返回首页)/,
     },
     {
       route: "./en/threads/part-0/reader-guide",
       previous: "/up/en/",
       next: "/up/en/threads/part-0/prologue",
-      manual: /Previous:|Next:|Back to the home page/,
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
     },
     {
       route: "./en/threads/part-0/prologue",
       previous: "/up/en/threads/part-0/reader-guide",
       next: "/up/en/threads/part-1/open-input",
-      manual: /Previous:|Next:|Back to the home page/,
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
     },
     {
       route: "./en/threads/part-1/open-input",
       previous: "/up/en/threads/part-0/prologue",
       next: "/up/en/threads/part-1/0-cefr",
-      manual: /Previous:|Next:|Back to the home page/,
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
+    },
+    {
+      route: "./en/threads/part-5/long-term-action",
+      previous: "/up/en/threads/part-4/rhythm-and-compounding",
+      next: "/up/en/threads/part-5/90-day-plan",
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
+    },
+    {
+      route: "./en/threads/part-5/90-day-plan",
+      previous: "/up/en/threads/part-5/long-term-action",
+      next: "/up/en/threads/part-5/after-90-days",
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
+    },
+    {
+      route: "./en/threads/part-5/after-90-days",
+      previous: "/up/en/threads/part-5/90-day-plan",
+      next: "/up/en/threads/part-6/afterword",
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
     },
     {
       route: "./en/threads/part-6/afterword",
-      previous: "/up/en/threads/part-5/90-day-plan",
+      previous: "/up/en/threads/part-5/after-90-days",
       next: "/up/en/",
-      manual: /Previous:|Next:|Back to the home page/,
+      manual: /^(?:Previous:|Next:|Back to the home page)/,
     },
   ];
 

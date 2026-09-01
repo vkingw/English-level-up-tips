@@ -68,6 +68,7 @@ export const zhNavigation = [
     items: [
       page("第五部导语：行动与长期改变", "/threads/part-5/long-term-action"),
       page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
+      page("九十天以后：把改变留在生活里", "/threads/part-5/after-90-days"),
     ],
   },
   {
@@ -185,6 +186,7 @@ export const enNavigation = [
     items: [
       page("Part V Introduction: Long-Term Action", "/en/threads/part-5/long-term-action"),
       page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
+      page("After Ninety Days: Let Change Remain in Life", "/en/threads/part-5/after-90-days"),
     ],
   },
   {
