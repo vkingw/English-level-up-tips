@@ -59,7 +59,7 @@
 - [选择篇：在不确定中做决定](docs/threads/part-2/decision.md)
 - [关系篇：在关系中成为成年人](docs/threads/part-2/relationships.md)
 - [创业篇](docs/threads/part-2/entrepreneurship.md)
-- [Week 1](docs/threads/part-4/week-1.md)
+- [实践篇：先把第一周过完](docs/threads/part-4/week-1.md)
 - [生活系统篇：把改变安放在日子里](docs/threads/part-4/daily-system.md)
 - [节律篇：让小事穿过时间](docs/threads/part-4/rhythm-and-compounding.md)
 

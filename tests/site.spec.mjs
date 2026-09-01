@@ -49,6 +49,21 @@ test("life-review chapters move from story through echoes into recovery", () => 
   ]);
 });
 
+test("practice chapters move from the first week into systems and rhythm", () => {
+  const zhPractice = zhNavigation.find(({ text }) => text === "实践、复盘与恢复");
+  const enPractice = enNavigation.find(({ text }) => text === "Practice, Review, and Recovery");
+  expect(zhPractice?.items.slice(-3).map(({ source }) => source)).toEqual([
+    "threads/part-4/week-1.md",
+    "threads/part-4/daily-system.md",
+    "threads/part-4/rhythm-and-compounding.md",
+  ]);
+  expect(enPractice?.items.slice(-3).map(({ source }) => source)).toEqual([
+    "en/threads/part-4/week-1.md",
+    "en/threads/part-4/daily-system.md",
+    "en/threads/part-4/rhythm-and-compounding.md",
+  ]);
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
@@ -308,6 +323,35 @@ test("echoes chapter separates harm, responsibility, and the next choice", async
       .getByRole("link", { name: "Recovery: Catch Yourself Before You Push Forward", exact: true })
       .first(),
   ).toBeVisible();
+});
+
+test("first-week practice turns a baseline into a reviewable next step", async ({ page }) => {
+  await page.goto("./threads/part-4/week-1");
+  const zhMain = page.locator("main");
+  await expect(
+    zhMain.getByRole("heading", { level: 1, name: "实践篇：先把第一周过完" }),
+  ).toBeVisible();
+  await expect(
+    zhMain.getByRole("heading", { level: 2, name: "七天不求满格，只求能够回来" }),
+  ).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "证据链模板", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "每周复盘模板", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "生活系统篇", exact: true })).toBeVisible();
+
+  await page.goto("./en/threads/part-4/week-1");
+  const enMain = page.locator("main");
+  await expect(
+    enMain.getByRole("heading", { level: 1, name: "Practice: Finish the First Week" }),
+  ).toBeVisible();
+  await expect(
+    enMain.getByRole("heading", {
+      level: 2,
+      name: "Across Seven Days, Practise Returning Rather Than Being Perfect",
+    }),
+  ).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Weekly Review Template", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Daily System", exact: true })).toBeVisible();
 });
 
 test("afterword closes the book with a return path", async ({ page }) => {

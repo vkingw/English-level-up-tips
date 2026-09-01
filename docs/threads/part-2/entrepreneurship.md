@@ -246,4 +246,4 @@ updated: 2026-09-01
 - [GitHub 主页：byoungd / Leap 离谱](https://github.com/byoungd)
 - [China Ciyuan Cloud Computing Limited 公开登记页面](https://www.ltddir.com/companies/china-ciyuan-cloud-computing-limited/)
 
-下一篇：[Week 1：真实生活英语练习](../part-4/week-1.md) ｜ [行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md)
+下一篇：[实践篇：先把第一周过完](../part-4/week-1.md) ｜ [行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md)

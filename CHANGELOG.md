@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Rebuilt the bilingual Week 1 lesson as a full “Finish the First Week” practice chapter, connecting baseline evidence, capacity-aware action, delayed retesting, transfer, weekly review, and the transition into daily systems.
 - Rebuilt the bilingual miscellaneous chapter as “Echoes,” a coherent literary bridge from narrative review to recovery that separates injury, responsibility, luck, tools, and the next choice; reordered Part II and repaired its handover links.
 - Connected the bilingual 90-Day Cycle Map and action chapter to Evidence Chain, Rhythm Ledger, and Learning State, clarifying which record owns each part of a long-term review.
 - Clarified the bilingual Weekly Review handover protocol so Evidence Chain, Rhythm Ledger, Learning State, and 90-Day Cycle records each keep a distinct job without duplicated notes.

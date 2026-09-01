@@ -145,4 +145,4 @@ I do not need to prove that my younger self was always right. Nor do I need life
 
 Perhaps that is the real purpose of looking back: not to rewrite the opening, but to stop an old story from writing the ending for us.
 
-Next: [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [Decision-Making: Choosing Under Uncertainty](decision.md) | [Week 1](../part-4/week-1.md)
+Next: [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [Decision-Making: Choosing Under Uncertainty](decision.md) | [Practice: Finish the First Week](../part-4/week-1.md)

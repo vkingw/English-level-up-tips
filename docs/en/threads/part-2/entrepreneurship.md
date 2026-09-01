@@ -164,4 +164,4 @@ This is not the display of youthful success or the accusation of later disappoin
 - [AI Project Scorecard](../../templates/ai-project-scorecard.md)
 - [GitHub profile](https://github.com/byoungd)
 
-Next: [Week 1](../part-4/week-1.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Practice: Finish the First Week](../part-4/week-1.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

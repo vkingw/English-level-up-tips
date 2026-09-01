@@ -162,4 +162,4 @@ updated: 2026-09-01
 
 这就是把改变安放在日子里：不等待理想生活出现，而是用今天能够承担的重量，先搭好一小块地面。
 
-上一篇：[Week 1：真实生活英语练习](week-1.md) ｜ 下一篇：[节律篇：让小事穿过时间](rhythm-and-compounding.md) ｜ [行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md) ｜ [恢复篇：先把自己接住](../part-2/recovery.md)
+上一篇：[实践篇：先把第一周过完](week-1.md) ｜ 下一篇：[节律篇：让小事穿过时间](rhythm-and-compounding.md) ｜ [行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md) ｜ [恢复篇：先把自己接住](../part-2/recovery.md)

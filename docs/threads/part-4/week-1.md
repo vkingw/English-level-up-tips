@@ -1,109 +1,180 @@
 ---
-title: Week 1：真实生活英语练习
-description: 围绕睡眠、压力与生活方式的英文练习材料；历史个人表述已按当前证据边界修订。
-updated: 2026-08-31
+title: 实践篇：先把第一周过完
+description: 在宏大计划之前，用一个真实问题、一份起点样本、七天最小行动和一次周末复测，让生活而不是热情决定下一步。
+updated: 2026-09-01
 ---
 
-# Week 1：真实生活英语练习
+# 实践篇：先把第一周过完
 
-> 本篇是一组英文阅读与表达练习，不是医疗建议。睡眠问题持续影响生活时，请咨询合格的医疗专业人士。
+人在重新开始时，很容易对第一天寄予过高的期望。
 
-## 如何使用这一课
+我们打开一本新书，建好文件夹，买来设备，排出未来三个月的日程，仿佛只要开头足够郑重，后面的自己就会自动出现。可真正让计划失去重量的，往往不是第一天没有热情，而是第三天临时加班，第五天没睡好，第六天有人需要照顾，第七天已经不愿再看那张写得太满的表。
 
-1. 先不查词读完一小段，写下你听懂或读懂的主旨；
-2. 圈出 5 个值得复用的表达，确认它们的语气和搭配；
-3. 用英文复述 60–90 秒，不追求逐句翻译；
-4. 保存录音或短文，隔一周用相同主题做一次平行复测。
+所以，第一周不负责证明你已经改变。它只负责回答一个更诚实的问题：**这件事放进我的真实生活之后，还能不能继续？**
 
-## 语言焦点
+这一周，你不需要表演自律，也不需要把低谷写成逆袭。你只需要留下一个未经修饰的起点，完成几次足够小的动作，再看见什么条件帮助了你，什么条件让你失去能力。生活给出的答案，通常比第一天的决心更有用。
 
-| 表达 | 用途 | 我的改写 |
+## 本章速览
+
+- 只带一个真实问题进入第一周，不同时改造整个人生；
+- 在使用 AI、课程或模板之前，保存一份未经辅助的起点样本；
+- 用七天完成输入、输出、反馈、延迟复测和一次迁移；
+- 为完整日、压缩日和恢复日准备不同重量的动作；
+- 周末只保留一个有效条件、删除一个无效要求，并决定是否进入下一周。
+
+## 1. 第一周不是缩小版的九十天
+
+很多七天计划，只是把九十天的野心压缩进更小的格子：每天学习、每天运动、每天阅读、每天早起，还要记录情绪和反思。看起来完整，实际把“观察生活”变成了“同时参加五场考试”。
+
+第一周真正需要留下的只有三样东西：
+
+1. **一份起点样本**：现在独立完成时，结果是什么样；
+2. **几次真实尝试**：在不同容量和环境里，能否再次开始；
+3. **一次周末决定**：下一周保留什么、停止什么、改变什么。
+
+这一周不是用来估计你有多大潜力，而是用来发现系统条件。你可能发现早晨并不适合深度学习，通勤时却愿意听材料；也可能发现自己不是缺时间，而是每次打开任务都不知道第一步；还可能发现疲惫已经持续影响生活，需要先处理健康和责任，而不是继续增加训练。
+
+能更早看见这些事实，不是失败。它避免你用更长的计划掩盖一个本来可以更早调整的问题。
+
+## 2. 只带一个问题进入这一周
+
+一个好问题必须同时满足三项条件：与真实生活有关，七天内可以观察，而且答案可能改变下一步。
+
+| 场景 | 过于宽泛的目标 | 第一周可以回答的问题 |
 | --- | --- | --- |
-| `I get asked ...` | 引出反复出现的问题 | |
-| `You are not alone.` | 承认共同经验 | |
-| `Apart from ...` | 限定讨论范围 | |
-| `What kept me moving was ...` | 讲述支撑自己的行动 | |
-| `It is not a diagnosis.` | 说明证据边界 | |
+| 英语 | 提高口语 | 我能否用英语说明一次真实困难，并回应一个追问？ |
+| 工作 | 提高编程能力 | 我能否独立修复一个真实问题，写出测试和变更说明？ |
+| 写作 | 开始持续输出 | 我能否完成一篇让陌生读者复述主旨的短文？ |
+| 生活 | 变得自律 | 我能否在三种容量下，都给明天留下一个明确入口？ |
+| 关系 | 学会沟通 | 我能否说明一个边界，同时说清楚何时回来回应？ |
 
-## WHY I WROTE THIS LESSON
+不要选择一个答案必定是“继续努力”的问题。真正的问题应当允许三种结果：继续、缩小，或停止。
 
-I often receive questions from GitHub. One question keeps returning: **How can I speak clearly about more than one topic?**
+可以先写下：
 
-That question matters to me because I used to confuse fluency with sounding like a native speaker.
+```markdown
+这一周只回答的问题：
+它发生在哪个真实场景：
+周末用什么证据回答：
+什么结果会让我缩小或停止：
+```
 
-To be honest, I could not speak comfortably even after studying English for years.
+如果问题涉及持续失眠、疼痛、低落、失控或危险念头，第一周的目标应先改成记录事实、保证安全和寻求当地合格专业支持。本章不能替代医疗或心理照护。
 
-Fluency in this lesson does not mean copying one accent. It means finding words that fit a real situation, getting the main idea across, and repairing the conversation when a sentence does not arrive clearly.
+## 3. 第一天，保存未经修饰的起点
 
-That is why I am using an ordinary topic and a few expressions that people use in everyday conversations.
+在请 AI 改写、观看教程或套用模板之前，先独立完成一次。时间控制在 10–25 分钟，不查找完美答案，也不为了好看反复重录。
 
-Let’s begin.
+起点可以是一段 90 秒录音、一页短文、一次代码修改、一封真实邮件、一段阅读重构，或一次边界沟通的草稿。它不需要公开，但必须能够在第六天或第七天再次比较。
 
-## FIRST TOPIC
+为样本附上五行说明：
 
-One of the most common problems I hear about nowadays is **I am so tired**. And you are not alone. I experienced the biggest failure in my life in the past year. The startup company I ran went bankrupt. I lost my wealth, a precious friendship, and the person I loved. For a whole year, I couldn’t sleep well and felt very tired every day.
+```markdown
+日期与场景：
+任务和限制：
+我独立完成的版本：
+最明显的三个困难：
+一周后使用什么新条件复测：
+```
 
-**Trust me, I know that terrible feeling**.
+起点难看是正常的。它的任务不是维护自尊，而是防止未来的你只凭感觉回忆“以前好像更差”。没有起点，进步容易被兴奋夸大，退步也容易被当天的情绪夸大。
 
-So, our first topic will be: `why are you always tired?`
+保存之后，再决定是否使用 AI、同伴或课程。工具可以帮助你分析错误、生成平行任务和提供反馈，但不能替你补写这份基线。
 
-Whether you are experiencing unemployment, a breakup, or uncertainty about the future, we can slow down and **talk like old friends**.
+## 4. 七天不求满格，只求能够回来
 
-This lesson combines a personal story with language practice. Tiredness can have many causes, and this page cannot identify yours. We will use three everyday buckets as prompts for speaking, not as a medical checklist.
+下面不是必须逐项打卡的课程表，而是一条最小证据链。某一天被打断，可以合并动作；如果容量下降，缩小输出，不熬夜补偿。
 
-The three prompts are:
+| 天数 | 只做一件事 | 留下的证据 |
+| --- | --- | --- |
+| 第 1 天 | 完成未经辅助的起点样本 | 首版和三个困难 |
+| 第 2 天 | 找一份高质量输入，只处理一个困难 | 来源、主旨和一个可复用结构 |
+| 第 3 天 | 在关闭材料后完成第二版 | 输出和与首版的差异 |
+| 第 4 天 | 获得一次具体反馈 | 原话、可验证问题和不采纳的建议 |
+| 第 5 天 | 只改一个变量，完成第三版 | 修改前后版本 |
+| 第 6 天 | 不看笔记，做一次延迟复测 | 保留与遗忘的部分 |
+| 第 7 天 | 更换主题、听众或限制，测试迁移 | 新条件下的结果和下一周决定 |
 
-- sleep anxiety
-- routine and movement
-- stress
+如果七天里只完成四天，不要伪造连续性。把缺席写成事实：发生了什么，改变了哪个条件，回来的成本有多大。比“连续七天”更重要的证据，是中断之后你是否仍然知道从哪里继续。
 
-### Sleep Anxiety
+## 5. 一个真实例子：用英语谈疲惫
 
-`Sleep anxiety` is a phrase for worrying about sleep; it is not a diagnosis. For some people, worrying about whether they will sleep can make rest feel harder, creating a **vicious cycle**.
+假设这一周的问题是：**我能否不用逐句翻译，用英语说明自己为什么疲惫、需要什么支持，并回应一个追问？**
 
-I have read about sleep for years, but the subject is easy to oversimplify. Advice that sounds certain online may not fit a particular person. This lesson therefore keeps the language general and leaves personal health decisions to qualified professionals.
+疲惫可能来自睡眠、疾病、压力、照护责任、工作安排或许多其他原因。这里练习的是表达，不是诊断。持续影响生活的睡眠或身体问题，应交给合格专业人士评估。
 
-You may hear the terms `internal clock`, `circadian rhythm`, and `chronotype`. They are useful vocabulary for discussing sleep timing, not a shortcut to diagnosing yourself.
+先保留五个可以迁移到日常沟通的结构：
 
-People also say that everyone needs exactly eight hours, that everyone must wake at the same time, or that every screen is equally harmful. These slogans leave out individual schedules, responsibilities, and symptoms. Use them as claims to question, not rules to follow blindly.
+| 英文结构 | 它承担的作用 | 你的句子 |
+| --- | --- | --- |
+| `I have been feeling ...` | 描述近期状态，不把感受写成永久身份 | |
+| `What makes it harder is ...` | 指出一个可观察条件 | |
+| `I am not sure whether ...` | 保留不确定性，不假装诊断 | |
+| `What I need this week is ...` | 提出具体、有限的支持 | |
+| `If this continues, I will ...` | 说明下一项求助或检查动作 | |
 
-If sleep or daytime functioning remains difficult, write down the pattern and seek local professional advice. Do not use a language lesson to diagnose a health condition.
+第一天录一段 90 秒音频。第三天，在看过一份可靠材料或获得语言反馈后重录；第六天不看稿再说一次；第七天把听众从“朋友”换成“同事”或“专业人士”，观察用词和边界是否改变。
 
-## ROUTINE, MOVEMENT, AND CAPACITY
+评分时不要只数语法错误。检查对方能否回答三件事：发生了什么，你不能确认什么，你希望下一步怎样做。能让真实沟通继续，比模仿某一种口音更接近可用的流利。
 
-The second prompt is `routine and movement`. I am not prescribing a workout or claiming that one habit fixes fatigue. Notice which routines make a task easier to start, which ones drain you, and what your body is asking you to check with a professional.
+## 6. 低谷里的作品，不负责拯救人生
 
-## DEALING WITH STRESS
+在我生活失序的一段时间里，编程给过我一个很小的行动入口。以前公司的产品需要一款高性能富文本编辑器，我没有找到满足需求的开源项目，于是开始做 Editable，并把它发布到 GitHub。
 
-The third prompt is `how to deal with stress`. Stress is not a character flaw, and “relax properly” is not a complete plan.
+这个项目包含编辑器内核、插件系统、复杂表格数据结构和渲染引擎等问题。我花了很长时间逐步完成，也向 Slate.js 提交过相关工作。你可以查看 [Editable 项目](https://github.com/editablejs/editable)。
 
-Start with one observable change: reduce a distracting cue, put a task within reach, write down the next action, or ask someone for support.
+我不愿再把这段经历写成“编程治好了我”或“只要找到热爱就能走出低谷”。项目没有解决所有问题，也不能替代照护。它当时真正提供的，是一个边界清楚的小时：问题可以被拆分，代码可以被测试，今天完成的一小段不会因为情绪改变而消失。
 
-I mentioned in an older article that I struggled with compulsive gaming for a period. I once described the change as a “dopamine detox”, but that popular label is not a clinical mechanism or established treatment. What helped me was changing cues and routines, reducing access, restoring sleep and daily structure, and seeking support. The article was published on Zhihu, whose current page is access-restricted; the experience is retained here as personal context, not as an independently reviewable source. Persistent loss of control deserves qualified professional help.
+第一周选择作品时，也不必寻找能证明人生价值的大项目。选择一个七天内可以关门的东西：
 
-When energy is low, low-friction activities often win over tasks that require planning. That observation is a starting point, not a moral judgment.
+- 修复一个能够复现的问题，并补上测试；
+- 写完一页有明确读者的说明；
+- 录制一段可以获得追问的表达；
+- 改善一个真实使用者每天都会经过的步骤；
+- 提交一个范围清楚、可以被拒绝的贡献。
 
-Instead of asking why you are not more disciplined, ask which cue, task size, or environment could change the next ten minutes.
+作品的作用不是拯救你，而是让判断进入现实。它会告诉你：问题是否真实，能力缺口在哪里，别人是否能使用，以及下一次是否值得继续。
 
-At the low point of my life, `programming` gave me one small place to act.
+## 7. 给容量准备三个档位
 
-I needed a high-performance rich-text editor for a previous company’s product. I could not find an open-source project that met our needs, so I built one and released it on GitHub. When I felt distracted, I worked on one small part. The challenges included:
+第一周最容易失败，不是因为动作太少，而是计划只承认一种理想状态。提前写好三个档位：
 
-- Designing and coding the editor
-- Developing the core and the plugin system
-- Designing a data structure for complex tables and submitting a PR to slate.js
-- Refactoring the rendering engine to get rid of React
+| 档位 | 可用容量 | 当天动作 |
+| --- | --- | --- |
+| 完整日 | 30–45 分钟完整注意力 | 输入、输出和一句记录 |
+| 压缩日 | 10–20 分钟或被多次打断 | 只完成最小输出，标记下一个错误 |
+| 恢复日 | 生病、失眠、悲伤或责任激增 | 保护安全和基本照料，只准备下次入口 |
 
-If you are interested in this project, [you can join and contribute](https://github.com/editablejs/editable).
+恢复日不要求生成作品。把材料放到桌面、写下明天第一步、向相关的人说明延迟，都可以是回归动作。如果连续几天只能运行恢复档，先回到[恢复篇：先把自己接住](../part-2/recovery.md)，检查身体、安全和支持网络。
 
-I was relieved to finish it after more than a year of steady work. The project did not solve every problem in my life, but it gave the next hour a shape.
+下一章的[生活系统篇](daily-system.md)会继续处理精力预算、环境设计、关系边界和中断回归。第一周只需要证明一件事：你愿意根据容量改变任务，而不是根据任务惩罚自己。
 
-Today’s lesson is long because real life rarely fits one explanation. Use one expression in your own sentence, then close the page and explain what you actually need.
+## 8. 周末只回答四个问题
 
-Thank you for reading. Remember: this is a language exercise, not a diagnosis or a treatment plan.
+第七天不要先问“我是否足够努力”。把首版、反馈、延迟复测和迁移结果并排放进[证据链模板](../../templates/evidence-chain.md)，再回答四个问题：
 
-## 证据与安全说明
+1. **完成**：我是否在真实限制下完成了目标动作？
+2. **质量**：输出在哪个可观察维度发生了变化？
+3. **保持**：离开材料之后，还剩下什么？
+4. **迁移**：更换主题、听众或环境后，能力是否仍然可用？
 
-本课把个人经历、日常词汇和健康话题分开。持续的失眠、低落、失控或身体不适，应记录事实并向当地合格的医疗或心理专业人士求助；不要用文章、短视频或 AI 回答替代诊断。
+然后写两句决定：
 
-上一篇：[创业篇：从野心到使命](../part-2/entrepreneurship.md) ｜ 下一篇：[生活系统篇：把改变安放在日子里](daily-system.md)
+```markdown
+下一周保留的一个条件：
+下一周删除或降低的一个要求：
+```
+
+不要因为一周顺利，就立刻把任务翻倍；也不要因为一周混乱，就宣布自己不适合。使用[每周复盘模板](../../templates/weekly-review.md)把事实、解释和下一次实验分开。第一周样本太少，足以调整方向，不足以定义一个人。
+
+## 结语：第一周不证明你是谁
+
+第一周结束时，你可能只有三段不流利的录音、一个仍未完全修好的问题、一页被改得很乱的文字，或几天断断续续的记录。它们看起来不像改变人生，却比一份从未进入生活的宏大计划更接近未来。
+
+真正的开始，不是第一天有多激动，而是生活打断之后，你仍能找到文件、看见下一步、承认今天的容量，然后完成一个不需要表演的动作。
+
+先把第一周过完。让事实替热情筛选方向，让作品替愿望留下痕迹，让一次周末决定为下一周减轻重量。
+
+你不需要在七天里证明自己是谁。你只需要为第八天，留下一条愿意再次走进去的路。
+
+上一篇：[创业篇：从野心到使命](../part-2/entrepreneurship.md) ｜ 下一篇：[生活系统篇：把改变安放在日子里](daily-system.md) ｜ [节律篇：让小事穿过时间](rhythm-and-compounding.md)
