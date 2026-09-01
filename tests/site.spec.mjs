@@ -42,7 +42,7 @@ test("life-review chapters move from story through echoes into recovery", () => 
     "threads/part-2/recovery.md",
   ]);
   expect(enPractice?.items.slice(0, 4).map(({ source }) => source)).toEqual([
-    "en/threads/part-4/my-story.md",
+    "en/threads/part-2/my-story.md",
     "en/threads/part-2/narrative-and-evidence.md",
     "en/threads/part-2/x-misc.md",
     "en/threads/part-2/recovery.md",
@@ -145,6 +145,20 @@ test("legacy Docsify hash route redirects once", async ({ page }) => {
   await page.goto("./#/threads/part-1/1-understanding");
   await expect(page).toHaveURL(/\/up\/threads\/part-1\/1-understanding$/);
   await expect(page.getByRole("heading", { level: 1, name: /认知篇/ })).toBeVisible();
+});
+
+test("legacy English story route redirects to the aligned Part II path", async ({ page }) => {
+  await page.goto("./en/threads/part-4/my-story?from=legacy#narrative-boundary");
+  await expect(page).toHaveURL(
+    /\/up\/en\/threads\/part-2\/my-story\?from=legacy#narrative-boundary$/,
+  );
+  await expect(
+    page.getByRole("heading", { level: 1, name: "My Story: Failure, Recovery, and Starting Again" }),
+  ).toBeVisible();
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/en/threads/part-2/my-story/",
+  );
 });
 
 test("local search opens and returns a result", async ({ page }) => {
@@ -456,7 +470,7 @@ test("representative pages load every local image with descriptive alt text", as
     "./threads/part-2/entrepreneurship",
     "./en/threads/part-2/entrepreneurship",
     "./threads/part-2/my-story",
-    "./en/threads/part-4/my-story",
+    "./en/threads/part-2/my-story",
   ];
 
   for (const route of routes) {

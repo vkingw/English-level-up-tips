@@ -158,7 +158,7 @@ This is not the display of youthful success or the accusation of later disappoin
 
 - [Archive from a Decade Ago](../archive/README.md)
 - [Last Year and Now](../archive/last-year-and-now.md)
-- [My Story](../part-4/my-story.md)
+- [My Story](my-story.md)
 - [Author Projects and Real-world Practice](../../projects.md)
 - [Life Practice Toolkit](../../templates/life-practice-toolkit.md)
 - [AI Project Scorecard](../../templates/ai-project-scorecard.md)

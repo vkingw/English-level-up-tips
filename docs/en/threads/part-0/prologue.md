@@ -39,7 +39,7 @@ You do not have to read every page in order. Find the obstacle that is real toda
 - If you have many resources but no artifact, read [Learning Anything with AI](../part-3/1-ai-learning.md) and the [90-Day Action Plan](../part-5/90-day-plan.md).
 - If you have many records but cannot tell whether anything changed, start with the [Evidence Chain Template](../../templates/evidence-chain.md), then read [Evidence](../part-3/5-evidence-and-transfer.md).
 - If you do not know which worksheet to choose, open the [Toolkit Overview](../../templates/toolkit.md) and choose one entry point by the block in front of you.
-- If you are in a low season, read [My Story](../part-4/my-story.md), then sleep, eat, and decide what comes next.
+- If you are in a low season, read [My Story](../part-2/my-story.md), then sleep, eat, and decide what comes next.
 
 Treat each chapter as a workbench, not an exam. Take one thing from it: a sentence, an exercise, a habit to stop, or a thought worth returning to. Knowledge that leaves no mark on life is still only a signpost.
 

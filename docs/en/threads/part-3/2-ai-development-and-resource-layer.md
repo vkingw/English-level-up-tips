@@ -340,7 +340,7 @@ I still want to make money because revenue is one form of evidence that a value 
 
 ## Sources and Verification
 
-- **Personal experience**: the 2022 failure, 2023 recovery, and 2026 return to AI are documented in [My Story](../part-4/my-story.md) and [Entrepreneurship](../part-2/entrepreneurship.md).
+- **Personal experience**: the 2022 failure, 2023 recovery, and 2026 return to AI are documented in [My Story](../part-2/my-story.md) and [Entrepreneurship](../part-2/entrepreneurship.md).
 - **Project affiliations**: China Token Cloud, `token.love`, `ku0.com`, and the WeChat articles are disclosed in [Author Projects and Real-world Practice](../../projects.md); they are not independent reviews.
 - **Commercial claims**: charging models, cost ledgers, and the twelve-week route are methods to test, not proof of revenue, customer count, profit, or investment return.
 - **Official pages checked**: 1 September 2026. The homepage positioning for `token.love` and `ku0.com`, as well as the external article links in this chapter, were reachable; verify exact capability, service scope, region, policy, and contract commitments again in the real project.

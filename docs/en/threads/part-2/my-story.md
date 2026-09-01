@@ -12,7 +12,7 @@ updated: 2026-09-01
 
 This is a memory written from my position, not a shared version from everyone involved. Partners, colleagues, and friends are anonymised or described generally; details about the child and other third parties are kept only when needed to understand the event. Dates, amounts, and physical experiences come from my records and memory and may contain error. Emotional interpretation is not a factual judgment about another person. Photographs and stories involving others remain only with necessary permission and respect for deletion requests.
 
-If you want to treat this memory as learning material, read [Narrative and Evidence: Do Not Turn Experience into Fate](../part-2/narrative-and-evidence.md) first, then return to ask which parts are facts, which are my interpretations, and which conclusions must remain open.
+If you want to treat this memory as learning material, read [Narrative and Evidence: Do Not Turn Experience into Fate](narrative-and-evidence.md) first, then return to ask which parts are facts, which are my interpretations, and which conclusions must remain open.
 
 ## What Failure Cost Me
 
@@ -242,4 +242,4 @@ Going forward, I hope to keep exploring practical ways for AI to empower agricul
 
 Seeking benefits for ordinary people and doing practical work should not be only a slogan. After going through the lowest points of my life, I increasingly believe that turning the ability to stand up again into something useful for others is one of the most grounded reasons to keep moving forward.
 
-Next: [Narrative and Evidence: Do Not Turn Experience into Fate](../part-2/narrative-and-evidence.md) | [Echoes: Do Not Romanticise Avoidance](../part-2/x-misc.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md)
+Next: [Narrative and Evidence: Do Not Turn Experience into Fate](narrative-and-evidence.md) | [Echoes: Do Not Romanticise Avoidance](x-misc.md) | [Recovery: Catch Yourself Before You Push Forward](recovery.md)

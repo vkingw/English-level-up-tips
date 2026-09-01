@@ -163,7 +163,7 @@ export const enNavigation = [
   {
     text: "Practice, Review, and Recovery",
     items: [
-      page("My Story", "/en/threads/part-4/my-story", "en/threads/part-4/my-story.md"),
+      page("My Story", "/en/threads/part-2/my-story"),
       page("Narrative and Evidence: Do Not Turn Experience into Fate", "/en/threads/part-2/narrative-and-evidence"),
       page("Echoes: Do Not Romanticise Avoidance", "/en/threads/part-2/x-misc"),
       page("Recovery: Catch Yourself Before You Push Forward", "/en/threads/part-2/recovery"),

@@ -52,7 +52,7 @@
 
 ## Practice, Review, and Recovery
 
-- [My Story](threads/part-4/my-story.md)
+- [My Story](threads/part-2/my-story.md)
 - [Narrative and Evidence: Do Not Turn Experience into Fate](threads/part-2/narrative-and-evidence.md)
 - [Echoes: Do Not Romanticise Avoidance](threads/part-2/x-misc.md)
 - [Recovery: Catch Yourself Before You Push Forward](threads/part-2/recovery.md)
