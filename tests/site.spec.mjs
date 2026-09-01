@@ -188,6 +188,20 @@ test("AI resource-layer chapter has metadata and navigation", async ({ page }) =
   ).toBeVisible();
 });
 
+test("resource-layer work returns from verification to disclosure and daily practice", async ({ page }) => {
+  await page.goto("./threads/part-3/2-ai-development-and-resource-layer");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { name: "让方法回到日常" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "作者项目与现实实践", exact: true }).last()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "第四部：实践与恢复", exact: true }).last()).toBeVisible();
+
+  await page.goto("./en/threads/part-3/2-ai-development-and-resource-layer");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { name: "Return the Method to Daily Life" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Author Projects and Real-world Practice", exact: true }).last()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Part IV: Practice and Recovery", exact: true }).last()).toBeVisible();
+});
+
 test("legacy Docsify hash route redirects once", async ({ page }) => {
   await page.goto("./#/threads/part-1/1-understanding");
   await expect(page).toHaveURL(/\/up\/threads\/part-1\/1-understanding$/);

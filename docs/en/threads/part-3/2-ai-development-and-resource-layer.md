@@ -345,4 +345,12 @@ I still want to make money because revenue is one form of evidence that a value 
 - **Commercial claims**: charging models, cost ledgers, and the twelve-week route are methods to test, not proof of revenue, customer count, profit, or investment return.
 - **Official pages checked**: 1 September 2026. The homepage positioning for `token.love` and `ku0.com`, as well as the external article links in this chapter, were reachable; verify exact capability, service scope, region, policy, and contract commitments again in the real project.
 
-Previous: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | Next: [Author Projects and Real-world Practice](../../projects.md)
+## Return the Method to Daily Life
+
+This chapter should not leave a reader among product names, architecture diagrams, and charging interfaces. Its useful remainder is a slower, more honest working posture: name the problem, write the boundary, and place a run, a cost, and a failure where they can be inspected.
+
+Whether a project continues is still answered by users, teams, agreements, time, and responsibility. Visit [Author Projects and Real-world Practice](../../projects.md) to check relationships, status, and evidence boundaries; or move directly into [Part IV: Practice and Recovery](../part-4/practice-and-recovery.md) and bring the judgment here back to one small task, one week's rhythm, and one action that can be restarted.
+
+Technology can lay a road quickly. That does not mean a person has travelled it. What carries into the next stretch is not one elegant demonstration, but the ability to keep learning, delivering, and revising under real conditions.
+
+Previous: [Evidence: How Change Becomes Visible](5-evidence-and-transfer.md) | Next: [Author Projects and Real-world Practice](../../projects.md) | Next Part: [Part IV: Practice and Recovery](../part-4/practice-and-recovery.md)
