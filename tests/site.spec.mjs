@@ -307,6 +307,20 @@ test("foundation chapters hand off to the shared evidence chain", async ({ page 
   await expect(page.locator("main").getByRole("link", { name: "Evidence Chain Template", exact: true }).first()).toBeVisible();
 });
 
+test("weekly review explains the handover between core records", async ({ page }) => {
+  await page.goto("./templates/weekly-review");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "写回后的交接入口" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "证据链模板", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "节律账本", exact: true })).toBeVisible();
+
+  await page.goto("./en/templates/weekly-review");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Handover Links" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true })).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(

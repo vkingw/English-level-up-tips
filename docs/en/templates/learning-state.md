@@ -1,7 +1,7 @@
 ---
 title: Learning State Template
 description: Keep goals, baselines, completed work, error evidence, and the next action in one file so a person or AI can resume responsibly.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Learning State Template
@@ -77,4 +77,4 @@ Below is my learning-state file. In no more than six bullets, restate the state 
 [paste Learning State]
 ```
 
-An AI summary is not the source of truth. Resume from the file, saved work, sources, and version number; after a weekly review, update the [Weekly Review](weekly-review.md) and [90-Day Cycle Map](90-day-cycle.md) too.
+An AI summary is not the source of truth. Resume from the file, saved work, sources, and version number; after a weekly review, update the [Weekly Review](weekly-review.md), [Evidence Chain](evidence-chain.md), and [90-Day Cycle Map](90-day-cycle.md) by their separate jobs instead of copying the same record.

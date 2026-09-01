@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Clarified the bilingual Weekly Review handover protocol so Evidence Chain, Rhythm Ledger, Learning State, and 90-Day Cycle records each keep a distinct job without duplicated notes.
 - Replaced the stale homepage-wide product verification date with per-entry verification guidance, keeping the biezou reference date aligned with its attribution record.
 - Added a bounded bilingual homepage reference to biezou.com as an external AI relay service, with attribution, terms/privacy caveats, and browser coverage for the outbound link.
 - Connected the shared Evidence Chain template to all eight bilingual foundation and AI-English chapters, so every skill path can continue from practice to delayed retention and transfer.
