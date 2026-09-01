@@ -190,3 +190,11 @@ Put listening, production, delayed retention, and new-context reuse for each chu
 - [Nation (2006), How Large a Vocabulary Is Needed for Reading and Listening?](https://doi.org/10.3138/cmlr.63.1.59)
 - [Schmitt, Jiang & Grabe (2011), The Percentage of Words Known in a Text and Reading Comprehension](https://doi.org/10.1111/j.1540-4781.2011.01146.x)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
+
+## Closing: Return Words to Life
+
+A word list resembles a warehouse: orderly, quiet, and easy to mistake for ownership. A word becomes yours not when a card turns green, but when you need to ask, explain, refuse, apologise, or comfort, and it walks out of memory to carry meaning toward another person.
+
+You do not need every word in a language. Begin with the words connected to the work you are doing, the people you love, and the world you are trying to understand. Let them return through different voices, sentences, and situations. Allow yourself to forget, then retrieve them again from a real need.
+
+May each new word become less a stone placed on memory than a window slowly opening. Beyond it is not a more impressive vocabulary total, but a conversation, a page of knowledge, and a way of living that you could not enter before.

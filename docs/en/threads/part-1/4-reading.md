@@ -163,4 +163,10 @@ Record the first read, argument reconstruction, delayed retelling, and related-t
 - **Thirty days**: one annotated close read and two timed extensive reads weekly; compare speed and summary accuracy.
 - **Twelve weeks**: move from one text to multi-source synthesis; finish with a cited report, technical review, or exam simulation.
 
-Prev: [Listening](3-listening.md)  
+## Closing: Give Words Their Weight Again
+
+Reading is not moving the eyes across line after line as quickly as possible. Behind every worthwhile text, someone chose what to claim, which evidence was enough, what remained uncertain, and what may have been omitted, exaggerated, or misunderstood.
+
+Slow down long enough to ask what the author is claiming, where the reason comes from, which facts can be checked, and which silences deserve attention. Speed may arrive naturally with familiarity. Judgment grows only through the moments when you stop.
+
+One day an English document, email, or book will no longer look like a wall built from unknown words. You will see structure, position, and evidence, and enter with questions of your own. Reading then becomes more than carrying someone else's answers home. It becomes the ability to enter a larger conversation.

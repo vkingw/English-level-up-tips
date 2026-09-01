@@ -143,7 +143,7 @@ test("long-term action moves from a 90-day cycle into handover before the afterw
 });
 
 test("main book chapters leave continuous reading to the authoritative pager", () => {
-  const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Previous|Next|Next Part|Back to the home page):)/m;
+  const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Prev|Previous|Next|Next Part|Back to the home page):)/m;
   const sources = [...zhNavigation.slice(1, 7), ...enNavigation.slice(1, 7)]
     .flatMap(({ items }) => items.map(({ source }) => source))
     .filter((source) => /(?:^|\/)threads\/part-[0-6]\//.test(source) || /^(?:en\/)?projects\.md$/.test(source));
@@ -151,6 +151,22 @@ test("main book chapters leave continuous reading to the authoritative pager", (
   for (const source of sources) {
     const text = readFileSync(resolve(process.cwd(), "docs", source), "utf8");
     expect(text, source).not.toMatch(manualPager);
+  }
+});
+
+test("Part I core chapters end with a bilingual literary closing", () => {
+  const zhPart = zhNavigation.find(({ text }) => text === "第一部：打开输入");
+  const enPart = enNavigation.find(({ text }) => text === "Part I: Open Input");
+  const cases = [
+    ...(zhPart?.items.slice(1).map(({ source }) => ({ source, ending: /^结语[：:]/ })) || []),
+    ...(enPart?.items.slice(1).map(({ source }) => ({ source, ending: /^Closing(?:[:：]|$)/ })) || []),
+  ];
+
+  expect(cases).toHaveLength(16);
+  for (const { source, ending } of cases) {
+    const text = readFileSync(resolve(process.cwd(), "docs", source), "utf8");
+    const headings = [...text.matchAll(/^## (.+)$/gm)].map((match) => match[1]);
+    expect(headings.at(-1), source).toMatch(ending);
   }
 });
 
@@ -416,6 +432,21 @@ test("heading-only search keeps the post-cycle chapter discoverable without inde
   const enSearchBox = page.locator(".VPLocalSearchBox");
   await enSearchBox.locator("input").fill("Every Goal Needs an Expiry Date");
   await expect(enSearchBox.getByRole("link", { name: /Every Goal Needs an Expiry Date/ }).first()).toBeVisible();
+});
+
+test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
+  await page.goto("./");
+  await page.getByRole("button", { name: "搜索", exact: true }).click();
+  const zhSearchBox = page.locator(".VPLocalSearchBox");
+  await zhSearchBox.locator("input").fill("听见声音背后的人");
+  await expect(zhSearchBox.getByRole("link", { name: /听力篇/ }).first()).toBeVisible();
+
+  await page.keyboard.press("Escape");
+  await page.goto("./en/");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  const enSearchBox = page.locator(".VPLocalSearchBox");
+  await enSearchBox.locator("input").fill("Hear the Person Behind the Sound");
+  await expect(enSearchBox.getByRole("link", { name: /Listening/ }).first()).toBeVisible();
 });
 
 test("language navigation and representative image work", async ({ page }) => {

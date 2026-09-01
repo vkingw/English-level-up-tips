@@ -94,3 +94,11 @@ This rubric describes performance in one task; it does not announce that you hav
 When the four skills differ, track separate evidence chains. The value of a self-check is not a flattering label. It gives the next practice a point that can be compared.
 
 Use the [Evidence Chain Template](../../templates/evidence-chain.md) to keep the four time points together instead of preserving only a final score.
+
+## Closing: A Level Is Only a Coordinate
+
+A level can suggest how far away a task may be. It cannot tell you why the journey matters, and it cannot travel for you. A2, B1, or C1 describes performance under particular conditions. It is not the limit of a person, or a certificate of who deserves to be heard, trusted, or loved.
+
+Real change is often quieter than a changed label: the first time you understand a stranger's request, finish explaining your reason in a meeting, or write an email the other person does not have to decipher. The label may remain where it was, while another usable road has already opened between you and the world.
+
+Keep today's score, and keep today's awkwardness too. When you return, do not ask whether you finally deserve a letter. Ask which real task you can now complete more fully. A coordinate should help a person find a road, not pin them to the ground.

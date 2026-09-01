@@ -320,4 +320,10 @@ Put the first answer, immediate retelling, delayed test, and cross-material tran
 - **Thirty days**: one intensive listen, two extensive listens, and one no-caption retelling weekly; count error categories rather than hours alone.
 - **Twelve weeks**: increase speed, accent variety, length, and topic unfamiliarity; finish with a blind-rated meeting, lecture, or exam simulation.
 
-Prev: [Vocabulary](2-vocabulary.md)  
+## Closing: Hear the Person Behind the Sound
+
+Listening is not catching every sound as if completing a checklist that may never lose a corner. It begins with hearing, through rhythm, pauses, accents, and noise, that someone is trying to make a meaning arrive.
+
+At first, English may be one unbroken surface of sound. Later you hear a familiar chunk, a turn in the argument, hesitation inside an unfinished sentence. You still miss things, but one missing word no longer destroys the whole passage. Context, a question, or a retelling can connect understanding again.
+
+When sound is no longer merely exam material, language becomes a human voice again. You hear more than English. You hear an experience, a judgment, and another person's way of seeing the world. This is how the world enters, a little at a time, through the ear.

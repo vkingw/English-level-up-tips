@@ -199,12 +199,24 @@ function checkManualBookPager(file) {
   const isBookPage = /^(?:en\/)?threads\/part-[0-6]\//.test(source) || /^(?:en\/)?projects\.md$/.test(source);
   if (!isBookPage) return;
 
-  const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Previous|Next|Next Part|Back to the home page):)/;
+  const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Prev|Previous|Next|Next Part|Back to the home page):)/;
   readFileSync(file, "utf8").split("\n").forEach((line, index) => {
     if (manualPager.test(line.trim())) {
       addError(file, index + 1, "主书稿正文不得手写上一篇/下一篇；连续阅读由统一页脚生成");
     }
   });
+}
+
+function checkPartOneClosing(file) {
+  const source = relative(DOCS, file).split(sep).join("/");
+  const match = source.match(/^(en\/)?threads\/part-1\/(0-cefr|[1-7]-.+)\.md$/);
+  if (!match) return;
+
+  const headings = [...readFileSync(file, "utf8").matchAll(/^## (.+)$/gm)].map((heading) => heading[1]);
+  const expected = match[1] ? /^Closing(?:[:：]|$)/ : /^结语[：:]/;
+  if (!expected.test(headings.at(-1) || "")) {
+    addError(file, 1, "第一部核心章节必须以双语结语收束，不能停在量表、来源或训练清单");
+  }
 }
 
 function checkBilingualParity(markdownFiles) {
@@ -421,6 +433,7 @@ for (const file of markdownFiles) checkLinksAndAlt(file);
 for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
   checkFrontmatter(file);
   checkManualBookPager(file);
+  checkPartOneClosing(file);
 }
 checkBilingualParity(markdownFiles);
 checkHeadingParity(markdownFiles);

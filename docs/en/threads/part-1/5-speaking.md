@@ -213,4 +213,10 @@ Put the unscripted first take, revised take, listener retelling, and unfamiliar-
 - **Thirty days**: one monologue, one role-play, and one real or peer conversation weekly; track recurring pauses and repair strategies.
 - **Twelve weeks**: add unfamiliar questions, time pressure, and real audiences; finish with a five-to-ten-minute presentation, interview, or meeting.
 
-Prev: [Reading](4-reading.md)  
+## Closing: Let Meaning Arrive
+
+Speaking is not removing an accent or reaching a life without hesitation. It is letting another person understand what you mean, why you mean it, and how they might respond, even when time is short and the sentence is imperfect.
+
+You may pause, choose another phrase, or admit that a word has not arrived. Fluency is not the absence of error. It is remaining inside the conversation after an error, repairing what failed, and listening for the place where the other person did not understand.
+
+When you speak the first imperfect sentence and seriously wait for the answer, language stops being a performance completed alone. It becomes a relationship: meaning leaves you, finds an echo in another person's understanding, and returns carrying a new question.

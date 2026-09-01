@@ -190,3 +190,11 @@ Nation 等人的研究常用 **95%** 与 **98%** 词汇覆盖率讨论阅读条�
 - [Nation (2006), How Large a Vocabulary Is Needed for Reading and Listening?](https://doi.org/10.3138/cmlr.63.1.59)
 - [Schmitt, Jiang & Grabe (2011), The Percentage of Words Known in a Text and Reading Comprehension](https://doi.org/10.1111/j.1540-4781.2011.01146.x)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
+
+## 结语：让词汇回到生活
+
+词表像一座仓库，整齐、安静，也很容易让人误以为拥有。可一个词真正属于你，不是在卡片上答对的那一刻，而是在你需要提问、解释、拒绝、道歉或安慰时，它愿意从记忆里走出来，替你把意思送到另一个人面前。
+
+你不必拥有一门语言里的所有词。先拥有那些与你正在做的事、正在爱的人和正在理解的世界有关的词。让它们在不同声音、句子和场景里反复出现，也允许暂时想不起来，再从真实需要中把它们找回来。
+
+愿每个新词都不是压在记忆上的一块石头，而是一扇慢慢打开的窗。窗外不是更漂亮的词汇量数字，而是你以前无法进入的一段谈话、一页知识和一种生活。

@@ -184,3 +184,11 @@ Do not upload customer, colleague, student, child, medical, identity, or unpubli
 - DeepL: [DeepL Write](https://www.deepl.com/write)
 
 These pages document product functions, not rankings or outcome guarantees. Last checked: 24 August 2026; verify features, regions, and plans again before use.
+
+## Closing: After the Tool Leaves
+
+AI can quickly produce fluent sentences, patient explanations, and apparently complete answers. English ability does not live in the chat window. It lives in what remains after the tool closes: whether you can still hear the important meaning, explain it in your own words, and continue thinking when another person asks a question.
+
+Let AI expose a blind spot, generate practice, and offer feedback, then arrange for it to leave. Each departure is a small receding tide. The parts held up by the tool become visible, and so do the parts that belong to you. If the meaning disappears with the window, the practice is not complete.
+
+The goal is not to make yourself more like a model. It is to form your own voice inside limited vocabulary, real hesitation, and judgments for which you remain responsible. When the tool leaves and you still know what you mean, AI has amplified your ability instead of occupying it.

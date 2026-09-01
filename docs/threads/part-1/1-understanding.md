@@ -165,3 +165,11 @@ AI 可以帮助分类错误和生成平行练习，但可能误判事实、发�
 - [Roediger & Karpicke (2006), Test-Enhanced Learning](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
 - [Cepeda et al. (2006), Distributed Practice in Verbal Recall Tasks](https://doi.org/10.1037/0033-2909.132.3.354)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
+
+## 结语：把方法交给下一次
+
+学习方法最诱人的地方，是它看起来像一条捷径。可任何方法只有在资料合上、提示离开、题目更换以后仍然能帮助你完成任务，才开始真正属于你。
+
+你不需要背下所有研究者的名字，也不必把生活变成一场持续测量。记住一个朴素的回路就够了：先独立做一次，让困难出现；获得具体反馈；隔一段时间再做；换一个条件，看看能力有没有跟过来。
+
+好的方法不会让你更擅长解释自己为什么努力，而会让你在无人提醒时，更有能力把一件事做完。最后留下来的，不是方法的名字，而是下一次面对陌生问题时，你仍然知道怎样开始。

@@ -157,3 +157,11 @@ Place baseline, immediate performance, delayed retention, and transfer in the [E
 - [Roediger & Karpicke (2006), Test-Enhanced Learning](https://doi.org/10.1111/j.1467-9280.2006.01693.x)
 - [Cepeda et al. (2006), Distributed Practice in Verbal Recall Tasks](https://doi.org/10.1037/0033-2909.132.3.354)
 - [Pashler et al. (2008), Learning Styles: Concepts and Evidence](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Pashler_McDaniel_Rohrer_Bjork_2009_PSPI.pdf)
+
+## Closing: Give the Method to the Next Attempt
+
+The temptation of a learning method is that it looks like a shortcut. A method begins to belong to you only when the material is closed, the cue is gone, the task has changed, and it can still help you finish something.
+
+You do not need to memorise every researcher's name or turn life into continuous measurement. One plain loop is enough: attempt the task alone and let difficulty appear; obtain specific feedback; return after an interval; change one condition and see whether the ability travels with you.
+
+A good method does not make you better at explaining how hard you have worked. It makes you more able to complete something when no one is reminding you. What remains is not the name of the method, but the knowledge of how to begin the next unfamiliar problem.

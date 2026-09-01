@@ -275,9 +275,27 @@ export default defineConfig({
       provider: "local",
       options: {
         _render(src, env, md) {
-          const searchableTokens = md
+          const contentTokens = md
             .parse(src, env)
             .filter(({ type }) => type !== "fence" && type !== "code_block");
+          const searchableTokens = [];
+          const bibliographyHeadings = new Set([
+            "参考资料",
+            "Sources",
+            "推荐的参考书",
+            "Reference Book",
+            "单独推荐的 YouTube 视频",
+            "A Few Specific YouTube Videos",
+          ]);
+          let skipBibliography = false;
+          for (let index = 0; index < contentTokens.length; index += 1) {
+            const token = contentTokens[index];
+            if (token.type === "heading_open" && token.tag === "h2") {
+              const title = contentTokens[index + 1]?.content?.trim();
+              skipBibliography = bibliographyHeadings.has(title);
+            }
+            if (!skipBibliography) searchableTokens.push(token);
+          }
           return md.renderer.render(searchableTokens, md.options, env);
         },
         miniSearch: {

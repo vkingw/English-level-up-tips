@@ -142,14 +142,6 @@ I want to remain an honest writer: the work may be imperfect, but it should not 
 
 ---
 
-## Closing
-
-The world is already noisy. Writing does not need to add more noise. It can preserve a quiet place in life that you can return to.
-
-If you do not know where to start, write a real email, a three-minute explanation, or a 200-word note. Give it to one real person and ask what they understood.
-
----
-
 ## CEFR Task Goals
 
 - **A1–A2**: write short messages, forms, personal descriptions, and simply connected sentences.
@@ -173,4 +165,10 @@ Use the [Evidence Chain Template](../../templates/evidence-chain.md) to place th
 
 Pair this chapter with [Artifacts: Turn Learning into Something Made](../part-3/4-artifacts-and-delivery.md) to keep draft, feedback, and final delivery in one evidence chain.
 
-Prev: [Speaking](5-speaking.md)  
+## Closing: Write the Version You Are Willing to Sign
+
+The world is already noisy. Writing does not need to add more noise. It can preserve a quiet place in life that can be revisited, and let a judgment continue meeting facts, readers, and time after the immediate emotion has passed.
+
+A draft records what you were able to think then. Revision records whether you allowed new evidence and another person's understanding to change you. The writing need not become perfect at once, but every version prepared for delivery should answer more honestly: whose words are these, what supports them, who may be affected, and what remains uncertain?
+
+If you do not know where to start, write a real email, a three-minute explanation, or a 200-word note. Give it to one real person and ask what they understood. Revise until you are willing to sign it, carry its consequences, and open it again in the future.
