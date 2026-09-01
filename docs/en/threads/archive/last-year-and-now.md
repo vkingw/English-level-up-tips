@@ -1,14 +1,14 @@
 ---
 title: Last Year and Now
 description: A complete English translation of a 2016 post about graduation, returning home, a first website, and early companies.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Last Year and Now
 
 **Editor's note (2026-08-31):** The self-introduction, projects, companies, income, and health details belong to a 2016 snapshot. They do not describe the author's current status or constitute business, investment, or career advice. Read this as retrospective material, not a route to copy.
 
-> Original date: 2016-04-24, based on the recoverable [Wayback Machine snapshot](https://web.archive.org/web/20160424221725/http://zb.gs/%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8B%E5%8E%BB%E5%B9%B4%E5%92%8C%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%88%91/)
+> Original date: 2016-04-24. The original Wayback Machine snapshot now returns 404; this page preserves the repository's historical text and does not treat the dead address as reviewable evidence.
 
 The previous year I was a university senior. On 7 March 2015 I went to Beijing, originally to find an internship. Successful interviews gave me confidence and made me more ambitious, so I spent much of two months interviewing.
 

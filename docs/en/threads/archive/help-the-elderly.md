@@ -8,7 +8,7 @@ updated: 2026-09-01
 
 **Editor's note (2026-08-31):** This is a personal account, not first-aid, legal, or risk-probability guidance. In a real emergency, protect both people, contact local emergency services or professionals, and do not generalise from the author's experience of not being accused.
 
-> Original date: 2016-04-24, based on the recoverable [Wayback Machine snapshot](https://web.archive.org/web/20160424221721/http://zb.gs/%E5%88%B0%E5%BA%95%E8%AF%A5%E4%B8%8D%E8%AF%A5%E6%89%B6%E8%80%81%E4%BA%BA/)
+> Original date: 2016-04-24. The original Wayback Machine snapshot now returns 404; this page preserves the repository's historical text and does not treat the dead address as reviewable evidence.
 
 This is a controversial question. I can only describe what I personally did.
 

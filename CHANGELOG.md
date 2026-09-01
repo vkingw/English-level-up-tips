@@ -8,6 +8,8 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Marked two dead Wayback snapshots as unavailable and removed their 404 links while preserving the local historical text and attribution boundary.
+- Replaced the slow Hu & Nation DOI resolver with its verified ScholarSpace record so the vocabulary citation remains open and the scheduled link audit avoids a false timeout.
 - Limited the dedicated catalog probes to source Markdown under `docs/threads` so generated VitePress HTML cannot append quotes or tags to URLs and create false 404 reports.
 - Tuned the scheduled link audit for VitePress clean URLs and anti-bot catalog/project sites: local links are excluded from Lychee, critical Douban and project entry points use dedicated curl probes, and 404/5xx failures remain strict.
 - Enabled cancellation of superseded Pages deployments so a rapid sequence of commits cannot let an older build publish after a newer one.
