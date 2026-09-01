@@ -38,9 +38,20 @@ Read [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md) a
 
 ## Two Reading Modes, Used in Turn
 
+### One Complete Reading Arc
+
+A complete read is not a race through page numbers. It lets the same question change four times: first see yourself, then open input, return to reality, and finally give the rhythm to time.
+
+| Stage | What to read | What to leave behind |
+| --- | --- | --- |
+| See the starting point | [Reader's Guide](reader-guide.md) · [Prologue](prologue.md) | A one-page promise: real problem, baseline, minimum action, and boundary |
+| Open input | [CEFR Self-check](../part-1/0-cefr.md) and the listening, reading, speaking, and writing chapters | An [English Diagnostic](../../templates/english-diagnostic.md) and one relevant [evidence card](../../reference/glossary.md#tools-and-delivery) |
+| Return to reality | [My Story](../part-4/my-story.md), [Narrative and Evidence](../part-2/narrative-and-evidence.md), [Decision-Making](../part-2/decision.md), [Recovery](../part-2/recovery.md), plus [AI Learning](../part-3/1-ai-learning.md), [Artifacts](../part-3/4-artifacts-and-delivery.md), and [Evidence](../part-3/5-evidence-and-transfer.md) | One case review or real delivery, with change recorded in the [Evidence Chain Template](../../templates/evidence-chain.md) |
+| Sustain and ship | [Daily System](../part-4/daily-system.md), [Rhythm](../part-4/rhythm-and-compounding.md), [90-Day Action Plan](../part-5/90-day-plan.md), and the [Afterword](../part-6/afterword.md) | One [Rhythm Ledger](../../templates/rhythm-ledger.md), one cycle plan, and a next review date |
+
 ### Read like a book
 
-Follow [the Prologue](prologue.md) → [Foundation: English](../part-1/0-cefr.md) → [Practice, Review, and Recovery](../part-4/my-story.md) → [Lifelong Learning and AI](../part-3/1-ai-learning.md) → [the 90-Day Action Plan](../part-5/90-day-plan.md). This reveals how one question moves from language training into work, relationships, the body, and responsibility.
+Follow [the Prologue](prologue.md) → [Foundation: English](../part-1/0-cefr.md) → [Practice, Review, and Recovery](../part-4/my-story.md) → [Lifelong Learning and AI](../part-3/1-ai-learning.md) → [Evidence](../part-3/5-evidence-and-transfer.md) → [Rhythm](../part-4/rhythm-and-compounding.md) → [the 90-Day Action Plan](../part-5/90-day-plan.md). This reveals how one question moves from language training into work, relationships, the body, and responsibility, then becomes a rhythm that can be tested and sustained.
 
 ### Read like a studio
 

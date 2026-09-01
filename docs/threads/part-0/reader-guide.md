@@ -38,9 +38,20 @@ updated: 2026-09-01
 
 ## 两种读法，轮流使用
 
+### 一条完整的阅读弧线
+
+完整阅读不是把页码走完，而是让同一个问题经过四次变化：先看见自己，再打开输入，回到现实，最后把节奏交给时间。
+
+| 阶段 | 阅读范围 | 读完留下什么 |
+| --- | --- | --- |
+| 看见起点 | [阅读指南](reader-guide.md) · [序章](prologue.md) | 一页读者承诺：真实问题、基线、最小动作和边界 |
+| 打开输入 | [CEFR 自测](../part-1/0-cefr.md)与听、读、说、写章节 | 一份[英语诊断](../../templates/english-diagnostic.md)和一张对应的[证据卡](../../reference/glossary.md#工具与交付) |
+| 回到现实 | [我的故事](../part-2/my-story.md)、[叙事与证据](../part-2/narrative-and-evidence.md)、[选择](../part-2/decision.md)、[恢复](../part-2/recovery.md)，以及[AI 学习](../part-3/1-ai-learning.md)、[作品](../part-3/4-artifacts-and-delivery.md)、[证据](../part-3/5-evidence-and-transfer.md) | 一次案例复盘或真实交付，并用[证据链模板](../../templates/evidence-chain.md)记录变化 |
+| 保持与交付 | [生活系统](../part-4/daily-system.md)、[节律](../part-4/rhythm-and-compounding.md)、[九十天行动](../part-5/90-day-plan.md)、[后记](../part-6/afterword.md) | 一页[节律账本](../../templates/rhythm-ledger.md)、一份周期计划，以及下一次复查日期 |
+
 ### 像读一本书一样读
 
-沿着[序章](prologue.md) → [基础能力：英语](../part-1/0-cefr.md) → [实践、复盘与恢复](../part-2/my-story.md) → [终身学习与 AI](../part-3/1-ai-learning.md) → [九十日行动篇](../part-5/90-day-plan.md)阅读。这样读，你会看到同一个问题怎样从语言训练走到工作、关系、身体和责任。
+沿着[序章](prologue.md) → [基础能力：英语](../part-1/0-cefr.md) → [实践、复盘与恢复](../part-2/my-story.md) → [终身学习与 AI](../part-3/1-ai-learning.md) → [证据篇](../part-3/5-evidence-and-transfer.md) → [节律篇](../part-4/rhythm-and-compounding.md) → [九十日行动篇](../part-5/90-day-plan.md)阅读。这样读，你会看到同一个问题怎样从语言训练走到工作、关系、身体和责任，再经过验证成为可以持续的节奏。
 
 ### 像使用一间工作室一样读
 

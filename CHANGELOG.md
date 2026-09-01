@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Expanded the bilingual Reader's Guide with a four-stage reading arc and explicit outputs, connecting input, real-life practice, evidence, rhythm, and the 90-day cycle.
 - Added return-visit routes to the bilingual Reader's Guide for the Toolkit Overview, Evidence Chain, and Rhythm Ledger, with browser coverage for choosing and resuming the right worksheet.
 - Added a bilingual Evidence Chain template for baseline, immediate performance, delayed retention, transfer, evidence boundaries, and next-step decisions; linked it from the glossary, toolkit, and Evidence chapter.
 - Corrected twelve bilingual pages that carried a future `updated` date and added a guard preventing publication metadata from moving ahead of the current day.
