@@ -1,14 +1,14 @@
 ---
 title: "Entrepreneurship: From Ambition to Purpose"
-description: A personal review of products, cash flow, technical debt, failure, recovery, and starting again; not success doctrine or investment advice.
+description: A personal review of products, cash flow, technical debt, failure, recovery, and starting again, without offering a success formula or investment advice.
 updated: 2026-09-01
 ---
 
 # Entrepreneurship: From Ambition to Purpose
 
-> First written in June 2026 and revised on 2026-08-31 for evidence levels, privacy, and affiliation disclosure. This is not a success formula, investment advice, or a route others can copy. It is a personal review.
+> First written in June 2026 and revised on 2026-08-31 for evidence levels, privacy, and affiliation disclosure. This personal review offers no success formula, investment advice, or route for others to copy.
 
-When I was younger, entrepreneurship meant opportunity, ambition, and a chance to take my life off its old track. Today it feels more like a delayed mirror. It reflects courage and ability, but also greed, immaturity, and everything a founder would rather not see.
+When I was younger, entrepreneurship meant opportunity, ambition, and a chance to take my life off its old track. Today it feels more like a delayed mirror. Courage and greed appear in the same reflection; ability and immaturity grow larger together.
 
 People first found me through this English-learning repository. Others later read about the software company that failed, the health problems that followed, my return home, and the effort to begin again. Connected together, those events ask one question:
 
@@ -25,7 +25,7 @@ This chapter contains personal memory, explanations made in hindsight, and plans
 | Reusable gate | What I will ask, test, or stop next time | Use it to design your own checks, not to copy my route |
 | Unverified plan | An industry, service, or public-interest direction I want to explore | Keep it labelled as a direction until users, costs, and time answer |
 
-Loss figures are estimates from personal records, not an audit. For current affiliations and commercial relationships, use the latest [Author Projects and Real-world Practice](../../projects.md) disclosure.
+Loss figures are estimates from personal records and require financial evidence for formal conclusions. For current affiliations and commercial relationships, use the latest [Author Projects and Real-world Practice](../../projects.md) disclosure.
 
 ![Cover: a workspace between city and countryside at dawn](../../../assets/entrepreneurship/cover.webp)
 
@@ -35,9 +35,9 @@ Loss figures are estimates from personal records, not an audit. For current affi
 
 I went to Beijing on 7 March 2015 to find an internship. A series of encouraging interviews gave me a young person's illusion that I might force a place for myself in the world.
 
-The university required me to return for my graduation defence. I did not receive my certificate on schedule because of unfinished internship requirements, so I went home. The period did not feel impressive: I learned to cook and developed joint pain. In retrospect, major turns often begin in the gap created by having nowhere obvious to go.
+The university required me to return for my graduation defence. I did not receive my certificate on schedule because of unfinished internship requirements, so I went home. The period did not feel impressive: I learned to cook and developed joint pain. In retrospect, major turns often grow through the gap created by having nowhere obvious to go; their beginnings are rarely well lit.
 
-In 2016 I built a film website, `bt0.com`. It was not a world-changing product, but it had real users and real feedback. That was enough to teach an important lesson: code is not written for the maker's admiration, and products do not receive applause merely because they exist in the maker's imagination.
+In 2016 I built a film website, `bt0.com`. It was small, but it had real users and real feedback. That was enough to teach an important lesson: code has to leave the editor, and a product has to leave the maker's imagination and meet another person's choice.
 
 I took web-design projects and formed early companies with a former classmate. I moved quickly and easily mistook speed for direction. In an old post I had written that I wanted to work steadily, avoid rushing, and boast less. It took years to understand my own sentence.
 
@@ -61,7 +61,7 @@ A relative ran a successful beef-soup shop. I studied it, opened one of my own, 
 
 The software company taught me that dreams are expensive. Restaurants taught me that cash flow is real.
 
-The shops helped fund my later software investment, but eventually closed during the pandemic period. The lesson was not that physical business is good and the internet bad. Every business returns to real exchange: will people pay, can the cost structure survive, and can the organisation remain alive when conditions change?
+The shops helped fund my later software investment, but eventually closed during the pandemic period. They offered no verdict that physical business was superior to the internet. Every business returns to exchange: will people pay, can the cost structure survive, and can the organisation remain alive when conditions change?
 
 ## 2022: Seeing the Foundation of Product and Responsibility
 
@@ -77,7 +77,7 @@ One evening, the partners talked late into the night. A major shareholder who ha
 
 The company struggled to pay salaries and borrowed money. Management became more controlling: attendance enforcement, reduced benefits, meaningless overtime, constant reports, and monitoring. By September the team no longer wanted to come to work, and the company ended.
 
-According to the records I had at the time, our combined losses exceeded twenty million yuan before other ventures. This is an estimate in a personal review, not a financial audit. Harder than the number was guilt towards colleagues, family, and people who had trusted my judgment. Failure does not only damage a balance sheet. It can reveal that something once held with certainty was wrong at the foundation.
+According to the records I had at the time, our combined losses exceeded twenty million yuan before other ventures. This estimate requires financial evidence for any formal conclusion. Harder than the number was guilt towards colleagues, family, and people who had trusted my judgment. Beyond the balance sheet came the discovery that something once held with certainty had been wrong at the foundation.
 
 ## 2023: Survive Before Restarting
 
@@ -87,11 +87,11 @@ At the end of March 2023 I transferred the final restaurant. In June I left Nanj
 
 My health and routine had deteriorated: stomach problems, insomnia, poor appetite, blurred vision, and pain. Medical examinations did not reveal the catastrophic illness I feared, yet every day felt dangerous. I escaped into games, reversed day and night, stopped earning, left online groups, and disconnected from GitHub and people I had known.
 
-The worst part was not lack of money but lack of visible hope. I repeatedly asked whether stopping earlier or recognising the foundations more clearly would have changed the outcome.
+Lack of money was hard. The absence of visible hope was harder. I repeatedly asked whether stopping earlier or recognising the foundations more clearly would have changed the outcome.
 
-Recovery did not arrive through one inspiring sentence. It came from slowly regaining control: eating, sleeping, going outside, learning again, facing the past, admitting mistakes, and sorting the wreckage.
+Recovery came through slowly regaining control: eating, sleeping, going outside, learning again, facing the past, admitting mistakes, and sorting the wreckage. No inspiring sentence could perform those acts for me.
 
-Founders often romanticise “starting again”. The first step may not be another company. It may be admitting that a founder is an ordinary person who can fail, needs rest, and must first support health and daily life.
+Founders often romanticise “starting again”. It may begin with admitting that a founder is an ordinary person who can fail, needs rest, and must first support health and daily life. Another company can wait.
 
 ## 2026: AI and the Physical Economy
 
@@ -99,13 +99,13 @@ Founders often romanticise “starting again”. The first step may not be anoth
 
 By June 2026, I had returned to technology, products, and industry as a company leader. Product details, company visits, relationships, dates, and non-sponsorship disclosures are now centralised on [Author Projects and Real-world Practice](../../projects.md) so that a personal review does not double as product promotion.
 
-An industry visit reinforced a direction: useful AI should not remain an abstract idea or a toy for a small group. It must enter real processes, including agriculture and other physical industries, and become usable by ordinary people.
+An industry visit reinforced a direction: AI has to leave abstraction and the hands of a small group, enter real processes such as agriculture, and become usable by ordinary people before its value can be tested.
 
 That statement is still a direction, not evidence of impact. After the software failure, I ask harder questions: who needs this, can it enter a real workflow, can people keep using it, and can delivery, compliance, cost, and service close the loop? Without answers, a beautiful technology story can become another unstable building.
 
 ## Five Reality Gates for the Next Venture
 
-Each gate should leave evidence that another person can inspect, not only the founder’s confidence:
+Each gate should leave evidence another person can inspect. A founder's confidence is only a starting point:
 
 1. **Problem gate**: who meets the problem, in which repeated situation, and what interviews, orders, or usage records exist?
 2. **Value gate**: what time, risk, or cost changes, and how will the user accept the result?
@@ -115,11 +115,11 @@ Each gate should leave evidence that another person can inspect, not only the fo
 
 Use the [Life Practice Toolkit](../../templates/life-practice-toolkit.md) for choices and boundaries, and the [AI Project Scorecard](../../templates/ai-project-scorecard.md) for pilot quality. Tools can expose questions; they cannot carry entrepreneurial responsibility.
 
-## What I Learned
+## Lessons That Remained
 
-### A product is not a collection of features
+### Features do not make a product
 
-Users care whether a problem is solved more quickly, reliably, and affordably, not how many modules appear on a screen.
+Features acquire the weight of a product only when people repeatedly use them to solve a problem more quickly, reliably, or affordably.
 
 ### Technical debt becomes business debt
 
@@ -127,7 +127,7 @@ Confused code, old architecture, missing data, and security risk eventually cons
 
 ### Cash flow is more honest than valuation
 
-A small business that survives is not inferior to a grand internet narrative. Cash flow is respect for reality.
+A small business that survives can carry more weight than a grand internet narrative. Cash flow makes a business answer to reality.
 
 ### Founders should distrust heroic stories
 
@@ -135,13 +135,13 @@ A small business that survives is not inferior to a grand internet narrative. Ca
 
 ### The willingness to learn after failure is an asset
 
-I once closed the connection to GitHub and technology. Returning does not mean the pain disappeared. It means failure must become judgment, or remain only failure.
+I once closed the connection to GitHub and technology. The pain remains. I returned because it needed to become judgment; otherwise failure would remain only failure.
 
-## Entrepreneurship Is Not Self-immolation
+## Entrepreneurship Cannot Depend on Self-immolation
 
-I once thought a founder should burn time, health, relationships, and savings, and that success would justify it. I no longer believe that.
+I once thought a founder should burn time, health, relationships, and savings, and that success would justify it. I eventually abandoned that belief.
 
-Good entrepreneurship should make a founder clearer, a team more orderly, users better served, and family more secure. Risk is not recklessness. Persistence is not refusal to stop. Belief in the future is not refusal to see the present.
+Good entrepreneurship should make a founder clearer, a team more orderly, users better served, and family more secure. Risk still needs limits; persistence still needs an exit; belief in the future must keep looking at the present.
 
 Before continuing, I now want plain answers:
 
@@ -152,7 +152,7 @@ Before continuing, I now want plain answers:
 - If it fails, how can people exit responsibly?
 - If it succeeds, can ordinary people benefit?
 
-This is not the display of youthful success or the accusation of later disappointment. It is an attempt to rebuild judgment after reality broke it, and to use what remains for work that helps others.
+This review neither displays youthful success nor prosecutes later disappointment. It records an attempt to rebuild judgment after reality broke it and use what remains for work that helps others.
 
 ## Related Reading
 
@@ -168,6 +168,6 @@ This is not the display of youthful success or the accusation of later disappoin
 
 I do not want to lose ambition. Without it, I would not have entered unfamiliar industries or returned to technology after failure. But ambition left untested can recruit everything nearby: a team's time, a family's sense of safety, a customer's trust, and the rest a body was meant to receive.
 
-If there is another venture, I want it to pass through plain realities: the problem exists, users choose the work, the ledger closes, promises can be delivered, and someone knows how to stop when it fails. It may grow more slowly and remain smaller, but it should leave the people inside it more ordered, not merely make the founder's story more dramatic.
+If there is another venture, I want it to pass through plain realities: the problem exists, users choose the work, the ledger closes, promises can be delivered, and someone knows how to stop when it fails. It may grow more slowly and remain smaller, while leaving the people inside it more ordered instead of merely making the founder's story more dramatic.
 
 I no longer need a company to prove that I stood up after a low season. Work worth doing should remain useful after I leave the stage. Even if it never becomes a grand enterprise, it should not require the people who love me to keep paying for my certainty.

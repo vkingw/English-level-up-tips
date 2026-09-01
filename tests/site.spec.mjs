@@ -189,6 +189,18 @@ test("key story, narrative, entrepreneurship, and AI chapters end on their liter
   }
 });
 
+test("the entrepreneurship chapter advances through scenes instead of stacked binary contrasts", () => {
+  const text = readFileSync(
+    resolve(process.cwd(), "docs/threads/part-2/entrepreneurship.md"),
+    "utf8",
+  );
+  const contrastMarkers = ["不是", "而是", "真正"].reduce(
+    (total, marker) => total + (text.match(new RegExp(marker, "g")) || []).length,
+    0,
+  );
+  expect(contrastMarkers).toBeLessThanOrEqual(8);
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);

@@ -240,6 +240,20 @@ function checkKeyLiteraryClosing(file) {
   }
 }
 
+function checkEntrepreneurshipStyle(file) {
+  const source = relative(DOCS, file).split(sep).join("/");
+  if (source !== "threads/part-2/entrepreneurship.md") return;
+
+  const text = readFileSync(file, "utf8");
+  const contrastMarkers = ["不是", "而是", "真正"].reduce(
+    (total, marker) => total + (text.match(new RegExp(marker, "g")) || []).length,
+    0,
+  );
+  if (contrastMarkers > 8) {
+    addError(file, 1, "创业篇二元对举句式过密，应优先使用场景、动作与具体后果推进叙事");
+  }
+}
+
 function checkBilingualParity(markdownFiles) {
   const publicFiles = markdownFiles.filter(
     (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
@@ -456,6 +470,7 @@ for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) 
   checkManualBookPager(file);
   checkPartOneClosing(file);
   checkKeyLiteraryClosing(file);
+  checkEntrepreneurshipStyle(file);
 }
 checkBilingualParity(markdownFiles);
 checkHeadingParity(markdownFiles);
