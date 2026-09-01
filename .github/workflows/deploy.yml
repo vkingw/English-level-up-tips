@@ -71,17 +71,22 @@ jobs:
             fi
           done
           downloads=(
-            $'/downloads/life-level-up-guide-zh.epub|application/epub+zip'
-            $'/downloads/life-level-up-guide-en.epub|application/epub+zip'
-            $'/downloads/life-level-up-guide-zh.pdf|application/pdf'
-            $'/downloads/life-level-up-guide-en.pdf|application/pdf'
+            $'/downloads/life-level-up-guide-zh.epub|application/epub+zip|0-3|504b0304'
+            $'/downloads/life-level-up-guide-en.epub|application/epub+zip|0-3|504b0304'
+            $'/downloads/life-level-up-guide-zh.pdf|application/pdf|0-4|255044462d'
+            $'/downloads/life-level-up-guide-en.pdf|application/pdf|0-4|255044462d'
           )
           for entry in "${downloads[@]}"; do
-            IFS='|' read -r path expected_type <<< "$entry"
+            IFS='|' read -r path expected_type byte_range expected_signature <<< "$entry"
             url="${PAGE_URL%/}${path}"
             headers="$(curl --fail --head --location --retry 8 --retry-delay 5 --connect-timeout 15 --max-time 45 "$url")"
-            if ! grep -Eiq "^content-type: *${expected_type}" <<< "$headers"; then
+            if ! grep -Fiq "content-type: ${expected_type}" <<< "$headers"; then
               printf 'Unexpected content type for %s; expected %s\n' "$url" "$expected_type" >&2
+              exit 1
+            fi
+            signature="$(curl --fail --silent --show-error --location --retry 8 --retry-delay 5 --connect-timeout 15 --max-time 45 --range "$byte_range" "$url" | od -An -tx1 | tr -d ' \n')"
+            if [[ "$signature" != "$expected_signature" ]]; then
+              printf 'Unexpected file signature for %s; expected %s, received %s\n' "$url" "$expected_signature" "$signature" >&2
               exit 1
             fi
           done

@@ -357,12 +357,12 @@ test("home pages expose deterministic bilingual EPUB editions", async ({ page, r
   );
 });
 
-test("home pages expose deterministic print-ready bilingual PDF editions", async ({ page, request }) => {
+test("home pages expose reproducible print-ready bilingual PDF editions", async ({ page, request }) => {
   const manifestResponse = await request.get("downloads/pdf-manifest.json");
   expect(manifestResponse.status()).toBe(200);
   expect(manifestResponse.headers()["content-type"]).toContain("application/json");
   const manifest = await manifestResponse.json();
-  expect(manifest).toMatchObject({ version: 1, format: "PDF 1.7", pageSize: "6 × 9.6 in" });
+  expect(manifest).toMatchObject({ version: 2, format: "PDF 1.7", pageSize: "6 × 9.6 in" });
 
   const editions = [
     { language: "zh-CN", label: "下载中文 PDF", href: "./downloads/life-level-up-guide-zh.pdf" },
@@ -380,6 +380,18 @@ test("home pages expose deterministic print-ready bilingual PDF editions", async
     expect(output.pages).toBeGreaterThan(200);
     expect(output.bytes).toBeGreaterThan(500_000);
     expect(output.bytes).toBeLessThan(8_000_000);
+    expect(output.semanticSha256).toMatch(/^[a-f0-9]{64}$/);
+    expect(output.outlineEntries).toBeGreaterThan(500);
+    expect(output.linkAnnotations).toBeGreaterThan(500);
+    expect(output.images).toBeGreaterThan(10);
+    if (edition.language === "zh-CN") {
+      const embeddedNotoFonts = output.fonts.filter(
+        (font) => font.name.startsWith("Noto") && font.embedded,
+      );
+      expect(embeddedNotoFonts.map((font) => font.name)).toEqual(
+        expect.arrayContaining(["NotoSans-Regular", "NotoSerifSC-Bold", "NotoSerifSC-Regular"]),
+      );
+    }
     const response = await request.get(`downloads/${output.file}`);
     expect(response.status()).toBe(200);
     expect(response.headers()["content-type"]).toContain("application/pdf");
