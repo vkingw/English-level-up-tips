@@ -181,4 +181,4 @@ I still make mistakes in relationships. I still mistake silence for understandin
 
 Love is not designing another person’s life, and it is not sacrificing yourself until you cannot breathe. It is a continuing respect: I will be present, and I accept that you have your own road; I will repair, and I accept that you may choose to leave.
 
-Next: [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [Decision-Making: Choosing Under Uncertainty](decision.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Entrepreneurship: From Ambition to Purpose](entrepreneurship.md) | [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

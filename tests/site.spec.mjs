@@ -32,6 +32,23 @@ test("book structure leads with the reader guide", () => {
   ]);
 });
 
+test("life-review chapters move from story through echoes into recovery", () => {
+  const zhPractice = zhNavigation.find(({ text }) => text === "实践、复盘与恢复");
+  const enPractice = enNavigation.find(({ text }) => text === "Practice, Review, and Recovery");
+  expect(zhPractice?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+    "threads/part-2/my-story.md",
+    "threads/part-2/narrative-and-evidence.md",
+    "threads/part-2/x-misc.md",
+    "threads/part-2/recovery.md",
+  ]);
+  expect(enPractice?.items.slice(0, 4).map(({ source }) => source)).toEqual([
+    "en/threads/part-4/my-story.md",
+    "en/threads/part-2/narrative-and-evidence.md",
+    "en/threads/part-2/x-misc.md",
+    "en/threads/part-2/recovery.md",
+  ]);
+});
+
 for (const [route, heading] of routes) {
   test(`${route} renders`, async ({ page }) => {
     await page.goto(route);
@@ -265,6 +282,32 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Evidence", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Rhythm", exact: true }).first()).toBeVisible();
+});
+
+test("echoes chapter separates harm, responsibility, and the next choice", async ({ page }) => {
+  await page.goto("./threads/part-2/x-misc");
+  const zhMain = page.locator("main");
+  await expect(
+    zhMain.getByRole("heading", { level: 1, name: "回声篇：不要把逃避写成浪漫" }),
+  ).toBeVisible();
+  await expect(zhMain.getByText(/暴力不是教育，我不该被伤害/)).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "给旧故事一张新的读法" })).toBeVisible();
+  await expect(
+    zhMain.getByRole("link", { name: "恢复篇：先把自己接住", exact: true }).first(),
+  ).toBeVisible();
+
+  await page.goto("./en/threads/part-2/x-misc");
+  const enMain = page.locator("main");
+  await expect(
+    enMain.getByRole("heading", { level: 1, name: "Echoes: Do Not Romanticise Avoidance" }),
+  ).toBeVisible();
+  await expect(enMain.getByText(/violence is not education, and I should not have been hurt/i)).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: "Give an Old Story a New Reading" })).toBeVisible();
+  await expect(
+    enMain
+      .getByRole("link", { name: "Recovery: Catch Yourself Before You Push Forward", exact: true })
+      .first(),
+  ).toBeVisible();
 });
 
 test("afterword closes the book with a return path", async ({ page }) => {

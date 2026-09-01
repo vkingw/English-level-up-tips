@@ -54,11 +54,11 @@
 
 - [我的故事](threads/part-2/my-story.md)
 - [叙事与证据篇：不把经历写成命运](threads/part-2/narrative-and-evidence.md)
+- [回声篇：不要把逃避写成浪漫](threads/part-2/x-misc.md)
 - [恢复篇：先把自己接住](threads/part-2/recovery.md)
 - [选择篇：在不确定中做决定](threads/part-2/decision.md)
 - [关系篇：在关系中成为成年人](threads/part-2/relationships.md)
 - [创业篇](threads/part-2/entrepreneurship.md)
-- [杂谈与旧日回声](threads/part-2/x-misc.md)
 - [Week 1](threads/part-4/week-1.md)
 - [生活系统篇：把改变安放在日子里](threads/part-4/daily-system.md)
 - [节律篇：让小事穿过时间](threads/part-4/rhythm-and-compounding.md)

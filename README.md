@@ -52,7 +52,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | --- | --- | --- |
 | 阅读指南与序章 | 我从哪里进入，又为什么要重新开始？ | [阅读指南](docs/threads/part-0/reader-guide.md) · [先不要急着改变人生](docs/threads/part-0/prologue.md) |
 | 第一部：打开输入 | 怎样建立英语和世界之间的通道？ | [CEFR 自测](docs/threads/part-1/0-cefr.md) · [认知与训练原则](docs/threads/part-1/1-understanding.md) · [词汇、听力、阅读、口语、写作](docs/threads/part-1/2-vocabulary.md) |
-| 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [我的故事](docs/threads/part-2/my-story.md) · [叙事与证据篇](docs/threads/part-2/narrative-and-evidence.md) · [选择篇](docs/threads/part-2/decision.md) · [关系篇](docs/threads/part-2/relationships.md) · [恢复篇](docs/threads/part-2/recovery.md) · [创业篇](docs/threads/part-2/entrepreneurship.md) |
+| 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [我的故事](docs/threads/part-2/my-story.md) · [叙事与证据篇](docs/threads/part-2/narrative-and-evidence.md) · [回声篇](docs/threads/part-2/x-misc.md) · [恢复篇](docs/threads/part-2/recovery.md) · [选择篇](docs/threads/part-2/decision.md) · [关系篇](docs/threads/part-2/relationships.md) · [创业篇](docs/threads/part-2/entrepreneurship.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md) · [AI 项目与资源层创业](docs/threads/part-3/2-ai-development-and-resource-layer.md) · [注意力篇](docs/threads/part-3/3-attention-and-judgment.md) · [作品篇](docs/threads/part-3/4-artifacts-and-delivery.md) · [证据篇](docs/threads/part-3/5-evidence-and-transfer.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、兴趣和日常？ | [Week 1](docs/threads/part-4/week-1.md) · [生活系统篇](docs/threads/part-4/daily-system.md) · [节律篇](docs/threads/part-4/rhythm-and-compounding.md) |
 | 第五部：行动与长期改变 | 怎样在九十天里做出可验证的改变？ | [九十天行动篇](docs/threads/part-5/90-day-plan.md) |
@@ -114,7 +114,7 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 ## 人生复盘与恢复：经验也需要重新解释
 
-[我的故事](docs/threads/part-2/my-story.md)、[选择篇](docs/threads/part-2/decision.md)、[关系篇](docs/threads/part-2/relationships.md)、[恢复篇](docs/threads/part-2/recovery.md)、[创业篇](docs/threads/part-2/entrepreneurship.md)和[旧文归档](docs/threads/archive/README.md)保留了失败、身体失序、关系变化、离开与重返。回望不是为了把过去装饰成励志故事，而是为了辨认：哪些决定有效，哪些代价不能忽略，下一次怎样活得更诚实。
+[我的故事](docs/threads/part-2/my-story.md)、[叙事与证据篇](docs/threads/part-2/narrative-and-evidence.md)、[回声篇](docs/threads/part-2/x-misc.md)、[恢复篇](docs/threads/part-2/recovery.md)、[选择篇](docs/threads/part-2/decision.md)、[关系篇](docs/threads/part-2/relationships.md)、[创业篇](docs/threads/part-2/entrepreneurship.md)和[旧文归档](docs/threads/archive/README.md)保留了失败、身体失序、关系变化、离开与重返。回望不是为了把过去装饰成励志故事，而是把事实、伤害、责任和运气重新分开，辨认哪些决定有效、哪些代价不能忽略，以及下一次怎样活得更诚实。
 
 个人经历不是医疗、法律、投资或创业建议。公开内容遵循最少必要原则，不展示不必要的第三方身份信息；涉及他人的照片与故事，只在获得明确授权和尊重隐私的前提下保留。
 

@@ -151,4 +151,4 @@ A person begins again not because they become indestructible, but because they l
 
 Catch yourself first. Then take the next step.
 
-Next: [90-Day Action Plan](../part-5/90-day-plan.md) | [Afterword: Progress Is Not Leaving Yourself Behind](../part-6/afterword.md)
+Next: [Decision-Making: Choosing Under Uncertainty](decision.md) | [Week 1](../part-4/week-1.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

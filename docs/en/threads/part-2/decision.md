@@ -190,4 +190,4 @@ I still make bad decisions and still overestimate my clarity under pressure. Now
 
 Life is not an exam that allows one choice only. What matters is retaining the ability to observe, apologise, revise, and return after each choice.
 
-Next: [Recovery: Catch Yourself Before You Push Forward](recovery.md) | [Entrepreneurship: From Ambition to Purpose](entrepreneurship.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Relationships: Becoming an Adult in Connection](relationships.md) | [Entrepreneurship: From Ambition to Purpose](entrepreneurship.md) | [90-Day Action Plan](../part-5/90-day-plan.md)

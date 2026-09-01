@@ -190,4 +190,4 @@ updated: 2026-09-01
 
 人生不是一场只允许一次选择的考试。真正重要的，是在每次选择之后，仍然保留观察、道歉、修正和回来的能力。
 
-下一篇：[恢复篇：先把自己接住](recovery.md) ｜ [创业篇：从野心到使命](entrepreneurship.md) ｜ [行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md)
+下一篇：[关系篇：在关系中成为成年人](relationships.md) ｜ [创业篇：从野心到使命](entrepreneurship.md) ｜ [行动篇：九十天，把生活交还给自己](../part-5/90-day-plan.md)

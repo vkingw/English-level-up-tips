@@ -142,6 +142,16 @@ function parseFrontmatter(file) {
 
 function checkFrontmatter(file) {
   if (file.endsWith("SUMMARY.md")) return;
+  const text = readFileSync(file, "utf8");
+  const rawBlock = text.match(/^---\n([\s\S]*?)\n---\n/)?.[1];
+  if (rawBlock) {
+    rawBlock.split("\n").forEach((line, index) => {
+      const value = line.match(/^[a-zA-Z][\w-]*:\s*(.+)$/)?.[1]?.trim();
+      if (value && !/^['"]/.test(value) && /:\s/.test(value)) {
+        addError(file, index + 2, "frontmatter 含冒号的文本值必须使用引号");
+      }
+    });
+  }
   const frontmatter = parseFrontmatter(file);
   if (!frontmatter) {
     addError(file, 1, "公开页面缺少 frontmatter");

@@ -242,4 +242,4 @@ Going forward, I hope to keep exploring practical ways for AI to empower agricul
 
 Seeking benefits for ordinary people and doing practical work should not be only a slogan. After going through the lowest points of my life, I increasingly believe that turning the ability to stand up again into something useful for others is one of the most grounded reasons to keep moving forward.
 
-Next: [Relationships: Becoming an Adult in Connection](../part-2/relationships.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md) | [90-Day Action Plan](../part-5/90-day-plan.md)
+Next: [Narrative and Evidence: Do Not Turn Experience into Fate](../part-2/narrative-and-evidence.md) | [Echoes: Do Not Romanticise Avoidance](../part-2/x-misc.md) | [Recovery: Catch Yourself Before You Push Forward](../part-2/recovery.md)

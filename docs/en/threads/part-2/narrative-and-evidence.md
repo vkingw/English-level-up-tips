@@ -161,4 +161,4 @@ We need stories to recognise ourselves across long days. But a story should not 
 
 The best result of looking back is not proving that you were right. It is gaining a gentler, more accurate ability: I know where I came from, and I know which parts still require learning. To turn the next action in a narrative into a comparable sample, continue to [Evidence: How Change Becomes Visible](../part-3/5-evidence-and-transfer.md) and write baseline, delayed retention, and transfer back into life.
 
-Related chapters: [My Story: Failure, Recovery, and Starting Again](../part-4/my-story.md) | [Decision-Making: Choosing Under Uncertainty](decision.md) | [Writing: From Draft to Verifiable Revision](../part-1/6-writing.md)
+Related chapters: [My Story: Failure, Recovery, and Starting Again](../part-4/my-story.md) | [Echoes: Do Not Romanticise Avoidance](x-misc.md) | [Writing: From Draft to Verifiable Revision](../part-1/6-writing.md)
