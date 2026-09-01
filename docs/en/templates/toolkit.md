@@ -1,0 +1,68 @@
+---
+title: "Toolkit Overview: Choose the Problem Before the Tool"
+description: "Route every template by starting point, skill practice, AI collaboration, artifact delivery, review, and recovery so a reader can build one complete action loop with minimal record-keeping."
+updated: 2026-09-01
+---
+
+# Toolkit Overview: Choose the Problem Before the Tool
+
+Templates are not another course to collect. They are work sheets you can reuse: name the problem in front of you, preserve an unpolished sample, take one action, and let feedback decide what comes next.
+
+If you do not know where to begin, choose one sheet. An incomplete sheet used on a real problem is more valuable than ten blank templates.
+
+## First Ask: Where Am I Stuck?
+
+| Current block | First tool | Open next | What this tool cannot prove for you |
+| --- | --- | --- | --- |
+| No clear goal or baseline | [Learning State](learning-state.md) | [English Diagnostic](english-diagnostic.md) | It cannot choose a permanently correct direction |
+| Starting a 90-day cycle | [90-Day Cycle Map](90-day-cycle.md) | [Rhythm Ledger](rhythm-ledger.md) | It cannot guarantee success or persistence |
+| Weekly rhythm keeps breaking | [Rhythm Ledger](rhythm-ledger.md) | [Weekly Review](weekly-review.md) | It cannot turn fatigue, illness, or responsibility into laziness |
+| I recognise words but cannot use them | [Vocabulary Audit](vocabulary-audit.md) | [Vocabulary](../threads/part-1/2-vocabulary.md) | It cannot replace contextual performance with card counts |
+| I cannot hear or explain what I read | [Listening Resource Audit](listening-audit.md) or [Reading Evidence Card](reading-evidence.md) | [Listening](../threads/part-1/3-listening.md) · [Reading](../threads/part-1/4-reading.md) | It cannot use minutes played or highlights as proof of understanding |
+| I cannot speak or write with confidence | [Speaking Evidence Card](speaking-evidence.md) or [Writing Evidence Card](writing-evidence.md) | [Speaking](../threads/part-1/5-speaking.md) · [Writing](../threads/part-1/6-writing.md) | It cannot speak for you before a real listener |
+| I do not know how to involve AI | [AI Task Brief](ai-task-brief.md) | [AI Learning Log](ai-learning-log.md) | It cannot turn a model response into a fact or final judgment |
+| I have an idea but no deliverable | [Artifact Brief and Delivery Card](artifact-brief.md) | [AI Project Scorecard](ai-project-scorecard.md) | It cannot find users, carry responsibility, or prove a commercial result |
+| I want to analyse a person or project story | [AI Case Review](ai-case-review.md) | [Narrative and Evidence](../threads/part-2/narrative-and-evidence.md) | It cannot turn a public narrative into an independent audit |
+| I am handling a decision, attention, relationship, or recovery problem | [Life Practice Toolkit](life-practice-toolkit.md) | [Decision-Making](../threads/part-2/decision.md) · [Attention](../threads/part-3/3-attention-and-judgment.md) · [Relationships](../threads/part-2/relationships.md) · [Recovery](../threads/part-2/recovery.md) | It cannot replace medical, psychological, legal, or financial support |
+
+## Connect the Tools into One Loop
+
+Do not fill every template at once. Follow this order and keep only the evidence each step needs:
+
+1. **Locate**: use [Learning State](learning-state.md) or [English Diagnostic](english-diagnostic.md) to name the real situation, baseline, and acceptance standard;
+2. **Choose**: use the [90-Day Cycle Map](90-day-cycle.md) for a longer cycle, or the [Rhythm Ledger](rhythm-ledger.md) for one week;
+3. **Practice**: choose a vocabulary, listening, reading, speaking, or writing evidence card and complete your first version yourself;
+4. **Collaborate**: when AI is useful, fill the [AI Task Brief](ai-task-brief.md), then record the collaboration and your closed-AI performance in the [AI Learning Log](ai-learning-log.md);
+5. **Deliver**: for a real audience, use the [Artifact Brief and Delivery Card](artifact-brief.md); after a release or pilot, use the [AI Project Scorecard](ai-project-scorecard.md) to record quality, cost, risk, and rollback;
+6. **Review**: use the [Weekly Review](weekly-review.md) to compare the first version, feedback, delayed retention, and transfer, then change one condition.
+
+This is a returnable path. If a step reveals risk, lower capacity, or missing evidence, go back and reduce the task. Going back is not waste; it makes the next action more trustworthy.
+
+## Three Rules
+
+### Track Only What Can Change a Decision
+
+If a number cannot help you continue, downgrade, change a variable, or stop, you do not need to record it for long. The purpose of a record is not to fill a page. It is to clarify the next step.
+
+### A First Version Should Be Human-made
+
+Complete the baseline, first version, and independent retest before AI enters or after it is closed whenever possible. A tool can explain, compare, and point out problems. It cannot manufacture the feeling of having learned.
+
+### Records Must Keep Boundaries
+
+Do not paste passwords, identity documents, exact addresses, customer data, medical privacy, or unauthorised third-party content into a template or model. For health, safety, legal, financial, or persistent loss-of-control concerns, contact a qualified professional or trusted support person first.
+
+## A Minimum Beginning
+
+Write only four lines today:
+
+```markdown
+The real problem I am solving:
+The baseline evidence I already have:
+The smallest output I will complete in 25–45 minutes:
+Where I will preserve the evidence:
+```
+
+When it is done, choose the tool closest to the task, give it a date, and set the next review time. Do not wait for every field to be complete. Starting is what makes the missing information concrete.
+
+Related entry points: [Reader's Guide: Put the Book Back into Life](../threads/part-0/reader-guide.md) | [Glossary of Terms and Methods](../reference/glossary.md) | [Rhythm: Let Small Things Travel Through Time](../threads/part-4/rhythm-and-compounding.md)

@@ -5,6 +5,7 @@
 - [人生进阶指南](README.md)
 - [CEFR 目标与自测](threads/part-1/0-cefr.md)
 - [术语与方法索引](reference/glossary.md)
+- [工具箱总览](templates/toolkit.md)
 - [学习状态模板](templates/learning-state.md)
 - [节律账本模板](templates/rhythm-ledger.md)
 - [每周复盘模板](templates/weekly-review.md)

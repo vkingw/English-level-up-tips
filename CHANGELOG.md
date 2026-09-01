@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual Toolkit Overview that routes readers to one appropriate worksheet by problem, connects the templates into a complete loop, and documents evidence and privacy boundaries.
 - Added a standalone bilingual Rhythm Ledger template, linked it from the chapter and glossary, and protected the copy-ready handoff with browser coverage.
 - Added Rhythm, Variation, Compounding, Minimum Contract, and Rhythm Ledger to the bilingual glossary, with browser coverage for the new chapter's handoffs.
 - Added the bilingual Rhythm chapter as a bridge between the daily system and the 90-day plan, covering repetition, feedback, interruption recovery, and sustainable compounding.

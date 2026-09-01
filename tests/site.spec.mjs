@@ -197,6 +197,22 @@ test("rhythm chapter bridges the daily system and 90-day plan", async ({ page })
   await expect(enMain.getByRole("link", { name: "90-Day Action Plan", exact: true }).first()).toBeVisible();
 });
 
+test("toolkit overview routes readers by problem", async ({ page }) => {
+  await page.goto("./templates/toolkit");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "先回答：我现在卡在哪里？" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "学习状态", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "节律账本", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "生活进阶工作表", exact: true })).toBeVisible();
+
+  await page.goto("./en/templates/toolkit");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "First Ask: Where Am I Stuck?" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Learning State", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Rhythm Ledger", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Life Practice Toolkit", exact: true })).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(
