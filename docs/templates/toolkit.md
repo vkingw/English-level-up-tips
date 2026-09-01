@@ -17,6 +17,7 @@ updated: 2026-09-01
 | 不知道目标或基线 | [学习状态](learning-state.md) | [英语能力诊断](english-diagnostic.md) | 不能替你决定一个永远正确的方向 |
 | 想开始一个 90 天周期 | [九十日行动总表](90-day-cycle.md) | [节律账本](rhythm-ledger.md) | 不能保证计划一定成功或持续 |
 | 每周节奏反复中断 | [节律账本](rhythm-ledger.md) | [每周复盘](weekly-review.md) | 不能把疲惫、疾病或责任解释成懒惰 |
+| 有样本却说不清是否真的改变 | [证据链](evidence-chain.md) | [证据篇](../threads/part-3/5-evidence-and-transfer.md) | 不能把一次顺利表现推成稳定能力 |
 | 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
 | 听不清或读完说不清 | [听力资源审计卡](listening-audit.md) 或 [阅读证据卡](reading-evidence.md) | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) | 不能把播放时长或划线数量当成理解证据 |
 | 不敢开口或写不出来 | [口语证据卡](speaking-evidence.md) 或 [写作证据卡](writing-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) · [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实听众面前的表达 |
@@ -34,7 +35,7 @@ updated: 2026-09-01
 3. **练习**：按任务选择词汇、听力、阅读、口语或写作证据卡，先完成自己的第一版；
 4. **协作**：需要 AI 时，先填[AI 任务简报](ai-task-brief.md)，再把协作过程和关闭 AI 后的表现写进[AI 学习记录](ai-learning-log.md)；
 5. **交付**：有真实受众时使用[作品简报与交付卡](artifact-brief.md)，发布或试点后用[AI 项目评分卡](ai-project-scorecard.md)记录质量、成本、风险和回滚；
-6. **复查**：每周用[每周复盘](weekly-review.md)比较首版、反馈、延迟保持与迁移，只改变一个条件。
+6. **复查**：用[证据链](evidence-chain.md)把首版、即时表现、延迟保持与迁移放在一起，再用[每周复盘](weekly-review.md)决定只改变哪一个条件。
 
 这是一条可往返的路径。任何一步发现风险、容量下降或证据不足，都可以退回上一步缩小任务；退回不是浪费，而是让下一次行动更可信。
 

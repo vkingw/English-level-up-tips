@@ -44,7 +44,7 @@ updated: 2026-09-01
 | **平行材料** | 难度和任务相近、但内容不同的材料，用来测试迁移 | [阅读证据卡](../templates/reading-evidence.md) |
 | **迁移** | 换主题、听众、时间或任务后仍能完成相近动作 | [九十日行动总表](../templates/90-day-cycle.md) |
 | **延迟保持** | 经过一段时间、撤掉最近提示后仍能完成相近任务 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
-| **证据链** | 把基线、即时表现、延迟保持、迁移和下一步放在同一页的记录 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
+| **证据链** | 把基线、即时表现、延迟保持、迁移和下一步放在同一页的记录 | [证据链模板](../templates/evidence-chain.md) · [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
 | **变式** | 保留核心动作，同时改变主题、听众、时间或限制，用来检验是否真的学会 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
 
 ## 工具与交付

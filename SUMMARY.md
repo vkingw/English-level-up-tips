@@ -6,6 +6,7 @@
 - [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)
 - [术语与方法索引](docs/reference/glossary.md)
 - [工具箱总览](docs/templates/toolkit.md)
+- [证据链模板](docs/templates/evidence-chain.md)
 - [学习状态模板](docs/templates/learning-state.md)
 - [节律账本模板](docs/templates/rhythm-ledger.md)
 - [每周复盘模板](docs/templates/weekly-review.md)

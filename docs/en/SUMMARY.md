@@ -6,6 +6,7 @@
 - [CEFR Goals and Self-check](threads/part-1/0-cefr.md)
 - [Glossary of Terms and Methods](reference/glossary.md)
 - [Toolkit Overview](templates/toolkit.md)
+- [Evidence Chain](templates/evidence-chain.md)
 - [Learning State](templates/learning-state.md)
 - [Rhythm Ledger](templates/rhythm-ledger.md)
 - [Weekly Review](templates/weekly-review.md)

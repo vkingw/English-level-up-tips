@@ -6,7 +6,7 @@ updated: 2026-09-01
 
 # Evidence: How Change Becomes Visible
 
-People easily mistake familiarity for ability, a completed streak for progress, and one smooth conversation for having learned. The difficult work is not collecting more numbers. It is knowing which traces can answer the question in front of you.
+People easily mistake familiarity for ability, a completed streak for progress, and one smooth conversation for having learned. The difficult work is not collecting more numbers. It is knowing which traces can answer the question in front of you. When you need to record one task end to end, use the [Evidence Chain Template](../../templates/evidence-chain.md).
 
 I write about evidence not to turn life into a cold dashboard. Evidence gives us less room for self-deception and less reason for unsupported self-blame. It shows where something has changed, where a result is only temporary fluency, where a method needs to change, and where further investment should stop.
 

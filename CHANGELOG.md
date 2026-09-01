@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual Evidence Chain template for baseline, immediate performance, delayed retention, transfer, evidence boundaries, and next-step decisions; linked it from the glossary, toolkit, and Evidence chapter.
 - Corrected twelve bilingual pages that carried a future `updated` date and added a guard preventing publication metadata from moving ahead of the current day.
 - Added a bilingual Toolkit Overview that routes readers to one appropriate worksheet by problem, connects the templates into a complete loop, and documents evidence and privacy boundaries.
 - Added a standalone bilingual Rhythm Ledger template, linked it from the chapter and glossary, and protected the copy-ready handoff with browser coverage.

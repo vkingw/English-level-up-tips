@@ -17,6 +17,7 @@ If you do not know where to begin, choose one sheet. An incomplete sheet used on
 | No clear goal or baseline | [Learning State](learning-state.md) | [English Diagnostic](english-diagnostic.md) | It cannot choose a permanently correct direction |
 | Starting a 90-day cycle | [90-Day Cycle Map](90-day-cycle.md) | [Rhythm Ledger](rhythm-ledger.md) | It cannot guarantee success or persistence |
 | Weekly rhythm keeps breaking | [Rhythm Ledger](rhythm-ledger.md) | [Weekly Review](weekly-review.md) | It cannot turn fatigue, illness, or responsibility into laziness |
+| I have samples but cannot tell whether anything really changed | [Evidence Chain](evidence-chain.md) | [Evidence](../threads/part-3/5-evidence-and-transfer.md) | It cannot turn one smooth performance into stable ability |
 | I recognise words but cannot use them | [Vocabulary Audit](vocabulary-audit.md) | [Vocabulary](../threads/part-1/2-vocabulary.md) | It cannot replace contextual performance with card counts |
 | I cannot hear or explain what I read | [Listening Resource Audit](listening-audit.md) or [Reading Evidence Card](reading-evidence.md) | [Listening](../threads/part-1/3-listening.md) · [Reading](../threads/part-1/4-reading.md) | It cannot use minutes played or highlights as proof of understanding |
 | I cannot speak or write with confidence | [Speaking Evidence Card](speaking-evidence.md) or [Writing Evidence Card](writing-evidence.md) | [Speaking](../threads/part-1/5-speaking.md) · [Writing](../threads/part-1/6-writing.md) | It cannot speak for you before a real listener |
@@ -34,7 +35,7 @@ Do not fill every template at once. Follow this order and keep only the evidence
 3. **Practice**: choose a vocabulary, listening, reading, speaking, or writing evidence card and complete your first version yourself;
 4. **Collaborate**: when AI is useful, fill the [AI Task Brief](ai-task-brief.md), then record the collaboration and your closed-AI performance in the [AI Learning Log](ai-learning-log.md);
 5. **Deliver**: for a real audience, use the [Artifact Brief and Delivery Card](artifact-brief.md); after a release or pilot, use the [AI Project Scorecard](ai-project-scorecard.md) to record quality, cost, risk, and rollback;
-6. **Review**: use the [Weekly Review](weekly-review.md) to compare the first version, feedback, delayed retention, and transfer, then change one condition.
+6. **Review**: use the [Evidence Chain](evidence-chain.md) to place the first version, immediate performance, delayed retention, and transfer together, then use the [Weekly Review](weekly-review.md) to change one condition.
 
 This is a returnable path. If a step reveals risk, lower capacity, or missing evidence, go back and reduce the task. Going back is not waste; it makes the next action more trustworthy.
 

@@ -213,6 +213,20 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Life Practice Toolkit", exact: true })).toBeVisible();
 });
 
+test("evidence chain template preserves comparable stages", async ({ page }) => {
+  await page.goto("./templates/evidence-chain");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "保存未经修饰的基线" })).toBeVisible();
+  await expect(zhMain.getByRole("heading", { level: 2, name: "做一次延迟保持" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "证据篇：变化要如何被看见", exact: true })).toBeVisible();
+
+  await page.goto("./en/templates/evidence-chain");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Save an Unaided Baseline" })).toBeVisible();
+  await expect(enMain.getByRole("heading", { level: 2, name: "Test Delayed Retention" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Evidence: How Change Becomes Visible", exact: true })).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(

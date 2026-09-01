@@ -44,7 +44,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Parallel material** | A different source with similar difficulty and task for testing transfer | [Reading Evidence Card](../templates/reading-evidence.md) |
 | **Transfer** | Complete a related action after changing topic, listener, time, or task | [90-Day Cycle Map](../templates/90-day-cycle.md) |
 | **Delayed retention** | Complete a similar task after time has passed and recent prompts are removed | [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
-| **Evidence chain** | One page connecting baseline, immediate performance, delayed retention, transfer, and next step | [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
+| **Evidence chain** | One page connecting baseline, immediate performance, delayed retention, transfer, and next step | [Evidence Chain Template](../templates/evidence-chain.md) · [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
 | **Variation** | Keep the core action while changing the topic, listener, time, or constraint to test whether learning is real | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 
 ## Tools and Delivery
