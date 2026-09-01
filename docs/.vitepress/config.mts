@@ -286,6 +286,14 @@ export default defineConfig({
             "Reference Book",
             "单独推荐的 YouTube 视频",
             "A Few Specific YouTube Videos",
+            "按任务选择英语学习材料",
+            "English Learning Resources by Task",
+            "英文原版书推荐",
+            "Recommended English Books",
+            "微信公众号",
+            "WeChat Official Accounts",
+            "社区与技术文章",
+            "Communities and Technical Articles",
           ]);
           let skipBibliography = false;
           for (let index = 0; index < contentTokens.length; index += 1) {
