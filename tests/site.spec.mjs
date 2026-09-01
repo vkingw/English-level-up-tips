@@ -175,6 +175,14 @@ test("home pages expose biezou as a bounded external AI reference", async ({ pag
   await expect(enBiezou).toHaveAttribute("rel", /noopener/);
 });
 
+test("home pages explain per-entry product verification dates", async ({ page }) => {
+  await page.goto("./");
+  await expect(page.getByText(/产品与服务条目的核验日期以各自页面/)).toBeVisible();
+
+  await page.goto("./en/");
+  await expect(page.getByText(/Check dates for product and service entries are recorded per page/)).toBeVisible();
+});
+
 test("evidence chapter hands off to practice and action", async ({ page }) => {
   await page.goto("./threads/part-3/5-evidence-and-transfer");
   const zhMain = page.locator("main");

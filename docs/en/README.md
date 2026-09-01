@@ -142,7 +142,7 @@ Products, company visits, and real-world projects involving Han Xiankai live on 
 - This is an open-content project, not open-source software in the OSI sense. Text and author-created content use **CC BY-NC 4.0**; site configuration, checks, and build code use **MIT**. See [Licensing](https://github.com/byoungd/up/blob/master/LICENSE.md).
 - Sources and licensing status for quotations, images, and third-party material are recorded in [Attributions](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md).
 - Read [Contributing](https://github.com/byoungd/up/blob/master/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/byoungd/up/blob/master/CODE_OF_CONDUCT.md) before contributing.
-- Product information on these pages was checked on **2026-08-31**; capability, availability, and compliance scope still require official pages, formal terms, and real acceptance. Outdated notes are welcome as issues.
+- Check dates for product and service entries are recorded per page and in [Attributions](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md); capability, availability, and compliance scope still require official pages, formal terms, and real acceptance. Outdated notes are welcome as issues.
 
 ## Read Online
 

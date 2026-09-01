@@ -142,7 +142,7 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 - 本项目是开放内容项目，不是 OSI 意义上的开源软件：正文与作者内容采用 **CC BY-NC 4.0**，站点配置、检查脚本和构建代码采用 **MIT**。详见 [许可证说明](https://github.com/byoungd/up/blob/master/LICENSE.md)。
 - 引用、图片和第三方素材的来源及授权状态记录在 [第三方素材与引用](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md)。
 - 贡献前请阅读 [贡献指南](https://github.com/byoungd/up/blob/master/CONTRIBUTING.md) 和 [行为准则](https://github.com/byoungd/up/blob/master/CODE_OF_CONDUCT.md)。
-- 页面中的产品信息核验于 **2026-08-31**；产品能力、可用性与合规范围仍以官方页面、正式协议和实际验收为准，过期内容欢迎提交 issue。
+- 产品与服务条目的核验日期以各自页面和 [第三方素材与引用](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md) 中的记录为准；产品能力、可用性与合规范围仍以官方页面、正式协议和实际验收为准，过期内容欢迎提交 issue。
 
 ## 在线阅读
 
