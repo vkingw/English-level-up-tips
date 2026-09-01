@@ -3,9 +3,57 @@
 ## 开始
 
 - [人生进阶指南](docs/README.md)
-- [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)
+- [阅读指南：把书放回生活](docs/threads/part-0/reader-guide.md)
+- [序章：先不要急着改变人生](docs/threads/part-0/prologue.md)
 - [术语与方法索引](docs/reference/glossary.md)
 - [工具箱总览](docs/templates/toolkit.md)
+
+## 第一部：打开输入
+
+- [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)
+- [1. 认知与训练原则](docs/threads/part-1/1-understanding.md)
+- [2. 词汇系统](docs/threads/part-1/2-vocabulary.md)
+- [3. 听力训练](docs/threads/part-1/3-listening.md)
+- [4. 阅读训练](docs/threads/part-1/4-reading.md)
+- [5. 口语训练](docs/threads/part-1/5-speaking.md)
+- [6. 写作训练](docs/threads/part-1/6-writing.md)
+- [7. 用 AI 学英语](docs/threads/part-1/7-ai.md)
+
+## 第二部：把自己放回生活
+
+- [我的故事](docs/threads/part-2/my-story.md)
+- [叙事与证据篇：不把经历写成命运](docs/threads/part-2/narrative-and-evidence.md)
+- [回声篇：不要把逃避写成浪漫](docs/threads/part-2/x-misc.md)
+- [恢复篇：先把自己接住](docs/threads/part-2/recovery.md)
+- [选择篇：在不确定中做决定](docs/threads/part-2/decision.md)
+- [关系篇：在关系中成为成年人](docs/threads/part-2/relationships.md)
+- [创业篇：从野心到使命](docs/threads/part-2/entrepreneurship.md)
+
+## 第三部：借工具放大能力
+
+- [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md)
+- [注意力篇：把注意力还给自己](docs/threads/part-3/3-attention-and-judgment.md)
+- [作品篇：把学会变成做出](docs/threads/part-3/4-artifacts-and-delivery.md)
+- [证据篇：变化要如何被看见](docs/threads/part-3/5-evidence-and-transfer.md)
+- [AI 开发与资源层创业](docs/threads/part-3/2-ai-development-and-resource-layer.md)
+- [作者项目与现实实践](docs/projects.md)
+
+## 第四部：实践与恢复
+
+- [实践篇：先把第一周过完](docs/threads/part-4/week-1.md)
+- [生活系统篇：把改变安放在日子里](docs/threads/part-4/daily-system.md)
+- [节律篇：让小事穿过时间](docs/threads/part-4/rhythm-and-compounding.md)
+
+## 第五部：行动与长期改变
+
+- [行动篇：九十天，把生活交还给自己](docs/threads/part-5/90-day-plan.md)
+
+## 后记
+
+- [进阶不是离开原来的自己](docs/threads/part-6/afterword.md)
+
+## 工具箱
+
 - [证据链模板](docs/templates/evidence-chain.md)
 - [学习状态模板](docs/templates/learning-state.md)
 - [节律账本模板](docs/templates/rhythm-ledger.md)
@@ -23,45 +71,6 @@
 - [AI 经历案例复盘](docs/templates/ai-case-review.md)
 - [AI 项目评分卡](docs/templates/ai-project-scorecard.md)
 - [生活进阶工作表](docs/templates/life-practice-toolkit.md)
-
-## 书稿结构
-
-- [阅读指南：把书放回生活](docs/threads/part-0/reader-guide.md)
-- [序章：先不要急着改变人生](docs/threads/part-0/prologue.md)
-- [行动篇：九十天，把生活交还给自己](docs/threads/part-5/90-day-plan.md)
-- [后记：进阶不是离开原来的自己](docs/threads/part-6/afterword.md)
-
-## 终身学习与 AI
-
-- [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md)
-- [注意力篇：把注意力还给自己](docs/threads/part-3/3-attention-and-judgment.md)
-- [作品篇：把学会变成做出](docs/threads/part-3/4-artifacts-and-delivery.md)
-- [证据篇：变化要如何被看见](docs/threads/part-3/5-evidence-and-transfer.md)
-- [AI 开发与资源层创业](docs/threads/part-3/2-ai-development-and-resource-layer.md)
-- [作者项目与现实实践](docs/projects.md)
-
-## 基础能力：英语
-
-- [1. 认知与训练原则](docs/threads/part-1/1-understanding.md)
-- [2. 词汇系统](docs/threads/part-1/2-vocabulary.md)
-- [3. 听力训练](docs/threads/part-1/3-listening.md)
-- [4. 阅读训练](docs/threads/part-1/4-reading.md)
-- [5. 口语训练](docs/threads/part-1/5-speaking.md)
-- [6. 写作训练](docs/threads/part-1/6-writing.md)
-- [7. 用 AI 学英语](docs/threads/part-1/7-ai.md)
-
-## 实践、复盘与恢复
-
-- [我的故事](docs/threads/part-2/my-story.md)
-- [叙事与证据篇：不把经历写成命运](docs/threads/part-2/narrative-and-evidence.md)
-- [回声篇：不要把逃避写成浪漫](docs/threads/part-2/x-misc.md)
-- [恢复篇：先把自己接住](docs/threads/part-2/recovery.md)
-- [选择篇：在不确定中做决定](docs/threads/part-2/decision.md)
-- [关系篇：在关系中成为成年人](docs/threads/part-2/relationships.md)
-- [创业篇](docs/threads/part-2/entrepreneurship.md)
-- [实践篇：先把第一周过完](docs/threads/part-4/week-1.md)
-- [生活系统篇：把改变安放在日子里](docs/threads/part-4/daily-system.md)
-- [节律篇：让小事穿过时间](docs/threads/part-4/rhythm-and-compounding.md)
 
 ## 旧文归档
 

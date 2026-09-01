@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Reordered the bilingual sidebar and generated summaries to follow the book's five-part arc, separating life review from daily practice and moving the action plan and afterword into their proper closing sections.
 - Moved the English My Story chapter from Part IV into Part II so bilingual source paths and public routes align, removed the content-check exception, and preserved the former URL with a canonical noindex redirect.
 - Rebuilt the bilingual Week 1 lesson as a full “Finish the First Week” practice chapter, connecting baseline evidence, capacity-aware action, delayed retesting, transfer, weekly review, and the transition into daily systems.
 - Rebuilt the bilingual miscellaneous chapter as “Echoes,” a coherent literary bridge from narrative review to recovery that separates injury, responsibility, luck, tools, and the next choice; reordered Part II and repaired its handover links.

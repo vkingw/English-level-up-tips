@@ -51,7 +51,7 @@ A complete read is not a race through page numbers. It lets the same question ch
 
 ### Read like a book
 
-Follow [the Prologue](prologue.md) → [Foundation: English](../part-1/0-cefr.md) → [Practice, Review, and Recovery](../part-2/my-story.md) → [Lifelong Learning and AI](../part-3/1-ai-learning.md) → [Evidence](../part-3/5-evidence-and-transfer.md) → [First Week Practice](../part-4/week-1.md) → [Rhythm](../part-4/rhythm-and-compounding.md) → [the 90-Day Action Plan](../part-5/90-day-plan.md). This reveals how one question moves from language training into work, relationships, the body, and responsibility, then becomes a rhythm that can be tested and sustained.
+Follow [the Prologue](prologue.md) → [Part I: Open Input](../part-1/0-cefr.md) → [Part II: Return to Life](../part-2/my-story.md) → [Part III: Amplify Ability](../part-3/1-ai-learning.md) → [Evidence](../part-3/5-evidence-and-transfer.md) → [Part IV: Practice and Recovery](../part-4/week-1.md) → [Part V: Long-Term Action](../part-5/90-day-plan.md). This reveals how one question moves from language training into work, relationships, the body, and responsibility, then becomes a rhythm that can be tested and sustained.
 
 ### Read like a studio
 

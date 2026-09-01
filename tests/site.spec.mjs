@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { expect, test } from "@playwright/test";
-import { enNavigation, zhNavigation } from "../docs/.vitepress/navigation.mjs";
+import { enNavigation, toSidebar, zhNavigation } from "../docs/.vitepress/navigation.mjs";
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const headingFromSource = (source) => {
@@ -19,22 +19,52 @@ const routesFromNavigation = (groups) =>
 const routes = [...routesFromNavigation(zhNavigation), ...routesFromNavigation(enNavigation)];
 const expectedBuildRevision = process.env.GITHUB_SHA || process.env.BUILD_REVISION || "local";
 
-test("book structure leads with the reader guide", () => {
-  const zhBook = zhNavigation.find(({ text }) => text === "书稿结构");
-  const enBook = enNavigation.find(({ text }) => text === "Book Structure");
-  expect(zhBook?.items.slice(0, 2).map(({ source }) => source)).toEqual([
+test("start here leads from the home page into the reader guide and prologue", () => {
+  const zhStart = zhNavigation.find(({ text }) => text === "开始");
+  const enStart = enNavigation.find(({ text }) => text === "Start Here");
+  expect(zhStart?.items.slice(0, 3).map(({ source }) => source)).toEqual([
+    "README.md",
     "threads/part-0/reader-guide.md",
     "threads/part-0/prologue.md",
   ]);
-  expect(enBook?.items.slice(0, 2).map(({ source }) => source)).toEqual([
+  expect(enStart?.items.slice(0, 3).map(({ source }) => source)).toEqual([
+    "en/README.md",
     "en/threads/part-0/reader-guide.md",
     "en/threads/part-0/prologue.md",
   ]);
 });
 
+test("navigation follows the five-part book arc", () => {
+  expect(zhNavigation.slice(1, 7).map(({ text }) => text)).toEqual([
+    "第一部：打开输入",
+    "第二部：把自己放回生活",
+    "第三部：借工具放大能力",
+    "第四部：实践与恢复",
+    "第五部：行动与长期改变",
+    "后记",
+  ]);
+  expect(enNavigation.slice(1, 7).map(({ text }) => text)).toEqual([
+    "Part I: Open Input",
+    "Part II: Return to Life",
+    "Part III: Amplify Ability",
+    "Part IV: Practice and Recovery",
+    "Part V: Long-Term Action",
+    "Afterword",
+  ]);
+});
+
+test("reference collections follow the book and stay collapsed by default", () => {
+  expect(zhNavigation.slice(7).map(({ text }) => text)).toEqual(["工具箱", "旧文归档", "词表"]);
+  expect(enNavigation.slice(7).map(({ text }) => text)).toEqual(["Toolkit", "Archive", "Word Lists"]);
+  expect(toSidebar(zhNavigation).slice(0, 7).every(({ collapsed }) => collapsed === false)).toBe(true);
+  expect(toSidebar(zhNavigation).slice(7).every(({ collapsed }) => collapsed === true)).toBe(true);
+  expect(toSidebar(enNavigation).slice(0, 7).every(({ collapsed }) => collapsed === false)).toBe(true);
+  expect(toSidebar(enNavigation).slice(7).every(({ collapsed }) => collapsed === true)).toBe(true);
+});
+
 test("life-review chapters move from story through echoes into recovery", () => {
-  const zhPractice = zhNavigation.find(({ text }) => text === "实践、复盘与恢复");
-  const enPractice = enNavigation.find(({ text }) => text === "Practice, Review, and Recovery");
+  const zhPractice = zhNavigation.find(({ text }) => text === "第二部：把自己放回生活");
+  const enPractice = enNavigation.find(({ text }) => text === "Part II: Return to Life");
   expect(zhPractice?.items.slice(0, 4).map(({ source }) => source)).toEqual([
     "threads/part-2/my-story.md",
     "threads/part-2/narrative-and-evidence.md",
@@ -50,8 +80,8 @@ test("life-review chapters move from story through echoes into recovery", () => 
 });
 
 test("practice chapters move from the first week into systems and rhythm", () => {
-  const zhPractice = zhNavigation.find(({ text }) => text === "实践、复盘与恢复");
-  const enPractice = enNavigation.find(({ text }) => text === "Practice, Review, and Recovery");
+  const zhPractice = zhNavigation.find(({ text }) => text === "第四部：实践与恢复");
+  const enPractice = enNavigation.find(({ text }) => text === "Part IV: Practice and Recovery");
   expect(zhPractice?.items.slice(-3).map(({ source }) => source)).toEqual([
     "threads/part-4/week-1.md",
     "threads/part-4/daily-system.md",
@@ -164,10 +194,11 @@ test("legacy English story route redirects to the aligned Part II path", async (
 test("local search opens and returns a result", async ({ page }) => {
   await page.goto("./");
   await page.getByRole("button", { name: "Search", exact: true }).click();
-  const input = page.locator(".VPLocalSearchBox input");
+  const searchBox = page.locator(".VPLocalSearchBox");
+  const input = searchBox.locator("input");
   await expect(input).toBeVisible();
   await input.fill("学习状态");
-  await expect(page.getByText(/学习状态/).first()).toBeVisible();
+  await expect(searchBox.getByRole("link", { name: /学习状态/ }).first()).toBeVisible();
 });
 
 test("language navigation and representative image work", async ({ page }) => {

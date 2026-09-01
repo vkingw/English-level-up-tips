@@ -9,9 +9,71 @@ export const zhNavigation = [
     text: "开始",
     items: [
       page("人生进阶指南", "/", "README.md"),
-      page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
+      page("阅读指南：把书放回生活", "/threads/part-0/reader-guide"),
+      page("序章：先不要急着改变人生", "/threads/part-0/prologue"),
       page("术语与方法索引", "/reference/glossary"),
       page("工具箱总览", "/templates/toolkit"),
+    ],
+  },
+  {
+    text: "第一部：打开输入",
+    items: [
+      page("CEFR 目标与自测", "/threads/part-1/0-cefr"),
+      page("1. 认知与训练原则", "/threads/part-1/1-understanding"),
+      page("2. 词汇系统", "/threads/part-1/2-vocabulary"),
+      page("3. 听力训练", "/threads/part-1/3-listening"),
+      page("4. 阅读训练", "/threads/part-1/4-reading"),
+      page("5. 口语训练", "/threads/part-1/5-speaking"),
+      page("6. 写作训练", "/threads/part-1/6-writing"),
+      page("7. 用 AI 学英语", "/threads/part-1/7-ai"),
+    ],
+  },
+  {
+    text: "第二部：把自己放回生活",
+    items: [
+      page("我的故事", "/threads/part-2/my-story"),
+      page("叙事与证据篇：不把经历写成命运", "/threads/part-2/narrative-and-evidence"),
+      page("回声篇：不要把逃避写成浪漫", "/threads/part-2/x-misc"),
+      page("恢复篇：先把自己接住", "/threads/part-2/recovery"),
+      page("选择篇：在不确定中做决定", "/threads/part-2/decision"),
+      page("关系篇：在关系中成为成年人", "/threads/part-2/relationships"),
+      page("创业篇：从野心到使命", "/threads/part-2/entrepreneurship"),
+    ],
+  },
+  {
+    text: "第三部：借工具放大能力",
+    items: [
+      page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
+      page("注意力篇：把注意力还给自己", "/threads/part-3/3-attention-and-judgment"),
+      page("作品篇：把学会变成做出", "/threads/part-3/4-artifacts-and-delivery"),
+      page("证据篇：变化要如何被看见", "/threads/part-3/5-evidence-and-transfer"),
+      page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
+      page("作者项目与现实实践", "/projects"),
+    ],
+  },
+  {
+    text: "第四部：实践与恢复",
+    items: [
+      page("实践篇：先把第一周过完", "/threads/part-4/week-1"),
+      page("生活系统篇：把改变安放在日子里", "/threads/part-4/daily-system"),
+      page("节律篇：让小事穿过时间", "/threads/part-4/rhythm-and-compounding"),
+    ],
+  },
+  {
+    text: "第五部：行动与长期改变",
+    items: [
+      page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
+    ],
+  },
+  {
+    text: "后记",
+    items: [
+      page("进阶不是离开原来的自己", "/threads/part-6/afterword"),
+    ],
+  },
+  {
+    text: "工具箱",
+    items: [
       page("证据链模板", "/templates/evidence-chain"),
       page("学习状态模板", "/templates/learning-state"),
       page("节律账本模板", "/templates/rhythm-ledger"),
@@ -29,53 +91,6 @@ export const zhNavigation = [
       page("AI 经历案例复盘", "/templates/ai-case-review"),
       page("AI 项目评分卡", "/templates/ai-project-scorecard"),
       page("生活进阶工作表", "/templates/life-practice-toolkit"),
-    ],
-  },
-  {
-    text: "书稿结构",
-    items: [
-      page("阅读指南：把书放回生活", "/threads/part-0/reader-guide"),
-      page("序章：先不要急着改变人生", "/threads/part-0/prologue"),
-      page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
-      page("后记：进阶不是离开原来的自己", "/threads/part-6/afterword"),
-    ],
-  },
-  {
-    text: "终身学习与 AI",
-    items: [
-      page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
-      page("注意力篇：把注意力还给自己", "/threads/part-3/3-attention-and-judgment"),
-      page("作品篇：把学会变成做出", "/threads/part-3/4-artifacts-and-delivery"),
-      page("证据篇：变化要如何被看见", "/threads/part-3/5-evidence-and-transfer"),
-      page("AI 开发与资源层创业", "/threads/part-3/2-ai-development-and-resource-layer"),
-      page("作者项目与现实实践", "/projects"),
-    ],
-  },
-  {
-    text: "基础能力：英语",
-    items: [
-      page("1. 认知与训练原则", "/threads/part-1/1-understanding"),
-      page("2. 词汇系统", "/threads/part-1/2-vocabulary"),
-      page("3. 听力训练", "/threads/part-1/3-listening"),
-      page("4. 阅读训练", "/threads/part-1/4-reading"),
-      page("5. 口语训练", "/threads/part-1/5-speaking"),
-      page("6. 写作训练", "/threads/part-1/6-writing"),
-      page("7. 用 AI 学英语", "/threads/part-1/7-ai"),
-    ],
-  },
-  {
-    text: "实践、复盘与恢复",
-    items: [
-      page("我的故事", "/threads/part-2/my-story"),
-      page("叙事与证据篇：不把经历写成命运", "/threads/part-2/narrative-and-evidence"),
-      page("回声篇：不要把逃避写成浪漫", "/threads/part-2/x-misc"),
-      page("恢复篇：先把自己接住", "/threads/part-2/recovery"),
-      page("选择篇：在不确定中做决定", "/threads/part-2/decision"),
-      page("关系篇：在关系中成为成年人", "/threads/part-2/relationships"),
-      page("创业篇", "/threads/part-2/entrepreneurship"),
-      page("实践篇：先把第一周过完", "/threads/part-4/week-1"),
-      page("生活系统篇：把改变安放在日子里", "/threads/part-4/daily-system"),
-      page("节律篇：让小事穿过时间", "/threads/part-4/rhythm-and-compounding"),
     ],
   },
   {
@@ -103,9 +118,74 @@ export const enNavigation = [
     text: "Start Here",
     items: [
       page("Life Level-up Guide", "/en/", "en/README.md"),
-      page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
+      page("Reader's Guide: Put the Book Back into Life", "/en/threads/part-0/reader-guide"),
+      page("Prologue: Do Not Rush to Change Your Life", "/en/threads/part-0/prologue"),
       page("Glossary of Terms and Methods", "/en/reference/glossary"),
       page("Toolkit Overview", "/en/templates/toolkit"),
+    ],
+  },
+  {
+    text: "Part I: Open Input",
+    items: [
+      page("CEFR Goals and Self-check", "/en/threads/part-1/0-cefr"),
+      page("1. Learning Principles", "/en/threads/part-1/1-understanding"),
+      page("2. Vocabulary", "/en/threads/part-1/2-vocabulary"),
+      page("3. Listening", "/en/threads/part-1/3-listening"),
+      page("4. Reading", "/en/threads/part-1/4-reading"),
+      page("5. Speaking", "/en/threads/part-1/5-speaking"),
+      page("6. Writing", "/en/threads/part-1/6-writing"),
+      page("7. Learning English with AI", "/en/threads/part-1/7-ai"),
+    ],
+  },
+  {
+    text: "Part II: Return to Life",
+    items: [
+      page("My Story", "/en/threads/part-2/my-story"),
+      page("Narrative and Evidence: Do Not Turn Experience into Fate", "/en/threads/part-2/narrative-and-evidence"),
+      page("Echoes: Do Not Romanticise Avoidance", "/en/threads/part-2/x-misc"),
+      page("Recovery: Catch Yourself Before You Push Forward", "/en/threads/part-2/recovery"),
+      page("Decision-Making: Choosing Under Uncertainty", "/en/threads/part-2/decision"),
+      page("Relationships: Becoming an Adult in Connection", "/en/threads/part-2/relationships"),
+      page("Entrepreneurship: From Ambition to Purpose", "/en/threads/part-2/entrepreneurship"),
+    ],
+  },
+  {
+    text: "Part III: Amplify Ability",
+    items: [
+      page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
+      page("Attention: Return Your Attention to Yourself", "/en/threads/part-3/3-attention-and-judgment"),
+      page("Artifacts: Turn Learning into Something Made", "/en/threads/part-3/4-artifacts-and-delivery"),
+      page("Evidence: How Change Becomes Visible", "/en/threads/part-3/5-evidence-and-transfer"),
+      page(
+        "AI Development and Resource-layer Business",
+        "/en/threads/part-3/2-ai-development-and-resource-layer",
+      ),
+      page("Author Projects and Practice", "/en/projects"),
+    ],
+  },
+  {
+    text: "Part IV: Practice and Recovery",
+    items: [
+      page("Practice: Finish the First Week", "/en/threads/part-4/week-1"),
+      page("Daily System: Put Change into the Day", "/en/threads/part-4/daily-system"),
+      page("Rhythm: Let Small Things Travel Through Time", "/en/threads/part-4/rhythm-and-compounding"),
+    ],
+  },
+  {
+    text: "Part V: Long-Term Action",
+    items: [
+      page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
+    ],
+  },
+  {
+    text: "Afterword",
+    items: [
+      page("Progress Is Not Leaving Yourself Behind", "/en/threads/part-6/afterword"),
+    ],
+  },
+  {
+    text: "Toolkit",
+    items: [
       page("Evidence Chain", "/en/templates/evidence-chain"),
       page("Learning State", "/en/templates/learning-state"),
       page("Rhythm Ledger", "/en/templates/rhythm-ledger"),
@@ -123,56 +203,6 @@ export const enNavigation = [
       page("AI Case Review", "/en/templates/ai-case-review"),
       page("AI Project Scorecard", "/en/templates/ai-project-scorecard"),
       page("Life Practice Toolkit", "/en/templates/life-practice-toolkit"),
-    ],
-  },
-  {
-    text: "Book Structure",
-    items: [
-      page("Reader's Guide: Put the Book Back into Life", "/en/threads/part-0/reader-guide"),
-      page("Prologue: Do Not Rush to Change Your Life", "/en/threads/part-0/prologue"),
-      page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
-      page("Afterword: Progress Is Not Leaving Yourself Behind", "/en/threads/part-6/afterword"),
-    ],
-  },
-  {
-    text: "Lifelong Learning and AI",
-    items: [
-      page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
-      page("Attention: Return Your Attention to Yourself", "/en/threads/part-3/3-attention-and-judgment"),
-      page("Artifacts: Turn Learning into Something Made", "/en/threads/part-3/4-artifacts-and-delivery"),
-      page("Evidence: How Change Becomes Visible", "/en/threads/part-3/5-evidence-and-transfer"),
-      page(
-        "AI Development and Resource-layer Business",
-        "/en/threads/part-3/2-ai-development-and-resource-layer",
-      ),
-      page("Author Projects and Practice", "/en/projects"),
-    ],
-  },
-  {
-    text: "Foundation: English",
-    items: [
-      page("1. Learning Principles", "/en/threads/part-1/1-understanding"),
-      page("2. Vocabulary", "/en/threads/part-1/2-vocabulary"),
-      page("3. Listening", "/en/threads/part-1/3-listening"),
-      page("4. Reading", "/en/threads/part-1/4-reading"),
-      page("5. Speaking", "/en/threads/part-1/5-speaking"),
-      page("6. Writing", "/en/threads/part-1/6-writing"),
-      page("7. Learning English with AI", "/en/threads/part-1/7-ai"),
-    ],
-  },
-  {
-    text: "Practice, Review, and Recovery",
-    items: [
-      page("My Story", "/en/threads/part-2/my-story"),
-      page("Narrative and Evidence: Do Not Turn Experience into Fate", "/en/threads/part-2/narrative-and-evidence"),
-      page("Echoes: Do Not Romanticise Avoidance", "/en/threads/part-2/x-misc"),
-      page("Recovery: Catch Yourself Before You Push Forward", "/en/threads/part-2/recovery"),
-      page("Decision-Making: Choosing Under Uncertainty", "/en/threads/part-2/decision"),
-      page("Relationships: Becoming an Adult in Connection", "/en/threads/part-2/relationships"),
-      page("Entrepreneurship", "/en/threads/part-2/entrepreneurship"),
-      page("Practice: Finish the First Week", "/en/threads/part-4/week-1"),
-      page("Daily System: Put Change into the Day", "/en/threads/part-4/daily-system"),
-      page("Rhythm: Let Small Things Travel Through Time", "/en/threads/part-4/rhythm-and-compounding"),
     ],
   },
   {
@@ -195,10 +225,12 @@ export const enNavigation = [
   },
 ];
 
+const collapsedGroups = new Set(["工具箱", "旧文归档", "词表", "Toolkit", "Archive", "Word Lists"]);
+
 export function toSidebar(groups) {
   return groups.map(({ text, items }) => ({
     text,
-    collapsed: false,
+    collapsed: collapsedGroups.has(text),
     items: items.map(({ text: itemText, link }) => ({ text: itemText, link })),
   }));
 }
