@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "format": "PDF 1.7",
+  "pageSize": "6 × 9.6 in",
+  "scope": "Main manuscript, glossary, and toolkit; archive and word lists remain online-only.",
+  "outputs": {
+    "zh-CN": {
+      "file": "life-level-up-guide-zh.pdf",
+      "language": "zh-CN",
+      "pages": 235,
+      "chapters": 53,
+      "bytes": 4272912,
+      "sha256": "6f9ee5d6b2ef9690d854a2f846fcc997586c9367bb3c4f4b45fc76f45f72dea2",
+      "sourceEpubSha256": "70585f9c34c9ac1c2f632ab4d130162c6e1900c1c248e0333a29af2d68c4275e"
+    },
+    "en-US": {
+      "file": "life-level-up-guide-en.pdf",
+      "language": "en-US",
+      "pages": 263,
+      "chapters": 53,
+      "bytes": 3508576,
+      "sha256": "6e9d0b9f53afa3b08406fbfc2c8eee7177c9cf2711a67c5f01c9ff742a2b01c1",
+      "sourceEpubSha256": "dc4a13dd1ee44e5e563d42d51904ceea99d0a712a589262b49502d0c15eb28ef"
+    }
+  }
+}

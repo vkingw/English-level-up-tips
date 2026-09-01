@@ -393,6 +393,18 @@ export default defineConfig({
         ? {
             alternateName: isEnglish ? "人生进阶指南" : "Life Level-up Guide",
             bookFormat: "https://schema.org/EBook",
+            encoding: [
+              {
+                "@type": "MediaObject",
+                encodingFormat: "application/epub+zip",
+                contentUrl: `${siteUrl}downloads/life-level-up-guide-${isEnglish ? "en" : "zh"}.epub`,
+              },
+              {
+                "@type": "MediaObject",
+                encodingFormat: "application/pdf",
+                contentUrl: `${siteUrl}downloads/life-level-up-guide-${isEnglish ? "en" : "zh"}.pdf`,
+              },
+            ],
           }
         : {
             isPartOf: {

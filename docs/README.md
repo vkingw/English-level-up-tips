@@ -16,6 +16,8 @@ updated: 2026-09-01
   <span>持续更新书稿</span>
   <a href="./downloads/life-level-up-guide-zh.epub" download>下载中文 EPUB</a>
   <a href="./downloads/life-level-up-guide-en.epub" download>Download English EPUB</a>
+  <a href="./downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
+  <a href="./downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
   <a href="https://github.com/byoungd/up">源码与勘误</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">正文 CC BY-NC 4.0</a>
 </div>

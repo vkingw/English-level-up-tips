@@ -18,8 +18,10 @@
     "check:bundle": "node scripts/check-build-size.mjs",
     "book:build": "node scripts/build-epub.mjs",
     "book:check": "node scripts/build-epub.mjs --check",
-    "check": "npm run check:navigation && npm run check:readme && npm run check:content && npm run check:format && npm run book:check",
-    "sync": "node scripts/sync-navigation.mjs && node scripts/sync-word-lists.mjs && node scripts/sync-public-assets.mjs && node scripts/sync-readme.mjs && npm run book:build",
+    "book:pdf:build": "node scripts/run-pdf-build.mjs",
+    "book:pdf:check": "node scripts/run-pdf-build.mjs --check",
+    "check": "npm run check:navigation && npm run check:readme && npm run check:content && npm run check:format && npm run book:check && npm run book:pdf:check",
+    "sync": "node scripts/sync-navigation.mjs && node scripts/sync-word-lists.mjs && node scripts/sync-public-assets.mjs && node scripts/sync-readme.mjs && npm run book:build && npm run book:pdf:build",
     "test:smoke": "playwright test",
     "assets:sanitize": "node scripts/sanitize-assets.mjs"
   },

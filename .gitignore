@@ -5,6 +5,8 @@ docs/.vitepress/cache/
 docs/.vitepress/dist/
 .codex-artifact-work/
 outputs/
+output/pdf/
+tmp/
 playwright-report/
 test-results/
 

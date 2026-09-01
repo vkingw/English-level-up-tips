@@ -283,6 +283,10 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
     bookFormat: "https://schema.org/EBook",
     inLanguage: "zh-CN",
     author: { "@type": "Person", name: "韩先凯" },
+    encoding: [
+      { "@type": "MediaObject", encodingFormat: "application/epub+zip" },
+      { "@type": "MediaObject", encodingFormat: "application/pdf" },
+    ],
   });
 
   await page.goto("./en/");
@@ -303,6 +307,10 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
     alternateName: "人生进阶指南",
     inLanguage: "en-US",
     author: { "@type": "Person", name: "Han Xiankai" },
+    encoding: [
+      { "@type": "MediaObject", encodingFormat: "application/epub+zip" },
+      { "@type": "MediaObject", encodingFormat: "application/pdf" },
+    ],
   });
 });
 
@@ -346,6 +354,49 @@ test("home pages expose deterministic bilingual EPUB editions", async ({ page, r
   await expect(page.getByRole("link", { name: "下载中文 EPUB", exact: true })).toHaveAttribute(
     "href",
     "../downloads/life-level-up-guide-zh.epub",
+  );
+});
+
+test("home pages expose deterministic print-ready bilingual PDF editions", async ({ page, request }) => {
+  const manifestResponse = await request.get("downloads/pdf-manifest.json");
+  expect(manifestResponse.status()).toBe(200);
+  expect(manifestResponse.headers()["content-type"]).toContain("application/json");
+  const manifest = await manifestResponse.json();
+  expect(manifest).toMatchObject({ version: 1, format: "PDF 1.7", pageSize: "6 × 9.6 in" });
+
+  const editions = [
+    { language: "zh-CN", label: "下载中文 PDF", href: "./downloads/life-level-up-guide-zh.pdf" },
+    { language: "en-US", label: "Download English PDF", href: "./downloads/life-level-up-guide-en.pdf" },
+  ];
+
+  await page.goto("./");
+  for (const edition of editions) {
+    const link = page.getByRole("link", { name: edition.label, exact: true });
+    await expect(link).toHaveAttribute("href", edition.href);
+    await expect(link).toHaveAttribute("download", "");
+
+    const output = manifest.outputs[edition.language];
+    expect(output.chapters).toBe(53);
+    expect(output.pages).toBeGreaterThan(200);
+    expect(output.bytes).toBeGreaterThan(500_000);
+    expect(output.bytes).toBeLessThan(8_000_000);
+    const response = await request.get(`downloads/${output.file}`);
+    expect(response.status()).toBe(200);
+    expect(response.headers()["content-type"]).toContain("application/pdf");
+    const body = await response.body();
+    expect(body.subarray(0, 5).toString("ascii")).toBe("%PDF-");
+    expect(body.length).toBe(output.bytes);
+    expect(sha256(body)).toBe(output.sha256);
+  }
+
+  await page.goto("./en/");
+  await expect(page.getByRole("link", { name: "Download English PDF", exact: true })).toHaveAttribute(
+    "href",
+    "../downloads/life-level-up-guide-en.pdf",
+  );
+  await expect(page.getByRole("link", { name: "下载中文 PDF", exact: true })).toHaveAttribute(
+    "href",
+    "../downloads/life-level-up-guide-zh.pdf",
   );
 });
 

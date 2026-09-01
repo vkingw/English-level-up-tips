@@ -16,6 +16,8 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
   <span>Living manuscript</span>
   <a href="../downloads/life-level-up-guide-en.epub" download>Download English EPUB</a>
   <a href="../downloads/life-level-up-guide-zh.epub" download>下载中文 EPUB</a>
+  <a href="../downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
+  <a href="../downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
   <a href="https://github.com/byoungd/up">Source and corrections</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">Text CC BY-NC 4.0</a>
 </div>
