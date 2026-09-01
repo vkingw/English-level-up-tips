@@ -814,6 +814,8 @@ test("representative pages load every local image with descriptive alt text", as
     expect(count, `${route} should contain at least one image`).toBeGreaterThan(0);
     for (let index = 0; index < count; index += 1) {
       const image = images.nth(index);
+      await expect(image).toHaveAttribute("loading", "lazy");
+      await expect(image).toHaveAttribute("decoding", "async");
       if ((await image.getAttribute("loading")) === "lazy") await image.scrollIntoViewIfNeeded();
       await expect(image).toHaveJSProperty("complete", true);
       await expect(image).toHaveAttribute("alt", /\S+/);

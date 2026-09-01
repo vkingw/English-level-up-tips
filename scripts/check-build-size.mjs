@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gzipSync } from "node:zlib";
@@ -47,6 +47,15 @@ const budgets = [
 const format = (bytes) => `${(bytes / 1024).toFixed(1)} KiB`;
 let failed = false;
 
+function rasterAssets(directory, output = []) {
+  for (const entry of readdirSync(directory, { withFileTypes: true })) {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) rasterAssets(path, output);
+    else if (/\.(?:avif|jpe?g|png|webp)$/i.test(entry.name)) output.push(path);
+  }
+  return output;
+}
+
 for (const budget of budgets) {
   const files = readdirSync(budget.directory).filter((name) => budget.pattern.test(name));
   if (files.length !== budget.expected) {
@@ -67,6 +76,19 @@ for (const budget of budgets) {
       failed = true;
     }
   }
+}
+
+const rasterBudget = 230_000;
+const rasters = rasterAssets(join(ROOT, "docs/assets"))
+  .map((path) => ({ path, size: statSync(path).size }))
+  .sort((a, b) => b.size - a.size);
+const largestRaster = rasters[0];
+console.log(`largest source raster: ${largestRaster.path.replace(`${ROOT}/`, "")} ${format(largestRaster.size)}`);
+for (const { path, size } of rasters.filter(({ size }) => size > rasterBudget)) {
+  console.error(
+    `source raster budget exceeded: ${path.replace(`${ROOT}/`, "")} ${format(size)} (max ${format(rasterBudget)})`,
+  );
+  failed = true;
 }
 
 if (failed) process.exit(1);

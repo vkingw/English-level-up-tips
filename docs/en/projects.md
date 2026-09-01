@@ -58,7 +58,7 @@ The links point to public WeChat pages and were checked on 24 August 2026; platf
 
 On 16 June 2026, the author visited Alibaba Cloud's Hangzhou headquarters as a company representative and recorded plans to explore AI in agriculture and other physical industries, including free community training. This is a direction and personal commitment, not an Alibaba Cloud endorsement or evidence of completed outcomes.
 
-![Visit to Alibaba Cloud headquarters](../assets/aliyun-hangzhou-2026-06-16-1.jpg)
+![Visit to Alibaba Cloud headquarters](../assets/aliyun-hangzhou-2026-06-16-1.webp)
 
 ## Recommendation Policy
 

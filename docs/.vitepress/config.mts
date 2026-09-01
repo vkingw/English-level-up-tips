@@ -124,6 +124,20 @@ export default defineConfig({
       });
     },
   },
+  markdown: {
+    config(md) {
+      md.core.ruler.after("inline", "defer-content-images", (state) => {
+        for (const token of state.tokens) {
+          if (token.type !== "inline" || !token.children) continue;
+          for (const child of token.children) {
+            if (child.type !== "image") continue;
+            child.attrSet("loading", "lazy");
+            child.attrSet("decoding", "async");
+          }
+        }
+      });
+    },
+  },
   vite: { plugins: [privateAssetGuard()] },
   rewrites: {
     "README.md": "index.md",

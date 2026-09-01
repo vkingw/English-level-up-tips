@@ -88,11 +88,11 @@ The photo above is a precious picture of me with our front-end leader, Nas.
 
 But the good period did not last long. Starting in early 2022, software sales fell off a cliff, and we could not find a solution. I had never been truly satisfied with the product. It was huge, bloated, and full of bugs. Frankly speaking, it was a mess. Customers said there was a bug every three steps and called it garbage. If the price had not been so low, some of them might have sued us.
 
-![Product page](../../../assets/product1.png)
+![Product page](../../../assets/product1.webp)
 
 To solve some core problems, I brought in my high school deskmate, who was then doing container security at ByteDance. He had always been someone special in my mind. After he joined us, he discovered some extremely serious issues.
 
-![Product design draft](../../../assets/product-ds.png)
+![Product design draft](../../../assets/product-ds.webp)
 
 First, the project structure was outdated, and many parts had serious performance and security problems. Second, some of the “AI” features were not generated through any actual model training at all. They were basically powered by Elasticsearch search behavior. We had spent years talking about big data, but in reality a lot of it was just preset outputs wrapped around business requirements.
 
@@ -158,7 +158,7 @@ I know that once certain words are spoken, relationships can change. Before borr
 
 I even considered selling the car I had bought just over a year earlier, but my family stopped me. The house was already gone. If I sold the car too, it would directly affect daily life, especially with a child going to school, and it would not even recover that much money anyway.
 
-![My former Dream Car](../../../assets/bmw.jpg)
+![My former Dream Car](../../../assets/bmw.webp)
 
 ### After Going Back Home
 
@@ -232,7 +232,7 @@ One more thing: this article mainly records my conflict with my partner Mr. Gong
 
 On June 16, 2026, as Chairman of China Ciyuan Cloud Computing Co., Ltd., I was invited by Alibaba in Hangzhou to visit and study at Alibaba Cloud's Hangzhou headquarters.
 
-![Visiting Alibaba Cloud Hangzhou headquarters](../../../assets/aliyun-hangzhou-2026-06-16-1.jpg)
+![Visiting Alibaba Cloud Hangzhou headquarters](../../../assets/aliyun-hangzhou-2026-06-16-1.webp)
 
 This visit made me more willing to believe that AI should not remain only as a concept or a tool held by a small group. I hope it can enter real industries, land, and ordinary lives only after permission, responsibility, and real-world verification are in place.
 
