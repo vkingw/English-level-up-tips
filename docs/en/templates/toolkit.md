@@ -23,6 +23,7 @@ If you do not know where to begin, choose one sheet. An incomplete sheet used on
 | Reading moved me, but I do not know what remains seven days later | [Reader Field Note](reader-field-note.md) | [Evidence Chain](evidence-chain.md) | It cannot turn one personal experience into a universal effect |
 | I am supporting a middle-school-age learner | [Family Learning Agreement](family-learning-agreement.md) | [Family Learning](../threads/part-4/family-learning.md) | It cannot choose a life for the learner, replace school, or diagnose difficulty |
 | I recognise words but cannot use them | [Vocabulary Audit](vocabulary-audit.md) | [Vocabulary](../threads/part-1/2-vocabulary.md) | It cannot replace contextual performance with card counts |
+| I know the rule but still repeat errors in real expression | [Grammar Evidence Card](grammar-evidence.md) | [Grammar](../threads/part-1/grammar.md) | One corrected sentence, a style preference, or AI polish cannot prove stable grammar ability |
 | I cannot hear or explain what I read | [Listening Resource Audit](listening-audit.md) or [Reading Evidence Card](reading-evidence.md) | [Listening](../threads/part-1/3-listening.md) · [Reading](../threads/part-1/4-reading.md) | It cannot use minutes played or highlights as proof of understanding |
 | I cannot speak or write with confidence | [Speaking Evidence Card](speaking-evidence.md) or [Writing Evidence Card](writing-evidence.md) | [Speaking](../threads/part-1/5-speaking.md) · [Writing](../threads/part-1/6-writing.md) | It cannot speak for you before a real listener |
 | I do not know how to involve AI | [AI Task Brief](ai-task-brief.md) | [AI Learning Log](ai-learning-log.md) | It cannot turn a model response into a fact or final judgment |
@@ -36,7 +37,7 @@ For a first use, follow the complete [synthetic cross-session AI-learning case](
 
 1. **Locate**: use [Learning State](learning-state.md) or [English Diagnostic](english-diagnostic.md) to name the real situation, baseline, and acceptance standard;
 2. **Choose**: use the [90-Day Cycle Map](90-day-cycle.md) for a longer cycle, or the [Rhythm Ledger](rhythm-ledger.md) for one week;
-3. **Practice**: choose a vocabulary, listening, reading, speaking, or writing evidence card; when the goal is an interview, use the [Job-search English Evidence Card](interview-evidence.md) to include unfamiliar follow-ups and asynchronous writing, and complete your own first version;
+3. **Practice**: choose a vocabulary, grammar, listening, reading, speaking, or writing evidence card; when the goal is an interview, use the [Job-search English Evidence Card](interview-evidence.md) to include unfamiliar follow-ups and asynchronous writing, and complete your own first version;
 4. **Collaborate**: when AI is useful, fill the [AI Task Brief](ai-task-brief.md), then record the collaboration and your closed-AI performance in the [AI Learning Log](ai-learning-log.md);
 5. **Deliver**: for a real audience, use the [Artifact Brief and Delivery Card](artifact-brief.md); after a release or pilot, use the [AI Project Scorecard](ai-project-scorecard.md) to record quality, cost, risk, and rollback;
 6. **Review**: use the [Evidence Chain](evidence-chain.md) to place the first version, immediate performance, delayed retention, and transfer together, then use the [Weekly Review](weekly-review.md) to change one condition;

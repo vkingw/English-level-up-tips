@@ -24,7 +24,7 @@ Read the [Prologue: Do Not Rush to Change Your Life](prologue.md), then open the
 
 ### I want to improve one concrete skill
 
-Use [CEFR Goals and Self-check](../part-1/0-cefr.md) to name the context and baseline, then enter the listening, reading, speaking, or writing chapters. Choose one main line at a time and use the relevant [evidence cards](../../reference/glossary.md#tools-and-delivery) to preserve a first sample, feedback, and a retest. More study is not necessarily deeper study; completing the action in a new situation is where ability starts to show.
+Use [CEFR Goals and Self-check](../part-1/0-cefr.md) to name the context and baseline, then enter grammar, listening, reading, speaking, or writing. When familiar rules still change time, responsibility, condition, or certainty in real expression, read [Grammar: Let Structure Serve Meaning](../part-1/grammar.md), then track one high-impact structure with the [Grammar Evidence Card](../../templates/grammar-evidence.md). Choose one main line at a time and use the relevant [evidence cards](../../reference/glossary.md#tools-and-delivery) to preserve a first sample, feedback, and a retest. More study is not necessarily deeper study; completing the action in a new situation is where ability starts to show.
 
 ### I am preparing for a global role or remote interview
 
@@ -59,7 +59,7 @@ A complete read is not a race through page numbers. It lets the same question ch
 | Stage | What to read | What to leave behind |
 | --- | --- | --- |
 | See the starting point | [Reader's Guide](reader-guide.md) · [Prologue](prologue.md) | A one-page promise: real problem, baseline, minimum action, and boundary |
-| Open input | [CEFR Self-check](../part-1/0-cefr.md) and the listening, reading, speaking, and writing chapters | An [English Diagnostic](../../templates/english-diagnostic.md) and one relevant [evidence card](../../reference/glossary.md#tools-and-delivery) |
+| Open input | [CEFR Self-check](../part-1/0-cefr.md) and the grammar, listening, reading, speaking, and writing chapters | An [English Diagnostic](../../templates/english-diagnostic.md) and one relevant [evidence card](../../reference/glossary.md#tools-and-delivery) |
 | Return to reality | [My Story](../part-2/my-story.md), [Narrative and Evidence](../part-2/narrative-and-evidence.md), [Echoes](../part-2/x-misc.md), [Recovery](../part-2/recovery.md), [Decision-Making](../part-2/decision.md), plus [AI Learning](../part-3/1-ai-learning.md), [Artifacts](../part-3/4-artifacts-and-delivery.md), and [Evidence](../part-3/5-evidence-and-transfer.md) | One case review or real delivery, with change recorded in the [Evidence Chain Template](../../templates/evidence-chain.md) |
 | Sustain and ship | [First Week Practice](../part-4/week-1.md), [Family Learning](../part-4/family-learning.md) when relevant, [Daily System](../part-4/daily-system.md), [Rhythm](../part-4/rhythm-and-compounding.md), [90-Day Action Plan](../part-5/90-day-plan.md), [the book case study](../part-5/book-as-proof.md), and the [Afterword](../part-6/afterword.md) | A first-week baseline and retest, one [Rhythm Ledger](../../templates/rhythm-ledger.md), one cycle plan, one real-project handover, and a next review date |
 

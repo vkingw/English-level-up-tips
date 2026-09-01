@@ -25,6 +25,7 @@ Opening input does not mean letting more information flood your life. It means c
 - What can I currently complete in listening, speaking, reading, and writing, rather than what is my average “level”?
 - How does a word, sound, or text move from something I have seen to something I can use under a new condition?
 - How does input pass through recall, expression, and feedback until it becomes independent ability?
+- When a rule is already familiar, why can structure still change time, responsibility, condition, or certainty in a real message?
 - Where can AI support practice, and where must it leave so that I complete the work myself?
 - When English enters job search, interviews, and remote collaboration, how do level directions become role tasks and evidence?
 
@@ -35,7 +36,7 @@ Do not let the weakest skill deny everything you can do, and do not let the stro
 | Path | Chapters | What to leave behind |
 | --- | --- | --- |
 | Locate the starting point | [CEFR Goals and Self-check](0-cefr.md) | One unpolished baseline for each of listening, speaking, reading, and writing |
-| Build the method | [Learning Principles](1-understanding.md) · [Vocabulary](2-vocabulary.md) | One real context, reusable chunks, and a retest date |
+| Build the method | [Learning Principles](1-understanding.md) · [Vocabulary](2-vocabulary.md) · [Grammar](grammar.md) | One real context, reusable chunks, one high-impact structure, and a retest date |
 | Open understanding | [Listening](3-listening.md) · [Reading](4-reading.md) | A reconstruction of the main idea, difficulty categories, and source record |
 | Enter expression | [Speaking](5-speaking.md) · [Writing](6-writing.md) | First version, feedback, revision, and expression under a new condition |
 | Use the tool | [Learning English with AI](7-ai.md) | AI boundaries, an independent retest, and feedback from a real audience |
@@ -47,7 +48,7 @@ Do not advance every chapter at once. Choose one task that will occur in life: a
 
 At the end of this part, leave at least three things:
 
-1. A baseline sample you can repeat thirty days later;
+1. A baseline sample you can repeat thirty days later, including its unpolished structural choices;
 2. One English output a real audience can understand, answer, or use; when the goal is employment, include an unfamiliar follow-up or asynchronous handover;
 3. An [Evidence Chain](../../templates/evidence-chain.md) with time, conditions, and the next variable.
 

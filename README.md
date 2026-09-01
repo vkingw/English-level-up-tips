@@ -46,9 +46,10 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
   <a class="guide-path" href="./docs/threads/part-3/1-ai-learning.md"><strong>使用 AI 学习一切</strong>让 AI 帮助提问、研究和反馈，同时把事实核验与最终判断留在人手中。</a>
   <a class="guide-path" href="./docs/threads/part-3/2-ai-development-and-resource-layer.md"><strong>AI 项目与资源层创业</strong>从需求、原型、代码和测试走向模型接入、治理、企业交付与商业验证。</a>
   <a class="guide-path" href="./docs/threads/part-1/0-cefr.md"><strong>基础能力：英语</strong>用英语连接全球知识、技术文档、国际 AI 工具与跨文化协作。</a>
+  <a class="guide-path" href="./docs/threads/part-1/grammar.md"><strong>语法基础与真实表达</strong>不从背完整规则开始，而从时间、责任、条件与确定性是否被听清开始，用一项高影响结构完成十四天复测。</a>
   <a class="guide-path" href="./docs/threads/part-1/8-job-search-english.md"><strong>海外求职与远程协作</strong>把岗位描述拆成招聘沟通、项目说明、陌生追问和异步写作，用真实样本判断这一场面试还缺什么。</a>
   <a class="guide-path" href="./docs/threads/part-4/family-learning.md"><strong>家庭与中学生学习</strong>让孩子参与定义目标，让家长保护环境、隐私与安全，用十四天证据替代监控、代做和焦虑加码。</a>
-  <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI 中转服务参考</strong>biezou.com 公开首页将自己描述为统一 AI API 网关与管理面板；使用前请自行核对服务条款、价格、隐私与可用性。</a>
+  <a class="guide-path" href="https://biezou.com/" target="_blank" rel="noopener noreferrer"><strong>AI 中转推荐：biezou.com</strong>官网公开定位为统一 AI API 网关与管理面板；这是第三方可选入口，使用前请自行核对服务条款、价格、隐私与可用性。</a>
   <a class="guide-path" href="./docs/threads/part-2/my-story.md"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
   <a class="guide-path" href="./docs/projects.md"><strong>作者项目与现实实践</strong>公开关联、用途、更新时间和非赞助关系，让信任不必靠猜。</a>
 </div>
@@ -119,7 +120,7 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 英语不再是这份指南的全部，却仍然是终身学习的重要基础。它帮助你阅读全球知识与技术文档，理解国际课程和研究，使用更多 AI 工具，也让跨文化合作少一层转述。
 
-从 [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)建立真实基线，再按需要进入 [认知](docs/threads/part-1/1-understanding.md)、[词汇](docs/threads/part-1/2-vocabulary.md)、[听力](docs/threads/part-1/3-listening.md)、[阅读](docs/threads/part-1/4-reading.md)、[口语](docs/threads/part-1/5-speaking.md)、[写作](docs/threads/part-1/6-writing.md)和[用 AI 学英语](docs/threads/part-1/7-ai.md)。如果正在处理技术任务，可以从[技术词表](docs/threads/word-list/Common.md)挑选词块；也可以直接使用 [英语能力诊断](docs/templates/english-diagnostic.md)、[词汇审计](docs/templates/vocabulary-audit.md)、[听力资源审计卡](docs/templates/listening-audit.md)、[阅读证据卡](docs/templates/reading-evidence.md)、[口语证据卡](docs/templates/speaking-evidence.md)、[写作证据卡](docs/templates/writing-evidence.md)或[作品简报与交付卡](docs/templates/artifact-brief.md)，为下一轮学习找到起点。
+从 [CEFR 目标与自测](docs/threads/part-1/0-cefr.md)建立真实基线，再按需要进入 [认知](docs/threads/part-1/1-understanding.md)、[词汇](docs/threads/part-1/2-vocabulary.md)、[语法](docs/threads/part-1/grammar.md)、[听力](docs/threads/part-1/3-listening.md)、[阅读](docs/threads/part-1/4-reading.md)、[口语](docs/threads/part-1/5-speaking.md)、[写作](docs/threads/part-1/6-writing.md)和[用 AI 学英语](docs/threads/part-1/7-ai.md)。如果已经懂一些规则，却在真实表达中反复改变时间、责任、条件或确定性，先用[语法证据卡](docs/templates/grammar-evidence.md)只追踪一项高影响结构。如果正在处理技术任务，可以从[技术词表](docs/threads/word-list/Common.md)挑选词块；也可以直接使用 [英语能力诊断](docs/templates/english-diagnostic.md)、[词汇审计](docs/templates/vocabulary-audit.md)、[听力资源审计卡](docs/templates/listening-audit.md)、[阅读证据卡](docs/templates/reading-evidence.md)、[口语证据卡](docs/templates/speaking-evidence.md)、[写作证据卡](docs/templates/writing-evidence.md)或[作品简报与交付卡](docs/templates/artifact-brief.md)，为下一轮学习找到起点。
 
 英语水平不由收藏的单词量证明，而由你能否在真实场景中理解、表达和完成任务证明。它是一座桥，不是一堵用来评价自己的墙。
 

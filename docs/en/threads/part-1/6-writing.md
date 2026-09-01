@@ -155,6 +155,8 @@ Remote roles test writing as work: recruiter follow-up, take-home explanation, p
 
 State audience, purpose, and criteria; produce a timed draft without AI; review facts and task before structure, paragraphs, sentences, and wording; rewrite it yourself; complete a parallel task one week later.
 
+At sentence level, separate necessary correction, ambiguity, register choice, and style preference. When one structure repeatedly changes time, responsibility, condition, or certainty, use the [Grammar Evidence Card](../../templates/grammar-evidence.md) to preserve the original, revision, and reason, then retest without prompts in a new text.
+
 Score 0–2 for purpose, structure, evidence/detail, accuracy/range, and revision transfer. Keep draft, annotations, and final instead of showing only tool-polished work.
 
 Use the [Evidence Chain Template](../../templates/evidence-chain.md) to place the draft, immediate revision, delayed writing, and parallel task side by side instead of treating the final as the whole ability.

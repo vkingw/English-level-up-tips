@@ -23,6 +23,7 @@ updated: 2026-09-02
 | 读完有感触，却不知道七天后是否留下什么 | [读者实践回执](reader-field-note.md) | [证据链](evidence-chain.md) | 不能把一次个人体验推成普遍效果 |
 | 正在帮助初中阶段的孩子学习 | [家庭学习共同协议](family-learning-agreement.md) | [家庭学习篇](../threads/part-4/family-learning.md) | 不能替孩子选择人生、替代学校或诊断困难 |
 | 单词认识却不会使用 | [词汇审计](vocabulary-audit.md) | [词汇篇](../threads/part-1/2-vocabulary.md) | 不能用卡片数量替代语境中的表现 |
+| 规则似乎懂了，真实表达仍反复出错 | [语法证据卡](grammar-evidence.md) | [语法篇](../threads/part-1/grammar.md) | 不能把一次改对、风格偏好或 AI 润色当成稳定语法能力 |
 | 听不清或读完说不清 | [听力资源审计卡](listening-audit.md) 或 [阅读证据卡](reading-evidence.md) | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) | 不能把播放时长或划线数量当成理解证据 |
 | 不敢开口或写不出来 | [口语证据卡](speaking-evidence.md) 或 [写作证据卡](writing-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) · [写作篇](../threads/part-1/6-writing.md) | 不能替你完成真实听众面前的表达 |
 | 不知道怎样让 AI 参与 | [AI 任务简报](ai-task-brief.md) | [AI 学习记录](ai-learning-log.md) | 不能把模型回答自动变成事实或最终判断 |
@@ -36,7 +37,7 @@ updated: 2026-09-02
 
 1. **定位**：用[学习状态](learning-state.md)或[英语能力诊断](english-diagnostic.md)写清真实场景、当前基线和完成标准；
 2. **选择**：如果周期较长，用[九十日行动总表](90-day-cycle.md)；如果只安排本周，用[节律账本](rhythm-ledger.md)；
-3. **练习**：按任务选择词汇、听力、阅读、口语或写作证据卡；若目标是岗位面试，用[求职英语证据卡](interview-evidence.md)把陌生追问和异步写作一起纳入，先完成自己的第一版；
+3. **练习**：按任务选择词汇、语法、听力、阅读、口语或写作证据卡；若目标是岗位面试，用[求职英语证据卡](interview-evidence.md)把陌生追问和异步写作一起纳入，先完成自己的第一版；
 4. **协作**：需要 AI 时，先填[AI 任务简报](ai-task-brief.md)，再把协作过程和关闭 AI 后的表现写进[AI 学习记录](ai-learning-log.md)；
 5. **交付**：有真实受众时使用[作品简报与交付卡](artifact-brief.md)，发布或试点后用[AI 项目评分卡](ai-project-scorecard.md)记录质量、成本、风险和回滚；
 6. **复查**：用[证据链](evidence-chain.md)把首版、即时表现、延迟保持与迁移放在一起，再用[每周复盘](weekly-review.md)决定只改变哪一个条件；

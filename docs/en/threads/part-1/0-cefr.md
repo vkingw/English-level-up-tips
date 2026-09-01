@@ -84,6 +84,8 @@ Score each `0=not completed`, `1=partly`, or `2=consistently`:
 
 Use totals only for your own longitudinal comparison, never as a label for another person.
 
+When accuracy and range remain weak, do not call every problem “bad grammar”. First ask whether the choice changes time, participants, negation, condition, or certainty, then use [Grammar](grammar.md) and the [Grammar Evidence Card](../../templates/grammar-evidence.md) to track one structure that affects the task. Lower-impact variation can wait.
+
 ## Carry the Self-check into the Next Cycle
 
 This rubric describes performance in one task; it does not announce that you have “reached a level”. After the self-check, carry the result into [Evidence: How Change Becomes Visible](../part-3/5-evidence-and-transfer.md):

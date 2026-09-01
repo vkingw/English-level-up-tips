@@ -205,6 +205,8 @@ For job search or remote work, connect speaking practice to [Job-search English]
 
 Choose a real scenario and record an unscripted two-minute first take. Transcribe it and mark only pauses, chunks, grammar, or pronunciation that affect understanding. Repair one to three issues and record again after a delay. Ask a listener to restate the message from the audio alone.
 
+When one structure repeatedly changes time, responsibility, condition, or strength of stance, do not only correct the transcript. Move it into the [Grammar Evidence Card](../../templates/grammar-evidence.md), compare intended meaning with likely interpretation, then test retrieval inside an unfamiliar follow-up.
+
 Score 0–2 for task completion, comprehensibility, organisation, interaction, and accuracy/range. A different accent is not an error; prioritise misunderstandings and persistent blocks.
 
 Put the unscripted first take, revised take, listener retelling, and unfamiliar-question transfer in the [Evidence Chain Template](../../templates/evidence-chain.md) to separate smoother speech from stable ability.

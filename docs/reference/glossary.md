@@ -40,6 +40,8 @@ updated: 2026-09-02
 | --- | --- | --- |
 | **主动回忆** | 合上材料后自己回答、复述、书写或完成任务 | [认知篇](../threads/part-1/1-understanding.md) |
 | **间隔练习** | 在多个时间点回来，而不是一次集中刷完 | [词汇篇](../threads/part-1/2-vocabulary.md) |
+| **形式—意义选择** | 不把语法只看作规则名称，而是比较不同结构怎样改变时间、参与者、条件、否定范围、逻辑或确定性 | [语法篇](../threads/part-1/grammar.md) |
+| **语法对比卡** | 围绕一个真实任务保存原句、可能理解、真实意图、形式对比、修改理由与延迟复测 | [语法证据卡](../templates/grammar-evidence.md) |
 | **精听/精读** | 用短材料核对细节、结构、证据和语言形式 | [听力篇](../threads/part-1/3-listening.md) · [阅读篇](../threads/part-1/4-reading.md) |
 | **平行材料** | 难度和任务相近、但内容不同的材料，用来测试迁移 | [阅读证据卡](../templates/reading-evidence.md) |
 | **迁移** | 换主题、听众、时间或任务后仍能完成相近动作 | [九十日行动总表](../templates/90-day-cycle.md) |
@@ -60,6 +62,7 @@ updated: 2026-09-02
 | **读者实践回执** | 私下记录阅读入口、实际行动、即时结果、延迟复测、迁移与编辑反馈的两次记录 | [读者实践回执](../templates/reader-field-note.md) |
 | **家庭学习共同协议** | 学习者与家长分别记录目标、担心、支持、AI 与数据边界，并用十四天证据共同复查的私密工作表 | [家庭学习共同协议](../templates/family-learning-agreement.md) |
 | **求职英语证据卡** | 将真实岗位、无稿基线、故事、陌生追问、异步写作、延迟复测和诚信边界放在同一份记录中 | [求职英语证据卡](../templates/interview-evidence.md) |
+| **语法证据卡** | 一次只追踪一个高影响结构，连接真实任务基线、意义对比、四项调用、反馈分类与第 14 天迁移 | [语法证据卡](../templates/grammar-evidence.md) |
 | **互动修复** | 没听清、范围不明或暂时未知时，请求重复、确认、争取思考时间并总结共识 | [口语篇](../threads/part-1/5-speaking.md) · [求职英语篇](../threads/part-1/8-job-search-english.md) |
 | **作品** | 能被别人阅读、使用、质疑或改进的输出，不限于产品 | [作品篇](../threads/part-3/4-artifacts-and-delivery.md) |
 | **交付** | 在真实受众、用户或约束下完成并接受结果 | [九十日行动篇](../threads/part-5/90-day-plan.md) |

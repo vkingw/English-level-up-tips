@@ -40,6 +40,8 @@ Find the task you are facing, then follow “definition → evidence → next st
 | --- | --- | --- |
 | **Retrieval practice** | Close the source and answer, retell, write, or perform from memory | [Learning Principles](../threads/part-1/1-understanding.md) |
 | **Distributed practice** | Return at multiple points instead of cramming once | [Vocabulary](../threads/part-1/2-vocabulary.md) |
+| **Form–meaning choice** | Treat grammar as a choice that changes time, participants, condition, negation scope, logic, or certainty rather than only a rule label | [Grammar](../threads/part-1/grammar.md) |
+| **Grammar contrast card** | Preserve an original sentence, likely interpretation, intended meaning, form contrast, revision reason, and delayed retest for one real task | [Grammar Evidence Card](../templates/grammar-evidence.md) |
 | **Intensive listening/reading** | Use short material to check detail, structure, evidence, and language form | [Listening](../threads/part-1/3-listening.md) · [Reading](../threads/part-1/4-reading.md) |
 | **Parallel material** | A different source with similar difficulty and task for testing transfer | [Reading Evidence Card](../templates/reading-evidence.md) |
 | **Transfer** | Complete a related action after changing topic, listener, time, or task | [90-Day Cycle Map](../templates/90-day-cycle.md) |
@@ -60,6 +62,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Reader Field Note** | A private-first two-pass record of reading entry, real action, immediate result, delayed retest, transfer, and editorial feedback | [Reader Field Note](../templates/reader-field-note.md) |
 | **Family Learning Agreement** | A private worksheet where learner and guardian record goals, concerns, support, AI and data boundaries separately, then review fourteen days of evidence together | [Family Learning Agreement](../templates/family-learning-agreement.md) |
 | **Job-search English Evidence Card** | One record connecting a real role, unscripted baseline, stories, unfamiliar follow-ups, asynchronous writing, delayed retest, and integrity boundaries | [Job-search English Evidence Card](../templates/interview-evidence.md) |
+| **Grammar Evidence Card** | Track one high-impact structure through a real-task baseline, meaning contrast, four-skill retrieval, feedback classification, and day-fourteen transfer | [Grammar Evidence Card](../templates/grammar-evidence.md) |
 | **Interaction repair** | When hearing, scope, or knowledge is incomplete, request repetition, confirm, ask for thinking time, and summarise agreement | [Speaking](../threads/part-1/5-speaking.md) · [Job-search English](../threads/part-1/8-job-search-english.md) |
 | **Artifact** | An output others can read, use, question, or improve; not necessarily a product | [Artifacts](../threads/part-3/4-artifacts-and-delivery.md) |
 | **Delivery** | Completing work under a real audience, user, or constraint and accepting the result | [90-Day Action Plan](../threads/part-5/90-day-plan.md) |

@@ -117,6 +117,21 @@ test("the toolkit begins with a worked example and private reader evidence", () 
   ]);
 });
 
+test("Part I places grammar between vocabulary and listening", () => {
+  const zhPart = zhNavigation.find(({ text }) => text === "第一部：打开输入");
+  const enPart = enNavigation.find(({ text }) => text === "Part I: Open Input");
+  expect(zhPart?.items.slice(3, 6).map(({ source }) => source)).toEqual([
+    "threads/part-1/2-vocabulary.md",
+    "threads/part-1/grammar.md",
+    "threads/part-1/3-listening.md",
+  ]);
+  expect(enPart?.items.slice(3, 6).map(({ source }) => source)).toEqual([
+    "en/threads/part-1/2-vocabulary.md",
+    "en/threads/part-1/grammar.md",
+    "en/threads/part-1/3-listening.md",
+  ]);
+});
+
 test("life-review chapters move from story through echoes into recovery", () => {
   const zhPractice = zhNavigation.find(({ text }) => text === "第二部：把自己放回生活");
   const enPractice = enNavigation.find(({ text }) => text === "Part II: Return to Life");
@@ -231,6 +246,33 @@ test("key story, narrative, entrepreneurship, and AI chapters end on their liter
     const text = readFileSync(resolve(process.cwd(), "docs", source), "utf8");
     const headings = [...text.matchAll(/^## (.+)$/gm)].map((match) => match[1]);
     expect(headings.at(-1), source).toBe(ending);
+  }
+});
+
+test("grammar turns rules into meaning decisions and delayed evidence", () => {
+  const cases = [
+    {
+      chapter: "threads/part-1/grammar.md",
+      card: "templates/grammar-evidence.md",
+      chapterTerms: ["语法不是把句子变复杂", "明确讲解之后，必须重新使用", "十四天语法实验"],
+      cardTerms: ["意思改变", "第 3–7 天", "它是否区分错误、歧义、语域和风格"],
+    },
+    {
+      chapter: "en/threads/part-1/grammar.md",
+      card: "en/templates/grammar-evidence.md",
+      chapterTerms: ["Grammar Is Not Sentence Decoration", "Explicit Explanation Must Return to Use", "A Fourteen-Day Grammar Experiment"],
+      cardTerms: ["meaning-changing", "Days 3–7", "Did it separate error, ambiguity, register, and style"],
+    },
+  ];
+
+  for (const { chapter, card, chapterTerms, cardTerms } of cases) {
+    const chapterText = readFileSync(resolve(process.cwd(), "docs", chapter), "utf8");
+    const cardText = readFileSync(resolve(process.cwd(), "docs", card), "utf8");
+    for (const term of chapterTerms) expect(chapterText, chapter).toContain(term);
+    for (const term of cardTerms) expect(cardText, card).toContain(term);
+    expect(chapterText).toContain("api.crossref.org/works/10.1111%2F0023-8333.00136");
+    expect(chapterText).toContain("grammar-evidence.md");
+    expect(cardText).toContain("part-1/grammar.md");
   }
 });
 
@@ -641,6 +683,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(zhSearchBox.getByRole("link", { name: /家庭学习篇：把成长还给孩子/ }).first()).toBeVisible();
   await zhSearchBox.locator("input").fill("求职英语篇：把能力带进面试与远程协作");
   await expect(zhSearchBox.getByRole("link", { name: /求职英语篇：把能力带进面试与远程协作/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("语法篇：让结构服务于意思");
+  await expect(zhSearchBox.getByRole("link", { name: /语法篇：让结构服务于意思/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("语法证据卡：从规则识别到真实表达");
+  await expect(zhSearchBox.getByRole("link", { name: /语法证据卡：从规则识别到真实表达/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
@@ -656,6 +702,10 @@ test("heading-only search keeps long-form chapters and tools discoverable withou
   await expect(enSearchBox.getByRole("link", { name: /Family Learning: Return Ownership of Growth to the Learner/ }).first()).toBeVisible();
   await enSearchBox.locator("input").fill("Job-search English: Bring Ability into Interviews and Remote Work");
   await expect(enSearchBox.getByRole("link", { name: /Job-search English: Bring Ability into Interviews and Remote Work/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Grammar: Let Structure Serve Meaning");
+  await expect(enSearchBox.getByRole("link", { name: /Grammar: Let Structure Serve Meaning/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Grammar Evidence Card: From Rule Recognition to Real Expression");
+  await expect(enSearchBox.getByRole("link", { name: /Grammar Evidence Card: From Rule Recognition to Real Expression/ }).first()).toBeVisible();
 });
 
 test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
@@ -808,6 +858,10 @@ test("home pages link to the reader guide", async ({ page }) => {
     "href",
     "./threads/part-1/8-job-search-english",
   );
+  await expect(page.getByRole("link", { name: /语法基础与真实表达/ })).toHaveAttribute(
+    "href",
+    "./threads/part-1/grammar",
+  );
 
   await page.goto("./en/");
   await expect(page.getByRole("link", { name: "Reader's Guide", exact: true }).first()).toBeVisible();
@@ -819,18 +873,26 @@ test("home pages link to the reader guide", async ({ page }) => {
     "href",
     "./threads/part-1/8-job-search-english",
   );
+  await expect(page.getByRole("link", { name: /Grammar for Real Expression/ })).toHaveAttribute(
+    "href",
+    "./threads/part-1/grammar",
+  );
 });
 
 test("home pages expose biezou as a bounded external AI reference", async ({ page }) => {
   await page.goto("./");
   const zhBiezou = page.locator('a[href="https://biezou.com/"]').first();
   await expect(zhBiezou).toBeVisible();
+  await expect(zhBiezou).toContainText("AI 中转推荐：biezou.com");
+  await expect(zhBiezou).toContainText("第三方可选入口");
   await expect(zhBiezou).toHaveAttribute("target", "_blank");
   await expect(zhBiezou).toHaveAttribute("rel", /noopener/);
 
   await page.goto("./en/");
   const enBiezou = page.locator('a[href="https://biezou.com/"]').first();
   await expect(enBiezou).toBeVisible();
+  await expect(enBiezou).toContainText("AI Relay Recommendation: biezou.com");
+  await expect(enBiezou).toContainText("optional third-party entry point");
   await expect(enBiezou).toHaveAttribute("target", "_blank");
   await expect(enBiezou).toHaveAttribute("rel", /noopener/);
 });
@@ -888,6 +950,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(zhMain.getByRole("link", { name: "生活进阶工作表", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "家庭学习共同协议", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "求职英语证据卡", exact: true }).first()).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "语法证据卡", exact: true }).first()).toBeVisible();
 
   await page.goto("./en/templates/toolkit");
   const enMain = page.locator("main");
@@ -897,6 +960,7 @@ test("toolkit overview routes readers by problem", async ({ page }) => {
   await expect(enMain.getByRole("link", { name: "Life Practice Toolkit", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Family Learning Agreement", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Job-search English Evidence Card", exact: true }).first()).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Grammar Evidence Card", exact: true }).first()).toBeVisible();
 });
 
 test("job-search English maps one real role into interview and remote-work evidence", async ({ page }) => {
@@ -1033,6 +1097,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(zhMain.getByRole("link", { name: "节律", exact: true }).first()).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "家庭学习篇：把成长还给孩子", exact: true })).toBeVisible();
   await expect(zhMain.getByRole("link", { name: "家庭学习共同协议", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "语法篇：让结构服务于意思", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "语法证据卡", exact: true })).toBeVisible();
 
   await page.goto("./en/threads/part-0/reader-guide");
   const enMain = page.locator("main");
@@ -1043,6 +1109,8 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(enMain.getByRole("link", { name: "Rhythm", exact: true }).first()).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Family Learning: Return Ownership of Growth to the Learner", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Family Learning Agreement", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Grammar: Let Structure Serve Meaning", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Grammar Evidence Card", exact: true })).toBeVisible();
 });
 
 test("echoes chapter separates harm, responsibility, and the next choice", async ({ page }) => {
@@ -1199,6 +1267,12 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
     {
       route: "./threads/part-1/2-vocabulary",
       previous: "/up/threads/part-1/1-understanding",
+      next: "/up/threads/part-1/grammar",
+      manual: /^(?:上一篇|下一篇)[：:]/,
+    },
+    {
+      route: "./threads/part-1/grammar",
+      previous: "/up/threads/part-1/2-vocabulary",
       next: "/up/threads/part-1/3-listening",
       manual: /^(?:上一篇|下一篇)[：:]/,
     },
@@ -1301,6 +1375,12 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
     {
       route: "./en/threads/part-1/2-vocabulary",
       previous: "/up/en/threads/part-1/1-understanding",
+      next: "/up/en/threads/part-1/grammar",
+      manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-1/grammar",
+      previous: "/up/en/threads/part-1/2-vocabulary",
       next: "/up/en/threads/part-1/3-listening",
       manual: /^(?:Previous|Next|Next Part|Back to the home page):/,
     },

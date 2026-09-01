@@ -56,6 +56,8 @@ Score task completion, comprehensibility, accuracy and range, organisation and f
 
 Cards are not extra homework. They turn one session into a sample you can revisit. If only AI comments remain, without your first take and transfer task, you cannot tell whether ability changed.
 
+Grammar is a structural layer shared by all four skills. AI may place an original beside parallel examples, ask about meaning differences, and generate variation, but feedback must distinguish **error, ambiguity, register choice, and style preference** and state confidence. Preserve your own decision in the [Grammar Evidence Card](../../templates/grammar-evidence.md). A smoother model sentence does not prove that the original was wrong.
+
 ## 2. Use One Task Card Every Time
 
 ```markdown

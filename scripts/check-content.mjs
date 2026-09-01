@@ -232,7 +232,7 @@ function checkManualBookPager(file) {
 
 function checkPartOneClosing(file) {
   const source = relative(DOCS, file).split(sep).join("/");
-  const match = source.match(/^(en\/)?threads\/part-1\/(0-cefr|[1-7]-.+)\.md$/);
+  const match = source.match(/^(en\/)?threads\/part-1\/(0-cefr|grammar|[1-7]-.+)\.md$/);
   if (!match) return;
 
   const headings = [...readFileSync(file, "utf8").matchAll(/^## (.+)$/gm)].map((heading) => heading[1]);

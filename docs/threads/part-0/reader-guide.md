@@ -24,7 +24,7 @@ next:
 
 ### 我想提高一项具体能力
 
-从[CEFR 目标与自测](../part-1/0-cefr.md)确认场景和基线，再进入英语的听、读、说、写章节。每次只选一条主线，并用对应的[证据卡](../../reference/glossary.md#工具与交付)保存首版、反馈和复测。学得更多不等于学得更深；能够在新场景中完成，才开始接近能力。
+从[CEFR 目标与自测](../part-1/0-cefr.md)确认场景和基线，再进入英语的语法、听、读、说、写章节。若规则似乎懂了，但表达仍反复改变时间、责任、条件或确定性，先读[语法篇：让结构服务于意思](../part-1/grammar.md)，再用[语法证据卡](../../templates/grammar-evidence.md)追踪一项高影响结构。每次只选一条主线，并用对应的[证据卡](../../reference/glossary.md#工具与交付)保存首版、反馈和复测。学得更多不等于学得更深；能够在新场景中完成，才开始接近能力。
 
 ### 我正在准备海外岗位或远程面试
 
@@ -59,7 +59,7 @@ next:
 | 阶段 | 阅读范围 | 读完留下什么 |
 | --- | --- | --- |
 | 看见起点 | [阅读指南](reader-guide.md) · [序章](prologue.md) | 一页读者承诺：真实问题、基线、最小动作和边界 |
-| 打开输入 | [CEFR 自测](../part-1/0-cefr.md)与听、读、说、写章节 | 一份[英语诊断](../../templates/english-diagnostic.md)和一张对应的[证据卡](../../reference/glossary.md#工具与交付) |
+| 打开输入 | [CEFR 自测](../part-1/0-cefr.md)与语法、听、读、说、写章节 | 一份[英语诊断](../../templates/english-diagnostic.md)和一张对应的[证据卡](../../reference/glossary.md#工具与交付) |
 | 回到现实 | [我的故事](../part-2/my-story.md)、[叙事与证据](../part-2/narrative-and-evidence.md)、[回声](../part-2/x-misc.md)、[恢复](../part-2/recovery.md)、[选择](../part-2/decision.md)，以及[AI 学习](../part-3/1-ai-learning.md)、[作品](../part-3/4-artifacts-and-delivery.md)、[证据](../part-3/5-evidence-and-transfer.md) | 一次案例复盘或真实交付，并用[证据链模板](../../templates/evidence-chain.md)记录变化 |
 | 保持与交付 | [实践篇](../part-4/week-1.md)、按需使用的[家庭学习](../part-4/family-learning.md)、[生活系统](../part-4/daily-system.md)、[节律](../part-4/rhythm-and-compounding.md)、[九十天行动](../part-5/90-day-plan.md)、[本书案例](../part-5/book-as-proof.md)、[后记](../part-6/afterword.md) | 一份第一周基线与复测、一页[节律账本](../../templates/rhythm-ledger.md)、一份周期计划、一份真实项目交接，以及下一次复查日期 |
 

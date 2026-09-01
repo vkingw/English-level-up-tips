@@ -8,6 +8,9 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a bilingual Grammar chapter that starts from real-task baselines and form–meaning choices, prioritises errors by communicative impact, reconnects explicit explanation to output, and tests one structure through a fourteen-day delayed-transfer cycle.
+- Added a bilingual Grammar Evidence Card and connected it through Part I, the home pages, Reader's Guide, Toolkit Overview, glossary, search index, and continuous book navigation.
+- Made the existing bilingual biezou.com home-page entry an explicit third-party AI relay recommendation, while retaining current-site verification, privacy, pricing, terms, and availability boundaries.
 - Added a bilingual Job-search English chapter that turns one real global or remote role into recruiter, project, technical, behavioural, asynchronous-writing, and interaction-repair tasks, with an unscripted baseline, story bank, AI integrity boundaries, fourteen-day sprint, role gates, and post-interview close.
 - Added a bilingual private Job-search English Evidence Card for role mapping, unfamiliar follow-ups, asynchronous handover, repair, delayed retesting, transfer, confidentiality, recording, and permitted AI use.
 - Connected CEFR, speaking, writing, AI-English, the Reader's Guide, homepage, Toolkit, glossary, and Part I reading arc to role-specific evidence rather than presenting one CEFR level as a universal hiring threshold.
