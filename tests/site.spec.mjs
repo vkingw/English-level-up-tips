@@ -361,6 +361,21 @@ test("local search uses the current language and returns a result", async ({ pag
   await expect(enSearchBox.getByRole("link", { name: /Learning State/ }).first()).toBeVisible();
 });
 
+test("page-level search keeps nested chapter text discoverable", async ({ page }) => {
+  await page.goto("./");
+  await page.getByRole("button", { name: "搜索", exact: true }).click();
+  const zhSearchBox = page.locator(".VPLocalSearchBox");
+  await zhSearchBox.locator("input").fill("辅音与最小对立");
+  await expect(zhSearchBox.getByRole("link", { name: /口语篇/ }).first()).toBeVisible();
+
+  await page.keyboard.press("Escape");
+  await page.goto("./en/");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  const enSearchBox = page.locator(".VPLocalSearchBox");
+  await enSearchBox.locator("input").fill("Consonants");
+  await expect(enSearchBox.getByRole("link", { name: /Speaking/ }).first()).toBeVisible();
+});
+
 test("language navigation and representative image work", async ({ page }) => {
   await page.goto("./projects");
   const image = page.getByRole("img", { name: /token\.love 产品页面存档/ });

@@ -22,7 +22,7 @@
 - 首次安装运行 `npm ci`。
 - 本地开发运行 `npm run docs:dev`。
 - 完整校验运行 `npm run check`。
-- 生产构建运行 `npm run docs:build`。
+- 生产构建运行 `npm run docs:build`；构建完成后会自动检查搜索索引、框架和主题脚本的原始与 gzip 体积预算。
 - 本地预览生产产物运行 `npm run docs:preview`。
 - 端到端测试运行 `npm run test:smoke`。
 
@@ -49,6 +49,8 @@ CI 会再次生成这些文件，并阻止未提交的差异进入主分支。
 
 Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与 HTML 报告，属于生成文件，不是书稿内容；它们已被 Git 和 Markdown lint 忽略。测试失败后可以安全清理，再重新运行 `npm run check`。
 本地会话凭据文件 `docs/assets/session.json` 被精确加入 `.gitignore`，并由 VitePress 开发服务器、构建钩子和浏览器烟测共同拦截；任何本地会话文件都不得进入仓库或站点产物。
+
+本地搜索按读者任务控制索引粒度：第二至第五部保留 H2 级入口；第一部已经按技能拆成独立页面，工具模板、术语、归档和词表使用页面级入口。H3 正文仍会并入所属页面或 H2，因此关键词不会消失。代码块不进入倒排索引，避免复制用工作表和重复示例放大下载体积。调整规则后必须运行 `npm run docs:build`，并确认 `check:bundle` 通过。
 
 ## 内容规则
 

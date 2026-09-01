@@ -23,6 +23,35 @@ function absoluteRoute(route: string) {
   return `${siteUrl}${route}${route ? "/" : ""}`;
 }
 
+const searchHeadingContent = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i;
+
+function splitSearchSections(file: string, html: string) {
+  const normalizedFile = file.replaceAll("\\", "/");
+  const pageLevelOnly =
+    normalizedFile.includes("/templates/") ||
+    normalizedFile.includes("/reference/") ||
+    normalizedFile.includes("/threads/archive/") ||
+    normalizedFile.includes("/threads/part-1/") ||
+    normalizedFile.includes("/threads/word-list/");
+  const levels = pageLevelOnly ? "1" : "12";
+  const headings = [
+    ...html.matchAll(new RegExp(`<h([${levels}]).*?>(.*?<a.*? href="#.*?".*?>.*?<\\/a>)<\\/h\\1>`, "gi")),
+  ];
+  let pageTitle = "";
+  return headings.flatMap((match, index) => {
+    const level = Number(match[1]);
+    const heading = searchHeadingContent.exec(match[2]);
+    const title = (heading?.[1] || "").replace(/<[^>]*>/g, "").trim();
+    const anchor = heading?.[2] || "";
+    const contentStart = (match.index || 0) + match[0].length;
+    const contentEnd = headings[index + 1]?.index ?? html.length;
+    const text = html.slice(contentStart, contentEnd).replace(/<[^>]*>/g, "").trim();
+    if (!title || !text) return [];
+    if (level === 1) pageTitle = title;
+    return [{ anchor, titles: level === 1 ? [title] : [pageTitle, title].filter(Boolean), text }];
+  });
+}
+
 function routeFromRelativePath(relativePath: string) {
   const clean = relativePath
     .replace(/(^|\/)(README|index)\.md$/, "$1")
@@ -189,6 +218,17 @@ export default defineConfig({
     search: {
       provider: "local",
       options: {
+        _render(src, env, md) {
+          const searchableTokens = md
+            .parse(src, env)
+            .filter(({ type }) => type !== "fence" && type !== "code_block");
+          return md.renderer.render(searchableTokens, md.options, env);
+        },
+        miniSearch: {
+          _splitIntoSections(file, html) {
+            return splitSearchSections(file, html);
+          },
+        },
         locales: {
           root: {
             translations: {
