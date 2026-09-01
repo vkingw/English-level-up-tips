@@ -651,12 +651,15 @@ test("part introductions state a reading contract and hand off to the first chap
   const zhMain = page.locator("main");
   await expect(zhMain.getByRole("heading", { level: 1, name: "第一部：打开输入" })).toBeVisible();
   await expect(zhMain.getByRole("heading", { level: 2, name: "本部要回答的问题" })).toBeVisible();
-  await expect(
-    zhMain.getByRole("link", { name: "序章：先不要急着改变人生", exact: true }),
-  ).toBeVisible();
-  await expect(
-    zhMain.getByRole("link", { name: "CEFR 目标与英语能力自测", exact: true }).last(),
-  ).toBeVisible();
+  const zhFooter = page.locator(".VPDocFooter .prev-next");
+  await expect(zhFooter.locator(".pager-link.prev")).toHaveAttribute(
+    "href",
+    "/up/threads/part-0/prologue",
+  );
+  await expect(zhFooter.locator(".pager-link.next")).toHaveAttribute(
+    "href",
+    "/up/threads/part-1/0-cefr",
+  );
 
   await page.goto("./en/threads/part-5/long-term-action");
   const enMain = page.locator("main");
@@ -682,6 +685,68 @@ test("afterword closes the book with a return path", async ({ page }) => {
   await expect(enMain.getByRole("heading", { level: 2, name: "To the Reader Ahead" })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Toolkit Overview", exact: true })).toBeVisible();
   await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
+});
+
+test("book boundary pagers follow the reading arc without duplicate manual navigation", async ({ page }) => {
+  const cases = [
+    {
+      route: "./threads/part-0/reader-guide",
+      previous: "/up/",
+      next: "/up/threads/part-0/prologue",
+      manual: /上一篇|下一篇/,
+    },
+    {
+      route: "./threads/part-0/prologue",
+      previous: "/up/threads/part-0/reader-guide",
+      next: "/up/threads/part-1/open-input",
+      manual: /上一篇|下一篇/,
+    },
+    {
+      route: "./threads/part-1/open-input",
+      previous: "/up/threads/part-0/prologue",
+      next: "/up/threads/part-1/0-cefr",
+      manual: /上一篇|下一篇/,
+    },
+    {
+      route: "./threads/part-6/afterword",
+      previous: "/up/threads/part-5/90-day-plan",
+      next: "/up/",
+      manual: /上一篇|下一篇|返回首页/,
+    },
+    {
+      route: "./en/threads/part-0/reader-guide",
+      previous: "/up/en/",
+      next: "/up/en/threads/part-0/prologue",
+      manual: /Previous:|Next:|Back to the home page/,
+    },
+    {
+      route: "./en/threads/part-0/prologue",
+      previous: "/up/en/threads/part-0/reader-guide",
+      next: "/up/en/threads/part-1/open-input",
+      manual: /Previous:|Next:|Back to the home page/,
+    },
+    {
+      route: "./en/threads/part-1/open-input",
+      previous: "/up/en/threads/part-0/prologue",
+      next: "/up/en/threads/part-1/0-cefr",
+      manual: /Previous:|Next:|Back to the home page/,
+    },
+    {
+      route: "./en/threads/part-6/afterword",
+      previous: "/up/en/threads/part-5/90-day-plan",
+      next: "/up/en/",
+      manual: /Previous:|Next:|Back to the home page/,
+    },
+  ];
+
+  for (const entry of cases) {
+    await page.goto(entry.route);
+    const footer = page.locator(".VPDocFooter .prev-next");
+    await expect(footer.locator(".pager-link.prev")).toHaveAttribute("href", entry.previous);
+    await expect(footer.locator(".pager-link.next")).toHaveAttribute("href", entry.next);
+    const manualParagraphs = page.locator("main .vp-doc p").filter({ hasText: entry.manual });
+    await expect(manualParagraphs).toHaveCount(0);
+  }
 });
 
 test("prologue contract points to the current toolkit", async ({ page }) => {

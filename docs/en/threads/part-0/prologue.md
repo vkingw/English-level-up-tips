@@ -2,6 +2,12 @@
 title: "Prologue: Do Not Rush to Change Your Life"
 description: An author’s contract with the reader, connecting English, AI, failure, and small daily actions into one path of growth.
 updated: 2026-09-01
+prev:
+  text: "Reader's Guide: Put the Book Back into Life"
+  link: /en/threads/part-0/reader-guide
+next:
+  text: "Part I: Open Input"
+  link: /en/threads/part-1/open-input
 ---
 
 # Prologue: Do Not Rush to Change Your Life
@@ -66,5 +72,3 @@ Learn five words today. Listen to real English for ten minutes tomorrow. Write a
 That influence need not be grand. It only needs to be real.
 
 May you begin here not to become someone else, but to become more fully yourself.
-
-Next: [Part I: Open Input](../part-1/open-input.md)

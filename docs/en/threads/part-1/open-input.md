@@ -2,6 +2,12 @@
 title: "Part I: Open Input"
 description: Begin from observable English ability, build a channel toward knowledge and other people, then move understanding into independent expression and completed work.
 updated: 2026-09-01
+prev:
+  text: "Prologue: Do Not Rush to Change Your Life"
+  link: /en/threads/part-0/prologue
+next:
+  text: "CEFR Goals and Self-check"
+  link: /en/threads/part-1/0-cefr
 ---
 
 # Part I: Open Input
@@ -50,5 +56,3 @@ If you have only saved links, playback time, and the feeling of having studied, 
 Do not begin by deciding whether you are “good at English”. Begin with a sheet of paper and preserve what you can do today.
 
 The door does not wait for perfect preparation. Often you push first, and only then does light enter through the opening.
-
-Previous: [Prologue: Do Not Rush to Change Your Life](../part-0/prologue.md) | Next: [CEFR Goals and Self-check](0-cefr.md)

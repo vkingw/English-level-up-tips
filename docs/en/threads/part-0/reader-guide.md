@@ -2,6 +2,12 @@
 title: "Reader's Guide: Put the Book Back into Life"
 description: "A choose-your-own reading map for Life Level-up Guide: enter through a real problem, practice with evidence, review by cycle, and keep boundaries around AI and difficult seasons."
 updated: 2026-09-01
+prev:
+  text: "Life Level-up Guide"
+  link: /en/
+next:
+  text: "Prologue: Do Not Rush to Change Your Life"
+  link: /en/threads/part-0/prologue
 ---
 
 # Reader's Guide: Put the Book Back into Life
@@ -94,5 +100,3 @@ Before continuing, write four sentences:
 4. The information, privacy, health, or relationship boundary I must keep is:
 
 Those four sentences are enough to begin. Reading is not leaving life. It is giving life a direction that can be seen.
-
-Next: [Prologue: Do Not Rush to Change Your Life](prologue.md) · [Understanding](../part-1/1-understanding.md)

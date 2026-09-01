@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Made the Reader's Guide, Prologue, Part I introduction, and Afterword use one authoritative bilingual pager, keeping reference tools out of the continuous book arc and removing conflicting hand-written navigation.
 - Replaced dynamic repository badges and the externally fetched GitHub icon with quiet bilingual book metadata links, removing all third-party image requests from both home pages.
 - Added build-time intrinsic dimensions to local raster Markdown images so deferred media reserves its final aspect ratio before download and avoids layout shifts.
 - Added deferred asynchronous loading to every Markdown image, converted the remaining oversized story and project media to WebP, and introduced a 230KB source-raster budget.

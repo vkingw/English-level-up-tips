@@ -2,6 +2,12 @@
 title: "Afterword: Progress Is Not Leaving Yourself Behind"
 description: "A closing return from the first English question to failure, health, relationships, AI, and ordinary action, gathering the guide's promises of honesty, responsibility, evidence, and beginning again."
 updated: 2026-09-01
+prev:
+  text: "90-Day Action Plan: Return Your Life to Yourself"
+  link: /en/threads/part-5/90-day-plan
+next:
+  text: "Return home"
+  link: /en/
 ---
 
 # Afterword: Progress Is Not Leaving Yourself Behind
@@ -92,5 +98,3 @@ May progress not mean leaving yourself behind, but finally refusing to despise t
 Thank you for reading this far.
 
 — Han Xiankai
-
-Previous: [90-Day Action Plan](../part-5/90-day-plan.md) | Back to the [home page](../../README.md)

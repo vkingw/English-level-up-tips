@@ -2,6 +2,12 @@
 title: 序章：先不要急着改变人生
 description: 建立作者立场与阅读契约，从英语、AI、失败和日常行动进入人生进阶的完整书稿。
 updated: 2026-09-01
+prev:
+  text: "阅读指南：把书放回生活"
+  link: /threads/part-0/reader-guide
+next:
+  text: "第一部：打开输入"
+  link: /threads/part-1/open-input
 ---
 
 # 序章：先不要急着改变人生
@@ -66,5 +72,3 @@ updated: 2026-09-01
 这点影响不必宏大，但必须真实。
 
 愿你从这里开始，不是为了成为另一个人，而是为了更完整地成为自己。
-
-下一篇：[第一部：打开输入](../part-1/open-input.md)
