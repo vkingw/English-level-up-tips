@@ -245,6 +245,20 @@ test("reader guide routes return visits to the right tools", async ({ page }) =>
   await expect(enMain.getByRole("link", { name: "Rhythm", exact: true }).first()).toBeVisible();
 });
 
+test("afterword closes the book with a return path", async ({ page }) => {
+  await page.goto("./threads/part-6/afterword");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "给未来的读者" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "工具箱总览", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "证据链模板", exact: true })).toBeVisible();
+
+  await page.goto("./en/threads/part-6/afterword");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "To the Reader Ahead" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Toolkit Overview", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Evidence Chain Template", exact: true })).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(
