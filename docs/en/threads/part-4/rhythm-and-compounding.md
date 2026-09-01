@@ -10,7 +10,7 @@ Some changes make almost no sound on the day they happen. You open the same file
 
 As time moves, those lines meet. A more familiar action removes tomorrow's hesitation. One honest piece of feedback prevents another round of rework. A protected night of sleep means the next day does not have to begin from the ruins. Compounding does not mean becoming larger every day. It means today's choice makes tomorrow a little less expensive.
 
-This chapter is a bridge between the [Daily System](daily-system.md) and the [90-Day Action Plan](../part-5/90-day-plan.md). It does not ask you to seal every hour of life. It asks you to notice which small things deserve to remain, and how they can return after an interruption.
+This chapter is a bridge between the [Daily System](daily-system.md) and the [90-Day Action Plan](../part-5/90-day-plan.md). It does not ask you to seal every hour of life. It asks you to notice which small things deserve to remain, and how they can return after an interruption. When terms such as “variation”, “compounding”, or “minimum contract” become unclear, return to the [Glossary of Terms and Methods](../../reference/glossary.md) for definitions and next steps.
 
 ## Quick Overview
 

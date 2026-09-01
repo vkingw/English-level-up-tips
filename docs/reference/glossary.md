@@ -45,6 +45,7 @@ updated: 2026-09-01
 | **迁移** | 换主题、听众、时间或任务后仍能完成相近动作 | [九十日行动总表](../templates/90-day-cycle.md) |
 | **延迟保持** | 经过一段时间、撤掉最近提示后仍能完成相近任务 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
 | **证据链** | 把基线、即时表现、延迟保持、迁移和下一步放在同一页的记录 | [证据篇](../threads/part-3/5-evidence-and-transfer.md) |
+| **变式** | 保留核心动作，同时改变主题、听众、时间或限制，用来检验是否真的学会 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
 
 ## 工具与交付
 
@@ -68,6 +69,10 @@ updated: 2026-09-01
 | **最小可行的一天** | 根据当天容量保留安全、一个最小输出和下一步提示的日程版本 | [生活系统篇](../threads/part-4/daily-system.md) |
 | **精力预算** | 把时间、注意力、身体和责任一起写进计划的可用容量估算 | [生活系统篇](../threads/part-4/daily-system.md) |
 | **回归动作** | 中断后 24 小时内能够完成、并把人带回系统的最小输出 | [生活系统篇](../threads/part-4/daily-system.md) |
+| **节律** | 在不同容量下仍能辨认和执行的一条行动模式，让重复、反馈与恢复沿时间连接 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
+| **复利** | 今天的选择减少明天的犹豫、返工或恢复成本，使能力、信任、判断和恢复彼此支撑 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
+| **最小合同** | 在坏日子里约定何时降档、保留什么动作，以及何时求助或升级风险的协议 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
+| **节律账本** | 每周一页，记录主问题、保住的动作、有效反馈、反复阻力和下周要改变的条件 | [节律篇](../threads/part-4/rhythm-and-compounding.md) |
 | **代价** | 时间、金钱、健康、关系、隐私和责任等需要被明确支付的部分 | [选择篇](../threads/part-2/decision.md) |
 | **可逆性** | 一个选择能否暂停、撤回或用较小成本改回 | [选择篇](../threads/part-2/decision.md) |
 

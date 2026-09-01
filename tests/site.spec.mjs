@@ -181,6 +181,20 @@ test("evidence chapter hands off to practice and action", async ({ page }) => {
   ).toBeVisible();
 });
 
+test("rhythm chapter bridges the daily system and 90-day plan", async ({ page }) => {
+  await page.goto("./threads/part-4/rhythm-and-compounding");
+  const zhMain = page.locator("main");
+  await expect(zhMain.getByRole("heading", { level: 2, name: "四种会复利的东西" })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "术语与方法索引", exact: true })).toBeVisible();
+  await expect(zhMain.getByRole("link", { name: "九十天行动篇", exact: true }).first()).toBeVisible();
+
+  await page.goto("./en/threads/part-4/rhythm-and-compounding");
+  const enMain = page.locator("main");
+  await expect(enMain.getByRole("heading", { level: 2, name: "Four Things That Compound" })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "Glossary of Terms and Methods", exact: true })).toBeVisible();
+  await expect(enMain.getByRole("link", { name: "90-Day Action Plan", exact: true }).first()).toBeVisible();
+});
+
 test("English chrome uses English labels and author metadata", async ({ page }, testInfo) => {
   await page.goto("./en/threads/part-1/0-cefr");
   await expect(page.locator('meta[name="author"]')).toHaveAttribute(

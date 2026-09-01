@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added Rhythm, Variation, Compounding, Minimum Contract, and Rhythm Ledger to the bilingual glossary, with browser coverage for the new chapter's handoffs.
 - Added the bilingual Rhythm chapter as a bridge between the daily system and the 90-day plan, covering repetition, feedback, interruption recovery, and sustainable compounding.
 - Switched the Hu & Nation citation from the intermittently timing-out Wellington repository page to its verified Crossref metadata record, keeping the source link stable for scheduled audits without implying full-text redistribution.
 - Switched the Hu & Nation citation from the slow ScholarSpace resolver to the verified Wellington Open Access record after the scheduled runner exposed repeated repository timeouts.

@@ -45,6 +45,7 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Transfer** | Complete a related action after changing topic, listener, time, or task | [90-Day Cycle Map](../templates/90-day-cycle.md) |
 | **Delayed retention** | Complete a similar task after time has passed and recent prompts are removed | [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
 | **Evidence chain** | One page connecting baseline, immediate performance, delayed retention, transfer, and next step | [Evidence](../threads/part-3/5-evidence-and-transfer.md) |
+| **Variation** | Keep the core action while changing the topic, listener, time, or constraint to test whether learning is real | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 
 ## Tools and Delivery
 
@@ -68,6 +69,10 @@ Find the task you are facing, then follow “definition → evidence → next st
 | **Minimum viable day** | A version of the day that preserves safety, one minimum output, and a cue for the next step at the capacity available | [Daily System](../threads/part-4/daily-system.md) |
 | **Capacity budget** | A rough estimate that includes time, attention, body, and responsibility rather than time alone | [Daily System](../threads/part-4/daily-system.md) |
 | **Return action** | The smallest output that can be completed within 24 hours and bring the system back after interruption | [Daily System](../threads/part-4/daily-system.md) |
+| **Rhythm** | One pattern of action that remains recognisable and executable at different capacities, connecting repetition, feedback, and recovery over time | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
+| **Compounding** | Today's choice reduces tomorrow's hesitation, rework, or recovery cost, allowing ability, trust, judgment, and recovery to support one another | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
+| **Minimum contract** | An agreement for bad days that states when to downgrade, what action to keep, and when to ask for help or escalate risk | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
+| **Rhythm ledger** | One page each week recording the main question, protected action, useful feedback, repeated resistance, and next condition to change | [Rhythm](../threads/part-4/rhythm-and-compounding.md) |
 | **Cost** | Time, money, health, relationships, privacy, and responsibility that must be named | [Decision-Making](../threads/part-2/decision.md) |
 | **Reversibility** | Whether a choice can be paused, undone, or changed back at manageable cost | [Decision-Making](../threads/part-2/decision.md) |
 
