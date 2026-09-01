@@ -1,12 +1,14 @@
 ---
 title: 90-Day Cycle Map
 description: Put the real outcome, baseline, weekly questions, four-skill evidence, recovery protocol, and final delivery on one cycle sheet.
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # 90-Day Cycle Map
 
 This sheet manages one cycle; it is not a test of daily discipline. Keep one main question each week, one input, one output, and one transfer test. When health, work, or relationships change, adjust the plan's weight first. Do not include passwords, IDs, client data, sensitive health information, or unauthorised third-party details.
+
+This sheet owns cycle direction and phase gates, not every detail: the [Evidence Chain Template](evidence-chain.md) explains results, the [Rhythm Ledger](rhythm-ledger.md) maintains weekly rhythm, and [Learning State](learning-state.md) carries cross-session handover.
 
 ## 1. Cycle commitment
 
@@ -67,7 +69,7 @@ Write an observable question such as “Can I explain project risk in English wi
 | --- | --- | --- | --- | --- |
 | | Listening / Reading / Speaking / Writing / Life Practice | | | |
 
-Chat logs, playback time, and check-in screenshots are process traces. Key judgments should return to artifacts, recordings, reader/user feedback, and performance under a new condition.
+Chat logs, playback time, and check-in screenshots are process traces. Key judgments should return to artifacts, recordings, reader/user feedback, and performance under a new condition; use the [Evidence Chain Template](evidence-chain.md) when comparing all four time points.
 
 ## 6. Interruption and recovery
 
@@ -80,7 +82,7 @@ Work I will not repay:
 Review date:
 ```
 
-Do not stay up late to repay missed work or rewrite the 90 days after one failure. When the same barrier appears three times, change the system condition instead of demanding more force.
+Do not stay up late to repay missed work or rewrite the 90 days after one failure. When the same barrier appears three times, record capacity and resistance in the [Rhythm Ledger](rhythm-ledger.md), then change the system condition instead of demanding more force.
 
 ## 7. Day-ninety review
 
@@ -94,4 +96,4 @@ One habit to keep next cycle:
 One entry point to stop next cycle:
 ```
 
-Related chapter: [90-Day Action Plan: Return Your Life to Yourself](../../threads/part-5/90-day-plan.md)
+Related chapters: [90-Day Action Plan: Return Your Life to Yourself](../../threads/part-5/90-day-plan.md) | [Evidence Chain Template](evidence-chain.md) | [Rhythm Ledger](rhythm-ledger.md)

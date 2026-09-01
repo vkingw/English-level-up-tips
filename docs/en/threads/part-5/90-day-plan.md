@@ -26,7 +26,7 @@ Examples:
 
 The closer the goal is to real life, the harder it is to hide behind “I am not ready yet”.
 
-Copy the [90-Day Cycle Map](../../templates/90-day-cycle.md) first, then fill it with the phases and weekly questions below. It is not another check-in system; it puts the evidence you already collect on one timeline.
+Copy the [90-Day Cycle Map](../../templates/90-day-cycle.md) first, then fill it with the phases and weekly questions below. It is not another check-in system; it puts the evidence you already collect on one timeline. Use the [Evidence Chain Template](../../templates/evidence-chain.md) to explain four time points and the [Rhythm Ledger](../../templates/rhythm-ledger.md) to maintain a weekly rhythm that can return.
 
 ## 1. Take a One-Page Baseline
 
@@ -105,7 +105,7 @@ Build the week around it:
 - Friday: record a second version with one follow-up question;
 - Weekend: save the recording, revisions, and next week’s question together.
 
-At the end of the week you will have a chain of evidence instead of a pile of check-in screenshots.
+At the end of the week you will have a chain of evidence instead of a pile of check-in screenshots. Put the first version, immediate performance, delayed retention, and transfer into the [Evidence Chain Template](../../templates/evidence-chain.md), then write the decision back into the cycle map.
 
 ## 4. The Daily Minimum Loop
 
