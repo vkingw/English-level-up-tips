@@ -538,6 +538,44 @@ test("English chrome uses English labels and author metadata", async ({ page }, 
   }
 });
 
+test("long-form reading progress and typography remain stable", async ({ page }, testInfo) => {
+  await page.goto("./threads/part-3/2-ai-development-and-resource-layer");
+  const progress = page.locator("[data-reading-progress]");
+  await expect(progress).toBeVisible();
+  await expect.poll(async () => Number(await progress.getAttribute("data-progress"))).toBeLessThan(5);
+  const progressBox = await progress.boundingBox();
+  expect(progressBox?.y).toBe(0);
+  expect(progressBox?.height).toBe(2);
+
+  const typography = await page.evaluate(() => {
+    const heading = document.querySelector(".vp-doc h1");
+    const paragraph = document.querySelector(".vp-doc p");
+    const headingStyles = heading ? getComputedStyle(heading) : null;
+    const paragraphStyles = paragraph ? getComputedStyle(paragraph) : null;
+    return {
+      headingSize: Number.parseFloat(headingStyles?.fontSize || "0"),
+      lineHeight: Number.parseFloat(paragraphStyles?.lineHeight || "0"),
+      paragraphSize: Number.parseFloat(paragraphStyles?.fontSize || "0"),
+      overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+    };
+  });
+  expect(typography.lineHeight / typography.paragraphSize).toBeGreaterThanOrEqual(1.75);
+  expect(typography.overflow).toBeLessThanOrEqual(1);
+  expect(typography.headingSize).toBe(testInfo.project.name === "mobile-chromium" ? 32 : 42);
+
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+  await expect.poll(async () => Number(await progress.getAttribute("data-progress"))).toBeGreaterThan(95);
+});
+
+test("print view keeps the manuscript and removes site chrome", async ({ page }) => {
+  await page.goto("./en/threads/part-4/daily-system");
+  await page.emulateMedia({ media: "print" });
+  await expect(page.locator("main")).toBeVisible();
+  await expect(page.locator(".VPNav")).toBeHidden();
+  await expect(page.locator(".VPSidebar")).toBeHidden();
+  await expect(page.locator("[data-reading-progress]")).toBeHidden();
+});
+
 test("private session asset is never publicly served", async ({ request }) => {
   const response = await request.get("assets/session.json");
   expect(response.status()).toBe(404);

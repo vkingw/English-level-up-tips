@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added a privacy-preserving reading-progress indicator, steadier long-form typography, and a clean print layout across both language editions, with desktop and mobile regression coverage.
 - Reworked the bilingual resource-layer chapter ending so disclosure and verification lead back into the book's daily-practice arc instead of leaving readers at the project boundary.
 - Added five bilingual part introductions that bridge the book's major transitions, define each part's questions and reading path, and state the evidence or decisions readers should carry forward.
 - Reordered the bilingual sidebar and generated summaries to follow the book's five-part arc, separating life review from daily practice and moving the action plan and afterword into their proper closing sections.
