@@ -1,7 +1,7 @@
 ---
 title: "Life Level-up Guide | Lifelong Learning in the AI Era"
 description: Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Life Level-up Guide
@@ -19,6 +19,7 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
   <a href="../downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
   <a href="../downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
   <a href="https://github.com/byoungd/up">Source and corrections</a>
+  <a href="https://github.com/byoungd/up/issues/new?template=reader-field-note.yml">Submit a reader field note</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">Text CC BY-NC 4.0</a>
 </div>
 
@@ -63,7 +64,7 @@ When a term is unclear or you do not know which page to open next, use the [Glos
 | Part II: Return to Life | How do ability, work, relationships, failure, choices, and recovery affect one another? | [Part Introduction](threads/part-2/return-to-life.md) · [My Story](threads/part-2/my-story.md) · [Narrative and Evidence](threads/part-2/narrative-and-evidence.md) · [Recovery, Decisions, Relationships, and Entrepreneurship](threads/part-2/recovery.md) |
 | Part III: Amplify Ability | How can I use AI without outsourcing judgment or attention? | [Part Introduction](threads/part-3/amplify-ability.md) · [AI Learning](threads/part-3/1-ai-learning.md) · [Attention, Artifacts, and Evidence](threads/part-3/3-attention-and-judgment.md) · [Project Practice](threads/part-3/2-ai-development-and-resource-layer.md) |
 | Part IV: Practice and Recovery | How does learning return to the body and daily life? | [Part Introduction](threads/part-4/practice-and-recovery.md) · [First Week Practice](threads/part-4/week-1.md) · [Daily System](threads/part-4/daily-system.md) · [Rhythm](threads/part-4/rhythm-and-compounding.md) |
-| Part V: Long-Term Action | How can I complete ninety days and let change keep serving life afterward? | [Part Introduction](threads/part-5/long-term-action.md) · [90-Day Action Plan](threads/part-5/90-day-plan.md) · [After Ninety Days](threads/part-5/after-90-days.md) |
+| Part V: Long-Term Action | How can ninety days, a real project, and the period afterward keep a method accountable? | [Part Introduction](threads/part-5/long-term-action.md) · [90-Day Action Plan](threads/part-5/90-day-plan.md) · [Book Case Study](threads/part-5/book-as-proof.md) · [After Ninety Days](threads/part-5/after-90-days.md) |
 | Afterword | Who do I want to become after leveling up? | [Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md) |
 
 ## Begin with One Small Act Today

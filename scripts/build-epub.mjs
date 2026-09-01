@@ -18,7 +18,7 @@ import { tmpdir } from "node:os";
 import { basename, dirname, extname, join, normalize, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createMarkdownRenderer } from "vitepress";
-import { enNavigation, zhNavigation } from "../docs/.vitepress/navigation.mjs";
+import { enNavigation, publicationSections, zhNavigation } from "../docs/.vitepress/navigation.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DOCS = join(ROOT, "docs");
@@ -95,18 +95,6 @@ function parseFrontmatter(file) {
     body: block ? source.slice(block[0].length) : source,
     values,
   };
-}
-
-function publicationSections(edition) {
-  const [start, ...rest] = edition.navigation;
-  return [
-    { text: edition.frontMatter, items: start.items.slice(1, 3) },
-    ...rest.slice(0, 6),
-    {
-      text: edition.appendices,
-      items: [...start.items.slice(3), ...edition.navigation[7].items],
-    },
-  ];
 }
 
 function normalizeSource(path) {
@@ -325,7 +313,7 @@ function containerXml() {
 }
 
 async function buildEdition(edition, markdown, tempBase) {
-  const sections = publicationSections(edition);
+  const sections = publicationSections(edition.navigation, edition);
   const items = sections.flatMap(({ items }) => items);
   const sourceToChapter = new Map(
     items.map(({ source }, index) => [source, `chapter-${String(index + 1).padStart(3, "0")}.xhtml`]),

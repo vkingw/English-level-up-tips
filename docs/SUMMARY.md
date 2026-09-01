@@ -52,6 +52,7 @@
 
 - [第五部导语：行动与长期改变](threads/part-5/long-term-action.md)
 - [行动篇：九十天，把生活交还给自己](threads/part-5/90-day-plan.md)
+- [案例篇：让这本书证明它的方法](threads/part-5/book-as-proof.md)
 - [九十天以后：把改变留在生活里](threads/part-5/after-90-days.md)
 
 ## 后记

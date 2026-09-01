@@ -58,7 +58,11 @@ const searchHeadingContent = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i;
 
 function splitSearchSections(file: string, html: string) {
   const normalizedFile = file.replaceAll("\\", "/");
-  const headingOnly = normalizedFile.endsWith("/threads/part-5/after-90-days.md");
+  const headingOnly = [
+    "/threads/part-0/reader-guide.md",
+    "/threads/part-5/after-90-days.md",
+    "/threads/part-5/book-as-proof.md",
+  ].some((suffix) => normalizedFile.endsWith(suffix));
   const pageLevelOnly =
     normalizedFile.includes("/templates/") ||
     normalizedFile.includes("/reference/") ||
@@ -77,8 +81,8 @@ function splitSearchSections(file: string, html: string) {
     const anchor = heading?.[2] || "";
     const contentStart = (match.index || 0) + match[0].length;
     const contentEnd = headings[index + 1]?.index ?? html.length;
-    // This long-form handover chapter has descriptive headings; indexing those headings
-    // keeps every concept discoverable without duplicating the full essay in the client bundle.
+    // These navigation-heavy or long-form chapters have descriptive headings; indexing those
+    // headings keeps every concept discoverable without duplicating each full page in the client bundle.
     const text = headingOnly
       ? title
       : html.slice(contentStart, contentEnd).replace(/<[^>]*>/g, "").trim();

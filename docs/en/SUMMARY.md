@@ -52,6 +52,7 @@
 
 - [Part V Introduction: Long-Term Action](threads/part-5/long-term-action.md)
 - [90-Day Action Plan](threads/part-5/90-day-plan.md)
+- [Case Study: Let the Book Prove Its Method](threads/part-5/book-as-proof.md)
 - [After Ninety Days: Let Change Remain in Life](threads/part-5/after-90-days.md)
 
 ## Afterword

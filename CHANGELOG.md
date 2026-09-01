@@ -4,6 +4,17 @@ All notable project-level changes are documented here. Content pages retain thei
 
 ## Unreleased
 
+### 2026-09-02 editorial pass
+
+#### Changed
+
+- Added a bilingual end-to-end case study that makes the book itself face its methods, covering baseline preservation, editorial architecture, AI responsibility, artifact chains, failed checks, release gates, reader evidence, unknowns, transfer, and project handover.
+- Added a privacy-aware reader field-note issue form and bilingual homepage entry so concrete attempts, delayed results, confusion, and unsuccessful transfer can inform future editions.
+- Removed fixed publication chapter counts from PDF generation and browser regression; EPUB, PDF, and tests now derive manuscript size from the shared navigation publication rules.
+- Added a pinned, reproducible Noto Serif SC subsetting utility driven by the current Chinese EPUB, with upstream SHA documentation and spacing-glyph coverage checks.
+- Made PDF title-page dates follow the EPUB publication metadata and moved running-header rendering to page end so chapter-opening headers no longer lag behind by one chapter.
+- Made future-date validation use the project's `Asia/Shanghai` calendar date and kept the client search budget intact by indexing navigation-heavy long chapters through descriptive headings.
+
 ### 2026-09-01 editorial pass
 
 #### Changed

@@ -1,10 +1,10 @@
 ---
 title: "After Ninety Days: Let Change Remain in Life"
 description: Close an action cycle with evidence, transfer, stopping conditions, seasonal rhythm, and annual review so temporary progress becomes an ability life can keep using.
-updated: 2026-09-01
+updated: 2026-09-02
 prev:
-  text: "90-Day Action Plan: Return Your Life to Yourself"
-  link: /en/threads/part-5/90-day-plan
+  text: "Case Study: Let the Book Prove Its Method"
+  link: /en/threads/part-5/book-as-proof
 next:
   text: "Afterword: Progress Is Not Leaving Yourself Behind"
   link: /en/threads/part-6/afterword

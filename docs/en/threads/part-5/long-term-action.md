@@ -1,7 +1,7 @@
 ---
 title: "Part V: Long-Term Action"
 description: Give one real problem ninety days, using phase gates, evidence, rhythm, and stopping conditions so long-term change can face life and time.
-updated: 2026-09-01
+updated: 2026-09-02
 prev:
   text: "Rhythm: Let Small Things Travel Through Time"
   link: /en/threads/part-4/rhythm-and-compounding
@@ -18,7 +18,7 @@ The most dangerous next step is to place all of them inside an oversized wish. O
 
 Long-term change is not enthusiasm stretched across a calendar. It is the same real question meeting different phases, capacities, feedback, forgetting, and new situations while remaining visible enough to revise.
 
-This part contains two core chapters. The first gives one real problem ninety days. The second asks how day ninety-one closes the books, transfers what worked, and chooses continuation or closure. Action must leave the page and enter your calendar, artifacts, relationships, and life. It must also complete a handover instead of using the next burst of excitement to cover the previous season.
+This part contains three core chapters. The first gives one real problem ninety days. The second uses this book itself to show a method passing through artifacts, failure, verification, and public release. The third asks how day ninety-one closes the books, transfers what worked, and chooses continuation or closure. Action must leave the page and enter your calendar, artifacts, relationships, and life. It must also complete a handover instead of using the next burst of excitement to cover the previous season.
 
 ## Questions for This Part
 
@@ -39,7 +39,7 @@ A plan without a stopping condition can easily rename sunk cost as persistence. 
 | Ship | Days 57–90 | Change audience, topic, or environment, then complete real delivery and transfer |
 | Hand over | After day 90 | Close the books, transfer, repair, or stop so the result enters the next part of life |
 
-Use the [90-Day Action Plan: Return Your Life to Yourself](90-day-plan.md) to place the first three phases into the [90-Day Cycle Map](../../templates/90-day-cycle.md), then use [After Ninety Days: Let Change Remain in Life](after-90-days.md) to close and hand over the cycle. The map owns direction and gates, the [Evidence Chain](../../templates/evidence-chain.md) explains results, and the [Rhythm Ledger](../../templates/rhythm-ledger.md) maintains weekly capacity. Do not ask one record to own every job or one cycle to decide an entire life.
+Use the [90-Day Action Plan: Return Your Life to Yourself](90-day-plan.md) to place the first three phases into the [90-Day Cycle Map](../../templates/90-day-cycle.md). Then read [Case Study: Let the Book Prove Its Method](book-as-proof.md) to see one method move through structural revision, AI collaboration, failure records, automated verification, and reader handover inside a real publishing project. Finally, use [After Ninety Days: Let Change Remain in Life](after-90-days.md) to close and hand over your own cycle. The map owns direction and gates, the [Evidence Chain](../../templates/evidence-chain.md) explains results, and the [Rhythm Ledger](../../templates/rhythm-ledger.md) maintains weekly capacity. Do not ask one record to own every job or one cycle to decide an entire life.
 
 ## What to Carry Forward
 

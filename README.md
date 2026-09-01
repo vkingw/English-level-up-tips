@@ -1,7 +1,7 @@
 ---
 title: 人生进阶指南｜AI 时代终身学习
 description: 《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # 人生进阶指南
@@ -19,6 +19,7 @@ updated: 2026-09-01
   <a href="./docs/public/downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
   <a href="./docs/public/downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
   <a href="https://github.com/byoungd/up">源码与勘误</a>
+  <a href="https://github.com/byoungd/up/issues/new?template=reader-field-note.yml">提交读者回执</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">正文 CC BY-NC 4.0</a>
 </div>
 
@@ -63,7 +64,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [本部导语](docs/threads/part-2/return-to-life.md) · [我的故事](docs/threads/part-2/my-story.md) · [叙事与证据](docs/threads/part-2/narrative-and-evidence.md) · [恢复、选择、关系与创业](docs/threads/part-2/recovery.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [本部导语](docs/threads/part-3/amplify-ability.md) · [AI 学习](docs/threads/part-3/1-ai-learning.md) · [注意力、作品与证据](docs/threads/part-3/3-attention-and-judgment.md) · [项目实践](docs/threads/part-3/2-ai-development-and-resource-layer.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、兴趣和日常？ | [本部导语](docs/threads/part-4/practice-and-recovery.md) · [第一周实践](docs/threads/part-4/week-1.md) · [生活系统](docs/threads/part-4/daily-system.md) · [节律](docs/threads/part-4/rhythm-and-compounding.md) |
-| 第五部：行动与长期改变 | 怎样完成九十天，也让改变在九十天以后继续服务生活？ | [本部导语](docs/threads/part-5/long-term-action.md) · [九十天行动篇](docs/threads/part-5/90-day-plan.md) · [九十天以后](docs/threads/part-5/after-90-days.md) |
+| 第五部：行动与长期改变 | 怎样完成九十天，也让方法在真实项目和九十天以后继续接受检验？ | [本部导语](docs/threads/part-5/long-term-action.md) · [九十天行动篇](docs/threads/part-5/90-day-plan.md) · [本书案例](docs/threads/part-5/book-as-proof.md) · [九十天以后](docs/threads/part-5/after-90-days.md) |
 | 后记 | 进阶之后，我想成为什么样的人？ | [进阶不是离开原来的自己](docs/threads/part-6/afterword.md) |
 
 ## 从今天的一件小事开始

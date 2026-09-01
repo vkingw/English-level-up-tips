@@ -1,7 +1,7 @@
 ---
 title: 阅读指南：把书放回生活
 description: 给第一次打开《人生进阶指南》的读者一张可选择的阅读地图：按问题入场、按证据实践、按周期复盘，并在 AI 与低谷中保留边界。
-updated: 2026-09-01
+updated: 2026-09-02
 prev:
   text: "人生进阶指南"
   link: /
@@ -53,7 +53,7 @@ next:
 | 看见起点 | [阅读指南](reader-guide.md) · [序章](prologue.md) | 一页读者承诺：真实问题、基线、最小动作和边界 |
 | 打开输入 | [CEFR 自测](../part-1/0-cefr.md)与听、读、说、写章节 | 一份[英语诊断](../../templates/english-diagnostic.md)和一张对应的[证据卡](../../reference/glossary.md#工具与交付) |
 | 回到现实 | [我的故事](../part-2/my-story.md)、[叙事与证据](../part-2/narrative-and-evidence.md)、[回声](../part-2/x-misc.md)、[恢复](../part-2/recovery.md)、[选择](../part-2/decision.md)，以及[AI 学习](../part-3/1-ai-learning.md)、[作品](../part-3/4-artifacts-and-delivery.md)、[证据](../part-3/5-evidence-and-transfer.md) | 一次案例复盘或真实交付，并用[证据链模板](../../templates/evidence-chain.md)记录变化 |
-| 保持与交付 | [实践篇](../part-4/week-1.md)、[生活系统](../part-4/daily-system.md)、[节律](../part-4/rhythm-and-compounding.md)、[九十天行动](../part-5/90-day-plan.md)、[后记](../part-6/afterword.md) | 一份第一周基线与复测、一页[节律账本](../../templates/rhythm-ledger.md)、一份周期计划，以及下一次复查日期 |
+| 保持与交付 | [实践篇](../part-4/week-1.md)、[生活系统](../part-4/daily-system.md)、[节律](../part-4/rhythm-and-compounding.md)、[九十天行动](../part-5/90-day-plan.md)、[本书案例](../part-5/book-as-proof.md)、[后记](../part-6/afterword.md) | 一份第一周基线与复测、一页[节律账本](../../templates/rhythm-ledger.md)、一份周期计划、一份真实项目交接，以及下一次复查日期 |
 
 ### 像读一本书一样读
 

@@ -68,6 +68,7 @@ export const zhNavigation = [
     items: [
       page("第五部导语：行动与长期改变", "/threads/part-5/long-term-action"),
       page("行动篇：九十天，把生活交还给自己", "/threads/part-5/90-day-plan"),
+      page("案例篇：让这本书证明它的方法", "/threads/part-5/book-as-proof"),
       page("九十天以后：把改变留在生活里", "/threads/part-5/after-90-days"),
     ],
   },
@@ -186,6 +187,7 @@ export const enNavigation = [
     items: [
       page("Part V Introduction: Long-Term Action", "/en/threads/part-5/long-term-action"),
       page("90-Day Action Plan", "/en/threads/part-5/90-day-plan"),
+      page("Case Study: Let the Book Prove Its Method", "/en/threads/part-5/book-as-proof"),
       page("After Ninety Days: Let Change Remain in Life", "/en/threads/part-5/after-90-days"),
     ],
   },
@@ -236,6 +238,22 @@ export const enNavigation = [
     ],
   },
 ];
+
+export function publicationSections(navigation, { frontMatter = "", appendices = "" } = {}) {
+  const [start, ...rest] = navigation;
+  return [
+    { text: frontMatter, items: start.items.slice(1, 3) },
+    ...rest.slice(0, 6),
+    {
+      text: appendices,
+      items: [...start.items.slice(3), ...navigation[7].items],
+    },
+  ];
+}
+
+export function publicationChapterCount(navigation) {
+  return publicationSections(navigation).reduce((total, section) => total + section.items.length, 0);
+}
 
 const normalizeRoute = (link) => link.replace(/^\/+|\/+$/g, "");
 const zhRoutes = zhNavigation.flatMap(({ items }) => items.map(({ link }) => normalizeRoute(link)));

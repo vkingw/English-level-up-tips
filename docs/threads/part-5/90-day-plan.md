@@ -1,13 +1,13 @@
 ---
 title: 行动篇：九十天，把生活交还给自己
 description: 用目标、基线、输出、反馈、作品和身体边界，建立一套可复测、可恢复的九十天行动系统。
-updated: 2026-09-01
+updated: 2026-09-02
 prev:
   text: "第五部：行动与长期改变"
   link: /threads/part-5/long-term-action
 next:
-  text: "九十天以后：把改变留在生活里"
-  link: /threads/part-5/after-90-days
+  text: "案例篇：让这本书证明它的方法"
+  link: /threads/part-5/book-as-proof
 ---
 
 # 行动篇：九十天，把生活交还给自己

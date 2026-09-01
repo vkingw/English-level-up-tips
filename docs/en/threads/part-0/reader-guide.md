@@ -1,7 +1,7 @@
 ---
 title: "Reader's Guide: Put the Book Back into Life"
 description: "A choose-your-own reading map for Life Level-up Guide: enter through a real problem, practice with evidence, review by cycle, and keep boundaries around AI and difficult seasons."
-updated: 2026-09-01
+updated: 2026-09-02
 prev:
   text: "Life Level-up Guide"
   link: /en/
@@ -53,7 +53,7 @@ A complete read is not a race through page numbers. It lets the same question ch
 | See the starting point | [Reader's Guide](reader-guide.md) · [Prologue](prologue.md) | A one-page promise: real problem, baseline, minimum action, and boundary |
 | Open input | [CEFR Self-check](../part-1/0-cefr.md) and the listening, reading, speaking, and writing chapters | An [English Diagnostic](../../templates/english-diagnostic.md) and one relevant [evidence card](../../reference/glossary.md#tools-and-delivery) |
 | Return to reality | [My Story](../part-2/my-story.md), [Narrative and Evidence](../part-2/narrative-and-evidence.md), [Echoes](../part-2/x-misc.md), [Recovery](../part-2/recovery.md), [Decision-Making](../part-2/decision.md), plus [AI Learning](../part-3/1-ai-learning.md), [Artifacts](../part-3/4-artifacts-and-delivery.md), and [Evidence](../part-3/5-evidence-and-transfer.md) | One case review or real delivery, with change recorded in the [Evidence Chain Template](../../templates/evidence-chain.md) |
-| Sustain and ship | [First Week Practice](../part-4/week-1.md), [Daily System](../part-4/daily-system.md), [Rhythm](../part-4/rhythm-and-compounding.md), [90-Day Action Plan](../part-5/90-day-plan.md), and the [Afterword](../part-6/afterword.md) | A first-week baseline and retest, one [Rhythm Ledger](../../templates/rhythm-ledger.md), one cycle plan, and a next review date |
+| Sustain and ship | [First Week Practice](../part-4/week-1.md), [Daily System](../part-4/daily-system.md), [Rhythm](../part-4/rhythm-and-compounding.md), [90-Day Action Plan](../part-5/90-day-plan.md), [the book case study](../part-5/book-as-proof.md), and the [Afterword](../part-6/afterword.md) | A first-week baseline and retest, one [Rhythm Ledger](../../templates/rhythm-ledger.md), one cycle plan, one real-project handover, and a next review date |
 
 ### Read like a book
 

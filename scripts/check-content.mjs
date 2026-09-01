@@ -28,6 +28,24 @@ const PUBLIC_IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avi
 const PUBLIC_ASSET_EXTENSIONS = new Set([...PUBLIC_IMAGE_EXTENSIONS, ".svg"]);
 const TEXT_SOURCE_EXTENSIONS = new Set([".md", ".mjs", ".mts", ".ts", ".css"]);
 const FORBIDDEN_TRACKED_NAMES = new Set([".DS_Store", "Thumbs.db", "desktop.ini"]);
+const PUBLICATION_TIME_ZONE = "Asia/Shanghai";
+
+function dateInTimeZone(timeZone) {
+  const values = Object.fromEntries(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    })
+      .formatToParts(new Date())
+      .filter(({ type }) => type !== "literal")
+      .map(({ type, value }) => [type, value]),
+  );
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+const publicationToday = dateInTimeZone(PUBLICATION_TIME_ZONE);
 
 function addError(file, line, message) {
   errors.push({ file: relative(ROOT, file), line, message });
@@ -184,8 +202,9 @@ function checkFrontmatter(file) {
     addError(file, 1, "updated 必须使用 YYYY-MM-DD");
   }
   if (frontmatter.updated && /^\d{4}-\d{2}-\d{2}$/.test(frontmatter.updated)) {
-    const updatedAt = Date.parse(`${frontmatter.updated}T00:00:00Z`);
-    if (updatedAt > Date.now()) addError(file, 1, "updated 不能晚于当前日期");
+    if (frontmatter.updated > publicationToday) {
+      addError(file, 1, `updated 不能晚于项目时区 ${PUBLICATION_TIME_ZONE} 的当前日期`);
+    }
   }
   if (frontmatter.description && frontmatter.description.length < 24) {
     addError(file, 1, "description 过短，无法区分页面内容");

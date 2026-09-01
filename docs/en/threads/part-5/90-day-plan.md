@@ -1,13 +1,13 @@
 ---
 title: "90-Day Action Plan: Return Your Life to Yourself"
 description: A repeatable 90-day system for turning goals, baselines, output, feedback, artifacts, and health boundaries into visible change.
-updated: 2026-09-01
+updated: 2026-09-02
 prev:
   text: "Part V: Long-Term Action"
   link: /en/threads/part-5/long-term-action
 next:
-  text: "After Ninety Days: Let Change Remain in Life"
-  link: /en/threads/part-5/after-90-days
+  text: "Case Study: Let the Book Prove Its Method"
+  link: /en/threads/part-5/book-as-proof
 ---
 
 # 90-Day Action Plan: Return Your Life to Yourself

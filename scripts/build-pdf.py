@@ -63,11 +63,11 @@ BOTTOM_MARGIN = 18 * mm
 CONTENT_WIDTH = PAGE_WIDTH - LEFT_MARGIN - RIGHT_MARGIN
 CONTENT_HEIGHT = PAGE_HEIGHT - TOP_MARGIN - BOTTOM_MARGIN
 NS = {"x": "http://www.w3.org/1999/xhtml"}
-FIXED_DATE = "2026-09-01"
 ZH_REGULAR_FONT = ROOT / "book-assets/fonts/NotoSerifSC-LifeLevelUp-Regular.ttf"
 ZH_BOLD_FONT = ROOT / "book-assets/fonts/NotoSerifSC-LifeLevelUp-Bold.ttf"
 ZH_IPA_FONT = ROOT / "book-assets/fonts/NotoSans-LifeLevelUp-IPA.ttf"
 IPA_FALLBACK_CHARACTERS = set("ɪʌː")
+REQUIRED_SPACING_CHARACTERS = set(" \u00a0")
 
 
 @dataclass(frozen=True)
@@ -308,7 +308,7 @@ class BookDocTemplate(BaseDocTemplate):
         self.addPageTemplates(
             [
                 PageTemplate(id="cover", frames=[body_frame], onPage=self.draw_cover),
-                PageTemplate(id="body", frames=[body_frame], onPage=self.draw_body_page),
+                PageTemplate(id="body", frames=[body_frame], onPageEnd=self.draw_body_page),
             ]
         )
 
@@ -709,7 +709,7 @@ def convert_children(parent: ET.Element, extracted_root: Path, current_file: str
     return flowables
 
 
-def inspect_pdf(edition: Edition, target: Path, source_epub_sha256: str) -> dict:
+def inspect_pdf(edition: Edition, target: Path, source_epub_sha256: str, chapter_count: int) -> dict:
     reader = PdfReader(str(target))
     if reader.is_encrypted:
         raise ValueError(f"{edition.pdf_file}: PDF must not be encrypted")
@@ -735,7 +735,7 @@ def inspect_pdf(edition: Edition, target: Path, source_epub_sha256: str) -> dict
         "file": edition.pdf_file,
         "language": edition.language,
         "pages": len(reader.pages),
-        "chapters": 53,
+        "chapters": chapter_count,
         "bytes": len(final_bytes),
         "sha256": sha256_bytes(final_bytes),
         "sourceEpubSha256": source_epub_sha256,
@@ -750,14 +750,18 @@ def build_pdf(edition: Edition, target: Path, temp_root: Path) -> dict:
         archive.extractall(extracted_root)
     opf = ET.parse(extracted_root / "OEBPS/package.opf").getroot()
     ns_opf = {"o": "http://www.idpf.org/2007/opf", "dc": "http://purl.org/dc/elements/1.1/"}
+    modified = opf.find("o:metadata/o:meta[@property='dcterms:modified']", ns_opf)
+    publication_date = (modified.text or "").split("T", 1)[0] if modified is not None else ""
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", publication_date):
+        raise ValueError(f"{edition.pdf_file}: EPUB has no valid dcterms:modified date")
     manifest = {
         item.attrib["id"]: item.attrib["href"]
         for item in opf.findall("o:manifest/o:item", ns_opf)
     }
     spine_files = [manifest[item.attrib["idref"]] for item in opf.findall("o:spine/o:itemref", ns_opf)]
     chapter_files = [file.removeprefix("text/") for file in spine_files if file.startswith("text/chapter-")]
-    if len(chapter_files) != 53:
-        raise ValueError(f"{edition.pdf_file}: expected 53 chapters, found {len(chapter_files)}")
+    if not chapter_files:
+        raise ValueError(f"{edition.pdf_file}: EPUB contains no manuscript chapters")
 
     parsed = {}
     h1_anchors = {}
@@ -778,8 +782,10 @@ def build_pdf(edition: Edition, target: Path, temp_root: Path) -> dict:
         missing = sorted(
             character
             for character in used_characters
-            if character.isprintable()
-            and not character.isspace()
+            if (
+                (character.isprintable() and not character.isspace())
+                or character in REQUIRED_SPACING_CHARACTERS
+            )
             and ord(character) not in glyphs
             and ord(character) not in fallback_glyphs
         )
@@ -800,7 +806,7 @@ def build_pdf(edition: Edition, target: Path, temp_root: Path) -> dict:
             Paragraph(edition.description, styles["center"]),
             Spacer(1, 15 * mm),
             Paragraph("https://byoungd.github.io/up/", styles["center"]),
-            Paragraph(f"CC BY-NC 4.0 · {FIXED_DATE}", styles["center"]),
+            Paragraph(f"CC BY-NC 4.0 · {publication_date}", styles["center"]),
             PageBreak(),
             Paragraph(edition.contents, styles["title"]),
         ]
@@ -835,7 +841,7 @@ def build_pdf(edition: Edition, target: Path, temp_root: Path) -> dict:
         story,
         canvasmaker=lambda *args, **kwargs: InvariantCanvas(*args, metadata=metadata, **kwargs),
     )
-    return inspect_pdf(edition, target, sha256_bytes(epub_path.read_bytes()))
+    return inspect_pdf(edition, target, sha256_bytes(epub_path.read_bytes()), len(chapter_files))
 
 
 def manifest_for(outputs: list[dict]) -> dict:
@@ -868,7 +874,12 @@ def main() -> None:
                 if not committed.exists():
                     raise ValueError(f"{committed.relative_to(ROOT)} 不存在；运行 npm run book:pdf:build")
                 edition = next(value for value in EDITIONS if value.language == metadata["language"])
-                committed_metadata = inspect_pdf(edition, committed, metadata["sourceEpubSha256"])
+                committed_metadata = inspect_pdf(
+                    edition,
+                    committed,
+                    metadata["sourceEpubSha256"],
+                    metadata["chapters"],
+                )
                 committed_outputs.append(committed_metadata)
                 if metadata["semanticSha256"] != committed_metadata["semanticSha256"]:
                     raise ValueError(

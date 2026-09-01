@@ -5,6 +5,7 @@ import { expect, test } from "@playwright/test";
 import {
   bilingualRoutePairs,
   enNavigation,
+  publicationChapterCount,
   toSidebar,
   zhNavigation,
 } from "../docs/.vitepress/navigation.mjs";
@@ -129,19 +130,34 @@ test("practice chapters move from the first week into systems and rhythm", () =>
   ]);
 });
 
-test("long-term action moves from a 90-day cycle into handover before the afterword", () => {
+test("long-term action moves from a 90-day cycle through a real case into handover", () => {
   const zhAction = zhNavigation.find(({ text }) => text === "第五部：行动与长期改变");
   const enAction = enNavigation.find(({ text }) => text === "Part V: Long-Term Action");
   expect(zhAction?.items.map(({ source }) => source)).toEqual([
     "threads/part-5/long-term-action.md",
     "threads/part-5/90-day-plan.md",
+    "threads/part-5/book-as-proof.md",
     "threads/part-5/after-90-days.md",
   ]);
   expect(enAction?.items.map(({ source }) => source)).toEqual([
     "en/threads/part-5/long-term-action.md",
     "en/threads/part-5/90-day-plan.md",
+    "en/threads/part-5/book-as-proof.md",
     "en/threads/part-5/after-90-days.md",
   ]);
+});
+
+test("reader field notes ask for action, delayed evidence, revision, and privacy", () => {
+  const template = readFileSync(
+    resolve(process.cwd(), ".github/ISSUE_TEMPLATE/reader-field-note.yml"),
+    "utf8",
+  );
+  for (const field of ["problem", "action", "delayed_result", "revision", "privacy"]) {
+    expect(template).toContain(`id: ${field}`);
+  }
+  expect(template).toContain("A small or unsuccessful attempt is useful evidence.");
+  expect(template).toContain("no private customer data");
+  expect(template).toContain("separated what I observed from what I infer or hope");
 });
 
 test("main book chapters leave continuous reading to the authoritative pager", () => {
@@ -182,6 +198,8 @@ test("key story, narrative, entrepreneurship, and AI chapters end on their liter
     ["en/threads/part-2/entrepreneurship.md", "Closing: Let Ambition Pass Through Reality"],
     ["threads/part-3/1-ai-learning.md", "结语：把能力留在人身上"],
     ["en/threads/part-3/1-ai-learning.md", "Closing: Keep the Ability with the Person"],
+    ["threads/part-5/book-as-proof.md", "结语：作品也要接受自己的审判"],
+    ["en/threads/part-5/book-as-proof.md", "Closing: Let the Work Face Its Own Judgment"],
   ];
 
   for (const [source, ending] of cases) {
@@ -322,8 +340,18 @@ test("home pages expose deterministic bilingual EPUB editions", async ({ page, r
   expect(manifest).toMatchObject({ version: 1, standard: "EPUB 3.3" });
 
   const editions = [
-    { language: "zh-CN", label: "下载中文 EPUB", href: "./downloads/life-level-up-guide-zh.epub" },
-    { language: "en-US", label: "Download English EPUB", href: "./downloads/life-level-up-guide-en.epub" },
+    {
+      language: "zh-CN",
+      label: "下载中文 EPUB",
+      href: "./downloads/life-level-up-guide-zh.epub",
+      chapters: publicationChapterCount(zhNavigation),
+    },
+    {
+      language: "en-US",
+      label: "Download English EPUB",
+      href: "./downloads/life-level-up-guide-en.epub",
+      chapters: publicationChapterCount(enNavigation),
+    },
   ];
 
   await page.goto("./");
@@ -333,7 +361,7 @@ test("home pages expose deterministic bilingual EPUB editions", async ({ page, r
     await expect(link).toHaveAttribute("download", "");
 
     const output = manifest.outputs[edition.language];
-    expect(output.chapters).toBe(53);
+    expect(output.chapters).toBe(edition.chapters);
     expect(output.images).toBeGreaterThan(1);
     expect(output.bytes).toBeGreaterThan(1_000_000);
     expect(output.bytes).toBeLessThan(8_000_000);
@@ -365,8 +393,18 @@ test("home pages expose reproducible print-ready bilingual PDF editions", async 
   expect(manifest).toMatchObject({ version: 2, format: "PDF 1.7", pageSize: "6 × 9.6 in" });
 
   const editions = [
-    { language: "zh-CN", label: "下载中文 PDF", href: "./downloads/life-level-up-guide-zh.pdf" },
-    { language: "en-US", label: "Download English PDF", href: "./downloads/life-level-up-guide-en.pdf" },
+    {
+      language: "zh-CN",
+      label: "下载中文 PDF",
+      href: "./downloads/life-level-up-guide-zh.pdf",
+      chapters: publicationChapterCount(zhNavigation),
+    },
+    {
+      language: "en-US",
+      label: "Download English PDF",
+      href: "./downloads/life-level-up-guide-en.pdf",
+      chapters: publicationChapterCount(enNavigation),
+    },
   ];
 
   await page.goto("./");
@@ -376,7 +414,7 @@ test("home pages expose reproducible print-ready bilingual PDF editions", async 
     await expect(link).toHaveAttribute("download", "");
 
     const output = manifest.outputs[edition.language];
-    expect(output.chapters).toBe(53);
+    expect(output.chapters).toBe(edition.chapters);
     expect(output.pages).toBeGreaterThan(200);
     expect(output.bytes).toBeGreaterThan(500_000);
     expect(output.bytes).toBeLessThan(8_000_000);
@@ -564,12 +602,14 @@ test("page-level search keeps nested chapter text discoverable", async ({ page }
   await expect(enSearchBox.getByRole("link", { name: /Speaking/ }).first()).toBeVisible();
 });
 
-test("heading-only search keeps the post-cycle chapter discoverable without indexing its full prose", async ({ page }) => {
+test("heading-only search keeps long-form chapters discoverable without indexing their full prose", async ({ page }) => {
   await page.goto("./");
   await page.getByRole("button", { name: "搜索", exact: true }).click();
   const zhSearchBox = page.locator(".VPLocalSearchBox");
   await zhSearchBox.locator("input").fill("目标必须有到期日与退出门");
   await expect(zhSearchBox.getByRole("link", { name: /目标必须有到期日与退出门/ }).first()).toBeVisible();
+  await zhSearchBox.locator("input").fill("作品也要接受自己的审判");
+  await expect(zhSearchBox.getByRole("link", { name: /作品也要接受自己的审判/ }).first()).toBeVisible();
 
   await page.keyboard.press("Escape");
   await page.goto("./en/");
@@ -577,6 +617,8 @@ test("heading-only search keeps the post-cycle chapter discoverable without inde
   const enSearchBox = page.locator(".VPLocalSearchBox");
   await enSearchBox.locator("input").fill("Every Goal Needs an Expiry Date");
   await expect(enSearchBox.getByRole("link", { name: /Every Goal Needs an Expiry Date/ }).first()).toBeVisible();
+  await enSearchBox.locator("input").fill("Let the Work Face Its Own Judgment");
+  await expect(enSearchBox.getByRole("link", { name: /Let the Work Face Its Own Judgment/ }).first()).toBeVisible();
 });
 
 test("Part I literary closings remain discoverable after bibliography pruning", async ({ page }) => {
@@ -662,6 +704,10 @@ test("home pages use book metadata without third-party image requests", async ({
     "href",
     "https://github.com/byoungd/up",
   );
+  await expect(zhMeta.getByRole("link", { name: "提交读者回执" })).toHaveAttribute(
+    "href",
+    "https://github.com/byoungd/up/issues/new?template=reader-field-note.yml",
+  );
   await expect(zhMeta.getByRole("link", { name: "正文 CC BY-NC 4.0" })).toHaveAttribute(
     "href",
     "https://creativecommons.org/licenses/by-nc/4.0/",
@@ -673,6 +719,10 @@ test("home pages use book metadata without third-party image requests", async ({
   const enMeta = page.locator(".book-meta");
   await expect(enMeta).toContainText("Living manuscript");
   await expect(enMeta.getByRole("link", { name: "Source and corrections" })).toBeVisible();
+  await expect(enMeta.getByRole("link", { name: "Submit a reader field note" })).toHaveAttribute(
+    "href",
+    "https://github.com/byoungd/up/issues/new?template=reader-field-note.yml",
+  );
   await expect(enMeta.getByRole("link", { name: "Text CC BY-NC 4.0" })).toBeVisible();
   expect(externalImages).toEqual([]);
 });
@@ -1012,12 +1062,18 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
     {
       route: "./threads/part-5/90-day-plan",
       previous: "/up/threads/part-5/long-term-action",
+      next: "/up/threads/part-5/book-as-proof",
+      manual: /^(?:上一篇|下一篇)[：:]/,
+    },
+    {
+      route: "./threads/part-5/book-as-proof",
+      previous: "/up/threads/part-5/90-day-plan",
       next: "/up/threads/part-5/after-90-days",
       manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
       route: "./threads/part-5/after-90-days",
-      previous: "/up/threads/part-5/90-day-plan",
+      previous: "/up/threads/part-5/book-as-proof",
       next: "/up/threads/part-6/afterword",
       manual: /^(?:上一篇|下一篇)[：:]/,
     },
@@ -1084,12 +1140,18 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
     {
       route: "./en/threads/part-5/90-day-plan",
       previous: "/up/en/threads/part-5/long-term-action",
+      next: "/up/en/threads/part-5/book-as-proof",
+      manual: /^(?:Previous|Next|Back to the home page):/,
+    },
+    {
+      route: "./en/threads/part-5/book-as-proof",
+      previous: "/up/en/threads/part-5/90-day-plan",
       next: "/up/en/threads/part-5/after-90-days",
       manual: /^(?:Previous|Next|Back to the home page):/,
     },
     {
       route: "./en/threads/part-5/after-90-days",
-      previous: "/up/en/threads/part-5/90-day-plan",
+      previous: "/up/en/threads/part-5/book-as-proof",
       next: "/up/en/threads/part-6/afterword",
       manual: /^(?:Previous|Next|Back to the home page):/,
     },
