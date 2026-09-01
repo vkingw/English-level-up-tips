@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Added build-time intrinsic dimensions to local raster Markdown images so deferred media reserves its final aspect ratio before download and avoids layout shifts.
 - Added deferred asynchronous loading to every Markdown image, converted the remaining oversized story and project media to WebP, and introduced a 230KB source-raster budget.
 - Re-encoded and right-sized the two home-page update photos as deferred WebP assets, reducing their combined weight by more than 80% while adding intrinsic dimensions and low-priority asynchronous loading.
 - Reduced the lazy bilingual search indexes by excluding repeated code blocks and merging H3 plus task-specific collections into useful parent results; added raw and gzip build budgets so the oversized-chunk warning cannot silently return.

@@ -435,6 +435,19 @@ test("latest home photos stay within the deferred media budget", async ({ page, 
   expect(total).toBeLessThan(280_000);
 });
 
+test("deferred story media reserves its intrinsic layout space", async ({ page }) => {
+  await page.goto("./threads/part-2/my-story");
+  const image = page.getByRole("img", { name: "软件产品页面" });
+  await expect(image).toHaveAttribute("loading", "lazy");
+  await expect(image).toHaveAttribute("decoding", "async");
+  await expect(image).toHaveAttribute("width", "1440");
+  await expect(image).toHaveAttribute("height", "1266");
+  const box = await image.boundingBox();
+  expect(box?.width).toBeGreaterThan(0);
+  expect(box?.height).toBeGreaterThan(0);
+  expect((box?.width || 0) / (box?.height || 1)).toBeCloseTo(1440 / 1266, 2);
+});
+
 test("home pages link to the reader guide", async ({ page }) => {
   await page.goto("./");
   await expect(page.getByRole("link", { name: "阅读指南", exact: true }).first()).toBeVisible();
@@ -816,6 +829,11 @@ test("representative pages load every local image with descriptive alt text", as
       const image = images.nth(index);
       await expect(image).toHaveAttribute("loading", "lazy");
       await expect(image).toHaveAttribute("decoding", "async");
+      const source = await image.getAttribute("src");
+      if (source?.startsWith("/up/assets/") && !source.endsWith(".svg")) {
+        await expect(image).toHaveAttribute("width", /^\d+$/);
+        await expect(image).toHaveAttribute("height", /^\d+$/);
+      }
       if ((await image.getAttribute("loading")) === "lazy") await image.scrollIntoViewIfNeeded();
       await expect(image).toHaveJSProperty("complete", true);
       await expect(image).toHaveAttribute("alt", /\S+/);

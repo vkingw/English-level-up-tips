@@ -1,11 +1,16 @@
-import { existsSync, rmSync } from "node:fs";
-import { resolve } from "node:path";
+import { existsSync, readdirSync, rmSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 import { defineConfig } from "vitepress";
 import { bilingualRoutePairs, enNavigation, toSidebar, zhNavigation } from "./navigation.mjs";
 
 const origin = "https://byoungd.github.io";
 const base = "/up/";
 const siteUrl = `${origin}${base}`;
+const configDir = dirname(fileURLToPath(import.meta.url));
+const docsDir = resolve(configDir, "..");
+const assetsDir = join(docsDir, "assets");
 const buildRevision = process.env.GITHUB_SHA || process.env.BUILD_REVISION || "local";
 const defaultDescription =
   "《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。";
@@ -18,6 +23,32 @@ const bilingualRouteMap = new Map(
     [en, { zh, en }],
   ]),
 );
+
+function rasterFiles(directory: string, output: string[] = []) {
+  for (const entry of readdirSync(directory, { withFileTypes: true })) {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) rasterFiles(path, output);
+    else if (/\.(?:avif|jpe?g|png|webp)$/i.test(entry.name)) output.push(path);
+  }
+  return output;
+}
+
+const rasterDimensions = new Map(
+  await Promise.all(
+    rasterFiles(assetsDir).map(async (path) => {
+      const { width, height } = await sharp(path).metadata();
+      return [path, width && height ? { width, height } : undefined] as const;
+    }),
+  ),
+);
+
+function localImagePath(source: string, pagePath?: string) {
+  if (!source || /^(?:[a-z]+:|#)/i.test(source)) return undefined;
+  const clean = decodeURIComponent(source.split(/[?#]/, 1)[0]);
+  if (clean.startsWith("/")) return resolve(docsDir, clean.replace(/^\/+/, ""));
+  if (!pagePath) return undefined;
+  return resolve(dirname(pagePath), clean);
+}
 
 function absoluteRoute(route: string) {
   return `${siteUrl}${route}${route ? "/" : ""}`;
@@ -133,6 +164,12 @@ export default defineConfig({
             if (child.type !== "image") continue;
             child.attrSet("loading", "lazy");
             child.attrSet("decoding", "async");
+            const path = localImagePath(child.attrGet("src") || "", state.env.path);
+            const dimensions = path ? rasterDimensions.get(path) : undefined;
+            if (dimensions) {
+              child.attrSet("width", String(dimensions.width));
+              child.attrSet("height", String(dimensions.height));
+            }
           }
         }
       });
