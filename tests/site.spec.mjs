@@ -11,6 +11,9 @@ const headingFromSource = (source) => {
   return heading;
 };
 
+const structuredDataFromPage = async (page) =>
+  JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());
+
 const routesFromNavigation = (groups) =>
   groups.flatMap(({ items }) =>
     items.map(({ link, source }) => [link === "/" ? "./" : `.${link}`, headingFromSource(source)]),
@@ -133,6 +136,17 @@ test("page metadata follows the route", async ({ page }) => {
     "content",
     "https://byoungd.github.io/up/threads/part-1/2-vocabulary/",
   );
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", /\/assets\/feature\.png$/);
+  await expect(page.locator('meta[property="og:image:type"]')).toHaveAttribute("content", "image/png");
+  const chapterData = await structuredDataFromPage(page);
+  expect(chapterData).toMatchObject({
+    "@context": "https://schema.org",
+    "@type": "Chapter",
+    inLanguage: "zh-CN",
+    author: { "@type": "Person", name: "韩先凯" },
+    isPartOf: { "@type": "Book", name: "人生进阶指南", url: "https://byoungd.github.io/up/" },
+  });
+  expect(chapterData.dateModified).toBe("2026-09-01");
 });
 
 test("home metadata follows the lifelong-learning positioning", async ({ page }) => {
@@ -150,17 +164,76 @@ test("home metadata follows the lifelong-learning positioning", async ({ page })
     "content",
     "人生进阶指南｜AI 时代终身学习",
   );
+  await expect(page.locator('meta[property="og:type"]')).toHaveAttribute("content", "book");
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", /\/assets\/feature\.png$/);
+  await expect(page.locator('meta[property="og:image:width"]')).toHaveAttribute("content", "1200");
+  await expect(page.locator('meta[property="og:image:height"]')).toHaveAttribute("content", "630");
+  await expect(page.locator('meta[property="og:image:alt"]')).toHaveAttribute("content", /书籍分享封面/);
   await expect(page.locator('meta[name="build-revision"]')).toHaveAttribute(
     "content",
     expectedBuildRevision,
   );
+  const zhBookData = await structuredDataFromPage(page);
+  expect(zhBookData).toMatchObject({
+    "@context": "https://schema.org",
+    "@type": "Book",
+    name: "人生进阶指南",
+    alternateName: "Life Level-up Guide",
+    bookFormat: "https://schema.org/EBook",
+    inLanguage: "zh-CN",
+    author: { "@type": "Person", name: "韩先凯" },
+  });
 
   await page.goto("./en/");
   await expect(page).toHaveTitle(/Life Level-up Guide/);
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://byoungd.github.io/up/en/",
+  );
   await expect(page.locator('meta[name="description"]')).toHaveAttribute(
     "content",
     /learning continuously.*AI era/i,
   );
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", /\/assets\/feature-en\.png$/);
+  const enBookData = await structuredDataFromPage(page);
+  expect(enBookData).toMatchObject({
+    "@type": "Book",
+    name: "Life Level-up Guide",
+    alternateName: "人生进阶指南",
+    inLanguage: "en-US",
+    author: { "@type": "Person", name: "Han Xiankai" },
+  });
+});
+
+test("brand and social assets load at their declared dimensions", async ({ page, request }) => {
+  await page.goto("./");
+  for (const path of ["assets/feature.png", "assets/feature-en.png"]) {
+    const response = await request.get(path);
+    expect(response.status()).toBe(200);
+    expect(response.headers()["content-type"]).toContain("image/png");
+    const dimensions = await page.evaluate(
+      (source) =>
+        new Promise((resolve, reject) => {
+          const image = new Image();
+          image.onload = () => resolve({ width: image.naturalWidth, height: image.naturalHeight });
+          image.onerror = reject;
+          image.src = source;
+        }),
+      `./${path}`,
+    );
+    expect(dimensions).toEqual({ width: 1200, height: 630 });
+  }
+
+  const logo = await page.evaluate(
+    () =>
+      new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve({ width: image.naturalWidth, height: image.naturalHeight });
+        image.onerror = reject;
+        image.src = "./assets/logo.svg";
+      }),
+  );
+  expect(logo).toEqual({ width: 48, height: 48 });
 });
 
 test("AI resource-layer chapter has metadata and navigation", async ({ page }) => {

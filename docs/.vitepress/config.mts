@@ -18,7 +18,7 @@ function routeFromRelativePath(relativePath: string) {
     .replace(/(^|\/)(README|index)\.md$/, "$1")
     .replace(/\.md$/, "")
     .replace(/^index$/, "");
-  return clean ? `${clean.replace(/^\//, "")}` : "";
+  return clean.replace(/^\/+|\/+$/g, "");
 }
 
 function privateAssetGuard() {
@@ -159,7 +159,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: "/assets/feature.svg",
+    logo: "/assets/logo.svg",
     siteTitle: "人生进阶指南",
     search: {
       provider: "local",
@@ -210,22 +210,71 @@ export default defineConfig({
     const route = routeFromRelativePath(pageData.relativePath);
     const canonical = `${siteUrl}${route}${route ? "/" : ""}`;
     const isEnglish = route === "en" || route.startsWith("en/");
+    const isBookHome = route === "" || route === "en";
+    const isChapter = route.startsWith("threads/") || route.includes("/threads/");
     const title = pageData.title ||
       (isEnglish ? "Life Level-up Guide | Lifelong Learning in the AI Era" : "人生进阶指南｜AI 时代终身学习");
     const description =
       pageData.frontmatter.description ||
       `${title}. ${isEnglish ? defaultDescriptionEn : defaultDescription}`;
-    const image = `${siteUrl}assets/${isEnglish ? "feature-en.svg" : "feature.svg"}`;
+    const image = `${siteUrl}assets/${isEnglish ? "feature-en.png" : "feature.png"}`;
+    const imageAlt = isEnglish ? "Life Level-up Guide book sharing cover" : "《人生进阶指南》书籍分享封面";
+    const bookName = isEnglish ? "Life Level-up Guide" : "人生进阶指南";
+    const bookUrl = `${siteUrl}${isEnglish ? "en/" : ""}`;
+    const updated = pageData.frontmatter.updated;
+    const dateModified =
+      updated instanceof Date
+        ? updated.toISOString().slice(0, 10)
+        : typeof updated === "string"
+          ? updated.slice(0, 10)
+          : undefined;
+    const structuredData: Record<string, unknown> = {
+      "@context": "https://schema.org",
+      "@type": isBookHome ? "Book" : isChapter ? "Chapter" : "WebPage",
+      name: isBookHome ? bookName : title,
+      description,
+      url: canonical,
+      image,
+      inLanguage: isEnglish ? "en-US" : "zh-CN",
+      author: {
+        "@type": "Person",
+        name: isEnglish ? "Han Xiankai" : "韩先凯",
+        alternateName: isEnglish ? ["Li Pu", "韩先凯", "离谱"] : ["离谱", "Han Xiankai", "Li Pu"],
+      },
+      license: "https://creativecommons.org/licenses/by-nc/4.0/",
+      ...(isBookHome
+        ? {
+            alternateName: isEnglish ? "人生进阶指南" : "Life Level-up Guide",
+            bookFormat: "https://schema.org/EBook",
+          }
+        : {
+            isPartOf: {
+              "@type": "Book",
+              name: bookName,
+              url: bookUrl,
+            },
+          }),
+      ...(dateModified ? { dateModified } : {}),
+    };
+    const jsonLd = JSON.stringify(structuredData).replaceAll("<", "\\u003c");
     return [
       ["link", { rel: "canonical", href: canonical }],
-      ["meta", { property: "og:type", content: "article" }],
+      ["meta", { property: "og:type", content: isBookHome ? "book" : "article" }],
+      ["meta", { property: "og:site_name", content: bookName }],
+      ["meta", { property: "og:locale", content: isEnglish ? "en_US" : "zh_CN" }],
       ["meta", { property: "og:title", content: title }],
       ["meta", { property: "og:description", content: description }],
       ["meta", { property: "og:url", content: canonical }],
       ["meta", { property: "og:image", content: image }],
+      ["meta", { property: "og:image:type", content: "image/png" }],
+      ["meta", { property: "og:image:width", content: "1200" }],
+      ["meta", { property: "og:image:height", content: "630" }],
+      ["meta", { property: "og:image:alt", content: imageAlt }],
       ["meta", { name: "twitter:title", content: title }],
       ["meta", { name: "twitter:description", content: description }],
       ["meta", { name: "twitter:image", content: image }],
+      ["meta", { name: "twitter:image:alt", content: imageAlt }],
+      ["script", { type: "application/ld+json" }, jsonLd],
     ];
   },
 });

@@ -8,6 +8,7 @@ All notable project-level changes are documented here. Content pages retain thei
 
 #### Changed
 
+- Replaced the obsolete English-guide sharing artwork with bilingual Life Level-up Guide covers, a dedicated navbar mark, generated 1200×630 PNG social images, and Book/Chapter JSON-LD metadata.
 - Localised VitePress's hard-coded navigation, sidebar, pager, section-toggle, mobile-menu, and heading-permalink labels so Chinese screen readers no longer switch unexpectedly into English.
 - Localised the Chinese search dialog, edit and accessibility labels, appearance controls, and missing-page copy; shortened both navbar titles to the book name so the English title cannot overlap search.
 - Added a privacy-preserving reading-progress indicator, steadier long-form typography, and a clean print layout across both language editions, with desktop and mobile regression coverage.
