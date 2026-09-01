@@ -37,6 +37,8 @@ You do not have to read every page in order. Find the obstacle that is real toda
 - If you keep forgetting, start with [Vocabulary](../part-1/2-vocabulary.md).
 - If you understand more than you can say, start with [Speaking](../part-1/5-speaking.md).
 - If you have many resources but no artifact, read [Learning Anything with AI](../part-3/1-ai-learning.md) and the [90-Day Action Plan](../part-5/90-day-plan.md).
+- If you have many records but cannot tell whether anything changed, start with the [Evidence Chain Template](../../templates/evidence-chain.md), then read [Evidence](../part-3/5-evidence-and-transfer.md).
+- If you do not know which worksheet to choose, open the [Toolkit Overview](../../templates/toolkit.md) and choose one entry point by the block in front of you.
 - If you are in a low season, read [My Story](../part-4/my-story.md), then sleep, eat, and decide what comes next.
 
 Treat each chapter as a workbench, not an exam. Take one thing from it: a sentence, an exercise, a habit to stop, or a thought worth returning to. Knowledge that leaves no mark on life is still only a signpost.
@@ -48,8 +50,8 @@ Read through “problem → skill → tool → delivery → recovery”, or ente
 1. **Problem**: use [Learning State](../../templates/learning-state.md) to name the real context, baseline, and completion standard;
 2. **Skill**: choose one of listening, reading, speaking, or writing and keep its evidence card;
 3. **Tool**: if you use AI, read [Learning Anything with AI](../part-3/1-ai-learning.md) and record sources, privacy, and human judgment in the task;
-4. **Delivery**: give the draft, recording, code, or report to a real person, then schedule a retest in the [90-Day Cycle Map](../../templates/90-day-cycle.md);
-5. **Recovery**: when the plan breaks, return to [Recovery](../part-2/recovery.md), restore safety and minimum order before adding pressure.
+4. **Delivery and verification**: give the draft, recording, code, or report to a real person; use the [Evidence Chain Template](../../templates/evidence-chain.md) to compare the first version, feedback, delayed retention, and transfer; then schedule a retest in the [90-Day Cycle Map](../../templates/90-day-cycle.md);
+5. **Recovery and return**: when the plan breaks, return to [Recovery](../part-2/recovery.md) and the [Rhythm Ledger](../../templates/rhythm-ledger.md), restoring safety and minimum order before adding pressure.
 
 This is not a required table of contents. It is a reminder that learning should return to life, and action should remain allowed to return to learning.
 
