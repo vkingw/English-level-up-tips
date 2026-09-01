@@ -160,6 +160,10 @@ function checkFrontmatter(file) {
   if (frontmatter.updated && !/^\d{4}-\d{2}-\d{2}$/.test(frontmatter.updated)) {
     addError(file, 1, "updated 必须使用 YYYY-MM-DD");
   }
+  if (frontmatter.updated && /^\d{4}-\d{2}-\d{2}$/.test(frontmatter.updated)) {
+    const updatedAt = Date.parse(`${frontmatter.updated}T00:00:00Z`);
+    if (updatedAt > Date.now()) addError(file, 1, "updated 不能晚于当前日期");
+  }
   if (frontmatter.description && frontmatter.description.length < 24) {
     addError(file, 1, "description 过短，无法区分页面内容");
   }

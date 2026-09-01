@@ -1,7 +1,7 @@
 ---
 title: "Reading: From Word-by-word Translation to Claims and Evidence"
 description: Use CEFR goals to practise gist, argument, inference, and transfer with authentic, inspectable reading tasks.
-updated: 2026-09-02
+updated: 2026-09-01
 ---
 
 # Reading: From Word-by-word Translation to Claims and Evidence

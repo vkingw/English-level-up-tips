@@ -1,7 +1,7 @@
 ---
 title: "Speaking: Make Meaning Arrive"
 description: Use CEFR goals and recording evidence to train task completion, comprehensibility, fluency, interaction, and revision.
-updated: 2026-09-02
+updated: 2026-09-01
 ---
 
 # Speaking: Make Meaning Arrive

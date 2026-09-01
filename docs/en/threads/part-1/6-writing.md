@@ -1,7 +1,7 @@
 ---
 title: "Writing: From Draft to Verifiable Revision"
 description: Use CEFR goals to train purpose, structure, evidence, accuracy, and revision while preserving drafts and feedback.
-updated: 2026-09-02
+updated: 2026-09-01
 ---
 
 # Writing: From Draft to Verifiable Revision

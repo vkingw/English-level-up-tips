@@ -1,7 +1,7 @@
 ---
 title: "Evidence: How Change Becomes Visible"
 description: "Build an evidence chain from baseline, immediate performance, delayed retention, and real-world transfer to judge whether learning, AI collaboration, and life action have changed."
-updated: 2026-09-02
+updated: 2026-09-01
 ---
 
 # Evidence: How Change Becomes Visible
