@@ -1,7 +1,7 @@
 ---
 title: "Life Level-up Guide | Lifelong Learning in the AI Era"
 description: Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 # Life Level-up Guide
@@ -65,6 +65,8 @@ This is a lifelong-learning guide for ordinary people. It does not require you t
 The project began in 2017 as Li Pu's English Learning Guide. English was once the whole map; now it is one foundational road within it. The guide has widened into AI learning, project development, resource-layer entrepreneurship, life review, and recovery. This does not discard the past. It reveals the deeper question behind every kind of training: **when the world keeps changing, can I continue to learn, create, and participate in my own life?**
 
 My name is Han Xiankai, also known online as Li Pu, and I serve as chairman of China Token Cloud Computing Co., Ltd. I test these methods in learning, software development, enterprise services, and ordinary life. My role and commercial relationships belong in public view. Claims about ability, products, and revenue must be earned by work, users, costs, and time.
+
+This project later drew many readers and much attention on GitHub, but I do not treat stars as proof of entrepreneurial success. They feel more like a door that opened again: after the company failed, I once shut GitHub out of my life; I eventually returned through writing about English, then found my way back to code, products, and real problems. [The entrepreneurship chapter](threads/part-2/entrepreneurship.md) and [My Story](threads/part-2/my-story.md) follow that road from the first product handed to strangers, through a failed software company and recovery at home, to a new exploration of AI in the physical economy. They preserve the parts that became visible later, but also the people I did not protect well enough, the accounts I did not calculate clearly, and the guilt I still carry.
 
 The guide returns to one loop:
 
