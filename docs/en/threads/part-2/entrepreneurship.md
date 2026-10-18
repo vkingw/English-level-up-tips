@@ -39,6 +39,16 @@ Loss figures are estimates from personal records and require financial evidence 
 
 ![Cover: a workspace between city and countryside at dawn](../../../assets/entrepreneurship/cover.webp)
 
+## During University: Early Technical Ventures
+
+While I was at university, I created an iOS jailbreak plugin and published it through the Cydia Store. It became a real product used by strangers and brought in meaningful income. That was my first direct experience of technical work leaving my own computer, entering a public distribution channel, and being valued by real users.
+
+I later noticed how widely WordPress was used around the world and began developing and selling WordPress themes. That business also became highly successful. Looking back, those results made me believe too early that once technology, market demand, and income were connected, things would keep moving smoothly. They also made it easier for me to overestimate my certainty in later decisions.
+
+Later, Bitcoin came into my view. Around the same time, an older entrepreneur who had built a business around premium domain names began laying out a digital-currency venture. As one of the early team members, I unexpectedly and passively received some Bitcoin, but I did not pay much attention to it and eventually forgot about it. Years later, when I began formal entrepreneurship, I realised that this episode had planted a seed for larger ventures I would start afterward. This is my hindsight about the episode, not an investment promise or advice.
+
+This is a record of personal memory. I am not adding figures for plugin income, theme revenue, or the amount, price, or eventual realisation of the bitcoin.
+
 ## 2016: Putting Work into the Market
 
 ![2016: a first product starting from a desk and a website](../../../assets/entrepreneurship/2016-first-product.webp)
