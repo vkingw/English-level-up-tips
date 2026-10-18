@@ -1,7 +1,7 @@
 ---
 title: "My Story: Failure, Recovery, and Starting Again"
-description: A personal record of a software-company failure, disrupted health and life, recovery at home, and reconnecting with technology.
-updated: 2026-09-01
+description: A personal account of business setbacks, entrepreneurial losses, disrupted health and life, and finding the courage to act again after returning home.
+updated: 2026-10-18
 ---
 
 # My Story: Failure, Recovery, and Starting Again
@@ -56,7 +56,9 @@ That was also the moment I realised I truly loved her, and began to understand t
 
 Later, we got married and had a lovely son.
 
-Later, in order to expand my business world, I also tried hot spring resorts and private club projects. I lost heavily there too, but that is another story.
+Before I turned thirty, I often felt unstoppable. Things I tried seemed to work: web-design projects and internet ventures brought real feedback, the small food businesses later generated good cash flow, and I rose through a software company to become a partner. Each result strengthened my belief that if I dared to try and worked hard, the next venture would succeed too. Looking back, those results included effort, timing, and luck. At the time, I treated earlier success as a promise about the future.
+
+Later, to expand my business, I invested in a bathhouse and a hot-spring resort, and also tried private-club projects. The losses were heavy, and I struggled to accept them. The certainty that I could make things work was shaken. I became frightened, panicked, and anxious, at times thinking only about how to recover what I had lost. I will not add amounts or a single explanation that I cannot verify; I can say that the losses shook my finances and my trust in my own judgment.
 
 ![Some of the ventures I tried](../../../assets/things.jpeg)
 
@@ -75,6 +77,10 @@ To make the products look better on food delivery platforms, I taught myself pho
 ![Food product photo](../../../assets/nrt.webp)
 
 Those small food businesses were genuinely exhausting, but the cash flow was strong. Although those stores gradually shut down during the pandemic years, they made me a decent amount of money before that. That money later became part of the capital that allowed me to become a partner in the software company. During that period, I also bought my Dream Car.
+
+### A Second Attempt: Entertainment
+
+After the bathhouse and resort projects, I tried entrepreneurship again in the entertainment industry, operating bars including Hutao Li and Oscar. They were profitable at first, but that period was short. After going through the pandemic, they ended in heavy losses again. Early profits had made the new direction feel promising, but a good start could not prove that a business would survive a full cycle. I do not want to invent a single cause for the losses from memory; I can only acknowledge that the result exceeded my judgment at the time.
 
 ### Running the Company
 
@@ -221,6 +227,14 @@ That night we still went to Haidilao, but we barely ordered anything. When the s
 If only it were that easy.
 
 When family members carry pain because of your decisions, your own suffering does not cancel the guilt. A tiny, ordinary moment can shatter the armour you built for yourself, and sadness and frustration rush back at once.
+
+### Learning to Accept Ordinary Days
+
+Over time, I began to understand that life can return to ordinary days. Taking gains and losses less heavily means acknowledging what was lost, carrying the responsibilities that belong to me, and refusing to let one result define an entire life. My mother messaging me to eat, rebuilding my computer, opening a small file, and eventually returning to GitHub were not dramatic acts. They helped me find my way back to daily life.
+
+I learned to focus on getting through today, doing one small thing when I had the strength, and asking for help when I did not. Courage changed too. It no longer meant certainty that I would win next time; it meant being willing to begin again one step at a time while the outcome was unknown.
+
+If you are facing a setback now, remember that life is a long road, and one loss cannot decide the whole story. Resilience does not have to mean pushing until you break. Caring for your health, admitting you need help, and choosing the next step are also ways of moving forward. If all you can manage today is a short stretch, you have still travelled that stretch.
 
 ## 2026-04-22 Update
 

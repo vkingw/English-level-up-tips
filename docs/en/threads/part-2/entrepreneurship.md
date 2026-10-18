@@ -1,7 +1,7 @@
 ---
 title: "Entrepreneurship: From Ambition to Purpose"
 description: A personal review of products, cash flow, technical debt, failure, recovery, and starting again, without offering a success formula or investment advice.
-updated: 2026-10-10
+updated: 2026-10-18
 ---
 
 # Entrepreneurship: From Ambition to Purpose
@@ -67,7 +67,9 @@ Entrepreneurship permits sincerity and hard work. It never promises compensation
 
 ## Restaurants, Hotels, and Cash Flow
 
-Outside software, I took part in a resort hotel and a club and lost heavily. Small restaurants taught me more directly.
+Outside software, I invested in a bathhouse and a hot-spring resort, and also tried private-club projects, with heavy losses. I once mentioned this only in passing because losses affected more than money; they carried fatigue, embarrassment, and helplessness.
+
+After those projects, I made a second entrepreneurial attempt in entertainment, operating bars including Hutao Li and Oscar. They were profitable at first, but the operating period was short. After going through the pandemic, they ended in heavy losses again. My recollection does not let me assign the outcome to one factor. Looking back, I want to ask whether I treated early profit as proof of long-term viability, and whether I carefully checked the operating cycle, cash flow, and exit conditions.
 
 A relative ran a successful beef-soup shop. I studied it, opened one of my own, then designed, renovated, photographed products, and expanded to more locations. Restaurant work was exhausting but honest. Customers, table turnover, serving time, consistency, reviews, rent, labour, and cash flow answered every day. The numbers could not hide behind a narrative.
 
@@ -187,5 +189,7 @@ This review neither displays youthful success nor prosecutes later disappointmen
 I do not want to lose ambition. Without it, I would not have entered unfamiliar industries or returned to technology after failure. But ambition left untested can recruit everything nearby: a team's time, a family's sense of safety, a customer's trust, and the rest a body was meant to receive.
 
 If there is another venture, I want it to pass through plain realities: the problem exists, users choose the work, the ledger closes, promises can be delivered, and someone knows how to stop when it fails. It may grow more slowly and remain smaller, while leaving the people inside it more ordered instead of merely making the founder's story more dramatic.
+
+For me, resilience does not turn every loss into a victory. It means acknowledging when an attempt did not last, caring for health and daily life, and choosing a question worth testing before investing again. Life is long; no single result has to decide its final meaning, and each restart still carries costs that deserve attention.
 
 I no longer need a company to prove that I stood up after a low season. Work worth doing should remain useful after I leave the stage. Even if it never becomes a grand enterprise, it should not require the people who love me to keep paying for my certainty.
