@@ -5,7 +5,35 @@
   <id>https://byoungd.github.io/up/feeds/updates.xml</id>
   <link href="https://byoungd.github.io/up/feeds/updates.xml" rel="self" />
   <link href="https://byoungd.github.io/up/" />
-  <updated>2026-10-19T00:00:00+08:00</updated>
+  <updated>2026-10-21T00:00:00+08:00</updated>
+  <entry>
+    <title xml:lang="en-US">Entrepreneurship: From Ambition to Purpose</title>
+    <id>https://byoungd.github.io/up/en/threads/part-2/entrepreneurship</id>
+    <link href="https://byoungd.github.io/up/en/threads/part-2/entrepreneurship" />
+    <updated>2026-10-21T00:00:00+08:00</updated>
+    <summary xml:lang="en-US">A personal review of products, cash flow, technical debt, failure, recovery, and starting again, without offering a success formula or investment advice.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en-US">My Story: Failure, Recovery, and Starting Again</title>
+    <id>https://byoungd.github.io/up/en/threads/part-2/my-story</id>
+    <link href="https://byoungd.github.io/up/en/threads/part-2/my-story" />
+    <updated>2026-10-21T00:00:00+08:00</updated>
+    <summary xml:lang="en-US">A personal account of business setbacks, entrepreneurial losses, disrupted health and life, and finding the courage to act again after returning home.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="zh-CN">创业篇：从野心到使命</title>
+    <id>https://byoungd.github.io/up/threads/part-2/entrepreneurship</id>
+    <link href="https://byoungd.github.io/up/threads/part-2/entrepreneurship" />
+    <updated>2026-10-21T00:00:00+08:00</updated>
+    <summary xml:lang="zh-CN">一份关于产品、现金流、技术债、失败、恢复与再次创业的个人复盘，不提供成功学结论或投资建议。</summary>
+  </entry>
+  <entry>
+    <title xml:lang="zh-CN">我的故事：失败、恢复与重新出发</title>
+    <id>https://byoungd.github.io/up/threads/part-2/my-story</id>
+    <link href="https://byoungd.github.io/up/threads/part-2/my-story" />
+    <updated>2026-10-21T00:00:00+08:00</updated>
+    <summary xml:lang="zh-CN">一段关于事业起落、创业失利、身体与生活失序，以及回家恢复后重新找回行动勇气的个人记录。</summary>
+  </entry>
   <entry>
     <title xml:lang="zh-CN">人生进阶指南｜AI 时代终身学习</title>
     <id>https://byoungd.github.io/up/</id>
@@ -159,34 +187,6 @@
     <link href="https://byoungd.github.io/up/topics/english-diagnostic" />
     <updated>2026-10-19T00:00:00+08:00</updated>
     <summary xml:lang="zh-CN">面向想提升工作与日常英语的自学者，先用五分钟保存一项英语基线，再按需完成听说读写完整诊断，记录障碍并安排十四天后的平行任务复测。</summary>
-  </entry>
-  <entry>
-    <title xml:lang="en-US">Entrepreneurship: From Ambition to Purpose</title>
-    <id>https://byoungd.github.io/up/en/threads/part-2/entrepreneurship</id>
-    <link href="https://byoungd.github.io/up/en/threads/part-2/entrepreneurship" />
-    <updated>2026-10-18T00:00:00+08:00</updated>
-    <summary xml:lang="en-US">A personal review of products, cash flow, technical debt, failure, recovery, and starting again, without offering a success formula or investment advice.</summary>
-  </entry>
-  <entry>
-    <title xml:lang="en-US">My Story: Failure, Recovery, and Starting Again</title>
-    <id>https://byoungd.github.io/up/en/threads/part-2/my-story</id>
-    <link href="https://byoungd.github.io/up/en/threads/part-2/my-story" />
-    <updated>2026-10-18T00:00:00+08:00</updated>
-    <summary xml:lang="en-US">A personal account of business setbacks, entrepreneurial losses, disrupted health and life, and finding the courage to act again after returning home.</summary>
-  </entry>
-  <entry>
-    <title xml:lang="zh-CN">创业篇：从野心到使命</title>
-    <id>https://byoungd.github.io/up/threads/part-2/entrepreneurship</id>
-    <link href="https://byoungd.github.io/up/threads/part-2/entrepreneurship" />
-    <updated>2026-10-18T00:00:00+08:00</updated>
-    <summary xml:lang="zh-CN">一份关于产品、现金流、技术债、失败、恢复与再次创业的个人复盘，不提供成功学结论或投资建议。</summary>
-  </entry>
-  <entry>
-    <title xml:lang="zh-CN">我的故事：失败、恢复与重新出发</title>
-    <id>https://byoungd.github.io/up/threads/part-2/my-story</id>
-    <link href="https://byoungd.github.io/up/threads/part-2/my-story" />
-    <updated>2026-10-18T00:00:00+08:00</updated>
-    <summary xml:lang="zh-CN">一段关于事业起落、创业失利、身体与生活失序，以及回家恢复后重新找回行动勇气的个人记录。</summary>
   </entry>
   <entry>
     <title xml:lang="en-US">AI Evaluation Record</title>

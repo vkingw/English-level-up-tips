@@ -1,7 +1,7 @@
 ---
 title: Recent Updates | Life Level-up Guide
 description: Recent changes from the Life Level-up Guide changelog and page review dates, with links to bilingual topic hubs and practice pages.
-updated: 2026-10-19
+updated: 2026-10-21
 ---
 
 # Recent Updates
@@ -10,6 +10,8 @@ This list combines dated project changes from the changelog with the latest revi
 
 ## Latest 20 updates
 
+- **2026-10-21** · [Entrepreneurship: From Ambition to Purpose](./threads/part-2/entrepreneurship) — A personal review of products, cash flow, technical debt, failure, recovery, and starting again, without offering a success formula or investment advice.
+- **2026-10-21** · [My Story: Failure, Recovery, and Starting Again](./threads/part-2/my-story) — A personal account of business setbacks, entrepreneurial losses, disrupted health and life, and finding the courage to act again after returning home.
 - **2026-10-19** · [Life Level-up Guide | Lifelong Learning in the AI Era](./) — Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
 - **2026-10-19** · [Third-party Resources | Verify Before Use](./resources) — Optional AI learning and tool links with review dates, public positioning, and a clear non-sponsorship boundary. Independently verify terms, privacy, pricing, copyright, and service status before use.
 - **2026-10-19** · [English Diagnostic: Four-skill Baseline and Transfer Record](./templates/english-diagnostic) — Preserve listening, reading, speaking, and writing first versions, conditions, errors, feedback, delayed retests, and CEFR direction without replacing ability evidence with averages or polished work.
@@ -21,8 +23,6 @@ This list combines dated project changes from the changelog with the latest revi
 - **2026-10-19** · [Writing: From Draft to Verifiable Revision](./threads/part-1/6-writing) — Begin with a real audience and unaided draft, then train intention, facts, structure, register, feedback uptake, translation boundaries, AI collaboration, asynchronous handover, and authorship responsibility.
 - **2026-10-19** · [Grammar: Let Structure Serve Meaning](./threads/part-1/grammar) — Begin from a real task and an unpolished sample, treat grammar as choices about time, participants, certainty, logic, and information focus, then build usable structure through contrast, output, feedback, delayed retest, and transfer.
 - **2026-10-19** · [English Diagnostic | Find a Retestable Baseline](./topics/english-diagnostic) — Start with one five-minute English baseline, then complete a four-skill diagnostic and fourteen-day retest when your goal calls for it.
-- **2026-10-18** · [Entrepreneurship: From Ambition to Purpose](./threads/part-2/entrepreneurship) — A personal review of products, cash flow, technical debt, failure, recovery, and starting again, without offering a success formula or investment advice.
-- **2026-10-18** · [My Story: Failure, Recovery, and Starting Again](./threads/part-2/my-story) — A personal account of business setbacks, entrepreneurial losses, disrupted health and life, and finding the courage to act again after returning home.
 - **2026-10-16** · [AI Evaluation Record](./templates/ai-evaluation) — Record scope, held-out cases, versions, mandatory checks, failures, and complete process costs to decide whether to adopt, repair, or withdraw an AI workflow.
 - **2026-10-16** · [AI Learning Log: From Tool Collaboration to Independent Ability](./templates/ai-learning-log) — Record a real learning task, unaided baseline, tool scope, source checks, active production, delayed retest, transfer, and the next cycle decision.
 - **2026-10-16** · [AI Task Brief: From Problem to Human Acceptance](./templates/ai-task-brief) — Before an AI learning or project task, define the real action, data boundary, sources, evaluation set, human ownership, cost, failure handling, and handover.
