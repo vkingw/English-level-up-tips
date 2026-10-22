@@ -233,3 +233,8 @@ test("the README mirror preserves upstream reference and download handling", () 
   const source = '[Glossary](reference/glossary.md) <a href="./downloads/guide.epub">Download</a>';
   assert.equal(repositoryReadmeFromDocs(source), '[Glossary](docs/reference/glossary.md) <a href="./docs/public/downloads/guide.epub">Download</a>');
 });
+
+test("the repository README omits VitePress frontmatter", () => {
+  const source = '---\ntitle: Guide\nupdated: 2026-10-20\n---\n\n# Guide';
+  assert.equal(repositoryReadmeFromDocs(source), "# Guide");
+});
